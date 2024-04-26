@@ -1,10 +1,25 @@
 {% extends "base.html" %}
+
+
 {% block content %}
+
 {% block content_title %}
-<h2>All articles</h2>
+<h2 class="text-tan text-3xl font-space-mono">font-space-mono</h2>
 {% endblock %}
-
-
+<p class="text-tan">font-poppins</p>
+<img
+  class="text-tan my-6 w-36"
+  src="{{ SITEURL }}/theme/images/logo/Janeway-logo-powered-tan.svg"
+  alt="The Janeway logo: Janeway with a circle highlighting the letters new">
+<div class="flex flex-wrap">
+  <div class="bg-black m-8 p-8 h-28 w-64">bg-black</div>
+  <div class="bg-white m-8 p-8 h-28 w-64 text-black">bg-white</div>
+  <div class="bg-tan m-8 p-8 h-28 w-64 text-black">bg-tan</div>
+  <div class="bg-orange m-8 p-8 h-28 w-64 text-white">bg-orange</div>
+  <div class="bg-blue m-8 p-8 h-28 w-64">bg-blue</div>
+  <div class="bg-rust m-8 p-8 h-28 w-64 text-black">bg-rust</div>
+</div>
+{#
 {% for article in articles_page.object_list %}
         <article>
                 <header> <h2><a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a></h2> </header>
@@ -23,5 +38,6 @@
 {% if articles_page.has_other_pages() %}
     {% include 'pagination.html' %}
 {% endif %}
+#}
 
 {% endblock content %}

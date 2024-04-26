@@ -39,10 +39,13 @@
         {% endblock head %}
 </head>
 
-<body>
-        <header>
+<body class="bg-black text-tan font-poppins">
+  <div class="container mx-auto max-w-screen-xl">
+        <header class="text-tan text-lg my-8">
+              {#
               <hgroup><h1><a href="{{ SITEURL }}/">{{ SITENAME }}</a></h1>{% if SITESUBTITLE %}<p>{{ SITESUBTITLE }}</p>{% endif %}</hgroup>
-        <nav><ul>
+              #}
+        <nav><ul class="flex gap-x-8 gap-y-2 flex-wrap">
         {% for title, link in MENUITEMS %}
             <li><a href="{{ link }}">{{ title }}</a></li>
         {% endfor %}
@@ -58,15 +61,13 @@
         {% endif %}
         </ul></nav>
         </header>
-        <main>
+        <main class="my-8">
         {% block content %}
         {% endblock %}
         </main>
-        <footer>
-                <address>
-                Proudly powered by <a rel="nofollow" href="https://getpelican.com/">Pelican</a>,
-                which takes great advantage of <a rel="nofollow" href="https://www.python.org/">Python</a>.
-                </address>
+        <footer class="my-8">
+          <p class="text-tan text-xl">Footer</p>
         </footer>
+  </div>
 </body>
 </html>
