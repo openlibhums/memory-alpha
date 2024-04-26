@@ -22,8 +22,9 @@ should have been installed by the previous step, however you will still need to
 install NodeJS as described in [their
 README](https://github.com/pelican-plugins/tailwindcss), and then install Tailwind via `npm install` or `pnpm install`.
 
-Once the dependencies are installed you can run `make help` to see a list of
-available build targets.
+To run the site in development and listen for changes to templates, use `pelican --autoreload --listen`. To build the site locally, use `pelican content`.
+
+You can also run `make help` to see a full list of available build targets.
 
 ### Docker install
 
