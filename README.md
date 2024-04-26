@@ -20,7 +20,7 @@ You can refer to the guide on how to [install Pelican](https://docs.getpelican.c
 The project also uses the official Tailwind CSS plugin for Pelican, which
 should have been installed by the previous step, however you will still need to
 install NodeJS as described in [their
-README](https://github.com/pelican-plugins/tailwindcss).
+README](https://github.com/pelican-plugins/tailwindcss), and then install Tailwind via `npm install` or `pnpm install`.
 
 Once the dependencies are installed you can run `make help` to see a list of
 available build targets.

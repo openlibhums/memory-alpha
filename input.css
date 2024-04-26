@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'Poppins Regular';
+    src: url('./theme/fonts/poppins/Poppins-Regular.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: 'Poppins Medium';
+    src: url('./theme/fonts/poppins/Poppins-Medium.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: 'Poppins Bold';
+    src: url('./theme/fonts/poppins/Poppins-Bold.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: 'Space Mono Regular';
+    src: url('./theme/fonts/space-mono/SpaceMono-Regular.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: 'Space Mono Bold';
+    src: url('./theme/fonts/space-mono/SpaceMono-Bold.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: 'Space Mono Italic';
+    src: url('./theme/fonts/space-mono/SpaceMono-Italic.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: 'Space Mono Bold Italic';
+    src: url('./theme/fonts/space-mono/SpaceMono-BoldItalic.ttf') format('truetype');
+  }
+}
