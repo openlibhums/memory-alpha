@@ -33,3 +33,13 @@ DEFAULT_PAGINATION = False
 
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
+
+# Theme
+THEME = 'themes/test'
+STYLESHEET_URL = '/output.css'
+
+# Tailwind
+TAILWIND = {
+    "version": "3.4.3",
+    "plugins": [],
+}
