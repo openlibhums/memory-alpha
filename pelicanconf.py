@@ -43,3 +43,22 @@ TAILWIND = {
     "version": "3.4.3",
     "plugins": [],
 }
+
+# The following two lines tell Pelican to reproduce the exact structure
+# of the content folder in the output folder.
+# We want this so that people can contribute content (including images)
+# via the GitHub user interface, using the Preview tab in the markdown editor
+# to check the content is rendering as expected.
+PATH_METADATA = '(?P<path_no_ext>.*)\..*'
+ARTICLE_URL = ARTICLE_SAVE_AS = PAGE_URL = PAGE_SAVE_AS = '{path_no_ext}.html'
+
+# Static
+STATIC_PATHS = ['docs/images']
+
+# Nav
+DISPLAY_PAGES_ON_MENU = False
+DISPLAY_CATEGORIES_ON_MENU = False
+MENUITEMS = [
+    ('Nav1', '/'),
+    ('Nav2', '/docs/example.html'),
+]
