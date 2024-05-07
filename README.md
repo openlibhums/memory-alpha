@@ -35,3 +35,75 @@ Our Makefile has two targets for working within a docker container:
 
 - `make shell` will create an ephemeral container and connect to it via tty. From
   here you can run `make help` to see a list of available build targerts
+
+## Development
+
+### Janeway site pages
+
+Steps to create a Janeway site page:
+
+1. Create a new HTML file in `content/pages`. It does not have to be a full HTML
+   document, it just needs a `head` with a `title` and a `body` containing the
+   page content. Pelican will implicitly extend it from `page.html`.
+   You can use jinja thanks to the `pelican-jinja2content` plugin.
+
+2. Add the page name and URL to `MENUITEMS` in `pelicanconf.py`.
+
+### Components
+
+The first time you build a given section or element,
+if there is no appropriate component already, and if you are not sure
+whether you will need to re-use it, just make your new thing with Tailwind
+classes and HTML markup in the content file. In other words, don’t bother
+with a component if you’re not sure it will be worth it.
+
+But as soon as you need that thing a second time, abstract the repeated parts
+of it away from your content by creating a “component”. Go back and revise the
+original instance of it to use the component.
+
+Components should be stored in `themes/[theme]/templates/components/` in a flat
+list (no subfolders). Give the component a descriptive name, generally using
+two words or more.
+
+### Types of components
+
+What do we mean by components?
+
+In many cases a component might just be a jinja template that you can use with
+`{% include %}`.
+
+But often you will want to make components for styling and layout purposes that allow
+nesting like HTML elements (in other words they have “slots”).
+This keeps Tailwind class sets DRY and aids
+consistent HTML structure and hence accessibility.
+For this you can use jinja’s macro syntax:
+
+```html
+<!-- themes/[theme]/templates/components/example_component.html -->
+{% macro example_component() -%}
+  <div class="bg-tan text-black p-6">
+    {{ caller() }}
+  </div>
+{%- endmacro %}
+```
+
+```html
+<!-- content/pages/example_page.html -->
+{% from 'components/example_component.html' import example_component %}
+{% call example_component() %}
+  <p class="my-2">This is how I call my component and pass text into the slot
+  provided, with the styling and framing markup abstracted to the
+  component.</p>
+{% endcall %}
+```
+
+### Images and other static assets
+
+Images and other static assets should be stored in `themes/[theme]/static`
+if they belong to the theme, or otherwise `content/images`.
+
+### JS assets
+
+Avoid copy-pasting JS source code into this repository. Instead find a suitable
+module on NPM and install it with `npm install [module]`. Always prefer ES6
+modules if available.
