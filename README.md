@@ -97,10 +97,13 @@ For this you can use jinja’s macro syntax:
 {% endcall %}
 ```
 
-### Images and other static assets
+### Images
 
-Images and other static assets should be stored in `themes/[theme]/static`
-if they belong to the theme, or otherwise `content/images`.
+Images should be stored in `themes/[theme]/static/images`
+if they belong to the theme, or `docs/images` if they belong to documentation.
+In the future we may want a more generic content images folder for
+blog content or other content. But it would need to be easy to tell apart from
+the docs images folder to make things clear for people editing the docs via GitHub.
 
 ### JS assets
 
