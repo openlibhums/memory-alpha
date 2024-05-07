@@ -45,20 +45,28 @@ TAILWIND = {
 }
 
 # The following two lines tell Pelican to reproduce the exact structure
-# of the content folder in the output folder.
+# of the content folder in the output folder (except for pages--specified below)
 # We want this so that people can contribute content (including images)
 # via the GitHub user interface, using the Preview tab in the markdown editor
 # to check the content is rendering as expected.
 PATH_METADATA = '(?P<path_no_ext>.*)\..*'
-ARTICLE_URL = ARTICLE_SAVE_AS = PAGE_URL = PAGE_SAVE_AS = '{path_no_ext}.html'
+ARTICLE_URL = ARTICLE_SAVE_AS = '{path_no_ext}.html'
+
+# Where to put and serve pages
+PAGE_URL = '{slug}.html'
+PAGE_SAVE_AS = '{slug}.html'
 
 # Static
 STATIC_PATHS = ['docs/images']
 
 # Nav
-DISPLAY_PAGES_ON_MENU = False
+DISPLAY_PAGES_ON_MENU = False # We want to set the order manually
 DISPLAY_CATEGORIES_ON_MENU = False
 MENUITEMS = [
-    ('Nav1', '/'),
-    ('Nav2', '/docs/example.html'),
+    ('Home', '/'),
+    ('Nav1', '/example-page.html'),
+    ('Nav2', '/docs/example-docs-page.html'),
 ]
+
+# jinja2content plugin
+JINJA2CONTENT_TEMPLATES = ['content']

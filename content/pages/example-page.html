@@ -1,0 +1,12 @@
+<head>
+    <title>Example Page</title>
+</head>
+<body>
+    {% from 'components/example_component.html' import example_component %}
+    {% call example_component() %}
+      <p class="my-2">This is how I call my component and pass text into the slot provided, with
+      the styling controlled by the component.</p>
+      <p class="my-2">It might take several block elements and contain its own internal markup.</p>
+      <p class="my-2">But that's OK because I can pass it through a slot.</p>
+    {% endcall %}
+</body>

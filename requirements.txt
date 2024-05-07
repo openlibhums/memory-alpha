@@ -31,7 +31,10 @@ ordered-set==4.1.0
 pelican[markdown]==4.9.1
     # via
     #   -r requirements.in
+    #   pelican-jinja2content
     #   pelican-tailwindcss
+pelican-jinja2content==1.0.1
+    # via -r requirements.in
 pelican-tailwindcss==0.2.0
     # via -r requirements.in
 pygments==2.17.2
