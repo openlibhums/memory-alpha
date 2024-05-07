@@ -1,5 +1,4 @@
 {% extends "base.html" %}
-{% from 'components/my_component.html' import my_component %}
 
 
 {% block content %}
@@ -21,12 +20,6 @@
   <div class="bg-rust m-8 p-8 h-28 w-64 text-black">bg-rust</div>
 </div>
 
-{% call my_component() %}
-  <p class="my-2">This is how I call my component and pass text into the slot provided, with
-  the styling controlled by the component.</p>
-  <p class="my-2">It might take several block elements contain its own internal markup.</p>
-  <p class="my-2">But that's OK because I can pass it through a slot.</p>
-{% endcall %}
 
 {#
 {% for article in articles_page.object_list %}

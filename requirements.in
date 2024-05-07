@@ -1,3 +1,4 @@
 pelican[markdown]
+pelican-jinja2content
 pelican-tailwindcss
 tzdata
