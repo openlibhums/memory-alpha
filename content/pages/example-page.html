@@ -2,6 +2,10 @@
     <title>Example Page</title>
 </head>
 <body>
+    <img
+      class="text-tan my-6 w-36"
+      src="{{ SITEURL }}/theme/images/logo/Janeway-logo-powered-tan.svg"
+      alt="The Janeway logo: Janeway with a circle highlighting the letters new">
     {% from 'components/example_component.html' import example_component %}
     {% call example_component() %}
       <p class="my-2">This is how I call my component and pass text into the slot provided, with
