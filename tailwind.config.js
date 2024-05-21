@@ -16,9 +16,9 @@ export default {
       }
     },
     colors: {
-      black: '#31302b',
+      black: '#262522',
       white: '#fdfeff',
-      tan: '#d6cbbc',
+      tan: '#fdf3e3',
       orange: '#bb4e30',
       blue: '#36565f',
       rust: '#c08031',
