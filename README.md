@@ -105,6 +105,33 @@ In the future we may want a more generic content images folder for
 blog content or other content. But it would need to be easy to tell apart from
 the docs images folder to make things clear for people editing the docs via GitHub.
 
+### Colour
+
+Designer guidelines: “As a hard rule, let's stick strictly to blue, black, and
+tan for text/background combos. The other colors will be part of a secondary
+palette reserved for illustrations.”
+
+For accessibility we are aiming for all color contrast pairs to have
+a [contrast ratio of at least 4.5](https://app.contrast-finder.org/). Based on
+the colors defined in `tailwind.config.js`, we have identified these accessible
+colour pairs for text and semantic elements:
+
+```
+text-tan bg-black
+text-rust bg-black
+text-black bg-tan
+text-orange bg-tan
+text-blue bg-tan
+text-tan bg-orange
+text-tan bg-blue
+text-black bg-rust
+```
+
+Other combinations may be used (e.g. bg-rust + bg-orange) if the boundary
+between them is not used to designate a semantic or navigational element
+(e.g. a button). Textured backgrounds may be used behind text in certain cases,
+but only when the text is large enough for sufficient contrast.
+
 ### JS assets
 
 Avoid copy-pasting JS source code into this repository. Instead find a suitable
