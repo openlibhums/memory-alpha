@@ -4,6 +4,21 @@ on:
     branches: ["configure-tailwind"]
   workflow_dispatch:
 jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+          cache: npm # or pnpm or yarn
+      - name: Configure GitHub Pages
+        id: pages
+        uses: actions/configure-pages@v3
+      - name: Install dependencies
+        run: npm ci # or pnpm nstall / yarn install / bun install
   deploy:
     uses: "getpelican/pelican/.github/workflows/github_pages.yml@master"
     permissions:
