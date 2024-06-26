@@ -1,23 +1,67 @@
 {% extends "base.html" %}
-
+{% from "components/page_section.html" import page_section %}
 
 {% block content %}
 
 {% block content_title %}
-<h2 class="text-tan text-3xl font-space-mono">font-space-mono</h2>
+  <div class="grid place-content-center">
+    <div class="my-28 prose lg:prose-lg">
+      <h1>Janeway Systems</h1>
+    </div>
+  </div>
 {% endblock %}
-<p class="text-tan">font-poppins</p>
-<div class="flex flex-wrap">
-  <div class="m-8 p-8 h-28 w-64 text-tan bg-black">text-tan bg-black</div>
-  <div class="m-8 p-8 h-28 w-64 text-rust bg-black">text-rust bg-black</div>
-  <div class="m-8 p-8 h-28 w-64 text-black bg-tan">text-black bg-tan</div>
-  <div class="m-8 p-8 h-28 w-64 text-orange bg-tan">text-orange bg-tan</div>
-  <div class="m-8 p-8 h-28 w-64 text-blue bg-tan">text-blue bg-tan</div>
-  <div class="m-8 p-8 h-28 w-64 text-tan bg-orange">text-tan bg-orange</div>
-  <div class="m-8 p-8 h-28 w-64 text-tan bg-blue">text-tan bg-blue</div>
-  <div class="m-8 p-8 h-28 w-64 text-black bg-rust">text-black bg-rust</div>
-</div>
 
+<div class="flex max-lg:flex-col">
+  {% call page_section(labelledby="open-and-community", bg="bg-tan", layout="left") %}
+    <h2 id="open-and-community">Open and community-driven</h2>
+    <div class="bg-blue h-0.5 w-full"></div>
+    <h3>Code</h3>
+    {{ lipsum(n=1, min=8, max=12) }}
+    <div class="bg-blue h-0.5 w-full"></div>
+    <h3>Roadmap</h3>
+    {{ lipsum(n=1, min=8, max=12) }}
+    <div class="bg-blue h-0.5 w-full"></div>
+    <h3>Discord</h3>
+    {{ lipsum(n=1, min=8, max=12) }}
+  {% endcall %}
+  <div class="flex flex-col basis-1/2 grow-0">
+    {% call page_section(labelledby="our-mission", bg="bg-blue", layout="right") %}
+      <h2 id="our-mission">Our Mission</h2>
+      <p class="lead">
+        {{ lipsum(n=1, min=15, max=20, html=False) }}
+      </p>
+    {% endcall %}
+    {% call page_section(label="Speak to us", bg="bg-orange", layout="right", prose=False, grow=True) %}
+      <div class="flex gap-12 m-12">
+        <div class="w-20 h-20 bg-rust rounded-full"></div>
+        <div class="text-4xl font-space-mono">Speak<br> to us</div>
+      </div>
+    {% endcall %}
+  </div>
+</div>
+{% call page_section(labelledby="join-our-mission", bg="bg-blue", prose=False) %}
+  <div class="grid place-content-center py-20">
+    <h2
+      id="join-our-mission"
+      class="bg-black text-white text-5xl p-4 font-space-mono">
+      Join our mission
+    </h2>
+  </div>
+{% endcall %}
+{% call page_section(labelledby="academic-owned", bg="bg-tan") %}
+  <div class="w-1/2">
+    <h2 id="academic-owned">Academic Owned</h2>
+    {{ lipsum(n=1, min=20, max=40) }}
+  </div>
+  <div class="py-8 flex max-lg:flex-col justify-between text-black">
+    <div>Logo</div>
+    <div>Logo</div>
+    <div>Logo</div>
+    <div>Logo</div>
+    <div>Logo</div>
+    <div>Logo</div>
+  </div>
+{% endcall %}
 
 {#
 {% for article in articles_page.object_list %}
