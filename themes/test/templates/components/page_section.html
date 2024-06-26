@@ -1,4 +1,13 @@
-{# A page section for setting a full-width background, semantic markup, and prose classes. #}
+{# A page section for setting a full-width background, semantic markup, and prose classes.
+
+labelledby - str: the ID of an element in the section, like an h2, to be used as the aria label
+labelled - str: an aria label if no element suffices as a label
+bg - str: the Tailwind background color class (see colours in README)
+prose - boolean: whether to automatically style text with the Tailwind Typography plugin
+layout - str: 'full' takes up the full width while 'left' and 'right' can be paired side-by-side
+grow - boolean: whether the section should grow in its flex container
+               (useful for stacking several half-width components beside a single tall component
+#}
 
 {% from "utils.html" import best_foreground %}
 
