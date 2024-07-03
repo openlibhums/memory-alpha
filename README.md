@@ -2,8 +2,7 @@
 This repository is for the build of the janeway.systems site.
 
 The website is built on top of the static-site generator
-[Pelican](https://getpelican.com/) using [tailwind
-CSS](https://tailwindcss.com/).
+[Pelican](https://getpelican.com/).
 
 ## Setting up the development environment
 
@@ -16,11 +15,6 @@ requirements.txt`.
 Pelican's build system uses [GNU Make](https://www.gnu.org/software/make/) which comes pre-installed on most GNU Linux distributions.
 
 You can refer to the guide on how to [install Pelican](https://docs.getpelican.com/en/latest/quickstart.html#installation) for more details.
-
-The project also uses the official Tailwind CSS plugin for Pelican, which
-should have been installed by the previous step, however you will still need to
-install NodeJS as described in [their
-README](https://github.com/pelican-plugins/tailwindcss), and then install Tailwind via `npm install` or `pnpm install`.
 
 To run the site in development and listen for changes to templates, use `pelican --autoreload --listen`. To build the site locally, use `pelican content`.
 
@@ -53,15 +47,17 @@ Steps to create a Janeway site page:
 
 The first time you build a given section or element,
 if there is no appropriate component already, and if you are not sure
-whether you will need to re-use it, just make your new thing with Tailwind
-classes and HTML markup in the content file. In other words, don’t bother
+whether you will need to re-use it, just make your new thing with utility
+classes and HTML markup in the content file, if possible. In other words, don’t bother
 with a component if you’re not sure it will be worth it.
 
-But as soon as you need that thing a second time, abstract the repeated parts
-of it away from your content by creating a “component”. Go back and revise the
-original instance of it to use the component.
+But as soon as you need that thing a second time, or if you need to write CSS
+that cannot be easily abstracted into elements or utilities, go ahead and
+abstract the repeated parts of it away from your content by creating
+a component. Make sure to go back and revise the original instance of it to use
+the component.
 
-Components should be stored in `themes/[theme]/templates/components/` in a flat
+Components should be stored in `themes/[theme]/static/components/` in a flat
 list (no subfolders). Give the component a descriptive name, generally using
 two words or more.
 
@@ -74,14 +70,18 @@ In many cases a component might just be a jinja template that you can use with
 
 But often you will want to make components for styling and layout purposes that allow
 nesting like HTML elements (in other words they have “slots”).
-This keeps Tailwind class sets DRY and aids
-consistent HTML structure and hence accessibility.
-For this you can use jinja’s macro syntax:
+By making both HTML and CSS files for a given component, you are aiding
+consistency across the codebase because any page that wants to use the
+component will be able to use the same combination of HTML and CSS as
+everywhere else. This is especially important for accessibility since
+it is the particular combination of HTML and CSS that is key for accessibility.
+
+For components that need to nest other content, you can use jinja’s macro syntax:
 
 ```html
 <!-- themes/[theme]/templates/components/example_component.html -->
 {% macro example_component() -%}
-  <div class="bg-tan text-black p-6">
+  <div class="bg-tan text-blue font-space-mono-regular">
     {{ caller() }}
   </div>
 {%- endmacro %}
@@ -91,11 +91,13 @@ For this you can use jinja’s macro syntax:
 <!-- content/pages/example_page.html -->
 {% from 'components/example_component.html' import example_component %}
 {% call example_component() %}
-  <p class="my-2">This is how I call my component and pass text into the slot
+  <p>This is how I call my component and pass text into the slot
   provided, with the styling and framing markup abstracted to the
   component.</p>
 {% endcall %}
 ```
+
+See also “Components” in `static/css/README.md`.
 
 ### Images
 
@@ -113,8 +115,8 @@ palette reserved for illustrations.”
 
 For accessibility we are aiming for all color contrast pairs to have
 a [contrast ratio of at least 4.5](https://app.contrast-finder.org/). Based on
-the colors defined in `tailwind.config.js`, we have identified these accessible
-colour pairs for text and semantic elements:
+the colors defined in `css/settings.css` and `css/utilities.css`, we have
+identified these accessible colour pairs for text and semantic elements:
 
 ```
 text-tan bg-black
@@ -131,6 +133,10 @@ Other combinations may be used (e.g. bg-rust + bg-orange) if the boundary
 between them is not used to designate a semantic or navigational element
 (e.g. a button). Textured backgrounds may be used behind text in certain cases,
 but only when the text is large enough for sufficient contrast.
+
+Note that you can use `best_foreground` from `utils.html` to make
+to produce accessible colour pairs. It chooses either tan or blue text
+based on the background colour you pass in.
 
 ### JS assets
 

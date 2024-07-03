@@ -1,0 +1,19 @@
+/* ------------------------------ */
+/*   CSS for Memory Alpha Theme   */
+/*                                */
+/*   See guide in css/README.md   */
+/* ------------------------------ */
+
+/* Import base styles in order of growing precedence */
+@import "settings.css" layer(settings);
+@import "reset.css" layer(resets);
+@import "elements.css" layer(elements);
+
+/* Components */
+/* Add new components to this section in alphabetical order */
+@import "../components/example_component.css" layer(components);
+@import "../components/page_section.css" layer(components);
+@import "../components/page_section_group.css" layer(components);
+
+/* Utilities have greatest precedence */
+@import "utilities.css" layer(utilities);

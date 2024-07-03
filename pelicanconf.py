@@ -36,6 +36,7 @@ DEFAULT_PAGINATION = False
 
 # Theme
 THEME = 'themes/test'
+STYLESHEET_URL = 'theme/css/index.css'
 
 # The following two lines tell Pelican to reproduce the exact structure
 # of the content folder in the output folder (except for pages--specified below)
