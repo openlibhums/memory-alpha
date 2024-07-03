@@ -81,7 +81,7 @@ For components that need to nest other content, you can use jinja’s macro synt
 ```html
 <!-- themes/[theme]/templates/components/example_component.html -->
 {% macro example_component() -%}
-  <div class="bg-tan text-blue font-space-mono-regular">
+  <div class="bg-tan text-blue">
     {{ caller() }}
   </div>
 {%- endmacro %}

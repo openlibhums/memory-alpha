@@ -53,6 +53,15 @@ PAGE_SAVE_AS = '{slug}.html'
 # Static
 STATIC_PATHS = ['docs/images']
 
+# The following two settings allow us to co-locate component HTML and CSS files in the same folder.
+# Prevent HTML files in /components/ from being copied to served assets
+IGNORE_FILES = ['/components/*.html']
+
+# Allow us to import component HTML files directly as if they were in /templates/
+THEME_TEMPLATES_OVERRIDES = [
+    'themes/test/static/components/',
+]
+
 # Nav
 DISPLAY_PAGES_ON_MENU = False # We want to set the order manually
 DISPLAY_CATEGORIES_ON_MENU = False

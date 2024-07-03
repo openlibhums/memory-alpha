@@ -1,0 +1,48 @@
+.page-section {
+  /* Set a background pane on each side of the content
+   * so the same color extends to the edge of the screen,
+   * despite the constraint the a container */
+  position: relative;
+  .background-pane-left,
+  .background-pane-right {
+    top: 0px;
+    bottom: 0px;
+    width: 50vw;
+    position: absolute;
+    z-index: 5;
+  }
+  .background-pane-left {
+    right: 50%;
+  }
+  .background-pane-right {
+    left: 50%;
+  }
+
+  /* Hide the background pane when this section is arranged
+   * to the right or left of another section */
+  &.layout-left .background-pane-right,
+  &.layout-right .background-pane-left {
+    @media (orientation: landscape) {
+      display: none;
+    }
+  }
+
+  /* Content should have padding above and below */
+  --padding: var(--space-xl);
+  .frame {
+    position: relative;
+    z-index: 10;
+    padding-block: var(--padding);
+  }
+
+  /* Content should have same padding to the left or right
+   * when it's half-width on wide screens */
+  @media (orientation: landscape) {
+    &.layout-left .frame {
+      padding-inline-end: var(--padding);
+    }
+    &.layout-right .frame {
+      padding-inline-start: var(--padding);
+    }
+  }
+}

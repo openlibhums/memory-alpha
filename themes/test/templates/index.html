@@ -1,87 +1,100 @@
 {% extends "base.html" %}
-{% from "components/page_section.html" import page_section %}
+{% from "page_section.html" import page_section %}
+{% from "page_section_group.html" import page_section_group %}
 
 {% block content %}
 
-{% block content_title %}
-  <div class="grid place-content-center">
-    <div class="my-28 prose lg:prose-lg">
-      <h1>Janeway Systems</h1>
-    </div>
-  </div>
-{% endblock %}
-
-<div class="flex max-lg:flex-col">
-  {% call page_section(labelledby="open-and-community", bg="bg-tan", layout="left") %}
-    <h2 id="open-and-community">Open and community-driven</h2>
-    <div class="bg-blue h-0.5 w-full"></div>
-    <h3>Code</h3>
-    {{ lipsum(n=1, min=8, max=12) }}
-    <div class="bg-blue h-0.5 w-full"></div>
-    <h3>Roadmap</h3>
-    {{ lipsum(n=1, min=8, max=12) }}
-    <div class="bg-blue h-0.5 w-full"></div>
-    <h3>Discord</h3>
-    {{ lipsum(n=1, min=8, max=12) }}
-  {% endcall %}
-  <div class="flex flex-col basis-1/2 grow-0">
-    {% call page_section(labelledby="our-mission", bg="bg-blue", layout="right") %}
-      <h2 id="our-mission">Our Mission</h2>
-      <p class="lead">
-        {{ lipsum(n=1, min=15, max=20, html=False) }}
-      </p>
-    {% endcall %}
-    {% call page_section(label="Speak to us", bg="bg-orange", layout="right", prose=False, grow=True) %}
-      <div class="flex gap-12 m-12">
-        <div class="w-20 h-20 bg-rust rounded-full"></div>
-        <div class="text-4xl font-space-mono">Speak<br> to us</div>
+  {% block content_title %}
+    <div class="grid place-content-center">
+      <div style="padding-block: 4rem">
+        <h1>Janeway</h1>
       </div>
+    </div>
+  {% endblock %}
+
+  {% call page_section_group() %}
+    {% call page_section(labelledby="open-and-community", bg="bg-tan", layout="layout-left") %}
+      <h2 id="open-and-community">Open and community-driven</h2>
+      <hr>
+      <h3>Code</h3>
+      {{ lipsum(n=1, min=8, max=12) }}
+      <hr>
+      <h3>Roadmap</h3>
+      {{ lipsum(n=1, min=8, max=12) }}
+      <hr>
+      <h3>Discord</h3>
+      {{ lipsum(n=1, min=8, max=12) }}
     {% endcall %}
-  </div>
-</div>
-{% call page_section(labelledby="join-our-mission", bg="bg-blue", prose=False) %}
-  <div class="grid place-content-center py-20">
-    <h2
-      id="join-our-mission"
-      class="bg-black text-white text-5xl p-4 font-space-mono">
-      Join our mission
-    </h2>
-  </div>
-{% endcall %}
-{% call page_section(labelledby="academic-owned", bg="bg-tan") %}
-  <div class="w-1/2">
-    <h2 id="academic-owned">Academic Owned</h2>
-    {{ lipsum(n=1, min=20, max=40) }}
-  </div>
-  <div class="py-8 flex max-lg:flex-col justify-between text-black">
-    <div>Logo</div>
-    <div>Logo</div>
-    <div>Logo</div>
-    <div>Logo</div>
-    <div>Logo</div>
-    <div>Logo</div>
-  </div>
-{% endcall %}
+    {% call page_section_group() %}
+      {% call page_section(labelledby="our-mission", bg="bg-blue", layout="layout-right") %}
+        <h2 id="our-mission">Our Mission</h2>
+        <p class="fs-4 ff-space-mono-regular">
+          {{ lipsum(n=1, min=15, max=20, html=False) }}
+        </p>
+      {% endcall %}
+      {% call page_section(labelledby="speak-to-us", bg="bg-orange", layout="layout-right") %}
+        <h2 id="speak-to-us">Speak<br> to us</h2>
+      {% endcall %}
+    {% endcall %}
+  {% endcall %}
+  {% call page_section(labelledby="join-our-mission", bg="bg-blue", prose="") %}
+    <div class="grid place-content-center" style="padding-block: var(--space-xl);">
+      <h2
+        id="join-our-mission"
+        class="bg-black text-tan fs-5" style="padding: var(--space-xs);">
+        Join our mission
+      </h2>
+    </div>
+  {% endcall %}
+  {% call page_section(labelledby="academic-owned", bg="bg-tan") %}
+    <div class="flow" style="max-width: 30rem;">
+      <h2 id="academic-owned">Academic Owned</h2>
+      {{ lipsum(n=1, min=20, max=40) }}
+    </div>
+    <div
+      class="flex text-black"
+      style="justify-content: space-between; margin-block-start: var(--space-m);">
+      <div>Logo</div>
+      <div>Logo</div>
+      <div>Logo</div>
+      <div>Logo</div>
+      <div>Logo</div>
+      <div>Logo</div>
+    </div>
+  {% endcall %}
 
-{#
-{% for article in articles_page.object_list %}
-        <article>
-                <header> <h2><a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a></h2> </header>
-                <section>{{ article.summary }}</section>
-                <footer>
-                    <p>Published: <time datetime="{{ article.date.isoformat() }}"> {{ article.locale_date }} </time></p>
-                    <address>By
-                    {% for author in article.authors %}
-                        <a href="{{ SITEURL }}/{{ author.url }}">{{ author }}</a>
-                    {% endfor %}
-                    </address>
-                </footer>
-        </article>
-{% endfor %}
+  {#
+  {% for article in articles_page.object_list %}
+    <article>
+      <header>
+        <h2>
+          <a
+            href="{{ SITEURL }}/{{ article.url }}"
+            rel="bookmark"
+            title="Permalink to {{ article.title|striptags }}">
+            {{ article.title }}
+          </a>
+        </h2>
+      </header>
+      <section>{{ article.summary }}</section>
+      <footer>
+        <p>Published: <time datetime="{{ article.date.isoformat() }}">
+          {{ article.locale_date }} </time></p>
+        <address>
+          By
+          {% for author in article.authors %}
+            <a href="{{ SITEURL }}/{{ author.url }}">{{ author }}</a>
+          {% endfor %}
+        </address>
+      </footer>
+    </article>
+  {% endfor %}
+  #}
 
-{% if articles_page.has_other_pages() %}
+  {#
+  {% if articles_page.has_other_pages() %}
     {% include 'pagination.html' %}
-{% endif %}
-#}
+  {% endif %}
+  #}
 
 {% endblock content %}
