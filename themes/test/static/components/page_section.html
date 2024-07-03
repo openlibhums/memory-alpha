@@ -1,0 +1,29 @@
+{# A page section for setting a full-width background, semantic markup, and flow spacing.
+
+labelledby - str: the ID of an element in the section, like an h2, to be used as the aria label
+labelled - str: an aria label if no element suffices as a label
+bg - str: the background color class
+layout - str: 'layout-full' takes up the full width while
+              'layout-left' and 'layout-right' are meant to be paired side-by-side
+prose - str: 'prose' or '' to control whether the text should have
+            recommended max width for reading text (40rem)
+#}
+
+{% from "utils.html" import best_foreground %}
+
+{% macro page_section(labelledby="", label="", bg="bg-black", layout="layout-full", prose="prose") -%}
+  <div class="page-section {{ bg }} {{ layout }} {{ best_foreground(bg) }}">
+    <div class="{{ bg }} background-pane-left"></div>
+    <div class="{{ bg }} background-pane-right"></div>
+    <section
+      {% if labelledby %}
+        aria-labelledby="{{ labelledby }}"
+      {% elif label %}
+        aria-label="{{ label }}"
+      {% endif %}>
+      <div class="frame flow {{ prose }}">
+        {{ caller() }}
+      </div>
+    </section>
+  </div>
+{%- endmacro %}

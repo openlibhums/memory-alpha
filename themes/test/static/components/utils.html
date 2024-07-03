@@ -1,0 +1,14 @@
+{# A utility to help maintain accessible colour contrast.
+bg - str: one of 'bg-black', 'bg-orange', 'bg-blue', or 'bg-tan'.
+
+Note that bg-rust is not a good background choice for text, but
+if you must use it, use a black foreground.
+#}
+
+{% macro best_foreground(bg='bg-black') -%}
+  {% if bg=='bg-black' or bg=='bg-orange' or bg=='bg-blue' %}
+    text-tan
+  {% elif bg=='bg-tan' %}
+    text-blue
+  {% endif %}
+{%- endmacro %}
