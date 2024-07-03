@@ -1,3 +1,12 @@
+{# A way to group page sections.
+
+The component CSS will figure out what layout to use. For simple groups of two,
+it puts them beside each other in landscape orientation and vertically for
+portrait orientation. For more than two, nest this component so that there are
+only two items at the top level. Any group that is nested one
+deep will arrange its contents vertically.
+#}
+
 {% macro page_section_group() -%}
   <div class="page-section-group">
     {{ caller() }}
