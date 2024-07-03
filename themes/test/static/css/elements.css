@@ -1,0 +1,47 @@
+body {
+  color: var(--clr-tan);
+  background-color: var(--clr-black);
+  font-family: var(--ff-poppins-regular);
+  overflow-x: hidden;
+}
+h1 {
+  font-size: var(--step-7);
+  font-family: var(--ff-space-mono-bold);
+  font-weight: normal;
+  line-height: 1.1;
+  --flow-space: var(--space-xl);
+}
+h2 {
+  font-size: var(--step-4);
+  font-family: var(--ff-space-mono-bold);
+  font-weight: normal;
+  --flow-space: var(--space-l);
+}
+h3 {
+  font-size: var(--step-3);
+  font-family: var(--ff-poppins-medium);
+  --flow-space: var(--space-m);
+}
+h4 {
+  font-size: var(--step-3);
+  font-family: var(--ff-poppins);
+  --flow-space: var(--space-m);
+}
+h5 {
+  font-size: var(--step-3);
+  font-family: var(--ff-poppins);
+  --flow-space: var(--space-m);
+}
+h6 {
+  font-size: var(--step-3);
+  font-family: var(--ff-poppins);
+  --flow-space: var(--space-m);
+}
+p {
+  font-size: var(--step-3);
+  font-family: var(--ff-poppins);
+  --flow-space: var(--space-s);
+}
+hr {
+  background-color: var(--clr-blue);
+}
