@@ -1,4 +1,3 @@
-/* Makes the header sticky, so it stays at the top when scrolling */
 .sticky {
   position: sticky;
   top: 0;
@@ -6,15 +5,28 @@
   background-color: var(--clr-black);
 }
 
-/* Main navigation bar styles */
 #main-nav {
   display: flex;
-  height: 90px;
+  flex-direction: column;
+  align-items: center;
+
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 90px;
+  }
 
   ul {
     list-style: none;
     padding: 0;
     margin: 0;
+    display: flex;
+
+    li {
+      margin: 0 10px;
+    }
   }
 
   img {
@@ -26,17 +38,18 @@
     text-decoration: none;
     font-family: var(--ff-poppins-medium);
     position: relative;
-    display: inline-block; /* Ensures pseudo-element is aligned correctly */
+    display: inline-block;
+    padding: 10px 0;
 
     &::after {
       content: '';
       position: absolute;
       left: 0;
-      bottom: -3px;
+      bottom: 0;
       width: 100%;
       height: 3px;
       background-color: var(--clr-tan);
-      transform: scaleX(0); 
+      transform: scaleX(0);
       transform-origin: right;
       transition: transform 0.2s ease-out;
     }
@@ -48,31 +61,25 @@
   }
 
   .left, .logo, .right {
-    flex: 1; /* Each section takes equal space */
     display: flex;
     align-items: center;
-
-    &.left {
-      justify-content: flex-start;
-    }
-
-    &.logo {
-      justify-content: center;
-    }
-
-    &.right {
-      justify-content: flex-end;
-    }
   }
 
-  .button {
-    background-color: var(--clr-tan);
-    border-radius: 22px;
-    padding: 8px;
+  .left {
+    flex: 1;
+    justify-content: flex-start;
+  }
 
-    &.button-demo {
-      color: var(--clr-blue);
-    }
+  .logo {
+    justify-content: center;
+    width: 200px;
+    padding: 10px;
+    flex: 0 1 200px;
+  }
+
+  .right {
+    flex: 1;
+    justify-content: flex-end;
   }
 
   .slide-drawer {
@@ -88,43 +95,54 @@
     display: none;
     flex-direction: column;
     background-color: var(--clr-black);
-    position: absolute;
-    top: 90px;
-    left: 0;
-    right: 0;
-    z-index: 100;
     align-items: flex-start;
-    padding: 10px 40px 15px 40px;
+    padding: 10px 0;
     width: 100%;
+    transition: max-height 0.3s ease;
+    max-height: 0;
+    overflow: hidden;
+
+    ul {
+      width: 100%;
+      flex-direction: column;
+
+      li {
+        width: 100%;
+        border-bottom: 1px solid var(--clr-tan);
+      }
+
+      a {
+        display: block;
+        width: 100%;
+        text-decoration: none;
+        color: inherit;
+        font-family: var(--ff-poppins-medium);
+        position: relative;
+        font-weight: normal;
+        transition: font-weight 0.2s ease-out;
+
+        &::after {
+          content: none;
+        }
+
+        &:hover {
+          font-weight: bold;
+        }
+      }
+    }
   }
 
-  .combined-menu ul {
-    width: 100%; /* Full width */
+  &.open .combined-menu {
+    display: flex;
+    max-height: 500px;
   }
 
-  .combined-menu li {
-    width: 100%; /* Full width */
-    border-bottom: 1px solid var(--clr-tan);
-    padding: 15px 0;
+  &.open {
+    height: auto;
   }
 
-  .combined-menu a {
-    display: block;
-    width: 100%;
-    text-decoration: none;
-    color: inherit;
-    font-family: var(--ff-poppins-medium);
-    position: relative;
-    font-weight: normal;
-    transition: font-weight 0.2s ease-out;
-  }
-
-  .combined-menu a::after {
-    content: none;
-  }
-
-  .combined-menu a:hover {
-    font-weight: bold;
+  &.open .nav-container {
+    height: 90px;
   }
 
   &.open .left ul,
@@ -137,7 +155,7 @@
   }
 }
 
-/* Hides left and right nav elements on smaller screens, displays the slide-drawer */
+/* Mobile view: Hide left and right UL, display slide-drawer */
 @media (max-width: 1180px) {
   #main-nav {
     .left ul, .right ul {
@@ -147,19 +165,29 @@
       display: block;
     }
   }
+
+  #main-nav.open .left ul,
+  #main-nav.open .right ul {
+    display: none;
+  }
+
+  #main-nav.open .combined-menu {
+    display: flex;
+  }
 }
 
-/* Hides the slide-drawer nav element on larger screens, displays the left and right nav elements */
+/* Desktop view: Always display left and right UL, hide slide-drawer */
 @media (min-width: 1181px) {
   #main-nav {
     .left ul, .right ul {
-      display: flex;
+      display: flex !important;
     }
     .slide-drawer {
-      display: none;
+      display: none !important;
     }
     .combined-menu {
       display: none !important;
+      max-height: 0;
     }
   }
 }

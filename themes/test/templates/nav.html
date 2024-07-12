@@ -1,37 +1,36 @@
 <nav id="main-nav">
-
-  <div class="left">
+  <div class="nav-container">
+    <div class="left">
       <button class="slide-drawer" id="slide-drawer">
-    &#9776;
-  </button>
-    <ul class="flex">
-      {% for title, link, class in MENU_ITEMS %}
-      <li>
+        &#9776;
+      </button>
+      <ul class="flex">
+        {% for title, link, class in MENU_ITEMS %}
+        <li>
           <a href="{{ link }}"{% if class %} class="{{ class }}"{% endif %}>
             {{ title }}
           </a>
-      </li>
-      {% endfor %}
-    </ul>
-  </div>
-
-  <div class="logo">
-    <img src="theme/images/logo/Janeway-logo-white.svg" alt="" />
-  </div>
-
-  <div class="right">
-    <ul class="flex">
-      {% for title, link, class in RIGHT_MENU_ITEMS %}
-      <li>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="logo">
+      <img src="theme/images/logo/Janeway-logo-white.svg" alt="Janeway Logo" />
+    </div>
+    <div class="right">
+      <ul class="flex">
+        {% for title, link, class in RIGHT_MENU_ITEMS %}
+        <li>
           <a href="{{ link }}"{% if class %} class="{{ class }}"{% endif %}>
             {{ title }}
           </a>
-      </li>
-      {% endfor %}
-    </ul>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
   </div>
 
-   <!-- Combined menu for the slide drawer navigation. -->
+  <!-- Combined menu for the slide drawer navigation. -->
   <div class="combined-menu">
     <ul>
       {% for title, link, class in MENU_ITEMS %}
