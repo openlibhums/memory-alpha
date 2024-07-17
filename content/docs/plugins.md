@@ -24,7 +24,7 @@ This plugin sends content to [CLOCKSS](https://clockss.org/) for archiving purpo
 This plugin enables journals to commission articles from authors. If there is an existing agreement between the editor(s) and author(s), the editor can create the submission (and metadata) and send an invitation to the author. The author can then upload the manuscript.
 
 ## Consortial billing
-This plugin is for internal use by OLH only. It supports the OLH funding structure.
+This plugin helps you manage supporter records for a diamond OA funding model. You can set currencies, billing agents, and institution sizes, calculate bands using GNI per capita, and create and edit supporter records and contacts.
 
 ## Custom CSS  styling
 This plugin enables customisable CSS for the press website. You can add stylesheets for single journals, add them at press level or combine both. It also works with repositories.
@@ -82,4 +82,7 @@ This plugin imports content from [Open Journal Systems](https://openjournalsyste
 
 ## Disqus
 This plugin enables the Disqus discussion platform for journal. It is used to add a comment section feature.
+
+NOTE: DisQus is not GDPR compliant. If you require GDPR compliancy, we recommend considering Hypothes.is instead. AS it is not GDPR
+
 DEV NOTE: This may be broken and need investigation. We may wish to offer Hypothes.is instead. DisQus may not be GDPR compliant -> internal comment system? It might be time to retire this plugin.
