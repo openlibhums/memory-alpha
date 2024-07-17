@@ -2,6 +2,7 @@
 
 ## VAC (Voluntary Author Contributions)
 This plugin allows for tracking of VACs (Voluntary Author Contributions). It however does **not** enforce APCs (Article Processing Charges). It will at no point block publication of an article, instead it allows editors to track submissions and their linked VACs and VAC waivers. It will also track whether a VAC has been paid.
+
 VACs can be assigned to specific journal sections / article types. When manuscripts are submitted to these sections the author is able to request a VAC waiver if required. This plugin does not affect the publishing workflow in any way.
 
 ## Hypothes.is (annotation)
