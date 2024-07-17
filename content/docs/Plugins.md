@@ -22,7 +22,7 @@ This plugin sends content to [CLOCKSS](https://clockss.org/) for archiving purpo
 ## Commissions
 This plugin enables journals to commission articles from authors. If there is an existing agreement between the editor(s) and author(s), the editor can create the submission (and metadata) and send an invitation to the author. The author can then upload the manuscript.
 
-## Consortia billing
+## Consortial billing
 This plugin is for internal use by OLH only. It supports the OLH funding structure.
 
 ## Custom CSS  styling
