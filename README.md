@@ -2,7 +2,7 @@
 
 <p>
   <a href="https://github.com/BirkbeckCTP/memory-alpha/actions/workflows/pelican.yml"><img src="https://github.com/BirkbeckCTP/memory-alpha/actions/workflows/pelican.yml/badge.svg?branch=main" alt="build status"></a>
-  <a href="https://github.com/BirkbeckCTP/memory-alpha/actions/workflows/playwright.yml"><img src="https://github.com/BirkbeckCTP/memory-alpha/actions/workflows/playwright.yml/badge.svg?branch=main" alt="build status"></a>
+  <a href="https://github.com/BirkbeckCTP/memory-alpha/actions/workflows/playwright.yml"><img src="https://github.com/BirkbeckCTP/memory-alpha/actions/workflows/playwright.yml/badge.svg?branch=main" alt="test status"></a>
 </p>
 
 This repository is for the build of the janeway.systems site.
