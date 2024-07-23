@@ -1,4 +1,10 @@
 # Memory Alpha
+
+<p>
+  <a href="https://github.com/BirkbeckCTP/memory-alpha/actions/workflows/pelican.yml"><img src="https://github.com/BirkbeckCTP/memory-alpha/actions/workflows/pelican.yml/badge.svg?branch=main" alt="build status"></a>
+  <a href="https://github.com/BirkbeckCTP/memory-alpha/actions/workflows/playwright.yml"><img src="https://github.com/BirkbeckCTP/memory-alpha/actions/workflows/playwright.yml/badge.svg?branch=main" alt="build status"></a>
+</p>
+
 This repository is for the build of the janeway.systems site.
 
 The website is built on top of the static-site generator
@@ -20,6 +26,12 @@ To run the site in development and listen for changes to templates, use `pelican
 
 You can also run `make help` to see a full list of available build targets.
 
+Finally, for testing, you will need to install Playwright:
+
+```
+playwright install
+```
+
 ### Docker install
 
 Our Makefile has two targets for working within a docker container:
@@ -31,6 +43,10 @@ Our Makefile has two targets for working within a docker container:
   here you can run `make help` to see a list of available build targerts
 
 ## Development
+
+### Testing
+
+Run tests with `pytest`.
 
 ### Janeway site pages
 
