@@ -43,7 +43,7 @@ STYLESHEET_URL = 'theme/css/index.css'
 # We want this so that people can contribute content (including images)
 # via the GitHub user interface, using the Preview tab in the markdown editor
 # to check the content is rendering as expected.
-PATH_METADATA = '(?P<path_no_ext>.*)\..*'
+PATH_METADATA = r'(?P<path_no_ext>.*)\..*'
 ARTICLE_URL = ARTICLE_SAVE_AS = '{path_no_ext}.html'
 
 # Where to put and serve pages
@@ -59,7 +59,7 @@ IGNORE_FILES = ['/components/*.html']
 
 # Allow us to import component HTML files directly as if they were in /templates/
 THEME_TEMPLATES_OVERRIDES = [
-    'themes/test/static/components/',
+    'themes/test/static/',
 ]
 
 # Nav
