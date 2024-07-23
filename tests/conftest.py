@@ -1,6 +1,13 @@
 import os
 import pytest
 from pytest_server import PytestPelicanServer
+from pelican import get_instance, parse_arguments
+from axe_playwright_python.sync_playwright import Axe
+
+
+pelican, settings = get_instance(parse_arguments())
+SITE_PAGES = [path for _label, path in settings.get('MENUITEMS')]
+
 
 @pytest.fixture(scope="session")
 def live_server(base_url: str):
@@ -21,3 +28,13 @@ def live_server(base_url: str):
     server = PytestPelicanServer(addr)
     yield server
     server.stop()
+
+
+@pytest.fixture(scope="module")
+def axe():
+    return Axe()
+
+
+@pytest.fixture(scope="module", params=SITE_PAGES)
+def site_page(request):
+    yield request.param
