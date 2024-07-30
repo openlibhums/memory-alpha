@@ -146,7 +146,7 @@
 }
 
 /* Mobile view: Hide left and right UL, display slide-drawer */
-@media (max-width: 1180px) {
+@media (orientation: portrait) {
   .main-nav {
     .left ul, .right ul {
       display: none;
@@ -167,7 +167,7 @@
 }
 
 /* Desktop view: Always display left and right UL, hide slide-drawer */
-@media (min-width: 1181px) {
+@media (orientation: landscape) {
   .main-nav {
     .left ul, .right ul {
       display: flex;
@@ -180,4 +180,12 @@
       max-height: 0;
     }
   }
+   .main-nav.open .left ul,
+    .main-nav.open .right ul {
+        display: flex;
+    }
+
+    .main-nav.open .combined-menu {
+        display: none;
+    }
 }
