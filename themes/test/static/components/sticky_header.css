@@ -1,17 +1,7 @@
-body {
-  padding-top: 90px;
-}
-
 .sticky-header {
-  position: fixed;
+  position: sticky;
   top: 0;
-  left: 0;
   width: 100%;
   z-index: 50;
   background-color: var(--clr-black);
-  transition: top 0.3s ease-in-out;
-}
-
-.sticky-header.hidden {
-  top: -100px;
 }
