@@ -1,4 +1,7 @@
+# Docker args
 MOUNTPOINT_ARG= -v ./:/app
+OUTPUTDIR_ARG= -e OUTPUTDIR=/output
+
 PY?=
 PELICAN?=pelican
 PELICANOPTS=
@@ -57,9 +60,9 @@ help:
 	@echo '                                                                          '
 
 image:
-	docker build -t birkbeckctp/janeway.systems .
-shell:		## Runs the janeway-web service and starts an interactive bash process instead of the webserver
-	@docker run --rm -ti --entrypoint=/bin/sh ${MOUNTPOINT_ARG} birkbeckctp/janeway.systems
+	docker build --no-cache -t birkbeckctp/janeway.systems .
+shell:		## starts an interactive bash process inside the pelican container
+	@docker run -p ${PORT}:${PORT} --rm -ti --entrypoint=/bin/sh ${MOUNTPOINT_ARG} ${OUTPUTDIR_ARG} birkbeckctp/janeway.systems
 html:
 	"$(PELICAN)" "$(INPUTDIR)" -o "$(OUTPUTDIR)" -s "$(CONFFILE)" $(PELICANOPTS)
 

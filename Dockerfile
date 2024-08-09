@@ -3,8 +3,10 @@ FROM python:3.12.3-alpine3.19
 # Install OS level dependencies
 RUN apk add --no-cache make
 
+RUN mkdir /output
 # Setup user
 RUN /usr/sbin/adduser -g pelican -D pelican
+RUN chown -R pelican:pelican /output
 USER pelican
 RUN /usr/local/bin/python -m venv /home/pelican/venv
 
