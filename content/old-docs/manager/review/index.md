@@ -118,8 +118,8 @@ In the review settings page, under the "Sharing Peer Reviews" header
 there are four settings that control how editors can share peer reviews.
 
 <figure>
-<img src="../../nstatic/share_peer_reviews.png"
-alt="../../nstatic/share_peer_reviews.png" />
+<img src="../../nstatic/share-peer-reviews.png"
+alt="../../nstatic/share-peer-reviews.png" />
 <figcaption>Settings for controlling sharing of peer
 review.</figcaption>
 </figure>
@@ -193,7 +193,7 @@ new journal is created a default review form is generated automatically
 (called Default Form) it has one element: a text area called "Review".
 
 <figure>
-<img src="/nstatic/review-forms.png" alt="/nstatic/review-forms.png" />
+<img src="./nstatic/review-forms.png" alt="./nstatic/review-forms.png" />
 <figcaption>Review Form interface</figcaption>
 </figure>
 

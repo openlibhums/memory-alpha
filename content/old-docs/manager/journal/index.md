@@ -24,8 +24,8 @@ settings for the journal. Each field is explained in Janeway.
 Here you can activate features for your journal home page.
 
 <figure>
-<img src="../../nstatic/journal_home_settings.png" class="screenshot"
-alt="../../nstatic/journal_home_settings.png" />
+<img src="../../nstatic/journal-home-settings.png" class="screenshot"
+alt="../../nstatic/journal-home-settings.png" />
 <figcaption>The Journal Home Settings page</figcaption>
 </figure>
 
@@ -93,9 +93,9 @@ has for them, but it won't change the proportions of width to height.
 </div>
 
 <figure>
-<img src="../../nstatic/images/Home_page_screenshot.png"
+<img src="../../nstatic/images/Home-page-screenshot.png"
 class="screenshot"
-alt="../../nstatic/images/Home_page_screenshot.png" />
+alt="../../nstatic/images/Home-page-screenshot.png" />
 <figcaption>Header image in top left and large image in center, with OLH
 theme</figcaption>
 </figure>
@@ -134,8 +134,8 @@ The default image for issue covers when no image is set specifically for
 that issue.
 
 <figure>
-<img src="../../nstatic/images/Articles_screenshot.png"
-class="screenshot" alt="../../nstatic/images/Articles_screenshot.png" />
+<img src="../../nstatic/images/Articles-screenshot.png"
+class="screenshot" alt="../../nstatic/images/Articles-screenshot.png" />
 </figure>
 
 Default thumbnail  
@@ -180,8 +180,8 @@ This is a fallback area for editing a setting when you can't find it in
 the interface or for editing settings introduced into your instance.
 
 <figure>
-<img src="../../nstatic/all_settings.png" class="screenshot"
-alt="../../nstatic/all_settings.png" />
+<img src="../../nstatic/all-settings.png" class="screenshot"
+alt="../../nstatic/all-settings.png" />
 </figure>
 
 ## Accessing Settings in Templates and Code

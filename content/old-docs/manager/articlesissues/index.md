@@ -43,8 +43,8 @@ images for a given article.
     large image file is used.
 
 <figure>
-<img src="../../nstatic/large_image.png"
-alt="../../nstatic/large_image.png" />
+<img src="../../nstatic/large-image.png"
+alt="../../nstatic/large-image.png" />
 <figcaption>Example of large image file display</figcaption>
 </figure>
 
@@ -56,8 +56,8 @@ page</figcaption>
 </figure>
 
 <figure>
-<img src="../../nstatic/meta_image.png"
-alt="../../nstatic/meta_image.png" />
+<img src="../../nstatic/meta-image.png"
+alt="../../nstatic/meta-image.png" />
 <figcaption>Example of a meta image on Twitter</figcaption>
 </figure>
 
@@ -76,8 +76,8 @@ It also displays some basic data about the issues like date published
 and the number of articles in an issue.
 
 <figure>
-<img src="../../nstatic/issue_manager.png"
-alt="../../nstatic/issue_manager.png" />
+<img src="../../nstatic/issue-manager.png"
+alt="../../nstatic/issue-manager.png" />
 <figcaption>Issue list</figcaption>
 </figure>
 
@@ -113,8 +113,8 @@ modal that appears you can complete the issue metadata.
     used to collect articles from across the journal into narratives.
 
 <figure>
-<img src="../../nstatic/new_issue.png"
-alt="../../nstatic/new_issue.png" />
+<img src="../../nstatic/new-issue.png"
+alt="../../nstatic/new-issue.png" />
 <figcaption>New issue form</figcaption>
 </figure>
 
@@ -131,8 +131,8 @@ the *View* option, the data of the issue will be displayed along with a
 list of articles grouped by section.
 
 <figure>
-<img src="../../nstatic/issue_page.png"
-alt="../../nstatic/issue_page.png" />
+<img src="../../nstatic/issue-page.png"
+alt="../../nstatic/issue-page.png" />
 <figcaption>An issue page</figcaption>
 </figure>
 
@@ -166,8 +166,8 @@ internal tracking.
 </div>
 
 <figure>
-<img src="../../nstatic/assign_projected_issue_link.png"
-alt="../../nstatic/assign_projected_issue_link.png" />
+<img src="../../nstatic/assign-projected-issue-link.png"
+alt="../../nstatic/assign-projected-issue-link.png" />
 <figcaption>On the Editor Assignment screen you can see which issue an
 article is projected to be in.</figcaption>
 </figure>
@@ -176,8 +176,8 @@ On the projected issue screen you can select, from a drop down, the
 issue you expect the article to be published in.
 
 <figure>
-<img src="../../nstatic/assign_a_projected_issue.png"
-alt="../../nstatic/assign_a_projected_issue.png" />
+<img src="../../nstatic/assign-a-projected-issue.png"
+alt="../../nstatic/assign-a-projected-issue.png" />
 <figcaption>Select an issue and click "Save Projected Issue" to update
 the projected issue for your article.</figcaption>
 </figure>
@@ -282,8 +282,8 @@ Each licence can have the following:
     submission.
 
 <figure>
-<img src="../../nstatic/licence_manager.png"
-alt="../../nstatic/licence_manager.png" />
+<img src="../../nstatic/licence-manager.png"
+alt="../../nstatic/licence-manager.png" />
 <figcaption>Licence Manager</figcaption>
 </figure>
 

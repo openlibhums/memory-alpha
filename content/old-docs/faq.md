@@ -28,8 +28,8 @@ its workflow stage or through the archive (Dashboard -\> Left hand menu
 drop down select Log. image
 
 <figure>
-<img src="nstatic/log_page.gif" class="with-border"
-alt="nstatic/log_page.gif" />
+<img src="nstatic/log-page.gif" class="with-border"
+alt="nstatic/log-page.gif" />
 </figure>
 
 ## Reviewer Cannot Access a Review
@@ -46,6 +46,6 @@ link:
 4.  Copy this link and send it to the reviewer.
 
 <figure>
-<img src="nstatic/view_review.png" class="with-border"
-alt="nstatic/view_review.png" />
+<img src="nstatic/view-review.png" class="with-border"
+alt="nstatic/view-review.png" />
 </figure>

@@ -63,7 +63,7 @@ structure looks as follows:
 
     - olh/ - Repository  
       - sitemap.xml - Root sitemap, this repository is in domain mode
-      - 1_sitemap.xml - Subject
+      - 1-sitemap.xml - Subject
 
 Janeway has a built in view that can handle the serving of the sitemaps
 files but you can also configure your webserver to serve these files for

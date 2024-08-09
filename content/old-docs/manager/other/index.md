@@ -69,8 +69,8 @@ On the edit template page there is a small guide showing some of the
 variables you can use when generating these templates.
 
 <figure>
-<img src="../../nstatic/create_reminders.gif"
-alt="../../nstatic/create_reminders.gif" />
+<img src="../../nstatic/create-reminders.gif"
+alt="../../nstatic/create-reminders.gif" />
 <figcaption>Creating, editing and deleting a reminder.</figcaption>
 </figure>
 
@@ -129,15 +129,15 @@ Tip
 
 </div>
 
-When editing an email that has a URL placeholder (like {{ review_url }}
-) it is important that you do not add anything immediately after this
+When editing an email that has a URL placeholder (like {{ review_url }})
+it is important that you do not add anything immediately after this
 placeholder as email clients may interpret them as part of the link.
 
 </div>
 
 <figure>
-<img src="../../nstatic/edit_template.png"
-alt="../../nstatic/edit_template.png" />
+<img src="../../nstatic/edit-template.png"
+alt="../../nstatic/edit-template.png" />
 <figcaption>Editing an email template.</figcaption>
 </figure>
 

@@ -14,9 +14,9 @@ Usually typeset files include but are not limited to:
 >   the website as HTML with the use of XSLT)
 
 <figure>
-<img src="../nstatic/typesetting/article_files_download.png"
+<img src="../nstatic/typesetting/article-files-download.png"
 class="with-border"
-alt="../nstatic/typesetting/article_files_download.png" />
+alt="../nstatic/typesetting/article-files-download.png" />
 <figcaption>Detail of a published article, showing the option to
 download the Tyepset files</figcaption>
 </figure>
@@ -57,8 +57,8 @@ all the members of staff. This doesn't not restrict access to the other
 editors and production managers in the journal.
 
 <figure>
-<img src="../nstatic/typesetting/articles_in_typesetting.png"
-alt="../nstatic/typesetting/articles_in_typesetting.png" />
+<img src="../nstatic/typesetting/articles-in-typesetting.png"
+alt="../nstatic/typesetting/articles-in-typesetting.png" />
 </figure>
 
 There is also a filter on the top-right-hand corner to display only
@@ -73,8 +73,8 @@ Proofreaders to upload new typeset files of proof typeset files
 respectively
 
 <figure>
-<img src="../nstatic/typesetting/typesetting_article_start.png"
-alt="../nstatic/typesetting/typesetting_article_start.png" />
+<img src="../nstatic/typesetting/typesetting-article-start.png"
+alt="../nstatic/typesetting/typesetting-article-start.png" />
 <figcaption>Manager view of the 'Typesetting Article' page</figcaption>
 </figure>
 
@@ -97,8 +97,8 @@ The typesetting plugin supports 3 mechanisms for adding typeset files.
     HTML...). For unknown file types it will set it as 'OTHER'.
 
 <figure>
-<img src="../nstatic/typesetting/upload_typeset_file.png"
-alt="../nstatic/typesetting/upload_typeset_file.png" />
+<img src="../nstatic/typesetting/upload-typeset-file.png"
+alt="../nstatic/typesetting/upload-typeset-file.png" />
 <figcaption>Manager view of the 'Typesetting Article' page</figcaption>
 </figure>
 
@@ -139,8 +139,8 @@ necessary.
     with your site manager.
 
 <figure>
-<img src="../nstatic/typesetting/typesetting_convert_file.png"
-alt="../nstatic/typesetting/typesetting_convert_file.png" />
+<img src="../nstatic/typesetting/typesetting-convert-file.png"
+alt="../nstatic/typesetting/typesetting-convert-file.png" />
 <figcaption>Detail of the contextual menu for generating typeset files
 with plugins</figcaption>
 </figure>
@@ -181,8 +181,8 @@ point for the typesetter to use as a base, you can still do so from the
 'Upload File' link on the top-right corner of the panel:
 
 <figure>
-<img src="../nstatic/typesetting/files_for_typesetting.png"
-alt="../nstatic/typesetting/files_for_typesetting.png" />
+<img src="../nstatic/typesetting/files-for-typesetting.png"
+alt="../nstatic/typesetting/files-for-typesetting.png" />
 <figcaption>Detail of the 'Files for Typesetting' section</figcaption>
 </figure>
 
@@ -242,9 +242,9 @@ At this point, the task has been created and we can monitor its progress
 from the 'Typesetting Article' page.
 
 <figure>
-<img src="../nstatic/typesetting/awaiting_typeseter.png"
+<img src="../nstatic/typesetting/awaiting-typeseter.png"
 class="with-border"
-alt="../nstatic/typesetting/awaiting_typeseter.png" />
+alt="../nstatic/typesetting/awaiting-typeseter.png" />
 </figure>
 
 It shows details such as the current status of the task, whether or not
@@ -262,9 +262,9 @@ notification. The link on the email should direct you to the
 the files provided by the typesetter:
 
 <figure>
-<img src="../nstatic/typesetting/review_typesetting.png"
+<img src="../nstatic/typesetting/review-typesetting.png"
 class="with-border"
-alt="../nstatic/typesetting/review_typesetting.png" />
+alt="../nstatic/typesetting/review-typesetting.png" />
 </figure>
 
 As an editor or production manager we can now select one out 3 choices  
@@ -283,9 +283,9 @@ create a proofing task, where authors and/or editors can be invited to
 proof the typeset files.
 
 <figure>
-<img src="../nstatic/typesetting/assigning_proofreaders.gif"
+<img src="../nstatic/typesetting/assigning-proofreaders.gif"
 class="with-border"
-alt="../nstatic/typesetting/assigning_proofreaders.gif" />
+alt="../nstatic/typesetting/assigning-proofreaders.gif" />
 </figure>
 
 ## Reviewing a proofreading request
@@ -294,9 +294,9 @@ As the author/editors finish the proofing process you can review their
 comments.
 
 <figure>
-<img src="../nstatic/typesetting/proofreading_review.png"
+<img src="../nstatic/typesetting/proofreading-review.png"
 class="with-shadow"
-alt="../nstatic/typesetting/proofreading_review.png" />
+alt="../nstatic/typesetting/proofreading-review.png" />
 </figure>
 
 Depending on the feedback coming from the proofreading, it may be
@@ -312,9 +312,9 @@ As soon as all proofing tasks are completed we will hit the request
 corrections button, which will start a new round of typesetting.
 
 <figure>
-<img src="../nstatic/typesetting/request_corrections_button.png"
+<img src="../nstatic/typesetting/request-corrections-button.png"
 class="with-border"
-alt="../nstatic/typesetting/request_corrections_button.png" />
+alt="../nstatic/typesetting/request-corrections-button.png" />
 </figure>
 
 Now we can asssign a typesetter to work on the corrections (usually, the
@@ -323,9 +323,9 @@ When creating the task, we will be presented with the option to include
 the feedback from the proofreaders.
 
 <figure>
-<img src="../nstatic/typesetting/corrections_notes_display.png"
+<img src="../nstatic/typesetting/corrections-notes-display.png"
 class="with-border"
-alt="../nstatic/typesetting/corrections_notes_display.png" />
+alt="../nstatic/typesetting/corrections-notes-display.png" />
 </figure>
 
 Even when the comments are made available, it is still recommended that
@@ -335,9 +335,9 @@ request contradictory corrections). We can also select which files the
 typesetter needs to apply the corrections to:
 
 <figure>
-<img src="../nstatic/typesetting/corrections_files.png"
+<img src="../nstatic/typesetting/corrections-files.png"
 class="with-border"
-alt="../nstatic/typesetting/corrections_files.png" />
+alt="../nstatic/typesetting/corrections-files.png" />
 </figure>
 
 After the task is sent out, we just have to wait for the typesetter to
@@ -370,8 +370,8 @@ and the DOI that has been assigned to it.
 </div>
 
 <figure>
-<img src="../nstatic/typesetting/supp_files.gif" class="with-border"
-alt="../nstatic/typesetting/supp_files.gif" />
+<img src="../nstatic/typesetting/supp-files.gif" class="with-border"
+alt="../nstatic/typesetting/supp-files.gif" />
 </figure>
 
 ## Managing Typeset Files/Galleys
@@ -381,9 +381,9 @@ Janeway they become manageable within the system. To manage a typeset
 file/galley press the Edit icon on the relevant table row.
 
 <figure>
-<img src="../nstatic/typesetting/editor/typeset_files.png"
+<img src="../nstatic/typesetting/editor/typeset-files.png"
 class="with-border"
-alt="../nstatic/typesetting/editor/typeset_files.png" />
+alt="../nstatic/typesetting/editor/typeset-files.png" />
 </figure>
 
 An XML typeset file with missing figure files.
@@ -391,9 +391,9 @@ An XML typeset file with missing figure files.
 ### File Detail
 
 <figure>
-<img src="../nstatic/typesetting/editor/file_details.png"
+<img src="../nstatic/typesetting/editor/file-details.png"
 class="with-border"
-alt="../nstatic/typesetting/editor/file_details.png" />
+alt="../nstatic/typesetting/editor/file-details.png" />
 </figure>
 
 The file label is displayed on the main article page and is displayed in
@@ -419,9 +419,9 @@ unchecking the "Public" field in this section.
 ### Replacing the Typeset File
 
 <figure>
-<img src="../nstatic/typesetting/editor/edit_typeset_file.png"
+<img src="../nstatic/typesetting/editor/edit-typeset-file.png"
 class="with-border"
-alt="../nstatic/typesetting/editor/edit_typeset_file.png" />
+alt="../nstatic/typesetting/editor/edit-typeset-file.png" />
 </figure>
 
 If you need to upload a new version of the typeset file you can do so
@@ -440,9 +440,9 @@ example). You can load up images against a typeset file by editing it
 and scrolling to the Image File section.
 
 <figure>
-<img src="../nstatic/typesetting/editor/image_files.png"
+<img src="../nstatic/typesetting/editor/image-files.png"
 class="with-border"
-alt="../nstatic/typesetting/editor/image_files.png" />
+alt="../nstatic/typesetting/editor/image-files.png" />
 </figure>
 
 For each missing image file Janeway will present you with a block where

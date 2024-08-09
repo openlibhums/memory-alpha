@@ -5,8 +5,8 @@ notification and also be able to see the task on your dashboard under
 **Production**.
 
 <figure>
-<img src="nstatic/production_block.png"
-alt="nstatic/production_block.png" />
+<img src="nstatic/production-block.png"
+alt="nstatic/production-block.png" />
 <figcaption>Production block</figcaption>
 </figure>
 
@@ -22,8 +22,8 @@ Clicking on view requests will display three columns
   - Assignments you have completed.
 
 <figure>
-<img src="nstatic/typesetting_requests.png"
-alt="nstatic/typesetting_requests.png" />
+<img src="nstatic/typesetting-requests.png"
+alt="nstatic/typesetting-requests.png" />
 <figcaption>Typesetting requests</figcaption>
 </figure>
 
@@ -49,8 +49,8 @@ The interface is broken in 4 sections.
     article's metadata.
 
 <figure>
-<img src="nstatic/typeset_article.png"
-alt="nstatic/typeset_article.png" />
+<img src="nstatic/typeset-article.png"
+alt="nstatic/typeset-article.png" />
 <figcaption>Typesetter interface</figcaption>
 </figure>
 
@@ -159,8 +159,8 @@ provided, but typesetters can edit the label to add a different one if
 necessary.
 
 <figure>
-<img src="nstatic/typesetting/upload_typeset_file.png"
-alt="nstatic/typesetting/upload_typeset_file.png" />
+<img src="nstatic/typesetting/upload-typeset-file.png"
+alt="nstatic/typesetting/upload-typeset-file.png" />
 <figcaption>Screenshot of the new file upload box</figcaption>
 </figure>
 
@@ -171,16 +171,16 @@ links Janeway will detect them and prompt the typesetter to upload them.
 Image filenames should match those within the XML or HTML.
 
 <figure>
-<img src="nstatic/typesetting/images_missing.png"
-alt="nstatic/typesetting/images_missing.png" />
+<img src="nstatic/typesetting/images-missing.png"
+alt="nstatic/typesetting/images-missing.png" />
 </figure>
 
 At this point, press the edit button and upload each image on the box
 matching the filename from the XML/HTML file:
 
 <figure>
-<img src="nstatic/typesetting/typesetter_images.png"
-alt="nstatic/typesetting/typesetter_images.png" />
+<img src="nstatic/typesetting/typesetter-images.png"
+alt="nstatic/typesetting/typesetter-images.png" />
 </figure>
 
 If an XML or HTML file has a large number of images it is often faster
@@ -195,8 +195,8 @@ If any intermiadate files have been used for the production of the Files
 Files' section
 
 <figure>
-<img src="nstatic/typesetting/source_files.png"
-alt="nstatic/typesetting/source_files.png" />
+<img src="nstatic/typesetting/source-files.png"
+alt="nstatic/typesetting/source-files.png" />
 <figcaption>Screenshot of the source files form</figcaption>
 </figure>
 
@@ -207,8 +207,8 @@ problems it detects with your files, such as potential missing images on
 the XML/HTML files or Typeset Files that have not yet been corrected.
 
 <figure>
-<img src="nstatic/typesetting/images_missing_warning.png"
-alt="nstatic/typesetting/images_missing_warning.png" />
+<img src="nstatic/typesetting/images-missing-warning.png"
+alt="nstatic/typesetting/images-missing-warning.png" />
 </figure>
 
 Once you are done with the typesetting or correction task, you can leave

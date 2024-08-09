@@ -33,8 +33,8 @@ on your journal. From this page we can:
   - Production assignments
 
 <figure>
-<img src="../../nstatic/enrolled_users.png"
-alt="../../nstatic/enrolled_users.png" />
+<img src="../../nstatic/enrolled-users.png"
+alt="../../nstatic/enrolled-users.png" />
 <figcaption>The enrolled users interface. From here we can search, add
 new users and assign additional roles amongst other things.</figcaption>
 </figure>
@@ -95,8 +95,8 @@ Once you have found an account you will be able to see which roles they
 have and which are available to be assigned to them.
 
 <figure>
-<img src="../../nstatic/enrol_user.gif"
-alt="../../nstatic/enrol_user.gif" />
+<img src="../../nstatic/enrol-user.gif"
+alt="../../nstatic/enrol-user.gif" />
 <figcaption>This user has two roles (Author and Editor) and can be
 assigned any of the other roles.</figcaption>
 </figure>
@@ -177,8 +177,8 @@ left column will be merged into the user account in the right column.
 </div>
 
 <figure>
-<img src="../../nstatic/merge_users.gif" class="with-border"
-alt="../../nstatic/merge_users.gif" />
+<img src="../../nstatic/merge-users.gif" class="with-border"
+alt="../../nstatic/merge-users.gif" />
 <figcaption>A press manager is merging Andy Byers' account into Katheryn
 Janeway's account.</figcaption>
 </figure>

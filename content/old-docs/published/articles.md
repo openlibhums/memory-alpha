@@ -21,8 +21,8 @@ drop down to select the Edit Article link.
 </div>
 
 <figure>
-<img src="/nstatic/article_archive.png"
-alt="/nstatic/article_archive.png" />
+<img src="./nstatic/article-archive.png"
+alt="./nstatic/article-archive.png" />
 <figcaption>Top of the article archive page</figcaption>
 </figure>
 
@@ -43,8 +43,8 @@ The first block of the page lists most of the article's metadata. To
 change it you can press the Edit button.
 
 <figure>
-<img src="/nstatic/edit_metadata.png"
-alt="/nstatic/edit_metadata.png" />
+<img src="./nstatic/edit-metadata.png"
+alt="./nstatic/edit-metadata.png" />
 <figcaption>Top of the article archive page</figcaption>
 </figure>
 
@@ -79,8 +79,8 @@ cite block. These can be used to notify readers of small changes to the
 paper like a post-publication update to fix spelling etc.
 
 <figure>
-<img src="/nstatic/publisher_note.png"
-alt="/nstatic/publisher_note.png" />
+<img src="./nstatic/publisher-note.png"
+alt="./nstatic/publisher-note.png" />
 <figcaption>Publisher note on the OLH theme</figcaption>
 </figure>
 
@@ -90,7 +90,7 @@ Any identifiers such as DOIs are listed here and a link to manage them
 is in the top right of the block.
 
 <figure>
-<img src="/nstatic/edit_doi.png" alt="/nstatic/edit_doi.png" />
+<img src="./nstatic/edit-doi.png" alt="./nstatic/edit-doi.png" />
 <figcaption>The article-level identifiers manager</figcaption>
 </figure>
 
@@ -113,8 +113,8 @@ Much like the Production page, the article archive allows you to upload
 new and replace old Galley files.
 
 <figure>
-<img src="/nstatic/galleys_archive.png"
-alt="/nstatic/galleys_archive.png" />
+<img src="./nstatic/galleys-archive.png"
+alt="./nstatic/galleys-archive.png" />
 <figcaption>Galley manager block</figcaption>
 </figure>
 
@@ -150,8 +150,8 @@ Article Archive page. You can edit each of the issues or jump to the
 issue manager.
 
 <figure>
-<img src="/nstatic/archive_issue.png"
-alt="/nstatic/archive_issue.png" />
+<img src="./nstatic/archive-issue.png"
+alt="./nstatic/archive-issue.png" />
 <figcaption>Archive issue block</figcaption>
 </figure>
 
