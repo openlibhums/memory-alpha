@@ -51,6 +51,7 @@ help:
 	@echo '   make serve-global [SERVER=0.0.0.0]  serve (as root) to $(SERVER):80    '
 	@echo '   make devserver [PORT=8000]          serve and regenerate together      '
 	@echo '   make devserver-global               regenerate and serve on 0.0.0.0    '
+	@echo '   make docker-server                  serve on 0.0.0.0 from container    '
 	@echo '   make ssh_upload                     upload the web site via SSH        '
 	@echo '   make sftp_upload                    upload the web site via SFTP       '
 	@echo '   make rsync_upload                   upload the web site via rsync+ssh  '
@@ -83,6 +84,10 @@ devserver:
 
 devserver-global:
 	"$(PELICAN)" -lr "$(INPUTDIR)" -o "$(OUTPUTDIR)" -s "$(CONFFILE)" $(PELICANOPTS) -b 0.0.0.0
+
+docker-server:
+	docker run --rm -ti -p ${PORT}:${PORT} \
+		--entrypoint='${PELICAN} -lr ${INPUTDIR} -o ${OUTPUTDIR} -s ${CONFFILE} ${PELICANOPTS} -b 0.0.0.0'
 
 publish:
 	"$(PELICAN)" "$(INPUTDIR)" -o "$(OUTPUTDIR)" -s "$(PUBLISHCONF)" $(PELICANOPTS)
