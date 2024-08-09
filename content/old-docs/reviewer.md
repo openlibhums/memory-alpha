@@ -1,4 +1,4 @@
-# Reviewer Guide
+Title: Reviewer Guide
 
 Reviewers can access reviews in two ways:
 

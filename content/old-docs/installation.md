@@ -1,4 +1,4 @@
-# Installation Guide
+Title: Installation Guide
 
 There are a number of ways to get Janeway up and running. For
 development we recommend you use Docker with Postgres as the DB_VENDOR.

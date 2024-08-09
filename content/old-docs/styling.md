@@ -1,4 +1,4 @@
-# Styling
+Title: Styling
 
 <div class="toctree" maxdepth="3">
 

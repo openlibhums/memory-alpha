@@ -1,4 +1,4 @@
-# Published Content
+Title: Published Content
 
 Once you've published articles or issues you may need to manage/make
 changes to them. These guides will help you.

@@ -1,4 +1,5 @@
-# Review
+Title: Review
+Slug: review-configuration
 
 The management interface has two sections that allow you to manage peer
 review settings for journals.
@@ -63,7 +64,7 @@ given journal. The settings editable here are:
     the setting to provide a readout of current metadata so the editor
     can do a quick check of what will be sent to Crossref. To show
     registration information, populate the setting with
-    `{{ article.registration_preview|safe }}`
+    `{% raw %}{{ article.registration_preview|safe }}{% endraw %}`
 
 - Enable expanded review details  
   - When this setting is enabled, the editor's review dashboard will

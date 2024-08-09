@@ -1,4 +1,4 @@
-# Copyeditor Guide
+Title: Copyeditor Guide
 
 As a copyeditor you may be assigned copyediting tasks for a paper. When
 a new assignment is made you will receive and email and be able to see

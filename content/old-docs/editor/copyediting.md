@@ -1,4 +1,4 @@
-# Copyediting
+Title: Copyediting
 
 The copyediting stage provides an interface to track copyediting
 requests.

@@ -1,4 +1,4 @@
-# Other
+Title: Other
 
 The *other* section covers three things:
 

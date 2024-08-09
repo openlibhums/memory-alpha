@@ -1,4 +1,4 @@
-# Articles and Issues
+Title: Articles and Issues
 
 ## Article Display Settings
 

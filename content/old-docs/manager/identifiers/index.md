@@ -1,4 +1,4 @@
-# Identifiers
+Title: Identifiers
 
 Support for minting Digital Object Identifiers (DOIs) with Crossref is
 built into Janeway's core. We will be expanding this to other providers
@@ -163,7 +163,7 @@ DOI Pattern
 The pattern for auto-generating DOIs. Defaults to using the journal code
 and article ID (e.g. `orbit.123`):
 
-> `{{ article.journal.code }}.{{ article.pk }}`
+> `{% raw %}{{ article.journal.code }}.{{ article.pk }}{% endraw %}`
 
 Title DOI  
 The DOI (not in URL format) registered for this journal (e.g.

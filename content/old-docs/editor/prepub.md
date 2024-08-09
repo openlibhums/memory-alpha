@@ -1,4 +1,4 @@
-# Pre Publication
+Title: Pre Publication
 
 The Pre Publication stage of the workflow takes you through the last
 checks before publication, going through each of these final elements

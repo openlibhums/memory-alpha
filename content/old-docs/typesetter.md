@@ -1,4 +1,4 @@
-# Typesetter Guide
+Title: Typesetter Guide
 
 When a typesetting task is assigned you will receive an email
 notification and also be able to see the task on your dashboard under

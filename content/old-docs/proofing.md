@@ -1,4 +1,4 @@
-# Proofreader Guide
+Title: Proofreader Guide
 
 As a proofreader you may be assigned proofing tasks for a paper. When a
 new assignment is made you will receive and email and be able to see the
