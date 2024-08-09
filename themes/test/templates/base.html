@@ -14,7 +14,7 @@
         <meta name="description" content="{{ SITESUBTITLE }}" />
       {% endif %}
       {% if STYLESHEET_URL %}
-        <link rel="stylesheet" type="text/css" href="{{ STYLESHEET_URL }}" />
+        <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/{{ STYLESHEET_URL }}" />
       {% endif %}
       {% include "atom_rss_feed_tags.html" %}
     {% endblock head %}
