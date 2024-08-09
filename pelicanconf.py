@@ -51,7 +51,18 @@ PAGE_URL = '{slug}.html'
 PAGE_SAVE_AS = '{slug}.html'
 
 # Static
-STATIC_PATHS = ['docs/images']
+STATIC_PATHS = [
+    'docs/images',
+
+    # Legacy paths from old docs
+    # that we will eventually remove
+    'old-docs/nstatic',
+    'old-docs/nstatic/images',
+    'old-docs/nstatic/imports',
+    'old-docs/nstatic/image_guidelines',
+    'old-docs/nstatic/typesetting',
+    'old-docs/nstatic/typesetting/editor',
+]
 
 # The following two settings allow us to co-locate component HTML and CSS files in the same folder.
 # Prevent HTML files in /components/ from being copied to served assets
@@ -68,8 +79,21 @@ DISPLAY_CATEGORIES_ON_MENU = False
 MENUITEMS = [
     ('Home', '/'),
     ('Nav1', '/example-page.html'),
-    ('Nav2', '/docs/example-docs-page.html'),
+    ('Help/Docs', '/docs-under-construction.html'),
 ]
 
 # jinja2content plugin
 JINJA2CONTENT_TEMPLATES = ['content']
+
+# Use mtime of files as date in webpage metadata
+DEFAULT_DATE = 'fs'
+
+# Take the 'categories' feature and temporarily
+# mis-use it to create a working contents tree for docs
+CATEGORIES_SAVE_AS = 'docs-under-construction.html'
+
+JINJA_ENVIRONMENT = {
+    'extensions': ['jinja2.ext.do'],
+}
+
+GH_COPYEDIT_CONTENT_URL = 'https://github.com/BirkbeckCTP/memory-alpha/edit/copyediting/content'
