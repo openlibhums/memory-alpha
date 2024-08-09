@@ -9,8 +9,8 @@ their own through the Issue Manager, a link to which is available on the
 Manager page and the main sidebar.
 
 <figure>
-<img src="../nstatic/issue_management.png"
-alt="../nstatic/issue_management.png" />
+<img src="../nstatic/issue-management.png"
+alt="../nstatic/issue-management.png" />
 <figcaption>The Issue Management page.</figcaption>
 </figure>
 
@@ -121,8 +121,8 @@ You can create new issues from this page using the Create Issue button
 and you view and edit the detail of individual issues by selecting them.
 
 <figure>
-<img src="../nstatic/create_issue.png"
-alt="../nstatic/create_issue.png" />
+<img src="../nstatic/create-issue.png"
+alt="../nstatic/create-issue.png" />
 <figcaption>An empty create issue form</figcaption>
 </figure>
 
@@ -154,8 +154,8 @@ section up and down, each of the articles can be dragged and dropped
 into order from inside their section.
 
 <figure>
-<img src="../nstatic/issue_table_of_contents.png"
-alt="../nstatic/issue_table_of_contents.png" />
+<img src="../nstatic/issue-table-of-contents.png"
+alt="../nstatic/issue-table-of-contents.png" />
 <figcaption>Issue table of contents</figcaption>
 </figure>
 
@@ -163,8 +163,8 @@ You can drop an article from an issue using the Remove link and add new
 ones clicking the Add Article link.
 
 <figure>
-<img src="../nstatic/issue_articles.png"
-alt="../nstatic/issue_articles.png" />
+<img src="../nstatic/issue-articles.png"
+alt="../nstatic/issue-articles.png" />
 <figcaption>Articles that can be added to issues</figcaption>
 </figure>
 
@@ -179,14 +179,14 @@ the normal editorial team. Use the Manage button to control who appears
 as a Guest Editor for an issue/collection.
 
 <figure>
-<img src="../nstatic/empty_guest_editors.png"
-alt="../nstatic/empty_guest_editors.png" />
+<img src="../nstatic/empty-guest-editors.png"
+alt="../nstatic/empty-guest-editors.png" />
 <figcaption>An issue with no guest editors</figcaption>
 </figure>
 
 <figure>
-<img src="../nstatic/manage_guest_editors.png"
-alt="../nstatic/manage_guest_editors.png" />
+<img src="../nstatic/manage-guest-editors.png"
+alt="../nstatic/manage-guest-editors.png" />
 <figcaption>An issue with no guest editors</figcaption>
 </figure>
 
@@ -200,8 +200,8 @@ You can upload a Galley file for the whole issue, usually a PDF so that
 users can download the whole issue in one go.
 
 <figure>
-<img src="../nstatic/issue_galley.png"
-alt="../nstatic/issue_galley.png" />
+<img src="../nstatic/issue-galley.png"
+alt="../nstatic/issue-galley.png" />
 <figcaption>An issue with no guest editors</figcaption>
 </figure>
 

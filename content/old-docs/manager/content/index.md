@@ -9,8 +9,8 @@ The Content Manager is Janeway's CMS. Pages can be created an edited
 using our rich text editor.
 
 <figure>
-<img src="../../nstatic/content_manager.png"
-alt="../../nstatic/content_manager.png" />
+<img src="../../nstatic/content-manager.png"
+alt="../../nstatic/content-manager.png" />
 <figcaption>Content Manager</figcaption>
 </figure>
 
@@ -125,8 +125,8 @@ exiting news items on the left and a form for adding new items on the
 right.
 
 <figure>
-<img src="../../nstatic/news_manager.png"
-alt="../../nstatic/news_manager.png" />
+<img src="../../nstatic/news-manager.png"
+alt="../../nstatic/news-manager.png" />
 <figcaption>News Manager interface</figcaption>
 </figure>
 
@@ -161,8 +161,8 @@ The form fields include:
     by tags
 
 <figure>
-<img src="../../nstatic/news_item.png"
-alt="../../nstatic/news_item.png" />
+<img src="../../nstatic/news-item.png"
+alt="../../nstatic/news-item.png" />
 <figcaption>A news item with image and tags, material theme</figcaption>
 </figure>
 
@@ -185,8 +185,8 @@ Each outgoing message is recorded in the database and can be viewed in
 the admin area by staff.
 
 <figure>
-<img src="../../nstatic/contact_manager.png"
-alt="../../nstatic/contact_manager.png" />
+<img src="../../nstatic/contact-manager.png"
+alt="../../nstatic/contact-manager.png" />
 <figcaption>Contact Manager interface. The sort handles indicate you can
 drag and drop to re-order your contacts.</figcaption>
 </figure>
@@ -211,8 +211,8 @@ left. For each group you can:
 - Drag and drop to re-order them
 
 <figure>
-<img src="../../nstatic/editorial_team.png"
-alt="../../nstatic/editorial_team.png" />
+<img src="../../nstatic/editorial-team.png"
+alt="../../nstatic/editorial-team.png" />
 <figcaption>The Editorial Team interface</figcaption>
 </figure>
 
@@ -253,8 +253,8 @@ button (Green with a group of outlines) to change the membership of the
 group.
 
 <figure>
-<img src="../../nstatic/group_membership.png"
-alt="../../nstatic/group_membership.png" />
+<img src="../../nstatic/group-membership.png"
+alt="../../nstatic/group-membership.png" />
 <figcaption>An editorial team</figcaption>
 </figure>
 
@@ -274,8 +274,8 @@ customise the Submission page to your liking. The existing submission
 items have automatically been setup for you and can now be edited.
 
 <figure>
-<img src="../../nstatic/submission_items.png"
-alt="../../nstatic/submission_items.png" />
+<img src="../../nstatic/submission-items.png"
+alt="../../nstatic/submission-items.png" />
 <figcaption>List of default submission items generated in the v1.4
 upgrade process.</figcaption>
 </figure>
@@ -290,8 +290,8 @@ From the main screen you can add new, edit existing and delete items as
 well as re-order them by dragging and dropping rows of the table.
 
 <figure>
-<img src="../../nstatic/submission_items_reorder.gif"
-alt="../../nstatic/submission_items_reorder.gif" />
+<img src="../../nstatic/submission-items-reorder.gif"
+alt="../../nstatic/submission-items-reorder.gif" />
 <figcaption>List of default submission items generated in the v1.4
 upgrade process.</figcaption>
 </figure>
@@ -361,8 +361,8 @@ should contact the support team.
 </div>
 
 <figure>
-<img src="../../nstatic/media_files.gif"
-alt="../../nstatic/media_files.gif" />
+<img src="../../nstatic/media-files.gif"
+alt="../../nstatic/media-files.gif" />
 <figcaption>Upload and deletion of a media file.</figcaption>
 </figure>
 

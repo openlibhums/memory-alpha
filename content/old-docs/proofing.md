@@ -14,8 +14,8 @@ and Completed proofing requests. Once you have accepted a new task you
 can use the View button to begin proofing.
 
 <figure>
-<img src="nstatic/proofing_requests.png"
-alt="nstatic/proofing_requests.png" />
+<img src="nstatic/proofing-requests.png"
+alt="nstatic/proofing-requests.png" />
 <figcaption>A proofing task that has been accepted</figcaption>
 </figure>
 
@@ -41,7 +41,7 @@ The proofing task page is broken down into three sections
 - File Upload
 
 <figure>
-<img src="nstatic/proofing_page.png" alt="nstatic/proofing_page.png" />
+<img src="nstatic/proofing-page.png" alt="nstatic/proofing-page.png" />
 <figcaption>A proofing task that has been accepted</figcaption>
 </figure>
 
@@ -67,8 +67,8 @@ Each of the Galleys has an accordian-type drop down so if you click on
 its name you will see a new section appear with more information.
 
 <figure>
-<img src="nstatic/proofing_galleys.png"
-alt="nstatic/proofing_galleys.png" />
+<img src="nstatic/proofing-galleys.png"
+alt="nstatic/proofing-galleys.png" />
 <figcaption>An XML galley expanded</figcaption>
 </figure>
 
