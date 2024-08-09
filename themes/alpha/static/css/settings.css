@@ -42,10 +42,27 @@
   --ff-poppins-regular: 'Poppins Regular', sans-serif;
   --ff-poppins-medium: 'Poppins Medium', sans-serif;
   --ff-poppins-bold: 'Poppins Bold', sans-serif;
+  --ff-poppins-italic: 'Poppins Italic', sans-serif;
+  --ff-poppins-bold-italic: 'Poppins Bold Italic', sans-serif;
+
   --ff-space-mono-regular: 'Space Mono Regular', monospace;
+  --ff-space-mono-medium: 'Space Mono Medium', monospace;
   --ff-space-mono-bold: 'Space Mono Bold', monospace;
   --ff-space-mono-italic: 'Space Mono Italic', monospace;
   --ff-space-mono-bold-italic: 'Space Mono Bold Italic', monospace;
+
+  --ff-sans-regular: var(--ff-poppins-regular);
+  --ff-sans-medium: var(--ff-poppins-medium);
+  --ff-sans-bold: var(--ff-poppins-bold);
+  --ff-sans-italic: var(--ff-poppins-italic);
+  --ff-sans-bold-italic: var(--ff-poppins-bold-italic);
+
+  --ff-mono-regular: var(--ff-space-mono-regular);
+  --ff-mono-medium: var(--ff-space-mono-medium);
+  --ff-mono-bold: var(--ff-space-mono-bold);
+  --ff-mono-italic: var(--ff-space-mono-italic);
+  --ff-mono-bold-italic: var(--ff-space-mono-bold-italic);
+
 
   /* Font sizes */
   /* Source: https://utopia.fyi/type/calculator */

@@ -37,10 +37,23 @@
 .ff-poppins { font-family: var(--ff-poppins); }
 .ff-poppins-medium { font-family: var(--ff-poppins-medium); }
 .ff-poppins-bold { font-family: var(--ff-poppins-bold); }
+
 .ff-space-mono-regular { font-family: var(--ff-space-mono-regular); }
 .ff-space-mono-bold { font-family: var(--ff-space-mono-bold); }
 .ff-space-mono-italic { font-family: var(--ff-space-mono-italic); }
 .ff-space-mono-bold-italic { font-family: var(--ff-space-mono-bold-italic); }
+
+.ff-sans-regular { font-family: var(--ff-sans-regular); }
+.ff-sans-medium { font-family: var(--ff-sans-medium); }
+.ff-sans-bold { font-family: var(--ff-sans-bold); }
+.ff-sans-italic { font-family: var(--ff-sans-italic); }
+.ff-sans-bold-italic { font-family: var(--ff-sans-bold-italic); }
+
+.ff-mono-regular { font-family: var(--ff-mono-regular); }
+.ff-mono-medium { font-family: var(--ff-mono-medium); }
+.ff-mono-bold { font-family: var(--ff-mono-bold); }
+.ff-mono-italic { font-family: var(--ff-mono-italic); }
+.ff-mono-bold-italic { font-family: var(--ff-mono-bold-italic); }
 
 .letter-spacing-1 { letter-spacing: 4.75px; }
 .letter-spacing-2 { letter-spacing: 2.7px; }

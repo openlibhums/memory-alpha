@@ -14,6 +14,7 @@
 @import "../components/button.css" layer(components);
 @import "../components/example_component.css" layer(components);
 @import "../components/george_space_splash.css" layer(components);
+@import "../components/footer.css" layer(components);
 @import "../components/main_nav.css" layer(components);
 @import "../components/page_h1.css" layer(components);
 @import "../components/page_section.css" layer(components);
