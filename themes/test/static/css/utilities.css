@@ -76,7 +76,6 @@
   .grow-0 { flex-grow: 0; }
 }
 
-
 /* Set the gap */
 .gap-0 { gap: 0rem; }
 .gap-1 { gap: 1rem; }
@@ -93,6 +92,24 @@
   /* Create an automatically responsive grid with minimum item size */
   &.auto {
     grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size, 16rem), 1fr));
+  }
+  /* Columns in landscape */
+  @media (orientation: landscape) {
+    &.columns-1-landscape {
+      grid-template-columns: repeat(1, auto);
+    }
+    &.columns-2-landscape {
+      grid-template-columns: repeat(2, auto);
+    }
+    &.columns-3-landscape {
+      grid-template-columns: repeat(3, auto);
+    }
+  }
+  /* Columns in portrait */
+  @media (orientation: portrait) {
+    &.columns-1-portrait {
+      grid-template-columns: 1fr;
+    }
   }
 }
 
