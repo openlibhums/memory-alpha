@@ -1,4 +1,4 @@
-# Overview of Plugins available on Janeway
+Title: Overview of Plugins available on Janeway
 
 ## VAC (Voluntary Author Contributions)
 This plugin allows for tracking of VACs (Voluntary Author Contributions). It however does **not** enforce APCs (Article Processing Charges). It will at no point block publication of an article, instead it allows editors to track submissions and their linked VACs and VAC waivers. It will also track whether a VAC has been paid.
