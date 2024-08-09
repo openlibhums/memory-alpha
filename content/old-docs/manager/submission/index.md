@@ -1,4 +1,4 @@
-# Submission
+Title: Submission
 
 The management interface has three sections that allow you to manage
 submission settings for journals.

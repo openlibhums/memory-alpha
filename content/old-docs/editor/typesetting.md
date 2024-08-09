@@ -1,4 +1,4 @@
-# Typesetting (Plugin)
+Title: Typesetting (Plugin)
 
 The typesetting plugin is a new workflow element introduced with the
 release of Janeway v1.3.8 This new element aims to simplify the

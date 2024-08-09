@@ -1,4 +1,5 @@
-# Review
+Title: Review
+Slug: review-workflow
 
 ## Unassigned Article
 

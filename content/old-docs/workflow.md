@@ -1,4 +1,4 @@
-# Workflow Guides
+Title: Workflow Guides
 
 <div class="toctree" maxdepth="3" caption="Guides:">
 

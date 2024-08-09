@@ -1,4 +1,4 @@
-# Proofing
+Title: Proofing
 
 The Proofing stage allows us to request proofreading from any of:
 

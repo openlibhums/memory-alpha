@@ -1,4 +1,4 @@
-# Issues
+Title: Issues
 
 Articles do not have to be part of an issue. There are some services
 that do require an article have an issue or volume (such as Crossref) so

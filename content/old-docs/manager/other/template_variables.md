@@ -1,4 +1,4 @@
-# Email Template Variables
+Title: Email Template Variables
 
 <div class="warning">
 
@@ -143,13 +143,13 @@ The journal object contains the following attributes:
 
 If I wanted to display the due date I could use:
 
-{{ review_assignment.date_due }}
+{% raw %}{{ review_assignment.date_due }}{% endraw %}
 
 If I wanted to display the title of the issue this article is projected
 to be in I can use:
 
-{{ article.projected_issue.display_title }}
+{% raw %}{{ article.projected_issue.display_title }}{% endraw %}
 
 If I wanted to display an article's journal's name I would use:
 
-{{ article.journal.name }}
+{% raw %}{{ article.journal.name }}{% endraw %}

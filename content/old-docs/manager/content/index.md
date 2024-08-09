@@ -1,4 +1,4 @@
-# Content
+Title: Content
 
 The content section allows us to control the navigation menu, content
 pages, news and editorial team in Janeway.

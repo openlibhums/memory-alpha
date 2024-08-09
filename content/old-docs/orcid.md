@@ -1,4 +1,4 @@
-# ORCID Sign In
+Title: ORCID Sign In
 
 Janeway has had support for ORCID login for some time. It can be enabled
 by adding the following to your settings file.

@@ -1,4 +1,4 @@
-# Journal Settings
+Title: Journal Settings
 
 In journal settings, you can set basic information about the journal,
 configure home page elements, upload logos and banner images, and adjust
@@ -186,11 +186,11 @@ alt="../../nstatic/all_settings.png" />
 
 ## Accessing Settings in Templates and Code
 
-Setting values can be accessed inside templates using **{{
-journal_settings.group_name.setting_name }}**:
+Setting values can be accessed inside templates using **{% raw %}{{
+journal_settings.group_name.setting_name }}{% endraw %}**:
 
 ``` py
-{{ journal_settings.crosscheck.enable_crosscheck }}
+{% raw %}{{ journal_settings.crosscheck.enable_crosscheck }}{% endraw %}
 ```
 
 In Django they can be accessed with **get_setting**:

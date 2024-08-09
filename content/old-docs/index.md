@@ -1,4 +1,4 @@
-# Janeway Documentation
+Title: Janeway Documentation
 
 Janeway is a digital platform for publishing scholarly articles online,
 from submission and review to editing, production and final publication.
