@@ -1,5 +1,7 @@
 Title: Import, Export, Update
 
+Note to SH: Update to clarify article level metadata only goes on the main author row. Update import example as well.
+
 The Import / Export / Update tool lets you perform some batch actions in
 Janeway. You can import and export article metadata and files, and you
 can update some fields of existing articles.
