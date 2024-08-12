@@ -1,5 +1,7 @@
 Title: Issues
 
+# Issues
+
 Articles do not have to be part of an issue. There are some services
 that do require an article have an issue or volume (such as Crossref) so
 we recommend that if you do continues publication that you create a

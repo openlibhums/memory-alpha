@@ -1,5 +1,7 @@
 Title: Books plugin
 
+# Books plugin
+
 Through this plugin, all book-related tasks and metadata are managed.
 This plugin has three key functionalities:
 
@@ -366,7 +368,7 @@ data will be collected and the metrics will remain at 0.
 
 The first section of this dashboard displays the total views and
 downloads (each in their respective column) per book. The columns can be
-sorted by ID, Title, Subtitle, First Author name, Date published, Reads
+sorted by ID,, Subtitle, First Author name, Date published, Reads
 and Downloads.
 
 ![" "](images/books-metrics.png)

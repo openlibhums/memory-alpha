@@ -1,5 +1,7 @@
 Title: Repository Framework
 
+# Repository Framework
+
 Janeway supports hosting repositories for preprints, postprints, field
 reports, and other publication types within the same press environment
 as journals.

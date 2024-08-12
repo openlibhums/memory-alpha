@@ -1,5 +1,7 @@
 Title: Author Guide
 
+# Author Guide
+
 The Author role is granted to all users of a given journal whey they
 begin a submission. This guide will help you make a submission in
 Janeway.

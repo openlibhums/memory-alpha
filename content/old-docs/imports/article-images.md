@@ -1,5 +1,7 @@
 Title: Article Images Import
 
+# Article Images Import
+
 The article images import tool allows you to supply an article
 identifier and a URL for an image. Janeway will download the image and
 set it as the articles large image file (also known as the hero image).

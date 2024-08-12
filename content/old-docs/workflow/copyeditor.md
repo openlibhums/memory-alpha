@@ -1,5 +1,7 @@
 Title: Copyeditor Guide
 
+# Copyeditor Guide
+
 When a new copyediting assignment is created, you will receive an email
 containing a link. Click on this link to be taken to the Copyediting
 Requests page where you can see all of your copyediting tasks. You can

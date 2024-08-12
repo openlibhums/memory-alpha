@@ -1,5 +1,7 @@
 Title: Proofing
 
+# Proofing
+
 The Proofing stage allows us to request proofreading from any of:
 
 - The journal editors

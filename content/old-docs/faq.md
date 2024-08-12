@@ -1,5 +1,7 @@
 Title: Frequently Asked Questions
 
+# Frequently Asked Questions
+
 ## Assigning Users Roles
 
 Janeway has eight roles.

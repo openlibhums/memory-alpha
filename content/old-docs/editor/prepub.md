@@ -1,5 +1,7 @@
 Title: Pre Publication
 
+# Pre Publication
+
 The Pre Publication stage of the workflow takes you through the last
 checks before publication, going through each of these final elements
 step by step. There are some key things to look out for in Pre

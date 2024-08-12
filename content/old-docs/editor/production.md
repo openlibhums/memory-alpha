@@ -1,5 +1,7 @@
 Title: Production
 
+# Production
+
 Janeway allows for the use of Production Managers. These may be users
 who handle the production or articles, external organisations, or
 publishers. Their job is to assign typesetters and/or create galley

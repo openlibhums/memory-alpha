@@ -1,5 +1,7 @@
 Title: Technical Configuration
 
+# Technical Configuration
+
 This section will discuss the technical configuration of Janeway
 focusing on the Django settings file.
 

@@ -1,5 +1,7 @@
 Title: Manager
 
+# Manager
+
 <div class="note">
 
 <div class="title">
