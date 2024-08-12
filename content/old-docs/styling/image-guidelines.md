@@ -25,7 +25,7 @@ alt="/nstatic/image-guidelines/header-image-olh.png" />
 <img src="/nstatic/image-guidelines/header-image-material.png"
 class="screenshot"
 alt="/nstatic/image-guidelines/header-image-material.png" />
-<figcaption>Exmaple of header image with Material theme</figcaption>
+<figcaption>Example of header image with Material theme</figcaption>
 </figure>
 
 <div class="warning">
@@ -37,7 +37,7 @@ Warning
 </div>
 
 In the material theme, the navigation buttons and the header image are
-rendered within the same line, comepeting for space. If a very wide
+rendered within the same line, competing for space. If a very wide
 image is combined with a large number of navigation items, the two may
 overlap on narrow screens. If your journal has a large number of
 navigation links (5 or more), we recommend using a dropdown menu
@@ -101,16 +101,17 @@ by side, so portrait images work better for this theme.
 ## Large Image
 
 Large images are used on article pages, on issue pages, and in any
-carousel that draws in these elements to the journal home page. You can
-set them individually, and you can set a default to be used in all other
-cases. You can set large images for articles in the Manager under
-`Articles and Issues<articles_issues_guidelines>`. The default can can
-be changed through `Journal Settings<journal_settings>`.
+carousel on the journal homepage that draws in these elements. You can set
+them individually, and you can set
+a default to be used in all other cases. You can set large images for
+articles in the Manager under `Articles and
+Issues<articles_issues_guidelines>`. The default can be changed
+through `Journal Settings<journal_settings>`.
 
 The large image has a maximum height of 260px for the material theme and
 400px for the OLH theme. Any image larger than 750x324 pixels will be
 compressed to fit those dimensions, and then it will be cropped
-horizontally to fit the user screen size. For this reason, very wide
+horizontally to fit the user’s screen size. For this reason, very wide
 landscape images work best for this element.
 
 <figure>
@@ -170,7 +171,7 @@ not have images on the Issue page.
 
 The Collection page uses the Large Image file of an Issue and, if it's
 not available, the default large image for its parent journal. In all
-three core themes landscape images are best here.
+three core themes, landscape images are best here.
 
 <div class="tip">
 
@@ -191,7 +192,7 @@ ratio.
 
 This small icon serves multiple purposes in the user's browser.
 
-From wikipedia:  
+From Wikipedia:  
 A favicon /ˈfæv.ɪˌkɒn/ (short for favorite icon), also known as a
 shortcut icon, website icon, tab icon, URL icon, or bookmark icon, is a
 file containing one or more small icons, associated with a particular

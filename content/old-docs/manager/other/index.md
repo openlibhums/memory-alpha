@@ -70,7 +70,7 @@ variables you can use when generating these templates.
 
 <figure>
 <img src="../../nstatic/create-reminders.gif"
-alt="../../nstatic/create-reminders.gif" />
+alt="A GIF showing the reating, editing and deleting a reminder, showing the various screens and fields." />
 <figcaption>Creating, editing and deleting a reminder.</figcaption>
 </figure>
 
@@ -137,7 +137,7 @@ placeholder as email clients may interpret them as part of the link.
 
 <figure>
 <img src="../../nstatic/edit-template.png"
-alt="../../nstatic/edit-template.png" />
+alt="The review assignment email template screen, showing the default value with the customisation textbox below it." />
 <figcaption>Editing an email template.</figcaption>
 </figure>
 
@@ -152,7 +152,7 @@ in mind but will also work well for those who publish full issues.
 
 <figure>
 <img src="../../nstatic/publication-notifications.png"
-alt="../../nstatic/publication-notifications.png" />
+alt="Publication Notification page, showing the Readers section on the left and Sent Notifications section on the right." />
 <figcaption>Viewing readers and notifications in Manager.</figcaption>
 </figure>
 
@@ -162,7 +162,7 @@ page (see figure above).
 
 <figure>
 <img src="../../nstatic/register-for-reader-notifications.png"
-alt="../../nstatic/register-for-reader-notifications.png" />
+alt="Example of the subscribe to article noticification button." />
 <figcaption>Registering for reader notifications.</figcaption>
 </figure>
 
