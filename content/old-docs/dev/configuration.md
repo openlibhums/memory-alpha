@@ -292,7 +292,7 @@ Janeway setting type for each one (`core.models.Setting`).
 For multiline rich-text content like custom pages and news
 items, we use a feature-rich text editor called TinyMCE.
 
-[A content page with paragraphs, hyperlinks, headings, and more](../nstatic/janeway-rich-text-tinymce.png)
+![A content page with paragraphs, hyperlinks, headings, and more](../nstatic/janeway-rich-text-tinymce.png)
 
 Many users copy-paste from Word into these fields, so we use
 a JavaScript event listener to offer them several pasting options.
@@ -331,7 +331,7 @@ There is often the need to store one line of text like a label,
 heading, name, or title. Sometimes light markup like bold and italics
 is needed in these bits of text. For these we have the mini HTML field.
 
-[An article title field allowing italics and a few other styling options](../nstatic/janeway-mini-html-field.png)
+![An article title field allowing italics and a few other styling options](../nstatic/janeway-mini-html-field.png)
 
 This field does not allow multiline markup, because its content needs to be usable
 in layouts and interfaces where only inline content is expected. Anything
@@ -374,7 +374,7 @@ have a type of `text`.
 For many other strings that are controlled via settings,
 Janeway offers the character setting field.
 
-[An ISSN field with no rich text options, just one line of plain text](../nstatic/janeway-character-field.png)
+![An ISSN field with no rich text options, just one line of plain text](../nstatic/janeway-character-field.png)
 
 This field is rendered as a simple text input on one line. It is used
 for storing many different strings like email subject lines, email addresses,
