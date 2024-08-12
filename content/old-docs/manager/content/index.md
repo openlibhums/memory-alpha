@@ -10,7 +10,7 @@ using our rich text editor.
 
 <figure>
 <img src="../../nstatic/content-manager.png"
-alt="../../nstatic/content-manager.png" />
+alt="Janeway CMS" />
 <figcaption>Content Manager</figcaption>
 </figure>
 
@@ -21,7 +21,7 @@ the fields as detailed in the text beneath each field.
 
 <figure>
 <img src="../../nstatic/content-edit-page.png"
-alt="../../nstatic/content-edit-page.png" />
+alt="Interface for adding a new page through the CMS" />
 <figcaption>Editing a page in the content management system</figcaption>
 </figure>
 
@@ -81,9 +81,7 @@ works are displayed below the field.
 
 <figure>
 <img src="../../nstatic/content-edit-nav.png"
-alt="../../nstatic/content-edit-nav.png" />
-<figcaption>Editing a custom nav item in the content management
-system</figcaption>
+alt="Editing a custom nav item in the content management system" />
 </figure>
 
 ## Footer Navigation
@@ -96,8 +94,7 @@ only the path theme support this feature so far.
 
 <figure>
 <img src="../../nstatic/footer-path-custom-links.png" class="screenshot"
-alt="../../nstatic/footer-path-custom-links.png" />
-<figcaption>Custom footer links in the path theme</figcaption>
+alt="Custom footer links in the path theme" />
 </figure>
 
 Press managers can also create custom footer links that extend to all
@@ -108,9 +105,8 @@ footer**, and **Extend to journals**.
 
 <figure>
 <img src="../../nstatic/footer-olh.png" class="screenshot"
-alt="../../nstatic/footer-olh.png" />
-<figcaption>Custom footer links on a journal website set by a press
-manager</figcaption>
+alt="Custom footer links on a journal website set by a press
+manager." />
 </figure>
 
 ## News Manager
@@ -126,8 +122,7 @@ right.
 
 <figure>
 <img src="../../nstatic/news-manager.png"
-alt="../../nstatic/news-manager.png" />
-<figcaption>News Manager interface</figcaption>
+alt="News Manager interface" />
 </figure>
 
 The form fields include:
@@ -162,8 +157,7 @@ The form fields include:
 
 <figure>
 <img src="../../nstatic/news-item.png"
-alt="../../nstatic/news-item.png" />
-<figcaption>A news item with image and tags, material theme</figcaption>
+alt="A news item with image and tags, material theme" />
 </figure>
 
 ## Journal Contacts
@@ -186,9 +180,8 @@ the admin area by staff.
 
 <figure>
 <img src="../../nstatic/contact-manager.png"
-alt="../../nstatic/contact-manager.png" />
-<figcaption>Contact Manager interface. The sort handles indicate you can
-drag and drop to re-order your contacts.</figcaption>
+alt="Contact Manager interface. The sort handles indicate you can
+drag and drop to re-order your contacts." />
 </figure>
 
 ## Editorial Team
@@ -212,8 +205,7 @@ left. For each group you can:
 
 <figure>
 <img src="../../nstatic/editorial-team.png"
-alt="../../nstatic/editorial-team.png" />
-<figcaption>The Editorial Team interface</figcaption>
+alt="The Editorial Team interface" />
 </figure>
 
 <div class="tip">
@@ -255,7 +247,6 @@ group.
 <figure>
 <img src="../../nstatic/group-membership.png"
 alt="../../nstatic/group-membership.png" />
-<figcaption>An editorial team</figcaption>
 </figure>
 
 On the left is a list of the current members, you can:
@@ -275,9 +266,8 @@ items have automatically been setup for you and can now be edited.
 
 <figure>
 <img src="../../nstatic/submission-items.png"
-alt="../../nstatic/submission-items.png" />
-<figcaption>List of default submission items generated in the v1.4
-upgrade process.</figcaption>
+alt="List of default submission items generated in the v1.4
+upgrade process." />
 </figure>
 
 You can manage submission items in three ways:
@@ -291,9 +281,8 @@ well as re-order them by dragging and dropping rows of the table.
 
 <figure>
 <img src="../../nstatic/submission-items-reorder.gif"
-alt="../../nstatic/submission-items-reorder.gif" />
-<figcaption>List of default submission items generated in the v1.4
-upgrade process.</figcaption>
+alt="List of default submission items generated in the v1.4
+upgrade process." />
 </figure>
 
 ### Link to a Setting
@@ -362,8 +351,7 @@ should contact the support team.
 
 <figure>
 <img src="../../nstatic/media-files.gif"
-alt="../../nstatic/media-files.gif" />
-<figcaption>Upload and deletion of a media file.</figcaption>
+alt="Upload and deletion of a media file." />
 </figure>
 
 ### Copy-Paste and Rich Text Fields
