@@ -5,8 +5,8 @@ a new assignment is made you will receive and email and be able to see
 the requests from the journal dashboard.
 
 <figure>
-<img src="nstatic/copyedit-requests.png"
-alt="nstatic/copyedit-requests.png" />
+<img src="../nstatic/copyedit-requests.png"
+ />
 <figcaption>Copyeditor dashboard block</figcaption>
 </figure>
 
@@ -27,8 +27,8 @@ Progress column. To start the copyediting process you can click View on
 a card in the In Progress column.
 
 <figure>
-<img src="nstatic/copyedit-lists.png"
-alt="nstatic/copyedit-lists.png" />
+<img src="../nstatic/copyedit-lists.png"
+ />
 <figcaption>A task that has been accepted</figcaption>
 </figure>
 
@@ -56,8 +56,8 @@ sections:
 Once you complete the request the card will move to the Complete column.
 
 <figure>
-<img src="nstatic/completed-copyedit.png"
-alt="nstatic/completed-copyedit.png" />
+<img src="../nstatic/completed-copyedit.png"
+ />
 <figcaption>A task that has been completed</figcaption>
 </figure>
 
@@ -72,8 +72,8 @@ If the editor has reopened the task you will receive an email and be
 able to see the request on your dashboard.
 
 <figure>
-<img src="nstatic/reopened-copyedit.png"
-alt="nstatic/reopened-copyedit.png" />
+<img src="../nstatic/reopened-copyedit.png"
+ />
 <figcaption>A task that has been reopened on the left and the original
 completed task on the right</figcaption>
 </figure>

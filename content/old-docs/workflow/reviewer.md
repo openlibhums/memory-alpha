@@ -18,13 +18,13 @@ you will find a review section on your dashboard where you can see if
 you have any active review requests.
 
 <figure>
-<img src="nstatic/reviewer-block.png"
-alt="nstatic/reviewer-block.png" />
+<img src="../nstatic/reviewer-block.png"
+ />
 <figcaption>The review dashboard block</figcaption>
 </figure>
 
 <figure>
-<img src="nstatic/reviews-page.png" alt="nstatic/reviews-page.png" />
+<img src="../nstatic/reviews-page.png"  />
 <figcaption>On the reviews page you can see new requests and outstanding
 review requests</figcaption>
 </figure>
@@ -52,8 +52,8 @@ decline to review you will be asked if you can suggest any other
 reviewers who may be suitable.
 
 <figure>
-<img src="nstatic/review-guidelines.png"
-alt="nstatic/review-guidelines.png" />
+<img src="../nstatic/review-guidelines.png"
+ />
 <figcaption>Guidelines for the default review form</figcaption>
 </figure>
 
@@ -64,7 +64,7 @@ to complete the review are listed here. Sometimes there can be quite a
 few files so you also have the option of downloading them as a zip file.
 
 <figure>
-<img src="nstatic/review-files.png" alt="nstatic/review-files.png" />
+<img src="../nstatic/review-files.png"  />
 <figcaption>In this instance there is one review file but there may be
 more, including figure files</figcaption>
 </figure>
@@ -76,7 +76,7 @@ text box or multiple boxes with checkboxes and drop downs. Each element
 in the form will have help text to assist you in completing it.
 
 <figure>
-<img src="nstatic/review-form.png" alt="nstatic/review-form.png" />
+<img src="../nstatic/review-form.png"  />
 <figcaption>A review form</figcaption>
 </figure>
 
