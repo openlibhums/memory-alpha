@@ -15,14 +15,14 @@ submission notably:
 3.  From the Submission page on the main site if it is enabled
 
 <figure>
-<img src="./nstatic/author-dashboard-block.png"
-alt="./nstatic/author-dashboard-block.png" />
+<img src="../nstatic/author-dashboard-block.png"
+ />
 <figcaption>The author block on the dashboard</figcaption>
 </figure>
 
 <figure>
-<img src="./nstatic/submission-start.png"
-alt="./nstatic/submission-start.png" />
+<img src="../nstatic/submission-start.png"
+ />
 <figcaption>Start Submission button on main Submission page</figcaption>
 </figure>
 
@@ -74,8 +74,8 @@ of the clauses it is suggested you get in touch with the editor to
 discuss them before proceeding.
 
 <figure>
-<img src="./nstatic/author-agreement-start.png"
-alt="./nstatic/author-agreement-start.png" />
+<img src="../nstatic/author-agreement-start.png"
+ />
 <figcaption>Publication Fees displayed on an OLH journal Author
 Agreement page</figcaption>
 </figure>
@@ -112,7 +112,7 @@ metadata including:
     You can have multi word keywords (see keyword image below)
 
 <figure>
-<img src="./nstatic/article-info.png" alt="./nstatic/article-info.png" />
+<img src="../nstatic/article-info.png"  />
 <figcaption>The Article Information page filled with example
 data</figcaption>
 </figure>
@@ -128,7 +128,7 @@ on others you will have the option to add yourself as an author using a
 button.
 
 <figure>
-<img src="./nstatic/no-authors.png" alt="./nstatic/no-authors.png" />
+<img src="../nstatic/no-authors.png"  />
 <figcaption>In this example journal the submitting user has not been
 added as an author but can use the "Add self as author" button to add
 themselves</figcaption>
@@ -159,8 +159,8 @@ to your submission.
     use the Password Reset function to get access to their account.
 
 <figure>
-<img src="./nstatic/current-authors.png"
-alt="./nstatic/current-authors.png" />
+<img src="../nstatic/current-authors.png"
+ />
 <figcaption>There are now two authors added to the submission. You can
 use the trash icon to delete authors and the arrow handles to drag and
 drop to re-order the authors</figcaption>
@@ -172,7 +172,7 @@ Here you can upload your manuscript and any figure or data files that go
 along with it.
 
 > <figure>
-> <img src="./nstatic/upload-files.png" alt="./nstatic/upload-files.png" />
+> <img src="../nstatic/upload-files.png"  />
 > <figcaption>You can upload your Manuscript and seperately any files that
 > go along with your paper</figcaption>
 > </figure>
@@ -182,7 +182,7 @@ the file using the "Choose file". You are required to add a label but
 the description field is optional.
 
 > <figure>
-> <img src="./nstatic/submit-ms.png" alt="./nstatic/submit-ms.png" />
+> <img src="../nstatic/submit-ms.png"  />
 > <figcaption>Submitting a Manuscript file</figcaption>
 > </figure>
 
@@ -197,8 +197,8 @@ metadata, files and authors. Once you have reviewed your submission you
 can complete or jump back to other stages to make changes.
 
 > <figure>
-> <img src="./nstatic/article-review.png"
-> alt="./nstatic/article-review.png" />
+> <img src="../nstatic/article-review.png"
+>  />
 > <figcaption>The review page for the article</figcaption>
 > </figure>
 
@@ -231,8 +231,8 @@ you've uploaded a revised manuscript and any additional image files you
 can fill in the covering letter and save the revision.
 
 > <figure>
-> <img src="./nstatic/review-do-revisions.gif"
-> alt="./nstatic/review-do-revisions.gif" />
+> <img src="../nstatic/review-do-revisions.gif"
+>  />
 > </figure>
 
 ## Copyediting
@@ -264,8 +264,8 @@ When an Editor requests an Author Revision following a copyedit:
     4.  Click the “Copyediting Review” button next to the article
 
 <figure>
-<img src="./nstatic/author-copyedit-1.png"
-alt="./nstatic/author-copyedit-1.png" />
+<img src="../nstatic/author-copyedit-1.png"
+ />
 </figure>
 
 Once you have accessed the Copyediting Review request you will be able
@@ -284,8 +284,8 @@ To complete a Copyediting Review:
     version.
 
 > <figure>
-> <img src="./nstatic/author-copyedit-2.png"
-> alt="./nstatic/author-copyedit-2.png" />
+> <img src="../nstatic/author-copyedit-2.png"
+>  />
 > </figure>
 
 2.  Fill in the Note to the Editor with any additional information
@@ -293,8 +293,8 @@ To complete a Copyediting Review:
 4.  Click ‘Complete Copyedit Task’
 
 > <figure>
-> <img src="./nstatic/author-copyedit-3.png"
-> alt="./nstatic/author-copyedit-3.png" />
+> <img src="../nstatic/author-copyedit-3.png"
+>  />
 > </figure>
 
 ## Proofing
@@ -312,8 +312,8 @@ will be able to previsualise the article as it will be rendered once it
 gets published.
 
 > <figure>
-> <img src="./nstatic/typesetting/proofreading-1.png"
-> alt="./nstatic/typesetting/proofreading-1.png" />
+> <img src="../nstatic/typesetting/proofreading-1.png"
+>  />
 > <figcaption>Typeset Files download and preview</figcaption>
 > </figure>
 
@@ -323,8 +323,8 @@ Once you've previewed the files, you can provide feedback in two ways:
     rich-text as well as pasting in screenshots or other types of images
 
 > <figure>
-> <img src="./nstatic/typesetting/proofreading-notes.png"
-> alt="./nstatic/typesetting/proofreading-notes.png" />
+> <img src="../nstatic/typesetting/proofreading-notes.png"
+>  />
 > <figcaption>Providing proofreading notes via Rich-text
 > editor</figcaption>
 > </figure>
@@ -335,8 +335,8 @@ Once you've previewed the files, you can provide feedback in two ways:
     to review.
 
 > <figure>
-> <img src="./nstatic/typesetting/proofreading-2.png"
-> alt="./nstatic/typesetting/proofreading-2.png" />
+> <img src="../nstatic/typesetting/proofreading-2.png"
+>  />
 > <figcaption>Providing proofreading notes by uploading an annotated
 > file.</figcaption>
 > </figure>

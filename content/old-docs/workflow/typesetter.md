@@ -5,8 +5,8 @@ notification and also be able to see the task on your dashboard under
 **Production**.
 
 <figure>
-<img src="nstatic/production-block.png"
-alt="nstatic/production-block.png" />
+<img src="../nstatic/production-block.png"
+ />
 <figcaption>Production block</figcaption>
 </figure>
 
@@ -22,8 +22,8 @@ Clicking on view requests will display three columns
   - Assignments you have completed.
 
 <figure>
-<img src="nstatic/typesetting-requests.png"
-alt="nstatic/typesetting-requests.png" />
+<img src="../nstatic/typesetting-requests.png"
+ />
 <figcaption>Typesetting requests</figcaption>
 </figure>
 
@@ -49,8 +49,8 @@ The interface is broken in 4 sections.
     article's metadata.
 
 <figure>
-<img src="nstatic/typeset-article.png"
-alt="nstatic/typeset-article.png" />
+<img src="../nstatic/typeset-article.png"
+ />
 <figcaption>Typesetter interface</figcaption>
 </figure>
 
@@ -86,7 +86,7 @@ and warn you if there you need to upload those images. You can do this
 by editing the galley file.
 
 <figure>
-<img src="nstatic/galleys.png" alt="nstatic/galleys.png" />
+<img src="../nstatic/galleys.png"  />
 <figcaption>Article with galleys, XML galley has two missing
 images</figcaption>
 </figure>
@@ -148,8 +148,8 @@ On your dashboard, there should be a card indicating the number of
 typesetting tasks that are currently awaiting for you to complete:
 
 <figure>
-<img src="nstatic/typesetting/typesettingcard.png"
-alt="nstatic/typesetting/typesettingcard.png" />
+<img src="../nstatic/typesetting/typesettingcard.png"
+ />
 </figure>
 
 When uploading a new Galley (now referred to as 'Typeset Files'), there
@@ -159,8 +159,8 @@ provided, but typesetters can edit the label to add a different one if
 necessary.
 
 <figure>
-<img src="nstatic/typesetting/upload-typeset-file.png"
-alt="nstatic/typesetting/upload-typeset-file.png" />
+<img src="../nstatic/typesetting/upload-typeset-file.png"
+ />
 <figcaption>Screenshot of the new file upload box</figcaption>
 </figure>
 
@@ -171,16 +171,16 @@ links Janeway will detect them and prompt the typesetter to upload them.
 Image filenames should match those within the XML or HTML.
 
 <figure>
-<img src="nstatic/typesetting/images-missing.png"
-alt="nstatic/typesetting/images-missing.png" />
+<img src="../nstatic/typesetting/images-missing.png"
+ />
 </figure>
 
 At this point, press the edit button and upload each image on the box
 matching the filename from the XML/HTML file:
 
 <figure>
-<img src="nstatic/typesetting/typesetter-images.png"
-alt="nstatic/typesetting/typesetter-images.png" />
+<img src="../nstatic/typesetting/typesetter-images.png"
+ />
 </figure>
 
 If an XML or HTML file has a large number of images it is often faster
@@ -195,8 +195,8 @@ If any intermiadate files have been used for the production of the Files
 Files' section
 
 <figure>
-<img src="nstatic/typesetting/source-files.png"
-alt="nstatic/typesetting/source-files.png" />
+<img src="../nstatic/typesetting/source-files.png"
+ />
 <figcaption>Screenshot of the source files form</figcaption>
 </figure>
 
@@ -207,8 +207,8 @@ problems it detects with your files, such as potential missing images on
 the XML/HTML files or Typeset Files that have not yet been corrected.
 
 <figure>
-<img src="nstatic/typesetting/images-missing-warning.png"
-alt="nstatic/typesetting/images-missing-warning.png" />
+<img src="../nstatic/typesetting/images-missing-warning.png"
+ />
 </figure>
 
 Once you are done with the typesetting or correction task, you can leave
@@ -226,8 +226,8 @@ Here is an example in JATS XML of an isolated bit of Arabic text in a
 document that is otherwise left-to-right:
 
 <figure>
-<img src="nstatic/typesetting/arabic-rtl-jats-xml.png"
-alt="nstatic/typesetting/arabic-rtl-jats-xml.png" />
+<img src="../nstatic/typesetting/arabic-rtl-jats-xml.png"
+ />
 </figure>
 
 Make sure you use a text editor that shows zero-width unicode
@@ -237,8 +237,8 @@ VS Code.
 Here is the rendered output:
 
 <figure>
-<img src="nstatic/typesetting/arabic-rtl-rendered.png"
-alt="nstatic/typesetting/arabic-rtl-rendered.png" />
+<img src="../nstatic/typesetting/arabic-rtl-rendered.png"
+ />
 </figure>
 
 Notice the following about the code sample:
@@ -276,8 +276,8 @@ In some cases you might need to center-align text:
 The output is:
 
 <figure>
-<img src="nstatic/typesetting/text-align-center.png"
-alt="nstatic/typesetting/text-align-center.png" />
+<img src="../nstatic/typesetting/text-align-center.png"
+ />
 </figure>
 
 This is accomplished with the the [styled-content JATS
