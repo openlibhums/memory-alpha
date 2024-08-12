@@ -1,4 +1,4 @@
-# Plugins, Events and Hooks
+Title: Plugins, Events and Hooks
 
 <div class="warning">
 
@@ -82,6 +82,8 @@ We have a plugin generator that you can use to create empty plugins:
 The plugin settings file tells Janeway about your plugin and is used to
 connect it with core areas of Janeway.
 
+{% raw %}
+
     from events import logic as events_logic
     from utils import plugins
     from utils.install import update_settings
@@ -148,6 +150,8 @@ connect it with core areas of Janeway.
             events.example_event_func,
         )
 
+{% endraw %}
+
 <figure>
 <img src="../nstatic/typesetting-plugin-dashboard.png"
 class="with-border" alt="../nstatic/typesetting-plugin-dashboard.png" />
@@ -208,23 +212,31 @@ HTML or do something when a hook is fired on a template. There are only
 a few of these hooks throughout the system, the main example is to allow
 plugins to add nav items:
 
+{% raw %}
+
     def hook_registry():
         return {
             'press_admin_nav_block': {'module': 'plugins.example.hooks', 'function': 'admin_hook'},
         }
 
-In this example when the press_admin_nav_block hook is fired,
-`plugins.example.hooks.admin_hook` will be called. The function should
-return HTML, it can do this by returning a string or by rendering and
-returning a template.
+{% endraw %}
+
+In this example when the press_admin_nav_block hook is fired, {% raw
+%}`plugins.example.hooks.admin_hook`{% endraw %} will be called. The
+function should return HTML, it can do this by returning a string or by
+rendering and returning a template.
+
+{% raw %}
 
     def admin_hook(context):
         return '<li><a href="{url}"><i class="fa fa-money"></i> Example Plugin Admin</a></li>'.format(
             url=reverse('example_admin_index'),
-        )s
+        )
 
-You can find hooks in the source by searching for `{% hook`. Here is a
-non-exhaustive lise of hooks in Janeway:
+{% endraw %}
+
+You can find hooks in the source by searching for {% raw %}`{% hook`{%
+endraw %}. Here is a non-exhaustive list of hooks in Janeway:
 
 - templates/admin/core/article.html  
   - edit_article
