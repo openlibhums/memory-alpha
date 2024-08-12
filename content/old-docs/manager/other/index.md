@@ -162,7 +162,7 @@ page (see figure above).
 
 <figure>
 <img src="../../nstatic/register-for-reader-notifications.png"
-alt="Example of the subscribe to article noticification button." />
+alt="Example of the subscribe to article notification button." />
 <figcaption>Registering for reader notifications.</figcaption>
 </figure>
 

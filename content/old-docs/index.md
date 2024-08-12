@@ -12,8 +12,7 @@ or "simply". A massive shout out to Emma Barnes and her awesome site
 
 <div class="toctree" maxdepth="4" caption="Contents">
 
-faq workflow manager published imports styling robotsandsitemaps
-installation configuration repository plugins api changelog
+faq workflow manager published imports styling dev repository changelog
 
 </div>
 
