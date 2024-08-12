@@ -15,16 +15,16 @@ The maximum height of the image is 90px, but the width is not limited,
 making it suitable for either square or landscape logos.
 
 <figure>
-<img src="/nstatic/image-guidelines/header-image-olh.png"
+<img src="../nstatic/image-guidelines/header-image-olh.png"
 class="screenshot"
-alt="/nstatic/image-guidelines/header-image-olh.png" />
+ />
 <figcaption>Example of header image with OLH theme</figcaption>
 </figure>
 
 <figure>
-<img src="/nstatic/image-guidelines/header-image-material.png"
+<img src="../nstatic/image-guidelines/header-image-material.png"
 class="screenshot"
-alt="/nstatic/image-guidelines/header-image-material.png" />
+ />
 <figcaption>Example of header image with Material theme</figcaption>
 </figure>
 
@@ -59,9 +59,9 @@ is to be consistent and use the same aspect ratio for both the default
 cover image and for any issue cover images uploaded.
 
 <figure>
-<img src="/nstatic/image-guidelines/cover-image-olh.png"
+<img src="../nstatic/image-guidelines/cover-image-olh.png"
 class="screenshot"
-alt="/nstatic/image-guidelines/cover-image-olh.png" />
+ />
 <figcaption>Example of cover image with OLH theme</figcaption>
 </figure>
 
@@ -79,9 +79,9 @@ so landscape images work better for this theme.
 </div>
 
 <figure>
-<img src="/nstatic/image-guidelines/cover-image-material.png"
+<img src="../nstatic/image-guidelines/cover-image-material.png"
 class="screenshot"
-alt="/nstatic/image-guidelines/cover-image-material.png" />
+ />
 <figcaption>Example of cover image with material theme</figcaption>
 </figure>
 
@@ -115,9 +115,9 @@ horizontally to fit the user’s screen size. For this reason, very wide
 landscape images work best for this element.
 
 <figure>
-<img src="/nstatic/image-guidelines/article-large-image.png"
+<img src="../nstatic/image-guidelines/article-large-image.png"
 class="screenshot"
-alt="/nstatic/image-guidelines/article-large-image.png" />
+ />
 <figcaption>Example of large image: material theme</figcaption>
 </figure>
 

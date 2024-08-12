@@ -59,7 +59,7 @@ STATIC_PATHS = [
     'old-docs/nstatic',
     'old-docs/nstatic/images',
     'old-docs/nstatic/imports',
-    'old-docs/nstatic/image_guidelines',
+    'old-docs/nstatic/image-guidelines',
     'old-docs/nstatic/typesetting',
     'old-docs/nstatic/typesetting/editor',
 ]
