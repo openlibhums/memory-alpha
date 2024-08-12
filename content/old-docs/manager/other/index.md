@@ -1,5 +1,7 @@
 Title: Other
 
+# Other
+
 The *other* section covers three things:
 
 - Cache

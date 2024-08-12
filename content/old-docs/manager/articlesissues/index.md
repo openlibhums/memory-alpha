@@ -1,5 +1,7 @@
 Title: Articles and Issues
 
+# Articles and Issues
+
 ## Article Display Settings
 
 The Article Display Settings page has settings for controlling the way

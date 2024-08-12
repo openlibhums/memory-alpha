@@ -1,5 +1,7 @@
 Title: Typesetter Guide
 
+# Typesetter Guide
+
 When you have been assigned a typesetting task, you will receive an
 email notification containing a link. This link will lead to the Janeway
 Dashboard.

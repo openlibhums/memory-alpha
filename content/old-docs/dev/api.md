@@ -1,5 +1,7 @@
 Title: API
 
+# API
+
 API stands for Application programming interface. APIs are designed to
 allow two or more programs to interact with one another.
 

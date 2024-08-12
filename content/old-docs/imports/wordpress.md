@@ -1,5 +1,7 @@
 Title: Wordpress Import
 
+# Wordpress Import
+
 This import tool allows you to import posts from a Wordpress site into a
 Janeway journal's news system.
 

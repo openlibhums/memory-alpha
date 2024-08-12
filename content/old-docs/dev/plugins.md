@@ -1,5 +1,7 @@
 Title: Plugins, Events and Hooks
 
+# Plugins, Events and Hooks
+
 <div class="warning">
 
 <div class="title">

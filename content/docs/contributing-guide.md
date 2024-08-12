@@ -1,5 +1,7 @@
 Title: Contributing to Janeway documentation
 
+# Contributing to Janeway documentation
+
 Work-in-process note: This page could explain how people including us and
 our clients should contribute documentation. It would need several
 sections, including what style to write in, using GitHub effectively, and

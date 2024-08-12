@@ -1,5 +1,7 @@
 Title: Users
 
+# Users
+
 The Users section of the manager has various controls for different
 permission levels.
 

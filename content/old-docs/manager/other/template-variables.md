@@ -1,5 +1,7 @@
 Title: Email Template Variables
 
+# Email Template Variables
+
 <div class="warning">
 
 <div class="title">

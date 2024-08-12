@@ -1,5 +1,7 @@
 Title: Changelog
 
+# Changelog
+
 Release notes have moved to
 \[Github\](<https://github.com/BirkbeckCTP/janeway/releases>)
 
