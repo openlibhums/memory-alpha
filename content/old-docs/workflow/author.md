@@ -67,11 +67,11 @@ submitting to as they can be disabled individually.
   - If you have anything you'd like to tell the Editors, this field is
     like a Covering Letter.
 
-If enabled the Publication Fees, Submission Checklist and Copyright
-notice fields will be required, that is to say you *must* check the
-boxes in order to complete a submission. If you have any issues with any
-of the clauses it is suggested you get in touch with the editor to
-discuss them before proceeding.
+If enabled the Publication Fees, Submission Checklist and Copyright notice
+fields will be required, that is to say you _must_ check the boxes in
+order to complete a submission. If you have any issues with any of the
+clauses it is suggested you get in touch with the editor to discuss them
+before proceeding.
 
 <figure>
 <img src="../nstatic/author-agreement-start.png"
@@ -112,7 +112,7 @@ metadata including:
     You can have multi word keywords (see keyword image below)
 
 <figure>
-<img src="../nstatic/article-info.png"  />
+<img src="../nstatic/article-info.png" />
 <figcaption>The Article Information page filled with example
 data</figcaption>
 </figure>
@@ -159,8 +159,7 @@ to your submission.
     use the Password Reset function to get access to their account.
 
 <figure>
-<img src="../nstatic/current-authors.png"
- />
+<img src="../nstatic/current-authors.png" />
 <figcaption>There are now two authors added to the submission. You can
 use the trash icon to delete authors and the arrow handles to drag and
 drop to re-order the authors</figcaption>

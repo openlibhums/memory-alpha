@@ -41,7 +41,8 @@ The proofing task page is broken down into three sections
 - File Upload
 
 <figure>
-<img src="../nstatic/proofing-page.png"  />
+<img src="../nstatic/proofing-page.png"
+ />
 <figcaption>A proofing task that has been accepted</figcaption>
 </figure>
 
