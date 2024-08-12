@@ -35,7 +35,7 @@ notified of this.
 
 <figure>
 <img src="../nstatic/unassigned.gif" class="with-border"
-alt="../nstatic/unassigned.gif" />
+ />
 </figure>
 
 ## Review Page
@@ -50,7 +50,7 @@ The review page presets various actions:
 
 <figure>
 <img src="../nstatic/review-main-screen.png"
-alt="../nstatic/review-main-screen.png" />
+ />
 </figure>
 
 ## Add Files
@@ -64,7 +64,7 @@ edit and replace the version in the system on this screen.
 
 <figure>
 <img src="../nstatic/review-add-files.gif"
-alt="../nstatic/review-add-files.gif" />
+ />
 </figure>
 
 ## Delete Round
@@ -96,7 +96,7 @@ review form you specified.
 
 <figure>
 <img src="../nstatic/review-add-reviewer.gif"
-alt="../nstatic/review-add-reviewer.gif" />
+ />
 </figure>
 
 ## Managing a Review
@@ -124,7 +124,7 @@ controls.
 
 <figure>
 <img src="../nstatic/review-view-page.png"
-alt="../nstatic/review-view-page.png" />
+ />
 </figure>
 
 ### Allow Author to Read Review
@@ -135,7 +135,7 @@ access review file*.
 
 <figure>
 <img src="../nstatic/review-visibility-controls-1.png"
-alt="../nstatic/review-visibility-controls-1.png" />
+ />
 </figure>
 
 ### Controlling Individual Answers
@@ -147,7 +147,7 @@ them when they look at the review.
 
 <figure>
 <img src="../nstatic/review-visibility-controls-2.png"
-alt="../nstatic/review-visibility-controls-2.png" />
+ />
 </figure>
 
 ### Editing Answers
@@ -160,7 +160,7 @@ display it for other editors to see.
 
 <figure>
 <img src="../nstatic/review-form-elements.png"
-alt="../nstatic/review-form-elements.png" />
+ />
 </figure>
 
 Once you have adjusted the visibility of Peer Review reports, and have
@@ -170,7 +170,7 @@ your Decision.
 
 <figure>
 <img src="../nstatic/review-visibility-4.png"
-alt="../nstatic/review-visibility-4.png" />
+ />
 </figure>
 
 ## Decision Helper
@@ -225,7 +225,7 @@ uncompleted reviews. The decisions available from this screen are:
 
 <figure>
 <img src="../nstatic/review-decision-helper.gif"
-alt="../nstatic/review-decision-helper.gif" />
+ />
 </figure>
 
 ## Request Revisions
@@ -286,7 +286,7 @@ Editors:
 
 <figure>
 <img src="../nstatic/review-draft-a-decision.gif"
-alt="../nstatic/review-draft-a-decision.gif" />
+ />
 </figure>
 
 Examples of Draft Decisions are: Accept, Minor Revisions, Major
@@ -358,8 +358,8 @@ Once the setting is enabled a new decision option will show on the
 decision helper page.
 
 <figure>
-<img src="./nstatic/share-review-decision-list.png"
-alt="./nstatic/share-review-decision-list.png" />
+<img src="../nstatic/share-review-decision-list.png"
+ />
 <figcaption>New decision in the decision list.</figcaption>
 </figure>
 
@@ -367,8 +367,8 @@ Editors then can send an email to each of the reviewers providing them
 with a link to access and view the review content.
 
 <figure>
-<img src="./nstatic/share-review-decision-page.png"
-alt="./nstatic/share-review-decision-page.png" />
+<img src="../nstatic/share-review-decision-page.png"
+ />
 <figcaption>Interface for notifying peer reviewers.</figcaption>
 </figure>
 
@@ -376,8 +376,8 @@ Reviewers can use the link in the email to access the shared reviews
 interface.
 
 <figure>
-<img src="./nstatic/share-reviews-reviewer.png"
-alt="./nstatic/share-reviews-reviewer.png" />
+<img src="../nstatic/share-reviews-reviewer.png"
+ />
 <figcaption>Reviewer viewing completed reviews.</figcaption>
 </figure>
 
@@ -391,8 +391,8 @@ completed reviews from rounds 1 and 2, but not the reviews completed
 specifically for round 3.
 
 <figure>
-<img src="./nstatic/share-reviews-during-review.png"
-alt="./nstatic/share-reviews-during-review.png" />
+<img src="../nstatic/share-reviews-during-review.png"
+ />
 <figcaption>Round 2 reviewer viewing completed round 1
 reviews.</figcaption>
 </figure>
@@ -409,8 +409,8 @@ response letters along with peer reviews, they can enable the
 settings section.
 
 <figure>
-<img src="./nstatic/share-reviews-response-letters.png"
-alt="./nstatic/share-reviews-response-letters.png" />
+<img src="../nstatic/share-reviews-response-letters.png"
+ />
 <figcaption>Response letter being shared with peer
 reviewers.</figcaption>
 </figure>

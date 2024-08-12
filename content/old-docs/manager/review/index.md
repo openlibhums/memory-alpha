@@ -193,7 +193,7 @@ new journal is created a default review form is generated automatically
 (called Default Form) it has one element: a text area called "Review".
 
 <figure>
-<img src="./nstatic/review-forms.png" alt="./nstatic/review-forms.png" />
+<img src="../../nstatic/review-forms.png" />
 <figcaption>Review Form interface</figcaption>
 </figure>
 
