@@ -56,6 +56,7 @@ STATIC_PATHS = [
 
     # Legacy paths from old docs
     # that we will eventually remove
+    'old-docs/images',
     'old-docs/nstatic',
     'old-docs/nstatic/images',
     'old-docs/nstatic/imports',
