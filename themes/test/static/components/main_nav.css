@@ -16,6 +16,10 @@
     row-gap: 1rem;
   }
 
+  li {
+    font-size: var(--step-3);
+  }
+
   .logo {
     justify-content: center;
     padding: var(--space-l);
@@ -90,6 +94,7 @@
 
       li {
         border-bottom: 1px solid var(--clr-tan);
+        padding-block-end: var(--space-xs);
       }
 
       a {
