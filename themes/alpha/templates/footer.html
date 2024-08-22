@@ -1,0 +1,54 @@
+{% from 'signup_form.html' import signup_form %}
+{% from 'example_component.html' import example_component %}
+<footer class="footer">
+  <div class="circle-wrapper-top">
+    <svg class="circle circle-top" xmlns="http://www.w3.org/2000/svg">
+        <circle class="circle-path-blue" cx="50" cy="50" r="40"/>
+    </svg>
+  </div>
+  <div class="grid place-content-center">
+    <div class="footer-title-wrapper">
+      <h1 class="footer-title">
+        Signup to a new way
+      </h1>
+    </div>
+    {#
+      Components are still not working
+    #}
+    <div class="signup-form">
+       <div class="signup-form-wrapper">
+          <input type="text" class="text-input" id="signup-form-email" placeholder="">
+          <label for="singup-form-email" class="label">Your Email</label>
+      </div>
+    </div>
+    <div class="social-media-links">
+      <ul class="pipe-separated-list all-caps" role="list">
+        <li><a target="_blank" href="https://www.facebook.com/OpenLibHums">Facebook</a></li>
+        <li><a target="_blank" href="https://twitter.com/openlibhums">Twitter</a></li>
+        <li><a target="_blank" href="https://bsky.app/profile/openlibhums.bsky.social">Bluesky</a></li>
+        <li><a target="_blank" href="https://github.com/yourusername">GitHub</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="circle-wrapper-bottom">
+    <svg class="circle circle-bottom" xmlns="http://www.w3.org/2000/svg">
+        <circle class="circle-path-orange" cx="50" cy="50" r="50"/>
+    </svg>
+  </div>
+  <div class="signature-wrapper">
+    <h2 class="signature">
+        Brought to you by OLH at Birkbeck, University of London
+    </h2>
+  </div>
+  <ul class="pipe-separated-list unstyle-list-small  all-caps" role="list">
+    <li><a target="_blank" href="">Site Map</a></li>
+    <li><a target="_blank" href="">Terms and Conditions</a></li>
+    <li><a target="_blank" href="">Privacy Policy</a></li>
+    <li><a target="_blank" href="https://github.com/yourusername">Cookie Policy</a></li>
+  </ul>
+  <div class="copyrigt-wrapper">
+    <h2 class="copyright">
+        Copyright © Birkbeck, University of London
+    </h2>
+  </div>
+</footer>
