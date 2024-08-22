@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="{% block html_lang %}{{ DEFAULT_LANG }}{% endblock html_lang %}">
+  <head>
+    {% block head %}
+      <title>
+        {% block title %}
+          {{ SITENAME|striptags }}
+        {% endblock title %}
+      </title>
+      <meta charset="utf-8" />
+      <meta name="generator" content="Pelican" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      {% if SITESUBTITLE %}
+        <meta name="description" content="{{ SITESUBTITLE }}" />
+      {% endif %}
+      {% if STYLESHEET_URL %}
+        <link rel="stylesheet" type="text/css" href="{{ STYLESHEET_URL }}" />
+      {% endif %}
+      {% include "atom_rss_feed_tags.html" %}
+    {% endblock head %}
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        {#
+        <hgroup>
+          <h1><a href="{{ SITEURL }}/">{{ SITENAME }}</a></h1>
+          {% if SITESUBTITLE %}<p>{{ SITESUBTITLE }}</p>{% endif %}
+        </hgroup>
+        #}
+        <nav>
+          <ul
+            class="flex"
+            style="list-style-type: none; margin: 0; padding-block: 2rem;">
+            {% for title, link in MENUITEMS %}
+              <li><a href="{{ link }}">{{ title }}</a></li>
+            {% endfor %}
+            {% if DISPLAY_PAGES_ON_MENU %}
+              {% for p in pages %}
+                <li>
+                  <a
+                    href="{{ SITEURL }}/{{ p.url }}"
+                    {% if p==page %}aria-current="page"{% endif %}>
+                    {{ p.title }}
+                  </a>
+                </li>
+              {% endfor %}
+            {% endif %}
+            {% if DISPLAY_CATEGORIES_ON_MENU %}
+              {% for cat, null in categories %}
+                <li>
+                  <a
+                    href="{{ SITEURL }}/{{ cat.url }}"
+                    {% if cat==category %}aria-current="page"{% endif %}>
+                    {{ cat }}
+                  </a>
+                </li>
+              {% endfor %}
+            {% endif %}
+          </ul>
+        </nav>
+      </header>
+      <main>
+        {% block content %}
+        {% endblock %}
+      </main>
+      {% include "footer.html" %}
+    </div>
+  </body>
+</html>
