@@ -79,7 +79,7 @@ it is the particular combination of HTML and CSS that is key for accessibility.
 For components that need to nest other content, you can use jinja’s macro syntax:
 
 ```html
-<!-- themes/[theme]/templates/components/example_component.html -->
+<!-- themes/[theme]/static/components/example_component.html -->
 {% macro example_component() -%}
   <div class="bg-tan text-blue">
     {{ caller() }}
