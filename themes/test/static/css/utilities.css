@@ -124,3 +124,11 @@
   white-space: nowrap; /* added line */
   border: 0;
 }
+
+/* Ensures the header is sticky */
+.sticky-header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background-color: var(--clr-black);
+}

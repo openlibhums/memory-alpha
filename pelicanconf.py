@@ -77,7 +77,7 @@ THEME_TEMPLATES_OVERRIDES = [
 # Nav
 DISPLAY_PAGES_ON_MENU = False # We want to set the order manually
 DISPLAY_CATEGORIES_ON_MENU = False
-MENU_ITEMS = [
+LEFT_NAV_ITEMS = [
     ('Our Story', '/', ''),
     ('Explore', '/example-page.html', ''),
     ('Hosting', '/docs/example-docs-page.html', ''),
@@ -103,3 +103,6 @@ JINJA_ENVIRONMENT = {
 }
 
 GH_COPYEDIT_CONTENT_URL = 'https://github.com/BirkbeckCTP/memory-alpha/edit/copyediting/content'
+=======
+JINJA_FILTERS = []
+>>>>>>> 6c0379b (Moved nav into the component structure.)
