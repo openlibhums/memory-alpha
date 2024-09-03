@@ -77,10 +77,15 @@ THEME_TEMPLATES_OVERRIDES = [
 # Nav
 DISPLAY_PAGES_ON_MENU = False # We want to set the order manually
 DISPLAY_CATEGORIES_ON_MENU = False
-MENUITEMS = [
-    ('Home', '/'),
-    ('Nav1', '/example-page.html'),
+MENU_ITEMS = [
+    ('Our Story', '/', ''),
+    ('Explore', '/example-page.html', ''),
+    ('Hosting', '/docs/example-docs-page.html', ''),
+    ('People', '/docs/example-docs-page.html', ''),
+]
+RIGHT_MENU_ITEMS = [
     ('Help/Docs', '/docs-under-construction.html'),
+    ('Book a Demo', '/', '')
 ]
 
 # jinja2content plugin

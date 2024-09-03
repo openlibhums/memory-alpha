@@ -1,0 +1,165 @@
+/* Makes the header sticky, so it stays at the top when scrolling */
+.sticky {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background-color: var(--clr-black);
+}
+
+/* Main navigation bar styles */
+#main-nav {
+  display: flex;
+  height: 90px;
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  img {
+    max-height: 100%;
+    padding: 15px;
+  }
+
+  a {
+    text-decoration: none;
+    font-family: var(--ff-poppins-medium);
+    position: relative;
+    display: inline-block; /* Ensures pseudo-element is aligned correctly */
+
+    &::after {
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: -3px;
+      width: 100%;
+      height: 3px;
+      background-color: var(--clr-tan);
+      transform: scaleX(0); 
+      transform-origin: right;
+      transition: transform 0.2s ease-out;
+    }
+
+    &:hover::after {
+      transform: scaleX(1);
+      transform-origin: left;
+    }
+  }
+
+  .left, .logo, .right {
+    flex: 1; /* Each section takes equal space */
+    display: flex;
+    align-items: center;
+
+    &.left {
+      justify-content: flex-start;
+    }
+
+    &.logo {
+      justify-content: center;
+    }
+
+    &.right {
+      justify-content: flex-end;
+    }
+  }
+
+  .button {
+    background-color: var(--clr-tan);
+    border-radius: 22px;
+    padding: 8px;
+
+    &.button-demo {
+      color: var(--clr-blue);
+    }
+  }
+
+  .slide-drawer {
+    display: none;
+    font-size: 30px;
+    background: none;
+    border: none;
+    color: var(--clr-tan);
+    cursor: pointer;
+  }
+
+  .combined-menu {
+    display: none;
+    flex-direction: column;
+    background-color: var(--clr-black);
+    position: absolute;
+    top: 90px;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    align-items: flex-start;
+    padding: 10px 40px 15px 40px;
+    width: 100%;
+  }
+
+  .combined-menu ul {
+    width: 100%; /* Full width */
+  }
+
+  .combined-menu li {
+    width: 100%; /* Full width */
+    border-bottom: 1px solid var(--clr-tan);
+    padding: 15px 0;
+  }
+
+  .combined-menu a {
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    color: inherit;
+    font-family: var(--ff-poppins-medium);
+    position: relative;
+    font-weight: normal;
+    transition: font-weight 0.2s ease-out;
+  }
+
+  .combined-menu a::after {
+    content: none;
+  }
+
+  .combined-menu a:hover {
+    font-weight: bold;
+  }
+
+  &.open .left ul,
+  &.open .right ul {
+    display: none;
+  }
+
+  &.open .combined-menu {
+    display: flex;
+  }
+}
+
+/* Hides left and right nav elements on smaller screens, displays the slide-drawer */
+@media (max-width: 1180px) {
+  #main-nav {
+    .left ul, .right ul {
+      display: none;
+    }
+    .slide-drawer {
+      display: block;
+    }
+  }
+}
+
+/* Hides the slide-drawer nav element on larger screens, displays the left and right nav elements */
+@media (min-width: 1181px) {
+  #main-nav {
+    .left ul, .right ul {
+      display: flex;
+    }
+    .slide-drawer {
+      display: none;
+    }
+    .combined-menu {
+      display: none !important;
+    }
+  }
+}

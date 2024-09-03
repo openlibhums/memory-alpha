@@ -21,46 +21,18 @@
   </head>
 
   <body>
-    <div class="container">
-      <header>
+    <header class="sticky">
+      <div class="container">
+        {% include "nav.html" %}
         {#
         <hgroup>
           <h1><a href="{{ SITEURL }}/">{{ SITENAME }}</a></h1>
           {% if SITESUBTITLE %}<p>{{ SITESUBTITLE }}</p>{% endif %}
         </hgroup>
         #}
-        <nav>
-          <ul
-            class="flex"
-            style="list-style-type: none; margin: 0; padding-block: 2rem;">
-            {% for title, link in MENUITEMS %}
-              <li><a href="{{ link }}">{{ title }}</a></li>
-            {% endfor %}
-            {% if DISPLAY_PAGES_ON_MENU %}
-              {% for p in pages %}
-                <li>
-                  <a
-                    href="{{ SITEURL }}/{{ p.url }}"
-                    {% if p==page %}aria-current="page"{% endif %}>
-                    {{ p.title }}
-                  </a>
-                </li>
-              {% endfor %}
-            {% endif %}
-            {% if DISPLAY_CATEGORIES_ON_MENU %}
-              {% for cat, null in categories %}
-                <li>
-                  <a
-                    href="{{ SITEURL }}/{{ cat.url }}"
-                    {% if cat==category %}aria-current="page"{% endif %}>
-                    {{ cat }}
-                  </a>
-                </li>
-              {% endfor %}
-            {% endif %}
-          </ul>
-        </nav>
-      </header>
+      </div>
+    </header>
+    <div class="container">
       <main>
         {% block content %}
         {% endblock %}
@@ -69,5 +41,6 @@
         <p>Footer</p>
       </footer>
     </div>
+    <script src="theme/js/nav.js"></script>
   </body>
 </html>

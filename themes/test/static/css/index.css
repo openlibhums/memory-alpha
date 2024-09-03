@@ -17,3 +17,4 @@
 
 /* Utilities have greatest precedence */
 @import "utilities.css" layer(utilities);
+@import "nav.css" layer(nav);

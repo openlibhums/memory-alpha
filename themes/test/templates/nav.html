@@ -1,0 +1,53 @@
+<nav id="main-nav">
+
+  <div class="left">
+      <button class="slide-drawer" id="slide-drawer">
+    &#9776;
+  </button>
+    <ul class="flex">
+      {% for title, link, class in MENU_ITEMS %}
+      <li>
+          <a href="{{ link }}"{% if class %} class="{{ class }}"{% endif %}>
+            {{ title }}
+          </a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+
+  <div class="logo">
+    <img src="theme/images/logo/Janeway-logo-white.svg" alt="" />
+  </div>
+
+  <div class="right">
+    <ul class="flex">
+      {% for title, link, class in RIGHT_MENU_ITEMS %}
+      <li>
+          <a href="{{ link }}"{% if class %} class="{{ class }}"{% endif %}>
+            {{ title }}
+          </a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+
+   <!-- Combined menu for the slide drawer navigation. -->
+  <div class="combined-menu">
+    <ul>
+      {% for title, link, class in MENU_ITEMS %}
+      <li>
+        <a href="{{ link }}"{% if class %} class="{{ class }}"{% endif %}>
+          {{ title }}
+        </a>
+      </li>
+      {% endfor %}
+      {% for title, link, class in RIGHT_MENU_ITEMS %}
+      <li>
+        <a href="{{ link }}"{% if class %} class="{{ class }}"{% endif %}>
+          {{ title }}
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</nav>
