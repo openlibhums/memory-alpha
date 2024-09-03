@@ -1,11 +1,16 @@
-<nav id="main-nav">
+{# A component to display the main navigation. #}
+
+{% macro main_nav(LEFT_NAV_ITEMS, RIGHT_NAV_ITEMS) -%}
+
+
+<nav id="main-nav" class="main-nav">
   <div class="nav-container">
     <div class="left">
       <button class="slide-drawer" id="slide-drawer">
         &#9776;
       </button>
-      <ul class="flex">
-        {% for title, link, class in MENU_ITEMS %}
+      <ul>
+        {% for title, link, class in LEFT_NAV_ITEMS %}
         <li>
           <a href="{{ link }}"{% if class %} class="{{ class }}"{% endif %}>
             {{ title }}
@@ -18,8 +23,8 @@
       <img src="theme/images/logo/Janeway-logo-white.svg" alt="Janeway Logo" />
     </div>
     <div class="right">
-      <ul class="flex">
-        {% for title, link, class in RIGHT_MENU_ITEMS %}
+      <ul>
+        {% for title, link, class in RIGHT_NAV_ITEMS %}
         <li>
           <a href="{{ link }}"{% if class %} class="{{ class }}"{% endif %}>
             {{ title }}
@@ -33,14 +38,14 @@
   <!-- Combined menu for the slide drawer navigation. -->
   <div class="combined-menu">
     <ul>
-      {% for title, link, class in MENU_ITEMS %}
+      {% for title, link, class in LEFT_NAV_ITEMS %}
       <li>
         <a href="{{ link }}"{% if class %} class="{{ class }}"{% endif %}>
           {{ title }}
         </a>
       </li>
       {% endfor %}
-      {% for title, link, class in RIGHT_MENU_ITEMS %}
+      {% for title, link, class in RIGHT_NAV_ITEMS %}
       <li>
         <a href="{{ link }}"{% if class %} class="{{ class }}"{% endif %}>
           {{ title }}
@@ -50,3 +55,4 @@
     </ul>
   </div>
 </nav>
+{%- endmacro %}

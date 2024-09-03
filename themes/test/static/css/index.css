@@ -14,7 +14,7 @@
 @import "../components/example_component.css" layer(components);
 @import "../components/page_section.css" layer(components);
 @import "../components/page_section_group.css" layer(components);
+@import "../components/main_nav.css" layer(components);
 
 /* Utilities have greatest precedence */
 @import "utilities.css" layer(utilities);
-@import "nav.css" layer(nav);

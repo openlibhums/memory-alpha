@@ -1,3 +1,4 @@
+{% from "main_nav.html" import main_nav %}
 <!DOCTYPE html>
 <html lang="{% block html_lang %}{{ DEFAULT_LANG }}{% endblock html_lang %}">
   <head>
@@ -21,9 +22,9 @@
   </head>
 
   <body>
-    <header class="sticky">
+    <header class="sticky-header">
       <div class="container">
-        {% include "nav.html" %}
+        {{ main_nav(LEFT_NAV_ITEMS, RIGHT_NAV_ITEMS) }}
         {#
         <hgroup>
           <h1><a href="{{ SITEURL }}/">{{ SITENAME }}</a></h1>

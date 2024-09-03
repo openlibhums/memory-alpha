@@ -1,11 +1,4 @@
-.sticky {
-  position: sticky;
-  top: 0;
-  z-index: 50;
-  background-color: var(--clr-black);
-}
-
-#main-nav {
+.main-nav {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -157,7 +150,7 @@
 
 /* Mobile view: Hide left and right UL, display slide-drawer */
 @media (max-width: 1180px) {
-  #main-nav {
+  .main-nav {
     .left ul, .right ul {
       display: none;
     }
@@ -166,19 +159,19 @@
     }
   }
 
-  #main-nav.open .left ul,
-  #main-nav.open .right ul {
+  .main-nav.open .left ul,
+  .main-nav.open .right ul {
     display: none;
   }
 
-  #main-nav.open .combined-menu {
+  .main-nav.open .combined-menu {
     display: flex;
   }
 }
 
 /* Desktop view: Always display left and right UL, hide slide-drawer */
 @media (min-width: 1181px) {
-  #main-nav {
+  .main-nav {
     .left ul, .right ul {
       display: flex !important;
     }
