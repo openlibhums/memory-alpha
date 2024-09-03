@@ -63,13 +63,29 @@
   .left {
     flex: 1;
     justify-content: flex-start;
+    
+    li {
+      margin-right: 0.5rem;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
   }
 
   .right {
     flex: 1;
     justify-content: flex-end;
-  }
 
+    li {
+      margin-left: 0.5rem;
+
+      &:first-child {
+        margin-left: 0;
+      }
+    }
+  }
+  
   .slide-drawer {
     display: none;
     background: none;
@@ -109,7 +125,7 @@
         }
 
         &:hover {
-          font-weight: bold;
+          font-weight: 950;
         }
       }
     }
