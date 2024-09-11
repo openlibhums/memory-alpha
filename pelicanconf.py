@@ -83,7 +83,7 @@ LEFT_NAV_ITEMS = [
     ('Hosting', '#'),
     # ('People', '#'), Not in scope for MVP
 ]
-RIGHT_MENU_ITEMS = [
+RIGHT_NAV_ITEMS = [
     # ('Book a Demo', '#') Not in scope for MVP
     ('Support', '/support-under-construction.html'),
 ]
