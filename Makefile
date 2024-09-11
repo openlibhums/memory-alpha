@@ -59,7 +59,7 @@ help:
 image:
 	docker build -t birkbeckctp/janeway.systems .
 shell:		## Runs the janeway-web service and starts an interactive bash process instead of the webserver
-	@docker run --rm -ti --entrypoint=/bin/sh ${MOUNTPOINT_ARG} birkbeckctp/janeway.systems
+	@docker run -p 8000:8000 --rm -ti --entrypoint=/bin/sh ${MOUNTPOINT_ARG} ${OUTPUTDIR_ARG} birkbeckctp/janeway.systems
 html:
 	"$(PELICAN)" "$(INPUTDIR)" -o "$(OUTPUTDIR)" -s "$(CONFFILE)" $(PELICANOPTS)
 
