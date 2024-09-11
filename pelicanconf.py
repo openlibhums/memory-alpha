@@ -52,7 +52,7 @@ PAGE_SAVE_AS = '{slug}.html'
 
 # Static
 STATIC_PATHS = [
-    'docs/images',
+    'support/images',
 
     # Legacy paths from old docs
     # that we will eventually remove
@@ -78,14 +78,14 @@ THEME_TEMPLATES_OVERRIDES = [
 DISPLAY_PAGES_ON_MENU = False # We want to set the order manually
 DISPLAY_CATEGORIES_ON_MENU = False
 LEFT_NAV_ITEMS = [
-    ('Our Story', '/'),
-    ('Explore', '/example-page.html'),
-    ('Hosting', '/docs/example-docs-page.html'),
-    ('People', '/docs/example-docs-page.html'),
+    ('Our Story', '#'),
+    # ('Explore', '#'), Not in scope for MVP
+    ('Hosting', '#'),
+    # ('People', '#'), Not in scope for MVP
 ]
 RIGHT_MENU_ITEMS = [
-    ('Help/Docs', '/docs-under-construction.html'),
-    ('Book a Demo', '/', '')
+    # ('Book a Demo', '#') Not in scope for MVP
+    ('Support', '/support-under-construction.html'),
 ]
 
 # jinja2content plugin
@@ -96,10 +96,11 @@ DEFAULT_DATE = 'fs'
 
 # Take the 'categories' feature and temporarily
 # mis-use it to create a working contents tree for docs
-CATEGORIES_SAVE_AS = 'docs-under-construction.html'
+CATEGORIES_SAVE_AS = 'support-under-construction.html'
 
 JINJA_ENVIRONMENT = {
     'extensions': ['jinja2.ext.do'],
 }
 
+GH_SUPPORT_CONTENT_URL = 'https://github.com/BirkbeckCTP/memory-alpha/edit/support-web-content/content'
 GH_COPYEDIT_CONTENT_URL = 'https://github.com/BirkbeckCTP/memory-alpha/edit/copyediting/content'

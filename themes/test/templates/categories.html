@@ -1,15 +1,15 @@
 {% extends "base.html" %}
 
-{% block title %}Help/Docs Under Construction - {{ SITENAME|striptags }}{% endblock %}
+{% block title %}Support site under construction - {{ SITENAME|striptags }}{% endblock %}
 
-{% set docs_pages = [] %}
+{% set support_pages = [] %}
 {% set old_docs_pages = [] %}
 {% for category, articles in categories %}
   {% for article in articles %}
     {% if 'old-docs' in article.url %}
       {% do old_docs_pages.append(article) %}
-    {% elif 'docs' in article.url %}
-      {% do docs_pages.append(article) %}
+    {% elif 'support' in article.url %}
+      {% do support_pages.append(article) %}
     {% endif %}
   {% endfor %}
 {% endfor %}
@@ -17,7 +17,7 @@
 {% macro page_list_display(page) %}
   <p class="ff-space-mono-regular fs-3">
     {% set markdown_path = page.url|replace('.html', '.md') %}
-    <a href="{{ GH_COPYEDIT_CONTENT_URL }}/{{ markdown_path }}">
+    <a href="{{ GH_SUPPORT_CONTENT_URL }}/{{ markdown_path }}">
       /{{ markdown_path }}
     </a>
   </p>
@@ -31,16 +31,16 @@
 {% block content %}
   <div class="flow">
     <div class="prose flow">
-      <h1>Help/Docs Under Construction</h1>
+      <h1>Support site under construction</h1>
       <p>This webpage is temporary. We will replace it with better pages and
-      menus for support and docs.</p>
+      menus for support and docs once we design the menus for the support site.</p>
       <p>Pages are sorted alphabetically by the file path. There is a link to
       edit the page on GitHub and a link to view the live version of the
       page.</p>
     </div>
-    <h2>Pages in /docs/</h2>
+    <h2>Pages in /support/</h2>
     <div class="grid columns-2-landscape columns-1-portrait">
-      {% for page in docs_pages|sort(attribute='url') %}
+      {% for page in support_pages|sort(attribute='url') %}
         {{ page_list_display(page) }}
       {% endfor %}
     </div>
