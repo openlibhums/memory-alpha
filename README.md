@@ -43,6 +43,21 @@ Steps to create a Janeway site page:
 
 2. Add the page name and URL to `MENUITEMS` in `pelicanconf.py`.
 
+### Support pages
+
+Documentation authors are asked to place all content in `/content/support/`,
+using GitHub-flavored Markdown and including images in
+`/content/support/images/`.
+
+They are also encouraged to use the `support-web-content` Git branch,
+or a dedicated feature branch. They may often need help with pull requests and
+merges from there into main.
+
+The `support-web-content` branch is intended as a perpetual branch.
+When merging from it, please remember to leave the
+branch open and rebase it onto main, so that it is up-to-date with main
+for the convenience of the next person to write content.
+
 ### Components
 
 The first time you build a given section or element,
