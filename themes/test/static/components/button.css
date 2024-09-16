@@ -1,0 +1,104 @@
+
+.button-container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:50px auto;
+    box-sizing: border-box;
+}
+
+.button {
+    top:50%;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+/* don't underline text of links with button class */
+.button-container > a{
+    text-decoration-line: none;
+    line-height: 1.1;
+}
+
+/* borders */
+
+.border-black { border: solid var(--clr-black) 2px; }
+.border-tan { border: solid var(--clr-tan) 2px; }
+.border-orange { border: solid var(--clr-orange) 2px; }
+.border-blue { border: solid  var(--clr-blue) 2px; }
+.border-rust { border: solid var(--clr-rust) 2px; }
+
+
+/* color pairs foreground-background*/
+.button-tan-on-black{
+    color: var(--clr-tan);
+    background-color: var(--clr-black);
+}
+.button-black-on-tan{
+    color: var(--clr-black);
+    background-color: var(--clr-tan);
+}
+
+.button-rust-on-black{
+    color: var(--clr-rust);
+    background-color: var(--clr-black);
+}
+.button-black-on-rust{
+    color: var(--clr-black);
+    background-color: var(--clr-rust);
+}
+
+.button-tan-on-orange{
+    color: var(--clr-tan);
+    background-color: var(--clr-orange);
+}
+.button-orange-on-tan{
+    color: var(--clr-orange);
+    background-color: var(--clr-tan);
+}
+
+.button-tan-on-blue{
+    color: var(--clr-tan);
+    background-color: var(--clr-blue);
+}
+.button-blue-on-tan{
+    color: var(--clr-blue);
+    background-color: var(--clr-tan);
+}
+
+/* hover inversing color pair */
+
+.button-tan-on-black:hover{
+    color: var(--clr-black);
+    background-color: var(--clr-tan);
+}
+.button-black-on-tan:hover{
+    color: var(--clr-tan);
+    background-color: var(--clr-black);
+}
+
+.button-rust-on-black:hover{
+    color: var(--clr-black);
+    background-color: var(--clr-rust);
+}
+.button-black-on-rust:hover{
+    color: var(--clr-rust);
+    background-color: var(--clr-black);
+}
+
+.button-tan-on-orange:hover{
+    color: var(--clr-orange);
+    background-color: var(--clr-tan);
+}
+.button-orange-on-tan:hover{
+    color: var(--clr-tan);
+    background-color: var(--clr-orange);
+}
+
+.button-tan-on-blue:hover{
+    color: var(--clr-blue);
+    background-color: var(--clr-tan);
+}
+.button-blue-on-tan:hover{
+    color: var(--clr-tan);
+    background-color: var(--clr-blue);
+}

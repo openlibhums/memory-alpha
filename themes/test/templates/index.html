@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% from "components/button.html" import button %}
 {% from "components/page_section.html" import page_section %}
 {% from "components/page_section_group.html" import page_section_group %}
 
@@ -24,6 +25,14 @@
       <hr>
       <h3>Discord</h3>
       {{ lipsum(n=1, min=8, max=12) }}
+
+      {% call button(volume="loud", parentTextColor="blue", parentBackgroundColor="tan") %}
+        loud button
+      {% endcall %}
+      {% call button(volume="quiet", parentTextColor="blue", parentBackgroundColor="tan") %}
+        quiet button
+      {% endcall %}
+
     {% endcall %}
     {% call page_section_group() %}
       {% call page_section(labelledby="our-mission", bg="bg-blue", layout="layout-right") %}
@@ -31,9 +40,21 @@
         <p class="fs-4 ff-space-mono-regular">
           {{ lipsum(n=1, min=15, max=20, html=False) }}
         </p>
+        {% call button(volume="loud", onclick="testAction()", parentTextColor="tan", parentBackgroundColor="blue") %}
+          loud action
+        {% endcall %}
+        {% call button(volume="quiet", onclick="testAction()", parentTextColor="tan", parentBackgroundColor="blue") %}
+          quiet action
+        {% endcall %}
       {% endcall %}
       {% call page_section(labelledby="speak-to-us", bg="bg-orange", layout="layout-right") %}
         <h2 id="speak-to-us">Speak<br> to us</h2>
+        {% call button(labelledby="speak-to-us", link="docs/example-docs-page.html", volume="loud", parentTextColor="tan", parentBackgroundColor="orange") %}
+          loud link
+        {% endcall %}
+        {% call button(link="docs/example-docs-page.html", volume="quiet", parentTextColor="tan", parentBackgroundColor="orange") %}
+          quiet link
+        {% endcall %}
       {% endcall %}
     {% endcall %}
   {% endcall %}

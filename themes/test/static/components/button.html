@@ -1,0 +1,54 @@
+{# A button for user action.
+
+    volume - str: loud or quiet
+    link - str: the href if it is a link, blank if an action button
+    onclick - str: the onclick function if it is an action button, blank if a link
+    parentTextColor - str: the color name of the text within the parent container
+    parentBackgroundColor - str: the color name of the background in the parent container
+    labelledby - str: for aria labelledby
+    label - str: for aria label
+
+    #}
+
+{% macro button(
+    volume="loud", 
+    link="", 
+    onclick="", 
+    parentTextColor="blue", 
+    parentBackgroundColor="tan",
+    labelledby="", 
+    label="") 
+-%}
+
+
+<div class="button-container">
+    {% if link %}
+        <a href="{{link}}"
+    {% else %}
+        <button type="button" onclick="{{onclick}}"
+    {% endif %}
+
+    {% if labelledby %}
+        aria-labelledby="{{ labelledby }}"
+    {% elif label %}
+        aria-label="{{ label }}"
+    {% endif %}
+
+    {% if volume == "loud" %}
+        class="button ff-space-mono-bold button-{{parentBackgroundColor}}-on-{{parentTextColor}} border-{{parentTextColor}}"
+    {% elif volume == "quiet" %}
+        class="button ff-space-mono-bold button-{{parentTextColor}}-on-{{parentBackgroundColor}} border-{{parentTextColor}}"
+    {% endif %}
+    >
+
+    {{ caller() }} <span aria-hidden > &#10140; </span> 
+
+    {% if link %}
+        </a>
+    {% else %}
+        </button>
+    {% endif %}
+
+</div>
+
+{%- endmacro %}
