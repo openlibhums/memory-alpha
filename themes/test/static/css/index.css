@@ -11,6 +11,7 @@
 
 /* Components */
 /* Add new components to this section in alphabetical order */
+@import "../components/button.css" layer(components);
 @import "../components/example_component.css" layer(components);
 @import "../components/main_nav.css" layer(components);
 @import "../components/page_section.css" layer(components);
