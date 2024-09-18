@@ -9,7 +9,7 @@ set it as the articles large image file (also known as the hero image).
 > [!WARNING]
 > You MUST ensure you have a license/permission to download and use the image. We recommend Unsplash, where Images are licensed similar to CC0. The URL **MUST** be directly to the image, not the landing page. On Unsplash you can get this by right-clicking on the "Download free" button and selecting "Copy link address".
 
-1.  Download the [article image import template](downloadables/imports/article_images_import_template.csv).
+1.  Download the [article image import template](downloadables/article-images-import-template.csv).
 2.  Fill in the details, you can add on article per line.
 3.  On the Imports Plugin main page select **Article Images** and click
     **Start Import**.
@@ -17,7 +17,7 @@ set it as the articles large image file (also known as the hero image).
 5.  Click **Import** to complete the process.
 
 > [!TIP]
-> Download the [article image import sample](../downloadables/imports/article_images_import_sample.csv) CSV to see example data.
+> Download the [article image import sample](downloadables/article-images-import-sample.csv) CSV to see example data.
 
 ## Metadata Field Reference
 

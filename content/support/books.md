@@ -79,7 +79,7 @@ When adding a new category, the following fields are available:
     -   This defaults to “Buy this Book”. If the item is not a book, you
         will need to update this field. This is a required field.
 
-![An example of how changing the ‘Chapter name’ fields results in a change on the website. Instead of ‘Chapters’ it reads ‘Assignment Sets’ on the dropdown. The text in the dropdown now reads ‘Introduction to Open Access - workbook (the title) has the following Assignment Sets:’. It then goes on to list these.](images/books-Category-display.png)
+![An example of how changing the ‘Chapter name’ fields results in a change on the website. Instead of ‘Chapters’ it reads ‘Assignment Sets’ on the dropdown. The text in the dropdown now reads ‘Introduction to Open Access - workbook (the title) has the following Assignment Sets:’. It then goes on to list these.](images/books-category-display.png)
 
 >[!NOTE]
 >This field is case-sensitive. If you do not wish for these words to be
