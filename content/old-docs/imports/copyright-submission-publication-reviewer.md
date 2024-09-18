@@ -1,3 +1,5 @@
+Title: Copyright, Submission, Publication Fees & Reviewer Guidelines Import
+
 # Copyright, Submission, Publication Fees & Reviewer Guidelines Import
 
 This tool allows you to update some article submission specific settings
