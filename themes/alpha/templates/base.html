@@ -27,14 +27,16 @@
     {% call sticky_header() %}
       {{ main_nav(LEFT_NAV_ITEMS, RIGHT_NAV_ITEMS) }}
     {% endcall %}
-    <div class="container">
-      <main>
-        {% block content %}
-        {% endblock %}
-      </main>
-      <footer>
-        <p>Footer</p>
-      </footer>
+    <div class="overflow-x-hidden">
+      <div class="container">
+        <main>
+          {% block content %}
+          {% endblock %}
+        </main>
+        <footer>
+          <p>Footer</p>
+        </footer>
+      </div>
     </div>
     
   </body>
