@@ -4,14 +4,8 @@ Title: George
 
 {% from "utils.html" import best_foreground %}
 
-{% macro george_space_splash(label="", labelledby="") -%}
-  <aside
-    {% if labelledby %}
-      aria-labelledby="{{ labelledby }}"
-    {% elif label %}
-      aria-label="{{ label }}"
-    {% endif %}
-    class="george-space-splash">
+{% macro george_space_splash() -%}
+  <aside class="george-space-splash">
     <div class="medium-circle-one bg-blue"></div>
     <div class="medium-circle-two bg-blue"></div>
     <div class="small-circle bg-blue"></div>
@@ -24,7 +18,8 @@ Title: George
               type="image/avif">
             <img
               src="{{ static }}/theme/images/nasa-hubble-space-telescope-sparkles.png"
-              alt="An 1830 portrait of George Birkbeck gazing steadily forward with poise">
+              alt="An 1830 portrait of George Birkbeck gazing steadily forward
+              with poise, surrounded by bright colorful circles">
           </picture>
           <div class="orange-circle">
             <picture class="george-picture">
@@ -33,7 +28,8 @@ Title: George
                 type="image/avif">
               <img
                 src="{{ static }}/theme/images/george-birkbeck-portrait-samuel-lane-1830.png"
-                alt="A satellite photo of bright stars and clouds in far outer space">
+                alt="A satellite photo of bright stars and clouds in far outer
+                space, shimmering through a rust-colored portal">
             </picture>
           </div>
         </div>
