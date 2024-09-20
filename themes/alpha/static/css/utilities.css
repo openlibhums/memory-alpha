@@ -125,3 +125,9 @@
   white-space: nowrap; /* added line */
   border: 0;
 }
+
+/* Hide overflow on the left and right of an element */
+
+.overflow-x-hidden {
+  overflow-x: hidden;
+}
