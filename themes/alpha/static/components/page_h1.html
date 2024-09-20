@@ -1,0 +1,15 @@
+{# An h1 element with brand styling for product site pages #}
+
+{% from "utils.html" import best_foreground %}
+
+{% macro page_h1(id="", bg="bg-black") -%}
+  <div class="page-h1">
+    <h1
+      {% if id %}
+        id="{{ id }}"
+      {% endif %}
+      class="{{ bg }} {{ best_foreground(bg) }}">
+      <span class="h1-text">{{ caller() }}</span>
+    </h1>
+  </div>
+{%- endmacro %}
