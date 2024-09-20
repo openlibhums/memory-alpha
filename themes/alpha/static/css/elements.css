@@ -5,8 +5,8 @@ body {
   overflow-x: hidden;
 }
 h1 {
-  font-size: var(--step-7);
-  font-family: var(--ff-space-mono-bold);
+  font-size: var(--step-8);
+  font-family: var(--ff-space-mono-regular);
   font-weight: normal;
   line-height: 1.1;
   --flow-space: var(--space-xl);
