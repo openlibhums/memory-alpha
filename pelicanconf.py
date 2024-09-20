@@ -64,20 +64,14 @@ STATIC_PATHS = [
     'old-docs/nstatic/typesetting/editor',
 ]
 
-# The following two settings allow us to co-locate component HTML and CSS files in the same folder.
-# Prevent HTML files in /components/ from being copied to served assets
-IGNORE_FILES = ['/components/*.html']
-
-# Allow us to import component HTML files directly as if they were in /templates/
-THEME_TEMPLATES_OVERRIDES = [
-    'themes/alpha/static/',
-]
+# Prevent HTML files in /static/components/ from being copied to served assets
+IGNORE_FILES = ['*.html']
 
 # Nav
 DISPLAY_PAGES_ON_MENU = False # We want to set the order manually
 DISPLAY_CATEGORIES_ON_MENU = False
 LEFT_NAV_ITEMS = [
-    ('Our Story', '#'),
+    ('Our Story', '/our-story.html'),
     # ('Explore', '#'), Not in scope for MVP
     ('Hosting', '#'),
     # ('People', '#'), Not in scope for MVP
@@ -91,7 +85,11 @@ ALL_PAGES =  [
 ] + LEFT_NAV_ITEMS + RIGHT_NAV_ITEMS
 
 # jinja2content plugin
-JINJA2CONTENT_TEMPLATES = ['content']
+JINJA2CONTENT_TEMPLATES = [
+    'pages',
+    'support',
+    'old-docs', # temporary until new docs are complete
+]
 
 # Use mtime of files as date in webpage metadata
 DEFAULT_DATE = 'fs'
