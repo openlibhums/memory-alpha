@@ -22,7 +22,6 @@
 
   .logo {
     justify-content: center;
-    padding: var(--space-l);
     flex: 0 1 12.5rem;
     
     img {
@@ -30,7 +29,7 @@
     }
   }
 
-  a {
+  a:not(.logo a) {
     text-decoration: none;
     font-family: var(--ff-poppins-medium);
     position: relative;
