@@ -3,8 +3,8 @@
     volume - str: loud or quiet
     link - str: the href if it is a link, blank if an action button
     onclick - str: the onclick function if it is an action button, blank if a link
-    parentTextColor - str: the color name of the text within the parent container
-    parentBackgroundColor - str: the color name of the background in the parent container
+    parent_text_color - str: the color name of the text within the parent container
+    parent_background_color - str: the color name of the background in the parent container
     labelledby - str: for aria labelledby
     label - str: for aria label
 
@@ -14,8 +14,8 @@
     volume="loud", 
     link="", 
     onclick="", 
-    parentTextColor="blue", 
-    parentBackgroundColor="tan",
+    parent_text_color="blue", 
+    parent_background_color="tan",
     labelledby="", 
     label="") 
 -%}
@@ -35,9 +35,9 @@
     {% endif %}
 
     {% if volume == "loud" %}
-        class="button ff-space-mono-bold button-{{parentBackgroundColor}}-on-{{parentTextColor}} border-{{parentTextColor}}"
+        class="button ff-space-mono-bold {{parent_background_color}}-on-{{parent_text_color}} border-{{parent_text_color}}"
     {% elif volume == "quiet" %}
-        class="button ff-space-mono-bold button-{{parentTextColor}}-on-{{parentBackgroundColor}} border-{{parentTextColor}}"
+        class="button ff-space-mono-bold {{parent_text_color}}-on-{{parent_background_color}} border-{{parent_text_color}}"
     {% endif %}
     >
 
