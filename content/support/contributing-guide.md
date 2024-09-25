@@ -70,4 +70,3 @@ For example:
 ```md
 # Contributing to Janeway documentation
 ```
-
