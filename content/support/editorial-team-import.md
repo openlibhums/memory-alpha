@@ -1,29 +1,18 @@
 Title: Editorial Team Import
 
 # Editorial Team Import
-
 The Editorial Team Import allows you to create your editorial team by
 uploading a CSV (Comma Seperated Value) file.
 
-<div class="note">
-
-<div class="title">
-
-Note
-
-</div>
-
-If you include a user in your editorial team CSV that does not yet have
+>[!NOTE]
+>If you include a user in your editorial team CSV that does not yet have
 an account one will be created for them. If an account already exists
 that account will be added as a group member. Accounts created during
 this import are not assigned any roles.
 
-</div>
-
 To import your editorial team:
-
 1.  Download the
-    `editorial team template <nstatic/editorial_team_template.csv>`.
+    [editorial team template](../support/downloadables/editor-import-template.csv).
 2.  Enter the details of your editorial team members, one per row.
 3.  The last field "group name" should match for all the members you
     want to be in the same group eg. "Editor" or "Reviews Editors".
@@ -36,15 +25,6 @@ If you have enabled the Editorial Team page these groups and members
 will be live. If not you can view them from the Editorial Team page on
 the Journal Manager.
 
-<div class="tip">
-
-<div class="title">
-
-Tip
-
-</div>
-
-Download the `editorial team sample <nstatic/editorial_team_sample.csv>`
+>[!TIP]
+>Download the [editorial team sample](../support/downloadables/editorial-team-sample.csv)
 CSV to see example data.
-
-</div>

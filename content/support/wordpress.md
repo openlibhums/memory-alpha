@@ -5,18 +5,8 @@ Title: Wordpress Import
 This import tool allows you to import posts from a Wordpress site into a
 Janeway journal's news system.
 
-<div class="warning">
-
-<div class="title">
-
-Warning
-
-</div>
-
-This importer is site specific. You should be accessing the import tool
-from the press or journal you want it import the reviewers into.
-
-</div>
+> [!WARNING]
+> This importer is site specific. You should be accessing the import tool from the press or journal you want it import the reviewers into.
 
 To import Wordpress posts:
 
