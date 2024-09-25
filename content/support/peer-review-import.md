@@ -1,27 +1,16 @@
 Title: Article Review Import
 
 # Article Review Import
-
 The article review import tool allows you to create peer reviews by
 uploading a CSV (Comma Seperated Value) file.
 
-<div class="warning">
-
-<div class="title">
-
-Warning
-
-</div>
-
-This tool only allows the import of reviews as files, as such you may
-need an administrator to load the files onto the server for you.
-
-</div>
+> [!WARNING]
+>This tool only allows the import of reviews as files, as such you may
+>need an administrator to load the files onto the server for you.
 
 To import peer reviews:
-
 1.  Download the
-    `article review import template <nstatic/peer_review_import_template.csv>`.
+    [article review import template](../support/downloadables/reviewer-import-template.csv).
 2.  Enter your peer review details, one per row.
 3.  On the Imports Plugin main page select **Reviewer Import** and click
     **Start Import**.
@@ -40,16 +29,6 @@ To import peer reviews:
 | Date Fields           | All date fields should be in ISO format YYYY-MM-DD         |
 | Visibility            | Either: open, blind or double-blind                        |
 
-<div class="tip">
-
-<div class="title">
-
-Tip
-
-</div>
-
-Download the
-`article review import sample <nstatic/peer_review_import_sample.csv>`
-CSV to see example data.
-
-</div>
+> [!TIP]
+>Download the [article review import sample](../support/downloadables/reviewer-import-sample.csv)
+>CSV to see example data.
