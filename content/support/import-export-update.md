@@ -8,10 +8,7 @@ The Import / Export / Update tool lets you perform some batch actions in
 Janeway. You can import and export article metadata and files, and you
 can update some fields of existing articles.
 
-<figure>
-<img src="../nstatic/imports/import-export-update-start.png" />
-<figcaption>The Import, Export, Update start page</figcaption>
-</figure>
+!["The Import, Export, Update start page<"](../support/images/import-export-update-start.png)
 
 ## Importing
 
@@ -38,26 +35,21 @@ typesetting, or prepublication).
 6.  A table should load in your browser showing you the data, before you
     import it. If everything looks good, select **Import**.
 
-<div class="tip">
-
-<div class="title">
-
-Tip
-
-</div>
-
-Are you importing articles that have no authors? Leave all of these
-fields blank: - Author salutation - Author given name - Author middle
-name - Author surname - Author suffix - Author institution - Author
-department - Author biography - Author email - Author ORCID - Author is
-corporate (Y/N)
-
-</div>
-
-Other text
+> [!TIP]
+>Are you importing articles that have no authors? Leave all of these fields blank: 
+>- Author salutation 
+>- Author given name 
+>- Author middle name 
+>- Author surname 
+>- Author suffix 
+>- Author institution 
+>- Author department 
+>- Author biography 
+>- Author email 
+>- Author ORCID 
+>- Author is corporate (Y/N)
 
 ## Exporting
-
 You can export a CSV containing metadata for all the articles currently
 in a given workflow stage. It will also download selected files from
 that stage.
@@ -74,7 +66,6 @@ that stage.
     article files in subfolders numbered by article ID.
 
 ## Updating
-
 You can update metadata for batches of articles in Janeway, so you don't
 have to click through each individual article to make the change.
 
@@ -84,26 +75,16 @@ have to click through each individual article to make the change.
     data). So we recommend you first export the set of articles, and use
     that as the basis for changes. See [Exporting](#exporting).
 
-<div class="warning">
-
-<div class="title">
-
-Warning
-
-</div>
-
-The tool will let you overwrite old data if you leave fields blank, so
-make sure you start any update project by running an export.
-
-</div>
+> [!WARNING]
+>The tool will let you overwrite old data if you leave fields blank, so
+>make sure you start any update project by running an export.
 
 2.  Extract the zip file you exported and open the CSV in your
     spreadsheet software of choice (but be careful with character
     encoding).
 3.  Edit the metadata as desired. You an rearrange the columns but the
-    column names have to stay exactly the same. See the [sample
-    update](../nstatic/imports/sample-update.csv), which shows changes made to the
-    data in [sample import](../nstatic/imports/sample-import.csv>`. See also the
+    column names have to stay exactly the same. See the [sample update](../support/downloadables/sample-update.csv), which shows changes made to the
+    data in [sample import](../support/downloadables/sample-import.csv). See also the
     [Metadata Field Reference](#metadata-field-reference) for details on
     each field.
 4.  Save the CSV file with a name of your choosing.
@@ -114,7 +95,6 @@ make sure you start any update project by running an export.
     looks good, select **Import**.
 
 ## Metadata Field Reference
-
 The table below shows you what actions (i.e. import, export, update) you
 can perform with each field (yes/no). For example, you can't *import*
 article IDs, because Janeway assigns them for you to make sure they're
@@ -177,7 +157,6 @@ like the keywords.
 | PDF URI                   | A valid URI (advanced users)        | yes, optional  | no     | yes, optional                         |
 
 ## Custom Submission Fields
-
 If your journal has any additional submission fields available, this
 plugin will also allow you to export and update such fields.
 
@@ -250,7 +229,7 @@ name of the field in Janeway exactly.
 
 [^12]: You can import PDF galleys with this process using the PDF URI
     field. The URI must use one of the following schemes: `http`,
-    `https` or `file` (When using <span class="title-ref">file</span> it
+    `https` or `file` (When using `file` it
     points a local path of the running instance of Janeway, does not
     support netlocs)
 

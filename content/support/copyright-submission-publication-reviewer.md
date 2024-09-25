@@ -18,5 +18,5 @@ by uploading a CSV (Comma Seperated Value) file.
 5.  Click **Import** to complete the process.
 
 > [!TIP]
-> Download the [import sample](downloadables/cspr-import-sample.csv)
+> Download the [import sample](../support/downloadables/cspr-import-sample.csv)
 > CSV to see example data.

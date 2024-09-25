@@ -1,25 +1,14 @@
 Title: Editors Import
 
 # Editors Import
-
 The editor import tool allows you to create editor accounts by uploading
 a CSV (Comma Seperated Value) file.
 
-<div class="warning">
-
-<div class="title">
-
-Warning
-
-</div>
-
-This importer is site specific. You should be accessing the import tool
+>[!WARNING]
+>This importer is site specific. You should be accessing the import tool
 from the press or journal you want it import the editors into.
 
-</div>
-
 To import editor accounts:
-
 1.  Download the [editors import template]
     (../nstatic/imports/editor-import-template.csv).
 2.  Enter your editor's details, one per row.
@@ -29,29 +18,11 @@ To import editor accounts:
     reset notification check that option.
 5.  Click **Import** to complete the process.
 
-<div class="warning">
-
-<div class="title">
-
-Warning
-
-</div>
-
-It is important that you let editors know before you user the password
+>[!WARNING]
+>It is important that you let editors know before you user the password
 reset function as it can result in editors suspecting the message is
 spam.
 
-</div>
-
-<div class="tip">
-
-<div class="title">
-
-Tip
-
-</div>
-
-Download the `editors import sample <nstatic/editor_import_sample.csv>`
+>[!TIP]
+>Download the [editors import sample](../support/downloadables/editor-import-sample.csv)
 CSV to see example data.
-
-</div>

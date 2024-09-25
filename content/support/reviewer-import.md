@@ -12,7 +12,7 @@ uploading a CSV (Comma Seperated Value) file.
 To import reviewer accounts:
 
 1.  Download the
-    `reviewer import template <nstatic/reviewer_import_template.csv>`.
+    [reviewer import template](../support/downloadables/reviewer-import-template.csv).
 2.  Enter your reviewer details, one per row.
 3.  If you wish to add more than one interest you should separate them
     with a semi colon eg. interest one; interest two; interest three.
@@ -22,30 +22,11 @@ To import reviewer accounts:
     reset notification check that option.
 6.  Click **Import** to complete the process.
 
-<div class="warning">
+> [!WARNING]
+>It is important that you let reviewers know before you user the password
+>reset function as it can result in reviewers suspecting the message is
+>spam.
 
-<div class="title">
-
-Warning
-
-</div>
-
-It is important that you let reviewers know before you user the password
-reset function as it can result in reviewers suspecting the message is
-spam.
-
-</div>
-
-<div class="tip">
-
-<div class="title">
-
-Tip
-
-</div>
-
-Download the
-`reviewer import sample <nstatic/reviewer_import_sample.csv>` CSV to see
-example data.
-
-</div>
+> [!TIP]
+>Download the [reviewer import sample](../support/downloadables/reviewer-import-sample.csv) CSV to see
+>example data.
