@@ -13,19 +13,19 @@ and out of Janeway. The main one for publishers using Janeway is the
 
 ## Features
 - [Import, Export, Update](import-export-update)
-    - [Importing](import-export-update.md#importing)
-    - [Exporting](import-export-update.md#exporting)
-    - [Updating](import-export-update.md#updating)
-    - [Metadata Field Reference](import-export-update.md#metadata-field-reference)
-    - [Custom Submission Fields](import-export-update.md#custom-submission-fields)
+    - Importing
+    - Exporting
+    - Updating
+    - Metadata Field Reference
+    - Custom Submission Fields
 - [Editorial Team Import](editorial-team-import)
 - [Reviewer Import](reviewer-import)
 - [Article Review Import](peer-review-import)
-    - [Metadata Field Reference](peer-review-import.md#metadata-field-reference)
+    - Metadata Field Reference
 - [Editors Import](editor-import)
 - [Contact Import](contact-import)
 - [Copyright, Submission, Publication Fees & Reviewer Guidelines Import](copyright-submission-publication-reviewer)
 - [Article Images Import](article-images)
-    - [Metadata Field Reference](article-images.md#metadata-field-reference)
+    - Metadata Field Reference
 - [JATS Import](jats-import)
 - [Wordpress Import](wordpress)
