@@ -70,3 +70,13 @@ For example:
 ```md
 # Contributing to Janeway documentation
 ```
+## Internal links
+
+If you want to link to another page in the documentation, use Markdown’s link
+syntax, but leave the extension off the file, since eventually it will be an
+HTML file, not a Markdown file. For example, to create a link to this file from
+another file in the same folder, you can do this:
+
+```md
+Check the [contributing guide](contributing-guide) for instructions.
+```
