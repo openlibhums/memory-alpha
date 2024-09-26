@@ -47,8 +47,8 @@ PATH_METADATA = r'(?P<path_no_ext>.*)\..*'
 ARTICLE_URL = ARTICLE_SAVE_AS = '{path_no_ext}.html'
 
 # Where to put and serve pages
-PAGE_URL = '{slug}.html'
-PAGE_SAVE_AS = '{slug}.html'
+# PAGE_URL = '{slug}.html'
+# PAGE_SAVE_AS = '{slug}.html'
 
 # Static
 STATIC_PATHS = [
@@ -65,20 +65,23 @@ STATIC_PATHS = [
 ]
 
 # Prevent HTML files in /static/components/ from being copied to served assets
-IGNORE_FILES = ['*.html']
+IGNORE_FILES = [
+    '**/components/*.html', # Currently not working due to Pelican bug
+    # See https://github.com/getpelican/pelican/issues/1678#issuecomment-2376759249
+]
 
 # Nav
 DISPLAY_PAGES_ON_MENU = False # We want to set the order manually
 DISPLAY_CATEGORIES_ON_MENU = False
 LEFT_NAV_ITEMS = [
-    ('Our Story', '/our-story.html'),
+    ('Our Story', '/pages/our-story.html'),
     # ('Explore', '#'), Not in scope for MVP
     ('Hosting', '#'),
     # ('People', '#'), Not in scope for MVP
 ]
 RIGHT_NAV_ITEMS = [
     # ('Book a Demo', '#') Not in scope for MVP
-    ('Support', '/support-under-construction.html'),
+    ('Support', '/support/under-construction.html'),
 ]
 ALL_PAGES =  [
     ('Home', '/'),
@@ -96,7 +99,7 @@ DEFAULT_DATE = 'fs'
 
 # Take the 'categories' feature and temporarily
 # mis-use it to create a working contents tree for docs
-CATEGORIES_SAVE_AS = 'support-under-construction.html'
+CATEGORIES_SAVE_AS = 'support/under-construction.html'
 
 JINJA_ENVIRONMENT = {
     'extensions': ['jinja2.ext.do'],
