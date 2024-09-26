@@ -66,14 +66,13 @@ Documentation authors are asked to place all content in `/content/support/`,
 using GitHub-flavored Markdown and including images in
 `/content/support/images/`.
 
-They are also encouraged to use the `support-web-content` Git branch,
-or a dedicated feature branch. They may often need help with pull requests and
-merges from there into main.
+Pelican interprets these pages as “articles,” so minimal requirements about
+having a `Title` in the YAML metadata apply.
 
-The `support-web-content` branch is intended as a perpetual branch.
-When merging from it, please remember to leave the
-branch open and rebase it onto main, so that it is up-to-date with main
-for the convenience of the next person to write content.
+If they are editing on GitHub.com, they can make commits on the perpetual
+`copyediting` branch, or if they are working locally, they should open
+a dedicated feature branch. They may often need help with pull requests and
+merges from there into main.
 
 ### Components
 

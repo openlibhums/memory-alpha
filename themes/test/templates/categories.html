@@ -17,7 +17,7 @@
 {% macro page_list_display(page) %}
   <p class="ff-space-mono-regular fs-3">
     {% set markdown_path = page.url|replace('.html', '.md') %}
-    <a href="{{ GH_SUPPORT_CONTENT_URL }}/{{ markdown_path }}">
+    <a href="{{ GH_MAIN_CONTENT_URL }}/{{ markdown_path }}">
       /{{ markdown_path }}
     </a>
   </p>

@@ -105,5 +105,5 @@ JINJA_ENVIRONMENT = {
     'extensions': ['jinja2.ext.do'],
 }
 
-GH_SUPPORT_CONTENT_URL = 'https://github.com/BirkbeckCTP/memory-alpha/edit/support-web-content/content'
+GH_MAIN_CONTENT_URL = 'https://github.com/BirkbeckCTP/memory-alpha/edit/main/content'
 GH_COPYEDIT_CONTENT_URL = 'https://github.com/BirkbeckCTP/memory-alpha/edit/copyediting/content'
