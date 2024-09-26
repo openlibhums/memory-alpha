@@ -87,6 +87,9 @@ RIGHT_NAV_ITEMS = [
     # ('Book a Demo', '#') Not in scope for MVP
     ('Support', '/support-under-construction.html'),
 ]
+ALL_PAGES =  [
+    ('Home', '/'),
+] + LEFT_NAV_ITEMS + RIGHT_NAV_ITEMS
 
 # jinja2content plugin
 JINJA2CONTENT_TEMPLATES = ['content']
