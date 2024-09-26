@@ -18,10 +18,12 @@ Pages for the support site should be written in GitHub-flavored Markdown (GFM).
 Image files should be added under `/content/support/images/`. All the content
 can be edited on GitHub, so that you can make use of the Preview tab in GitHub.
 
-When creating Git commits, either create a dedicated branch if you prefer, or
-commit them to the perpetual branch `support-web-content`, and open pull
-requests from there. If you need help with anything related to commits,
-branches, or pull requests, please get in touch with our developers.
+When creating Git commits, create a dedicated branch if you are working in
+a code editor on your computer, or commit them to the perpetual branch
+`copyediting` if you are working on GitHub.com, and open pull requests
+into main from the branch you committed to. If you need help
+with anything related to commits, branches, or pull requests, please get
+in touch with our developers.
 
 ## Naming files and folders
 
