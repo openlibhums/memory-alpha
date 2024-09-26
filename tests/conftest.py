@@ -6,7 +6,7 @@ from axe_playwright_python.sync_playwright import Axe
 
 
 pelican, settings = get_instance(parse_arguments())
-SITE_PAGES = [path for _label, path in settings.get('MENUITEMS')]
+ALL_PAGES = [path for _label, path in settings.get('ALL_PAGES')]
 
 
 @pytest.fixture(scope="session")
@@ -35,6 +35,6 @@ def axe():
     return Axe()
 
 
-@pytest.fixture(scope="module", params=SITE_PAGES)
+@pytest.fixture(scope="module", params=ALL_PAGES)
 def site_page(request):
     yield request.param
