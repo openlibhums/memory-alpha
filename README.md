@@ -26,9 +26,10 @@ To run the site in development and listen for changes to templates, use `pelican
 
 You can also run `make help` to see a full list of available build targets.
 
-Finally, for testing, you will need to install Playwright:
+Finally, for testing, you will need to install testing requirements including Playwright:
 
 ```
+pip install -r test-requirements.txt
 playwright install
 ```
 
