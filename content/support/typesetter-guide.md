@@ -34,15 +34,16 @@ manuscript files, metadata, options to accept or decline the task, and space to 
 !["The ‘Assignment information’ page."](../support/images/workflow/typesetting-interface.png)
 
 This page is broken in three sections.
-- Assignmentment information
-  - In this section, you will be able to see any comments from the editor or proofreaders which have been provided to you. 
+- Assignment information
+  - This section shows the Typesetting Guide, which the journal may use to provide a standard set of instructions for typesetting.
+  - You will also be able to see any comments from the editor or proofreaders which have been provided to you. 
   - You will also be able to view and download the files to typeset (manuscript files) and any supplementary files. 
   - Under this, you will find space to upload your completed work and (if required) any source files.
-- Metadata
-  - This is where you will find all of the relevant metadata for the typesetting task.
 - Complete typesetting
   - Under this section, you can leave any notes you may have to the editors. 
   - This is also where you will mark the assignment as complete to submit the uploaded files.
+- Metadata
+  - This is where you will find all of the relevant metadata for the typesetting task.
 
 ### Uploading a Typeset File
 !["The files section of the typesetting page. It shows the ‘Files to typeset’, ‘Upload typeset files’ and ‘Upload source file’ options."](../support/images/workflow/typesetting-files.png)
