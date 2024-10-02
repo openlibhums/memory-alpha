@@ -38,8 +38,8 @@ The first page of the submission process is the author agreement. Depending on h
 - Publication Fees
     - This is where you will see any publication fees, including Voluntary Author Contributions (VACs) or Article Processing Charges (APCs) that apply to the submission.
 
-[!NOTE]
->Please note that a Voluntary Author Contribution and Article Processing Charge are different. The former is entirely optional and not required in order to publish in a journal. For more information about publication fees, visit the relevant journal’s policy page(s) or contact its editorial team.
+> [!NOTE]
+> Please note that a Voluntary Author Contribution and Article Processing Charge are different. The former is entirely optional and not required in order to publish in a journal. For more information about publication fees, visit the relevant journal’s policy page(s) or contact its editorial team.
 
 - Submission Checklist
     - The Submission Checklist will display any steps you need to take before submitting the manuscript (e.g. formatting).
