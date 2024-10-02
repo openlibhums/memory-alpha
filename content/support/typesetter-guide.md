@@ -1,6 +1,6 @@
-Title: Typesetter Guide
+Title: Typesetter Workflow Guide
 
-# Typesetter Guide
+# Typesetter workflow guide
 
 When you have been assigned a typesetting task, you will receive an email notification containing a link. This link will lead to the Janeway Dashboard.
 
@@ -27,7 +27,7 @@ For the completed assignments, it will display:
 
 You can then click ‘View Assignment’ to display the assignment page.
 
-## Typesetting a Paper
+## Typesetting a paper
 On this page, you will find relevant information about the typesetting task. This will include the instructions, 
 manuscript files, metadata, options to accept or decline the task, and space to upload completed files.
 
@@ -45,7 +45,7 @@ This page is broken in three sections.
 - Metadata
   - This is where you will find all of the relevant metadata for the typesetting task.
 
-### Uploading a Typeset File
+### Uploading a typeset file
 !["The files section of the typesetting page. It shows the ‘Files to typeset’, ‘Upload typeset files’ and ‘Upload source file’ options."](../support/images/workflow/typesetting-files.png)
 
 Click ‘Upload a New Typeset File’ button to upload your completed work. 
@@ -117,9 +117,9 @@ Please note that once you complete the task, you will be unable to return to thi
 >[!NOTE]
 >If you attempt to complete the typesetting task with potential issues remaining (e.g. missing image files, typeset files that have not been corrected), Janeway will warn you about this.
 
-## Typesetting Recipes
+## Typesetting recipes
 
-### Right-to-Left Text Direction
+### Right-to-left text direction
 Arabic and many other languages are written right to left, requiring
 special markup in an XHTML environment that operates left-to-right by
 default.
@@ -154,7 +154,7 @@ Notice the following about the code sample:
 3.  When working with long lines of text, make sure not to introduce
     arbitrary line breaks.
 
-### Center Alignment
+### Center alignment
 In some cases you might need to center-align text:
 
 ``` xml
