@@ -1,16 +1,16 @@
 ---
 
-name: Copywriting
-about: Describe content that needs writing for the main website
+name: Documentation
+about: Describe documentation that needs writing for the support site
 title: ''
-labels: copy
+labels: documentation
 assignees: ''
 
 ---
 
 ## Content needed
 
-Please describe the content needed.
+Please describe the documentation needed.
 
 ## Related development
 
