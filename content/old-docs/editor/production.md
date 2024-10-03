@@ -1,3 +1,4 @@
+<!--Deprecated-->
 Title: Production
 
 # Production
@@ -13,11 +14,11 @@ allow them to upload galley proofs or assign other users as typesetters
 for the article. If you are assigning an external production manager,
 you will still have access to the Production Management screen.
 
-<figure>
+![]()
 <img src="../nstatic/production-manager.png"
 alt="../nstatic/production-manager.png" />
 <figcaption>Production Manager assignment interface</figcaption>
-</figure>
+
 
 ## Assign a Production Manager
 
@@ -32,11 +33,11 @@ Select either:
 After assignment the article will move from Awaiting Assignment to In
 Progress, if you assigned yourself it will also show in Assigned to Me.
 
-<figure>
+![]()
 <img src="../nstatic/production-assigned.png"
 alt="../nstatic/production-assigned.png" />
 <figcaption>Production Manager with assigned article</figcaption>
-</figure>
+
 
 ## Production Screen
 
@@ -46,21 +47,21 @@ From the production screen the Production Manager can:
 - Upload galley proofs
 - Upload supplementary files and assign them DOIs
 
-<figure>
+![]()
 <img src="../nstatic/production-screen.png"
 alt="../nstatic/production-screen.png" />
 <figcaption>Production Manager screen</figcaption>
-</figure>
+
 
 ## Assigning a Typesetter
 
 To assign a typesetter first select *Add Typesetter*.
 
-<figure>
+![]()
 <img src="../nstatic/production-typesetter.png"
 alt="../nstatic/production-typesetter.png" />
 <figcaption>Assigning a typesetter</figcaption>
-</figure>
+
 
 1.  Select a Typesetter
 2.  Select the files you would like this typesetter to work on
@@ -78,30 +79,30 @@ most other formats as downloads.
 To upload a galley click *Upload Galley Files*. You can then select
 either XML/HTML, PDF or Other.
 
-<figure>
+![]()
 <img src="../nstatic/production-galley-upload.png"
 alt="../nstatic/production-galley-upload.png" />
 <figcaption>Uploading a galley file</figcaption>
-</figure>
+
 
 When uploading an HTML or XML file, with images Janeway will warn you
 that you need to upload them with a message like "Missing supplementary
 files."
 
-<figure>
+![]()
 <img src="../nstatic/production-missing-supp.png"
 alt="../nstatic/production-missing-supp.png" />
 <figcaption>Missing Image files</figcaption>
-</figure>
+
 
 We can upload these by selecting Edit Galley and using the upload boxes
 to upload the image files.
 
-<figure>
+![]()
 <img src="../nstatic/production-galley-images.png"
 alt="../nstatic/production-galley-images.png" />
 <figcaption>Uploading image files</figcaption>
-</figure>
+
 
 On the edit galley page we can also replace the galley file, edit its
 label and upload an accompanying CSS file if the article requires

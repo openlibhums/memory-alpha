@@ -40,15 +40,8 @@ overwrite this in your local settings file with the following:
         'utils.oidc.JanewayOIDCAB',
     )
 
-<div class="note">
-
-<div class="title">
-
-Note
-
-</div>
-
-All of the urls above are examples derived from a Keycloak instance. You
+> [!NOTE]
+> All of the urls above are examples derived from a Keycloak instance. You
 can get the real URLs by using your service providers .well-known url
 which will look something like:
 <https://exmaple/org/.well-known/openid-configuration>. You can get your
@@ -56,8 +49,6 @@ Client ID and Secret from your service provider admin console or can
 request one from your technical staff. If you use RS256 for
 OIDC_RP_SIGN_ALGO you must also complete OIDC_OP_JWKS_ENDPOINT otherwise
 login will fail.
-
-</div>
 
 ## New Accounts
 
@@ -73,20 +64,11 @@ Janeway can detect if the login status of the remote user changes.
 ## Detecting Users
 
 You can detect if a user logged in via OIDC by checking
-<span class="title-ref">request.user.is_oidc</span> this will return
-<span class="title-ref">True</span> if the user logged in with OIDC,
+_request.user.is_oidc_ this will return
+_True_ if the user logged in with OIDC,
 note it will not exist if the user did not.
 
-<div class="note">
-
-<div class="title">
-
-Note
-
-</div>
-
-Although OIDC can be used for Authentication (login) it is not used for
+> [!NOTE]
+> Although OIDC can be used for Authentication (login) it is not used for
 Authorisation (who can access what resource). Remote roles/groups will
 make no difference to the Janeway install at this time.
-
-</div>

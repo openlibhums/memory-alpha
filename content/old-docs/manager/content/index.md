@@ -10,22 +10,14 @@ pages, news and editorial team in Janeway.
 The Content Manager is Janeway's CMS. Pages can be created an edited
 using our rich text editor.
 
-<figure>
-<img src="../../nstatic/content-manager.png"
-alt="Janeway CMS" />
-<figcaption>Content Manager</figcaption>
-</figure>
+![Content Manager](../../nstatic/content-manager.png)
 
 ### Add a New Page
 
 To add a new page to your journal select "+ Add New Page" and fill in
 the fields as detailed in the text beneath each field.
 
-<figure>
-<img src="../../nstatic/content-edit-page.png"
-alt="Interface for adding a new page through the CMS" />
-<figcaption>Editing a page in the content management system</figcaption>
-</figure>
+![Interface for adding a new page through the CMS](../../nstatic/content-edit-page.png)
 
 The URL for the page will be generated with these parts:
 
@@ -44,18 +36,9 @@ journal. Select Edit to make changes.
 
 To delete a page use the red Delete button.
 
-<div class="warning">
-
-<div class="title">
-
-Warning
-
-</div>
-
-Data cannot be recovered so ensure you really want to remove a page
+> [!WARNING]
+> Data cannot be recovered so ensure you really want to remove a page
 before pressing the delete button.
-
-</div>
 
 ### Navigation
 
@@ -81,10 +64,7 @@ To add a new custom nav item, from the content manager page, select
 "Edit Nav" and fill in the fields as desired. Details of how each field
 works are displayed below the field.
 
-<figure>
-<img src="../../nstatic/content-edit-nav.png"
-alt="Editing a custom nav item in the content management system" />
-</figure>
+![Editing a custom nav item in the content management system](../../nstatic/content-edit-nav.png)
 
 ## Footer Navigation
 
@@ -94,10 +74,7 @@ than the top navigation bar.
 Use **For footer** to switch the link to the footer. At the press level,
 only the path theme support this feature so far.
 
-<figure>
-<img src="../../nstatic/footer-path-custom-links.png" class="screenshot"
-alt="Custom footer links in the path theme" />
-</figure>
+![Custom footer links in the path theme](../../nstatic/footer-path-custom-links.png)
 
 Press managers can also create custom footer links that extend to all
 journal websites, such as for publisher policies.
@@ -105,27 +82,21 @@ journal websites, such as for publisher policies.
 To do so, create a navigation item and check **Is external**, **For
 footer**, and **Extend to journals**.
 
-<figure>
-<img src="../../nstatic/footer-olh.png" class="screenshot"
-alt="Custom footer links on a journal website set by a press
-manager." />
-</figure>
+![Custom footer links on a journal website set by a press manager.](../../nstatic/footer-olh.png)
 
 ## News Manager
 
 The news manager allows you to create news items, assign display and
 take down dates and upload images to display alongside them.
 
-News items can also displayed in the `carousel<carouselanchor>`.
+News items can also displayed in the carousel.
+<!--missing hyperlink-->
 
 To add a new news item select the *News Manager*. The interface displays
 exiting news items on the left and a form for adding new items on the
 right.
 
-<figure>
-<img src="../../nstatic/news-manager.png"
-alt="News Manager interface" />
-</figure>
+![News Manager interface](../../nstatic/news-manager.png)
 
 The form fields include:
 
@@ -157,10 +128,7 @@ The form fields include:
   - A series of tags/keywords for the piece, you can filter news items
     by tags
 
-<figure>
-<img src="../../nstatic/news-item.png"
-alt="A news item with image and tags, material theme" />
-</figure>
+![A news item with image and tags, material theme](../../nstatic/news-item.png)
 
 ## Journal Contacts
 
@@ -180,11 +148,7 @@ this:
 Each outgoing message is recorded in the database and can be viewed in
 the admin area by staff.
 
-<figure>
-<img src="../../nstatic/contact-manager.png"
-alt="Contact Manager interface. The sort handles indicate you can
-drag and drop to re-order your contacts." />
-</figure>
+![Contact Manager interface. The sort handles indicate you can drag and drop to re-order your contacts.](../../nstatic/contact-manager.png)
 
 ## Editorial Team
 
@@ -205,25 +169,13 @@ left. For each group you can:
 - Delete the group
 - Drag and drop to re-order them
 
-<figure>
-<img src="../../nstatic/editorial-team.png"
-alt="The Editorial Team interface" />
-</figure>
+![The Editorial Team interface](../../nstatic/editorial-team.png)
 
-<div class="tip">
-
-<div class="title">
-
-Tip
-
-</div>
-
-As of version 1.4 the Group description field supports HTML and presents
+> [!TIP]
+> As of version 1.4 the Group description field supports HTML and presents
 a rich-text editor. If you do not wish to add an account for each user
 you can simply list them in the rich text box using, for example, a
 bulleted list.
-
-</div>
 
 ### Adding a New Group
 
@@ -246,10 +198,7 @@ For an existing or newley created group you can use the Edit Members
 button (Green with a group of outlines) to change the membership of the
 group.
 
-<figure>
-<img src="../../nstatic/group-membership.png"
-alt="../../nstatic/group-membership.png" />
-</figure>
+![The Editorial Team edit page.](../../nstatic/group-membership.png)
 
 On the left is a list of the current members, you can:
 
@@ -266,11 +215,7 @@ A new addition to v1.4 the Submission Page Items system lets you totally
 customise the Submission page to your liking. The existing submission
 items have automatically been setup for you and can now be edited.
 
-<figure>
-<img src="../../nstatic/submission-items.png"
-alt="List of default submission items generated in the v1.4
-upgrade process." />
-</figure>
+![List of default submission items generated in the v1.4 upgrade process.](../../nstatic/submission-items.png)
 
 You can manage submission items in three ways:
 
@@ -281,11 +226,7 @@ You can manage submission items in three ways:
 From the main screen you can add new, edit existing and delete items as
 well as re-order them by dragging and dropping rows of the table.
 
-<figure>
-<img src="../../nstatic/submission-items-reorder.gif"
-alt="List of default submission items generated in the v1.4
-upgrade process." />
-</figure>
+![List of default submission items generated in the v1.4 upgrade process.](../../nstatic/submission-items-reorder.gif)
 
 ### Link to a Setting
 
@@ -337,24 +278,12 @@ Examples include:
 Once a file is uploaded a link is provided that you can then insert into
 CMS pages or templates.
 
-<div class="note">
-
-<div class="title">
-
-Note
-
-</div>
-
-The Media Files section should not be used to upload videos unless you
+> [!NOTE]
+> The Media Files section should not be used to upload videos unless you
 have sufficient storage space/bandwidth. If you use Janeway Hosting you
 should contact the support team.
 
-</div>
-
-<figure>
-<img src="../../nstatic/media-files.gif"
-alt="Upload and deletion of a media file." />
-</figure>
+![Upload and deletion of a media file.](../../nstatic/media-files.gif)
 
 ### Copy-Paste and Rich Text Fields
 

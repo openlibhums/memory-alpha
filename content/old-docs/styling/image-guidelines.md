@@ -10,95 +10,50 @@ recommended sizes and aspect ratios for each theme.
 
 This image is displayed on the navigation bar for all three themes and
 is normally used for the journal logo. It can be changed through the
-`settings in the journal's Manager<journal_settings>` (Manager \>
+settings in the journal's Manager journal_settings (Manager \>
 Journal Settings).
+<!--hyperlink missing-->
 
 The maximum height of the image is 90px, but the width is not limited,
 making it suitable for either square or landscape logos.
 
-<figure>
-<img src="../nstatic/image-guidelines/header-image-olh.png"
-class="screenshot"
- />
-<figcaption>Example of header image with OLH theme</figcaption>
-</figure>
+![Example of header image with OLH theme](../nstatic/image-guidelines/header-image-olh.png)
 
-<figure>
-<img src="../nstatic/image-guidelines/header-image-material.png"
-class="screenshot"
- />
-<figcaption>Example of header image with Material theme</figcaption>
-</figure>
+![Example of header image with Material theme](../nstatic/image-guidelines/header-image-material.png)
 
-<div class="warning">
-
-<div class="title">
-
-Warning
-
-</div>
-
-In the material theme, the navigation buttons and the header image are
+> [!WARNING]
+> In the material theme, the navigation buttons and the header image are
 rendered within the same line, competing for space. If a very wide
 image is combined with a large number of navigation items, the two may
 overlap on narrow screens. If your journal has a large number of
 navigation links (5 or more), we recommend using a dropdown menu
 grouping similar items.
 
-</div>
-
 ## Cover Image
 
 Cover images are used for issue covers, as displayed on the Issues page.
 You can set them individually, and you can set a default to be used when
 one is not specifically provided for an issue. Add specific issue cover
-images under `Issue Management<articles_issues_guidelines>`, and change
-the default through `Journal Settings<journal_settings>`.
+images under Issue Management, and change
+the default through Journal Settings.
+<!--hyperlink missing-->
 
 These images are resized dynamically depending on various factors
 (number of issues, screen size, issue title length). The recommendation
 is to be consistent and use the same aspect ratio for both the default
 cover image and for any issue cover images uploaded.
 
-<figure>
-<img src="../nstatic/image-guidelines/cover-image-olh.png"
-class="screenshot"
- />
-<figcaption>Example of cover image with OLH theme</figcaption>
-</figure>
+![Example of cover image with OLH theme](../nstatic/image-guidelines/cover-image-olh.png)
 
-<div class="tip">
-
-<div class="title">
-
-Tip
-
-</div>
-
-For the OLH theme, cover images and issue details are rendered stacked,
+> [!TIP]
+> For the OLH theme, cover images and issue details are rendered stacked,
 so landscape images work better for this theme.
 
-</div>
+![Example of cover image with material theme](../nstatic/image-guidelines/cover-image-material.png)
 
-<figure>
-<img src="../nstatic/image-guidelines/cover-image-material.png"
-class="screenshot"
- />
-<figcaption>Example of cover image with material theme</figcaption>
-</figure>
-
-<div class="tip">
-
-<div class="title">
-
-Tip
-
-</div>
-
-For the material theme, cover images and issue details are rendered side
+> [!TIP]
+> For the material theme, cover images and issue details are rendered side
 by side, so portrait images work better for this theme.
-
-</div>
 
 ## Large Image
 
@@ -108,7 +63,8 @@ them individually, and you can set
 a default to be used in all other cases. You can set large images for
 articles in the Manager under `Articles and
 Issues<articles_issues_guidelines>`. The default can be changed
-through `Journal Settings<journal_settings>`.
+through Journal Settings.
+<!--hyperlink missing-->
 
 The large image has a maximum height of 260px for the material theme and
 400px for the OLH theme. Any image larger than 750x324 pixels will be
@@ -116,51 +72,20 @@ compressed to fit those dimensions, and then it will be cropped
 horizontally to fit the user’s screen size. For this reason, very wide
 landscape images work best for this element.
 
-<figure>
-<img src="../nstatic/image-guidelines/article-large-image.png"
-class="screenshot"
- />
-<figcaption>Example of large image: material theme</figcaption>
-</figure>
+![Example of large image: material theme](../nstatic/image-guidelines/article-large-image.png)
 
-<div class="tip">
-
-<div class="title">
-
-Tip
-
-</div>
-
-In the material theme, the large image width maxes out at 750px on wide
+> [!TIP]
+> In the material theme, the large image width maxes out at 750px on wide
 screens.
 
-</div>
-
-<div class="tip">
-
-<div class="title">
-
-Tip
-
-</div>
-
-In the OLH theme, the large image spans across the entire width of the
+> [!TIP]
+> In the OLH theme, the large image spans across the entire width of the
 screen.
 
-</div>
-
-<div class="tip">
-
-<div class="title">
-
-Tip
-
-</div>
-
-The article images can be disabled entirely in the Manager under
-`Articles and Issues<articles_issues_guidelines>`.
-
-</div>
+> [!TIP]
+> The article images can be disabled entirely in the Manager under
+Articles and Issues.
+<!--hyperlink missing-->
 
 ## Issue Images
 
@@ -175,20 +100,11 @@ The Collection page uses the Large Image file of an Issue and, if it's
 not available, the default large image for its parent journal. In all
 three core themes, landscape images are best here.
 
-<div class="tip">
-
-<div class="title">
-
-Tip
-
-</div>
-
-Whilst there are recommended image sizes for the Issue and Collection
+> [!TIP]
+> Whilst there are recommended image sizes for the Issue and Collection
 pages consistency is more important. If you load images of 300x200 for a
 Collection you should consistently load images with the same aspect
 ratio.
-
-</div>
 
 ## Favicon
 

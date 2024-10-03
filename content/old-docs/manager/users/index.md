@@ -34,12 +34,8 @@ on your journal. From this page we can:
   - Copyediting assignments
   - Production assignments
 
-<figure>
-<img src="../../nstatic/enrolled-users.png"
-alt="../../nstatic/enrolled-users.png" />
-<figcaption>The enrolled users interface. From here we can search, add
-new users and assign additional roles amongst other things.</figcaption>
-</figure>
+![The enrolled users interface. From here we can search, add
+new users and assign additional roles amongst other things.](../../nstatic/enrolled-users.png)
 
 ### Editing a User
 
@@ -54,25 +50,8 @@ things to note:
 
 ## Enrol Users
 
-<div id="enrolusersanchor">
-
 The enrol users page allows Editors to search for existing user accounts
 and assign them a role in their journal.
-
-</div>
-
-<div class="warning">
-
-<div class="title">
-
-Warning
-
-</div>
-
-As of version 1.3.10 of Janeway editors can no longer browse a list of
-users and must search by name or email address to find existing users.
-
-</div>
 
 You can search for existing user accounts by:
 
@@ -80,28 +59,15 @@ You can search for existing user accounts by:
 - Last Name
 - Email Address
 
-<div class="tip">
-
-<div class="title">
-
-Tip
-
-</div>
-
-You don't need to search by all three fields. You can search by just
+> [!TIP]
+> You don't need to search by all three fields. You can search by just
 first name or email address for example.
-
-</div>
 
 Once you have found an account you will be able to see which roles they
 have and which are available to be assigned to them.
 
-<figure>
-<img src="../../nstatic/enrol-user.gif"
-alt="../../nstatic/enrol-user.gif" />
-<figcaption>This user has two roles (Author and Editor) and can be
-assigned any of the other roles.</figcaption>
-</figure>
+![This user has two roles (Author and Editor) and can be
+assigned any of the other roles.](../../nstatic/enrol-user.gif)
 
 ## Inactive Users
 
@@ -148,9 +114,7 @@ Once you have selected a role you will be presented with a list of users
 who currently have that role. There is also an option to remove the role
 from that user.
 
-<figure>
-<img src="../../nstatic/roles.gif" alt="../../nstatic/roles.gif" />
-</figure>
+![The Roles interface. It displays a user clicking on 'View Enrolled Users' for the author role. It then displays a list of all registered authors and a 'Remove Role' button for each person listen.](../../nstatic/roles.gif)
 
 ## Authenticated Users
 
@@ -165,25 +129,12 @@ articles, roles, and files will be moved from the source account to the
 destination account. The account profile remains unchanged, meaning any
 profile information in the source account will be lost.
 
-<div class="warning">
-
-<div class="title">
-
-Warning
-
-</div>
-
-When searching for users to merge, note that the user account in the
+> [!WARNING]
+> When searching for users to merge, note that the user account in the
 left column will be merged into the user account in the right column.
 
-</div>
-
-<figure>
-<img src="../../nstatic/merge-users.gif" class="with-border"
-alt="../../nstatic/merge-users.gif" />
-<figcaption>A press manager is merging Andy Byers' account into Katheryn
-Janeway's account.</figcaption>
-</figure>
+![A press manager is merging Andy Byers' account into Katheryn
+Janeway's account.](../../nstatic/merge-users.gif)
 
 ## Granular Manager Permissions
 
@@ -203,23 +154,14 @@ this group we will be adding new permission controllers starting with:
 Currently there is no interface for updating the roles that can access
 these pages and the setting is JSON stored in the database.
 
-<div class="warning">
-
-<div class="title">
-
-Warning
-
-</div>
-
-You should only edit the Permission settings if you are sure about the
+> [!WARNING]
+> You should only edit the Permission settings if you are sure about the
 change you are making.
 
-</div>
-
-By default both settings read <span class="title-ref">\["editor",
-"journal-manager"\]</span>. If, for example, you wanted to stop editors
+By default both settings read _\["editor",
+"journal-manager"\]_. If, for example, you wanted to stop editors
 from editing licenses you could change it to read
-<span class="title-ref">\["journal-manager"\]</span>. Once saved, only
+_\["journal-manager"\]_. Once saved, only
 users with the journal manager role will be able to access the licenses
 pages.
 
@@ -228,23 +170,14 @@ pages.
 In version 1.5 we introduced granular settings permissions. Staff can
 now determine, for any given setting object, which roles are allowed to
 edit it. This is done via the Django Admin panel (Core \> Settings),
-using the <span class="title-ref">editable_by</span> field. Staff can
+using the _editable_by_ field. Staff can
 alter the roles that are allowed to see and edit a setting.
 
-<div class="note">
-
-<div class="title">
-
-Note
-
-</div>
-
-If a setting is also displayed on a settings group page (for example the
+> [!NOTE]
+> If a setting is also displayed on a settings group page (for example the
 General or Submission settings page) and a user does not have the
 appropriate permission to edit that setting it will be filtered out of
 the form and not be visible.
-
-</div>
 
 As with the manager permissions changes the default to settings
 permission maintains the status quo and by default all settings are

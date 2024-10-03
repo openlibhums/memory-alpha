@@ -18,19 +18,11 @@ is sent at this time (No author-identifiable details are shared). When
 an article is scheduled for publication, a new request is sent to
 Crossref to update all metadata records.
 
-<div class="tip">
-
-<div class="title">
-
-Tip
-
-</div>
-
-You can let editors see a preview of the data that gets sent before
+> [!TIP]
+> You can let editors see a preview of the data that gets sent before
 accepting an article. See **Accept Article Warning** under
-`Review Settings<reviewsettings>`.
-
-</div>
+Review Settings.
+<!--missing hyperlink-->
 
 At this stage, the DOI will be registered with Crossref, but the webpage
 it points to on your journal website may not be active yet if the
@@ -68,18 +60,9 @@ Crossref will put all the deposits they receive in a queue to process,
 so the status may not be immediate. After a few moments (or longer if it
 is a large batch), you can use **Poll for status** to check the result.
 
-<div class="warning">
-
-<div class="title">
-
-Warning
-
-</div>
-
-**Poll for status** on a large group of articles could take a long time,
+> [!WARNING]
+> **Poll for status** on a large group of articles could take a long time,
 so test it out on a smaller group first.
-
-</div>
 
 ## Interpreting Registration Status
 
@@ -98,19 +81,10 @@ Registered
 Success! Crossref understood all the metadata you sent and didn't find
 any problems with it.
 
-<div class="tip">
-
-<div class="title">
-
-Tip
-
-</div>
-
-A status of **Registered** does not necessarily mean that the DOI will
+> [!TIP]
+> A status of **Registered** does not necessarily mean that the DOI will
 resolve correctly, if the URL it points to isn't fully operational yet
 on the Janeway side (i.e., the article isn't published).
-
-</div>
 
 Registered (but some citations not correctly parsed)  
 Crossref understood the article-level metadata, but when it went to
@@ -165,7 +139,7 @@ DOI Pattern
 The pattern for auto-generating DOIs. Defaults to using the journal code
 and article ID (e.g. `orbit.123`):
 
-> `{% raw %}{{ article.journal.code }}.{{ article.pk }}{% endraw %}`
+> `{{ article.journal.code }}.{{ article.pk }}`
 
 Title DOI  
 The DOI (not in URL format) registered for this journal (e.g.

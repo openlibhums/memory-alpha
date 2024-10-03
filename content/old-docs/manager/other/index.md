@@ -15,17 +15,8 @@ from the Manager page by clicking the Clear Cache button.
 
 ## Scheduled Reminders
 
-<div class="note">
-
-<div class="title">
-
-Note
-
-</div>
-
-The Scheduled Reminders manager has been updated as part of version 1.4.
-
-</div>
+> [!NOTE]
+> The Scheduled Reminders manager has been updated as part of version 1.4.
 
 Janeway lets you define your own email reminders for overdue Reviews and
 Revision assignments. They are defined using the following:
@@ -70,47 +61,25 @@ A reminder email has access to three objects in the template:
 On the edit template page there is a small guide showing some of the
 variables you can use when generating these templates.
 
-<figure>
-<img src="../../nstatic/create-reminders.gif"
-alt="A GIF showing the reating, editing and deleting a reminder, showing the various screens and fields." />
-<figcaption>Creating, editing and deleting a reminder.</figcaption>
-</figure>
+![A GIF showing the reating, editing and deleting a reminder, showing the various screens and fields.](../../nstatic/create-reminders.gif)
 
 Once a reminder is created a Cron job on the server will start
 processing requests but it will not process these for Review and
 Revision requests that have passed the reminder dates.
 
-<div class="tip">
-
-<div class="title">
-
-Tip
-
-</div>
-
-If automated reminders are not being sent for your journal the most
+> [!TIP]
+> If automated reminders are not being sent for your journal the most
 likely explanation is that the cron job has not been setup properly. You
 should contact your administrator who can setup the call to the
 send_reminders management command.
-
-</div>
 
 ## Email Templates
 
 The email templates system allows you to search through and edit all of
 the email templates for a given journal.
 
-<div class="warning">
-
-<div class="title">
-
-Warning
-
-</div>
-
-Editing an email template could cause it to break.
-
-</div>
+> [!WARNING]
+> Editing an email template could cause it to break.
 
 Each email template has access to different objects which makes
 documenting this quite difficult. We will be updating our
@@ -123,25 +92,12 @@ setting for your journal (ie. you've never overwritten the default
 setting) the rich text box will appear blank. To get started you can
 copy the default version into the rich-text box and make your edits.
 
-<div class="tip">
-
-<div class="title">
-
-Tip
-
-</div>
-
-When editing an email that has a URL placeholder (like {{ review_url }})
+> [!TIP]
+> When editing an email that has a URL placeholder (like {{ review_url }})
 it is important that you do not add anything immediately after this
 placeholder as email clients may interpret them as part of the link.
 
-</div>
-
-<figure>
-<img src="../../nstatic/edit-template.png"
-alt="The review assignment email template screen, showing the default value with the customisation textbox below it." />
-<figcaption>Editing an email template.</figcaption>
-</figure>
+![The review assignment email template screen, showing the default value with the customisation textbox below it.](../../nstatic/edit-template.png)
 
 ## Publication Notifications (Readers)
 
@@ -152,21 +108,13 @@ sign up to receive emails when new articles are published via their
 profile page. This feature has been designed with continuous publication
 in mind but will also work well for those who publish full issues.
 
-<figure>
-<img src="../../nstatic/publication-notifications.png"
-alt="Publication Notification page, showing the Readers section on the left and Sent Notifications section on the right." />
-<figcaption>Viewing readers and notifications in Manager.</figcaption>
-</figure>
+![Publication Notification page, showing the Readers section on the left and Sent Notifications section on the right.](../../nstatic/publication-notifications.png)
 
 Journal staff can toggle the feature on by visiting Manager \>
 Publication Notification (Readers) and using the link displayed on that
 page (see figure above).
 
-<figure>
-<img src="../../nstatic/register-for-reader-notifications.png"
-alt="Example of the subscribe to article notification button." />
-<figcaption>Registering for reader notifications.</figcaption>
-</figure>
+![Example of the subscribe to article notification button.](../../nstatic/register-for-reader-notifications.png)
 
 Readers can signup for notifications by logging into a journal and
 selecting the Edit Profile link from the account menu (top right hand of

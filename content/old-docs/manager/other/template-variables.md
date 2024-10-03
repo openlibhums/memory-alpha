@@ -2,17 +2,8 @@ Title: Email Template Variables
 
 # Email Template Variables
 
-<div class="warning">
-
-<div class="title">
-
-Warning
-
-</div>
-
-This section is a work in progress started in v1.4.3.
-
-</div>
+> [!WARNING]
+> This section is a work in progress started in v1.4.3.
 
 ## Templates
 
