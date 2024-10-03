@@ -6,9 +6,6 @@ Title: George
 
 {% macro george_space_splash() -%}
   <aside class="george-space-splash">
-    <div class="medium-circle-one bg-blue"></div>
-    <div class="medium-circle-two bg-blue"></div>
-    <div class="small-circle bg-blue"></div>
     <div class="top-left-box">
       <div class="rust-circle">
         <div class="picture-portal">
@@ -18,34 +15,49 @@ Title: George
               type="image/avif">
             <img
               src="{{ static }}/theme/images/nasa-hubble-space-telescope-sparkles.png"
-              alt="An 1830 portrait of George Birkbeck gazing steadily forward
-              with poise, surrounded by bright colorful circles">
+              aria-details="built"
+              alt="A satellite photo of bright stars and clouds in far outer
+              space, shimmering through a rust-colored portal">
           </picture>
-          <div class="orange-circle">
+          <div class="orange-circle animated">
             <picture class="george-picture">
               <source
                 srcset="{{ static }}/theme/images/george-birkbeck-portrait-samuel-lane-1830.avif"
                 type="image/avif">
               <img
                 src="{{ static }}/theme/images/george-birkbeck-portrait-samuel-lane-1830.png"
-                alt="A satellite photo of bright stars and clouds in far outer
-                space, shimmering through a rust-colored portal">
+                aria-details="founded"
+                alt="An 1830 portrait of George Birkbeck gazing steadily forward
+                with poise, surrounded by bright colorful circles">
             </picture>
           </div>
         </div>
       </div>
     </div>
-    <div class="bottom-right-box">
-      <div class="text-circle ff-space-mono-regular">
+    <div class="bottom-right-box animated">
+      <div class="text-circle animated ff-space-mono-regular">
         <div class="george-text">
-          <p>Founded by academics and technologists at Birkbeck, University of
-          London.</p>
+          <p id="founded" class="animated">Founded by academics and
+          technologists at Birkbeck, University of London.</p>
         </div>
         <div class="space-text">
-          <p>Built for the future of scholarly communications by the Open
-          Library of Humanities.</p>
+          <p id="built" class="animated">Built for the future of scholarly
+          communications by the Open Library of Humanities.</p>
         </div>
       </div>
     </div>
+    <div class="medium-circle-one bg-blue">
+      <button class="play">
+        <span class="sr-only">Play animation</span>
+        <span class="triangle"></span>
+      </button>
+      <button class="pause displayed">
+        <span class="sr-only">Pause animation</span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+    </div>
+    <div class="medium-circle-two bg-blue"></div>
+    <div class="small-circle bg-blue animated"></div>
   </aside>
 {%- endmacro %}

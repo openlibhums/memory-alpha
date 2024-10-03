@@ -134,14 +134,6 @@
     }
   }
 
-  .text-circle button {
-    opacity: 1;
-  }
-
-  .text-circle button:hover {
-    opacity: 0;
-  }
-
   .george-text,
   .space-text {
     position: absolute;
@@ -170,32 +162,83 @@
     z-index: -10;
   }
 
+  /* Play/pause button */
+  button.play,
+  button.pause {
+    height: inherit;
+    width: inherit;
+    padding-block: 0;
+    border: 0;
+    font: inherit;
+    padding-inline: unset;
+    color: unset;
+    background-color: unset;
+  }
+  button.play:hover,
+  button.pause:hover {
+    cursor: pointer;
+  }
+  .play,
+  .pause {
+    display: none;
+  }
+  .play.displayed,
+  .pause.displayed {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+  }
+  .pause .bar {
+    display: block;
+    height: 20px;
+    width: 8px;
+    background: var(--clr-white);
+  }
+  .play .triangle {
+    display: block;
+    height: 20px;
+    width: 20px;
+    background: var(--clr-white);
+    clip-path: polygon(0 0, 100% 50%, 0 100%);
+  }
+
   /* Animations */
   .orange-circle {
-    animation: 20s fade 3 alternate forwards;
+    animation: 6s 1s transitionImage infinite alternate;
   }
   .text-circle {
-    animation: 20s blueToOrange 3 alternate forwards;
+    animation: 6s 1s blueToOrange infinite alternate;
   }
   .george-text p {
-    animation: 20s fade 3 alternate forwards;
+    animation: 6s 1s fadeText infinite alternate;
   }
   .space-text p {
-    animation: 20s fade 3 alternate-reverse forwards;
+    animation: 6s 1s fadeText infinite alternate-reverse;
   }
   .small-circle {
     @media (width > 50rem) {
-      animation: 20s topMoveUp 3 alternate forwards;
+      animation: 6s 1s topMoveUp infinite alternate;
     }
   }
   .bottom-right-box {
     @media (width > 50rem) {
-      animation: 20s marginBlockStartMoveUp 3 alternate forwards;
+      animation: 6s 1s marginBlockStartMoveUp infinite alternate;
     }
+  }
+  .animated.paused {
+    animation-play-state: paused;
   }
 }
 
-@keyframes fade {
+@keyframes transitionImage {
+  0% { opacity: 1; }
+  40% { opacity: 1; }
+  60% { opacity: 0; }
+  100% { opacity: 0; }
+}
+
+@keyframes fadeText {
   0% { opacity: 1; }
   40% { opacity: 1; }
   50% { opacity: 0; }
@@ -211,14 +254,14 @@
 
 @keyframes topMoveUp {
   0% { top: 4rem; }
-  50% { top: 4rem; }
+  40% { top: 4rem; }
   60% { top: 2rem; }
   100% { top: 2rem; }
 }
 
 @keyframes marginBlockStartMoveUp {
   0% { margin-block-start: 11rem; }
-  50% { margin-block-start: 11rem; }
+  40% { margin-block-start: 11rem; }
   60% { margin-block-start: -8rem; }
   100% { margin-block-start: -8rem; }
 }
