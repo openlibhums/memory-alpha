@@ -35,7 +35,7 @@ DEFAULT_PAGINATION = False
 # RELATIVE_URLS = True
 
 # Theme
-THEME = 'themes/test'
+THEME = 'themes/alpha'
 STYLESHEET_URL = 'theme/css/index.css'
 
 # The following two lines tell Pelican to reproduce the exact structure
@@ -71,7 +71,7 @@ IGNORE_FILES = ['/components/*.html']
 
 # Allow us to import component HTML files directly as if they were in /templates/
 THEME_TEMPLATES_OVERRIDES = [
-    'themes/test/static/',
+    'themes/alpha/static/',
 ]
 
 # Nav
