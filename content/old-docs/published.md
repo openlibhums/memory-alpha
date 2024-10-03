@@ -7,9 +7,3 @@ changes to them. These guides will help you.
 
 Links to manage articles that have passed through the workflow and
 issues can be found in the left hand menu under Back Content.
-
-<div class="toctree" maxdepth="3">
-
-published/articles published/issues published/schedule
-
-</div>

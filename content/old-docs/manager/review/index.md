@@ -66,7 +66,7 @@ given journal. The settings editable here are:
     the setting to provide a readout of current metadata so the editor
     can do a quick check of what will be sent to Crossref. To show
     registration information, populate the setting with
-    `{% raw %}{{ article.registration_preview|safe }}{% endraw %}`
+    `{{ article.registration_preview|safe }}`
 
 - Enable expanded review details  
   - When this setting is enabled, the editor's review dashboard will
@@ -103,13 +103,8 @@ Both are off by default.
 
 ## Sharing Peer Reviews
 
-<div class="note">
-
-<div class="title">
-
-Note
-
-</div>
+> [!NOTE]
+>
 
 Added in v1.5.1 editors have two options to share reviews with other
 peer reviewers.
@@ -119,12 +114,12 @@ peer reviewers.
 In the review settings page, under the "Sharing Peer Reviews" header
 there are four settings that control how editors can share peer reviews.
 
-<figure>
+![]()
 <img src="../../nstatic/share-peer-reviews.png"
 alt="../../nstatic/share-peer-reviews.png" />
 <figcaption>Settings for controlling sharing of peer
 review.</figcaption>
-</figure>
+
 
 ### Enable Share Reviews Decision
 
@@ -133,13 +128,8 @@ email all of the reviewers who have completed a review for the given
 article and share with them a link to view each of the other reviews
 that have been completed for that article.
 
-<div class="note">
-
-<div class="title">
-
-Note
-
-</div>
+> [!NOTE]
+>
 
 Reviews that are not complete or do not have a decision are excluded
 from being shared.
@@ -152,13 +142,8 @@ When enabled and in an additional review round (eg round 2 or 3)
 reviewers will see completed reviews from previous rounds in the review
 interface.
 
-<div class="note">
-
-<div class="title">
-
-Note
-
-</div>
+> [!NOTE]
+>
 
 Reviews that are not complete, do not have a decision or are part of the
 same round of review are excluded from being shared.
@@ -172,13 +157,8 @@ other peer reviews. Can be customised at the per-journal level.
 
 ### Automatically Share Author Response Letters
 
-<div class="note">
-
-<div class="title">
-
-Note
-
-</div>
+> [!NOTE]
+>
 
 This setting works in conjunction with either "Enable Share Reviews
 Decision" and "Display Completed Reviews in Review Interface"
@@ -194,10 +174,10 @@ Janeway allows you to generate as many review forms as you like. When a
 new journal is created a default review form is generated automatically
 (called Default Form) it has one element: a text area called "Review".
 
-<figure>
+![]()
 <img src="../../nstatic/review-forms.png" />
 <figcaption>Review Form interface</figcaption>
-</figure>
+
 
 To create a new form complete the form on the right:
 
@@ -260,11 +240,11 @@ As you go along you can use the Preview Form button to see what the form
 will look like. Here is an example of the default form edited to have
 two additional fields with 1/2 widths.
 
-<figure>
+![]()
 <img src="../../nstatic/review-forms-preview.png"
 alt="../../nstatic/review-forms-preview.png" />
 <figcaption>Review Form preview</figcaption>
-</figure>
+
 
 ## Open Peer Review
 
@@ -272,13 +252,8 @@ This feature allows peer reviews to be made public with the consent of
 the reviewer, and when chosen for public display by the editor. By
 default, this feature is off and peer reviews will remain confidential.
 
-<div class="note">
-
-<div class="title">
-
-Note
-
-</div>
+> [!NOTE]
+>
 
 Open peer review only shows text that is typed into the peer review
 assignment box, not uploaded files. This is for accessibility and
@@ -291,40 +266,40 @@ uploading files.
 When the setting is enabled, reviewers are asked for their permission to
 make the review public.
 
-<figure>
+![]()
 <img src="../../nstatic/review-form-open-peer-review.png"
 alt="../../nstatic/review-form-open-peer-review.png" />
 <figcaption>Reviewers are asked for permission to make reviews
 public</figcaption>
-</figure>
+
 
 Then, during prepublication, the editor can choose which of the
 consented reviews (if there are any) to make open.
 
-<figure>
+![]()
 <img src="../../nstatic/prepublication-open-peer-review.png"
 alt="../../nstatic/prepublication-open-peer-review.png" />
 <figcaption>Editor selects peer reviews to display</figcaption>
-</figure>
 
-<figure>
+
+![]()
 <img src="../../nstatic/reviews-that-can-be-displayed.png"
 alt="../../nstatic/reviews-that-can-be-displayed.png" />
 <figcaption>Reviews that can be displayed</figcaption>
-</figure>
+
 
 If a peer review has been approved for public display by both the author
 and the editor, readers will be able to open a pane to view the peer
 review text.
 
-<figure>
+![]()
 <img src="../../nstatic/open-peer-review-metadata.png"
 alt="../../nstatic/open-peer-review-metadata.png" />
 <figcaption>Button to open peer review</figcaption>
-</figure>
 
-<figure>
+
+![]()
 <img src="../../nstatic/open-peer-review-pane.png"
 alt="../../nstatic/open-peer-review-pane.png" />
 <figcaption>Open peer review pane</figcaption>
-</figure>
+

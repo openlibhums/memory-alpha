@@ -35,10 +35,7 @@ will be blocked by a permission denied page.
 If you opt to over-ride the security warning, all other Editors will be
 notified of this.
 
-<figure>
-<img src="../nstatic/unassigned.gif" class="with-border"
- />
-</figure>
+![" "](../nstatic/unassigned.gif)
 
 ## Review Page
 
@@ -50,10 +47,7 @@ The review page presets various actions:
 4.  New Review Round
 5.  Request Revisions
 
-<figure>
-<img src="../nstatic/review-main-screen.png"
- />
-</figure>
+![" "](../nstatic/review-main-screen.png)
 
 ## Add Files
 
@@ -64,10 +58,7 @@ the files you've selected have been checked to ensure there is no
 identifying author information in them. If there are you can download,
 edit and replace the version in the system on this screen.
 
-<figure>
-<img src="../nstatic/review-add-files.gif"
- />
-</figure>
+![" "](../nstatic/review-add-files.gif)
 
 ## Delete Round
 
@@ -96,10 +87,7 @@ Once the reviewer is assigned they will be able to access the system and
 let you know if they will complete the review and, if yes, access the
 review form you specified.
 
-<figure>
-<img src="../nstatic/review-add-reviewer.gif"
- />
-</figure>
+![" "](../nstatic/review-add-reviewer.gif)
 
 ## Managing a Review
 
@@ -124,10 +112,7 @@ Once you have opened a review you will see a details of the review
 assignment, a summary of the review and the review availability
 controls.
 
-<figure>
-<img src="../nstatic/review-view-page.png"
- />
-</figure>
+![" "](../nstatic/review-view-page.png)
 
 ### Allow Author to Read Review
 
@@ -135,10 +120,7 @@ You can make the review form visible to the author by toggling *Author
 can access this review*, and the file available by toggling *Author can
 access review file*.
 
-<figure>
-<img src="../nstatic/review-visibility-controls-1.png"
- />
-</figure>
+![" "](../nstatic/review-visibility-controls-1.png)
 
 ### Controlling Individual Answers
 
@@ -147,10 +129,7 @@ you can control the individual form answers under *Answer Visibility*.
 Toggling the answers on or off will determine whether the author can see
 them when they look at the review.
 
-<figure>
-<img src="../nstatic/review-visibility-controls-2.png"
- />
-</figure>
+![" "](../nstatic/review-visibility-controls-2.png)
 
 ### Editing Answers
 
@@ -160,35 +139,16 @@ the original version from the reviewer. You can reset the answer at any
 given time. Note that Janeway will retain a copy of the original and
 display it for other editors to see.
 
-<figure>
-<img src="../nstatic/review-form-elements.png"
- />
-</figure>
+![" "](../nstatic/review-form-elements.png)
 
 Once you have adjusted the visibility of Peer Review reports, and have
 clicked through to ‘Make a Decision’, you will see a summary of the Peer
 Reviews and what is and what is not revealed to authors before sending
 your Decision.
 
-<figure>
-<img src="../nstatic/review-visibility-4.png"
- />
-</figure>
+![" "](../nstatic/review-visibility-4.png)
 
 ## Decision Helper
-
-<div class="warning">
-
-<div class="title">
-
-Warning
-
-</div>
-
-As of version 1.3.10 all review decisions have been moved to the
-Decision Helper page.
-
-</div>
 
 One of the options under Actions is "Make a Decision" this will take you
 to the Decision Helper page. Once on this page you will see a summary of
@@ -223,28 +183,17 @@ uncompleted reviews. The decisions available from this screen are:
     the review of an article and share a link allowing them to read all
     of the review reports. Note: This must first be enabled before the
     option will be displayed. See the
-    `Sharing Peer Reviews<sharingpeerreviewsanchor>` section.
+    Sharing Peer Reviews section.
+    <!--missing hyperlink-->
 
-<figure>
-<img src="../nstatic/review-decision-helper.gif"
- />
-</figure>
+![" "](../nstatic/review-decision-helper.gif)
 
 ## Request Revisions
 
-<div class="tip">
-
-<div class="title">
-
-Tip
-
-</div>
-
-Before requesting revisions make sure you have marked reviews as
+> [!TIP]
+> Before requesting revisions make sure you have marked reviews as
 available to the author. The Request Revisions page will warn you if you
 have not done this for a given review.
-
-</div>
 
 Requesting revisions will allow you to ask the Author to make changes to
 the manuscript, this may be for editorial reasons or as the result of a
@@ -286,10 +235,7 @@ Editors:
 4.  Edit, Accept or Decline the Draft.
 5.  If accepted the decision event will fire.
 
-<figure>
-<img src="../nstatic/review-draft-a-decision.gif"
- />
-</figure>
+![" "](../nstatic/review-draft-a-decision.gif)
 
 Examples of Draft Decisions are: Accept, Minor Revisions, Major
 Revisions or Decline. Editors are required to approve these Draft
@@ -323,17 +269,8 @@ To approve a DD:
 
 ## Sharing Peer Reviews
 
-<div class="note">
-
-<div class="title">
-
-Note
-
-</div>
-
-This is a new feature added in v1.5.1.
-
-</div>
+> [!NOTE]
+> This is a new feature added in v1.5.1.
 
 In Janeway, editors have the ability to share completed peer reviews
 among the reviewers who took part in an article review process. There
@@ -350,38 +287,25 @@ Review Settings interface.
     and beyond. When reviewers access the review interface, they will be
     given the choice to view anonymous reviews completed by their peers.
 
-Please refer to the documentation on
-`Sharing Peer Reviews<sharingpeerreviewsanchor>` for detailed
-information on how to activate these functionalities.
+Please refer to the documentation on Sharing Peer Reviews for detailed information on how to activate these functionalities.
+<!--missing hyperlink-->
 
 ### Share Reviews Decision
 
 Once the setting is enabled a new decision option will show on the
 decision helper page.
 
-<figure>
-<img src="../nstatic/share-review-decision-list.png"
- />
-<figcaption>New decision in the decision list.</figcaption>
-</figure>
+![New decision in the decision list.](../nstatic/share-review-decision-list.png)
 
 Editors then can send an email to each of the reviewers providing them
 with a link to access and view the review content.
 
-<figure>
-<img src="../nstatic/share-review-decision-page.png"
- />
-<figcaption>Interface for notifying peer reviewers.</figcaption>
-</figure>
+![Interface for notifying peer reviewers.](../nstatic/share-review-decision-page.png)
 
 Reviewers can use the link in the email to access the shared reviews
 interface.
 
-<figure>
-<img src="../nstatic/share-reviews-reviewer.png"
- />
-<figcaption>Reviewer viewing completed reviews.</figcaption>
-</figure>
+![Reviewer viewing completed reviews.](../nstatic/share-reviews-reviewer.png)
 
 ### Display Completed Reviews in Review Interface
 
@@ -392,12 +316,7 @@ rounds. For instance, in round 3, reviewers will be able to see the
 completed reviews from rounds 1 and 2, but not the reviews completed
 specifically for round 3.
 
-<figure>
-<img src="../nstatic/share-reviews-during-review.png"
- />
-<figcaption>Round 2 reviewer viewing completed round 1
-reviews.</figcaption>
-</figure>
+![Round 2 reviewer viewing completed round 1 reviews.](../nstatic/share-reviews-during-review.png)
 
 Editors have the ability to modify the message that clarifies the reason
 why reviewers can see the reviews in the manager interface.
@@ -410,12 +329,7 @@ response letters along with peer reviews, they can enable the
 "Automatically Share Author Response Letters" option in the review
 settings section.
 
-<figure>
-<img src="../nstatic/share-reviews-response-letters.png"
- />
-<figcaption>Response letter being shared with peer
-reviewers.</figcaption>
-</figure>
+![Response letter being shared with peer reviewers.](../nstatic/share-reviews-response-letters.png)
 
 ## An Example Review Round
 

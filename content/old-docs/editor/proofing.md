@@ -1,3 +1,5 @@
+<!--Entire page needs reconsidering-->
+
 Title: Proofing
 
 # Proofing
@@ -13,11 +15,11 @@ proofing stage on the Editors behalf or we can assign ourselves as the
 proofing manager. Either way Editors retain access to the Proofing
 Manager pages.
 
-<figure>
+![]()
 <img src="../nstatic/proofing-screen.png"
 alt="../nstatic/proofing-screen.png" />
-<figcaption>Proofing manager screen</figcaption>
-</figure>
+<figcaption></figcaption>
+
 
 From this page we can assign proofreaders and upload new Galley files.
 To add a new Proofreader select Add New Proofreader.
@@ -39,15 +41,15 @@ All other file types will be served as downloads.
     please ensure you give people a reasonable amount of time to
     complete the task.
 
-<figure>
+![]()
 <img src="../nstatic/proofing-1.png" alt="../nstatic/proofing-1.png" />
 <figcaption>Adding a proofreader part 1</figcaption>
-</figure>
 
-<figure>
+
+![]()
 <img src="../nstatic/proofing-2.png" alt="../nstatic/proofing-2.png" />
 <figcaption>Adding a proofreader part 2</figcaption>
-</figure>
+
 
 After completing this for you can optionally send an email to the
 proofreader with information about their task.
@@ -77,10 +79,10 @@ your own notes here if you have further things to add (this is useful if
 you are using an external typesetter). If the proofreader uploaded a
 annotated document you can also view it on this page.
 
-<figure>
+![]()
 <img src="../nstatic/proofing-3.png" alt="../nstatic/proofing-3.png" />
 <figcaption>Reviewing a proofing task</figcaption>
-</figure>
+
 
 If you are using external typesetters or have someone using the
 typesetting role, you can then request changes from them using the

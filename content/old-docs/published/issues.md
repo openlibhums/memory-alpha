@@ -10,37 +10,15 @@ during the Pre Publication stage, however, Issues can be managed on
 their own through the Issue Manager, a link to which is available on the
 Manager page and the main sidebar.
 
-<figure>
-<img src="../nstatic/issue-management.png"
-alt="../nstatic/issue-management.png" />
-<figcaption>The Issue Management page.</figcaption>
-</figure>
+![The Issue Management page.](../nstatic/issue-management.png)
 
-<div class="tip">
-
-<div class="title">
-
-Tip
-
-</div>
-
-To set the current issue, click the Make Current button. The Issue
+> [!TIP]
+> To set the current issue, click the Make Current button. The Issue
 without this button *is* the current issue.
 
-</div>
-
-<div class="tip">
-
-<div class="title">
-
-Tip
-
-</div>
-
-To re-order the issues you can drag and drop the rows of the tables or
+> [!TIP]
+> To re-order the issues you can drag and drop the rows of the tables or
 use the sort buttons at the top of the page.
-
-</div>
 
 ## Issue Types
 
@@ -74,62 +52,31 @@ Here are a few example issue displays:
 - Winter 2009 • 19 pages
 - Volume 35 • 2021 • Number 49
 
-<div class="tip">
-
-<div class="title">
-
-Tip
-
-</div>
-
-If you want to display a totally custom issue title, disable everything
+> [!TIP]
+> If you want to display a totally custom issue title, disable everything
 except issue title, and use that field to form the issue display for
 each issue.
 
-</div>
-
-<div class="tip">
-
-<div class="title">
-
-Tip
-
-</div>
-
-You can use the article number field to set an arbitrary number for each
+> [!TIP]
+> You can use the article number field to set an arbitrary number for each
 article, whether to distinguish articles within each volume or issue or
 to number articles across volumes and issues. Article number is an
 optional field separate from article ID and can be set in Edit Metadata.
 
-</div>
-
-<div class="tip">
-
-<div class="title">
-
-Tip
-
-</div>
-
-If your journal has a lot of issues you can enable the "Group issues by
+> [!TIP]
+> If your journal has a lot of issues you can enable the "Group issues by
 decade" feature to allow readers to jump to a specific decade on the
 issues interface.
-
-</div>
 
 ## Creating and Editing Issue Details
 
 You can create new issues from this page using the Create Issue button
 and you view and edit the detail of individual issues by selecting them.
 
-<figure>
-<img src="../nstatic/create-issue.png"
-alt="../nstatic/create-issue.png" />
-<figcaption>An empty create issue form</figcaption>
-</figure>
+![An empty create issue form](../nstatic/create-issue.png)
 
 Information on the sizes of the cover image and large image can be found
-in the `Styling<imageguidelines>` section
+in the Styling section
 
 ## Manage an Issue
 
@@ -155,20 +102,12 @@ For each section there are arrow icons that allow you to move the
 section up and down, each of the articles can be dragged and dropped
 into order from inside their section.
 
-<figure>
-<img src="../nstatic/issue-table-of-contents.png"
-alt="../nstatic/issue-table-of-contents.png" />
-<figcaption>Issue table of contents</figcaption>
-</figure>
+![Issue table of contents](../nstatic/issue-table-of-contents.png)
 
 You can drop an article from an issue using the Remove link and add new
 ones clicking the Add Article link.
 
-<figure>
-<img src="../nstatic/issue-articles.png"
-alt="../nstatic/issue-articles.png" />
-<figcaption>Articles that can be added to issues</figcaption>
-</figure>
+![Articles that can be added to issues](../nstatic/issue-articles.png)
 
 A list of all articles published in the journal that are not already in
 the issue is displayed and you can use the Add button to place it in the
@@ -180,17 +119,9 @@ An issue can list Guest Editors if the articles aren't being handled by
 the normal editorial team. Use the Manage button to control who appears
 as a Guest Editor for an issue/collection.
 
-<figure>
-<img src="../nstatic/empty-guest-editors.png"
-alt="../nstatic/empty-guest-editors.png" />
-<figcaption>An issue with no guest editors</figcaption>
-</figure>
+![An issue with no guest editors](../nstatic/empty-guest-editors.png)
 
-<figure>
-<img src="../nstatic/manage-guest-editors.png"
-alt="../nstatic/manage-guest-editors.png" />
-<figcaption>An issue with no guest editors</figcaption>
-</figure>
+![An issue with no guest editors](../nstatic/manage-guest-editors.png)
 
 When adding a new guest editor you can also enter a role, the default
 text for this role is *Guest Editor* though you can change it. Use the
@@ -201,24 +132,11 @@ Add button to add a new guest editor.
 You can upload a Galley file for the whole issue, usually a PDF so that
 users can download the whole issue in one go.
 
-<figure>
-<img src="../nstatic/issue-galley.png"
-alt="../nstatic/issue-galley.png" />
-<figcaption>An issue with no guest editors</figcaption>
-</figure>
+![An issue with no guest editors](../nstatic/issue-galley.png)
 
-<div class="tip">
-
-<div class="title">
-
-Tip
-
-</div>
-
-If you don't upload a Galley for the issue then Janeway will allow users
+> [!TIP]
+> If you don't upload a Galley for the issue then Janeway will allow users
 to download a zip file of all the individual article galley files.
-
-</div>
 
 ### Issue DOIs
 
@@ -232,32 +150,14 @@ with Crossref whenever an article in that issue is registered with
 Crossref. This will be the case both for DOIs generated for Janeway as
 well as for those manually set.
 
-<div class="tip">
-
-<div class="title">
-
-Tip
-
-</div>
-
-If you are migrating a Janeway installation from a version that did not
+> [!TIP]
+> If you are migrating a Janeway installation from a version that did not
 support issue DOIs and would like to register issue DOIs for your back
 content, this can be done by populating the DOI field on those issues
 and then re-registering any of the articles in the issue with Crossref.
 
-</div>
-
-<div class="warning">
-
-<div class="title">
-
-Warning
-
-</div>
-
-When an article is part of two or more issues, only the primary issue
+> [!WARNING]
+> When an article is part of two or more issues, only the primary issue
 DOI will be registered with Crossref. In a future version, it will be
 possible to register issue DOIs on their own, even when they have no
 articles or all its articles are part of multiple issues.
-
-</div>

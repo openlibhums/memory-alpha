@@ -9,24 +9,11 @@ All published articles can be found on the Articles page under Back
 Content. The Article back content page lists both published and rejected
 papers. You can search and then select an article to edit.
 
-<div class="tip">
-
-<div class="title">
-
-Tip
-
-</div>
-
-You can also edit papers by going to their page and using the account
+> [!TIP]
+> You can also edit papers by going to their page and using the account
 drop down to select the Edit Article link.
 
-</div>
-
-<figure>
-<img src="../nstatic/article-archive.png"
- />
-<figcaption>Top of the article archive page</figcaption>
-</figure>
+![Top of the article archive page](../nstatic/article-archive.png)
 
 From this page you can:
 
@@ -44,11 +31,7 @@ From this page you can:
 The first block of the page lists most of the article's metadata. To
 change it you can press the Edit button.
 
-<figure>
-<img src="../nstatic/edit-metadata.png"
- />
-<figcaption>Top of the article archive page</figcaption>
-</figure>
+![Top of the article archive page](../nstatic/edit-metadata.png)
 
 Additionally you can make changes to the author records and re-order
 them as required.
@@ -80,70 +63,32 @@ Publisher notes appear on the article page below the abstract and how to
 cite block. These can be used to notify readers of small changes to the
 paper like a post-publication update to fix spelling etc.
 
-<figure>
-<img src="../nstatic/publisher-note.png"
- />
-<figcaption>Publisher note on the OLH theme</figcaption>
-</figure>
+![Publisher note on the OLH theme](../nstatic/publisher-note.png)
 
 ## Identifiers
 
 Any identifiers such as DOIs are listed here and a link to manage them
 is in the top right of the block.
 
-<figure>
-<img src="../nstatic/edit-doi.png"  />
-<figcaption>The article-level identifiers manager</figcaption>
-</figure>
+![The article-level identifiers manager](../nstatic/edit-doi.png)
 
-<div class="tip">
-
-<div class="title">
-
-Tip
-
-</div>
-
-You can also manage DOIs at the journal level as an editor (and at the
-press level as a staff user) using the `DOI Manager<doimanager>`.
-
-</div>
+> [!TIP]
+> You can also manage DOIs at the journal level as an editor (and at the
+press level as a staff user) using the DOI Manager.
 
 ## Galleys
 
 Much like the Production page, the article archive allows you to upload
 new and replace old Galley files.
 
-<figure>
-<img src="../nstatic/galleys-archive.png"
- />
-<figcaption>Galley manager block</figcaption>
-</figure>
+![Galley manager block](../nstatic/galleys-archive.png)
 
-<div class="warning">
-
-<div class="title">
-
-Warning
-
-</div>
-
-Editing a galley will change how it is displayed. If making changes to a
+> [!WARNING]
+> Editing a galley will change how it is displayed. If making changes to a
 published piece it is recommended you add a Publisher Note alongside it.
 
-</div>
-
-<div class="tip">
-
-<div class="title">
-
-Tip
-
-</div>
-
-The Edit Galleys link will take you to the Production page.
-
-</div>
+> [!TIP]
+> The Edit Galleys link will take you to the Production page.
 
 ## Issues
 
@@ -151,11 +96,7 @@ You can see the issues that an article is part of at the bottom of the
 Article Archive page. You can edit each of the issues or jump to the
 issue manager.
 
-<figure>
-<img src="../nstatic/archive-issue.png"
- />
-<figcaption>Archive issue block</figcaption>
-</figure>
+![Archive issue block](../nstatic/archive-issue.png)
 
 ## Actions
 

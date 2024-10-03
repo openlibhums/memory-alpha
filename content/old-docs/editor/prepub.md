@@ -19,9 +19,7 @@ publication). **The metadata abstract is displayed when you preview the
 XML file** (if you are using XML files) **in the Typesetting Plugin or
 Production stage.**
 
-<figure>
-<img src="../nstatic/gifprepub.gif" alt="../nstatic/gifprepub.gif" />
-</figure>
+![" "](../nstatic/gifprepub.gif)
 
 If you copy and paste an abstract into the metadata, ensure you paste
 this in without formatting and, if necessary, use an HTML cleaning tool
@@ -33,18 +31,9 @@ It is very important, for Open Access compliance purposes, that the
 licence selected in the metadata matches any licensing information given
 in the footer of the PDF file.
 
-<div class="warning">
-
-<div class="title">
-
-Warning
-
-</div>
-
-\*\* If an author requests a non-standard licence, this should be
+> [!WARNING]
+> \*\* If an author requests a non-standard licence, this should be
 flagged in advance to the typesetters.\*\*
-
-</div>
 
 Once you have thoroughly checked the metadata, check the ‘Mark as
 Complete’ box to move onto the next step.
@@ -75,13 +64,11 @@ proceed.
 If the DOI has more than two hops, or you see something else, you need
 to look more closely at the DOI's details. Select ‘Edit’ in the top
 right hand corner of the pop up window and check the ‘Status’ column for
-an indication of what to do next. See
-`Interpreting Registration Status<interpreting-registration-status>` for
+an indication of what to do next. See Interpreting Registration Status for
 more help.
+<!--missing hyperlink-->
 
-<figure>
-<img src="../nstatic/prepubgif2.gif" alt="../nstatic/prepubgif2.gif" />
-</figure>
+![" "](../nstatic/prepubgif2.gif)
 
 Check the ‘Mark as Complete’ box to move onto the next step.
 
@@ -95,23 +82,12 @@ publishable galleys. If any other files appear here return to
 Typesetting Plugin or Production to delete any other files that have
 accidentally been added as galleys before proceeding.
 
-<figure>
-<img src="../nstatic/prepubgif3.gif" alt="../nstatic/prepubgif3.gif" />
-</figure>
+![" "](../nstatic/prepubgif3.gif)
 
-<div class="warning">
-
-<div class="title">
-
-Warning
-
-</div>
-
-**If you have not done so already, double check (in the Typesetting
+> [!WARNING]
+> **If you have not done so already, double check (in the Typesetting
 Plugin or Production stage) that any typesetting queries at the very end
 of the PDF have been addressed and removed.**
-
-</div>
 
 Check the ‘Mark as Complete’ box to move onto the next step.
 
@@ -129,40 +105,22 @@ Upload an image (JPG, PNG or GIF formats are accepted – **NOT PDFs**) in
 the pop up window. Rectangular or landscape images work best, as this
 image will usually sit at the top of an article.
 
-<div class="tip">
-
-<div class="title">
-
-Tip
-
-</div>
-
-You can source many free-to-use images from Unsplash.com. Aim to choose
+> [!TIP]
+> You can source many free-to-use images from Unsplash.com. Aim to choose
 eye-catching images that are relevant to the article. If you are
 sourcing images from elsewhere, be aware of any copyright restrictions
 and only use images that you are permitted to reproduce.
-
-</div>
 
 Once you have completed the steps in Pre Publication and have set a date
 and time for an article to be published, go into ‘Edit Article Images’
 to select a thumbnail image (which can be the same image used for the
 article banner).
 
-<div class="tip">
-
-<div class="title">
-
-Tip
-
-</div>
-
-**As thumbnail images display at the same width to height ratio as they
+> [!TIP]
+> **As thumbnail images display at the same width to height ratio as they
 are uploaded, you may want to use an image editor to crop your chosen
 thumbnail image into a square shape, with the same height and width, for
 consistency.**
-
-</div>
 
 Check the ‘Mark as Complete’ box to move onto the next step.
 

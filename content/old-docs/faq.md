@@ -18,8 +18,7 @@ Janeway has eight roles.
 Note: The Proofing Manager role has been deprecated in 1.4 and is no
 longer in use.
 
-To add users to a role you can use the `Enrol Users<enrolusersanchor>`
-interface.
+To add users to a role you can use the Enrol Users interface.
 
 ## Email Logging
 
@@ -31,10 +30,7 @@ its workflow stage or through the archive (Dashboard -\> Left hand menu
 -\> Back Content -\> Articles) and using the "Stages, Logs and More"
 drop down select Log. image
 
-<figure>
-<img src="nstatic/log-page.gif" class="with-border"
-alt="nstatic/log-page.gif" />
-</figure>
+![" "](../old-docs/nstatic/log-page.gif)
 
 ## Reviewer Cannot Access a Review
 
@@ -49,7 +45,4 @@ link:
 3.  You'll see an Access Code like below image.
 4.  Copy this link and send it to the reviewer.
 
-<figure>
-<img src="nstatic/view-review.png" class="with-border"
-alt="nstatic/view-review.png" />
-</figure>
+![" "](../old-docs/nstatic/view-review.png)
