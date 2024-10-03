@@ -59,7 +59,6 @@ STATIC_PATHS = [
     # that we will eventually remove
     'old-docs/nstatic',
     'old-docs/nstatic/images',
-    'old-docs/nstatic/imports',
     'old-docs/nstatic/image-guidelines',
     'old-docs/nstatic/typesetting',
     'old-docs/nstatic/typesetting/editor',
