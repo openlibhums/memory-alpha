@@ -9,9 +9,9 @@ title: Consortial billing plugin
 This plugin is also known as the **Supporters plugin**.
 
 The OLH model depends on a network of libraries and library consortia
-voluntarily contributing to the OLH’s publishing activities. This plugin helps
-publishers using Janeway to manage supporter records and carry out the annual
-billing process.
+voluntarily funding open access publishing activities. This plugin helps
+publishers using Janeway to manage supporter records and carry out the
+annual billing process.
 
 ## Configuration
 
