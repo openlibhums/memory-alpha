@@ -73,20 +73,19 @@
           border-bottom-color: #00d2ff;
           transform: scale(1.05);
       }
-
-      .label {
+      .signup-form-wrapper .floating-label {
           position: absolute;
-          top: 10px;
-          left: 5px;
-          color: rgba(255, 255, 255, 0.7);
+          top: 0px;
+          left:0px;
           transition: font-size 0.3s, top 0.3s;
       }
 
-      .text-input:focus + .label {
+      .signup-form-wrapper:focus-within .floating-label,
+      .text-input:not(:placeholder-shown) ~ .floating-label {
+          top: -21px;
           font-size: 12px;
-          top: -10px;
-          color: var(--clr-tan);
       }
+
     }
 
     /* end signup-form component*
