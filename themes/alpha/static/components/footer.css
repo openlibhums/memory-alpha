@@ -2,7 +2,9 @@
   a {
         color: var(--clr-tan);
         position: relative;
-        padding-bottom: 0.7rem;
+        @media(width > 50rem) {
+          padding-bottom: 0.7rem;
+        }
   }
 
   .footer-title-wrapper {
@@ -132,7 +134,9 @@
   .signature-wrapper {
     margin-top: 50px;
     margin-bottom: 50px;
-    text-align: center;
+    @media(width < 50rem) {
+      text-align: center;
+    }
   }
 
   .signature {
