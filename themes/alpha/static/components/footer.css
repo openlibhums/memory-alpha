@@ -1,4 +1,10 @@
 .footer {
+  a {
+        color: var(--clr-tan);
+        position: relative;
+        padding-bottom: 0.7rem;
+  }
+
   .footer-title-wrapper {
       padding: var(--space-l);
   }
