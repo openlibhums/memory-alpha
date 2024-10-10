@@ -1,7 +1,6 @@
 .footer {
     .footer-title-wrapper {
         padding: var(--space-l);
-        justify-items: center;
     }
     .footer-title {
         font-family: var(--ff-mono-regular);
@@ -130,10 +129,34 @@
     .signature-wrapper {
       margin-top: 50px;
       margin-bottom: 50px;
-    }
-    .signature {
       text-align: center;
     }
+
+    .signature {
+      /* we don't want to use h2 in footer so we port its rules here */
+      font-size: var(--step-4);
+      font-family: var(--ff-poppins-bold);
+      --flow-space: var(--space-l);
+      display: inline
+    }
+
+    .signature-logo {
+      display: inline;
+      vertical-align: middle;
+    }
+    .signature-logo svg {
+        display: inline;
+        max-height: 20px;
+        fill: var(--clr-tan);
+    }
+
+    .signature-logo-birkbeck svg {
+        /*BBKs logo is too small to render inline */
+        max-height: 35px;
+        position: relative;
+        top: 5px;
+    }
+
     .copyright {
       font-family: var(--ff-poppins-regular);
       font-size: var(--step-1);

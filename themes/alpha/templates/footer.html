@@ -10,9 +10,6 @@
         Signup to a new way
       </h1>
     </div>
-    {#
-      Components are still not working
-    #}
     <div class="signup-form">
        <div class="signup-form-wrapper">
           <input type="email" class="text-input" id="signup-form-email" placeholder="">
@@ -34,9 +31,18 @@
     </svg>
   </div>
   <div class="signature-wrapper">
-    <h2 class="signature">
-        Brought to you by OLH at Birkbeck, University of London
-    </h2>
+    <p class="signature" aria-label="Brought to you by OLH at Birkbeck, University of London">
+        Brought to you by
+    </p>
+        <div class="signature-logo signature-logo-olh" role="img" aria-label="OLH">
+          {% include "images/logo/OLH-symbol-black.svg" %}&nbsp;
+        </div>
+    <p class="signature" aria-label="Brought to you by OLH at Birkbeck, University of London">
+        at
+    </p>
+        <div class="signature-logo signature-logo-birkbeck" role="img" aria-label="Birkbeck, University of London">
+          &nbsp;{% include "images/logo/birkbeck-logo-icon-white.svg" %}
+        </div>
   </div>
   <ul class="pipe-separated-list unstyle-list-small  all-caps" role="list">
     <li><a target="_blank" href="">Site Map</a></li>
