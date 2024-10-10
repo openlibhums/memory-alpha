@@ -23,7 +23,7 @@
   .logo {
     justify-content: center;
     flex: 0 1 12.5rem;
-    
+
     img {
       max-height: 100%;
     }
@@ -31,27 +31,10 @@
 
   a:not(.logo a) {
     text-decoration: none;
+    color: var(--clr-tan);
     font-family: var(--ff-poppins-medium);
     position: relative;
     padding: 0.7rem 0;
-
-    &::after {
-      content: '';
-      position: absolute;
-      left: 0;
-      bottom: 0;
-      width: 100%;
-      height: 3px;
-      background-color: var(--clr-tan);
-      transform: scaleX(0);
-      transform-origin: right;
-      transition: transform 0.2s ease-out;
-    }
-
-    &:hover::after {
-      transform: scaleX(1);
-      transform-origin: left;
-    }
   }
 
   .left, .logo, .right {
@@ -62,7 +45,7 @@
   .left {
     flex: 1;
     justify-content: flex-start;
-    
+
     li {
       margin-right: 0.5rem;
 
@@ -84,7 +67,7 @@
       }
     }
   }
-  
+
   .slide-drawer {
     display: none;
     background: none;
