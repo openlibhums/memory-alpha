@@ -155,6 +155,9 @@
       display: inline;
       max-height: 20px;
       fill: var(--clr-tan);
+      .svg-background {
+        fill: var(--clr-black);
+      }
   }
 
   .signature-logo-birkbeck svg {
