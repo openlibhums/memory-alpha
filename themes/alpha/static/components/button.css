@@ -64,7 +64,19 @@
 
        &.tan-on-blue:hover,     &.tan-on-blue:hover     > .button-internal{ color: var(--clr-blue); background-color: var(--clr-tan); }
        &.blue-on-tan:hover,     &.blue-on-tan:hover     > .button-internal{ color: var(--clr-tan); background-color: var(--clr-blue); }
- 
+
+       &.tan-on-black:focus-within,    &.tan-on-black:focus-within    > .button-internal{ color: var(--clr-black); background-color: var(--clr-tan); }
+       &.black-on-tan:focus-within,    &.black-on-tan:focus-within    > .button-internal{ color: var(--clr-tan); background-color: var(--clr-black); }
+
+       &.rust-on-black:focus-within,   &.rust-on-black:focus-within   > .button-internal{ color: var(--clr-black); background-color: var(--clr-rust); } 
+       &.black-on-rust:focus-within,   &.black-on-rust:focus-within   > .button-internal{ color: var(--clr-rust); background-color: var(--clr-black); }
+
+       &.tan-on-orange:focus-within,   &.tan-on-orange:focus-within   > .button-internal{ color: var(--clr-orange); background-color: var(--clr-tan); }
+       &.orange-on-tan:focus-within,   &.orange-on-tan:focus-within   > .button-internal{ color: var(--clr-tan); background-color: var(--clr-orange); }
+
+       &.tan-on-blue:focus-within,     &.tan-on-blue:focus-within     > .button-internal{ color: var(--clr-blue); background-color: var(--clr-tan); }
+       &.blue-on-tan:focus-within,     &.blue-on-tan:focus-within     > .button-internal{ color: var(--clr-tan); background-color: var(--clr-blue); }
+  
     }
 
 }
