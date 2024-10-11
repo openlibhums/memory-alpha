@@ -1,5 +1,5 @@
 <footer class="footer">
-  <div class="circle-wrapper-top">
+  <div class="circle-wrapper-top" role="presentation">
     <svg class="circle circle-top" xmlns="http://www.w3.org/2000/svg">
         <circle class="circle-path-blue" cx="50" cy="50" r="40"/>
     </svg>
@@ -7,13 +7,13 @@
   <div class="grid place-content-center">
     <div class="footer-title-wrapper">
       <h1 class="footer-title">
-        Signup to a new way
+        Sign up to a new way
       </h1>
     </div>
     <div class="signup-form">
        <div class="signup-form-wrapper">
-          <input type="email" class="text-input" id="signup-form-email" placeholder="">
-          <label for="signup-form-email" class="floating-label">Your Email</label>
+          <input aria-describedby="signup-form-label" type="email" class="text-input" id="signup-form-email" placeholder="">
+          <label for="signup-form-email" id="signup-form-label" class="floating-label">Your Email</label>
       </div>
     </div>
     <div class="social-media-links">
@@ -24,19 +24,19 @@
       </ul>
     </div>
   </div>
-  <div class="circle-wrapper-bottom">
+  <div class="circle-wrapper-bottom" role="presentation">
     <svg class="circle circle-bottom" xmlns="http://www.w3.org/2000/svg">
         <circle class="circle-path-orange" cx="50" cy="50" r="50"/>
     </svg>
   </div>
   <div class="signature-wrapper">
-    <p class="signature" aria-label="Brought to you by OLH at Birkbeck, University of London">
+    <p class="signature" aria-label="Brought to you by">
         Brought to you by
     </p>
         <div class="signature-logo signature-logo-olh" role="img" aria-label="OLH">
           {% include "images/logo/OLH-symbol-black.svg" %}&nbsp;
         </div>
-    <p class="signature" aria-label="Brought to you by OLH at Birkbeck, University of London">
+    <p class="signature" aria-label="at">
         at
     </p>
         <div class="signature-logo signature-logo-birkbeck" role="img" aria-label="Birkbeck, University of London">
@@ -49,9 +49,9 @@
     <li><a class="laser-underline" target="_blank" href="">Privacy Policy</a></li>
     <li><a class="laser-underline" target="_blank" href="https://github.com/yourusername">Cookie Policy</a></li>
   </ul>
-  <div class="copyrigt-wrapper">
-    <h2 class="copyright">
-        Copyright © Birkbeck, University of London
-    </h2>
+  <div class="copyright-wrapper">
+    <p class="copyright">
+        © Birkbeck, University of London
+    </p>
   </div>
 </footer>
