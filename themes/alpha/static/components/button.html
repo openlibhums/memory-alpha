@@ -22,32 +22,40 @@
 
 
 <div class="button-container">
-    {% if link %}
-        <a href="{{link}}"
-    {% else %}
-        <button type="button" onclick="{{onclick}}"
-    {% endif %}
+    <div 
+            {% if volume == "loud" %}
+                class="button-shape ff-space-mono-bold {{parent_background_color}}-on-{{parent_text_color}} border-{{parent_text_color}}"
+            {% elif volume == "quiet" %}
+                class="button-shape ff-space-mono-bold {{parent_text_color}}-on-{{parent_background_color}} border-{{parent_text_color}}"
+            {% endif %}
+        >
+        {% if link %}
+            <a href="{{link}}"
+        {% else %}
+            <button type="button" onclick="{{onclick}}"
+        {% endif %}
 
-    {% if labelledby %}
-        aria-labelledby="{{ labelledby }}"
-    {% elif label %}
-        aria-label="{{ label }}"
-    {% endif %}
+        {% if labelledby %}
+            aria-labelledby="{{ labelledby }}"
+        {% elif label %}
+            aria-label="{{ label }}"
+        {% endif %}
 
-    {% if volume == "loud" %}
-        class="button ff-space-mono-bold {{parent_background_color}}-on-{{parent_text_color}} border-{{parent_text_color}}"
-    {% elif volume == "quiet" %}
-        class="button ff-space-mono-bold {{parent_text_color}}-on-{{parent_background_color}} border-{{parent_text_color}}"
-    {% endif %}
-    >
+        {% if volume == "loud" %}
+            class="button-internal ff-space-mono-bold {{parent_background_color}}-on-{{parent_text_color}} border-{{parent_text_color}}"
+        {% elif volume == "quiet" %}
+            class="button-internal ff-space-mono-bold {{parent_text_color}}-on-{{parent_background_color}} border-{{parent_text_color}}"
+        {% endif %}
+        >
 
-    {{ caller() }} <span aria-hidden="true" > &#10140; </span> 
+        {{ caller() }} <span aria-hidden="true" > &#10140; </span> 
 
-    {% if link %}
-        </a>
-    {% else %}
-        </button>
-    {% endif %}
+        {% if link %}
+            </a>
+        {% else %}
+            </button>
+        {% endif %}
+    </div>
 
 </div>
 
