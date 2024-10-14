@@ -82,3 +82,30 @@ another file in the same folder, you can do this:
 ```md
 Check the [contributing guide](contributing-guide) for instructions.
 ```
+
+## Code formatting
+
+Use the backtick character ( \` ) to set off bits of code, like this:
+
+```
+Set the setting to `True` for this behavior.
+```
+
+When the code includes Jinja or Django template syntax like {{
+'`{{ article.variable }}`' }}, you also have to book-end that code with
+Jinja instructions to ignore it and leave it unprocessed as raw code. Like
+this:
+
+```
+{{ "`{% raw %}{{ article.variable }}{% endraw %}`" }}
+```
+
+This will be displayed as:
+
+```
+{% raw %}{{ article.variable }}{% endraw %}
+```
+
+This is known as “escaping.” See the [Jinja
+documentation](https://jinja.palletsprojects.com/en/3.0.x/templates/#escaping)
+for more details.
