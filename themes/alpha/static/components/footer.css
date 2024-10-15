@@ -79,18 +79,6 @@
         border-bottom-color: #00d2ff;
         transform: scale(1.05);
     }
-    .signup-form-wrapper .floating-label {
-        position: absolute;
-        top: 0px;
-        left:0px;
-        transition: font-size 0.3s, top 0.3s;
-    }
-
-    .signup-form-wrapper:focus-within .floating-label,
-    .text-input:not(:placeholder-shown) ~ .floating-label {
-        top: -21px;
-        font-size: 12px;
-    }
 
   }
 
