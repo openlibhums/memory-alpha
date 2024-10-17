@@ -22,6 +22,11 @@ There are a few things to configure before the plugin can be used.
 
 ### Currencies
 
+Currencies determine what currency options supporters will have. After
+selecting a currency, supporters will also see their fee converted into
+their preferred currency, based on the latest available standardized exchange
+rates.
+
 Currencies should be set up so that each one can tie into data fetched from the
 World Bank. Each one needs the official currency code, a display symbol, and
 currency region.
@@ -42,6 +47,12 @@ Here are example currency setups for these three regions.
 
 Note that you do not have to enter the exchange rate. Fetch World Bank exchange
 rate data to populate this number.
+
+### Getting World Bank data
+
+To get the World Bank data for exchange rates and GNI per capita, go to the
+**Annual Update** section of the **Manager** page. The buttons at the top of
+that section will check for and load up the latest data.
 
 ### Support levels
 
@@ -72,37 +83,10 @@ be redirected to the billing agent’s website to complete the process.
 | Jisc    | UK      | https://example.com | N       |
 | OLH     |         |                     | Y       |
 
-### Base bands
-
-There should be one base band for each combination of these dimensions of the
-data model:
-
-- Support level
-- Billing setup
-
-Let’s say there are 5 support levels. And let’s say there are 3 countries served by
-external billing agents, plus a default process where you bill the rest of the
-countries, for a total of 4 billing setups. Then you should have 4 * 5 = 20 base bands.
-
-| Country & agent    | Platinum | Gold    | Silver  | Bronze | Standard |
-|--------------------|----------|---------|---------|--------|----------|
-| US & Lyrasis       | $28,840  | $19,230 | $14,420 | $9,610 | $2,980   |
-| Canada & Lyrasis   | $19,350  | $12,900 | $9,680  | $6,450 | $2,000   |
-| UK & Jisc          | £15,000  | £10,000 | £7,500  | £5,000 | £1,550   |
-| Germany etc. & OLH | €19,280  | €12,850 | €9,640  | €6,420 | €1,990   |
-
-For how the size affects the fee, see **Supporter sizes**.
-
-The other variable that will come into play with fees calculated from base
-bands, especially with the default billing agent and countries around the
-world, is the GNI per capita. The supporter will also see the fee converted
-into their preferred currency, based on the
-current exchange rate data.
-
 ### Supporter sizes
 
-Supporter sizes affect the calculation of _**Standard** bands only_ by means of the
-multiplier. If the base band is set to a medium supporter size, then a large
+Supporter sizes affect the calculation of _**Standard** bands only_ by means of
+the multiplier. If the base band is set to a medium supporter size, then a large
 university will see a slightly higher fee, and small college or research
 institute will see a smaller fee.
 
@@ -112,8 +96,36 @@ institute will see a smaller fee.
 | Medium | 5,000-9,999 students | 1.00       |
 | Small  | 0-4,999 students     | 0.66       |
 
-### Getting World Bank data
+### Base bands
 
-To get the World Bank data for exchange rates and GNI per capita, go to the
-**Annual Update** section of the **Manager** page. The buttons at the top of
-that section will check for and load up the latest data.
+The base bands are the trickiest part of the setup, because each one
+depends on a handful of data points.
+
+There should be one base band for each combination of these dimensions of the
+data model:
+
+- Support level
+- Billing setup
+
+Let’s say there are 5 support levels, ranging from standard to platinum.
+And let’s say there are 4 billing setups, including 1 default setup where
+you as publisher are the billing agent for most supporters in most
+countries, plus 3 other setups where an external billing agent is in
+charge of all the supporters in a particular country.
+
+Then you should have 4 * 5 = 20 base bands:
+
+| Country & agent    | Platinum | Gold    | Silver  | Bronze | Standard |
+|--------------------|----------|---------|---------|--------|----------|
+| Germany etc. & OLH | €19,280  | €12,850 | €9,640  | €6,420 | €1,990   |
+| US & Lyrasis       | $28,840  | $19,230 | $14,420 | $9,610 | $2,980   |
+| Canada & Lyrasis   | $19,350  | $12,900 | $9,680  | $6,450 | $2,000   |
+| UK & Jisc          | £15,000  | £10,000 | £7,500  | £5,000 | £1,550   |
+
+For how the size affects the fee, see **Supporter sizes**.
+
+GNI per capita is another important variable that will come into play with fees
+calculated from base bands, especially with the default billing agent and
+countries around the world. In the example above, the default billing setup
+is tied to Germany as a relatively stable base from which we can calculate fees
+around the world.
