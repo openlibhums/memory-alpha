@@ -1,6 +1,7 @@
 .page-h1 {
   h1 {
-    padding-block: var(--space-xl);
+    padding-block-start: var(--space-2xl);
+    padding-block-end: var(--space-l);
     max-width: 9ch;
   }
   .h1-text::after {

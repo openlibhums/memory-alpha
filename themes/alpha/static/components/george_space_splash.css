@@ -35,11 +35,11 @@
     left: -1rem;
   }
   .medium-circle-two {
-    display: none;
+    bottom: -6rem;
+    right: 8rem;
   }
   .small-circle {
-    bottom: -4rem;
-    right: 0rem;
+    display: none;
   }
 
   @media (width > 50rem) {
