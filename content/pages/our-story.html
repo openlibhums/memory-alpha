@@ -1,11 +1,10 @@
-{% from "components/george_space_splash.html" import george_space_splash %}
 {% from "components/page_h1.html" import page_h1 %}
 
 <head>
   <title>Our Story</title>
 </head>
 <body>
-  {{ george_space_splash() }}
+  {% include "components/george_space_splash.html" %}
   {% call page_h1() -%}
     Our Story
   {%- endcall %}
