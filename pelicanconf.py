@@ -1,3 +1,5 @@
+import logging
+
 AUTHOR = 'Open Library of Humanities'
 SITENAME = 'Janeway Systems'
 SITEURL = ""
@@ -107,3 +109,7 @@ JINJA_ENVIRONMENT = {
 
 GH_MAIN_CONTENT_URL = 'https://github.com/BirkbeckCTP/memory-alpha/edit/main/content'
 GH_COPYEDIT_CONTENT_URL = 'https://github.com/BirkbeckCTP/memory-alpha/edit/copyediting/content'
+
+# Filter out empty alt warnings, which do not account for the primary method of
+# marking images as decorative, which is alt=""
+LOG_FILTER = [(logging.WARN, 'Empty alt attribute for image %s in %s')]
