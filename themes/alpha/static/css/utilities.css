@@ -124,6 +124,10 @@
   clip: rect(0, 0, 0, 0);
   white-space: nowrap; /* added line */
   border: 0;
+
+  /* Avoid irrelevant contrast warnings from a11y checkers */
+  color: var(--clr-tan);
+  background: var(--clr-black);
 }
 
 /* Hide overflow on the left and right of an element */

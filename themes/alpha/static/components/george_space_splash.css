@@ -1,4 +1,5 @@
 .george-space-splash {
+  z-index: 1;
   --portal-padding: 12px;
   @media (width > 50rem) {
     --portal-padding: 20px;
@@ -21,13 +22,21 @@
     position: absolute;
     height: 4rem;
     width: 4rem;
-    clip-path: circle(50%);
+    border-radius: 100%;
+    z-index: 4;
   }
   .small-circle {
     position: absolute;
     height: 3rem;
     width: 3rem;
-    clip-path: circle(50%);
+    border-radius: 100%;
+  }
+  .tiny-circle {
+    position: absolute;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 100%;
+    z-index: 4;
   }
 
   .medium-circle-one {
@@ -35,11 +44,19 @@
     left: -1rem;
   }
   .medium-circle-two {
-    bottom: -6rem;
-    right: 8rem;
+    bottom: -2rem;
+    left: 6rem;
   }
   .small-circle {
     display: none;
+  }
+  .tiny-circle.select-slide-1 {
+    bottom: -1rem;
+    left: 11rem;
+  }
+  .tiny-circle.select-slide-2 {
+    bottom: -1rem;
+    left: 14rem;
   }
 
   @media (width > 50rem) {
@@ -51,12 +68,22 @@
     }
     .medium-circle-two {
       display: block;
-      bottom: -4rem;
-      right: 24rem;
+      bottom: 0rem;
+      left: 24rem;
     }
     .small-circle {
+      display: block;
       top: 4rem;
-      right: 13rem;
+      right: 9rem;
+      z-index: 4;
+    }
+    .tiny-circle.select-slide-1 {
+      bottom: 1rem;
+      left: 29rem;
+    }
+    .tiny-circle.select-slide-2 {
+      bottom: 1rem;
+      left: 32rem;
     }
   }
 
@@ -66,6 +93,7 @@
     @media (width > 50rem) {
       margin-block: 3rem;
     }
+    z-index: 3;
   }
   .rust-circle {
     padding: var(--portal-padding);
@@ -111,12 +139,14 @@
   .bottom-right-box {
     display: flex;
     margin-block-start: -4rem;
+    margin-block-end: 2rem;
     margin-inline-start: 6rem;
+    z-index: 4;
     @media (width > 50rem) {
       margin-block-start: 11rem;
       margin-inline-start: -1rem;
       align-items: center;
-      z-index: -10;
+      z-index: 2;
     }
   }
 
@@ -148,6 +178,8 @@
 
   .george-text p,
   .space-text p {
+    color: var(--clr-tan);
+    background: var(--clr-blue);
     padding-inline: 1rem;
     font-size: 1.2rem;
     @media (width > 50rem) {
@@ -157,14 +189,13 @@
     max-width: 20ch;
   }
 
-  .space-text p {
+  .space-text {
     opacity: 0;
-    z-index: -10;
   }
 
-  /* Play/pause button */
-  button.play,
-  button.pause {
+  /* Buttons */
+  button,
+  button {
     height: inherit;
     width: inherit;
     padding-block: 0;
@@ -174,47 +205,51 @@
     color: unset;
     background-color: unset;
   }
-  button.play:hover,
-  button.pause:hover {
+  button:hover,
+  button:hover {
     cursor: pointer;
   }
-  .play,
-  .pause {
-    display: none;
-  }
-  .play.displayed,
-  .pause.displayed {
+  button {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 6px;
   }
-  .pause .bar {
+  &.running .play-pause .triangle,
+  &:not(.running) .play-pause .bar {
+    display:none;
+  }
+  &.running .play-pause .bar {
     display: block;
-    height: 20px;
-    width: 8px;
+    height: 22px;
+    width: 6px;
     background: var(--clr-white);
   }
-  .play .triangle {
+  &:not(.running) .play-pause .triangle {
     display: block;
     height: 20px;
     width: 20px;
     background: var(--clr-white);
-    clip-path: polygon(0 0, 100% 50%, 0 100%);
+    clip-path: polygon(15% 0, 100% 50%, 15% 100%);
+  }
+  .play-pause:hover,
+  .select-slide-1:hover,
+  .select-slide-2:hover,
+  &.running .play-pause,
+  &.showing-slide-1 .select-slide-1,
+  &.showing-slide-2 .select-slide-2 {
+    outline: 2px solid var(--clr-tan);
   }
 
   /* Animations */
   .orange-circle {
     animation: 6s 1s transitionImage infinite alternate;
   }
-  .text-circle {
-    animation: 6s 1s blueToOrange infinite alternate;
-  }
-  .george-text p {
+  .george-text {
     animation: 6s 1s fadeText infinite alternate;
   }
-  .space-text p {
-    animation: 6s 1s fadeText infinite alternate-reverse;
+  .space-text {
+    animation: 6s 1s materializeText infinite alternate;
   }
   .small-circle {
     @media (width > 50rem) {
@@ -226,8 +261,21 @@
       animation: 6s 1s marginBlockStartMoveUp infinite alternate;
     }
   }
-  .animated.paused {
+
+  /* Animation state controls */
+  &:not(running) .animated {
     animation-play-state: paused;
+  }
+  &.running .animated {
+    animation-play-state: running;
+  }
+  &.showing-slide-1 .animated {
+    animation-duration: 0s;
+  }
+  &.showing-slide-2 .animated {
+    animation-duration: 0s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
   }
 }
 
@@ -239,17 +287,17 @@
 }
 
 @keyframes fadeText {
-  0% { opacity: 1; }
-  40% { opacity: 1; }
-  50% { opacity: 0; }
-  100% { opacity: 0; }
+  0% { opacity: 1; transform: translateY(0px); }
+  40% { opacity: 1; transform: translateY(0px); }
+  50% { opacity: 0; transform: translateY(0px); }
+  100% { opacity: 0; transform: translateY(100%); }
 }
 
-@keyframes blueToOrange {
-  0% { background-color: var(--clr-blue); }
-  50% { background-color: var(--clr-blue); }
-  60% { background-color: var(--clr-orange); }
-  100% { background-color: var(--clr-orange); }
+@keyframes materializeText {
+  0% { opacity: 0; transform: translateY(100%); }
+  50% { opacity: 0; transform: translateY(0px); }
+  60% { opacity: 1; transform: translateY(0px); }
+  100% { opacity: 1; transform: translateY(0px); }
 }
 
 @keyframes topMoveUp {
