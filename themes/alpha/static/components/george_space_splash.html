@@ -1,6 +1,6 @@
 {# An animated opening element for the Our Story page #}
 
-<aside
+<section
   class="george-space-splash"
   aria-label="Animation of George Birkbeck and stars in outer space">
   <div class="top-left-box">
@@ -48,24 +48,20 @@
   <div class="medium-circle-one bg-blue"></div>
   <div class="medium-circle-two bg-blue play-pause">
     <button>
-      <span class="triangle">
-        <span class="sr-only">Pause animation</span>
-      </span>
-      <span class="bar">
-        <span class="sr-only text-tan bg-black">Play animation</span>
-      </span>
+      <span class="triangle" aria-label="Play animation"></span>
+      <span class="bar" aria-label="Pause animation"></span>
       <span class="bar"></span>
     </button>
   </div>
-  <div class="tiny-circle bg-blue ff-space-mono-bold fs-3 select-slide-1">
-    <button>
-      <span class="sr-only text-tan bg-black ">Show slide </span>1
+  <div class="tiny-circle bg-blue ff-space-mono-bold fs-3 animated select-slide-1">
+    <button aria-label="Show slide 1">
+      1
     </button>
   </div>
-  <div class="tiny-circle bg-blue ff-space-mono-bold fs-3 select-slide-2">
-    <button>
-      <span class="sr-only">Show slide </span>2
+  <div class="tiny-circle bg-blue ff-space-mono-bold fs-3 animated select-slide-2">
+    <button aria-label="Show slide 2">
+      2
     </button>
   </div>
   <div class="small-circle bg-blue animated"></div>
-</aside>
+</section>
