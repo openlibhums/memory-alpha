@@ -1,15 +1,15 @@
 # How we came into being 
  
-Janeway’s original mission was to publish the content of the Open Library of Humanities, an open access academic publisher at Birkbeck, University of London. It has since become the platform of choice for editors, librarians, and publishers at universities worldwide.
+Janeway was developed by software engineers at the Open Library of Humanities (OLH). Its original mission was to provide a sustainable and not-for-profit digital publishing platform for the OLH, an open-access academic publisher at Birkbeck, University of London. It has since become the platform of choice for editors, librarians, and publishers at universities worldwide.
  
 ## What is Janeway?
  
-Janeway is an intuitive and agile platform for journal hosting, migration, manuscript submission, review, copyediting, and typesetting. We founded it on open source principles and will never write paywall features into the software. Under a copyleft license, it is freely available for anyone to use providing they make their contributions similarly open.
+Janeway is an intuitive and adaptable platform for journal publishing that helps you manage manuscript submissions, including review, copyediting, typesetting and publication. We founded it on open-source principles and will never write paywall features into the software. Janeway is released under a copyleft license, which protects it from commercial acquisition and ensures that it will remain truly open and community-governed.
  
-We built Janeway to be sustainable, drawing on the most promising coding frameworks of the future. The platform is built in Python using Django. Python was chosen for its readability and flexibility, its vibrant open-source ecosystem of libraries and frameworks, and its dedicated communities of developers, scientists, and researchers.
+We designed Janeway to be sustainable, drawing on the most durable and promising web application technologies. The platform is built in Python using Django. Python was chosen for its readability and flexibility, its vibrant open-source ecosystem of libraries and frameworks, and its dedicated communities of developers, scientists, and researchers.
  
 ## The OLH and Birkbeck
  
-The Open Library of Humanities is an open-access publisher whose goal is to liberate university research from commercial control. Janeway software was built by the OLH team to make sure we would always be independent from commercial software platforms. Because we are a publisher not a tech company, our software and expertise has helped other university publishers achieve the same goals.
+The Open Library of Humanities is an award-winning publisher of academic scholarship. The OLH team built Janeway because we needed a way to replace commercial software, and ensure our publishing workflows could be entirely open source and not-for-profit. Because we are a university publisher not a tech company, our software has been developed hand-in-hand with academic editors, authors, and reviewers. This expertise has meant we can help other university publishers achieve the same goal of investing in not-for-profit technology that is sustainable.
  
-Our team of expert technologists and humanities scholars are based at Birkbeck, University of London. Though we work remotely from across the world, our home is the vibrant and leafy Bloomsbury quarter, known as the intellectual and literary capital of London and home to some of the UK’s most established publishers.
+Our team of expert technologists and humanities scholars are based at Birkbeck, University of London. Though we work remotely in different countries, our home is the vibrant and leafy Bloomsbury quarter, known as the intellectual and literary capital of London and home to some of the UK’s most established publishers. 
