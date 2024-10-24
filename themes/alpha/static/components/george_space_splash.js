@@ -19,7 +19,7 @@ export function animateGeorge() {
 
   // When user selects slide 1, go to beginning of animation duration and pause
   const selectSlide1 = document.querySelector('.george-space-splash .select-slide-1 button');
-  selectSlide1.addEventListener('click', event => {
+  selectSlide1.addEventListener('click', () => {
     splash.classList.toggle('running', false);
     splash.classList.toggle('showing-slide-1', true);
     splash.classList.toggle('showing-slide-2', false);
