@@ -1,4 +1,7 @@
 {% from "components/page_h1.html" import page_h1 %}
+{% from "components/page_section.html" import page_section %}
+{% from "components/page_section_group.html" import page_section_group %}
+{% from "components/button.html" import button %}
 
 <head>
   <title>Our Story</title>
@@ -8,4 +11,29 @@
   {% call page_h1() -%}
     Our Story
   {%- endcall %}
+
+  {% call page_section(labelledby="how-we-came-into-being", bg="bg-tan", prose="") %}
+    <h2 id="how-we-came-into-being" class="ff-space-mono-regular fs-6">How we came into being</h1>
+    <p class="ff-space-mono-regular fs-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu quam non nunc dignissim placerat.</p>
+  {% endcall %}
+
+  {% call page_section_group() %}
+    {% call page_section(labelledby="what-is-janeway", bg="bg-tan", layout="layout-left") %}
+      <h3 id="what-is-janeway" class="ff-space-mono-bold">What is Janeway</h3>
+      {{ lipsum(n=4, min=20, max=25) }}
+    {% endcall %}
+
+    {% call page_section(labelledby="olh-and-birkbeck", bg="bg-tan", layout="layout-right") %}
+      <h3 id="olh-and-birkbeck" class="ff-space-mono-bold">OLH and Birkbeck</h3>
+      {{ lipsum(n=4, min=20, max=25) }}
+    {% endcall %}
+
+  {% endcall %}
+
+  {% call page_section(labelledby="join-our-mission", bg="bg-tan", prose="") %}
+    {% call button(volume="loud", parent_text_color="blue", parent_background_color="tan") %}
+      Meet the Crew
+    {% endcall %}
+  {% endcall %}
+
 </body>
