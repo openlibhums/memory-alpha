@@ -1,16 +1,17 @@
 {# A component to display the main navigation. #}
 
+{% from "components/laser_link.html" import laser_link %}
+
 {% macro main_nav(LEFT_NAV_ITEMS, RIGHT_NAV_ITEMS) -%}
 <nav id="main-nav" class="main-nav">
   <div class="nav-container">
     <div class="left">
-      
       <ul>
         {% for title, link in LEFT_NAV_ITEMS %}
         <li>
-          <a href="{{ link }}" class="laser-underline">
+          {% call laser_link(href=link) %}
             {{ title }}
-          </a>
+            {% endcall %}
         </li>
         {% endfor %}
       </ul>
@@ -27,9 +28,9 @@
       <ul>
         {% for title, link in RIGHT_NAV_ITEMS %}
         <li>
-          <a href="{{ link }}" class="laser-underline">
+          {% call laser_link(href=link) %}
             {{ title }}
-          </a>
+          {% endcall %}
         </li>
         {% endfor %}
       </ul>
