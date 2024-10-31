@@ -30,15 +30,18 @@
     </svg>
   </div>
   <div class="signature-wrapper">
-    <p class="signature" aria-label="Brought to you by OLH at Birkbeck, University of London">
-        Brought to you by
-        <span class="signature-logo signature-logo-olh" role="img" role-img-alt="Open Library of humanities logo">
-          {% include "images/logo/OLH-symbol-black.svg" %}
-        </span>
-        at
-        <span class="signature-logo signature-logo-birkbeck" role="img" role-img-alt="Birkbeck, University of London logo">
-          {% include "images/logo/birkbeck-logo-icon.svg" %}
-        </span>
+    <div
+      class="signature"
+      role="img"
+      aria-label="Brought to you by OLH at Birkbeck, University of London">
+      <span>Brought to you by</span>
+      <span class="signature-logo signature-logo-olh">
+        {% include "svg/olh-symbol.svg" %}
+      </span>
+      <span>at</span>
+      <span class="signature-logo signature-logo-birkbeck">
+        {% include "svg/birkbeck-logo.svg" %}
+      </span>
     </p>
   </div>
   <ul class="pipe-separated-list unstyle-list-small  all-caps" role="list">

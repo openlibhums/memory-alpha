@@ -128,31 +128,21 @@
   }
 
   .signature {
-    /* we don't want to use h2 in footer so we port its rules here */
     font-size: var(--step-4);
     font-family: var(--ff-poppins-bold);
-    --flow-space: var(--space-l);
-    display: inline
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    flex-wrap: wrap;
   }
 
-  .signature-logo {
-    display: inline;
-    vertical-align: middle;
+  .signature-logo-olh,
+  .signature-logo-olh svg {
+    height: var(--step-5);
   }
-  .signature-logo svg {
-      display: inline;
-      max-height: 20px;
-      fill: var(--clr-tan);
-      .svg-background {
-        fill: var(--clr-black);
-      }
-  }
-
+  .signature-logo-birkbeck,
   .signature-logo-birkbeck svg {
-      /* BBKs logo is too small to render inline */
-      max-height: 35px;
-      position: relative;
-      top: 5px;
+    height: var(--step-7);
   }
 
   .copyright {
