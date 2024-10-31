@@ -33,6 +33,51 @@
 .bg-blue { background-color: var(--clr-blue); }
 .bg-rust { background-color: var(--clr-rust); }
 
+/* Main colour pairs */
+.tan-on-black {
+  color: var(--clr-tan);
+  border-color: var(--clr-tan);
+  background-color: var(--clr-black);
+}
+.black-on-tan {
+  color: var(--clr-black);
+  border-color: var(--clr-black);
+  background-color: var(--clr-tan);
+}
+.tan-on-blue{
+  color: var(--clr-tan);
+  border-color: var(--clr-tan);
+  background-color: var(--clr-blue);
+}
+.blue-on-tan{
+  color: var(--clr-blue);
+  border-color: var(--clr-blue);
+  background-color: var(--clr-tan);
+}
+
+/* Accent colour pairs. For contrast a11y reasons,
+ * do not use these for text or meaningful foreground graphics like icons */
+.rust-on-black {
+  color: var(--clr-rust);
+  border-color: var(--clr-rust);
+  background-color: var(--clr-black);
+}
+.black-on-rust {
+  color: var(--clr-black);
+  border-color: var(--clr-black);
+  background-color: var(--clr-rust);
+}
+.tan-on-orange {
+  color: var(--clr-tan);
+  border-color: var(--clr-tan);
+  background-color: var(--clr-orange);
+}
+.orange-on-tan {
+  color: var(--clr-orange);
+  border-color: var(--clr-orange);
+  background-color: var(--clr-tan);
+}
+
 /* Font families */
 .ff-poppins { font-family: var(--ff-poppins); }
 .ff-poppins-medium { font-family: var(--ff-poppins-medium); }
