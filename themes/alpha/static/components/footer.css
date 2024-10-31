@@ -134,12 +134,12 @@
   }
 
   .copyright-wrapper {
-    margin-block-start: var(--space-xs);
-    margin-block-end: var(--space-xl);
+    margin-block: var(--space-xs);
   }
   .copyright {
     font-family: var(--ff-poppins-regular);
     font-size: var(--step-1);
   }
+  margin-block-end: var(--space-xl);
 }
 
