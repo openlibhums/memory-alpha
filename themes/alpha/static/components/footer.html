@@ -1,3 +1,7 @@
+{# The main product site footer #}
+
+{% from "components/laser_link.html" import laser_link %}
+
 <footer class="footer">
   <div class="circle-wrapper-top">
     <svg
@@ -19,13 +23,18 @@
           <input aria-describedby="signup-form-label" type="email" class="text-input" id="signup-form-email" placeholder="janeway@email.com">
       </div>
     </div>
-    <div class="social-media-links">
-      <ul class="pipe-separated-list all-caps" role="list">
-        <li><a class="laser-underline" target="_blank" href="https://www.facebook.com/OpenLibHums">Facebook</a></li>
-        <li><a class="laser-underline" target="_blank" href="https://bsky.app/profile/openlibhums.bsky.social">Bluesky</a></li>
-        <li><a class="laser-underline" target="_blank" href="https://github.com/openlibhums/janeway">GitHub</a></li>
-      </ul>
-    </div>
+    <ul class="pipe-separated-list all-caps" role="list">
+      <li>
+        {% call laser_link(href="https://bsky.app/profile/openlibhums.bsky.social") %}
+          Bluesky
+        {% endcall %}
+      </li>
+      <li>
+        {% call laser_link(href="https://github.com/openlibhums/janeway") %}
+          GitHub
+        {% endcall %}
+      </li>
+    </ul>
   </div>
   <div class="circle-wrapper-bottom">
     <svg
@@ -51,10 +60,16 @@
     </p>
   </div>
   <ul class="pipe-separated-list unstyle-list-small  all-caps" role="list">
-    <li><a class="laser-underline" target="_blank" href="">Site Map</a></li>
-    <li><a class="laser-underline" target="_blank" href="">Terms and Conditions</a></li>
-    <li><a class="laser-underline" target="_blank" href="">Privacy Policy</a></li>
-    <li><a class="laser-underline" target="_blank" href="https://github.com/yourusername">Cookie Policy</a></li>
+    <li>
+      {% call laser_link(href="/copyright/") %}
+        Copyright
+      {% endcall %}
+    </li>
+    <li>
+      {% call laser_link(href="/accessibility/") %}
+        Accessibility
+      {% endcall %}
+    </li>
   </ul>
   <div class="copyright-wrapper">
     <p class="copyright">
