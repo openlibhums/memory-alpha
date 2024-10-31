@@ -1,0 +1,15 @@
+{# A link that provides a laser underline on hover #}
+
+{% macro laser_link(href, target="", rel="") -%}
+  <a
+    href="{{ href }}"
+    {% if target %}
+      target="{{ target }}"
+    {% endif %}
+    {% if rel %}
+      rel="{{ rel }}"
+    {% endif %}
+    class="laser-link">
+    {{ caller() }}
+  </a>
+{%- endmacro %}
