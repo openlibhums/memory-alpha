@@ -134,7 +134,8 @@
   }
 
   .copyright-wrapper {
-    margin-block: var(--space-xs);
+    margin-block-start: var(--space-xs);
+    margin-block-end: var(--space-xl);
   }
   .copyright {
     font-family: var(--ff-poppins-regular);
