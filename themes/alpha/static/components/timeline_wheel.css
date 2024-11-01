@@ -1,0 +1,83 @@
+:root {
+  --angle: 120deg;
+}
+
+.timeline-wheel {
+  /* Some trigonometric functions below were adapted from
+   * https://web.dev/articles/css-trig-functions */
+
+  /* Initial value for browsers that don’t support @property */
+
+  .wheel {
+    --radius: 40vw;
+    --tracksize: 4px;
+    width: calc(var(--radius) * 2 + var(--tracksize));
+    height: auto;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border: var(--tracksize) solid var(--clr-tan);
+    margin: var(--space-xl) auto;
+    position: relative;
+  }
+  .point {
+    --apothem: 6rem;
+    --halfapothem: calc(var(--apothem) / 2);
+    border: none;
+    padding-inline: unset;
+    background: transparent;
+    width: var(--apothem);
+    height: var(--apothem);
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    position: absolute;
+    top: calc(50% - var(--halfapothem));
+    left: calc(50% - var(--halfapothem));
+    transform-origin: center;
+    transform: rotate(calc(90deg - var(--angle)));
+
+    /* Position around center of parent, by taking --angle into account */
+    translate:
+      /* Translation on X-axis */
+      calc(cos(var(--angle)) * calc(
+        var(--radius) + var(--halfapothem) - var(--tracksize) * 2)
+      )
+      /* Translation on Y-axis */
+      calc(sin(var(--angle) * -1) * calc(
+        var(--radius) + var(--halfapothem) - var(--tracksize) * 2)
+      )
+    ;
+  }
+  .point:hover {
+    border-inline: 2px solid var(--clr-tan);
+  }
+  .point-circle {
+    width: calc(var(--tracksize) * 4);
+    aspect-ratio: 1;
+    border-radius: 50%;
+
+    background: var(--clr-tan);
+  }
+  .displayed .point-circle {
+    background: var(--clr-tan);
+  }
+  .displayed.selected .point-circle {
+    background: var(--clr-rust);
+  }
+  .hidden {
+    display: none;
+  }
+  .point-label {
+    margin-block: var(--space-s);
+  }
+  .old-point-label {
+    top: calc(50% - (var(--tracksize) * 2));
+    translate:
+      calc(cos(var(--angle)) * calc(var(--radius) + 3rem)) /* Translation on X-axis */
+      calc(sin(var(--angle) * -1) * calc(var(--radius) + 3rem)) /* Translation on Y-axis */
+    ;
+  }
+}
