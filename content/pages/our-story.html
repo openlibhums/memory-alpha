@@ -52,6 +52,9 @@
       Meet the Crew
     {% endcall %}
   {% endcall %}
+  {% call page_section(bg="bg-blue", prose="", labelledby="heading-timeline") %}
+    {% include "components/timeline_wheel.html" %}
+  {% endcall %}
   {% call sr_only_h2(id="slide-gallery-h2") -%}
     Janeway Axioms
   {%- endcall %}

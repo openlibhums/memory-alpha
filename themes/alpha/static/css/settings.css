@@ -88,4 +88,9 @@
 
   /* Header height and scroll container offset for sticky nav */
   --header-height: 5.7rem;
+
+  /* Container max width and inline padding */
+  --container-max-width: 72rem;
+  --container-padding-small: 1rem;
+  --container-padding-large: 2rem;
 }
