@@ -1,8 +1,12 @@
 export function animateGeorge() {
 
-  // When page loads, play animations only if user is ok with motion
   const splash = document.querySelector('.george-space-splash');
   const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)');
+  if (!splash) {
+    return
+  }
+
+  // When page loads, play animations only if user is ok with motion
   if (!prefersReduced.matches) {
     splash.classList.toggle('running');
   }
