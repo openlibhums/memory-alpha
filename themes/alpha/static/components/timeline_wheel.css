@@ -1,32 +1,34 @@
-:root {
-  --angle: 120deg;
-}
-
 .timeline-wheel {
-  /* Some trigonometric functions below were adapted from
+  /* Credit: Some trigonometric patterns below were adapted from
    * https://web.dev/articles/css-trig-functions */
 
-  /* Initial value for browsers that don’t support @property */
+  --start-angle: 170deg;
+  --angle: var(--start-angle);
+  --increment: 20deg;
+  --tracksize: 4px;
+  --side: 96px;
+  --apothem: calc(var(--side) / 2);
+  --radius: min(40vw, 34rem);
+  --full-diameter: calc(var(--radius) * 2 + var(--tracksize));
 
   .wheel {
-    --radius: 40vw;
-    --tracksize: 4px;
-    width: calc(var(--radius) * 2 + var(--tracksize));
-    height: auto;
+    width: var(--full-diameter);
+    height: calc(var(--full-diameter) / 2);
     aspect-ratio: 1;
-    border-radius: 50%;
+    border-radius: var(--full-diameter) var(--full-diameter) 0 0;
     border: var(--tracksize) solid var(--clr-tan);
+    border-bottom: none;
     margin: var(--space-xl) auto;
     position: relative;
   }
   .point {
-    --apothem: 6rem;
-    --halfapothem: calc(var(--apothem) / 2);
+    --angle: calc(var(--start-angle) - (var(--i) * var(--increment)));
     border: none;
+    z-index: 1;
     padding-inline: unset;
     background: transparent;
-    width: var(--apothem);
-    height: var(--apothem);
+    width: var(--side);
+    height: var(--side);
     cursor: pointer;
     display: flex;
     flex-direction: column;
@@ -34,8 +36,8 @@
     justify-content: space-between;
 
     position: absolute;
-    top: calc(50% - var(--halfapothem));
-    left: calc(50% - var(--halfapothem));
+    top: calc(100% - var(--apothem));
+    left: calc(50% - var(--apothem));
     transform-origin: center;
     transform: rotate(calc(90deg - var(--angle)));
 
@@ -43,41 +45,65 @@
     translate:
       /* Translation on X-axis */
       calc(cos(var(--angle)) * calc(
-        var(--radius) + var(--halfapothem) - var(--tracksize) * 2)
+        var(--radius) + var(--apothem) - var(--tracksize) * 2)
       )
       /* Translation on Y-axis */
       calc(sin(var(--angle) * -1) * calc(
-        var(--radius) + var(--halfapothem) - var(--tracksize) * 2)
+        var(--radius) + var(--apothem) - var(--tracksize) * 2)
       )
     ;
   }
-  .point:hover {
-    border-inline: 2px solid var(--clr-tan);
-  }
   .point-circle {
-    width: calc(var(--tracksize) * 4);
+    width: calc(var(--tracksize) * 6);
     aspect-ratio: 1;
     border-radius: 50%;
-
+    z-index: 1;
+  }
+  :not(.selected) .point-circle {
     background: var(--clr-tan);
   }
-  .displayed .point-circle {
-    background: var(--clr-tan);
-  }
-  .displayed.selected .point-circle {
+  .point:hover .point-circle,
+  .point.selected .point-circle {
     background: var(--clr-rust);
   }
-  .hidden {
-    display: none;
+  .point:hover::after,
+  .point.selected::after {
+    content: "";
+    height: 8rem;
+    width: calc(var(--tracksize) / 2);
+    background-color: var(--clr-rust);
+    position: absolute;
+    top: 100%;
+    left: calc(50% - var(--tracksize) / 4);
+    z-index: 1;
   }
   .point-label {
-    margin-block: var(--space-s);
+    margin-block-start: var(--space-m);
+    margin-block-end: var(--space-xs);
   }
-  .old-point-label {
-    top: calc(50% - (var(--tracksize) * 2));
-    translate:
-      calc(cos(var(--angle)) * calc(var(--radius) + 3rem)) /* Translation on X-axis */
-      calc(sin(var(--angle) * -1) * calc(var(--radius) + 3rem)) /* Translation on Y-axis */
-    ;
+  :not(.selected) .point-label {
+    opacity: 70%;
+  }
+  .point:hover .point-label,
+  .selected .point-label {
+    opacity: 100%;
+  }
+  .point-text {
+    margin-block-start: 25%;
+    margin-inline: auto;
+    background: var(--clr-blue);
+    padding: var(--space-s);
+    max-width: min(40rem, 70%);
+    z-index: 2;
+    position: relative;
+  }
+  .point-text p {
+    font-size: var(--step-4);
+  }
+  .selected + .point-text {
+    display: block;
+  }
+  :not(.selected) + .point-text {
+    display: none;
   }
 }
