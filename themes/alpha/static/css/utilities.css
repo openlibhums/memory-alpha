@@ -1,12 +1,12 @@
 /* Page container to set left and right boundaries */
 .container {
   margin-inline: auto;
-  max-width: 72rem;
+  max-width: var(--container-max-width);
   @media (width <= 50rem) {
-    padding-inline: 1rem;
+    padding-inline: var(--container-padding-small);
   }
   @media (width > 50rem) {
-    padding-inline: 2rem;
+    padding-inline: var(--container-padding-large);
   }
 }
 

@@ -6,6 +6,7 @@ export default function timelineWheel() {
         otherPoint.classList.toggle('selected', false);
       }
       selectedPoint.classList.toggle('selected', true);
+      selectedPoint.nextElementSibling.focus();
     });
   }
 }

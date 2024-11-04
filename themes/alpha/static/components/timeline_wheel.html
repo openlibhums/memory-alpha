@@ -1,27 +1,31 @@
 {# A component to tell a story using a timeline that looks like a wheel #}
 
 {% macro _point(year="1234", i="0", state="displayed") %}
-  <section
-    aria-label="Timeline section for year {{ year }}">
+  <div class="point-wrapper">
     <button
       data-point
       type="button"
+      aria-label="Scroll to events of {{ year }}"
       class="point fs-4 ff-space-mono-regular text-white {{ state }}"
       style="--i: {{ i }};">
-      <div
-        aria-label="Show timeline section for year {{ year }}"
+      <span
+        aria-hidden="true"
         class="point-label">
         {{ year }}
-      </div>
+      </span>
       <div class="point-circle"></div>
     </button>
-    <div class="point-text">
+    <section
+      aria-labelledby="heading-{{ year }}"
+      class="point-text prose flow">
+      <h3 id="heading-{{ year }}" class="sr-only">{{ year }}</h3>
       {{ caller() }}
-    </div>
-  </section>
+    </section>
+  </div>
 {% endmacro %}
 
 <div class="timeline-wheel">
+  <h2 id="heading-timeline" class="sr-only">Timeline</h2>
   <div class="wheel">
     {% call _point(year="2017", i="0", state="selected") %}
       <p>{{ lipsum(n=1, min=20, max=30) }}</p>
