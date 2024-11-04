@@ -271,7 +271,7 @@
     }
   }
   .tiny-circle.select-slide-1 {
-    animation: 6s 1s TanToTransparent infinite alternate;
+    animation: 6s 1s tanToTransparent infinite alternate;
   }
   .tiny-circle.select-slide-2 {
     animation: 6s 1s transparentToTan infinite alternate;
@@ -302,17 +302,19 @@
 }
 
 @keyframes fadeText {
-  0% { opacity: 1; transform: translateY(0px); }
-  40% { opacity: 1; transform: translateY(0px); }
-  50% { opacity: 0; transform: translateY(0px); }
-  100% { opacity: 0; transform: translateY(100%); }
+  0% { opacity: 1; transform: translateX(0px); }
+  40% { opacity: 1; transform: translateX(0px); }
+  50% { opacity: 0; transform: translateX(0px); }
+  51% { opacity: 0; transform: translateX(100%); }
+  100% { opacity: 0; transform: translateX(100%); }
 }
 
 @keyframes materializeText {
-  0% { opacity: 0; transform: translateY(100%); }
-  50% { opacity: 0; transform: translateY(0px); }
-  60% { opacity: 1; transform: translateY(0px); }
-  100% { opacity: 1; transform: translateY(0px); }
+  0% { opacity: 0; transform: translateX(100%); }
+  49% { opacity: 0; transform: translateX(100%); }
+  50% { opacity: 0; transform: translateX(0px); }
+  60% { opacity: 1; transform: translateX(0px); }
+  100% { opacity: 1; transform: translateX(0px); }
 }
 
 @keyframes topMoveUp {
@@ -336,7 +338,7 @@
   100% { outline-color: var(--clr-tan); }
 }
 
-@keyframes TanToTransparent {
+@keyframes tanToTransparent {
   0% { outline-color: var(--clr-tan); }
   40% { outline-color: var(--clr-tan); }
   60% { outline-color: transparent; }
