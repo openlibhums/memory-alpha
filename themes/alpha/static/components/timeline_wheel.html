@@ -1,49 +1,51 @@
 {# A component to tell a story using a timeline that looks like a wheel #}
 
-{% macro _timeline_point(starting_angle="0", state="hidden") %}
-  <button
-    data-point
-    type="button"
-    class="point fs-4 ff-space-mono-regular text-white {{ state }}"
-    style="--angle: {{ starting_angle }}deg;">
-    <div
-      data-label
-      aria-label="Show timeline section for {{ caller() }}"
-      class="point-label">
+{% macro _point(year="1234", i="0", state="displayed") %}
+  <section
+    aria-label="Timeline section for year {{ year }}">
+    <button
+      data-point
+      type="button"
+      class="point fs-4 ff-space-mono-regular text-white {{ state }}"
+      style="--i: {{ i }};">
+      <div
+        aria-label="Show timeline section for year {{ year }}"
+        class="point-label">
+        {{ year }}
+      </div>
+      <div class="point-circle"></div>
+    </button>
+    <div class="point-text">
       {{ caller() }}
     </div>
-    <div
-      data-circle
-      class="point-circle">
-    </div>
-  </button>
+  </section>
 {% endmacro %}
 
 <div class="timeline-wheel">
-  <div data-wheel class="wheel">
-    {% call _timeline_point(starting_angle="150", state="displayed") %}
-      2017
+  <div class="wheel">
+    {% call _point(year="2017", i="0", state="selected") %}
+      <p>{{ lipsum(n=1, min=20, max=30) }}</p>
     {% endcall %}
-    {% call _timeline_point(starting_angle="130", state="displayed") %}
-      2018
+    {% call _point(year="2018", i="1") %}
+      <p>{{ lipsum(n=1, min=20, max=30) }}</p>
     {% endcall %}
-    {% call _timeline_point(starting_angle="110", state="displayed") %}
-      2019
+    {% call _point(year="2019", i="2") %}
+      <p>{{ lipsum(n=1, min=20, max=30) }}</p>
     {% endcall %}
-    {% call _timeline_point(starting_angle="090", state="displayed selected") %}
-      2020
+    {% call _point(year="2020", i="3") %}
+      <p>{{ lipsum(n=1, min=20, max=30) }}</p>
     {% endcall %}
-    {% call _timeline_point(starting_angle="070", state="displayed") %}
-      2021
+    {% call _point(year="2021", i="4") %}
+      <p>{{ lipsum(n=1, min=20, max=30) }}</p>
     {% endcall %}
-    {% call _timeline_point(starting_angle="050", state="displayed") %}
-      2022
+    {% call _point(year="2022", i="5") %}
+      <p>{{ lipsum(n=1, min=20, max=30) }}</p>
     {% endcall %}
-    {% call _timeline_point(starting_angle="030", state="displayed") %}
-      2023
+    {% call _point(year="2023", i="6") %}
+      <p>{{ lipsum(n=1, min=20, max=30) }}</p>
     {% endcall %}
-    {% call _timeline_point(starting_angle="010", state="displayed") %}
-      2024
+    {% call _point(year="2024", i="7") %}
+      <p>{{ lipsum(n=1, min=20, max=30) }}</p>
     {% endcall %}
   </div>
 </div>
