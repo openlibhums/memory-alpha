@@ -1,0 +1,11 @@
+{# Style a list of links with small caps and a pipe separator
+
+layout - str: 'wide' displays content in a wrapping row on small screens
+         str: 'narrow' displays content in a column on small screens
+#}
+
+{% macro link_list(layout='narrow') -%}
+  <ul class="link-list {{ layout }} uppercase" role="list">
+    {{ caller() }}
+  </ul>
+{%- endmacro %}

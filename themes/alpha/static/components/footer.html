@@ -1,6 +1,7 @@
 {# The main product site footer #}
 
 {% from "components/laser_link.html" import laser_link %}
+{% from "components/link_list.html" import link_list %}
 
 <footer class="footer">
   <div class="circle-wrapper-top">
@@ -23,7 +24,7 @@
           <input aria-describedby="signup-form-label" type="email" class="text-input" id="signup-form-email" placeholder="janeway@email.com">
       </div>
     </div>
-    <ul class="pipe-separated-list all-caps" role="list">
+    {% call link_list(layout='wide') %}
       <li>
         {% call laser_link(href="https://bsky.app/profile/openlibhums.bsky.social") %}
           Bluesky
@@ -34,7 +35,7 @@
           GitHub
         {% endcall %}
       </li>
-    </ul>
+    {% endcall %}
   </div>
   <div class="circle-wrapper-bottom">
     <svg
@@ -59,7 +60,7 @@
       </span>
     </div>
   </div>
-  <ul class="pipe-separated-list unstyle-list-small  all-caps" role="list">
+  {% call link_list(layout='narrow') %}
     <li>
       {% call laser_link(href="/copyright/") %}
         Copyright
@@ -70,7 +71,7 @@
         Accessibility
       {% endcall %}
     </li>
-  </ul>
+  {% endcall %}
   <div class="copyright-wrapper">
     <p class="copyright">
         © Birkbeck, University of London

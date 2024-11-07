@@ -81,36 +81,6 @@
         border-bottom-color: #00d2ff;
         transform: scale(1.05);
     }
-
-  }
-
-  .all-caps {
-    text-transform: uppercase;
-  }
-  ul.pipe-separated-list {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    font-family: var(--ff-poppins-bold);
-    column-gap: var(--space-s);
-    row-gap: var(--space-xs);
-  }
-  @media(width > 50rem) {
-    ul.pipe-separated-list li {
-      display: flex;
-      column-gap: var(--space-s);
-    }
-    ul.pipe-separated-list li:not(:last-child)::after {
-      content: "|";
-    }
-  }
-  ul.pipe-separated-list li a {
-    text-decoration: none;
-  }
-  @media(width < 50rem) {
-    ul.unstyle-list-small {
-      flex-direction: column;
-    }
   }
 
   .signature {
