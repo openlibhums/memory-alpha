@@ -3,6 +3,9 @@
 {% from "components/page_section_group.html" import page_section_group %}
 {% from "components/button.html" import button %}
 {% from "components/page_section_header.html" import page_section_header_wrapper, page_section_header, page_section_intro_text %}
+{% from "components/slide_gallery.html" import slide with context %}
+{% from "components/slide_gallery.html" import slide_gallery with context %}
+{% from "components/slide_gallery.html" import slide_heading %}
 
 <head>
   <title>Our Story</title>
@@ -12,7 +15,6 @@
   {% call page_h1() -%}
     Our Story
   {%- endcall %}
-
   {% call page_section(labelledby="how-we-came-into-being", bg="bg-tan", prose="") %}
 
     {% call page_section_header_wrapper() %}
@@ -52,5 +54,38 @@
       Meet the Crew
     {% endcall %}
   {% endcall %}
-
+  {% call page_section(bg="bg-blue", label="Janeway Axioms", layout="layout-full-small", prose="") %}
+    {% call slide_gallery(num_slides=5) -%}
+      {% call slide(num=1, label="Axiom") -%}
+        {% call slide_heading() -%}
+          {{ lipsum(n=1, html=False, min=3, max=5) }}
+        {%- endcall %}
+        {{ lipsum(n=1, min=12, max=20) }}
+      {%- endcall %}
+      {% call slide(num=2, label="Axiom") -%}
+        {% call slide_heading() -%}
+          {{ lipsum(n=1, html=False, min=3, max=5) }}
+        {%- endcall %}
+        {{ lipsum(n=1, min=12, max=20) }}
+      {%- endcall %}
+      {% call slide(num=3, label="Axiom") -%}
+        {% call slide_heading() -%}
+          {{ lipsum(n=1, html=False, min=3, max=5) }}
+        {%- endcall %}
+        {{ lipsum(n=1, min=12, max=20) }}
+      {%- endcall %}
+      {% call slide(num=4, label="Axiom") -%}
+        {% call slide_heading() -%}
+          {{ lipsum(n=1, html=False, min=3, max=5) }}
+        {%- endcall %}
+        {{ lipsum(n=1, min=12, max=20) }}
+      {%- endcall %}
+      {% call slide(num=5, label="Axiom") -%}
+        {% call slide_heading() -%}
+          {{ lipsum(n=1, html=False, min=3, max=5) }}
+        {%- endcall %}
+        {{ lipsum(n=1, min=12, max=20) }}
+      {%- endcall %}
+    {%- endcall %}
+  {%- endcall %}
 </body>

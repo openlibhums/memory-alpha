@@ -1,0 +1,95 @@
+.slide-gallery {
+
+  position: relative;
+  max-width: 40rem;
+  margin: auto;
+
+  .scroll-container {
+    -webkit-overflow-scrolling: touch;
+    scroll-snap-type: x mandatory;
+    overflow-x: auto;
+  }
+
+  .slide-container {
+    display: flex;
+  }
+
+  .slide {
+    padding-block: var(--frame-padding, 0rem);
+    flex: 0 0 auto;
+    scroll-snap-align: start;
+    max-width: 100%;
+    display: grid;
+    @media(width <= 50rem) {
+      grid-template-columns: var(--space-xl) auto var(--space-xl);
+    }
+    @media(width > 50rem) {
+      grid-template-columns: var(--space-3xl) auto var(--space-3xl);
+    }
+  }
+  .previous-slide,
+  .next-slide {
+    display: flex;
+    place-content: center;
+  }
+
+  .previous-slide svg,
+  .next-slide svg {
+    color: var(--clr-tan);
+    margin-inline: var(--space-xs);
+    opacity: 50%;
+    max-width: var(--step-5);
+  }
+  .previous-slide:hover svg,
+  .next-slide:hover svg {
+    opacity: 100%;
+  }
+  .slide:not(:first-child) .no-previous-slide,
+  .slide:not(:last-child) .no-next-slide {
+    display: none;
+  }
+  .slide:first-child .previous-slide,
+  .slide:last-child .next-slide {
+    display: none;
+  }
+  .label-wrapper {
+    display: flex;
+    gap: 1rem;
+    color: var(--clr-black);
+  }
+  .label {
+    background-color: var(--clr-rust);
+    padding-block: 0.5rem;
+    padding-inline: var(--space-xs);
+    font-size: var(--step-2);
+    border-radius: 5rem;
+  }
+  .slide-content {
+    height: 100%;
+  }
+  .slide-nav {
+    height: var(--frame-padding);
+    padding-block-end: var(--frame-padding);
+  }
+  .slide-nav-tablist {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: calc(var(--frame-padding) - var(--space-xs));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .nav-link .circle {
+    width: 1.3rem;
+    height: 1.3rem;
+    margin: 1rem;
+    background: var(--clr-tan);
+    border-radius: 50%;
+    opacity: 50%;
+  }
+  .nav-link:hover .circle,
+  .nav-link.nav-selected .circle {
+    opacity: 100%;
+  }
+}
