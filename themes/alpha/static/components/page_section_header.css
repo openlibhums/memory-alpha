@@ -1,9 +1,9 @@
 .page-section-header {
-	h2 {
-		max-width: 15ch;
+  h2 {
+    max-width: 15ch;
     padding-block-end: var(--space-l);
-	}
-	p {
-		max-width: 40ch;
-	}
+  }
+  p {
+    max-width: 40ch;
+  }
 }
