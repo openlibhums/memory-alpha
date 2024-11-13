@@ -21,6 +21,7 @@
 @import "../components/page_h1.css" layer(components);
 @import "../components/page_section.css" layer(components);
 @import "../components/page_section_group.css" layer(components);
+@import "../components/page_section_header.css" layer(components);
 @import "../components/sticky_header.css" layer(components);
 
 
