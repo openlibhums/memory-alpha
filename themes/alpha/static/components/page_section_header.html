@@ -1,0 +1,39 @@
+{# 
+  This component provides a set of macros for rendering section headers and introductory text 
+  with consistent brand styling across product site pages. It includes:
+
+  - `page_section_header`: An header element with brand styling
+  - `page_section_intro_text`: A paragraph element styled for introductory text within a section
+  - `page_section_header_wrapper`: A wrapper div that combines the section header and intro text into a cohesive block
+
+  Usage Example:
+
+  {% call page_section_header_wrapper() %}
+    {% call page_section_header(id="how-we-came-into-being") %}
+      How we came into being
+    {% endcall %}
+    {% call page_section_intro_text() %}
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu quam non nunc dignissim placerat.
+    {% endcall %}
+  {% endcall %}
+
+  This structure allows for easy reuse and ensures a consistent look and feel across sections on product site pages.
+#}
+
+{% macro page_section_header(id=None) -%}
+  <h2 {% if id %}id="{{ id }}"{% endif %} class="ff-space-mono-regular fs-6">
+    {{ caller() }}
+  </h2>
+{%- endmacro %}
+
+{% macro page_section_intro_text() -%}
+  <p class="ff-space-mono-regular fs-5">
+    {{ caller() }}
+  </p>
+{%- endmacro %}
+
+{% macro page_section_header_wrapper() -%}
+  <div class="page-section-header">
+    {{ caller() }}
+  </div>
+{%- endmacro %}
