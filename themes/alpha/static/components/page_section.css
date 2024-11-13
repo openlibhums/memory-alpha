@@ -28,21 +28,28 @@
   }
 
   /* Content should have padding above and below */
-  --padding: var(--space-xl);
+  --frame-padding: var(--space-xl);
   .frame {
     position: relative;
     z-index: 10;
-    padding-block: var(--padding);
+  }
+  &:not(.layout-full-small) .frame {
+    padding-block: var(--frame-padding);
   }
 
   /* Content should have same padding to the left or right
    * when it's half-width on wide screens */
   @media (orientation: landscape) {
     &.layout-left .frame {
-      padding-inline-end: var(--padding);
+      padding-inline-end: var(--frame-padding);
     }
     &.layout-right .frame {
-      padding-inline-start: var(--padding);
+      padding-inline-start: var(--frame-padding);
+    }
+  }
+  &.layout-full-small {
+    @media (width <= 50rem) {
+      margin-inline: calc(0rem - 50vw + 50%);
     }
   }
 }
