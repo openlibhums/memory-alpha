@@ -1,7 +1,7 @@
 .slide-gallery {
 
   position: relative;
-  max-width: 40rem;
+  max-width: 48rem;
   margin: auto;
 
   .scroll-container {
@@ -17,6 +17,7 @@
   .slide {
     padding-block: var(--frame-padding, 0rem);
     flex: 0 0 auto;
+    padding-inline: var(--space-xs);
     scroll-snap-align: start;
     max-width: 100%;
     display: grid;
