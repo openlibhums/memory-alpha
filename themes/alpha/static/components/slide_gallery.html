@@ -68,9 +68,9 @@
       <div class="slide-nav">
         <div class="slide-nav-tablist" role="tablist" aria-label="Gallery tabs">
           {% for num in range(1, num_slides + 1) %}
-            {% set aria_controls='#' ~ id_prefix ~ '-slide-' ~ num %}
+            {% set aria_controls = id_prefix ~ '-slide-' ~ num %}
             <a
-              href="{{ aria_controls }}"
+              href="#{{ aria_controls }}"
               class="nav-link"
               role="tab"
               aria-selected="false"
