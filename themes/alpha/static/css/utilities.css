@@ -2,10 +2,12 @@
 .container {
   margin-inline: auto;
   max-width: 72rem;
-  @media (width < 40rem) {
+  @media (width <= 50rem) {
     padding-inline: 1rem;
   }
-  padding-inline: 2rem;
+  @media (width > 50rem) {
+    padding-inline: 2rem;
+  }
 }
 
 /* Add spacing flexibly between elements */
@@ -19,7 +21,7 @@
   max-width: 40rem;
 }
 
-/* Colors */
+/* Colours */
 .text-black { color: var(--clr-black); }
 .text-white { color: var(--clr-white); }
 .text-tan { color: var(--clr-tan); }
