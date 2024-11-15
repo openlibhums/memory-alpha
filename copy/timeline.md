@@ -31,7 +31,7 @@
 - Berlin-based academic publishing giant De Gruyter acquires Ubiquity Press.
 
 ### 2023
-- The OLH team grows to five full-time members with the addition of Steph Driver as a Publishing Technologies Developer and Siobhan Haime as a Publishing Technologies Librarian. They also host the first Janeway Symposium at Birkbeck, University of London, uniting publishing partners, software engineers, and academic editors.
+- The OLH tech team grows to five full-time members with the addition of Steph Driver as a Publishing Technologies Developer and Siobhan Haime as a Publishing Technologies Librarian. They also host the first Janeway Symposium at Birkbeck, University of London, uniting publishing partners, software engineers, and academic editors.
 
 ### 2024
 - OLH establishes a working group to develop a Publishing Technology Board and collaborates with the California Digital Library on a user experience (UX) project.
