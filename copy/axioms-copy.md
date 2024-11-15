@@ -1,6 +1,6 @@
 
 ## Axiom 1 never accept paywalls
-Commit to the open-access nature of the platform. Publicly promise never to write paywall features into Janeway.
+Remain committed to the open-access nature of the platform. Publicly promise never to write paywall features into Janeway.
 
 ## Axiom 2 changes must be open
 Develop Janeway in the open (copyleft license AGPL v3), allowing anyone to comment on, make feature suggestions for, or contribute to the codebase.
