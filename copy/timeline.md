@@ -19,7 +19,7 @@
 - Mauro Sanchez joins the OLH tech team as Senior Publishing Technologies Developer, bringing expertise in publishing and technical architecture.
 
 ### 2019
-- OLH migrates its journals from Ubiquity Press to Janeway. The OLH tech team rapidly develops new features to meet the needs of a growing community of publishers using Janeway. They begin a hosted service, securing OLH’s long-term sustainability, supplemented by ongoing investments from library members.
+- OLH migrates its journals from Ubiquity Press to Janeway. The OLH tech team rapidly develops new features to meet the needs of a growing community of publishers using Janeway. They begin a hosted service, which helps secure OLH’s long-term sustainability.
 
 ### 2020
 - F1000 Research, an open research publishing platform, is acquired by Taylor & Francis – part of Informa plc, a British-based media group valued at over £3 billion. This commercialises a previously community-owned infrastructure.
