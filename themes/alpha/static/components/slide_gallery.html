@@ -44,18 +44,32 @@
                      must match each child slide's id_prefix
   #}
   <div class="slide-gallery" data-slide-gallery>
-    <div class="scroll-container" tabindex="-1" data-scroll-container>
-      <div class="slide-container">
-        {{ caller() }}
+    <div class="arrow-container">
+      <div class="previous-slide">
+        <button
+          aria-label="Scroll to previous gallery slide"
+          class="previous-slide-button"
+          data-previous-button>
+          {% include "svg/arrow-slender-left.svg" %}
+        </button>
       </div>
-    </div>
-    <div class="previous-slide">
-      <button
-        aria-label="Scroll to previous gallery slide"
-        class="previous-slide-button"
-        data-previous-button>
-        {% include "svg/arrow-slender-left.svg" %}
-      </button>
+      <div
+        class="scroll-container"
+        data-scroll-container
+        tabindex="0"
+        aria-label="Slide gallery">
+        <div class="slide-container">
+          {{ caller() }}
+        </div>
+      </div>
+      <div class="next-slide">
+        <button
+          aria-label="Scroll to next gallery slide"
+          class="next-slide-button"
+          data-next-button>
+          {% include "svg/arrow-slender-right.svg" %}
+        </button>
+      </div>
     </div>
     <nav class="slide-nav" aria-label="Gallery navigation">
       <ul class="slide-nav-tablist" role="list">
@@ -74,13 +88,5 @@
         {% endfor %}
       </ul>
     </nav>
-    <div class="next-slide">
-      <button
-        aria-label="Scroll to next gallery slide"
-        class="next-slide-button"
-        data-next-button>
-        {% include "svg/arrow-slender-right.svg" %}
-      </button>
-    </div>
   </div>
 {%- endmacro %}
