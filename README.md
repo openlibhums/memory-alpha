@@ -47,7 +47,10 @@ Our Makefile has two targets for working within a docker container:
 
 ### Testing
 
-Run tests with `pytest`.
+Run automatic tests with `pytest`.
+
+For manual testing, note you can serve Pelican to other devices like a mobile phone
+on your secure LAN with `pelican --autoreload --listen --bind 0.0.0.0`.
 
 ### Janeway site pages
 
