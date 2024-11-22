@@ -31,7 +31,9 @@ function setSelection(targetId) {
 function setScrollDestination(button) {
   button.addEventListener('click', () => {
     const target = document.getElementById(button.getAttribute('data-target'));
-    target?.scrollIntoView();
+    target?.scrollIntoView({
+      block: 'nearest',
+    });
   });
 }
 
