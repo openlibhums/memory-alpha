@@ -65,22 +65,22 @@
       <div class="slide-container">
         {{ caller() }}
       </div>
-      <div class="slide-nav">
-        <div class="slide-nav-tablist" role="tablist" aria-label="Gallery tabs">
-          {% for num in range(1, num_slides + 1) %}
-            {% set aria_controls = id_prefix ~ '-slide-' ~ num %}
-            <a
-              href="#{{ aria_controls }}"
-              class="nav-link"
-              role="tab"
-              aria-selected="false"
-              aria-controls="{{ aria_controls }}"
-              aria-label="Slide {{ num }}"
-              data-nav-link>
-              <div class="circle"></div>
-            </a>
-          {% endfor %}
-        </div>
+    </div>
+    <div class="slide-nav">
+      <div class="slide-nav-tablist" role="tablist" aria-label="Gallery tabs">
+        {% for num in range(1, num_slides + 1) %}
+          {% set aria_controls = id_prefix ~ '-slide-' ~ num %}
+          <a
+            href="#{{ aria_controls }}"
+            class="nav-link"
+            role="tab"
+            aria-selected="false"
+            aria-controls="{{ aria_controls }}"
+            aria-label="Slide {{ num }}"
+            data-nav-link>
+            <div class="circle"></div>
+          </a>
+        {% endfor %}
       </div>
     </div>
   </div>
