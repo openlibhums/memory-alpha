@@ -4,6 +4,17 @@
   max-width: 48rem;
   margin: auto;
 
+  button {
+    background: inherit;
+    border: none;
+    padding-inline: 0;
+    cursor: pointer;
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+
   .scroll-container {
     -webkit-overflow-scrolling: touch;
     scroll-snap-type: x mandatory;
@@ -29,22 +40,48 @@
     padding-inline: var(--space-xs);
     scroll-snap-align: start;
     max-width: 100%;
-    display: grid;
     @media(width <= 50rem) {
-      grid-template-columns: var(--space-xl) auto var(--space-xl);
+      padding-inline: var(--space-xl);
     }
     @media(width > 50rem) {
-      grid-template-columns: var(--space-3xl) auto var(--space-3xl);
+      padding-inline: var(--space-3xl);
     }
   }
   .previous-slide,
   .next-slide {
+    background-color: var(--clr-blue);
+    @media(width <= 50rem) {
+      display: none;
+    }
+    @media(width > 50rem) {
+      position: absolute;
+    }
+    top: 0;
+    bottom: 0;
+    width: var(--space-3xl);
+    height: 100%;
+  }
+  .previous-slide {
+    left: 0;
+  }
+  .next-slide {
+    right: 0;
+  }
+
+  .previous-slide-button,
+  .next-slide-button {
+    height: 100%;
+    width: 100%;
     display: flex;
     place-content: center;
   }
+  .previous-slide-button.hidden,
+  .next-slide-button.hidden {
+    display: none;
+  }
 
-  .previous-slide svg,
-  .next-slide svg {
+  .previous-slide-button svg,
+  .next-slide-button svg {
     color: var(--clr-tan);
     margin-inline: var(--space-xs);
     opacity: 50%;
@@ -86,7 +123,7 @@
     justify-content: center;
     align-items: center;
   }
-  .nav-link .circle {
+  .tablist-button .circle {
     width: 1.3rem;
     height: 1.3rem;
     margin: var(--circle-padding);
@@ -94,8 +131,8 @@
     border-radius: 50%;
     opacity: 50%;
   }
-  .nav-link:hover .circle,
-  .nav-link.nav-selected .circle {
+  .tablist-button:hover .circle,
+  .tablist-button.selected .circle {
     opacity: 100%;
   }
 }
