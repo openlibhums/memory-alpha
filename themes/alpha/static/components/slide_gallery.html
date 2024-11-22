@@ -18,16 +18,7 @@
   <div
     id="{{ id_prefix }}-slide-{{ num }}"
     class="slide"
-    role="tabpanel"
     data-current-slide>
-    <a
-      href="#{{ id_prefix }}-slide-{{ num - 1 }}"
-      aria-label="Scroll to item {{ num - 1 }}"
-      class="previous-slide"
-      data-previous-slide>
-      {% include "svg/arrow-slender-left.svg" %}
-    </a>
-    <div class="no-previous-slide"></div>
     <div class="slide-content prose flow">
       <div class="label-wrapper">
         <p class="label uppercase ff-space-mono-bold">
@@ -41,14 +32,6 @@
         {{ caller() }}
       </div>
     </div>
-    <a
-      href="#{{ id_prefix }}-slide-{{ num + 1 }}"
-      aria-label="Scroll to item {{ num + 1 }}"
-      class="next-slide"
-      data-next-slide>
-      {% include "svg/arrow-slender-right.svg" %}
-    </a>
-    <div class="no-next-slide"></div>
   </div>
 {%- endmacro %}
 
@@ -60,28 +43,45 @@
                      multiple slide galleries on the same page;
                      must match each child slide's id_prefix
   #}
-  <div class="slide-gallery" data-slide-gallery>
+  <section class="slide-gallery" data-slide-gallery aria-label="Slide gallery">
+    <div class="previous-slide">
+      <button
+        aria-label="Scroll to previous gallery slide"
+        class="previous-slide-button"
+        data-previous-button>
+        {% include "svg/arrow-slender-left.svg" %}
+      </button>
+    </div>
     <div class="scroll-container" data-scroll-container>
       <div class="slide-container">
         {{ caller() }}
       </div>
     </div>
-    <div class="slide-nav">
-      <div class="slide-nav-tablist" role="tablist" aria-label="Gallery tabs">
+    <div class="next-slide">
+      <button
+        aria-label="Scroll to next gallery slide"
+        class="next-slide-button"
+        data-next-button>
+        {% include "svg/arrow-slender-right.svg" %}
+      </button>
+    </div>
+    <nav class="slide-nav" aria-label="Gallery navigation">
+      <ul class="slide-nav-tablist" role="list">
         {% for num in range(1, num_slides + 1) %}
           {% set aria_controls = id_prefix ~ '-slide-' ~ num %}
-          <a
-            href="#{{ aria_controls }}"
-            class="nav-link"
-            role="tab"
-            aria-selected="false"
-            aria-controls="{{ aria_controls }}"
-            aria-label="Slide {{ num }}"
-            data-nav-link>
-            <div class="circle"></div>
-          </a>
+          <li>
+            <button
+              class="tablist-button"
+              aria-selected="false"
+              aria-controls="{{ aria_controls }}"
+              data-target="{{ aria_controls }}"
+              aria-label="Scroll to gallery slide {{ num }}"
+              data-tablist-button>
+              <div class="circle"></div>
+            </button>
+          </li>
         {% endfor %}
-      </div>
+      </nav>
     </div>
-  </div>
+  </section>
 {%- endmacro %}
