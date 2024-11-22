@@ -7,7 +7,15 @@
   .scroll-container {
     -webkit-overflow-scrolling: touch;
     scroll-snap-type: x mandatory;
-    overflow-x: auto;
+    overflow-x: scroll;
+  }
+
+  /* Hide the scrollbar since we have a tab menu */
+  .scroll-container {
+    scrollbar-width: none; /* Chrome, Edge, Firefox */
+  }
+  .scroll-container::-webkit-scrollbar {
+    display: none;
   }
 
   .slide-container {
@@ -15,7 +23,8 @@
   }
 
   .slide {
-    padding-block: var(--frame-padding, 0rem);
+    padding-top: var(--frame-padding);
+    padding-bottom: var(--space-xs);
     flex: 0 0 auto;
     padding-inline: var(--space-xs);
     scroll-snap-align: start;
@@ -68,15 +77,11 @@
   .slide-content {
     height: 100%;
   }
+  --circle-padding: var(--space-s);
   .slide-nav {
-    height: var(--frame-padding);
-    padding-block-end: var(--frame-padding);
+    padding-bottom: calc(var(--frame-padding) - var(--circle-padding));
   }
   .slide-nav-tablist {
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: calc(var(--frame-padding) - var(--space-xs));
     display: flex;
     justify-content: center;
     align-items: center;
@@ -84,7 +89,7 @@
   .nav-link .circle {
     width: 1.3rem;
     height: 1.3rem;
-    margin: 1rem;
+    margin: var(--circle-padding);
     background: var(--clr-tan);
     border-radius: 50%;
     opacity: 50%;
