@@ -14,10 +14,8 @@ function setSelection(targetId) {
   const tablistButtons = gallery?.querySelectorAll('[data-tablist-button]');
   for (const otherButton of Array.from(tablistButtons)) {
     otherButton.classList.toggle('selected', false);
-    otherButton.setAttribute('aria-selected', "false");
   }
   selectableButton?.classList.toggle('selected', true);
-  selectableButton?.setAttribute('aria-selected', "true");
 
   const previousNum = (Number(targetId.slice(-1)) - 1);
   const previousTargetId = targetId.slice(0, -1) + previousNum;
