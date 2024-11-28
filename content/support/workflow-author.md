@@ -1,4 +1,4 @@
-Title: Workflow Guide Author
+Title: Author Workflow Guide 
 
 # Author guide
 This guide will walk you through the Janeway journal submission system.
@@ -68,7 +68,7 @@ Metadata that may be requested on this page:
     - This is usually disabled if the journal only accepts one licence type.
 - Keywords
     - You will be able to add keywords to your article to help people discover it. To add keywords, type the word or phrase into the textbox and press ‘enter’ to add it. If you wish to delete a keyword, click the ‘X’ icon next to it within the textbox. Keywords can include spaces and special characters.
-![“ “](../support/images/workflow/author-keywords.png)
+![""](../support/images/workflow/author-keywords.png)
 
 Individual journals can add more fields to this page. These will be displayed under Additional Fields.
     
@@ -109,14 +109,14 @@ You can only add one Manuscript file but can add multiple Figures and Data files
 ### Funding
 You will then be asked to supply information about any relevant funding. You can search for your funding source using our ‘Search for Funder’ function or add them manually. When adding a funder, you will be given the option to provide an optional Funder DOI and Grant ID.
 
-![“ “](../support/images/workflow/author-funding.png)
-![“ “](../support/images/workflow/author-add-funder.png)
+![""](../support/images/workflow/author-funding.png)
+![""](../support/images/workflow/author-add-funder.png)
 
 If you do not have any funders to add, you will be able to skip this page by clicking ‘Save and Continue’ with no funders added.
 
 ## Review
 The review page displays a run-down of the article you've submitted, metadata, files and authors. From here, you can click ‘Complete’ to submit or jump back to other stages to make changes. Once you have finalised your submission, you will not be able to make any changes until editors request revisions (if applicable). 
-![“ “](../support/images/workflow/author-submission-review.png)
+![""](../support/images/workflow/author-submission-review.png)
 
 ### Revisions
 Editors may request that authors revise their files based on recommendations from reviewers. There are two types of revisions you may be asked to make:
@@ -135,7 +135,7 @@ When an editor request revisions, there are two ways to start this process:
     3. Scroll down to ‘Submitted Articles’.
     4. Click the ‘Revision Request’ button next to the article.
 
-![“ “](../support/images/workflow/author-submitted-articles.png)
+![""](../support/images/workflow/author-submitted-articles.png)
 
 Once you have accessed the revision request, you will be able to view the available peer reviews. You can also download, revise, and upload new files. 
 
@@ -166,13 +166,13 @@ Please accept all tracked changes you agree with and address any queries that th
 ### To complete a Copyediting Author Revision: 
 1. Upload your revised manuscript by replacing the copyeditor's version of the file with your own updated version.
 
-![“ “](../support/images/workflow/author-copyedited-files.png)
+![""](../support/images/workflow/author-copyedited-files.png)
 
 2. Fill in the ‘Note to the Editor’ section with any additional information.
 3. Select a Decision (either ‘Accept’ or ‘Corrections Required’).
 4. Click ‘Complete Copyedit Task’.
 
-![“ “](../support/images/workflow/author-complete-copyedit-task.png)
+![""](../support/images/workflow/author-complete-copyedit-task.png)
 
 ### Proofing
 After your paper has been accepted and copyediting, the editors might send you a request to proof the typeset manuscript. This is the final version that will be made publicly available once the article gets published in the journal.
