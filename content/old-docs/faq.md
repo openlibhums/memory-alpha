@@ -30,7 +30,7 @@ its workflow stage or through the archive (Dashboard -\> Left hand menu
 -\> Back Content -\> Articles) and using the "Stages, Logs and More"
 drop down select Log. image
 
-![" "](../old-docs/nstatic/log-page.gif)
+![""](../old-docs/nstatic/log-page.gif)
 
 ## Reviewer Cannot Access a Review
 
@@ -45,4 +45,4 @@ link:
 3.  You'll see an Access Code like below image.
 4.  Copy this link and send it to the reviewer.
 
-![" "](../old-docs/nstatic/view-review.png)
+![""](../old-docs/nstatic/view-review.png)

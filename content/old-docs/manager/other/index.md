@@ -61,7 +61,7 @@ A reminder email has access to three objects in the template:
 On the edit template page there is a small guide showing some of the
 variables you can use when generating these templates.
 
-![A GIF showing the reating, editing and deleting a reminder, showing the various screens and fields.](../../nstatic/create-reminders.gif)
+![A GIF showing the creating, editing and deleting of a reminder, showing the various screens and fields.](../../nstatic/create-reminders.gif)
 
 Once a reminder is created a Cron job on the server will start
 processing requests but it will not process these for Review and
@@ -93,7 +93,7 @@ setting) the rich text box will appear blank. To get started you can
 copy the default version into the rich-text box and make your edits.
 
 > [!TIP]
-> When editing an email that has a URL placeholder (like {{ review_url }})
+> When editing an email that has a URL placeholder (like `{{ review_url }}`)
 it is important that you do not add anything immediately after this
 placeholder as email clients may interpret them as part of the link.
 

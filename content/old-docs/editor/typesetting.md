@@ -38,7 +38,7 @@ roles available to the user logged in.
 - Typesetting tasks (Shown to Typesetters)
 - Proofing tasks (Shown to all Authors, Editors, and Proofreaders)
 
-![" "](../nstatic/typesetting/typesettingcard.png)
+![""](../nstatic/typesetting/typesettingcard.png)
 
 ## Articles in Typesetting
 
@@ -49,7 +49,7 @@ practical effects, other than displaying who is managing the article to
 all the members of staff. This doesn't not restrict access to the other
 editors and production managers in the journal.
 
-![" "](../nstatic/typesetting/articles-in-typesetting.png)
+![""](../nstatic/typesetting/articles-in-typesetting.png)
 
 There is also a filter on the top-right-hand corner to display only
 articles that have been previously claimed by you ("My Assignments")
@@ -170,7 +170,7 @@ however we recommend you always send out this notification.
 At this point, the task has been created and we can monitor its progress
 from the 'Typesetting Article' page.
 
-![" "](../nstatic/typesetting/awaiting-typeseter.png)
+![""](../nstatic/typesetting/awaiting-typeseter.png)
 
 It shows details such as the current status of the task, whether or not
 the typesetter has accepted/declined to do the task as well as its due
@@ -186,7 +186,7 @@ notification. The link on the email should direct you to the
 'Typesetting Article', where you can hit the review button to check on
 the files provided by the typesetter:
 
-![" "](../nstatic/typesetting/review-typesetting.png)
+![""](../nstatic/typesetting/review-typesetting.png)
 
 As an editor or production manager we can now select one out 3 choices  
 - Request Corrections: If we notice a problem with the typeset files
@@ -203,14 +203,14 @@ potentially other editors, for proofreading. Janeway allows you to
 create a proofing task, where authors and/or editors can be invited to
 proof the typeset files.
 
-![" "](../nstatic/typesetting/assigning-proofreaders.gif)
+![""](../nstatic/typesetting/assigning-proofreaders.gif)
 
 ## Reviewing a proofreading request
 
 As the author/editors finish the proofing process you can review their
 comments.
 
-![" "](../nstatic/typesetting/proofreading-review.png)
+![""](../nstatic/typesetting/proofreading-review.png)
 
 Depending on the feedback coming from the proofreading, it may be
 necessary to request corrections from the typesetter. In Janeway you can
@@ -224,14 +224,14 @@ our task
 As soon as all proofing tasks are completed we will hit the request
 corrections button, which will start a new round of typesetting.
 
-![" "](../nstatic/typesetting/request-corrections-button.png)
+![""](../nstatic/typesetting/request-corrections-button.png)
 
 Now we can asssign a typesetter to work on the corrections (usually, the
 same typesetter that produced the Typeset Files in the first place).
 When creating the task, we will be presented with the option to include
 the feedback from the proofreaders.
 
-![" "](../nstatic/typesetting/corrections-notes-display.png)
+![""](../nstatic/typesetting/corrections-notes-display.png)
 
 Even when the comments are made available, it is still recommended that
 the editor/production manager summarises the corrections requested using
@@ -239,7 +239,7 @@ the "task" field (especially in cases where the proofreaders might
 request contradictory corrections). We can also select which files the
 typesetter needs to apply the corrections to:
 
-![" "](../nstatic/typesetting/corrections-files.png)
+![""](../nstatic/typesetting/corrections-files.png)
 
 After the task is sent out, we just have to wait for the typesetter to
 complete it, at which point we can review their work and dispatch new
@@ -261,7 +261,7 @@ the article for typesetting where possible and notify the typesetter (if
 you use external typesetters). They will be able to see the file record
 and the DOI that has been assigned to it.
 
-![" "](../nstatic/typesetting/supp-files.gif)
+![""](../nstatic/typesetting/supp-files.gif)
 
 ## Managing Typeset Files/Galleys
 
@@ -269,13 +269,13 @@ Once a typesetter or production manager has uploaded typeset files into
 Janeway they become manageable within the system. To manage a typeset
 file/galley press the Edit icon on the relevant table row.
 
-![" "](../nstatic/typesetting/editor/typeset-files.png)
+![""](../nstatic/typesetting/editor/typeset-files.png)
 
 An XML typeset file with missing figure files.
 
 ### File Detail
 
-![" "](../nstatic/typesetting/editor/file-details.png)
+![""](../nstatic/typesetting/editor/file-details.png)
 
 The file label is displayed on the main article page and is displayed in
 the format "Download Label". If you set the label to XML it will read
@@ -290,7 +290,7 @@ unchecking the "Public" field in this section.
 
 ### Replacing the Typeset File
 
-![" "](../nstatic/typesetting/editor/edit-typeset-file.png)
+![""](../nstatic/typesetting/editor/edit-typeset-file.png)
 
 If you need to upload a new version of the typeset file you can do so
 from within the Edit Typeset File screen. Browse for the new file and
@@ -307,7 +307,7 @@ having missing images. (see figure at the top of this section for an
 example). You can load up images against a typeset file by editing it
 and scrolling to the Image File section.
 
-![" "](../nstatic/typesetting/editor/image-files.png)
+![""](../nstatic/typesetting/editor/image-files.png)
 
 For each missing image file Janeway will present you with a block where
 you can either upload a new image file or select an existing one from

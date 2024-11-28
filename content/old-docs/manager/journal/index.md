@@ -160,7 +160,7 @@ Setting values can be accessed inside templates using **{{
 journal_settings.group_name.setting_name }}**:
 
 ``` py
-{{ journal_settings.crosscheck.enable_crosscheck }}
+{% raw %}{{ journal_settings.crosscheck.enable_crosscheck }}{% raw %}
 ```
 
 In Django they can be accessed with **get_setting**:

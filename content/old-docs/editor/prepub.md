@@ -19,7 +19,7 @@ publication). **The metadata abstract is displayed when you preview the
 XML file** (if you are using XML files) **in the Typesetting Plugin or
 Production stage.**
 
-![" "](../nstatic/gifprepub.gif)
+![""](../nstatic/gifprepub.gif)
 
 If you copy and paste an abstract into the metadata, ensure you paste
 this in without formatting and, if necessary, use an HTML cleaning tool
@@ -32,8 +32,8 @@ licence selected in the metadata matches any licensing information given
 in the footer of the PDF file.
 
 > [!WARNING]
-> \*\* If an author requests a non-standard licence, this should be
-flagged in advance to the typesetters.\*\*
+> If an author requests a non-standard licence, this should be
+flagged in advance to the typesetters.
 
 Once you have thoroughly checked the metadata, check the ‘Mark as
 Complete’ box to move onto the next step.
@@ -68,7 +68,7 @@ an indication of what to do next. See Interpreting Registration Status for
 more help.
 <!--missing hyperlink-->
 
-![" "](../nstatic/prepubgif2.gif)
+![""](../nstatic/prepubgif2.gif)
 
 Check the ‘Mark as Complete’ box to move onto the next step.
 
@@ -82,12 +82,12 @@ publishable galleys. If any other files appear here return to
 Typesetting Plugin or Production to delete any other files that have
 accidentally been added as galleys before proceeding.
 
-![" "](../nstatic/prepubgif3.gif)
+![""](../nstatic/prepubgif3.gif)
 
 > [!WARNING]
-> **If you have not done so already, double check (in the Typesetting
+> If you have not done so already, double check (in the Typesetting
 Plugin or Production stage) that any typesetting queries at the very end
-of the PDF have been addressed and removed.**
+of the PDF have been addressed and removed.
 
 Check the ‘Mark as Complete’ box to move onto the next step.
 
@@ -117,10 +117,10 @@ to select a thumbnail image (which can be the same image used for the
 article banner).
 
 > [!TIP]
-> **As thumbnail images display at the same width to height ratio as they
+> As thumbnail images display at the same width to height ratio as they
 are uploaded, you may want to use an image editor to crop your chosen
 thumbnail image into a square shape, with the same height and width, for
-consistency.**
+consistency.
 
 Check the ‘Mark as Complete’ box to move onto the next step.
 
@@ -141,5 +141,5 @@ time and date previously set. When the article goes live, always check
 that the article is displaying correctly on the homepage, on the
 Articles page and in its XML/HTML and PDF formats.
 
-**The publishing workflow is now complete – congratulations on your
-finished article!**
+*The publishing workflow is now complete – congratulations on your
+finished article!*

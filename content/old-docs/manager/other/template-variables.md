@@ -2,9 +2,6 @@ Title: Email Template Variables
 
 # Email Template Variables
 
-> [!WARNING]
-> This section is a work in progress started in v1.4.3.
-
 ## Templates
 
 ### Review Assignment

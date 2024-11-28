@@ -126,14 +126,14 @@ default.
 
 Here is an example in JATS XML of an isolated bit of Arabic text in a
 document that is otherwise left-to-right:
-![" "](../support/images/workflow/typesetting-arabic-rtl-jats-xml.png)
+![""]()../images/workflow/typesetting-arabic-rtl-jats-xml.png)
 
 Make sure you use a text editor that shows zero-width unicode
 characters, like U-2067. The above screenshot is an XML file opened in
 VS Code.
 
 Here is the rendered output:
-![" "](../support/images/workflow/typesetting-arabic-rtl-rendered.png)
+![""](../workflow/images/typesetting-arabic-rtl-rendered.png)
 
 Notice the following about the code sample:
 
@@ -167,7 +167,7 @@ In some cases you might need to center-align text:
 ```
 
 The output is:
-![" "](../support/images/workflow/typesetting-text-align-center.png)
+![""](../images/workflow/typesetting-text-align-center.png)
 
 
 This is accomplished with the the [styled-content JATS

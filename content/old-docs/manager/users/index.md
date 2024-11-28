@@ -34,8 +34,7 @@ on your journal. From this page we can:
   - Copyediting assignments
   - Production assignments
 
-![The enrolled users interface. From here we can search, add
-new users and assign additional roles amongst other things.](../../nstatic/enrolled-users.png)
+![The enrolled users interface. From here we can search, add new users and assign additional roles amongst other things.](../../nstatic/enrolled-users.png)
 
 ### Editing a User
 
@@ -60,14 +59,12 @@ You can search for existing user accounts by:
 - Email Address
 
 > [!TIP]
-> You don't need to search by all three fields. You can search by just
-first name or email address for example.
+> You don't need to search by all three fields. You can search by just first name or email address for example.
 
 Once you have found an account you will be able to see which roles they
 have and which are available to be assigned to them.
 
-![This user has two roles (Author and Editor) and can be
-assigned any of the other roles.](../../nstatic/enrol-user.gif)
+![This user has two roles (Author and Editor) and can be assigned any of the other roles.](../../nstatic/enrol-user.gif)
 
 ## Inactive Users
 
@@ -130,11 +127,9 @@ destination account. The account profile remains unchanged, meaning any
 profile information in the source account will be lost.
 
 > [!WARNING]
-> When searching for users to merge, note that the user account in the
-left column will be merged into the user account in the right column.
+> When searching for users to merge, note that the user account in the left column will be merged into the user account in the right column.
 
-![A press manager is merging Andy Byers' account into Katheryn
-Janeway's account.](../../nstatic/merge-users.gif)
+![A press manager is merging Andy Byers' account into Katheryn Janeway's account.](../../nstatic/merge-users.gif)
 
 ## Granular Manager Permissions
 
@@ -155,13 +150,11 @@ Currently there is no interface for updating the roles that can access
 these pages and the setting is JSON stored in the database.
 
 > [!WARNING]
-> You should only edit the Permission settings if you are sure about the
-change you are making.
+> You should only edit the Permission settings if you are sure about the change you are making.
 
-By default both settings read _\["editor",
-"journal-manager"\]_. If, for example, you wanted to stop editors
+By default both settings read `["editor", "journal-manager"]`. If, for example, you wanted to stop editors
 from editing licenses you could change it to read
-_\["journal-manager"\]_. Once saved, only
+`["journal-manager"]`. Once saved, only
 users with the journal manager role will be able to access the licenses
 pages.
 
@@ -170,7 +163,7 @@ pages.
 In version 1.5 we introduced granular settings permissions. Staff can
 now determine, for any given setting object, which roles are allowed to
 edit it. This is done via the Django Admin panel (Core \> Settings),
-using the _editable_by_ field. Staff can
+using the `editable_by` field. Staff can
 alter the roles that are allowed to see and edit a setting.
 
 > [!NOTE]
