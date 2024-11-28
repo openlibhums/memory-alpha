@@ -101,7 +101,7 @@ modal that appears you can complete the issue metadata.
 
 - Issue DOI  
   - Issues can have a DOI, which will be registered with all of its
-    articles in crossref. If you are using Janeway's autoregistration
+    articles in Crossref. If you are using Janeway's autoregistration
     (recommended) or if you are not interested on registering DOIs for
     issues, you can leave this field blank.
 

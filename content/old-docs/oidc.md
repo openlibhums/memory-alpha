@@ -64,8 +64,8 @@ Janeway can detect if the login status of the remote user changes.
 ## Detecting Users
 
 You can detect if a user logged in via OIDC by checking
-_request.user.is_oidc_ this will return
-_True_ if the user logged in with OIDC,
+`request.user.is_oidc` this will return
+`True` if the user logged in with OIDC,
 note it will not exist if the user did not.
 
 > [!NOTE]

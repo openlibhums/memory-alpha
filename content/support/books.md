@@ -31,7 +31,7 @@ them (they can also be sorted by any of these):
 -   Reads
 -   Downloads
 
-![" "](images/books-dashboardblock-highlight.png)
+![""](images/books-dashboardblock-highlight.png)
 
 The bar on top represents access to the key functions of the books plugin:
 
@@ -99,7 +99,7 @@ Before the manuscript files can be uploaded, various metadata fields
 need to be completed first, displayed on the left-hand side of the page
 under ‘Book details’.
 
-![" "](images/books-addbook-details.png)
+![""](images/books-addbook-details.png)
 
 This section contains the following fields:
 
@@ -245,7 +245,7 @@ download, the original filename might still be visible. Google Chrome is
 an example of an application that might still display the original
 filename in its reader toolbar, as displayed in the image below.
 
-![" "](images/books-final-manuscript.png)
+![""](images/books-final-manuscript.png)
 
 >[!Note]
 >‘Read this book’ will always follow the ePub download option and ‘Buy
@@ -371,7 +371,7 @@ downloads (each in their respective column) per book. The columns can be
 sorted by ID,, Subtitle, First Author name, Date published, Reads
 and Downloads.
 
-![" "](images/books-metrics.png)
+![""](images/books-metrics.png)
 
 ### Format Metrics
 
@@ -379,7 +379,7 @@ This section sorts the data by format, providing insights into how
 specific formats are performing. This section can be sorted by Format,
 Title, Views and Downloads.
 
-![" "](images/books-format-metrics.png)
+![""](images/books-format-metrics.png)
 
 >[!Note]
 >The total views and downloads in this report may differ slightly from

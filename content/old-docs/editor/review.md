@@ -35,7 +35,7 @@ will be blocked by a permission denied page.
 If you opt to over-ride the security warning, all other Editors will be
 notified of this.
 
-![" "](../nstatic/unassigned.gif)
+![""](../nstatic/unassigned.gif)
 
 ## Review Page
 
@@ -47,7 +47,7 @@ The review page presets various actions:
 4.  New Review Round
 5.  Request Revisions
 
-![" "](../nstatic/review-main-screen.png)
+![""](../nstatic/review-main-screen.png)
 
 ## Add Files
 
@@ -58,7 +58,7 @@ the files you've selected have been checked to ensure there is no
 identifying author information in them. If there are you can download,
 edit and replace the version in the system on this screen.
 
-![" "](../nstatic/review-add-files.gif)
+![""](../nstatic/review-add-files.gif)
 
 ## Delete Round
 
@@ -87,7 +87,7 @@ Once the reviewer is assigned they will be able to access the system and
 let you know if they will complete the review and, if yes, access the
 review form you specified.
 
-![" "](../nstatic/review-add-reviewer.gif)
+![""](../nstatic/review-add-reviewer.gif)
 
 ## Managing a Review
 
@@ -112,7 +112,7 @@ Once you have opened a review you will see a details of the review
 assignment, a summary of the review and the review availability
 controls.
 
-![" "](../nstatic/review-view-page.png)
+![""](../nstatic/review-view-page.png)
 
 ### Allow Author to Read Review
 
@@ -120,7 +120,7 @@ You can make the review form visible to the author by toggling *Author
 can access this review*, and the file available by toggling *Author can
 access review file*.
 
-![" "](../nstatic/review-visibility-controls-1.png)
+![""](../nstatic/review-visibility-controls-1.png)
 
 ### Controlling Individual Answers
 
@@ -129,7 +129,7 @@ you can control the individual form answers under *Answer Visibility*.
 Toggling the answers on or off will determine whether the author can see
 them when they look at the review.
 
-![" "](../nstatic/review-visibility-controls-2.png)
+![""](../nstatic/review-visibility-controls-2.png)
 
 ### Editing Answers
 
@@ -139,14 +139,14 @@ the original version from the reviewer. You can reset the answer at any
 given time. Note that Janeway will retain a copy of the original and
 display it for other editors to see.
 
-![" "](../nstatic/review-form-elements.png)
+![""](../nstatic/review-form-elements.png)
 
 Once you have adjusted the visibility of Peer Review reports, and have
 clicked through to ‘Make a Decision’, you will see a summary of the Peer
 Reviews and what is and what is not revealed to authors before sending
 your Decision.
 
-![" "](../nstatic/review-visibility-4.png)
+![""](../nstatic/review-visibility-4.png)
 
 ## Decision Helper
 
@@ -186,7 +186,7 @@ uncompleted reviews. The decisions available from this screen are:
     Sharing Peer Reviews section.
     <!--missing hyperlink-->
 
-![" "](../nstatic/review-decision-helper.gif)
+![""](../nstatic/review-decision-helper.gif)
 
 ## Request Revisions
 
@@ -235,7 +235,7 @@ Editors:
 4.  Edit, Accept or Decline the Draft.
 5.  If accepted the decision event will fire.
 
-![" "](../nstatic/review-draft-a-decision.gif)
+![""](../nstatic/review-draft-a-decision.gif)
 
 Examples of Draft Decisions are: Accept, Minor Revisions, Major
 Revisions or Decline. Editors are required to approve these Draft
