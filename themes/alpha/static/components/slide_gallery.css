@@ -63,7 +63,8 @@
     height: 100%;
     width: 100%;
     display: flex;
-    place-content: center;
+    justify-content: center;
+    align-items: center;
   }
   .previous-slide-button.hidden,
   .next-slide-button.hidden {
@@ -72,6 +73,7 @@
 
   .previous-slide-button svg,
   .next-slide-button svg {
+    width: max-content;
     color: var(--clr-tan);
     margin-inline: var(--space-xs);
     opacity: 50%;
