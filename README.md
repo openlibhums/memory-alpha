@@ -10,6 +10,11 @@ This repository is for the build of the janeway.systems site.
 The website is built on top of the static-site generator
 [Pelican](https://getpelican.com/).
 
+## Contributing to documentation
+
+We welcome contributions to our documentation. See “[Contributing to Janeway
+documentation](/content/support/contributing-guide.md).”
+
 ## Setting up the development environment
 
 ### Native install
