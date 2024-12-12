@@ -5,11 +5,32 @@
     align-items: center;
     padding: var(--space-l);
 
-    & .button {
-        border-radius: var(--space-xl);
-        padding: var(--space-m);
+    & .button-internal {
         text-decoration-line: none;
         line-height: 1.1;
+        border: 0;
+        padding: var(--space-2xs);
+        margin: 0;
+        display: inline-block;
+
+       /* color pairs foreground-background*/
+       &.tan-on-black{color: var(--clr-tan); background-color: var(--clr-black);}
+       &.black-on-tan{ color: var(--clr-black); background-color: var(--clr-tan); }
+   
+       &.rust-on-black{ color: var(--clr-rust); background-color: var(--clr-black); }
+       &.black-on-rust{ color: var(--clr-black); background-color: var(--clr-rust); }
+   
+       &.tan-on-orange{ color: var(--clr-tan); background-color: var(--clr-orange); }
+       &.orange-on-tan{ color: var(--clr-orange); background-color: var(--clr-tan); }
+   
+       &.tan-on-blue{ color: var(--clr-tan); background-color: var(--clr-blue); }
+       &.blue-on-tan{ color: var(--clr-blue); background-color: var(--clr-tan); }
+   
+    }
+
+    & .button-shape {
+        border-radius: var(--space-xl);
+        padding: var(--space-m);
 
         /* borders */
         &.border-black { border: solid var(--clr-black) 2px; }
@@ -31,19 +52,31 @@
        &.tan-on-blue{ color: var(--clr-tan); background-color: var(--clr-blue); }
        &.blue-on-tan{ color: var(--clr-blue); background-color: var(--clr-tan); }
    
-       /* hover inversing color pair */
-       &.tan-on-black:hover{ color: var(--clr-black); background-color: var(--clr-tan); }
-       &.black-on-tan:hover{ color: var(--clr-tan); background-color: var(--clr-black); }
-   
-       &.rust-on-black:hover{ color: var(--clr-black); background-color: var(--clr-rust); } 
-       &.black-on-rust:hover{ color: var(--clr-rust); background-color: var(--clr-black); }
-   
-       &.tan-on-orange:hover{ color: var(--clr-orange); background-color: var(--clr-tan); }
-       &.orange-on-tan:hover{ color: var(--clr-tan); background-color: var(--clr-orange); }
-   
-       &.tan-on-blue:hover{ color: var(--clr-blue); background-color: var(--clr-tan); }
-       &.blue-on-tan:hover{ color: var(--clr-tan); background-color: var(--clr-blue); }
-    }
+       /* hover and focus inversing color pair */
+       &.tan-on-black:hover,    &.tan-on-black:hover    > .button-internal{ color: var(--clr-black); background-color: var(--clr-tan); }
+       &.black-on-tan:hover,    &.black-on-tan:hover    > .button-internal{ color: var(--clr-tan); background-color: var(--clr-black); }
 
+       &.rust-on-black:hover,   &.rust-on-black:hover   > .button-internal{ color: var(--clr-black); background-color: var(--clr-rust); } 
+       &.black-on-rust:hover,   &.black-on-rust:hover   > .button-internal{ color: var(--clr-rust); background-color: var(--clr-black); }
+
+       &.tan-on-orange:hover,   &.tan-on-orange:hover   > .button-internal{ color: var(--clr-orange); background-color: var(--clr-tan); }
+       &.orange-on-tan:hover,   &.orange-on-tan:hover   > .button-internal{ color: var(--clr-tan); background-color: var(--clr-orange); }
+
+       &.tan-on-blue:hover,     &.tan-on-blue:hover     > .button-internal{ color: var(--clr-blue); background-color: var(--clr-tan); }
+       &.blue-on-tan:hover,     &.blue-on-tan:hover     > .button-internal{ color: var(--clr-tan); background-color: var(--clr-blue); }
+
+       &.tan-on-black:focus-within,    &.tan-on-black:focus-within    > .button-internal{ color: var(--clr-black); background-color: var(--clr-tan); }
+       &.black-on-tan:focus-within,    &.black-on-tan:focus-within    > .button-internal{ color: var(--clr-tan); background-color: var(--clr-black); }
+
+       &.rust-on-black:focus-within,   &.rust-on-black:focus-within   > .button-internal{ color: var(--clr-black); background-color: var(--clr-rust); } 
+       &.black-on-rust:focus-within,   &.black-on-rust:focus-within   > .button-internal{ color: var(--clr-rust); background-color: var(--clr-black); }
+
+       &.tan-on-orange:focus-within,   &.tan-on-orange:focus-within   > .button-internal{ color: var(--clr-orange); background-color: var(--clr-tan); }
+       &.orange-on-tan:focus-within,   &.orange-on-tan:focus-within   > .button-internal{ color: var(--clr-tan); background-color: var(--clr-orange); }
+
+       &.tan-on-blue:focus-within,     &.tan-on-blue:focus-within     > .button-internal{ color: var(--clr-blue); background-color: var(--clr-tan); }
+       &.blue-on-tan:focus-within,     &.blue-on-tan:focus-within     > .button-internal{ color: var(--clr-tan); background-color: var(--clr-blue); }
+  
+    }
 
 }
