@@ -21,12 +21,16 @@
     data-current-slide>
     <div class="slide-content prose flow">
       <div class="label-wrapper">
-        <p class="label uppercase ff-space-mono-bold">
+        <div
+          tabindex="0"
+          aria-label="Slide {{ num }}"
+          data-slide-label
+          class="label uppercase ff-space-mono-bold">
           {% if label %}
             {{ label }}
           {% endif %}
           {{ num }}
-        </p>
+        </div>
       </div>
       <div class="body flow">
         {{ caller() }}
@@ -56,8 +60,7 @@
       <div
         class="scroll-container"
         data-scroll-container
-        tabindex="0"
-        aria-label="Slide gallery">
+        tabindex="-1">
         <div class="slide-container">
           {{ caller() }}
         </div>
