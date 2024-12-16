@@ -1,54 +1,70 @@
 {# A component to tell a story using a timeline that looks like a wheel #}
 
-{% macro _point(year="1234", i="0", state="displayed") %}
-  <div class="point-wrapper">
-    <button
-      data-point
-      type="button"
-      aria-label="Scroll to events of {{ year }}"
-      class="point fs-4 ff-space-mono-regular text-white {{ state }}"
-      style="--i: {{ i }};">
-      <span
-        aria-hidden="true"
-        class="point-label">
-        {{ year }}
-      </span>
-      <div class="point-circle"></div>
-    </button>
-    <section
-      aria-labelledby="heading-{{ year }}"
-      class="point-text prose flow">
-      <h3 id="heading-{{ year }}" class="sr-only">{{ year }}</h3>
-      {{ caller() }}
-    </section>
-  </div>
+{% macro _point(year="1234", i="0", state="") %}
+  <button
+    id="timeline-point-{{ year }}"
+    data-point="{{ year }}"
+    type="button"
+    role="tab"
+    tabindex="{% if state == "selected" %}0{% else %}-1{% endif %}"
+    aria-selected="{% if state == "selected" %}true{% else %}false{% endif %}"
+    aria-controls="timeline-text-block-{{ year }}"
+    class="point fs-4 ff-space-mono-regular text-white {{ state }}"
+    style="--i: {{ i }};">
+    <span
+      class="point-label">
+      {{ year }}
+    </span>
+    <span class="point-circle"></span>
+  </button>
 {% endmacro %}
 
-<div class="timeline-wheel">
-  <h2 id="heading-timeline" class="sr-only">Timeline</h2>
-  <div class="wheel">
-    {% call _point(year="2017", i="0", state="selected") %}
+{% macro _block(year="1234", i="0", state="") %}
+  <section
+    id="timeline-text-block-{{ year }}"
+    role="tabpanel"
+    data-block="{{ year }}"
+    tabindex="0"
+    aria-labelledby="timeline-point-{{ year }}"
+    class="text-block flow {{ state }}">
+    {{ caller() }}
+  </section>
+{% endmacro %}
+
+<div class="timeline-wheel" data-timeline-wheel>
+  <div class="wheel" role="tablist" aria-label="Timeline">
+    {{ _point(year="2017", i="0", state="selected") }}
+    {{ _point(year="2018", i="1") }}
+    {{ _point(year="2019", i="2") }}
+    {{ _point(year="2020", i="3") }}
+    {{ _point(year="2021", i="4") }}
+    {{ _point(year="2022", i="5") }}
+    {{ _point(year="2023", i="6") }}
+    {{ _point(year="2024", i="7") }}
+  </div>
+  <div class="text-blocks">
+    {% call _block(year="2017", i="0", state="selected") %}
       <p>{{ lipsum(n=1, min=20, max=30) }}</p>
     {% endcall %}
-    {% call _point(year="2018", i="1") %}
+    {% call _block(year="2018", i="1") %}
       <p>{{ lipsum(n=1, min=20, max=30) }}</p>
     {% endcall %}
-    {% call _point(year="2019", i="2") %}
+    {% call _block(year="2019", i="2") %}
       <p>{{ lipsum(n=1, min=20, max=30) }}</p>
     {% endcall %}
-    {% call _point(year="2020", i="3") %}
+    {% call _block(year="2020", i="3") %}
       <p>{{ lipsum(n=1, min=20, max=30) }}</p>
     {% endcall %}
-    {% call _point(year="2021", i="4") %}
+    {% call _block(year="2021", i="4") %}
       <p>{{ lipsum(n=1, min=20, max=30) }}</p>
     {% endcall %}
-    {% call _point(year="2022", i="5") %}
+    {% call _block(year="2022", i="5") %}
       <p>{{ lipsum(n=1, min=20, max=30) }}</p>
     {% endcall %}
-    {% call _point(year="2023", i="6") %}
+    {% call _block(year="2023", i="6") %}
       <p>{{ lipsum(n=1, min=20, max=30) }}</p>
     {% endcall %}
-    {% call _point(year="2024", i="7") %}
+    {% call _block(year="2024", i="7") %}
       <p>{{ lipsum(n=1, min=20, max=30) }}</p>
     {% endcall %}
   </div>
