@@ -1,6 +1,4 @@
 .timeline-wheel {
-  /* Credit: Some trigonometric patterns below were adapted from
-   * https://web.dev/articles/css-trig-functions */
 
   --start-angle: 170deg;
   --angle: var(--start-angle);
@@ -13,37 +11,108 @@
 
   position: relative;
 
+  button {
+    border: none;
+    padding: 0;
+    background: transparent;
+    cursor: pointer;
+  }
+
+  .point-circle {
+    width: calc(var(--tracksize) * 6);
+    height: calc(var(--tracksize) * 6);
+    aspect-ratio: 1;
+    border-radius: 50%;
+    z-index: 1;
+  }
+  :not(.selected) .point-circle {
+    background: var(--clr-tan);
+  }
+  .point:hover .point-circle,
+  .point.selected .point-circle {
+    background: var(--clr-rust);
+  }
+  :not(.selected) .point-label {
+    opacity: 70%;
+  }
+  .point:hover .point-label,
+  .selected .point-label {
+    opacity: 100%;
+  }
+  .text-block.selected {
+    display: block;
+  }
+  .text-block:not(.selected) {
+    display: none;
+  }
+  .text-block:focus {
+    outline-color: var(--clr-tan);
+    outline-width: 2px;
+    outline-style: solid;
+  }
+  .text-block p {
+    font-size: var(--step-3);
+  }
+
+  /* On small screens this isn't a wheel but a vertical tablist */
+
   @media (width <= 50rem) {
-    /* Make this component full-width and full height by
-     * removing the container and section page padding */
-    margin-block: calc(0rem - var(--frame-padding, 0rem));
-    margin-inline: calc(0rem - var(--container-padding-small));
+
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: var(--space-xs);
+
     .wheel {
       display: flex;
-      overflow-x: auto;
-      -webkit-overflow-scrolling: touch;
-      scroll-snap-type: x mandatory;
-      padding-block: var(--frame-padding, 0rem);
+      flex-direction: column;
+      align-items: flex-start;
+      position: relative;
+      margin-left: min(6vw, var(--space-l));
     }
     .wheel::before {
       content: '';
+      width: calc(2 * var(--tracksize));
+      background: var(--clr-tan);
       position: absolute;
-      top: calc(
-        var(--space-xs) + var(--frame-padding) + var(--side) - var(--tracksize) * 3
-      );
-      left: 0;
-      right: 0;
-      width: 100%;
-      height: var(--tracksize);
-      background-color: var(--clr-tan);
+      top: calc(var(--space-s) + (2 * var(--tracksize)));
+      bottom: calc(var(--space-s) + (2 * var(--tracksize)));
+      left: calc(2 * var(--tracksize));
     }
     .point {
-      margin: var(--space-xs) auto;
+      display: flex;
+      flex-direction: row-reverse;
+      align-items: center;
+      column-gap: var(--space-s);
+      padding-block: var(--space-s);
+      position: relative;
     }
-    .point-circle {
-      background: var(--clr-rust);
+    .point:hover::after,
+    .point.selected::after {
+      content: "";
+      height: calc(var(--tracksize) / 2);
+      width: 8rem;
+      background-color: var(--clr-rust);
+      position: absolute;
+      right: 100%;
+      top: calc(50% - var(--tracksize) / 4);
+      z-index: 1;
+    }
+    .text-blocks {
+      display: grid;
+      place-content: center;
+    }
+    .text-block {
+      max-width: 50vw;
+    }
+    .text-block:focus {
+      outline-offset: var(--space-xs);
     }
   }
+
+  /* On large screens this component is laid out as a wheel
+
+  /* Credit: Some trigonometric patterns below were adapted from
+   * https://web.dev/articles/css-trig-functions */
 
   @media (width > 50rem) {
     .wheel {
@@ -58,13 +127,9 @@
     }
     .point {
       --angle: calc(var(--start-angle) - (var(--i) * var(--increment)));
-      border: none;
       z-index: 1;
-      padding-inline: unset;
-      background: transparent;
       width: var(--side);
       height: var(--side);
-      cursor: pointer;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -86,19 +151,6 @@
         )
       ;
     }
-    .point-circle {
-      width: calc(var(--tracksize) * 6);
-      aspect-ratio: 1;
-      border-radius: 50%;
-      z-index: 1;
-    }
-    :not(.selected) .point-circle {
-      background: var(--clr-tan);
-    }
-    .point:hover .point-circle,
-    .point.selected .point-circle {
-      background: var(--clr-rust);
-    }
     .point:hover::after,
     .point.selected::after {
       content: "";
@@ -110,18 +162,11 @@
       left: calc(50% - var(--tracksize) / 4);
       z-index: 1;
     }
-
-    :not(.selected) .point-label {
-      opacity: 70%;
-    }
-    .point:hover .point-label,
-    .selected .point-label {
-      opacity: 100%;
-    }
     .point-label {
       margin-block-start: var(--space-m);
       margin-block-end: var(--space-xs);
     }
+
     .text-blocks {
       position: absolute;
       left: 0;
@@ -136,20 +181,8 @@
       background: var(--clr-blue);
       padding: var(--space-s);
     }
-    .text-block p {
-      font-size: var(--step-3);
-    }
-    .text-block.selected {
-      display: block;
-    }
-    .text-block:not(.selected) {
-      display: none;
-    }
     .text-block:focus {
-      outline-color: var(--clr-tan);
       outline-offset: -4px;
-      outline-width: 2px;
-      outline-style: solid;
     }
   }
 }
