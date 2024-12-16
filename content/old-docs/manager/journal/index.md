@@ -156,15 +156,17 @@ the interface or for editing settings introduced into your instance.
 
 ## Accessing Settings in Templates and Code
 
-Setting values can be accessed inside templates using **{{
-journal_settings.group_name.setting_name }}**:
+Setting values can be accessed inside templates using
+**journal_settings.group_name.setting_name**:
 
-``` py
-{% raw %}{{ journal_settings.crosscheck.enable_crosscheck }}{% raw %}
+{% raw %}
 ```
+{{ journal_settings.crosscheck.enable_crosscheck }}
+```
+{% endraw %}
 
 In Django they can be accessed with **get_setting**:
 
-``` py
+```py
 request.journal.get_setting('group_name', 'setting_name')
 ```
