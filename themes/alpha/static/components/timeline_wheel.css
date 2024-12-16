@@ -11,34 +11,20 @@
   --radius: min(40vw, 34rem);
   --full-diameter: calc(var(--radius) * 2 + var(--tracksize));
 
+  position: relative;
+
   @media (width <= 50rem) {
     /* Make this component full-width and full height by
      * removing the container and section page padding */
     margin-block: calc(0rem - var(--frame-padding, 0rem));
     margin-inline: calc(0rem - var(--container-padding-small));
-    position: relative;
-  }
-
-  .wheel {
-    @media (width <= 50rem) {
+    .wheel {
       display: flex;
       overflow-x: auto;
       -webkit-overflow-scrolling: touch;
       scroll-snap-type: x mandatory;
       padding-block: var(--frame-padding, 0rem);
     }
-    @media (width > 50rem) {
-      width: var(--full-diameter);
-      height: calc(var(--full-diameter) / 2);
-      aspect-ratio: 1;
-      border-radius: var(--full-diameter) var(--full-diameter) 0 0;
-      border: var(--tracksize) solid var(--clr-tan);
-      border-bottom: none;
-      margin: var(--space-xl) auto;
-      position: relative;
-    }
-  }
-  @media (width <= 50rem) {
     .wheel::before {
       content: '';
       position: absolute;
@@ -51,32 +37,38 @@
       height: var(--tracksize);
       background-color: var(--clr-tan);
     }
-  }
-  .point-wrapper {
-    @media (width <= 50rem ) {
-      max-width: 85vw;
-      flex: 0 0 auto;
-      scroll-snap-align: start;
-    }
-  }
-  .point {
-    --angle: calc(var(--start-angle) - (var(--i) * var(--increment)));
-    border: none;
-    z-index: 1;
-    padding-inline: unset;
-    background: transparent;
-    width: var(--side);
-    height: var(--side);
-    cursor: pointer;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    @media (width <= 50rem) {
+    .point {
       margin: var(--space-xs) auto;
     }
+    .point-circle {
+      background: var(--clr-rust);
+    }
+  }
 
-    @media (width > 50rem) {
+  @media (width > 50rem) {
+    .wheel {
+      width: var(--full-diameter);
+      height: calc(var(--full-diameter) / 2);
+      aspect-ratio: 1;
+      border-radius: var(--full-diameter) var(--full-diameter) 0 0;
+      border: var(--tracksize) solid var(--clr-tan);
+      border-bottom: none;
+      margin: var(--space-xl) auto;
+      position: relative;
+    }
+    .point {
+      --angle: calc(var(--start-angle) - (var(--i) * var(--increment)));
+      border: none;
+      z-index: 1;
+      padding-inline: unset;
+      background: transparent;
+      width: var(--side);
+      height: var(--side);
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
       position: absolute;
       top: calc(100% - var(--apothem));
       left: calc(50% - var(--apothem));
@@ -94,19 +86,12 @@
         )
       ;
     }
-  }
-  .point-circle {
-    width: calc(var(--tracksize) * 6);
-    aspect-ratio: 1;
-    border-radius: 50%;
-    z-index: 1;
-  }
-  @media (width <= 50rem) {
     .point-circle {
-      background: var(--clr-rust);
+      width: calc(var(--tracksize) * 6);
+      aspect-ratio: 1;
+      border-radius: 50%;
+      z-index: 1;
     }
-  }
-  @media (width > 50rem) {
     :not(.selected) .point-circle {
       background: var(--clr-tan);
     }
@@ -133,31 +118,38 @@
     .selected .point-label {
       opacity: 100%;
     }
-  }
-  .point-label {
-    margin-block-start: var(--space-m);
-    margin-block-end: var(--space-xs);
-  }
-  .point-text {
-    margin-inline: auto;
-    background: var(--clr-blue);
-    padding: var(--space-s);
-    z-index: 2;
-    position: relative;
-    @media (width > 50rem) {
-      margin-block-start: 25%;
-      max-width: min(40rem, 70%);
+    .point-label {
+      margin-block-start: var(--space-m);
+      margin-block-end: var(--space-xs);
     }
-  }
-  .point-text p {
-    font-size: var(--step-3);
-  }
-  @media (width > 50rem) {
-    .selected + .point-text {
+    .text-blocks {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      margin-inline: auto;
+      margin-block-start: 25%;
+      max-width: min(32rem, 70%);
+      z-index: 2;
+    }
+    .text-block {
+      background: var(--clr-blue);
+      padding: var(--space-s);
+    }
+    .text-block p {
+      font-size: var(--step-3);
+    }
+    .text-block.selected {
       display: block;
     }
-    :not(.selected) + .point-text {
+    .text-block:not(.selected) {
       display: none;
+    }
+    .text-block:focus {
+      outline-color: var(--clr-tan);
+      outline-offset: -4px;
+      outline-width: 2px;
+      outline-style: solid;
     }
   }
 }
