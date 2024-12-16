@@ -3,7 +3,7 @@
 {% from "components/page_section_group.html" import page_section_group %}
 {% from "components/button.html" import button %}
 {% from "components/page_section_header.html" import page_section_header_wrapper, page_section_header, page_section_intro_text %}
-{% from "components/slide_gallery.html" import slide_gallery, slide, slide_heading %}
+{% from "components/slide_gallery.html" import slide_gallery, slide, sr_only_h2, slide_h3 %}
 
 <head>
   <title>Our Story</title>
@@ -52,34 +52,37 @@
       Meet the Crew
     {% endcall %}
   {% endcall %}
-  {% call page_section(bg="bg-blue", label="Janeway Axioms", layout="layout-full-small", prose="") %}
+  {% call sr_only_h2(id="slide-gallery-h2") -%}
+    Janeway Axioms
+  {%- endcall %}
+  {% call page_section(bg="bg-blue", labelledby="slide-gallery-h2", layout="layout-full-small", prose="") %}
     {% call slide_gallery(num_slides=5) -%}
       {% call slide(num=1, label="Axiom") -%}
-        {% call slide_heading() -%}
+        {% call slide_h3() -%}
           {{ lipsum(n=1, html=False, min=3, max=5) }}
         {%- endcall %}
         {{ lipsum(n=1, min=12, max=20) }}
       {%- endcall %}
       {% call slide(num=2, label="Axiom") -%}
-        {% call slide_heading() -%}
+        {% call slide_h3() -%}
           {{ lipsum(n=1, html=False, min=3, max=5) }}
         {%- endcall %}
         {{ lipsum(n=1, min=12, max=20) }}
       {%- endcall %}
       {% call slide(num=3, label="Axiom") -%}
-        {% call slide_heading() -%}
+        {% call slide_h3() -%}
           {{ lipsum(n=1, html=False, min=3, max=5) }}
         {%- endcall %}
         {{ lipsum(n=1, min=12, max=20) }}
       {%- endcall %}
       {% call slide(num=4, label="Axiom") -%}
-        {% call slide_heading() -%}
+        {% call slide_h3() -%}
           {{ lipsum(n=1, html=False, min=3, max=5) }}
         {%- endcall %}
         {{ lipsum(n=1, min=12, max=20) }}
       {%- endcall %}
       {% call slide(num=5, label="Axiom") -%}
-        {% call slide_heading() -%}
+        {% call slide_h3() -%}
           {{ lipsum(n=1, html=False, min=3, max=5) }}
         {%- endcall %}
         {{ lipsum(n=1, min=12, max=20) }}
