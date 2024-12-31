@@ -1,6 +1,6 @@
-Title: Reviewer Workflow Guide
+Title: Reviewer workflow guide
 
-# Reviewer Workflow Guide
+# Reviewer workflow guide
 
 As a reviewer, you can access your review task in two ways:
 1. Using the direct link in the review request email.
@@ -8,13 +8,13 @@ As a reviewer, you can access your review task in two ways:
 
 ## Direct link
 
-If the journal has enabled one-click-access, you should be able to go straight to the review page (bypassing the login screen) using the link in the review invitation. Otherwise, you will have to login as normal to access it.
+If the journal has enabled one-click-access, you can go straight to the review page (bypassing the login screen) by using the link in the review invitation. Otherwise, you will have to login as normal to access it.
 
 [!NOTE]
 > Do **not** share your link! This link is generated specifically for you and your review task and functions like a password to it. If you share it, someone else will be able to access your review task under your name and credentials.
 
 ## Dashboard
-If you log into Janeway as a reviewer, you will see the ‘Reviewer’ section on your Dashboard. Here, you are able to see active requests, accepted ones, and reviews you have completed. Click on ‘View Requests’ to open these. 
+If you log into Janeway as a reviewer, you will see the ‘Reviewer’ section on your Dashboard. Here, you can see active requests, accepted ones, and reviews you have completed.
 
 If you have any other roles within a journal (e.g. author, editor), you will also see sections for these on your Dashboard. 
 
@@ -25,13 +25,13 @@ Click on ‘View Requests’ to be taken to the ‘Review Requests’ page. On t
 ![The two columns on the ‘Review Requests’ page (‘Awaiting initial decision’ and ‘Reviews in progress’). There is a task in the left column that is awaiting a decision. The task block (or card) displays the title, due date and editor initials. It also contains three buttons: ‘View Detail’, ‘Accept Task’ and ‘Decline Task’.)](../support/images/workflow/reviewer-kanban.png)
 
 ## Review request
-Assuming you accept the task, you will be taken to the ‘Review Request page. It is split into three sections:
+Assuming you accept the task, you will be taken to the page for the review. It is split into three sections:
 
 1. General Review Guidelines
 2. Review Files
 3. Review Form
 
-## Review guidelines
+## General review guidelines
 This section displays information on how the editor would like you to undertake the review, an introduction to the review form, and metadata.
 
 > [!NOTE]
@@ -67,5 +67,5 @@ The sections of this form are:
 - Comments for the Editor
     - If you have additional comments they can be added here. These will be visible only to the editor(s), although they may choose to share them with the author.
 
-## Review Complete
+## Review complete
 Once you have submitted your review you will be presented with an overview of what you have written. Please note you will not be able to return to the review page or edit what you have written once you have clicked ‘Submit’.
