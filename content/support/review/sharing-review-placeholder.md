@@ -2,6 +2,37 @@ Title: Sharing peer reviews
 
 # Sharing peer reviews
 
+## Displaying Review Data to Authors
+
+Janeway has various controls for how review data is displayed to
+authors. These settings are:
+
+- Hide Review Data from Authors Before Release  
+  - When this setting is enabled, authors will see no information about
+    active peer reviews until the editor makes them available. Otherwise
+    they will see a list of review assignments.
+
+- Enable Peer Review Data on Author Page  
+  - When this setting is enabled, authors will have access to more
+    information about the reviews for their article (requested, due, and
+    complete dates) on the article page. If it is left off, they will
+    only have access to the review comments.
+
+- Enable Peer Review Data on Review Pages  
+  - When this setting is enabled, authors will have access to more
+    information about their reviews on the review page.
+
+The settings "Enable Peer Review Data on Author Page" and "Enable Peer
+Review Data on Review Pages" do similar things but on different pages.
+"Enable Peer Review on Author Page" is used on the author's article
+page, which they have access to from the point of submission. "Enable
+Peer Review Data on Review Pages" is used on the review page, which
+authors only get access to after an editor grants the author access.
+Both are off by default.
+
+
+## Sharing reviews between reviewers
+
 > [!NOTE]
 > Added in v1.5.1 editors have two options to share reviews with other
 peer reviewers.
