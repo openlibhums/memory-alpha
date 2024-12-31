@@ -35,14 +35,14 @@ Assuming you accept the task, you will be taken to the page for the review. It i
 This section displays information on how the editor would like you to undertake the review, an introduction to the review form, and metadata.
 
 > [!NOTE]
-> This section may include both general review guidelines and guidelines specific to this review. Some journals may have different forms for different types of submissions. Because these specifics can differ, please read through these even if you’ve reviewed a paper for this journal before.
+> This section may include both general review guidelines and guidelines specific to this review. These can differ depending on the journal and the type of submission.Please read through these even if you’ve reviewed a paper for this journal before as they may not be the same as for a previous review task.
 
-Additionally, at the bottom of this block you will find an option to accept or decline this review task. If you initially accepted the task but are no longer available, please decline it here so that it can be offered to someone else. If you opt to decline to review, you will be asked if you can suggest other suitable reviewers. This is optional, but highly encouraged.
+At the bottom of this block, you will find another option to accept or decline this review task. If you initially accepted the task but are no longer available, please decline it here so that it can be offered to someone else. If you opt to decline to review, you will be asked if you can suggest other suitable reviewers. This is optional, but highly encouraged.
 
 ![The ‘Review Request’ page, displaying the ‘General Review Guidelines’ section. The review guidelines, information for the form and accept/decline elements are visible.](../support/images/workflow/reviewer-review-request.png)
 
 ## Review files
-The files the editor has selected for you to review are listed here. There might be multiple files (e.g. supplementary files), so this block includes the option to download them as a .ZIP file.
+The files the editor has selected for you to review are listed here. There might be multiple files (e.g. supplementary files), so this block includes the option to download them all as a zip file.
 
 ![The ‘Review Files’ section. One file is shown here with its label (‘Manuscript’ in this instance) filename and the download option. The ‘Download all as ZIP’ is in the top right corner of this section.](../support/images/workflow/reviewer-review-files.png)
 
@@ -53,7 +53,7 @@ This is where you will complete your review. What this looks like will differ fr
 The sections of this form are:
 
 - File Upload
-    - You can upload your review , if you prefer to complete it offline (e.g. by writing down your feedback in a Word document). This setting may be disabled on certain journals and in those cases, this section will not appear.
+    - You can upload your review , if you prefer to complete it offline (e.g. by writing down your feedback in a Word document). This section may be disabled for certain journals and, in those cases, will not appear.
 - Review Form
     - This is where you will complete your review. The form may consist of a single text box or be composed of multiple boxes, which can include checkboxes and dropdowns. This will depend on the individual journal, but there will be text accompanying each part to tell you what they are looking for.
 - Your Recommendation
@@ -65,7 +65,7 @@ The sections of this form are:
         - Major Revisions Required
         - Reject
 - Comments for the Editor
-    - If you have additional comments they can be added here. These will be visible only to the editor(s), although they may choose to share them with the author.
+    - If you have additional comments, they can be added here. These will be visible only to the editor(s), although they may choose to share them with the author.
 
 ## Review complete
 Once you have submitted your review you will be presented with an overview of what you have written. Please note you will not be able to return to the review page or edit what you have written once you have clicked ‘Submit’.
