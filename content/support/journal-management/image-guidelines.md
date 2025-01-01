@@ -131,3 +131,64 @@ site-specific browsers use the favicon as a desktop icon.
 We recommend using an icon of up to 100x100px, as this should fit most
 use cases.
 
+MERGE WITH:
+
+
+## Images
+
+Below are explanations of the fields you see in Settings. See also the
+Styling section.
+<!--missing hyperlink-->
+<!--
+> [!TIP]
+> Janeway will automatically resize images to fit the designated spots it
+has for them, but it won't change the proportions of width to height.
+
+![Header image in top left and large image in center, with OLH
+theme](../../nstatic/images/Home-page-screenshot.png)
+
+- Header image  
+  - Typically the journal logo goes here. It appears in the top left corner
+on desktop or laptop screens, and at the top of the page on mobile
+devices.
+
+- Default large image  
+  - This image shows up in several places, depending on how your theme and
+home page are configured:
+
+- At the top of the article page if no article image is set specifically
+  (see Article Images Manager) and article images are set to display
+  (see Article Display Settings). If not set *and* article images are
+  set to display, article metadata may not show up properly.
+- In the carousel on the home page for any items that don't have
+  associated images. (In this spot it replaces the press-level "Default
+  carousel image")
+
+Use a wide image (about 4 parts width to 1 part height) with good
+resolution when set at 300 or 400 pixels tall.
+
+Press override image  
+This can be set to replace the press logo that appears in the footer
+when using the OLH theme or the clean theme.
+
+Default cover image  
+The default image for issue covers when no image is set specifically for
+that issue.
+![A screenshot indicating where the cover image displays.](../../nstatic/images/Issues.png)
+
+Default thumbnail  
+The default image for each article when viewing an article list. A
+width-to-height ratio of about 3 to 4 is recommended. If no thumbnail is
+set, this defaults to the Janeway logo.
+![A screenshot indicating where the thumbnail displays.](../../nstatic/images/Articles-screenshot.png)
+
+Favicon  
+The tiny little image you often see in the browser tab before the name
+of a webpage. Use a very small image of equal width and height. If not
+set, no Favicon will appear.
+
+Default Profile Image  
+The default image used when editorial team groups have "Display profile
+images" enabled. The image is also used on the public profile page when
+a user has enabled it. -->
+
