@@ -40,3 +40,25 @@ settings for the journal. Each field is explained in Janeway.
 - Remote website settings
 - Language settings
 - Integration with Slack or Discord
+
+<!-- SHould this be in dev? Otherwise a note should be here that this is not for regular users
+
+
+
+## Accessing Settings in Templates and Code
+
+Setting values can be accessed inside templates using
+**journal_settings.group_name.setting_name**:
+
+{% raw %}
+```
+{{ journal_settings.crosscheck.enable_crosscheck }}
+```
+{% endraw %}
+
+In Django they can be accessed with **get_setting**:
+
+```py
+request.journal.get_setting('group_name', 'setting_name')
+```
+-->
