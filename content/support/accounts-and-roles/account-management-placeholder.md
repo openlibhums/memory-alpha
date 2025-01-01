@@ -48,3 +48,18 @@ have and which are available to be assigned to them.
 
 ![This user has two roles (Author and Editor) and can be assigned any of the other roles.](../../nstatic/enrol-user.gif)
 
+## Merge Users (Press Manager only)
+
+The press manager now enables staff members to merge two accounts to
+eliminate potential duplicates. All associated objects such as tasks,
+articles, roles, and files will be moved from the source account to the
+destination account. The account profile remains unchanged, meaning any
+profile information in the source account will be lost.
+
+> [!WARNING]
+> When searching for users to merge, note that the user account in the left column will be merged into the user account in the right column.
+
+![A press manager is merging Andy Byers' account into Katheryn Janeway's account.](../../nstatic/merge-users.gif)
+
+
+
