@@ -1,7 +1,12 @@
 <!--## Janeway roles 
 - Author
+    - When someone registers with the journal or submits an article, they are given this role. 
 - Reviewer
 - Editor
+  - Handles processing of articles and assignment of tasks
+- Journal Manager
+    - Has a similar level of permission to the Editor role, but can be
+    given extra access (see below)
 - Section Editor
 - Copyeditor
 - Typesetter
@@ -9,6 +14,13 @@
 > [!NOTE] 
 > Whilst the Production Manager and Proofing Manager are still assignable in Janeway, they have been deprecated in 1.4 and are no longer in use.
 -->
+
+<!-- - Reader  
+  - This role indicated whether a user is signed up for now article
+    notifications 
+    Note: this is not a typical role as such? Maybe this should be put with email notifications?
+  
+    -->
 <!--## Permissions
 
 In addition to the roles and their respective permissions, there are also seperate permission levels that can be assigned. Editors also have specific permissions associated with their role.-->
