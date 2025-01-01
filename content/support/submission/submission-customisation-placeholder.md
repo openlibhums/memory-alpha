@@ -15,7 +15,25 @@ You can manage submission items in three ways:
 From the main screen you can add new, edit existing and delete items as
 well as re-order them by dragging and dropping rows of the table.
 
-![List of default submission items generated in the v1.4 upgrade process.](../../nstatic/submission-items-reorder.gif)-->
+![List of default submission items generated in the v1.4 upgrade process.](../../nstatic/submission-items-reorder.gif)
+
+
+
+### Link to a Setting
+
+You can opt to link a submission item to an existing setting so it will
+display the same content as that setting. This is currently used for the
+majority of the automatically generated submission page items. Some
+examples of this are:
+
+- About
+- Focus and Scope
+- Submission Checklist
+
+You can tell when a submission item is linked to a setting under the
+'Setting or Text' column in the main table or the 'Existing setting'
+field being completed when editing a submission item.
+-->
 
 
 
