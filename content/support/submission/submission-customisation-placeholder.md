@@ -33,6 +33,30 @@ examples of this are:
 You can tell when a submission item is linked to a setting under the
 'Setting or Text' column in the main table or the 'Existing setting'
 field being completed when editing a submission item.
+
+
+### Custom HTML
+
+A submission item can also just have some custom HTML, you can fill out
+the 'Text' rich text box. When using the Text field you should not
+select an Existing Setting or this will take precedence when the page is
+rendered.
+
+### Special Display
+
+Special Display settings are used to display Licenses and Sections on
+the Submission page. To add these blocks you need to set the title of
+the item to either:
+
+- licenses
+
+or
+
+- sections
+
+You must also leave 'Text' and 'Existing setting' blank. This will
+render a special template that displays all publicly available sections
+or licenses.
 -->
 
 
