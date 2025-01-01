@@ -1,4 +1,21 @@
-<!-- submission page layout customisation-->
+<!-- ## Submission Page Items
+
+A new addition to v1.4 the Submission Page Items system lets you totally
+customise the Submission page to your liking. The existing submission
+items have automatically been setup for you and can now be edited.
+
+![List of default submission items generated in the v1.4 upgrade process.](../../nstatic/submission-items.png)
+
+You can manage submission items in three ways:
+
+- Link to a setting
+- Custom HTML
+- Special Display
+
+From the main screen you can add new, edit existing and delete items as
+well as re-order them by dragging and dropping rows of the table.
+
+![List of default submission items generated in the v1.4 upgrade process.](../../nstatic/submission-items-reorder.gif)-->
 
 
 
