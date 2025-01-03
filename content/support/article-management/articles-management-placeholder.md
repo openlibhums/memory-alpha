@@ -26,36 +26,9 @@ From this page you can:
 - Manage which issues an article appears in
 - If an article is rejected, unreject the article
 
-## Metadata
 
-The first block of the page lists most of the article's metadata. To
-change it you can press the Edit button.
 
-![Top of the article archive page](../nstatic/edit-metadata.png)
 
-Additionally you can make changes to the author records and re-order
-them as required.
-
-## Publication Information
-
-The article archive page has a link to the Pre Publication page where
-you can make changes to any details there.
-
-## Images
-
-Articles have two images
-
-- Large image  
-  - A large landscape image.
-
-- Thumbnail image  
-  - A small square image displayed next to the article on the
-    Articles/Issue list pages.
-
-- Meta image  
-  - This is used on platforms like Twitter and Facebook when a link is
-    shared, generally the large image is used but in some cases this
-    needs to be overwritten.
 
 ## Publisher Notes
 
@@ -65,30 +38,9 @@ paper like a post-publication update to fix spelling etc.
 
 ![Publisher note on the OLH theme](../nstatic/publisher-note.png)
 
-## Identifiers
 
-Any identifiers such as DOIs are listed here and a link to manage them
-is in the top right of the block.
 
-![The article-level identifiers manager](../nstatic/edit-doi.png)
 
-> [!TIP]
-> You can also manage DOIs at the journal level as an editor (and at the
-press level as a staff user) using the DOI Manager.
-
-## Galleys
-
-Much like the Production page, the article archive allows you to upload
-new and replace old Galley files.
-
-![Galley manager block](../nstatic/galleys-archive.png)
-
-> [!WARNING]
-> Editing a galley will change how it is displayed. If making changes to a
-published piece it is recommended you add a Publisher Note alongside it.
-
-> [!TIP]
-> The Edit Galleys link will take you to the Production page.
 
 ## Issues
 
