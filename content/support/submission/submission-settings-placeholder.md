@@ -73,7 +73,7 @@ affect how submission is experienced.
   - Specific instructions for figures and data files, appearing on the
     figure and data upload pop-up.
 
-    ## Submission Fields Configurator
+## Submission Fields Configurator
 
 The submission fields configurator lets you enable or disable submission
 fields. This page has three complexities:
