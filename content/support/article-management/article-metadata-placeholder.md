@@ -20,3 +20,9 @@ is in the top right of the block.
 press level as a staff user) using the DOI Manager.
 
 More about identifiers (in folder - link here)
+
+## Publication Information
+
+The article archive page has a link to the Pre Publication page where
+you can make changes to any details there.
+
