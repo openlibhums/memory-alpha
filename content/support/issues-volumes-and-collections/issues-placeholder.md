@@ -161,3 +161,97 @@ and then re-registering any of the articles in the issue with Crossref.
 DOI will be registered with Crossref. In a future version, it will be
 possible to register issue DOIs on their own, even when they have no
 articles or all its articles are part of multiple issues.
+
+
+<!-- needs to be edited and sorted, currently merged from different sections-->
+
+## Issue Manager
+
+The issue manager lets you create, edit, delete and manage article
+records for issues.The main interface presents a list of your existing
+issue records with buttons to:
+
+- Create a new issue
+- Edit a given issue
+- Delete a given issue
+- Mark an issue as Current
+
+It also displays some basic data about the issues like date published
+and the number of articles in an issue.
+
+![Issue list](../../nstatic/issue-manager.png)
+
+### Creating a New Issue or Collection
+
+To create an issue select *Create Issue* in the top right and in the
+modal that appears you can complete the issue metadata.
+
+- Title  
+  - Optional, a title for the issue.
+
+- Volume  
+  - The volume number.
+
+- Issue  
+  - The issue number.
+
+- Date  
+  - The date published, if in the future the issue wont appear until the
+    date published.
+
+- Cover Image  
+  - The cover image, see example below.
+
+- Large Image  
+  - A large image file used at the head of the issue page, will be
+    resized automatically but should be landscape.
+
+- Description
+
+- Issue type  
+  - Issues can be standard issues or can also be collections which are
+    used to collect articles from across the journal into narratives.
+
+![New issue form](../../nstatic/new-issue.png)
+
+- Issue DOI  
+  - Issues can have a DOI, which will be registered with all of its
+    articles in Crossref. If you are using Janeway's autoregistration
+    (recommended) or if you are not interested on registering DOIs for
+    issues, you can leave this field blank.
+
+### Issue Articles
+
+You can manage the article associated with a given issue by selecting
+the *View* option, the data of the issue will be displayed along with a
+list of articles grouped by section.
+
+![An issue page](../../nstatic/issue-page.png)
+
+You can reorder the Section headers using the arrows Up and Down arrows
+on the right and you can re-order the articles within their sections by
+dragging and dropping them into the order you want. To add a new article
+into the issue select *Add Article* and select the article you want to
+add.
+
+In addition, if the issue has guest editors you can add them using the
+Guest Editor manager at the bottom of the Issue page.
+
+### Projected Issues
+
+Janeway allows editors to mark articles as projected to be published
+within a given issue. This can be done in the Editor Assignment stage by
+using the "Assign Projected Issue" button.
+
+> [!WARNING]
+> Assigning an article a projected issue is not the same as assigning an
+article directly to an issue. Projected issues are used mainly for
+internal tracking.
+
+![On the Editor Assignment screen you can see which issue an article is projected to be in.](../../nstatic/assign-projected-issue-link.png)
+
+On the projected issue screen you can select, from a drop down, the
+issue you expect the article to be published in.
+
+![Select an issue and click "Save Projected Issue" to update the projected issue for your article.](../../nstatic/assign-a-projected-issue.png)
+
