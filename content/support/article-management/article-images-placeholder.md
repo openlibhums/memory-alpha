@@ -42,3 +42,5 @@ images for a given article.
 
 ![Example of a meta image on Twitter](../../nstatic/meta-image.png)
 
+
+See also: image guidelines
