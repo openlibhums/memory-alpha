@@ -11,9 +11,20 @@
     aria-controls="timeline-text-block-{{ year }}"
     class="point fs-4 ff-space-mono-regular text-white {{ state }}"
     style="--i: {{ i }};">
-    <span
-      class="point-label">
+    <span class="arrow-keyboard up">
+      {% include "svg/noun-arrow-keyboard-up.svg" %}
+    </span>
+    <span class="arrow-keyboard left">
+      {% include "svg/noun-arrow-keyboard-left.svg" %}
+    </span>
+    <span class="point-label">
       {{ year }}
+    </span>
+    <span class="arrow-keyboard down">
+      {% include "svg/noun-arrow-keyboard-down.svg" %}
+    </span>
+    <span class="arrow-keyboard right">
+      {% include "svg/noun-arrow-keyboard-right.svg" %}
     </span>
     <span class="point-circle"></span>
   </button>
