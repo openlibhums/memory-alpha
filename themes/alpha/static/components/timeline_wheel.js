@@ -25,34 +25,36 @@ function changeSelection(timeline, point) {
   textBlock.setAttribute("tabindex", 0);
 }
 
-function setKeyEvents(timeline) {
-  const tabList = timeline.querySelector('[role="tablist"]');
-  const tabs = tabList.querySelectorAll('[role="tab"]');
-  let tabFocus = 0;
-  for (const tab of tabs) {
-    tab.addEventListener("keydown", (e) => {
-      if (e.key === "ArrowRight" || e.key === "ArrowLeft" || e.key === "ArrowDown" || e.key === "ArrowUp") {
-        e.preventDefault();
-        tab.setAttribute("tabindex", -1);
-        if (e.key === "ArrowRight" || e.key === "ArrowDown") {
-          tabFocus++;
-          // If we're at the end, go to the start
-          if (tabFocus >= tabs.length) {
-            tabFocus = 0;
-          }
-        } else if (e.key === "ArrowLeft" || e.key === "ArrowUp") {
-          tabFocus--;
-          // If we're at the start, move to the end
-          if (tabFocus < 0) {
-            tabFocus = tabs.length - 1;
-          }
-        }
+function remToPx(rem) {
+  return rem * parseFloat(getComputedStyle(document.documentElement).fontSize);
+}
 
-        tabs[tabFocus].setAttribute("tabindex", 0);
-        tabs[tabFocus].focus();
-      }
-    });
+function detectDirection() {
+  const breakpointRem = 50;
+  if (window.innerWidth <= remToPx(breakpointRem)) {
+    return ["ArrowUp", "ArrowDown"]
+  } else {
+    return ["ArrowLeft", "ArrowRight"]
   }
+}
+
+function setArrowKeyEvents(timeline) {
+  const tabList = timeline.querySelector('[role="tablist"]');
+  tabList.addEventListener("keydown", (e) => {
+    if (e.key === "ArrowRight" || e.key === "ArrowLeft" || e.key === "ArrowDown" || e.key === "ArrowUp") {
+      e.preventDefault();
+      const [arrowDecrement, arrowIncrement] = detectDirection();
+      console.log(arrowDecrement, arrowIncrement);
+      const currentTab = document.querySelector('.point.selected');
+      if (e.key === arrowDecrement) {
+        changeSelection(timeline, currentTab.previousElementSibling);
+        currentTab.previousElementSibling.focus();
+      } else if (e.key === arrowIncrement) {
+        changeSelection(timeline, currentTab.nextElementSibling);
+        currentTab.nextElementSibling.focus();
+      }
+    }
+  });
 }
 
 function setClickEvents(timeline) {
@@ -67,10 +69,10 @@ function setClickEvents(timeline) {
 export default function timelineWheel() {
   const timelineWheels = document.querySelectorAll('[data-timeline-wheel]');
   try {
-  for (const timeline of Array.from(timelineWheels)) {
-    setKeyEvents(timeline);
-    setClickEvents(timeline);
-  }
+    for (const timeline of Array.from(timelineWheels)) {
+      setArrowKeyEvents(timeline);
+      setClickEvents(timeline);
+    }
   } catch (e) {
     alert(e);
   }
