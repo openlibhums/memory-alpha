@@ -68,13 +68,13 @@
   }
   .arrow-keyboard.left {
     width: 2.2rem;
-    left: -2.6rem;
-    top: 1.8rem;
+    bottom: -2.6rem;
+    left: 0.6rem;
   }
   .arrow-keyboard.right {
     width: 2.2rem;
-    right: -2.6rem;
-    top: 1.8rem;
+    bottom: -2.6rem;
+    right: 0.6rem;
   }
 
   .text-block.selected {
