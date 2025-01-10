@@ -17,7 +17,11 @@
     background: transparent;
     cursor: pointer;
   }
-
+  button:focus {
+    outline-width: 3px;
+    outline-color: var(--clr-tan);
+    outline-style: dotted;
+  }
   .point-circle {
     width: calc(var(--tracksize) * 6);
     height: calc(var(--tracksize) * 6);
@@ -33,12 +37,46 @@
     background: var(--clr-rust);
   }
   :not(.selected) .point-label {
+    color: var(--clr-tan);
     opacity: 70%;
   }
   .point:hover .point-label,
   .selected .point-label {
+    color: var(--clr-tan);
     opacity: 100%;
   }
+
+  /* Arrow key icons for visual keyboard users */
+
+  .arrow-keyboard {
+    display: none;
+    position: absolute;
+  }
+  .arrow-keyboard svg {
+    color: var(--clr-tan);
+  }
+
+  .arrow-keyboard.up {
+    width: 1.6rem;
+    left: -2rem;
+    top: 0;
+  }
+  .arrow-keyboard.down {
+    width: 1.6rem;
+    left: -2rem;
+    bottom: 0;
+  }
+  .arrow-keyboard.left {
+    width: 2.2rem;
+    left: -2.6rem;
+    top: 1.8rem;
+  }
+  .arrow-keyboard.right {
+    width: 2.2rem;
+    right: -2.6rem;
+    top: 1.8rem;
+  }
+
   .text-block.selected {
     display: block;
   }
@@ -47,8 +85,8 @@
   }
   .text-block:focus {
     outline-color: var(--clr-tan);
-    outline-width: 2px;
-    outline-style: solid;
+    outline-width: 3px;
+    outline-style: dotted;
   }
   .text-block p {
     font-size: var(--step-3);
@@ -84,6 +122,7 @@
       align-items: center;
       column-gap: var(--space-s);
       padding-block: var(--space-s);
+      padding-inline-end: var(--space-xs);
       position: relative;
     }
     .point:hover::after,
@@ -96,6 +135,10 @@
       right: 100%;
       top: calc(50% - var(--tracksize) / 4);
       z-index: 1;
+    }
+    .point:focus .arrow-keyboard.up,
+    .point:focus .arrow-keyboard.down {
+      display: block;
     }
     .text-blocks {
       display: grid;
@@ -161,6 +204,10 @@
       top: 100%;
       left: calc(50% - var(--tracksize) / 4);
       z-index: 1;
+    }
+    .point:focus .arrow-keyboard.left,
+    .point:focus .arrow-keyboard.right {
+      display: block;
     }
     .point-label {
       margin-block-start: var(--space-m);
