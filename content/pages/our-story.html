@@ -3,7 +3,8 @@
 {% from "components/page_section_group.html" import page_section_group %}
 {% from "components/button.html" import button %}
 {% from "components/page_section_header.html" import page_section_header_wrapper, page_section_header, page_section_intro_text %}
-{% from "components/slide_gallery.html" import slide_gallery, slide, sr_only_h2, slide_h3 %}
+{% from "components/slide_gallery.html" import slide_gallery, slide, slide_h3 %}
+{% from "components/sr_only_h2.html" import sr_only_h2 %}
 
 <head>
   <title>Our Story</title>
@@ -52,7 +53,10 @@
       Meet the Crew
     {% endcall %}
   {% endcall %}
-  {% call page_section(bg="bg-blue", prose="", labelledby="heading-timeline") %}
+  {% call sr_only_h2(id="timeline-wheel-h2") -%}
+    Timeline
+  {%- endcall %}
+  {% call page_section(bg="bg-blue", prose="", labelledby="timeline-wheel-h2") %}
     {% include "components/timeline_wheel.html" %}
   {% endcall %}
   {% call sr_only_h2(id="slide-gallery-h2") -%}
