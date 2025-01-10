@@ -1,14 +1,3 @@
-{% macro sr_only_h2(id="slide-gallery-h2") -%}
-  {# A heading for the whole gallery. Call before page_section
-  so that it does not interrupt flow spacing.
-  id: str - the id to be used by aria-labelledby on the page_section
-  #}
-  <h2 class="sr-only">
-    {{ caller() }}
-  </h2>
-{%- endmacro %}
-
-
 {% macro slide_h3() -%}
   {# A slide heading. Call inside slide. #}
   <h3 class="ff-space-mono-regular fs-5">
