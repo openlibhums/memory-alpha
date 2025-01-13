@@ -2,7 +2,7 @@
 
   --start-angle: 170deg;
   --angle: var(--start-angle);
-  --increment: 20deg;
+  --increment: 14deg;
   --tracksize: 4px;
   --side: 96px;
   --apothem: calc(var(--side) / 2);
