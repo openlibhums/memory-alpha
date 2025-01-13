@@ -120,7 +120,7 @@ For components that need to nest other content, you can use jinja’s macro synt
 ```html
 <!-- themes/[theme]/static/components/example_component.html -->
 {% macro example_component() -%}
-  <div class="bg-tan text-blue">
+  <div class="bg-alpha-white text-alpha-blue">
     {{ caller() }}
   </div>
 {%- endmacro %}
@@ -158,23 +158,23 @@ the colors defined in `css/settings.css` and `css/utilities.css`, we have
 identified these accessible colour pairs for text and semantic elements:
 
 ```
-text-tan bg-black
-text-rust bg-black
-text-black bg-tan
-text-orange bg-tan
-text-blue bg-tan
-text-tan bg-orange
-text-tan bg-blue
-text-black bg-rust
+text-alpha-white bg-alpha-black
+text-alpha-yellow bg-alpha-black
+text-alpha-black bg-alpha-white
+text-alpha-red bg-alpha-white
+text-alpha-blue bg-alpha-white
+text-alpha-white bg-alpha-red
+text-alpha-white bg-alpha-blue
+text-alpha-black bg-alpha-yellow
 ```
 
-Other combinations may be used (e.g. bg-rust + bg-orange) if the boundary
+Other combinations may be used (e.g. bg-alpha-yellow + bg-alpha-red) if the boundary
 between them is not used to designate a semantic or navigational element
 (e.g. a button). Textured backgrounds may be used behind text in certain cases,
 but only when the text is large enough for sufficient contrast.
 
 Note that you can use `best_foreground` from `utils.html` to make
-to produce accessible colour pairs. It chooses either tan or blue text
+to produce accessible colour pairs. It chooses either white or blue text
 based on the background colour you pass in.
 
 ### JS assets

@@ -74,7 +74,7 @@
   .previous-slide-button svg,
   .next-slide-button svg {
     width: max-content;
-    color: var(--clr-blue);
+    color: var(--clr-alpha-blue);
     margin-inline: var(--space-xs);
     opacity: 50%;
     max-width: var(--step-5);
@@ -94,10 +94,10 @@
   .label-wrapper {
     display: flex;
     gap: 1rem;
-    color: var(--clr-tan);
+    color: var(--clr-alpha-white);
   }
   .label {
-    background-color: var(--clr-orange);
+    background-color: var(--clr-alpha-red);
     padding-block: 0.5rem;
     padding-inline: var(--space-xs);
     font-size: var(--step-2);
@@ -119,7 +119,7 @@
     width: 1.3rem;
     height: 1.3rem;
     margin: var(--circle-padding);
-    background: var(--clr-blue);
+    background: var(--clr-alpha-blue);
     border-radius: 50%;
     opacity: 50%;
   }

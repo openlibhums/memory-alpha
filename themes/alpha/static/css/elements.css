@@ -1,6 +1,6 @@
 body {
-  color: var(--clr-tan);
-  background-color: var(--clr-black);
+  color: var(--clr-alpha-white);
+  background-color: var(--clr-alpha-black);
   font-family: var(--ff-poppins-regular);
   overflow-x: hidden;
 }
@@ -43,5 +43,5 @@ p {
   --flow-space: var(--space-s);
 }
 hr {
-  background-color: var(--clr-blue);
+  background-color: var(--clr-alpha-blue);
 }

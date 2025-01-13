@@ -31,7 +31,7 @@
 
   a:not(.logo a) {
     text-decoration: none;
-    color: var(--clr-tan);
+    color: var(--clr-alpha-white);
     font-family: var(--ff-poppins-medium);
     position: relative;
     padding: 0.7rem 0;
@@ -72,14 +72,14 @@
     display: none;
     background: none;
     border: none;
-    color: var(--clr-tan);
+    color: var(--clr-alpha-white);
     cursor: pointer;
   }
 
   .combined-menu {
     display: none;
     flex-direction: column;
-    background-color: var(--clr-black);
+    background-color: var(--clr-alpha-black);
     align-items: flex-start;
     width: 100%;
     transition: max-height 0.3s ease;
@@ -91,7 +91,7 @@
       flex-direction: column;
 
       li {
-        border-bottom: 1px solid var(--clr-tan);
+        border-bottom: 1px solid var(--clr-alpha-white);
         padding-block-end: var(--space-xs);
       }
 

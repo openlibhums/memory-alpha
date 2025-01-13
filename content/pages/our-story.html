@@ -14,7 +14,7 @@
   {% call page_h1() -%}
     Our Story
   {%- endcall %}
-  {% call page_section(labelledby="how-we-came-into-being", bg="bg-tan", prose="") %}
+  {% call page_section(labelledby="how-we-came-into-being", bg="bg-alpha-white", prose="") %}
 
     {% call page_section_header_wrapper() %}
       {% call page_section_header(id="how-we-came-into-being") %}
@@ -27,7 +27,7 @@
     {% endcall %}
 
     {% call page_section_group() %}
-      {% call page_section(labelledby="what-is-janeway", bg="bg-tan", layout="layout-left") %}
+      {% call page_section(labelledby="what-is-janeway", bg="bg-alpha-white", layout="layout-left") %}
         <h3 id="what-is-janeway" class="ff-space-mono-bold">
           What is Janeway?
         </h3>
@@ -46,7 +46,7 @@
         and researchers.</p>
       {% endcall %}
 
-      {% call page_section(labelledby="olh", bg="bg-tan", layout="layout-right") %}
+      {% call page_section(labelledby="olh", bg="bg-alpha-white", layout="layout-right") %}
         <h3 id="olh" class="ff-space-mono-bold">
           The OLH
         </h3>
@@ -66,7 +66,7 @@
 
     {% endcall %}
 
-    {% call page_section(labelledby="birkbeck", bg="bg-tan", prose="") %}
+    {% call page_section(labelledby="birkbeck", bg="bg-alpha-white", prose="") %}
       <h3 id="birkbeck" class="ff-space-mono-bold">
         Birkbeck
       </h3>
@@ -77,20 +77,20 @@
       UK’s most established publishers.</p>
     {% endcall %}
 
-    {% call button(volume="loud", parent_text_color="blue", parent_background_color="tan") %}
+    {% call button(volume="loud", parent_text_color="blue", parent_background_color="white") %}
       Meet the crew
     {% endcall %}
   {% endcall %}
   {% call sr_only_h2(id="timeline-wheel-h2") -%}
     Timeline
   {%- endcall %}
-  {% call page_section(bg="bg-blue", prose="", labelledby="timeline-wheel-h2") %}
+  {% call page_section(bg="bg-alpha-blue", prose="", labelledby="timeline-wheel-h2") %}
     {% include "components/timeline_wheel.html" %}
   {% endcall %}
   {% call sr_only_h2(id="slide-gallery-h2") -%}
     Janeway Axioms
   {%- endcall %}
-  {% call page_section(bg="bg-tan", labelledby="slide-gallery-h2", layout="layout-full-small", prose="") %}
+  {% call page_section(bg="bg-alpha-white", labelledby="slide-gallery-h2", layout="layout-full-small", prose="") %}
     {% call slide_gallery(num_slides=5) -%}
       {% call slide(num=1, label="Axiom") -%}
         {% call slide_h3() -%}

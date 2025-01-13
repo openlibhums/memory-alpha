@@ -1,6 +1,6 @@
 .footer {
   a {
-        color: var(--clr-tan);
+        color: var(--clr-alpha-white);
         position: relative;
         @media(width > 50rem) {
           padding-bottom: 0.7rem;
@@ -31,10 +31,10 @@
   }
 
   .circle-path-blue {
-    fill: var(--clr-blue);
+    fill: var(--clr-alpha-blue);
   }
-  .circle-path-orange {
-    fill: var(--clr-orange);
+  .circle-path-red {
+    fill: var(--clr-alpha-red);
   }
   .circle-top {
     position: absolute;
@@ -68,9 +68,9 @@
       }
     .text-input {
         border: none;
-        border-bottom: 2px solid var(--clr-tan);
+        border-bottom: 2px solid var(--clr-alpha-white);
         background-color: transparent;
-        color: var(--clr-tan);
+        color: var(--clr-alpha-white);
         font-size: 16px;
         padding: 5px;
         width: 100%;

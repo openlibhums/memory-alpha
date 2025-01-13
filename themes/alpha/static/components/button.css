@@ -12,37 +12,37 @@
         line-height: 1.1;
 
         /* borders */
-        &.border-black { border: solid var(--clr-black) 2px; }
-        &.border-tan { border: solid var(--clr-tan) 2px; }
-        &.border-orange { border: solid var(--clr-orange) 2px; }
-        &.border-blue { border: solid  var(--clr-blue) 2px; }
-        &.border-rust { border: solid var(--clr-rust) 2px; }
+        &.border-black { border: solid var(--clr-alpha-black) 2px; }
+        &.border-white { border: solid var(--clr-alpha-white) 2px; }
+        &.border-blue { border: solid  var(--clr-alpha-blue) 2px; }
+        &.border-red { border: solid var(--clr-alpha-red) 2px; }
+        &.border-yellow { border: solid var(--clr-alpha-yellow) 2px; }
 
        /* color pairs foreground-background*/
-       &.tan-on-black{color: var(--clr-tan); background-color: var(--clr-black);}
-       &.black-on-tan{ color: var(--clr-black); background-color: var(--clr-tan); }
+       &.white-on-black{color: var(--clr-alpha-white); background-color: var(--clr-alpha-black);}
+       &.black-on-white{ color: var(--clr-alpha-black); background-color: var(--clr-alpha-white); }
    
-       &.rust-on-black{ color: var(--clr-rust); background-color: var(--clr-black); }
-       &.black-on-rust{ color: var(--clr-black); background-color: var(--clr-rust); }
+       &.yellow-on-black{ color: var(--clr-alpha-yellow); background-color: var(--clr-alpha-black); }
+       &.black-on-yellow{ color: var(--clr-alpha-black); background-color: var(--clr-alpha-yellow); }
    
-       &.tan-on-orange{ color: var(--clr-tan); background-color: var(--clr-orange); }
-       &.orange-on-tan{ color: var(--clr-orange); background-color: var(--clr-tan); }
+       &.white-on-red{ color: var(--clr-alpha-white); background-color: var(--clr-alpha-red); }
+       &.red-on-white{ color: var(--clr-alpha-red); background-color: var(--clr-alpha-white); }
    
-       &.tan-on-blue{ color: var(--clr-tan); background-color: var(--clr-blue); }
-       &.blue-on-tan{ color: var(--clr-blue); background-color: var(--clr-tan); }
+       &.white-on-blue{ color: var(--clr-alpha-white); background-color: var(--clr-alpha-blue); }
+       &.blue-on-white{ color: var(--clr-alpha-blue); background-color: var(--clr-alpha-white); }
    
        /* hover inversing color pair */
-       &.tan-on-black:hover{ color: var(--clr-black); background-color: var(--clr-tan); }
-       &.black-on-tan:hover{ color: var(--clr-tan); background-color: var(--clr-black); }
+       &.white-on-black:hover{ color: var(--clr-alpha-black); background-color: var(--clr-alpha-white); }
+       &.black-on-white:hover{ color: var(--clr-alpha-white); background-color: var(--clr-alpha-black); }
    
-       &.rust-on-black:hover{ color: var(--clr-black); background-color: var(--clr-rust); } 
-       &.black-on-rust:hover{ color: var(--clr-rust); background-color: var(--clr-black); }
+       &.yellow-on-black:hover{ color: var(--clr-alpha-black); background-color: var(--clr-alpha-yellow); }
+       &.black-on-yellow:hover{ color: var(--clr-alpha-yellow); background-color: var(--clr-alpha-black); }
    
-       &.tan-on-orange:hover{ color: var(--clr-orange); background-color: var(--clr-tan); }
-       &.orange-on-tan:hover{ color: var(--clr-tan); background-color: var(--clr-orange); }
+       &.white-on-red:hover{ color: var(--clr-alpha-red); background-color: var(--clr-alpha-white); }
+       &.red-on-white:hover{ color: var(--clr-alpha-white); background-color: var(--clr-alpha-red); }
    
-       &.tan-on-blue:hover{ color: var(--clr-blue); background-color: var(--clr-tan); }
-       &.blue-on-tan:hover{ color: var(--clr-tan); background-color: var(--clr-blue); }
+       &.white-on-blue:hover{ color: var(--clr-alpha-blue); background-color: var(--clr-alpha-white); }
+       &.blue-on-white:hover{ color: var(--clr-alpha-white); background-color: var(--clr-alpha-blue); }
     }
 
 

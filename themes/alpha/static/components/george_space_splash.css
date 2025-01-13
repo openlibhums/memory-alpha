@@ -95,9 +95,9 @@
     }
     z-index: 3;
   }
-  .rust-circle {
+  .yellow-circle {
     padding: var(--portal-padding);
-    background-color: var(--clr-rust);
+    background-color: var(--clr-alpha-yellow);
     clip-path: circle(50%);
   }
   .picture-portal {
@@ -108,11 +108,11 @@
       height: 400px;
     }
   }
-  .orange-circle {
+  .red-circle {
     padding: var(--portal-padding);
     height: 100%;
     width: 100%;
-    background-color: var(--clr-orange);
+    background-color: var(--clr-alpha-red);
     clip-path: circle(47%);
   }
   .george-picture {
@@ -157,7 +157,7 @@
     clip-path: circle(50%);
     display: grid;
     place-content: center;
-    background: var(--clr-blue);
+    background: var(--clr-alpha-blue);
     @media (width > 50rem) {
       height: 20rem;
       width: 20rem;
@@ -178,8 +178,8 @@
 
   .george-text p,
   .space-text p {
-    color: var(--clr-tan);
-    background: var(--clr-blue);
+    color: var(--clr-alpha-white);
+    background: var(--clr-alpha-blue);
     padding-inline: 1rem;
     font-size: 1.2rem;
     @media (width > 50rem) {
@@ -223,13 +223,13 @@
     display: block;
     height: 22px;
     width: 6px;
-    background: var(--clr-white);
+    background: var(--clr-alpha-white);
   }
   &:not(.running) .play-pause .triangle {
     display: block;
     height: 20px;
     width: 20px;
-    background: var(--clr-white);
+    background: var(--clr-alpha-white);
     clip-path: polygon(15% 0, 100% 50%, 15% 100%);
   }
 
@@ -239,7 +239,7 @@
     outline: 2px solid transparent;
   }
   .select-slide-1 {
-    outline: 2px solid var(--clr-tan);
+    outline: 2px solid var(--clr-alpha-white);
   }
   .play-pause:hover,
   .select-slide-1:hover,
@@ -247,11 +247,11 @@
   &.running .play-pause,
   &.showing-slide-1 .select-slide-1,
   &.showing-slide-2 .select-slide-2 {
-    outline-color: var(--clr-tan);
+    outline-color: var(--clr-alpha-white);
   }
 
   /* Animations */
-  .orange-circle {
+  .red-circle {
     animation: 6s 1s transitionImage infinite alternate;
   }
   .george-text {
@@ -271,10 +271,10 @@
     }
   }
   .tiny-circle.select-slide-1 {
-    animation: 6s 1s tanToTransparent infinite alternate;
+    animation: 6s 1s whiteToTransparent infinite alternate;
   }
   .tiny-circle.select-slide-2 {
-    animation: 6s 1s transparentToTan infinite alternate;
+    animation: 6s 1s transparentToWhite infinite alternate;
   }
 
   /* Animation state controls */
@@ -331,16 +331,16 @@
   100% { margin-block-start: -8rem; }
 }
 
-@keyframes transparentToTan {
+@keyframes transparentToWhite {
   0% { outline-color: transparent; }
   40% { outline-color: transparent; }
-  60% { outline-color: var(--clr-tan); }
-  100% { outline-color: var(--clr-tan); }
+  60% { outline-color: var(--clr-alpha-white); }
+  100% { outline-color: var(--clr-alpha-white); }
 }
 
-@keyframes tanToTransparent {
-  0% { outline-color: var(--clr-tan); }
-  40% { outline-color: var(--clr-tan); }
+@keyframes whiteToTransparent {
+  0% { outline-color: var(--clr-alpha-white); }
+  40% { outline-color: var(--clr-alpha-white); }
   60% { outline-color: transparent; }
   100% { outline-color: transparent; }
 }
