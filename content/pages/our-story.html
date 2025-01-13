@@ -1,6 +1,7 @@
 {% from "components/page_h1.html" import page_h1 %}
 {% from "components/page_section.html" import page_section %}
 {% from "components/page_section_group.html" import page_section_group %}
+{% from "components/prose_columns.html" import prose_columns, column %}
 {% from "components/button.html" import button %}
 {% from "components/page_section_header.html" import page_section_header_wrapper, page_section_header, page_section_intro_text %}
 {% from "components/slide_gallery.html" import slide_gallery, slide, slide_h3 %}
@@ -14,7 +15,7 @@
   {% call page_h1() -%}
     Our Story
   {%- endcall %}
-  {% call page_section(labelledby="how-we-came-into-being", bg="bg-alpha-white", prose="") %}
+  {% call page_section(labelledby="how-we-came-into-being", bg="bg-alpha-white") %}
 
     {% call page_section_header_wrapper() %}
       {% call page_section_header(id="how-we-came-into-being") %}
@@ -26,8 +27,8 @@
       {% endcall %}
     {% endcall %}
 
-    {% call page_section_group() %}
-      {% call page_section(labelledby="what-is-janeway", bg="bg-alpha-white", layout="layout-left") %}
+    {% call prose_columns() %}
+      {% call column() %}
         <h3 id="what-is-janeway" class="ff-space-mono-bold">
           What is Janeway?
         </h3>
@@ -45,8 +46,7 @@
         frameworks, and its dedicated communities of developers, scientists,
         and researchers.</p>
       {% endcall %}
-
-      {% call page_section(labelledby="olh", bg="bg-alpha-white", layout="layout-right") %}
+      {% call column() %}
         <h3 id="olh" class="ff-space-mono-bold">
           The OLH
         </h3>
@@ -63,19 +63,16 @@
         publishers achieve the same goal of investing in not-for-profit
         technology that is sustainable.</p>
       {% endcall %}
-
     {% endcall %}
 
-    {% call page_section(labelledby="birkbeck", bg="bg-alpha-white", prose="") %}
-      <h3 id="birkbeck" class="ff-space-mono-bold">
-        Birkbeck
-      </h3>
-      <p>Our team of expert technologists and humanities scholars are based at
-      Birkbeck, University of London. Though we work remotely in different
-      countries, our home is the vibrant and leafy Bloomsbury quarter, known as
-      the intellectual and literary capital of London and home to some of the
-      UK’s most established publishers.</p>
-    {% endcall %}
+    <h3 id="birkbeck" class="ff-space-mono-bold">
+      Birkbeck
+    </h3>
+    <p>Our team of expert technologists and humanities scholars are based at
+    Birkbeck, University of London. Though we work remotely in different
+    countries, our home is the vibrant and leafy Bloomsbury quarter, known as
+    the intellectual and literary capital of London and home to some of the
+    UK’s most established publishers.</p>
 
     {% call button(volume="loud", parent_text_color="blue", parent_background_color="white") %}
       Meet the crew
