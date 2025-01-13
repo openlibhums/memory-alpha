@@ -19,7 +19,7 @@
   }
   button:focus {
     outline-width: 3px;
-    outline-color: var(--clr-tan);
+    outline-color: var(--clr-alpha-white);
     outline-style: dotted;
   }
   .point-circle {
@@ -30,19 +30,19 @@
     z-index: 1;
   }
   :not(.selected) .point-circle {
-    background: var(--clr-tan);
+    background: var(--clr-alpha-white);
   }
   .point:hover .point-circle,
   .point.selected .point-circle {
-    background: var(--clr-rust);
+    background: var(--clr-alpha-yellow);
   }
   :not(.selected) .point-label {
-    color: var(--clr-tan);
+    color: var(--clr-alpha-white);
     opacity: 70%;
   }
   .point:hover .point-label,
   .selected .point-label {
-    color: var(--clr-tan);
+    color: var(--clr-alpha-white);
     opacity: 100%;
   }
 
@@ -53,7 +53,7 @@
     position: absolute;
   }
   .arrow-keyboard svg {
-    color: var(--clr-tan);
+    color: var(--clr-alpha-white);
   }
 
   .arrow-keyboard.up {
@@ -84,7 +84,7 @@
     display: none;
   }
   .text-block:focus {
-    outline-color: var(--clr-tan);
+    outline-color: var(--clr-alpha-white);
     outline-width: 3px;
     outline-style: dotted;
   }
@@ -110,7 +110,7 @@
     .wheel::before {
       content: '';
       width: calc(2 * var(--tracksize));
-      background: var(--clr-tan);
+      background: var(--clr-alpha-white);
       position: absolute;
       top: calc(var(--space-s) + (2 * var(--tracksize)));
       bottom: calc(var(--space-s) + (2 * var(--tracksize)));
@@ -130,7 +130,7 @@
       content: "";
       height: calc(var(--tracksize) / 2);
       width: 8rem;
-      background-color: var(--clr-rust);
+      background-color: var(--clr-alpha-yellow);
       position: absolute;
       right: 100%;
       top: calc(50% - var(--tracksize) / 4);
@@ -163,7 +163,7 @@
       height: calc(var(--full-diameter) / 2);
       aspect-ratio: 1;
       border-radius: var(--full-diameter) var(--full-diameter) 0 0;
-      border: var(--tracksize) solid var(--clr-tan);
+      border: var(--tracksize) solid var(--clr-alpha-white);
       border-bottom: none;
       margin: var(--space-xl) auto;
       position: relative;
@@ -199,7 +199,7 @@
       content: "";
       height: 8rem;
       width: calc(var(--tracksize) / 2);
-      background-color: var(--clr-rust);
+      background-color: var(--clr-alpha-yellow);
       position: absolute;
       top: 100%;
       left: calc(50% - var(--tracksize) / 4);
@@ -225,7 +225,7 @@
       z-index: 2;
     }
     .text-block {
-      background: var(--clr-blue);
+      background: var(--clr-alpha-blue);
       padding: var(--space-s);
     }
     .text-block:focus {

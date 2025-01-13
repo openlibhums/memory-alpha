@@ -1,14 +1,14 @@
 {# A utility to help maintain accessible colour contrast.
-bg - str: one of 'bg-black', 'bg-orange', 'bg-blue', or 'bg-tan'.
+bg - str: one of 'bg-alpha-black', 'bg-alpha-red', 'bg-alpha-blue', or 'bg-alpha-white'.
 
-Note that bg-rust is not a good background choice for text, but
+Note that bg-alpha-yellow is not a good background choice for text, but
 if you must use it, use a black foreground.
 #}
 
-{% macro best_foreground(bg='bg-black') -%}
-  {% if bg=='bg-black' or bg=='bg-orange' or bg=='bg-blue' %}
-    text-tan
-  {% elif bg=='bg-tan' %}
-    text-blue
+{% macro best_foreground(bg='bg-alpha-black') -%}
+  {% if bg=='bg-alpha-black' or bg=='bg-alpha-red' or bg=='bg-alpha-blue' %}
+    text-alpha-white
+  {% elif bg=='bg-alpha-white' %}
+    text-alpha-blue
   {% endif %}
 {%- endmacro %}

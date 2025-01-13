@@ -13,7 +13,7 @@ prose - str: 'prose' or '' to control whether the text should have
 
 {% from "utils.html" import best_foreground %}
 
-{% macro page_section(labelledby="", label="", bg="bg-black", layout="layout-full", prose="prose") -%}
+{% macro page_section(labelledby="", label="", bg="bg-alpha-black", layout="layout-full", prose="prose") -%}
   <div class="page-section {{ bg }} {{ layout }} {{ best_foreground(bg) }}">
     <div class="{{ bg }} background-pane-left"></div>
     <div class="{{ bg }} background-pane-right"></div>

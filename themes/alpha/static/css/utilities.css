@@ -22,18 +22,16 @@
 }
 
 /* Colours */
-.text-black { color: var(--clr-black); }
-.text-white { color: var(--clr-white); }
-.text-tan { color: var(--clr-tan); }
-.text-orange { color: var(--clr-orange); }
-.text-blue { color: var(--clr-blue); }
-.text-rust { color: var(--clr-rust); }
-.bg-black { background-color: var(--clr-black); }
-.bg-white { background-color: var(--clr-white); }
-.bg-tan { background-color: var(--clr-tan); }
-.bg-orange { background-color: var(--clr-orange); }
-.bg-blue { background-color: var(--clr-blue); }
-.bg-rust { background-color: var(--clr-rust); }
+.text-alpha-black { color: var(--clr-alpha-black); }
+.text-alpha-white { color: var(--clr-alpha-white); }
+.text-alpha-blue { color: var(--clr-alpha-blue); }
+.text-alpha-red { color: var(--clr-alpha-red); }
+.text-alpha-yellow { color: var(--clr-alpha-yellow); }
+.bg-alpha-black { background-color: var(--clr-alpha-black); }
+.bg-alpha-white { background-color: var(--clr-alpha-white); }
+.bg-alpha-blue { background-color: var(--clr-alpha-blue); }
+.bg-alpha-red { background-color: var(--clr-alpha-red); }
+.bg-alpha-yellow { background-color: var(--clr-alpha-yellow); }
 
 /* Font families */
 .ff-poppins { font-family: var(--ff-poppins); }
@@ -140,8 +138,8 @@
   border: 0;
 
   /* Avoid irrelevant contrast warnings from a11y checkers */
-  color: var(--clr-tan);
-  background: var(--clr-black);
+  color: var(--clr-alpha-white);
+  background: var(--clr-alpha-black);
 }
 
 /* Hide overflow on the left and right of an element */
