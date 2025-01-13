@@ -1,7 +1,3 @@
-html {
-  /* Only needed due to the sticky header */
-  scroll-padding-top: var(--header-height);
-}
 body {
   color: var(--clr-tan);
   background-color: var(--clr-black);
