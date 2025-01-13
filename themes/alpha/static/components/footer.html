@@ -15,23 +15,29 @@
   <div class="grid place-content-center">
     <div class="footer-title-wrapper">
       <p class="footer-title">
-        Sign up to a new way
+        Follow a new way
       </p>
+      <p>Get the latest information on Janeway development and training.</p>
     </div>
     <div class="signup-form">
        <div class="signup-form-wrapper">
-          <label for="signup-form-email" id="signup-form-label" class="">Your Email</label>
+          <label for="signup-form-email" id="signup-form-label" class="">Your email</label>
           <input aria-describedby="signup-form-label" type="email" class="text-input" id="signup-form-email" placeholder="janeway@email.com">
       </div>
     </div>
     {% call link_list(layout='wide') %}
       <li>
-        {% call laser_link(href="https://bsky.app/profile/openlibhums.bsky.social") %}
+        {% call laser_link(href="https://bsky.app/profile/janewayolh.bsky.social", target="_blank") %}
           Bluesky
         {% endcall %}
       </li>
       <li>
-        {% call laser_link(href="https://github.com/openlibhums/janeway") %}
+        {% call laser_link(href="https://fed.brid.gy/bsky/janewayolh.bsky.social", target="_blank") %}
+          Mastodon
+        {% endcall %}
+      </li>
+      <li>
+        {% call laser_link(href="https://github.com/openlibhums/janeway", target="_blank") %}
           GitHub
         {% endcall %}
       </li>
@@ -62,19 +68,25 @@
   </div>
   {% call link_list(layout='narrow') %}
     <li>
-      {% call laser_link(href="/copyright/") %}
+      {% call laser_link(href="/pages/accessibility/") %}
+        Accessibility
+      {% endcall %}
+    </li>
+    <li>
+      {% call laser_link(href="/pages/copyright/") %}
         Copyright
       {% endcall %}
     </li>
     <li>
-      {% call laser_link(href="/accessibility/") %}
-        Accessibility
+      {% call laser_link(href="https://www.openlibhums.org/", target="_blank") %}
+        Open Library of Humanities
       {% endcall %}
     </li>
   {% endcall %}
   <div class="copyright-wrapper">
     <p class="copyright">
-        © Birkbeck, University of London
+      Copyright © 2017-2025 <a target="_blank"
+      href="https://www.bbk.ac.uk/">Birkbeck, University of London</a>
     </p>
   </div>
 </footer>
