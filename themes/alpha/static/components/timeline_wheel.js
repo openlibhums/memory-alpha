@@ -44,12 +44,11 @@ function setArrowKeyEvents(timeline) {
     if (e.key === "ArrowRight" || e.key === "ArrowLeft" || e.key === "ArrowDown" || e.key === "ArrowUp") {
       e.preventDefault();
       const [arrowDecrement, arrowIncrement] = detectDirection();
-      console.log(arrowDecrement, arrowIncrement);
       const currentTab = document.querySelector('.point.selected');
-      if (e.key === arrowDecrement) {
+      if (e.key === arrowDecrement && currentTab.previousElementSibling) {
         changeSelection(timeline, currentTab.previousElementSibling);
         currentTab.previousElementSibling.focus();
-      } else if (e.key === arrowIncrement) {
+      } else if (e.key === arrowIncrement && currentTab.nextElementSibling) {
         changeSelection(timeline, currentTab.nextElementSibling);
         currentTab.nextElementSibling.focus();
       }
