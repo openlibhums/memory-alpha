@@ -86,9 +86,6 @@
   --space-2xl: clamp(4.5rem, 4.3261rem + 0.8696vi, 5rem);
   --space-3xl: clamp(6.75rem, 6.4891rem + 1.3043vi, 7.5rem);
 
-  /* Header height and scroll container offset for sticky nav */
-  --header-height: 5.7rem;
-
   /* Container max width and inline padding */
   --container-max-width: 72rem;
   --container-padding-small: 1rem;

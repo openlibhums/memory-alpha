@@ -1,5 +1,4 @@
 {% from "components/main_nav.html" import main_nav %}
-{% from "components/sticky_header.html" import sticky_header %}
 <!DOCTYPE html>
 <html lang="{% block html_lang %}{{ DEFAULT_LANG }}{% endblock html_lang %}">
   <head>
@@ -24,11 +23,11 @@
   </head>
 
   <body>
-    {% call sticky_header() %}
-      {{ main_nav(LEFT_NAV_ITEMS, RIGHT_NAV_ITEMS) }}
-    {% endcall %}
     <div class="overflow-x-hidden">
       <div class="container">
+        <header>
+          {{ main_nav(LEFT_NAV_ITEMS, RIGHT_NAV_ITEMS) }}
+        </header>
         <main>
           {% block content %}
           {% endblock %}

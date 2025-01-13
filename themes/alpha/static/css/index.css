@@ -23,7 +23,6 @@
 @import "../components/page_section_group.css" layer(components);
 @import "../components/page_section_header.css" layer(components);
 @import "../components/slide_gallery.css" layer(components);
-@import "../components/sticky_header.css" layer(components);
 @import "../components/timeline_wheel.css" layer(components);
 
 /* Utilities have greatest precedence */
