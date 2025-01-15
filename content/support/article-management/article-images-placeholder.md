@@ -1,46 +1,30 @@
-## Images
+Title: Article images
+# Article images
 
-Articles have two images
+Articles have three images that are used for display:
 
-- Large image  
-  - A large landscape image.
+- Large landscape image  
+  - This image is used in the heading of the article page on the material and OLH themes. It is resized to 720x324px upon uploading, so it is recommended an image be either this size or larger. This image is also used as the meta image if none is supplied This image will also be used on the homepage carousel if the article is added to it. If no landscape image is uploaded, the ‘Default large image’ will be used where the landscape image is set to display (see Image Guidelines).
+
+
+![Example of the landscape image in an article heading.](../../images/large-image.png)
+
+![Example of the landscape image in the homepage carousel.]()
 
 - Thumbnail image  
-  - A small square image displayed next to the article on the
-    Articles/Issue list pages.
+  - The thumbnail is a small square image displayed on pages listing articles such as the All Articles or the Issue Articles list. A width-to-height ratio of about 3 to 4 is recommended. If no thumbnail is set, this defaults to the Janeway logo.
+
+![Example of thumbnail display on the article listing page](../../images/thumbnail.png)
 
 - Meta image  
-  - This is used on platforms like Twitter and Facebook when a link is
-    shared, generally the large image is used but in some cases this
-    needs to be overwritten.
+  - The meta image allows you to override the image displayed on social media when the article is shared. If no meta image is supplied, the large image is used, but it may not display correctly due to its size.
+
+![Example of a meta image on Twitter](../../images/meta-image.png)
 
     
-## Article Images Manager
+## Article images manager
+The article images manager is an interface for editing all of the images for a given article.
 
-The article images manager pulls is an interface for editing all of the
-images for a given article.
-
-- Large Image File  
-  - The large image is a file used in the heading of the article page on
-    some themes. It is resized to 720x324 px upon uploading so it is
-    recommended an image be either this size or larger. This image will
-    also be used as the meta image if none is supplied and will be used
-    on the carousel when Article display is enabled there.
-
-- Thumbnail  
-  - The thumbnail is displayed on article listing pages like the All
-    Articles list or the Issue Articles list,
-
-- Meta Image  
-  - The meta image allows you to override the image displayed when the
-    article is shared on social media. If no meta image is supplied the
-    large image file is used.
-
-![Example of large image file display](../../nstatic/large-image.png)
-
-![Example of thumbnail display on the article listing page](../../nstatic/thumbnail.png)
-
-![Example of a meta image on Twitter](../../nstatic/meta-image.png)
+See also: image guidelines <!-- missing hyperlink -->
 
 
-See also: image guidelines
