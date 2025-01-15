@@ -1,20 +1,33 @@
-<!-- Title: ORCID login
-
+Title: ORCID login
 # ORCID login
 
-Janeway supports ORCID login.
-- how to register
-- how to login
+**WIP**
 
-## Enable ORCID login
+Janeway supports ORCID login.
+- How to register
+- How to login
+
+<!-- General info - needs some input from dev -->
+
+## Using ORCID to login to Janeway
+*If you don't have ORCID, you will need one. <!-- missing hyperlink -->
+
+Start with:
+
+### Linking ORCID to an existing account
+
+## Technical information
+
+### Enable ORCID login
 To enable ORIC login, you need to add the following to your settings file:
 
     ENABLE_ORCID = True
     ORCID_CLIENT_SECRET = ''
     ORCID_CLIENT_ID = ''
 
-As the URLs for the ORCID API are fixed there is no need to set them.
+As the URLs for the ORCID API are fixed, setting them is unnecessary.
 
-## Callback URLs
-You will need to set the callback URLs in the ORCID interface. If using domain mode you will need to add each domain, if using path you can set just the main domain.
--->
+### Callback URLs
+You will need to set the callback URLs in the ORCID interface. If using domain-mode you will need to add each domain, if using path-mode you can set just the main domain.
+
+
