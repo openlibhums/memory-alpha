@@ -1,104 +1,67 @@
-<!-- ## Submission Page Items
+Title: Configuring the submission process
+# Configuring the submission process
 
-A new addition to v1.4 the Submission Page Items system lets you totally
-customise the Submission page to your liking. The existing submission
-items have automatically been setup for you and can now be edited.
+**WIP**
+ [intro to submission configuration and customisation in Janeway]
 
-![List of default submission items generated in the v1.4 upgrade process.](../../nstatic/submission-items.png)
+## Submission page items and layout
+Configures the submission information page for authors. Found under ‘content’ as it is web content.
 
-You can manage submission items in three ways:
+![](manager-submission-page-items.png)
 
-- Link to a setting
-- Custom HTML
-- Special Display
+## Submission form items
+![](manager-submission-fields-configurator.png)
 
-From the main screen you can add new, edit existing and delete items as
-well as re-order them by dragging and dropping rows of the table.
+Configures the submission process and form for authors. Found under ‘Submission’ as it affects the submission process.
 
-![List of default submission items generated in the v1.4 upgrade process.](../../nstatic/submission-items-reorder.gif)
+The additional submission fields page allows us to add custom fields to the article Info submission page. It works similarly to the Review Forms generator.
 
+To add a new element:
+- Name
+	- This field provides the name of the submission element
+ In case of a short question, you could put a question in this field. If using a longer question, you may wish to use a more generic description and provide further guidance in the help text.
 
+A submission form can have the following types of form elements:
+- Text field
+	- This is a single-line input area for short text answers such as names, keywords or subjects. It does not allow for formatting.
+![](element-text-field.png)
 
-### Link to a Setting
+- Text area
+	- This is a larger, multi-line input area for longer texts such as comments and descriptions. It allows for formatting and line breaks.
+![](element-text-area.png)
 
-You can opt to link a submission item to an existing setting so it will
-display the same content as that setting. This is currently used for the
-majority of the automatically generated submission page items. Some
-examples of this are:
-
-- About
-- Focus and Scope
-- Submission Checklist
-
-You can tell when a submission item is linked to a setting under the
-'Setting or Text' column in the main table or the 'Existing setting'
-field being completed when editing a submission item.
-
-
-### Custom HTML
-
-A submission item can also just have some custom HTML, you can fill out
-the 'Text' rich text box. When using the Text field you should not
-select an Existing Setting or this will take precedence when the page is
-rendered.
-
-### Special Display
-
-Special Display settings are used to display Licenses and Sections on
-the Submission page. To add these blocks you need to set the title of
-the item to either:
-
-- licenses
-
-or
-
-- sections
-
-You must also leave 'Text' and 'Existing setting' blank. This will
-render a special template that displays all publicly available sections
-or licenses.
--->
-
-
-
-## Additional Submission Fields
-
-The additional submission fields page allows us to add custom fields to
-the Article Info submission page. It works in a similar fashion to the
-Review Forms generator.
-
-Field types are:
-
-- Text Field
-- Text Area
 - Checkbox
+	- [Asks users to check a box, can be used to declare no competing interests / agreeing to terms.]
+![](element-check-box.png)
+
 - Select (dropdown)
+	- Shows a predefined list of options allowing users to select one.
+![](element-select.png)
+
 - Email
+	- Specific text field for emails. It checks if the input looks like an email address. / follows the format of an email address.
+![](element-email.png)
+
 - Upload
+	- Asks the users to upload a file from their device.
+![](element-file-upload.png)
+
 - Date
+	-Asks the user to provide a date.
+![](element-date.png)
 
-To add a new Element:
-
-- In the form add Name and select a Kind  
-  - If you choose "select" as kind you will need to add the options to
-    the Choices field. These should be seperated by the bar "\|"
-    character e.g. `choice 1|choice 2|choice 2` or `1|2|3|4|5` if you
-    wanted a numeric choice. If you select any other Kind, ignore the
-    Choices field.
+If you choose the ‘Select’ (dropdown) element, you need create the options. This is done through the ‘Choices’ field. The options should be separated by the bar " | " character, e.g. " choice 1|choice 2|choice 2 ". When using any of the other form elements, you can ignore the ‘Choices’ field.
 
 - Required  
-  - If this field MUST be completed, ensure this box is checked, if it
-    is optional make sure it is not checked
+  - Check this setting’s box to make this part of the form obligatory to complete.
 
 - Order  
-  - The order in which this element will appear on the form
+  - This determines the order of elements on the submission form.
 
+<!--  To be redundant soon
 - Width  
-  - 1/3, 1/2 or Full width. If you put two half width elements next to
-    each other in order they will both display on the same line
+  - This setting configures the width of the submission element; a third half or full width. If you put two half-width elements next to each other in order they will both display on the same line.
 
+ -->
 - Help text  
-  - This text will display under the Name field on the form and explain
-    what the reviewer needs to do with this field.
-
-
+  - This text will display under the submission element and can provide further guidance or information for authors.
