@@ -1,11 +1,16 @@
 Title: Janeway analytics
 #Janeway analytics
 
-[Janeway also counts views and downloads.]
+- Janeway counts views and downloads.
+- Can get author data
+- Review data
+- workflow data
 
 ## How Janeway measures access
 
-Janeway VS COUNTER
+Janeway VS COUNTER.
+
+This section
 
 ## Reporting
 [Brief overview and link to reporting plugin]
