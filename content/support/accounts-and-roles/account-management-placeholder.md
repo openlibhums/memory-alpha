@@ -42,7 +42,7 @@ You can search for existing user accounts by:
 - Last name
 - Email address
 
-> [!TIP]:
+> [!TIP]
 > You don't need to search by all three fields. You can search by first name or email address, for example.
 
 Once you have found an account, you can see which roles they have and which are available to be assigned to them.
@@ -55,7 +55,7 @@ Once you have found an account, you can see which roles they have and which are 
 
 The press manager interface now enables staff members to merge two accounts to eliminate duplicates. All associated objects, such as tasks, articles, roles, and files, will be moved from the source account to the destination account. The account profile remains unchanged, meaning any profile information in the source account will be lost.
 
-> [!WARNING]: 
+> [!WARNING]
 > When searching for users to merge, note that the user account in the left column will be merged into the user account in the right column.
 
 ![A press manager is merging Andy Byers' account into Katheryn Janeway's account.](../../images/merge-users.gif)
