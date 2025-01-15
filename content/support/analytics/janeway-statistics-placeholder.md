@@ -10,10 +10,10 @@ Title: Janeway analytics
 
 Janeway VS COUNTER.
 
-This section
+This section needs dev input
 
 ## Reporting
-[Brief overview and link to reporting plugin]
+Brief overview and link to reporting plugin
 
 ### Institutional statistics
 
