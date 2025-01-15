@@ -1,72 +1,88 @@
-Title: Review Forms
+Title: Review forms
+
 # Review forms
+Review forms can be found in the manager dashboard, under ‘Review’:
 
-Janeway allows you to generate as many review forms as you like. When a
-new journal is created a default review form is generated automatically
-(called Default Form) it has one element: a text area called "Review".
+![The manager dashboard with review forms highlighted.](manager-review-forms.png)
 
-![Review Form interface](../../nstatic/review-forms.png)
+When a new journal is set up, Janeway automatically generates a default review form called ‘Default Form’. This form has a single text area called ‘Review’, which can be deleted or edited.
 
-To create a new form complete the form on the right:
+## Deleting review forms
+Existing forms can be deleted using the icons to the right of the form name. If a form is set as the default review form, it cannot be deleted. Deleting forms will not affect current or past reviews using the form, but it will prevent users from selecting it for future reviews. Deleted review forms cannot be retrieved.
+![](review-forms-edit-delete.png)
 
-- Form Name
+## New review forms
+To create a new review form, start by filling in the form on the right-hand side of the review forms page. 
 
-- Slug  
-  - a version of the form name but in all lower-case, no spaces e.g.
-    default-form
+Janeway does not limit the number of review forms that can be created, but for practical reasons, we recommend regularly reviewing forms not in use.
 
-- Intro  
-  - Guidance text specific to this form
+![Review Form interface](review-forms-add-form.png)
 
-- Thanks  
-  - Text that is displayed after the reviewer has completed their review
+## Editing review forms
+Once you have created a new form or started editing an existing form, you can add various form elements. In addition to this, you can edit the form name, form introduction and thank you message.
+![](review-forms-add-element.png)
 
-Once you have created your new form you can add Fields known as Elements
-in Janeway by selecting the yellow edit button. Elements can be:
+### Form elements
+- Name
+	- This field provides the name of the review element. In case of a short question, you could put a review question here. If using a longer question, you may wish to use a more generic description (e.g. “Methods” or “Clarity”) and provide further guidance in the help text section.
 
-- Text Field
-- Text Area
+A review form can have the following types of review form elements:
+- Text field
+	- This is a single-line input area for short text answers such as names, keywords or subjects. It does not allow for formatting.
+
+![](element-text-field.png)
+
+- Text area
+	- This is a larger, multi-line input area for longer texts such as comments and descriptions. It allows for formatting and line breaks.
+
+![](element-text-area.png)
+
 - Checkbox
+	- [Asks users to check a box, which can be used to declare no competing interests / agreeing to terms.]
+
+![](element-check-box.png)
+
 - Select (dropdown)
+	- Shows a predefined list of options allowing users to select one.
+
+![](element-select.png)
+
 - Email
+	- Specific text field for emails. It checks if the input looks like an email address. / follows the format of an email address.
+
+![](element-email.png)
+
 - Upload
+	- Asks the users to upload a file from their device.
+
+![](element-file-upload.png)
+
 - Date
+	-Asks the user to provide a date.
 
-To add a new Element:
+![](element-date.png)
 
-- Click Add Element
+If you choose the ‘Select’ (dropdown) element, you will need to create the options. This is done through the ‘Choices’ field. The options should be separated by the bar " | " character e.g. " choice 1|choice 2|choice 2 ". When using any of the other form elements, you can ignore the ‘Choices’ field.
 
-- In the modal supply a name and kind  
-  - If you choose "select" as kind you will need to add the options to
-    the Choices field. These should be seperated by the bar "\|"
-    character e.g. `choice 1|choice 2|choice 2` or `1|2|3|4|5` if you
-    wanted a numeric choice. If you select any other Kind, ignore the
-    Choices field.
+In addition to selecting the element type, you will be asked to [configure] the following settings for the review elements:
 
 - Required  
-  - If this field MUST be completed, ensure this box is checked, if it
-    is optional make sure it is not checked
+  - Check this setting’s box to make this part of the form obligatory to complete.
 
 - Order  
-  - The order in which this element will appear on the form
+  - This determines the order of review elements on the review form.
 
+<!--  To be redundant soon
 - Width  
-  - 1/3, 1/2 or Full width. If you put two half width elements next to
-    each other in order they will both display on the same line
+  - This setting configures the width of the review element; a third half or full width. If you put two half-width elements next to each other in order they will both display on the same line.
 
+ -->
 - Help text  
-  - This text will display under the Name field on the form and explain
-    what the reviewer needs to do with this field.
+  - This text will display under the review element and can provide further guidance or information for reviewers.
 
 - Default visibility  
-  - If enabled, by default this element will be visible to the reviewer
-    once the Editor has approved the review for them to see. If
-    disabled, the author will not see this element unless the Editor
-    overrides the default setting.
+  - If enabled, this element will be visible to the author by default once the editor has shared the review with them. If disabled, the author will not see this element unless the editor overrides it.
 
-As you go along you can use the Preview Form button to see what the form
-will look like. Here is an example of the default form edited to have
-two additional fields with 1/2 widths.
+The review form can be previewed using the **Preview** button, this can be done at any point when working on a review form.
 
-![Review Form preview](../../nstatic/review-forms-preview.png)
-
+![](review-form-preview.png)
