@@ -1,80 +1,43 @@
 Title: Review settings
 
 # Review settings
+Review settings can be found under ‘Review’ on the manager dashboard.
 
-Under review settings we can control how peer review operates for the
-given journal. The settings editable here are:
+![](manager-review-settings.png)
+
+Review settings control how peer review operates. The settings found in this section are the following:
 
 - Review guidelines  
-  - A set of generic review guidelines that a reviewer should follow.
+ 	 - A set of generic review guidelines that a reviewer should follow.
 
-- Default Review Visibility  
-  - Either Open, Anonymous or Double Anonymous, this is the default
-    information visibility for a review assignment. If open, authors can
-    see reviewers and vice versa, if single anonymous reviewers can see
-    authors, if double anonymous neither can see information on the
-    other. When using double anonymous review, the editor must ensure
-    the manuscript files are anonymous.
+- Default review visibility  
+  - Janeway provides three options for the default review visibility: open, single anonymous or double anonymous review. If open, authors can see reviewers and vice versa, if single anonymous reviewers can see authors, if double anonymous neither can see information on the other. The editor must ensure the manuscript files are sufficiently anonymised when using double anonymous review. To configure triple anonymous review, consult the following page. <!-- missing hyperlink -->
 
-- Default Review Days  
-  - The default number of days a reviewer is given, this is used to then
-    control reminders. This field is set to 56 days (8 weeks) initially.
-    The due date can be changed on a per review basis.
+- Default review days  
+  	- This setting configures the default number of days a reviewer is given to complete a review. This number is then used to control reminders. This field is set to 56 days (8 weeks) initially. The due date can be changed when assigning a review.
 
-- One Click Access  
-  - If enabled a special access token is appended to the reviewer link
-    in the assignment email, this link allows the reviewer to view the
-    review without logging into the system. Once the review is complete
-    the token is deleted so it cannot be reused. Tokens are UUID4s which
-    are unique.
+- One-click access
+	- When enabled, a unique access token is added to the reviewer link in the assignment email, allowing the reviewer to view the review without needing to log into the system. After the review is completed, the token is removed to prevent reuse. These tokens are UUID4s, ensuring their uniqueness.
 
-- Draft Decisions  
-  - If enabled, section editors will not be able to accept papers,
-    instead they can make recommendations to senior editors who can then
-    accept papers.
+- Draft decisions  
+  - If enabled, section editors cannot accept papers after review. Instead, they can make recommendations to editors.
 
 - Enable open peer review  
   - Turns on the open peer review feature (see below).
 
-- Default Review Form  
-  - The default review form that will be automatically selected when
-    assigning a reviewer.
+- Default review form  
+  - This setting controls the default review form displayed when assigning a reviewer.
 
-- Reviewer Form Download  
-  - If enabled this allows the Reviewer to download a copy of the review
-    form in DOCX format to complete offline and then upload.
+- Reviewer form download  
+  - If enabled, reviewers can download a copy of the review form to complete offline.
 
 - Enable save review progress  
-  - If enabled, reviewers will be able to save the progress in a
-    peer-review assignment and come back later to complete it later
-    (Only recommended for journals using custom review forms that are
-    particularly long)
+  - If enabled, reviewers can save the progress in a peer-review assignment and return to complete it later. We recommend only using this when working with particularly long review forms.
 
-- Accept Article Warning  
-  - This is a block of text displayed to the editor before they accept
-    an article, prompting initial DOI and metadata registration with
-    Crossref if the journal or press is set to use Crossref. You can use
-    the setting to provide a readout of current metadata so the editor
-    can do a quick check of what will be sent to Crossref.
+- Accept article warning  
+  	- This is a block of text displayed to the editor before they accept an article, prompting initial DOI and metadata registration with Crossref if the journal or press is set to use Crossref. You can use the setting to provide a readout of current metadata so the editor can check what will be sent to Crossref. 
 
-- Enable expanded review details  
-  - When this setting is enabled, the editor's review dashboard will
-    show all active reviews. Otherwise it will show just a count of
-    completed reviews.
+- Enable expanded review details 
+	- When this setting is enabled, the editor's review dashboard will show all active reviews. Otherwise, it will show a count of completed reviews.
 
 
-
-<!-- ## Reviewer cannot access a review
-
-Its possible because of how emails are edited that an outgoing review
-request will not contain a valid review request URL. We recommend you
-reset your review_assignment email in this instance and here is a
-workaround to assist reviewers who have received the email without the
-link:
-
-1.  Go to the article review page.
-2.  For the Reviewer having the issue select the View button.
-3.  You'll see an Access Code like below image.
-4.  Copy this link and send it to the reviewer.
-
-![""](../old-docs/nstatic/view-review.png)-->
