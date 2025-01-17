@@ -19,7 +19,7 @@ documentation](/content/support/contributing-guide.md).”
 
 ### Native install
 
-Pelican is built for python (3.8.4+). In order to setup the project, you can
+Pelican is built for Python (3.8.4+). In order to setup the project, you can
 install your dependecies (including Pelican) with pip: `pip install -r
 requirements.txt`.
 
@@ -176,6 +176,23 @@ but only when the text is large enough for sufficient contrast.
 Note that you can use `best_foreground` from `utils.html` to make
 to produce accessible colour pairs. It chooses either white or blue text
 based on the background colour you pass in.
+
+### Responsiveness and breakpoints
+
+We currently use one breakpoint of 50rems. Use media queries with 
+`width <= 50rem` or `width > 50rem`.
+
+At the smaller width, think primarily of touch-screen users, especially those
+using phones, but also make sure things are usable with a mouse.
+
+In the wider range, think about layouts that can be easily linearized
+for narrow screens using something simple like `flex-direction`, and note that there
+are utility classes for flex direction. Avoid separate HTML structures for wide
+and narrow screens, as duplicate content is harder to maintain.
+
+### CSS in general
+
+See the [CSS README](themes/alpha/static/css/README.md).
 
 ### JS assets
 

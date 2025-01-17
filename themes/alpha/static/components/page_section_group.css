@@ -1,13 +1,13 @@
 .page-section-group {
   display: flex;
   /* On larger screens this group should divide its contents into left and right halves */
-  @media (orientation: landscape) {
+  @media (width > 50rem) {
     & > * {
       flex-basis: 50%;
     }
   }
   /* On mobile screens this group should arrange its contents vertically */
-  @media (orientation: portrait) {
+  @media (width <= 50rem) {
     flex-direction: column;
   }
   /* On all screen sizes, a nested page section group should arrange

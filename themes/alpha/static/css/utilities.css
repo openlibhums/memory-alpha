@@ -113,21 +113,21 @@
   &.auto {
     grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size, 16rem), 1fr));
   }
-  /* Columns in landscape */
-  @media (orientation: landscape) {
-    &.columns-1-landscape {
+  /* Columns on large screens */
+  @media (width > 50rem) {
+    &.columns-1-large {
       grid-template-columns: repeat(1, auto);
     }
-    &.columns-2-landscape {
+    &.columns-2-large {
       grid-template-columns: repeat(2, auto);
     }
-    &.columns-3-landscape {
+    &.columns-3-large {
       grid-template-columns: repeat(3, auto);
     }
   }
-  /* Columns in portrait */
-  @media (orientation: portrait) {
-    &.columns-1-portrait {
+  /* Columns on small screens */
+  @media (width <= 50rem) {
+    &.columns-1-small {
       grid-template-columns: 1fr;
     }
   }

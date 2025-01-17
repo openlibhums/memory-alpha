@@ -130,7 +130,7 @@
 }
 
 /* Mobile view: Hide left and right UL, display slide-drawer */
-@media (orientation: portrait) {
+@media (width <= 50rem) {
   .main-nav {
     .left ul, .right ul {
       display: none;
@@ -148,7 +148,7 @@
 }
 
 /* Desktop view: Always display left and right UL, hide slide-drawer */
-@media (orientation: landscape) {
+@media (width > 50rem) {
   .main-nav {
     .left ul, .right ul {
       display: flex;

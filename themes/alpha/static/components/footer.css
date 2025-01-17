@@ -19,7 +19,7 @@
   }
   .circle-wrapper-top {
     position: relative;
-    @media(width < 50rem) {
+    @media(width <= 50rem) {
       top: 20px;
       left: 10px;
     }
@@ -41,7 +41,7 @@
     right: 40px;
     top: 30px;
     z-index: -1;
-    @media(width < 50rem) {
+    @media(width <= 50rem) {
       position: unset;
     }
   }
@@ -56,7 +56,7 @@
     top: 30px;
     z-index: -1;
     transform: scale(1.4);
-    @media(width < 50rem) {
+    @media(width <= 50rem) {
       left:unset;
       right:30px
     }
