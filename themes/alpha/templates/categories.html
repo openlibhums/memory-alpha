@@ -39,13 +39,13 @@
       page.</p>
     </div>
     <h2>Pages in /support/</h2>
-    <div class="grid columns-2-landscape columns-1-portrait">
+    <div class="grid columns-2-large columns-1-small">
       {% for page in support_pages|sort(attribute='url') %}
         {{ page_list_display(page) }}
       {% endfor %}
     </div>
     <h2>Pages in /old-docs/</h2>
-    <div class="grid columns-2-landscape columns-1-portrait">
+    <div class="grid columns-2-large columns-1-small">
       {% for page in old_docs_pages|sort(attribute='url') %}
         {{ page_list_display(page) }}
       {% endfor %}

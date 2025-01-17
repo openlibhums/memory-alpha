@@ -22,7 +22,7 @@
    * to the right or left of another section */
   &.layout-left .background-pane-right,
   &.layout-right .background-pane-left {
-    @media (orientation: landscape) {
+    @media (width > 50rem) {
       display: none;
     }
   }
@@ -39,7 +39,7 @@
 
   /* Content should have same padding to the left or right
    * when it's half-width on wide screens */
-  @media (orientation: landscape) {
+  @media (width > 50rem) {
     &.layout-left .frame {
       padding-inline-end: var(--frame-padding);
     }
