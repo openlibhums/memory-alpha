@@ -1,15 +1,15 @@
 function clearPointSelections(timeline) {
-  const points = timeline.querySelectorAll('[data-point]');
+  const points = timeline.querySelectorAll("[data-point]");
   for (const point of Array.from(points)) {
     point.setAttribute("tabindex", -1);
-    point.classList.toggle('selected', false);
+    point.classList.toggle("selected", false);
   }
 }
 
 function clearTextSelections(timeline) {
-  const blocks = timeline.querySelectorAll('[data-block]');
+  const blocks = timeline.querySelectorAll("[data-block]");
   for (const block of Array.from(blocks)) {
-    block.classList.toggle('selected', false);
+    block.classList.toggle("selected", false);
     block.setAttribute("tabindex", -1);
   }
 }
@@ -17,11 +17,11 @@ function clearTextSelections(timeline) {
 function changeSelection(timeline, point) {
   clearPointSelections(timeline);
   point.setAttribute("tabindex", 0);
-  point.classList.toggle('selected', true);
+  point.classList.toggle("selected", true);
   const year = point.dataset.point;
   const textBlock = timeline.querySelector(`[data-block="${year}"]`);
   clearTextSelections(timeline);
-  textBlock.classList.toggle('selected', true);
+  textBlock.classList.toggle("selected", true);
   textBlock.setAttribute("tabindex", 0);
 }
 
@@ -32,19 +32,24 @@ function remToPx(rem) {
 function detectDirection() {
   const breakpointRem = 50;
   if (window.innerWidth <= remToPx(breakpointRem)) {
-    return ["ArrowUp", "ArrowDown"]
+    return ["ArrowUp", "ArrowDown"];
   } else {
-    return ["ArrowLeft", "ArrowRight"]
+    return ["ArrowLeft", "ArrowRight"];
   }
 }
 
 function setArrowKeyEvents(timeline) {
   const tabList = timeline.querySelector('[role="tablist"]');
   tabList.addEventListener("keydown", (e) => {
-    if (e.key === "ArrowRight" || e.key === "ArrowLeft" || e.key === "ArrowDown" || e.key === "ArrowUp") {
+    if (
+      e.key === "ArrowRight" ||
+      e.key === "ArrowLeft" ||
+      e.key === "ArrowDown" ||
+      e.key === "ArrowUp"
+    ) {
       e.preventDefault();
       const [arrowDecrement, arrowIncrement] = detectDirection();
-      const currentTab = document.querySelector('.point.selected');
+      const currentTab = document.querySelector(".point.selected");
       if (e.key === arrowDecrement && currentTab.previousElementSibling) {
         changeSelection(timeline, currentTab.previousElementSibling);
         currentTab.previousElementSibling.focus();
@@ -57,16 +62,16 @@ function setArrowKeyEvents(timeline) {
 }
 
 function setClickEvents(timeline) {
-  const points = timeline.querySelectorAll('[data-point]');
+  const points = timeline.querySelectorAll("[data-point]");
   for (const point of Array.from(points)) {
-    point.addEventListener('click', () => {
+    point.addEventListener("click", () => {
       changeSelection(timeline, point);
     });
   }
 }
 
 export default function timelineWheel() {
-  const timelineWheels = document.querySelectorAll('[data-timeline-wheel]');
+  const timelineWheels = document.querySelectorAll("[data-timeline-wheel]");
   try {
     for (const timeline of Array.from(timelineWheels)) {
       setArrowKeyEvents(timeline);
