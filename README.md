@@ -117,6 +117,7 @@ it is the particular combination of HTML and CSS that is key for accessibility.
 
 For components that need to nest other content, you can use jinja’s macro syntax:
 
+<!-- prettier-ignore-start -->
 ```html
 <!-- themes/[theme]/static/components/example_component.html -->
 {% macro example_component() -%}
@@ -125,7 +126,9 @@ For components that need to nest other content, you can use jinja’s macro synt
   </div>
 {%- endmacro %}
 ```
+<!-- prettier-ignore-end -->
 
+<!-- prettier-ignore-start -->
 ```html
 <!-- content/pages/example_page.html -->
 {% from 'components/example_component.html' import example_component %}
@@ -135,6 +138,7 @@ For components that need to nest other content, you can use jinja’s macro synt
   component.</p>
 {% endcall %}
 ```
+<!-- prettier-ignore-end -->
 
 See also “Components” in `static/css/README.md`.
 
