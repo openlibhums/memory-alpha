@@ -1,14 +1,16 @@
 Title: Article Review Import
 
 # Article Review Import
+
 The article review import tool allows you to create peer reviews by
 uploading a CSV (Comma Seperated Value) file.
 
 > [!WARNING]
->This tool only allows the import of reviews as files, as such you may
->need an administrator to load the files onto the server for you.
+> This tool only allows the import of reviews as files, as such you may
+> need an administrator to load the files onto the server for you.
 
 To import peer reviews:
+
 1.  Download the
     [article review import template](../support/downloadables/reviewer-import-template.csv).
 2.  Enter your peer review details, one per row.
@@ -21,7 +23,7 @@ To import peer reviews:
 ## Metadata Field Reference
 
 | Field                 | Notes                                                      |
-|-----------------------|------------------------------------------------------------|
+| --------------------- | ---------------------------------------------------------- |
 | Identifier Type       | Should be either id, doi or pub-id                         |
 | Identifier            | The corresponding ID, DOI or Pub-ID                        |
 | Review recommendation | Either: accept, minor_revisions, major_revisions or reject |
@@ -30,5 +32,5 @@ To import peer reviews:
 | Visibility            | Either: open, blind or double-blind                        |
 
 > [!TIP]
->Download the [article review import sample](../support/downloadables/reviewer-import-sample.csv)
->CSV to see example data.
+> Download the [article review import sample](../support/downloadables/reviewer-import-sample.csv)
+> CSV to see example data.
