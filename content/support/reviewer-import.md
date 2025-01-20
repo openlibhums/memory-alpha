@@ -6,8 +6,8 @@ The Reviewer import tool allows you to create reviewer accounts by
 uploading a CSV (Comma Seperated Value) file.
 
 > [!WARNING]
->This importer is site specific. You should be accessing the import tool
->from the press or journal you want it import the reviewers into.
+> This importer is site specific. You should be accessing the import tool
+> from the press or journal you want it import the reviewers into.
 
 To import reviewer accounts:
 
@@ -23,10 +23,10 @@ To import reviewer accounts:
 6.  Click **Import** to complete the process.
 
 > [!WARNING]
->It is important that you let reviewers know before you user the password
->reset function as it can result in reviewers suspecting the message is
->spam.
+> It is important that you let reviewers know before you user the password
+> reset function as it can result in reviewers suspecting the message is
+> spam.
 
 > [!TIP]
->Download the [reviewer import sample](../support/downloadables/reviewer-import-sample.csv) CSV to see
->example data.
+> Download the [reviewer import sample](../support/downloadables/reviewer-import-sample.csv) CSV to see
+> example data.
