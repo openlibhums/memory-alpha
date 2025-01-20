@@ -1,33 +1,33 @@
 .footer {
   a {
-        color: var(--clr-alpha-white);
-        position: relative;
-        @media(width > 50rem) {
-          padding-bottom: 0.7rem;
-        }
+    color: var(--clr-alpha-white);
+    position: relative;
+    @media (width > 50rem) {
+      padding-bottom: 0.7rem;
+    }
   }
 
   .footer-title-wrapper {
-      padding: var(--space-l);
+    padding: var(--space-l);
   }
   .footer-title {
-      font-family: var(--ff-mono-regular);
-      font-size: var(--step-7);
-      max-width: 40rem;
-      padding: var(--space-xs);
-      text-align: center;
+    font-family: var(--ff-mono-regular);
+    font-size: var(--step-7);
+    max-width: 40rem;
+    padding: var(--space-xs);
+    text-align: center;
   }
   .circle-wrapper-top {
     position: relative;
-    @media(width <= 50rem) {
+    @media (width <= 50rem) {
       top: 20px;
       left: 10px;
     }
   }
   .circle {
-      width: 100px;
-      height: 100px;
-      border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
   }
 
   .circle-path-blue {
@@ -41,14 +41,14 @@
     right: 40px;
     top: 30px;
     z-index: -1;
-    @media(width <= 50rem) {
+    @media (width <= 50rem) {
       position: unset;
     }
   }
 
   .circle-wrapper-bottom {
     position: relative;
-    margin-bottom:200px
+    margin-bottom: 200px;
   }
   .circle-bottom {
     position: absolute;
@@ -56,30 +56,32 @@
     top: 30px;
     z-index: -1;
     transform: scale(1.4);
-    @media(width <= 50rem) {
-      left:unset;
-      right:30px
+    @media (width <= 50rem) {
+      left: unset;
+      right: 30px;
     }
   }
 
   .signup-form {
     .signup-form-wrapper {
-          position: relative;
-      }
+      position: relative;
+    }
     .text-input {
-        border: none;
-        border-bottom: 2px solid var(--clr-alpha-white);
-        background-color: transparent;
-        color: var(--clr-alpha-white);
-        font-size: 16px;
-        padding: 5px;
-        width: 100%;
-        transition: border-bottom-color 0.3s, transform 0.3s;
+      border: none;
+      border-bottom: 2px solid var(--clr-alpha-white);
+      background-color: transparent;
+      color: var(--clr-alpha-white);
+      font-size: 16px;
+      padding: 5px;
+      width: 100%;
+      transition:
+        border-bottom-color 0.3s,
+        transform 0.3s;
     }
 
     .text-input:focus {
-        border-bottom-color: #00d2ff;
-        transform: scale(1.05);
+      border-bottom-color: #00d2ff;
+      transform: scale(1.05);
     }
   }
 
@@ -112,4 +114,3 @@
   }
   margin-block-end: var(--space-xl);
 }
-

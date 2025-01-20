@@ -11,10 +11,10 @@
   }
 
   &.narrow {
-    @media(width <= 50rem) {
+    @media (width <= 50rem) {
       flex-direction: column;
     }
-    @media(width > 50rem) {
+    @media (width > 50rem) {
       flex-direction: row;
       li {
         display: flex;

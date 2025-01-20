@@ -37,7 +37,9 @@
     padding: 0.7rem 0;
   }
 
-  .left, .logo, .right {
+  .left,
+  .logo,
+  .right {
     display: flex;
     align-items: center;
   }
@@ -132,7 +134,8 @@
 /* Mobile view: Hide left and right UL, display slide-drawer */
 @media (width <= 50rem) {
   .main-nav {
-    .left ul, .right ul {
+    .left ul,
+    .right ul {
       display: none;
     }
 
@@ -150,7 +153,8 @@
 /* Desktop view: Always display left and right UL, hide slide-drawer */
 @media (width > 50rem) {
   .main-nav {
-    .left ul, .right ul {
+    .left ul,
+    .right ul {
       display: flex;
     }
 

@@ -1,49 +1,104 @@
-
 .button-container {
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    padding: var(--space-l);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: var(--space-l);
 
-    & .button {
-        border-radius: var(--space-xl);
-        padding: var(--space-m);
-        text-decoration-line: none;
-        line-height: 1.1;
+  & .button {
+    border-radius: var(--space-xl);
+    padding: var(--space-m);
+    text-decoration-line: none;
+    line-height: 1.1;
 
-        /* borders */
-        &.border-black { border: solid var(--clr-alpha-black) 2px; }
-        &.border-white { border: solid var(--clr-alpha-white) 2px; }
-        &.border-blue { border: solid  var(--clr-alpha-blue) 2px; }
-        &.border-red { border: solid var(--clr-alpha-red) 2px; }
-        &.border-yellow { border: solid var(--clr-alpha-yellow) 2px; }
-
-       /* color pairs foreground-background*/
-       &.white-on-black{color: var(--clr-alpha-white); background-color: var(--clr-alpha-black);}
-       &.black-on-white{ color: var(--clr-alpha-black); background-color: var(--clr-alpha-white); }
-   
-       &.yellow-on-black{ color: var(--clr-alpha-yellow); background-color: var(--clr-alpha-black); }
-       &.black-on-yellow{ color: var(--clr-alpha-black); background-color: var(--clr-alpha-yellow); }
-   
-       &.white-on-red{ color: var(--clr-alpha-white); background-color: var(--clr-alpha-red); }
-       &.red-on-white{ color: var(--clr-alpha-red); background-color: var(--clr-alpha-white); }
-   
-       &.white-on-blue{ color: var(--clr-alpha-white); background-color: var(--clr-alpha-blue); }
-       &.blue-on-white{ color: var(--clr-alpha-blue); background-color: var(--clr-alpha-white); }
-   
-       /* hover inversing color pair */
-       &.white-on-black:hover{ color: var(--clr-alpha-black); background-color: var(--clr-alpha-white); }
-       &.black-on-white:hover{ color: var(--clr-alpha-white); background-color: var(--clr-alpha-black); }
-   
-       &.yellow-on-black:hover{ color: var(--clr-alpha-black); background-color: var(--clr-alpha-yellow); }
-       &.black-on-yellow:hover{ color: var(--clr-alpha-yellow); background-color: var(--clr-alpha-black); }
-   
-       &.white-on-red:hover{ color: var(--clr-alpha-red); background-color: var(--clr-alpha-white); }
-       &.red-on-white:hover{ color: var(--clr-alpha-white); background-color: var(--clr-alpha-red); }
-   
-       &.white-on-blue:hover{ color: var(--clr-alpha-blue); background-color: var(--clr-alpha-white); }
-       &.blue-on-white:hover{ color: var(--clr-alpha-white); background-color: var(--clr-alpha-blue); }
+    /* borders */
+    &.border-black {
+      border: solid var(--clr-alpha-black) 2px;
+    }
+    &.border-white {
+      border: solid var(--clr-alpha-white) 2px;
+    }
+    &.border-blue {
+      border: solid var(--clr-alpha-blue) 2px;
+    }
+    &.border-red {
+      border: solid var(--clr-alpha-red) 2px;
+    }
+    &.border-yellow {
+      border: solid var(--clr-alpha-yellow) 2px;
     }
 
+    /* color pairs foreground-background*/
+    &.white-on-black {
+      color: var(--clr-alpha-white);
+      background-color: var(--clr-alpha-black);
+    }
+    &.black-on-white {
+      color: var(--clr-alpha-black);
+      background-color: var(--clr-alpha-white);
+    }
 
+    &.yellow-on-black {
+      color: var(--clr-alpha-yellow);
+      background-color: var(--clr-alpha-black);
+    }
+    &.black-on-yellow {
+      color: var(--clr-alpha-black);
+      background-color: var(--clr-alpha-yellow);
+    }
+
+    &.white-on-red {
+      color: var(--clr-alpha-white);
+      background-color: var(--clr-alpha-red);
+    }
+    &.red-on-white {
+      color: var(--clr-alpha-red);
+      background-color: var(--clr-alpha-white);
+    }
+
+    &.white-on-blue {
+      color: var(--clr-alpha-white);
+      background-color: var(--clr-alpha-blue);
+    }
+    &.blue-on-white {
+      color: var(--clr-alpha-blue);
+      background-color: var(--clr-alpha-white);
+    }
+
+    /* hover inversing color pair */
+    &.white-on-black:hover {
+      color: var(--clr-alpha-black);
+      background-color: var(--clr-alpha-white);
+    }
+    &.black-on-white:hover {
+      color: var(--clr-alpha-white);
+      background-color: var(--clr-alpha-black);
+    }
+
+    &.yellow-on-black:hover {
+      color: var(--clr-alpha-black);
+      background-color: var(--clr-alpha-yellow);
+    }
+    &.black-on-yellow:hover {
+      color: var(--clr-alpha-yellow);
+      background-color: var(--clr-alpha-black);
+    }
+
+    &.white-on-red:hover {
+      color: var(--clr-alpha-red);
+      background-color: var(--clr-alpha-white);
+    }
+    &.red-on-white:hover {
+      color: var(--clr-alpha-white);
+      background-color: var(--clr-alpha-red);
+    }
+
+    &.white-on-blue:hover {
+      color: var(--clr-alpha-blue);
+      background-color: var(--clr-alpha-white);
+    }
+    &.blue-on-white:hover {
+      color: var(--clr-alpha-white);
+      background-color: var(--clr-alpha-blue);
+    }
+  }
 }

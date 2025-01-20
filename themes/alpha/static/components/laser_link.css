@@ -2,7 +2,7 @@
   text-decoration: none;
 
   &::after {
-    content: '';
+    content: "";
     position: absolute;
     left: 0;
     bottom: 0;
@@ -19,7 +19,7 @@
     transform-origin: left;
   }
 
-  @media(prefers-reduced-motion) {
+  @media (prefers-reduced-motion) {
     transition-duration: 0ms;
   }
 }
