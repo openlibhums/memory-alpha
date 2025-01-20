@@ -5,6 +5,6 @@
     max-width: 9ch;
   }
   .h1-text::after {
-    content: '_' / '';
+    content: "_" / "";
   }
 }
