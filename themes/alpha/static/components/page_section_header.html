@@ -27,13 +27,9 @@
 {%- endmacro %}
 
 {% macro page_section_intro_text() -%}
-  <p class="ff-space-mono-regular fs-5">
-    {{ caller() }}
-  </p>
+  <p class="ff-space-mono-regular fs-5">{{ caller() }}</p>
 {%- endmacro %}
 
 {% macro page_section_header_wrapper() -%}
-  <div class="page-section-header not-prose">
-    {{ caller() }}
-  </div>
+  <div class="page-section-header not-prose">{{ caller() }}</div>
 {%- endmacro %}

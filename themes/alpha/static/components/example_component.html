@@ -1,7 +1,5 @@
 {% macro example_component() -%}
   <div class="example-component">
-    <div class="special-behavior">
-      {{ caller() }}
-    </div>
+    <div class="special-behavior">{{ caller() }}</div>
   </div>
 {%- endmacro %}

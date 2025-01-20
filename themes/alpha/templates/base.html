@@ -1,5 +1,5 @@
 {% from "components/main_nav.html" import main_nav %}
-<!DOCTYPE html>
+<!doctype html>
 <html lang="{% block html_lang %}{{ DEFAULT_LANG }}{% endblock html_lang %}">
   <head>
     {% block head %}
@@ -20,12 +20,16 @@
         />
       <meta charset="utf-8" />
       <meta name="generator" content="Pelican" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       {% if SITESUBTITLE %}
         <meta name="description" content="{{ SITESUBTITLE }}" />
       {% endif %}
       {% if STYLESHEET_URL %}
-        <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/{{ STYLESHEET_URL }}" />
+        <link
+          rel="stylesheet"
+          type="text/css"
+          href="{{ SITEURL }}/{{ STYLESHEET_URL }}"
+        />
       {% endif %}
       {% include "atom_rss_feed_tags.html" %}
     {% endblock head %}
@@ -35,9 +39,7 @@
   <body>
     <div class="overflow-x-hidden">
       <div class="container">
-        <header>
-          {{ main_nav(LEFT_NAV_ITEMS, RIGHT_NAV_ITEMS) }}
-        </header>
+        <header>{{ main_nav(LEFT_NAV_ITEMS, RIGHT_NAV_ITEMS) }}</header>
         <main>
           {% block content %}
           {% endblock %}

@@ -2,9 +2,7 @@
 preserving responsiveness and flow spacing #}
 
 {% macro column() %}
-  <div class="prose flow flow-first-child">
-    {{ caller() }}
-  </div>
+  <div class="prose flow flow-first-child">{{ caller() }}</div>
 {% endmacro %}
 
 {% macro prose_columns() -%}
@@ -12,7 +10,8 @@ preserving responsiveness and flow spacing #}
     class="
       not-prose flex row-gap-0 column-gap-6
       direction-row-large direction-column-small
-    ">
+    "
+  >
     {{ caller() }}
   </div>
 {% endmacro %}
