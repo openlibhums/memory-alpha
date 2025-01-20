@@ -1,7 +1,6 @@
 {% extends "base.html" %}
 
 {% block title %}Support site under construction - {{ SITENAME|striptags }}{% endblock %}
-
 {% set support_pages = [] %}
 {% set old_docs_pages = [] %}
 {% for category, articles in categories %}
@@ -22,9 +21,7 @@
     </a>
   </p>
   <p>
-    <a href="{{ SITEURL }}/{{ page.url }}">
-      {{ page.title }}
-    </a>
+    <a href="{{ SITEURL }}/{{ page.url }}"> {{ page.title }} </a>
   </p>
 {% endmacro %}
 
@@ -32,11 +29,15 @@
   <div class="flow">
     <div class="prose flow">
       <h1>Support site under construction</h1>
-      <p>This webpage is temporary. We will replace it with better pages and
-      menus for support and docs once we design the menus for the support site.</p>
-      <p>Pages are sorted alphabetically by the file path. There is a link to
-      edit the page on GitHub and a link to view the live version of the
-      page.</p>
+      <p>
+        This webpage is temporary. We will replace it with better pages and
+        menus for support and docs once we design the menus for the support
+        site.
+      </p>
+      <p>
+        Pages are sorted alphabetically by the file path. There is a link to
+        edit the page on GitHub and a link to view the live version of the page.
+      </p>
     </div>
     <h2>Pages in /support/</h2>
     <div class="grid columns-2-large columns-1-small">

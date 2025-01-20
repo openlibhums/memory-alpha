@@ -10,7 +10,6 @@ layout - str: 'layout-full' takes up the full width while
 prose - str: 'prose' or '' to control whether the text should have
             recommended max width for reading text (40rem)
 #}
-
 {% from "utils.html" import best_foreground %}
 
 {% macro page_section(labelledby="", label="", bg="bg-alpha-black", layout="layout-full", prose="prose") -%}
@@ -22,10 +21,9 @@ prose - str: 'prose' or '' to control whether the text should have
         aria-labelledby="{{ labelledby }}"
       {% elif label %}
         aria-label="{{ label }}"
-      {% endif %}>
-      <div class="frame flow {{ prose }}">
-        {{ caller() }}
-      </div>
+      {% endif %}
+    >
+      <div class="frame flow {{ prose }}">{{ caller() }}</div>
     </section>
   </div>
 {%- endmacro %}

@@ -1,10 +1,7 @@
 {% macro slide_h3() -%}
   {# A slide heading. Call inside slide. #}
-  <h3 class="ff-space-mono-regular fs-5">
-    {{ caller() }}
-  </h3>
+  <h3 class="ff-space-mono-regular fs-5">{{ caller() }}</h3>
 {%- endmacro %}
-
 
 {% macro slide(num=1, label="", id_prefix="gallery") -%}
   {# One slide in the slide gallery. Call inside slide_gallery at the root level.
@@ -15,30 +12,25 @@
                      multiple slide galleries on the same page;
                      must match slide_gallery's id_prefix
   #}
-  <div
-    id="{{ id_prefix }}-slide-{{ num }}"
-    class="slide"
-    data-current-slide>
+  <div id="{{ id_prefix }}-slide-{{ num }}" class="slide" data-current-slide>
     <div class="slide-content prose flow">
       <div class="label-wrapper">
         <div
           tabindex="0"
           aria-label="Slide {{ num }}"
           data-slide-label
-          class="label uppercase ff-space-mono-bold">
+          class="label uppercase ff-space-mono-bold"
+        >
           {% if label %}
             {{ label }}
           {% endif %}
           {{ num }}
         </div>
       </div>
-      <div class="body flow">
-        {{ caller() }}
-      </div>
+      <div class="body flow">{{ caller() }}</div>
     </div>
   </div>
 {%- endmacro %}
-
 
 {% macro slide_gallery(num_slides=0, id_prefix="gallery") -%}
   {# A sliding gallery for browsing a set of 3-5 parallel items.
@@ -53,23 +45,20 @@
         <button
           aria-label="Scroll to previous gallery slide"
           class="previous-slide-button"
-          data-previous-button>
+          data-previous-button
+        >
           {% include "svg/arrow-slender-left.svg" %}
         </button>
       </div>
-      <div
-        class="scroll-container"
-        data-scroll-container
-        tabindex="-1">
-        <div class="slide-container">
-          {{ caller() }}
-        </div>
+      <div class="scroll-container" data-scroll-container tabindex="-1">
+        <div class="slide-container">{{ caller() }}</div>
       </div>
       <div class="next-slide">
         <button
           aria-label="Scroll to next gallery slide"
           class="next-slide-button"
-          data-next-button>
+          data-next-button
+        >
           {% include "svg/arrow-slender-right.svg" %}
         </button>
       </div>
@@ -84,7 +73,8 @@
               aria-controls="{{ aria_controls }}"
               data-target="{{ aria_controls }}"
               aria-label="Scroll to gallery slide {{ num }}"
-              data-tablist-button>
+              data-tablist-button
+            >
               <div class="circle"></div>
             </button>
           </li>

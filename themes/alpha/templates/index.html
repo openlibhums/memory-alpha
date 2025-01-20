@@ -16,22 +16,21 @@
   {% call page_section_group() %}
     {% call page_section(labelledby="open-and-community", bg="bg-alpha-white", layout="layout-left") %}
       <h2 id="open-and-community">Open and community-driven</h2>
-      <hr>
+      <hr />
       <h3>Code</h3>
       {{ lipsum(n=1, min=8, max=12) }}
       {% call button(volume="loud", parent_text_color="blue", parent_background_color="white") %}
-      loud action
-    {% endcall %}
-      <hr>
+        loud action
+      {% endcall %}
+      <hr />
       <h3>Roadmap</h3>
       {{ lipsum(n=1, min=8, max=12) }}
-      <hr>
+      <hr />
       <h3>Discord</h3>
       {{ lipsum(n=1, min=8, max=12) }}
       {% call button(volume="quiet", parent_text_color="blue", parent_background_color="white") %}
         quiet action
       {% endcall %}
-
     {% endcall %}
     {% call page_section_group() %}
       {% call page_section(labelledby="our-mission", bg="bg-alpha-blue", layout="layout-right") %}
@@ -44,7 +43,10 @@
         {% endcall %}
       {% endcall %}
       {% call page_section(labelledby="speak-to-us", bg="bg-alpha-red", layout="layout-right") %}
-        <h2 id="speak-to-us">Speak<br> to us</h2>
+        <h2 id="speak-to-us">
+          Speak<br />
+          to us
+        </h2>
 
         {% call button(link="docs/example-docs-page.html", volume="quiet", parent_text_color="white", parent_background_color="red") %}
           quiet link
@@ -53,10 +55,15 @@
     {% endcall %}
   {% endcall %}
   {% call page_section(labelledby="join-our-mission", bg="bg-alpha-blue", prose="") %}
-    <div class="grid place-content-center" style="padding-block: var(--space-xl);">
+    <div
+      class="grid place-content-center"
+      style="padding-block: var(--space-xl);"
+    >
       <h2
         id="join-our-mission"
-        class="bg-alpha-black text-tan fs-5" style="padding: var(--space-xs);">
+        class="bg-alpha-black text-tan fs-5"
+        style="padding: var(--space-xs);"
+      >
         Join our mission
       </h2>
     </div>
@@ -68,7 +75,8 @@
     </div>
     <div
       class="flex text-alpha-black"
-      style="justify-content: space-between; margin-block-start: var(--space-m);">
+      style="justify-content: space-between; margin-block-start: var(--space-m);"
+    >
       <div>Logo</div>
       <div>Logo</div>
       <div>Logo</div>
@@ -111,5 +119,4 @@
     {% include 'pagination.html' %}
   {% endif %}
   #}
-
 {% endblock content %}

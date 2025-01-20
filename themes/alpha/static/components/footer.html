@@ -1,5 +1,4 @@
 {# The main product site footer #}
-
 {% from "components/laser_link.html" import laser_link %}
 {% from "components/link_list.html" import link_list %}
 
@@ -8,21 +7,28 @@
     <svg
       class="circle circle-top"
       xmlns="http://www.w3.org/2000/svg"
-      aria-hidden="true">
-        <circle class="circle-path-blue" cx="50" cy="50" r="40"/>
+      aria-hidden="true"
+    >
+      <circle class="circle-path-blue" cx="50" cy="50" r="40" />
     </svg>
   </div>
   <div class="grid place-content-center">
     <div class="footer-title-wrapper">
-      <p class="footer-title">
-        Follow a new way
-      </p>
+      <p class="footer-title">Follow a new way</p>
       <p>Get the latest information on Janeway development and training.</p>
     </div>
     <div class="signup-form">
-       <div class="signup-form-wrapper">
-          <label for="signup-form-email" id="signup-form-label" class="">Your email</label>
-          <input aria-describedby="signup-form-label" type="email" class="text-input" id="signup-form-email" placeholder="janeway@email.com">
+      <div class="signup-form-wrapper">
+        <label for="signup-form-email" id="signup-form-label" class=""
+          >Your email</label
+        >
+        <input
+          aria-describedby="signup-form-label"
+          type="email"
+          class="text-input"
+          id="signup-form-email"
+          placeholder="janeway@email.com"
+        />
       </div>
     </div>
     {% call link_list(layout='wide') %}
@@ -47,15 +53,17 @@
     <svg
       class="circle circle-bottom"
       xmlns="http://www.w3.org/2000/svg"
-      aria-hidden="true">
-        <circle class="circle-path-red" cx="50" cy="50" r="50"/>
+      aria-hidden="true"
+    >
+      <circle class="circle-path-red" cx="50" cy="50" r="50" />
     </svg>
   </div>
   <div class="signature-wrapper">
     <div
       class="signature"
       role="img"
-      aria-label="Brought to you by OLH at Birkbeck, University of London">
+      aria-label="Brought to you by OLH at Birkbeck, University of London"
+    >
       <span>Brought to you by</span>
       <span class="signature-logo signature-logo-olh">
         {% include "svg/olh-symbol.svg" %}
@@ -85,8 +93,10 @@
   {% endcall %}
   <div class="copyright-wrapper">
     <p class="copyright">
-      Copyright © 2017-2025 <a target="_blank"
-      href="https://www.bbk.ac.uk/">Birkbeck, University of London</a>
+      Copyright © 2017-2025
+      <a target="_blank" href="https://www.bbk.ac.uk/"
+        >Birkbeck, University of London</a
+      >
     </p>
   </div>
 </footer>
