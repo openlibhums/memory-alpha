@@ -1,5 +1,4 @@
 .timeline-wheel {
-
   --start-angle: 170deg;
   --angle: var(--start-angle);
   --increment: 14deg;
@@ -95,7 +94,6 @@
   /* On small screens this isn't a wheel but a vertical tablist */
 
   @media (width <= 50rem) {
-
     display: grid;
     grid-template-columns: auto auto;
     column-gap: var(--space-xs);
@@ -108,7 +106,7 @@
       margin-left: min(6vw, var(--space-l));
     }
     .wheel::before {
-      content: '';
+      content: "";
       width: calc(2 * var(--tracksize));
       background: var(--clr-alpha-white);
       position: absolute;
@@ -184,15 +182,15 @@
       transform: rotate(calc(90deg - var(--angle)));
       /* Position around center of parent, by taking --angle into account */
       translate:
-        /* Translation on X-axis */
-        calc(cos(var(--angle)) * calc(
-          var(--radius) + var(--apothem) - var(--tracksize) * 2)
+        /* Translation on X-axis */ calc(
+          cos(var(--angle)) *
+            calc(var(--radius) + var(--apothem) - var(--tracksize) * 2)
         )
         /* Translation on Y-axis */
-        calc(sin(var(--angle) * -1) * calc(
-          var(--radius) + var(--apothem) - var(--tracksize) * 2)
-        )
-      ;
+        calc(
+          sin(var(--angle) * -1) *
+            calc(var(--radius) + var(--apothem) - var(--tracksize) * 2)
+        );
     }
     .point:hover::after,
     .point.selected::after {

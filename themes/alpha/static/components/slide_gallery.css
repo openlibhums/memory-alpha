@@ -1,5 +1,4 @@
 .slide-gallery {
-
   position: relative;
   max-width: 48rem;
   margin: auto;
@@ -16,10 +15,10 @@
   }
 
   .arrow-container {
-    @media(width <= 50rem) {
+    @media (width <= 50rem) {
       padding-inline: var(--space-xs);
     }
-    @media(width > 50rem) {
+    @media (width > 50rem) {
       display: grid;
       grid-template-columns: var(--space-3xl) auto var(--space-3xl);
     }
@@ -53,7 +52,7 @@
   }
   .previous-slide,
   .next-slide {
-    @media(width <= 50rem) {
+    @media (width <= 50rem) {
       display: none;
     }
   }

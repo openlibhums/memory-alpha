@@ -21,7 +21,7 @@
     }
   }
 
-  @media(prefers-reduced-motion) {
+  @media (prefers-reduced-motion) {
     transition-duration: 0ms;
   }
 
