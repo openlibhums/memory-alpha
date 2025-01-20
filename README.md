@@ -203,3 +203,14 @@ See the [CSS README](themes/alpha/static/css/README.md).
 Avoid copy-pasting JS source code into this repository. Instead find a suitable
 module on NPM and install it with `npm install [module]`. Always prefer ES6
 modules if available.
+
+### Formatting
+
+We use Prettier to consistently auto-format HTML, CSS, JS, MD, YAML, JSON, etc.
+Install an IDE plugin or check your changes on the command line before
+submitting pull requests.
+
+```
+npx prettier . --check
+npx prettier . --write
+```
