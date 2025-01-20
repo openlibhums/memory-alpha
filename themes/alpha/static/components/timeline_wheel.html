@@ -10,16 +10,15 @@
     aria-selected="{% if state == "selected" %}true{% else %}false{% endif %}"
     aria-controls="timeline-text-block-{{ year }}"
     class="point fs-4 ff-space-mono-regular text-white {{ state }}"
-    style="--i: {{ i }};">
+    style="--i: {{ i }};"
+  >
     <span class="arrow-keyboard up">
       {% include "svg/noun-arrow-keyboard-up.svg" %}
     </span>
     <span class="arrow-keyboard left">
       {% include "svg/noun-arrow-keyboard-left.svg" %}
     </span>
-    <span class="point-label">
-      {{ year }}
-    </span>
+    <span class="point-label"> {{ year }} </span>
     <span class="arrow-keyboard down">
       {% include "svg/noun-arrow-keyboard-down.svg" %}
     </span>
@@ -37,14 +36,17 @@
     data-block="{{ year }}"
     tabindex="0"
     aria-labelledby="timeline-point-{{ year }}"
-    class="text-block flow {{ state }}">
+    class="text-block flow {{ state }}"
+  >
     {{ caller() }}
   </section>
 {% endmacro %}
 
 <div class="timeline-wheel" data-timeline-wheel>
-  <p class="sr-only">This section is visually styled to resemble a clock face or
-  speedometer, with a hand or needle pointing to the currently selected year.</p>
+  <p class="sr-only">
+    This section is visually styled to resemble a clock face or speedometer,
+    with a hand or needle pointing to the currently selected year.
+  </p>
   <div class="wheel" role="tablist" aria-label="Timeline">
     {{ _point(year="2013", i="0", state="selected") }}
     {{ _point(year="2014", i="1") }}
@@ -61,75 +63,106 @@
   </div>
   <div class="text-blocks">
     {% call _block(year="2013", i="0", state="selected") %}
-      <p>Caroline Edwards and Martin Eve found the <a
-        target="_blank"
-        href="https://www.openlibhums.org/">Open Library of Humanities</a>
-      (OLH) and secure seed funding (£90,000) from the Andrew W. Mellon
-      Foundation to support preparations for the OLH launch.</p>
+      <p>
+        Caroline Edwards and Martin Eve found the
+        <a target="_blank" href="https://www.openlibhums.org/"
+          >Open Library of Humanities</a
+        >
+        (OLH) and secure seed funding (£90,000) from the Andrew W. Mellon
+        Foundation to support preparations for the OLH launch.
+      </p>
     {% endcall %}
     {% call _block(year="2014", i="1") %}
-      <p>Martin publishes <i>Open Access and the Humanities: Contexts,
-      Controversies, and the Future</i> (Cambridge University Press, 2014),
-      exploring the history of open access publishing in the humanities.</p>
+      <p>
+        Martin publishes
+        <i
+          >Open Access and the Humanities: Contexts, Controversies, and the
+          Future</i
+        >
+        (Cambridge University Press, 2014), exploring the history of open access
+        publishing in the humanities.
+      </p>
     {% endcall %}
     {% call _block(year="2015", i="2") %}
-      <p>Caroline and Martin secure a major grant of $741,000 from the Andrew W.
-      Mellon Foundation in July. They officially launch the OLH in September with
-      seven humanities journals, including the OLH “megajournal,” using software
-      provided by Ubiquity Press.</p>
+      <p>
+        Caroline and Martin secure a major grant of $741,000 from the Andrew W.
+        Mellon Foundation in July. They officially launch the OLH in September
+        with seven humanities journals, including the OLH “megajournal,” using
+        software provided by Ubiquity Press.
+      </p>
     {% endcall %}
     {% call _block(year="2016", i="3") %}
-      <p>John Wiley &amp; Sons Inc, a global provider of knowledge services,
-      acquires the publishing software company Atypon for $120 million in
-      cash.</p>
+      <p>
+        John Wiley &amp; Sons Inc, a global provider of knowledge services,
+        acquires the publishing software company Atypon for $120 million in
+        cash.
+      </p>
     {% endcall %}
     {% call _block(year="2017", i="4") %}
-      <p>Andy Byers joins the OLH to build a new open-source publishing platform,
-      Janeway. They place it under a copyleft license (<a target="_blank"
-      href="https://www.gnu.org/licenses/agpl-3.0.html">AGPL v3</a>) to protect
-      it from potential future commercial acquisition. Their caution proves
-      well-founded in August, when Elsevier acquires BePress, an independent
-      academic software provider originally founded in 1999 at the University of
-      California, Berkeley.</p>
+      <p>
+        Andy Byers joins the OLH to build a new open-source publishing platform,
+        Janeway. They place it under a copyleft license (<a
+          target="_blank"
+          href="https://www.gnu.org/licenses/agpl-3.0.html"
+          >AGPL v3</a
+        >) to protect it from potential future commercial acquisition. Their
+        caution proves well-founded in August, when Elsevier acquires BePress,
+        an independent academic software provider originally founded in 1999 at
+        the University of California, Berkeley.
+      </p>
     {% endcall %}
     {% call _block(year="2018", i="5") %}
-      <p>Mauro Sanchez joins the OLH tech team as Senior Publishing Technologies
-      Developer, bringing expertise in publishing and technical architecture.</p>
+      <p>
+        Mauro Sanchez joins the OLH tech team as Senior Publishing Technologies
+        Developer, bringing expertise in publishing and technical architecture.
+      </p>
     {% endcall %}
     {% call _block(year="2019", i="6") %}
-      <p>The OLH migrates its journals from Ubiquity Press to Janeway. The OLH
-      tech team rapidly develops new features to meet the needs of a community
-      of publishers now using Janeway. They begin a hosted service, which helps
-      secure OLH’s long-term sustainability.</p>
+      <p>
+        The OLH migrates its journals from Ubiquity Press to Janeway. The OLH
+        tech team rapidly develops new features to meet the needs of a community
+        of publishers now using Janeway. They begin a hosted service, which
+        helps secure OLH’s long-term sustainability.
+      </p>
     {% endcall %}
     {% call _block(year="2020", i="7") %}
-      <p>F1000 Research, an open research publishing platform, is acquired by
-      Taylor &amp; Francis – part of Informa plc, a British-based media group
-      valued at over £3 billion. This commercialises a previously community-owned
-      infrastructure.</p>
+      <p>
+        F1000 Research, an open research publishing platform, is acquired by
+        Taylor &amp; Francis – part of Informa plc, a British-based media group
+        valued at over £3 billion. This commercialises a previously
+        community-owned infrastructure.
+      </p>
     {% endcall %}
     {% call _block(year="2021", i="8") %}
-      <p>The Arcadia Fund awards Birkbeck a £200,000 grant during the COVID-19
-      pandemic to support Janeway’s expansion, enabling hosted publishing
-      services for other university publishers. This funding allows OLH to hire
-      Joe Muller as a Publishing Technologies Developer.</p>
+      <p>
+        The Arcadia Fund awards Birkbeck a £200,000 grant during the COVID-19
+        pandemic to support Janeway’s expansion, enabling hosted publishing
+        services for other university publishers. This funding allows OLH to
+        hire Joe Muller as a Publishing Technologies Developer.
+      </p>
     {% endcall %}
     {% call _block(year="2022", i="9") %}
-      <p>Berlin-based academic publishing giant De Gruyter acquires Ubiquity Press. 
-      At the OLH, Katherine Parker-Hay joins the team and works to establish user 
-      experience research into the development cycle. </p>
+      <p>
+        Berlin-based academic publishing giant De Gruyter acquires Ubiquity
+        Press. At the OLH, Katherine Parker-Hay joins the team and works to
+        establish user experience research into the development cycle.
+      </p>
     {% endcall %}
     {% call _block(year="2023", i="10") %}
-      <p>The OLH tech team grows to six staff members with the addition of
-      Steph Driver as a Publishing Technologies Developer and Siobhan Haimé as
-      a Publishing Technologies Librarian. They also host the first Janeway
-      Symposium at Birkbeck, University of London, uniting publishing partners,
-      software engineers, and academic editors.</p>
+      <p>
+        The OLH tech team grows to six staff members with the addition of Steph
+        Driver as a Publishing Technologies Developer and Siobhan Haimé as a
+        Publishing Technologies Librarian. They also host the first Janeway
+        Symposium at Birkbeck, University of London, uniting publishing
+        partners, software engineers, and academic editors.
+      </p>
     {% endcall %}
     {% call _block(year="2024", i="11") %}
-      <p>The OLH establishes a working group to develop a Publishing Technology
-      Board and collaborates with the California Digital Library on a user
-      experience (UX) project.</p>
+      <p>
+        The OLH establishes a working group to develop a Publishing Technology
+        Board and collaborates with the California Digital Library on a user
+        experience (UX) project.
+      </p>
     {% endcall %}
   </div>
 </div>

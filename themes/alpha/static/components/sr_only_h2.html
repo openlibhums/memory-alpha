@@ -6,7 +6,5 @@
 #}
 
 {% macro sr_only_h2(id) -%}
-  <h2 id="{{ id }}" class="sr-only">
-    {{ caller() }}
-  </h2>
+  <h2 id="{{ id }}" class="sr-only">{{ caller() }}</h2>
 {%- endmacro %}
