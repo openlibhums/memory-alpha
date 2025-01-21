@@ -62,7 +62,7 @@ Janeway will attempt to provide an appropriate label if this is left blank. Howe
 ## Editing typeset files and uploading additional files
 If you need to make changes to the typeset files, reupload them or upload additional files; this can be done through the ‘Edit Typeset File’ page. This page can be accessed by clicking **Edit**.
  
- !["The ‘Upload typeset files’ section, showing two uploaded files. It also displays the figure files’ status: ‘N/A’ for a file with no figure files and ‘Missing figures’ for a file with missing figures."](../support/images/workflow/typesetting-edit-button.png)
+ !["The ‘Upload typeset files’ section, showing two uploaded files. It also displays the figure files’ status: ‘N/A’ for a file with no figure files and ‘Missing figures’ for a file with missing figures."](../../support/images/workflow/typesetting-edit-button.png)
 
  !["The ‘Edit typeset file’ page."](../../support/images/workflow/typesetting-filehistory.png)
 
@@ -83,7 +83,6 @@ This page is divided into three sections:
 In the first section of the page, you can view the file currently uploaded and replace or download it. You can also view the file's history by clicking on the button under 'History'. 
 
 This will open a page where you can download and reinstate previous versions or delete the current file entirely (in case you have uploaded an incorrect file).
-
 
 !["The File history and Metadata page."](../../support/images/workflow/typesetting-filehistory.png)
 
