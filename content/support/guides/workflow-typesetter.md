@@ -53,62 +53,56 @@ Source files (such as Adobe In Design files) can be uploaded using the ‘Upload
 
 !["The ‘Upload a typeset file’ upload. It provides the options to add a label for the file, toggle whether the file should be publicly available after the article is published, choose a file to upload, and confirm the upload."](../../support/images/workflow/typesetting-upload.png)
 
-In this box, you will find the option to label your file with its file type. For instance, if this is an HTML file, you should label it as ‘HTML’. If it is a PDF, you should label it as ‘PDF’, etc.
-Janeway will attempt to provide an appropriate label if this is left blank. However, if you wish to make sure the label is correct, you can enter the file type manually. For instructions on how to edit a label, see the section below.
+In this box, you will find the option to label your file with its file type. For instance, if this is an HTML file, you should label it as ‘HTML’. If it is a PDF, you should label it as ‘PDF’, etc. 
+Janeway will attempt to provide an appropriate label if this is left blank. However, if you wish to ensure the label is correct, you can manually enter the file type. For instructions on how to edit a label, see the section below.
 
 > [!WARNING]
-> Janeway operates with the UTF-8 encoding. Please ensure that you upload any HTML and XML files (plain text galleys) using this encoding.
+>  Janeway operates with the UTF-8 encoding. Please ensure that you upload any HTML and XML files (plain text galleys) using this encoding.
 
 ## Editing typeset files and uploading additional files
-If you need to make changes to the typeset files, reupload them or upload additional files, this can be done through the ‘Edit Typeset File’ page. 
-This page can be accessed by clicking **Edit**.
+If you need to make changes to the typeset files, reupload them or upload additional files; this can be done through the ‘Edit Typeset File’ page. This page can be accessed by clicking **Edit**.
  
  !["The ‘Upload typeset files’ section, showing two uploaded files. It also displays the figure files’ status: ‘N/A’ for a file with no figure files and ‘Missing figures’ for a file with missing figures."](../support/images/workflow/typesetting-edit-button.png)
 
  !["The ‘Edit typeset file’ page."](../../support/images/workflow/typesetting-filehistory.png)
 
- This page is broken into three sections.
+This page is divided into three sections:
 - The typeset file
-    - Here, you can replace the typeset file and see the file history.
+	- You can replace the typeset file and see the file history here.
+
 - Typeset file details
-    - This is where you can edit the file label, which denotes the file type.
+	- This is where you can edit the file label, which denotes the file type.
+
 - Additional file uploads
   - If authors or editors have already provided images, you can find and select them here. 
-  - You can upload images yourself, either as individual image files or a .zip file.
-  - There is space to upload a CSS file to go along with the galley. 
-  - You can also change the XSLT file used to render the galley from here. 
+  - You can upload images as individual image files or using a ZIP file.
+  - There is space to upload a CSS file to accompany the galley. 
+  - You can change the XSLT file used to render the galley. 
 
 ## Managing typeset files
-In the first section of the page, you can view the file currently uploaded, and replace or download it. 
-You can also view the file's history by clicking on the button under 'History'. 
+In the first section of the page, you can view the file currently uploaded and replace or download it. You can also view the file's history by clicking on the button under 'History'. 
 
-This will open a page where you can download and reinstate previous versions, or delete the current file entirely (in case you have uploaded an incorrect file).
+This will open a page where you can download and reinstate previous versions or delete the current file entirely (in case you have uploaded an incorrect file).
+
 
 !["The File history and Metadata page."](../../support/images/workflow/typesetting-filehistory.png)
 
 ## Managing images and figure files
 !["A screenshot displaying the available options for adding image files: uploading a file in a section for a dedicated image (displaying its filename), uploading images as additional files or uploading a zip file."](../../support/images/workflow/typesetting-image-upload.png)
 
-When a file that has been typeset in HTML or XML contains image links, Janeway will detect these and prompt you to upload the image files. 
-The file names should match the src or href used in the XML/HTML and should be relative (e.g. src="fig1.jpg").
+When a file typeset in HTML or XML contains image links, Janeway will detect these and prompt you to upload the image files. The file names should match the src or href used in the XML/HTML and be relative (e.g. src="fig1.jpg").
 
 If the image files have already been uploaded onto Janeway, you can select them instead.
 
-If you need to upload a large number of images, it might be faster to use the zip uploader (see ‘Upload Zip File’ in the image below). 
-To do so, create a .zip archive file with all of the image files. The image filenames must match the links in the typeset file, otherwise it will not import them.
+If you need to upload a large number of images, it might be faster to use the zip uploader (see ‘Upload Zip File’ in the image below). To do so, create a ZIP archive file with all the image files. The image filenames must match the links in the typeset file; otherwise, they will not be imported.
 
 ## Styling
-On this page, you can also upload a CSS file associated with the article for an individual style, if required. 
-We recommend avoiding style changes to the header and footer type elements as this will affect the layout of the page.
+On this page, you can also upload a CSS file associated with the article for an individual style, if required. We recommend avoiding style changes to the header and footer type elements, as this will affect the page's layout.
 
-You can also select the XSL file used for rendering the HTML out of the file. 
-This will be the Janeway default (1.4.3.) except if explicitly instructed otherwise. 
-In that case, this will be communicated by the editors as part of the typesetting task or agreement.
+You can also select the XSL file used to render the HTML from the file. Unless explicitly instructed otherwise, this will be the Janeway default (1.4.3). In that case, the editors will communicate this as part of the typesetting task or agreement.
 
 ### Finishing up
-Once you are done with the typesetting (or correction) task, 
-you can leave a note for the editor and click the button to complete the task to send it to the editor to review. 
-Please note that once you complete the task, you will be unable to return to this page.
+Once you finish the typesetting (or correction) task, you can leave a note for the editor, click the button to complete the task and send it to the editor for review. Please note that you cannot return to this page once you complete the task.
 
 > [!NOTE]
 > If you attempt to complete the typesetting task with potential issues remaining (e.g. missing image files, typeset files that have not been corrected), Janeway will warn you about this.
