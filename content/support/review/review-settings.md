@@ -1,9 +1,9 @@
-Title: Review settings
+Title: Review Settings
 
-# Review settings
+# Review Settings
 Review settings can be found under ‘Review’ on the manager dashboard.
 
-![](manager-review-settings.png)
+![" "](../../support/images/manager-review-settings.png)
 
 Review settings control how peer review operates. The settings found in this section are the following:
 
