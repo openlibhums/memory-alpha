@@ -5,7 +5,8 @@ Sections are ways of grouping articles by their content type, e.g. "Research Art
 
 - Where to find sections
 - Image of how to find.
-- 
+
+## An appropriate H2 header I am yet to write 
 From this interface, you can edit the sections available on your journal.
 
 <!-- ![Section Manager](../../nstatic/sections.gif) -->
