@@ -10,9 +10,9 @@ Title: Google Analytics
 
 Found through either general settings -> scroll down
 
-![](general-settings-google.png)
+![" "](../../support/images/general-settings-google.png)
 
 Or through all settings:
 
-![](all-settings-google.png)
+![" "](../../support/images/all-settings-google.png)
 
