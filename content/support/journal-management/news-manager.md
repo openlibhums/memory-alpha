@@ -11,19 +11,19 @@ To add a new news item, select the *News Manager*. The interface displays existi
 
 The form fields include:
 
-- Title \*  
+- Title 
   - The title of the news item.
 
-- Body \*  
+- Body 
   - The HTML body of the news item.
 
-- Start display \*  
+- Start display 
   - The date to start displaying this news item.
 
 - End display  
   - The date to stop displaying this news item (can be left blank to display indefinitely).
 
-- Sequence \*  
+- Sequence  
   - Use for sorting when news items are posted on the same day.
 
 - Image file  
