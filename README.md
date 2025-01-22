@@ -183,7 +183,7 @@ based on the background colour you pass in.
 
 ### Responsiveness and breakpoints
 
-We currently use one breakpoint of 50rems. Use media queries with 
+We currently use one breakpoint of 50rems. Use media queries with
 `width <= 50rem` or `width > 50rem`.
 
 At the smaller width, think primarily of touch-screen users, especially those
