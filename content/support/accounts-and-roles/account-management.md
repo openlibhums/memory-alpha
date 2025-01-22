@@ -1,12 +1,12 @@
 Title: Managing user accounts
 # Managing user accounts
 
-SECTION TBC
+**WIP**
 Some intro about managing accounts and users
 
 ## Enrolled users
 
-![](manager-enrolled-users.png)
+![" "](../../support/images/manager-enrolled-users.png)
 
 The journal user interface lists all users with one or more roles for your journal. From this page, you can:
 
@@ -22,7 +22,7 @@ The journal user interface lists all users with one or more roles for your journ
   - Copyediting assignments
   - Production assignments
 
-![The enrolled user interface. From here, we can search, add new users and assign additional roles, amongst other things.](../../images/enrolled-users.png)
+<!-- Check if image still good here ![The enrolled user interface. From here, we can search, add new users and assign additional roles, amongst other things.](../../support/images/enrolled-users.png)-->
 
 ## Editing a user
 
@@ -47,18 +47,18 @@ You can search for existing user accounts by:
 
 Once you have found an account, you can see which roles they have and which are available to be assigned to them.
 
-![This user has two roles (Author and Editor) and can be assigned any of the other roles.](../../images/enrol-user.gif)
+<!-- Check if image still good here [This user has two roles (Author and Editor) and can be assigned any of the other roles.](../../support/images/enrol-user.gif) -->
 
-## Merge users (Press Manager only)
+<!-- ## Merge users (Press Manager only)
 
-**TBC** Location / phrasing to be reconsidered.
+**WIP** Location / phrasing to be reconsidered.
 
 The press manager interface now enables staff members to merge two accounts to eliminate duplicates. All associated objects, such as tasks, articles, roles, and files, will be moved from the source account to the destination account. The account profile remains unchanged, meaning any profile information in the source account will be lost.
 
 > [!WARNING]
 > When searching for users to merge, note that the user account in the left column will be merged into the user account in the right column.
 
-![A press manager is merging Andy Byers' account into Katheryn Janeway's account.](../../images/merge-users.gif)
+![A press manager is merging Andy Byers' account into Katheryn Janeway's account.](../../images/merge-users.gif) -->
 
 
 
