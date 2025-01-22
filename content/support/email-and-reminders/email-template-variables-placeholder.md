@@ -2,14 +2,15 @@ Title: Email Template Variables
 
 # Email Template Variables
 
+This section needs dev input. (Some stuff below looks like it needs backticks, but idk dawg)
+
 ## Templates
 
 ### Review Assignment
 
 Template Code: review_assignment
 
-This template is sent to potential reviewers inviting them to submit a
-review.
+This template is sent to potential reviewers inviting them to submit a review.
 
 Objects in this Template's context:
 
@@ -17,13 +18,11 @@ Objects in this Template's context:
 - editor, an Account object.
 - review_assignment, a ReviewAssignment object.
 - review_url, a reversed URL with FQDN.
-- article_details, a string with article and review information in it
-  inc. Title, due date etc.
+- article_details, a string with article and review information in it, inc. Title, due date etc.
 
 ## Objects
 
-Listed here is a non-exhaustive list of the objects that you may have
-access to in an email template.
+Listed here is a non-exhaustive list of the objects that you may have access to in an email template.
 
 KEY
 
@@ -133,13 +132,13 @@ The journal object contains the following attributes:
 
 If I wanted to display the due date I could use:
 
-{% raw %}{{ review_assignment.date_due }}{% endraw %}
+`{% raw %}{{ review_assignment.date_due }}{% endraw %}`
 
 If I wanted to display the title of the issue this article is projected
 to be in I can use:
 
-{% raw %}{{ article.projected_issue.display_title }}{% endraw %}
+`{% raw %}{{ article.projected_issue.display_title }}{% endraw %}`
 
 If I wanted to display an article's journal's name I would use:
 
-{% raw %}{{ article.journal.name }}{% endraw %}
+`{% raw %}{{ article.journal.name }}{% endraw %}`
