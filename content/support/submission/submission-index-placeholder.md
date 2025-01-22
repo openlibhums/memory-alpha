@@ -1,10 +1,10 @@
-Title: Managing submissions on Janeway
-# Managing submissions on Janeway
+Title: Managing Submissions on Janeway
+# Managing Submissions on Janeway
 
 **WIP**
 TBC on this page:
 - Submission page web content VS submission process webform.
-![](manager-submission.png)
+![" "](../../support/images/manager-submission.png)
 
 -Customising webcontent / information about submission
 
