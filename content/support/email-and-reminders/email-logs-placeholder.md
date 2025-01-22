@@ -1,15 +1,16 @@
-<!-- Title: Email logs 
-# Email logs
+Title: Email Logs 
+# Email Logs
 All outgoing email sent through Janeway are tracked in the article log.
 
-You can view and Article's log by accessing an article either through
-its workflow stage or through the archive (Dashboard -\> Left hand menu
+You can view and Article's log by accessing an article either through its workflow stage or through the archive (Dashboard -\> Left hand menu
 -\> Back Content -\> Articles) and using the "Stages, Logs and More"
 drop down select Log
-[insert image]
+<!-- [insert images] -->
+
+## Interpreting statuses
 
 - what do the statuses mean?
 
-- what do the buttons do, explain.
+## Actions
 
--->
+- what do the buttons do, explain.
