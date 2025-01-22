@@ -1,7 +1,7 @@
-Title: Sharing review
-# Sharing reviews
+Title: Sharing Review
+# Sharing Reviews
 
-SECTION TBC
+**WIP**
 [*Reviews can be shared with authors (the standard stuff) and between reviewers.]
  
 ## Sharing reviews with authors
@@ -24,7 +24,7 @@ Since Janeway version 1.5.1 (how to check your Janeway version <!-- missing hype
 
 In the review settings page, under the ‘Sharing Peer Reviews’ header, four settings control how editors can share peer reviews.
 
-![Settings for controlling sharing of peer review.](TBC)
+<!-- ![Settings for controlling sharing of peer review.](../../support/images/TBC) -->
 
 ### Enable share reviews decision
 This adds a new option to the decision list and allows the editor to email all of the reviewers who have completed a review for the given article and share with them a link to view each of the other reviews that have been completed for that article.
