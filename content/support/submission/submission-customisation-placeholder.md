@@ -1,18 +1,19 @@
-Title: Configuring the submission process
-# Configuring the submission process
+Title: Configuring the Submission Process
+# Configuring the Submission Process
 
 **WIP**
- [intro to submission configuration and customisation in Janeway]
+ intro to submission configuration and customisation in Janeway.
 
 ## Submission page items and layout
+**WIP**
 Configures the submission information page for authors. Found under ‘content’ as it is web content.
 
-![](manager-submission-page-items.png)
+![""](../../support/images/manager-submission-page-items.png)
 
 ## Submission form items
-![](manager-submission-fields-configurator.png)
+![""](../../support/images/manager-submission-fields-configurator.png)
 
-Configures the submission process and form for authors. Found under ‘Submission’ as it affects the submission process.
+This configures the submission process and form for authors. It is found under ‘Submission’ as it affects the submission process.
 
 The additional submission fields page allows us to add custom fields to the article Info submission page. It works similarly to the Review Forms generator.
 
@@ -24,31 +25,31 @@ To add a new element:
 A submission form can have the following types of form elements:
 - Text field
 	- This is a single-line input area for short text answers such as names, keywords or subjects. It does not allow for formatting.
-![](element-text-field.png)
+![Example text field](../../support/images/element-text-field.png)
 
 - Text area
 	- This is a larger, multi-line input area for longer texts such as comments and descriptions. It allows for formatting and line breaks.
-![](element-text-area.png)
+![Example text area](../../support/images/element-text-area.png)
 
 - Checkbox
-	- [Asks users to check a box, can be used to declare no competing interests / agreeing to terms.]
-![](element-check-box.png)
+	- This element asks users to check a box, which can be used to declare no competing interests / agree to terms, for example.
+![Example checkbox](../../support/images/element-check-box.png)
 
 - Select (dropdown)
-	- Shows a predefined list of options allowing users to select one.
-![](element-select.png)
+	- Shows a predefined list of options, allowing users to select one.
+![Example dropdown](../../support/images/element-select.png)
 
 - Email
 	- Specific text field for emails. It checks if the input looks like an email address. / follows the format of an email address.
-![](element-email.png)
+ ![Example email field](../../support/images/element-email.png)
 
 - Upload
 	- Asks the users to upload a file from their device.
-![](element-file-upload.png)
+    ![Example upload field](../../support/images/element-file-upload.png)
 
 - Date
 	-Asks the user to provide a date.
-![](element-date.png)
+ ![Example date field](../../support/images/element-date.png)
 
 If you choose the ‘Select’ (dropdown) element, you need create the options. This is done through the ‘Choices’ field. The options should be separated by the bar " | " character, e.g. " choice 1|choice 2|choice 2 ". When using any of the other form elements, you can ignore the ‘Choices’ field.
 
