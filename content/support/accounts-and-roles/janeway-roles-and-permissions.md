@@ -1,11 +1,8 @@
-Title: Roles and permissions on Janeway
-# Roles and permissions on Janeway
+Title: Roles and Permissions on Janeway
+# Roles and Permissions on Janeway
 
 **WIP**
-
 Needs some further work, checks and dev input on a few bits. Need to check out the granular permissions still.
-
- - intro
 
 ## Janeway roles 
 - Author
@@ -24,7 +21,7 @@ Needs some further work, checks and dev input on a few bits. Need to check out t
 > Whilst the Production Manager and Proofing Manager are still assignable in Janeway, they have been deprecated in 1.4 and are no longer in use.
 
 - Reader  
-  - This is not a role as such, but it is used to indicate whether a user is signed up for article publication notifications. For more information, see email notifications <!-- missing hyperlink →  
+  - This is not a role as such, but it is used to indicate whether a user is signed up for article publication notifications. For more information, see email notifications <!-- missing hyperlink -->
 
 ## Permissions
 
