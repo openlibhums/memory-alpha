@@ -1,5 +1,5 @@
-Title: Janeway analytics
-# Janeway analytics
+Title: Janeway Analytics
+# Janeway Analytics
 
 - Janeway counts views and downloads.
 - Can get author data
