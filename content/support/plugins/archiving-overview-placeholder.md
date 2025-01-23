@@ -4,3 +4,4 @@ Title: Archiving Plugins
 - Portico
 - LoC
 - Lockss
+- FTP
