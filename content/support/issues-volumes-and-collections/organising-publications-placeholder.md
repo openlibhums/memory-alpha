@@ -1,3 +1,6 @@
+Title: Organising Publications
+# Organising Publications
+
 <!-- Copied from issues:
 
 # Issues
