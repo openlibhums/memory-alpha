@@ -1,4 +1,5 @@
-### Navigation
+Title: Navigation
+# Navigation
 
 The nav bar is made up of two kinds of items:
 
@@ -22,7 +23,7 @@ To add a new custom nav item, from the content manager page, select
 "Edit Nav" and fill in the fields as desired. Details of how each field
 works are displayed below the field.
 
-![Editing a custom nav item in the content management system](../../nstatic/content-edit-nav.png)
+<!-- ![Editing a custom nav item in the content management system](../../nstatic/content-edit-nav.png) -->
 
 ## Footer Navigation
 
@@ -32,7 +33,7 @@ than the top navigation bar.
 Use **For footer** to switch the link to the footer. At the press level,
 only the path theme support this feature so far.
 
-![Custom footer links in the path theme](../../nstatic/footer-path-custom-links.png)
+<!-- ![Custom footer links in the path theme](../../nstatic/footer-path-custom-links.png) -->
 
 Press managers can also create custom footer links that extend to all
 journal websites, such as for publisher policies.
@@ -40,8 +41,7 @@ journal websites, such as for publisher policies.
 To do so, create a navigation item and check **Is external**, **For
 footer**, and **Extend to journals**.
 
-![Custom footer links on a journal website set by a press manager.](../../nstatic/footer-olh.png)
-
+<!-- ![Custom footer links on a journal website set by a press manager.](../../nstatic/footer-olh.png) -->
 
 
 ## Styling
