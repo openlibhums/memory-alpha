@@ -1,4 +1,4 @@
-Title: Journal Contacts
+title: Journal Contacts
 # Journal Contacts
 
 You can control the contacts listing for your journal by adding and removing contacts through this interface. Only three fields are used for this:
