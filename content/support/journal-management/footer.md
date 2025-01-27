@@ -1,4 +1,4 @@
-Title: Journal Footer
+title: Journal Footer
 # Journal Footer 
 
 As a press manager, you can control some of the elements that appear in the website footer of every journal.
