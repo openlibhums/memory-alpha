@@ -1,19 +1,13 @@
-Title: Submission and review
-# Submission and review
+title: Editor -  Submission and Review
+# Editor - Submission and Review
 
-## Unassigned Article
+## Unassigned submissions
+Editors will be notified by email once a new article has been submitted. This email will contain a link to the submitted article, but it can also be accessed through the dashboard.
 
-Once an Author has submitted an article it is the Editor's turn to
-review the unassigned article, assign an Editor and move it into the
-review process. An Editor will be notified once an article is submitted,
-the email will contain a link, or the Editor can access the article from
-the Dashboard page.
+> [!NOTE]
+> Notifications can also be set up per section or for section editors. See SECTION <!-- missing hyperlink -->
 
-Selecting Unassigned will provide the Editor with a list of articles
-that haven't yet been assigned an Editor and moved into review. You can
-view the data for an article by selecting "View". On the left hand of
-the page all of the article's metadata will be listed, on the right, its
-options and actions.
+Clicking **Unassigned** will take you to a page that displays a list of articles that have not yet been assigned an editor.
 
 The first thing an Editor needs to do is assign an Editor or Section
 Editor to the handle the article through the journal workflow. Once
