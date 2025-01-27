@@ -1,4 +1,4 @@
-Title: JATS Import
+title: JATS Import
 
 # JATS Import
 
