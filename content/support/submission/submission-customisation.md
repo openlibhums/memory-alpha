@@ -16,3 +16,5 @@ Configures the submission information page for authors. Found under ‘content�
 This configures the submission process and form for authors. It is found under ‘Submission’ as it affects the submission process.
 
 The additional submission fields page allows us to add custom fields to the article Info submission page. It works similarly to the Review Forms generator.
+
+Custom forms on Janeway <!-- Missing hyperlink -->
