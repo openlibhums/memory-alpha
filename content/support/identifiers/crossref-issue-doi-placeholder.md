@@ -1,3 +1,6 @@
+title: Crossref Issue DOI
+# Crossref Issue DOI
+
 Issue DOI Pattern  
 Janeway supports minting DOIs for journal issues automatically. With
 this setting, you can define the pattern used to generate the
