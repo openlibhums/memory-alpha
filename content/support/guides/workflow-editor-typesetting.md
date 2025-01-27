@@ -1,6 +1,6 @@
-title: Editor - Typesetting
+title: Editor Guide - Typesetting
 
-# Editor - Typesetting
+# Editor Guide - Typesetting
 
 The typesetting plugin is a new workflow element introduced with the
 release of Janeway v1.3.8 This new element aims to simplify the
