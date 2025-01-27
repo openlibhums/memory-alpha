@@ -1,7 +1,7 @@
 <!-- new version of this is available, just need to copyedit it atm-->
 
 
-Title: Proofreader Guide
+title: Proofreader Guide
 
 # Proofreader Guide
 
