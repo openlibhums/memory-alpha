@@ -1,2 +1,2 @@
-Title: Janeway Guides
+title: Janeway Guides
 # Janeway Guides
