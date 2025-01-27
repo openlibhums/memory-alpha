@@ -104,10 +104,6 @@
         font-weight: normal;
         transition: font-weight 0.2s ease-out;
 
-        &::after {
-          content: none;
-        }
-
         &:hover {
           font-weight: 950;
         }

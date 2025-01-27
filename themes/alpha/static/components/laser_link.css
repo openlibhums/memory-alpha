@@ -14,8 +14,8 @@
     transition: transform 0.2s ease-out;
   }
 
-  @media (width > 50rem) {
-    &:hover::before {
+  &:hover::before {
+    @media (width > 50rem ) {
       transform: scaleX(1);
       transform-origin: left;
     }
