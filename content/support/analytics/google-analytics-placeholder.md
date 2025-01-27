@@ -1,4 +1,4 @@
-Title: Google Analytics
+title: Google Analytics
 # Google Analytics
 
 **WIP**
