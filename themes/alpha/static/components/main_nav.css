@@ -5,6 +5,8 @@
     align-items: center;
     width: 100%;
     height: 6rem;
+    position: relative;
+    z-index: 2;
   }
 
   ul {
@@ -35,20 +37,6 @@
     font-family: var(--ff-poppins-medium);
     position: relative;
     padding: 0.7rem 0;
-  }
-
-  .nav-github-link {
-    color: var(--clr-tan);
-  }
-
-  .nav-github-link svg {
-    path {
-      fill: var(--clr-tan);
-    }
-    height: 26px;
-    display:inline;
-    vertical-align:top;
-
   }
 
   .left, .logo, .right {
