@@ -1,4 +1,6 @@
-## Draft a Decision
+title: Editor Guide - Review - Draft Decisions
+# Editor Guide - Review - Draft Decisions
+
 
 Draft Decisions (DD) is an optional workflow that requests that Section
 Editors submit a draft of their editorial decision for approval by an
@@ -20,7 +22,7 @@ Editors:
 4.  Edit, Accept or Decline the Draft.
 5.  If accepted the decision event will fire.
 
-![""](../nstatic/review-draft-a-decision.gif)
+<!-- ![""](../nstatic/review-draft-a-decision.gif) -->
 
 Examples of Draft Decisions are: Accept, Minor Revisions, Major
 Revisions or Decline. Editors are required to approve these Draft
