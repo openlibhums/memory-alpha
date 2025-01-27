@@ -1,4 +1,4 @@
-Title: Migrations plugins 
+title: Migrations plugins 
 # Migrations plugins
 
 - Wordpress
@@ -6,7 +6,7 @@ This import tool allows you to import posts from a Wordpress site into a
 Janeway journal's news system.
 
 > [!WARNING]
-> This importer is site specific. You should be accessing the import tool from the press or journal you want it import the reviewers into.
+> This importer is site-specific. You should be accessing the import tool from the press or journal you want it import the reviewers into.
 
 To import Wordpress posts:
 
