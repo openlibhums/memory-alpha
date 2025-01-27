@@ -1,4 +1,4 @@
-Title: Books plugin
+title: Books plugin
 
 # Books plugin
 
