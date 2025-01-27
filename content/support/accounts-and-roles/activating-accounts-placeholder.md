@@ -1,4 +1,4 @@
-Title: Activating accounts
+title: Activating accounts
 # Activating accounts
 
 **WIP** 
