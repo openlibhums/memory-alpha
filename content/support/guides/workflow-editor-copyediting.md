@@ -1,11 +1,11 @@
-Title: Copyediting
+title: Editor Guide - Copyediting 
 
-# Copyediting
+# Editor Guide - Copyediting 
 
 The copyediting stage provides an interface to track copyediting
 requests.
 
-![Janeway's Copyediting screen](../nstatic/copyediting.png)
+<!-- ![Janeway's Copyediting screen](../nstatic/copyediting.png) -->
 
 ## Assigning a Copyeditor
 
@@ -37,7 +37,7 @@ present a screen with the following options:
 You can make as many copyediting assignments as you like and track them
 from the copyediting screen.
 
-![Janeway's Copyediting screen with an assignment](../nstatic/copyediting-assigned.png)
+<!-- ![Janeway's Copyediting screen with an assignment](../nstatic/copyediting-assigned.png) -->
 
 After an assignment has been made the copyeditor will be able to login
 to the system to do their work. Before the task is accepted you have the
@@ -48,7 +48,7 @@ relevant dates like *Copyeditor accepted the request*.
 
 ## Review Copyediting
 
-![Copyediting review page](../nstatic/copyediting-review.png)
+<!-- ![Copyediting review page](../nstatic/copyediting-review.png) -->
 
 The review page presents the response from the copyeditor including
 their notes and any files they uploaded. You can now do one of three
