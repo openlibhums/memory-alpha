@@ -1,4 +1,4 @@
-Title: News Manager
+title: News Manager
 # News Manager
 
 The news manager allows you to create news items, assign them start- and end dates, and upload images to display alongside them.
