@@ -1,4 +1,4 @@
-Title: Consortial billing plugin
+title: Consortial billing plugin
 
 # Consortial billing plugin
 
