@@ -1,4 +1,4 @@
-Title: Article Sections
+title: Article Sections
 # Article Sections
 
 Sections are ways of grouping articles by their content type, e.g. "Research Articles" or "Reviews". 
