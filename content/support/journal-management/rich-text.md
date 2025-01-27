@@ -1,4 +1,4 @@
-Title: Managing Rich Text Fields
+title: Managing Rich Text Fields
 # Managing Rich Text Fields
 
 * Something about us using TinyMCE
