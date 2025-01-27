@@ -1,9 +1,9 @@
-<!-- new version of this is available, just need to copyedit it atm-->
-
-
 title: Proofreader Guide
 
 # Proofreader Guide
+
+<!-- new version of this is available, just need to copyedit it atm-->
+
 
 As a proofreader you may be assigned proofing tasks for a paper. When a
 new assignment is made you will receive and email and be able to see the
