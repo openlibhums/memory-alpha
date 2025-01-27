@@ -1,4 +1,4 @@
-Title: Navigation
+title: Navigation
 # Navigation
 
 The nav bar is made up of two kinds of items:
