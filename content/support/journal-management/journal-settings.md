@@ -1,4 +1,4 @@
-Title: Journal Settings
+title: Journal Settings
 
 # Journal Settings
 
