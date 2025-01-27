@@ -1,4 +1,4 @@
-Title: Copyright, Submission, Publication Fees & Reviewer Guidelines Import
+title: Copyright, Submission, Publication Fees & Reviewer Guidelines Import
 
 # Copyright, Submission, Publication Fees & Reviewer Guidelines Import
 
