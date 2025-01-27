@@ -72,7 +72,6 @@ For example:
 ```md
 # Contributing to Janeway documentation
 ```
-
 ## Internal links
 
 If you want to link to another page in the documentation, use Markdown’s link

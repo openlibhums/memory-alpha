@@ -1,9 +1,11 @@
 ---
+
 name: Documentation
 about: Describe documentation that needs writing for the support site
-title: ""
+title: ''
 labels: documentation
-assignees: ""
+assignees: ''
+
 ---
 
 ## Content needed

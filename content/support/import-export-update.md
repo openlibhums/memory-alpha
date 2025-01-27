@@ -36,22 +36,20 @@ typesetting, or prepublication).
     import it. If everything looks good, select **Import**.
 
 > [!TIP]
-> Are you importing articles that have no authors? Leave all of these fields blank:
->
-> - Author salutation
-> - Author given name
-> - Author middle name
-> - Author surname
-> - Author suffix
-> - Author institution
-> - Author department
-> - Author biography
-> - Author email
-> - Author ORCID
-> - Author is corporate (Y/N)
+>Are you importing articles that have no authors? Leave all of these fields blank: 
+>- Author salutation 
+>- Author given name 
+>- Author middle name 
+>- Author surname 
+>- Author suffix 
+>- Author institution 
+>- Author department 
+>- Author biography 
+>- Author email 
+>- Author ORCID 
+>- Author is corporate (Y/N)
 
 ## Exporting
-
 You can export a CSV containing metadata for all the articles currently
 in a given workflow stage. It will also download selected files from
 that stage.
@@ -68,7 +66,6 @@ that stage.
     article files in subfolders numbered by article ID.
 
 ## Updating
-
 You can update metadata for batches of articles in Janeway, so you don't
 have to click through each individual article to make the change.
 
@@ -79,8 +76,8 @@ have to click through each individual article to make the change.
     that as the basis for changes. See [Exporting](#exporting).
 
 > [!WARNING]
-> The tool will let you overwrite old data if you leave fields blank, so
-> make sure you start any update project by running an export.
+>The tool will let you overwrite old data if you leave fields blank, so
+>make sure you start any update project by running an export.
 
 2.  Extract the zip file you exported and open the CSV in your
     spreadsheet software of choice (but be careful with character
@@ -98,16 +95,15 @@ have to click through each individual article to make the change.
     looks good, select **Import**.
 
 ## Metadata Field Reference
-
 The table below shows you what actions (i.e. import, export, update) you
-can perform with each field (yes/no). For example, you can't _import_
+can perform with each field (yes/no). For example, you can't *import*
 article IDs, because Janeway assigns them for you to make sure they're
 unique. But you can (must) use article IDs during the update process, so
 Janeway can recognize the articles.
 
 Much the same, while you can put something in Stage to send the content
 to the right part of Janeway on initial import, you can't subsequently
-_update_ the workflow stage for articles already in the system, because
+*update* the workflow stage for articles already in the system, because
 it might break editor or author tasks in progress.
 
 The table also shows which fields you have to provide during imports and
@@ -118,7 +114,7 @@ articles, even if you're not updating the titles but something else,
 like the keywords.
 
 | Field                     | Notes                               | Import         | Export | Update                                |
-| ------------------------- | ----------------------------------- | -------------- | ------ | ------------------------------------- |
+|---------------------------|-------------------------------------|----------------|--------|---------------------------------------|
 | Janeway ID                | controlled and assigned by Janeway  | no, will break | yes    | yes, required[^2]                     |
 | Article title             | incl. subtitle; use \<em\> for ital | yes, required  | yes    | yes, required                         |
 | Article abstract          | use \<em\> for italics              | yes, optional  | yes    | yes, optional, saves empty values     |
@@ -161,7 +157,6 @@ like the keywords.
 | PDF URI                   | A valid URI (advanced users)        | yes, optional  | no     | yes, optional                         |
 
 ## Custom Submission Fields
-
 If your journal has any additional submission fields available, this
 plugin will also allow you to export and update such fields.
 
@@ -173,13 +168,11 @@ need to add the field name as a header on your spreadsheet.
 The header location is irrelevant, as long as the header matches the
 name of the field in Janeway exactly.
 
-[^1]:
-    The Janeway ID should only be populated when updating a record
+[^1]: The Janeway ID should only be populated when updating a record
     that already exists in Janeway. These IDs are allocated by the
     system and can not be set by the user.
 
-[^2]:
-    Using a character encoding other than UTF-8 can cause bugs during
+[^2]: Using a character encoding other than UTF-8 can cause bugs during
     imports or updates. See “[What is character
     encoding?](https://www.w3.org/International/questions/qa-what-is-encoding)”
     These apps save CSVs with UTF-8 by default: OpenRefine, LibreOffice,
@@ -191,26 +184,22 @@ name of the field in Janeway exactly.
 
 [^3]: Support for licence URLs will be added in future.
 
-[^4]:
-    You can use conventional names like 'English' or 'Catalan' as well
+[^4]: You can use conventional names like 'English' or 'Catalan' as well
     as three-letter language codes like 'eng' or 'cat'. Only one
     language per article. See [ISO 639 on
     Wikipedia](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes).
 
-[^5]:
-    For author fields, running an update will only update what is
+[^5]: For author fields, running an update will only update what is
     called the 'frozen author' record for this article--that is, the
     author's information at the time of article submission (or first
     import). This information is separate from information tied to that
     person's Janeway account.
 
-[^6]:
-    Email addresses are highly recommended for correspondence authors,
+[^6]: Email addresses are highly recommended for correspondence authors,
     since many parts of the workflow involve sending emails to authors,
     and these won't work without email addresses.
 
-[^7]:
-    You should include existing email addresses in your CSV when
+[^7]: You should include existing email addresses in your CSV when
     you're trying to update other fields. You can also add or remove
     author records from an article with this tool. However, you
     shouldn't use this tool to change an author's email address, because
@@ -218,50 +207,42 @@ name of the field in Janeway exactly.
     a duplicate account with the new address. We will improve this
     behaviour in the future.
 
-[^8]:
-    'Author is primary' tells Janeway which author is the
+[^8]: 'Author is primary' tells Janeway which author is the
     correspondence author. Generally, one and only one author should be
     marked 'Y' and the rest 'N' or blank. If you leave this field blank
     for all authors, the article won't have a correspondence author.
 
-[^9]:
-    See [ISO 8601 on
+[^9]: See [ISO 8601 on
     Wikipedia](https://en.wikipedia.org/wiki/ISO_8601). Examples of
     accepted date or date-and-time combinations: `2022-01-04`,
     `2022-01-04T10:12`, `2022-01-04T10:12:38-05:00`.
 
-[^10]:
-    The workflow stage has to match one of these values exactly:
+[^10]: The workflow stage has to match one of these values exactly:
     `Unassigned` (for peer review), `Editor Copyediting`,
     `typesetting_plugin`, `pre_publication`, `Published`. If the field
     is left blank, the article will be put in the `Unassigned` stage
 
-[^11]:
-    Currently the workflow stage cannot be changed en masse once the
+[^11]: Currently the workflow stage cannot be changed en masse once the
     articles are imported, since that might break tasks in progress. In
     the future we want to make it possible to change the stage of
     multiple articles.
 
-[^12]:
-    You can import PDF galleys with this process using the PDF URI
+[^12]: You can import PDF galleys with this process using the PDF URI
     field. The URI must use one of the following schemes: `http`,
     `https` or `file` (When using `file` it
     points a local path of the running instance of Janeway, does not
     support netlocs)
 
-[^13]:
-    The journal title is generally no longer required for imports as
+[^13]: The journal title is generally no longer required for imports as
     long as the title has already been entered into journal settings.
     Only use the journal override field if an article has a different
     journal title than the current journal title on Janeway, as in the
     case of backlist content originally published under a different
     title.
 
-[^14]:
-    The ISSN override field works in the same way as the journal
+[^14]: The ISSN override field works in the same way as the journal
     title override, and it should only be used if you want to display a
     different ISSN for specific articles in special circumstances.
 
-[^15]:
-    If Issue pub date is left blank, Janeway will insert the current
+[^15]: If Issue pub date is left blank, Janeway will insert the current
     day's date in this field.

@@ -13,8 +13,8 @@ annual billing process.
 
 There are a few things to configure before the plugin can be used.
 
-> [!Note]
-> Developers can import a sample configuration. See the plugin’s README.
+>[!Note]
+>Developers can import a sample configuration. See the plugin’s README.
 
 ### Currencies
 
@@ -27,16 +27,16 @@ Currencies should be set up so that each one can tie into data fetched from the
 World Bank. Each one needs the official currency code, a display symbol, and
 currency region.
 
-The plugin currently supports three currency regions:
+The plugin currently supports three currency regions: 
 
-- Euro area (EMU)
-- United Kingdom (GBR)
-- United States (USA)
+* Euro area (EMU)
+* United Kingdom (GBR)
+* United States (USA)
 
 Here are example currency setups for these three regions.
 
 | Code | Symbol | Region         |
-| ---- | ------ | -------------- |
+|------|--------|----------------|
 | EUR  | €      | Euro area      |
 | GBP  | £      | United Kingdom |
 | USD  | $      | United States  |
@@ -56,7 +56,7 @@ Create support levels and set their display order. Exactly one must be the
 default level.
 
 | Name     | Order | Default |
-| -------- | ----- | ------- |
+|----------|-------|---------|
 | Platinum | 1     | N       |
 | Gold     | 2     | N       |
 | Silver   | 3     | N       |
@@ -73,7 +73,7 @@ The redirect URL controls whether the user who fills out the signup form will
 be redirected to the billing agent’s website to complete the process.
 
 | Name    | Country | Redirect URL        | Default |
-| ------- | ------- | ------------------- | ------- |
+|---------|---------|---------------------|---------|
 | Lyrasis | Canada  |                     | N       |
 | Lyrasis | USA     |                     | N       |
 | Jisc    | UK      | https://example.com | N       |
@@ -87,7 +87,7 @@ university will see a slightly higher fee, and small college or research
 institute will see a smaller fee.
 
 | Name   | Description          | Multiplier |
-| ------ | -------------------- | ---------- |
+|--------|----------------------|------------|
 | Large  | 10,000+ students     | 1.33       |
 | Medium | 5,000-9,999 students | 1.00       |
 | Small  | 0-4,999 students     | 0.66       |
@@ -109,10 +109,10 @@ you as publisher are the billing agent for most supporters in most
 countries, plus 3 other setups where an external billing agent is in
 charge of all the supporters in a particular country.
 
-Then you should have 4 \* 5 = 20 base bands:
+Then you should have 4 * 5 = 20 base bands:
 
 | Country & agent    | Platinum | Gold    | Silver  | Bronze | Standard |
-| ------------------ | -------- | ------- | ------- | ------ | -------- |
+|--------------------|----------|---------|---------|--------|----------|
 | Germany etc. & OLH | €19,280  | €12,850 | €9,640  | €6,420 | €1,990   |
 | US & Lyrasis       | $28,840  | $19,230 | $14,420 | $9,610 | $2,980   |
 | Canada & Lyrasis   | $19,350  | $12,900 | $9,680  | $6,450 | $2,000   |

@@ -5,8 +5,8 @@ reviewed, before a developer puts it into place in a styled HTML page.
 
 1. Create a new file that has a `.txt` or `.md` ending. The `.txt` ending
    allows plain text with no formatting, while the `.md` file ending stands for
-   Markdown, which lets you add light formatting like _italics_ and **bold**.
-   This file is written in Markdown, for example.
+   Markdown, which lets you add light formatting like *italics* and **bold**.
+   This file is written in Markdown, for example. 
 
 2. Save your file by creating a commit, opening a new branch, and creating
    a pull request.
