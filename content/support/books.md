@@ -5,10 +5,10 @@ Title: Books plugin
 Through this plugin, all book-related tasks and metadata are managed.
 This plugin has three key functionalities:
 
-- Adding new books through either individual uploads or a bulk import.
-- Metrics for reporting (overall or monthly)
-- Categories - this can be used for imprints, series or other types of
-  categorisation you may wish to use for published materials.
+-   Adding new books through either individual uploads or a bulk import.
+-   Metrics for reporting (overall or monthly)
+-   Categories - this can be used for imprints, series or other types of
+    categorisation you may wish to use for published materials.
 
 ## Main dashboard
 
@@ -21,25 +21,25 @@ monographs (or similar items). It also provides an overview of all items
 published through this plug-in and the following information for all of
 them (they can also be sorted by any of these):
 
-- ID
-- Title
-- Subtitle
-- First Author
-- ISBN
-- DOI
-- Date Published
-- Reads
-- Downloads
+-   ID
+-   Title
+-   Subtitle
+-   First Author
+-   ISBN
+-   DOI
+-   Date Published
+-   Reads
+-   Downloads
 
 ![""](images/books-dashboardblock-highlight.png)
 
 The bar on top represents access to the key functions of the books plugin:
 
-- Metrics by Month
-- (General) Metrics
-- Import Books
-- Categories
-- Add New Book
+-   Metrics by Month
+-   (General) Metrics
+-   Import Books
+-   Categories
+-   Add New Book
 
 ## Categories
 
@@ -57,40 +57,36 @@ Categories cannot be created through the ‘Add a new book’ interface.
 
 When adding a new category, the following fields are available:
 
-- Name
+-   Name  
+    -   This is a required field.
 
-  - This is a required field.
+-   Description
 
-- Description
+-   Display title  
+    -   Leave this unchecked if you want to hide the category title.
 
-- Display title
+-   Chapter name  
+    -   This is where the ‘Chapter’ label can be edited, in case the
+        individual components of publications assigned to this category
+        are not chapters. This is a required field.
 
-  - Leave this unchecked if you want to hide the category title.
+-   Chapter name plural  
+    -   This is where the plural for the ‘Chapter’ label can be edited
+        to ensure the label is pluralised correctly. This is a required
+        field.
 
-- Chapter name
-
-  - This is where the ‘Chapter’ label can be edited, in case the
-    individual components of publications assigned to this category
-    are not chapters. This is a required field.
-
-- Chapter name plural
-
-  - This is where the plural for the ‘Chapter’ label can be edited
-    to ensure the label is pluralised correctly. This is a required
-    field.
-
-- Buy button text
-  - This defaults to “Buy this Book”. If the item is not a book, you
-    will need to update this field. This is a required field.
+-   Buy button text  
+    -   This defaults to “Buy this Book”. If the item is not a book, you
+        will need to update this field. This is a required field.
 
 ![An example of how changing the ‘Chapter name’ fields results in a change on the website. Instead of ‘Chapters’ it reads ‘Assignment Sets’ on the dropdown. The text in the dropdown now reads ‘Introduction to Open Access - workbook (the title) has the following Assignment Sets:’. It then goes on to list these.](images/books-category-display.png)
 
-> [!NOTE]
-> This field is case-sensitive. If you do not wish for these words to be
-> capitalised by default (and thus mid-sentence), you need to enter them
-> in lowercase. See the image above for an example of how this label
-> displays when it is capitalised. Janeway will automatically capitalise
-> the words when they appear at the start of a sentence.
+>[!NOTE]
+>This field is case-sensitive. If you do not wish for these words to be
+capitalised by default (and thus mid-sentence), you need to enter them
+in lowercase. See the image above for an example of how this label
+displays when it is capitalised. Janeway will automatically capitalise
+the words when they appear at the start of a sentence.
 
 ## Adding a new book
 
@@ -107,94 +103,79 @@ under ‘Book details’.
 
 This section contains the following fields:
 
-- Prefix
+-   Prefix
 
-- Title
+-   Title  
+    -   This is a required field.
 
-  - This is a required field.
+-   Subtitle
 
-- Subtitle
+-   Category  
+    -   This is where a publication can be assigned to an imprint, if
+        applicable.
 
-- Category
+-   Description  
+    -   The book’s description can be provided here.
 
-  - This is where a publication can be assigned to an imprint, if
-    applicable.
+-   Pages  
+    -   This is the total number of pages.
 
-- Description
+-   Edited volume?  
+    -   If this is an edited volume, tick this box. This will ensure the
+        citation is adjusted to match.
 
-  - The book’s description can be provided here.
+-   Open Access?  
+    -   If this monograph is Open Access, tick this box. This will
+        ensure the monograph is marked as open access and made available
+        on the website.
 
-- Pages
+-   Date embargo  
+    -   This will specify the date until which the title is embargoed.
 
-  - This is the total number of pages.
+-   Date published  
+    -   This will specify the date of publication (this can be before
+        the upload date for example if the official publication date
+        precedes the date on which the digital edition was made
+        available).
 
-- Edited volume?
+-   Publisher name  
+    -   This is a required field.
 
-  - If this is an edited volume, tick this box. This will ensure the
-    citation is adjusted to match.
+-   Publisher location  
+    -   This is a required field.
 
-- Open Access?
+-   Cover
 
-  - If this monograph is Open Access, tick this box. This will
-    ensure the monograph is marked as open access and made available
-    on the website.
+-   DOI  
+    -   DOIs for monographs and chapters cannot be minted directly
+        through Janeway, but if a DOI has been chosen, it can be added
+        here. To mint a DOI for a monograph or chapter after it has been
+        uploaded, you can do so through the [Crossref
+        website](https://apps.crossref.org/webDeposit/)
 
-- Date embargo
+-   ISBN
 
-  - This will specify the date until which the title is embargoed.
+-   Purchase URL  
+    -   If this book has an option for physical purchase, this is where
+        this can be linked. It will show as an option next to the ‘Read’
+        and ‘Download’ buttons on the book’s page.
 
-- Date published
+-   Remote URL  
+    -   If this monograph is not hosted on Janeway but you would like it
+        linked on the website, this is where to provide the link. If the
+        monograph is hosted on Janeway (if you are uploading manuscript
+        files), there is no need for this.
 
-  - This will specify the date of publication (this can be before
-    the upload date for example if the official publication date
-    precedes the date on which the digital edition was made
-    available).
+-   Remote label  
+    -   This will set the label for the link above. If not set, it will
+        display the domain name.
 
-- Publisher name
+-   Licence information  
+    -   Add copyright and/or licence information here.
 
-  - This is a required field.
-
-- Publisher location
-
-  - This is a required field.
-
-- Cover
-
-- DOI
-
-  - DOIs for monographs and chapters cannot be minted directly
-    through Janeway, but if a DOI has been chosen, it can be added
-    here. To mint a DOI for a monograph or chapter after it has been
-    uploaded, you can do so through the [Crossref
-    website](https://apps.crossref.org/webDeposit/)
-
-- ISBN
-
-- Purchase URL
-
-  - If this book has an option for physical purchase, this is where
-    this can be linked. It will show as an option next to the ‘Read’
-    and ‘Download’ buttons on the book’s page.
-
-- Remote URL
-
-  - If this monograph is not hosted on Janeway but you would like it
-    linked on the website, this is where to provide the link. If the
-    monograph is hosted on Janeway (if you are uploading manuscript
-    files), there is no need for this.
-
-- Remote label
-
-  - This will set the label for the link above. If not set, it will
-    display the domain name.
-
-- Licence information
-
-  - Add copyright and/or licence information here.
-
-- Custom how-to-cite
-  - To be used only if the citation block generated by Janeway is
-    not suitable.
+-   Custom how-to-cite  
+    -   To be used only if the citation block generated by Janeway is
+        not suitable.
 
 After the required fields above have been filled in and you have pressed
 ‘Save Book’, you can now move onto the following steps (displayed on the
@@ -212,26 +193,23 @@ contributors when uploading individual chapters.
 
 This page contains the following fields:
 
-- First name
+-   First name  
+    -   This is a required field.
 
-  - This is a required field.
+-   Middle name
 
-- Middle name
+-   Last name  
+    -   This is a required field.
 
-- Last name
+-   Affiliation  
+    -   This is a required field.
 
-  - This is a required field.
+-   Email
 
-- Affiliation
-
-  - This is a required field.
-
-- Email
-
-- Sequence
-  - This determines the order in which contributors are displayed
-    and will be auto-filled (but can be edited). This is a required
-    field.
+-   Sequence  
+    -   This determines the order in which contributors are displayed
+        and will be auto-filled (but can be edited). This is a required
+        field.
 
 ### Formats
 
@@ -242,17 +220,16 @@ used, such as PDF, EPUB and Mobi.
 
 This page contains the following fields:
 
-- Title
+-   Title  
+    -   The title field is where you specify the format. This will be
+        displayed on the website as ‘Download \[title\]’ (see image
+        below). This field is case-sensitive, so you may wish to be
+        consistent with capitalisation. This is a required field.
 
-  - The title field is where you specify the format. This will be
-    displayed on the website as ‘Download \[title\]’ (see image
-    below). This field is case-sensitive, so you may wish to be
-    consistent with capitalisation. This is a required field.
-
-- Sequence
-  - The sequence field will determine in what order the respective
-    ‘Read’ and ‘Download’ options will be displayed. This is useful
-    to ensure consistency in order of the options across books.
+-   Sequence  
+    -   The sequence field will determine in what order the respective
+        ‘Read’ and ‘Download’ options will be displayed. This is useful
+        to ensure consistency in order of the options across books.
 
 When an .ePub is uploaded, Janeway will generate a ‘Read this book’
 option on the book page. This allows users to read the book using an
@@ -270,9 +247,9 @@ filename in its reader toolbar, as displayed in the image below.
 
 ![""](images/books-final-manuscript.png)
 
-> [!Note]
-> ‘Read this book’ will always follow the ePub download option and ‘Buy
-> this book’ will always be the last one in the sequence.
+>[!Note]
+>‘Read this book’ will always follow the ePub download option and ‘Buy
+this book’ will always be the last one in the sequence.
 
 ### Chapters
 
@@ -283,56 +260,50 @@ the metadata is entered. This might be of particular interest if the
 book is an edited volume with multiple contributors; individual chapter
 uploads with their respective metadata allow for higher discoverability.
 
-> [!Note]
-> The chapter-level uploads are limited to one file, so only one file type
-> can be used here.
+>[!Note]
+>The chapter-level uploads are limited to one file, so only one file type
+can be used here.
 
 This page contains the following fields:
 
-- Title
+-   Title  
+    -   This is a required field.
 
-  - This is a required field.
+-   Description  
+    -   This is a required field.
 
-- Description
+-   Pages
 
-  - This is a required field.
+-   DOI  
+    -   Janeway will not automatically generate a DOI for individual
+        chapters, these will need to be registered with Crossref
+        manually. This can be done through the [Crossref
+        website](https://apps.crossref.org/webDeposit/)
 
-- Pages
+-   Number  
+    -   This is where the chapter number is set; this can be zero for
+        prelims, appendices etc.
 
-- DOI
+-   Date embargo
 
-  - Janeway will not automatically generate a DOI for individual
-    chapters, these will need to be registered with Crossref
-    manually. This can be done through the [Crossref
-    website](https://apps.crossref.org/webDeposit/)
+-   Date published
 
-- Number
+-   Sequence  
+    -   This will determine in what order the chapters are displayed.
+        This field will autofill and chapters will appear in the order
+        they were added to Janeway, but this can be edited through this
+        field. This is a required field.
 
-  - This is where the chapter number is set; this can be zero for
-    prelims, appendices etc.
+-   Contributors  
+    -   This is where contributors to chapters can be selected, for them
+        to appear their details need to have been entered in the
+        ‘Contributors’ fields through the Book Details dashboard.
 
-- Date embargo
+-   Licence information
 
-- Date published
-
-- Sequence
-
-  - This will determine in what order the chapters are displayed.
-    This field will autofill and chapters will appear in the order
-    they were added to Janeway, but this can be edited through this
-    field. This is a required field.
-
-- Contributors
-
-  - This is where contributors to chapters can be selected, for them
-    to appear their details need to have been entered in the
-    ‘Contributors’ fields through the Book Details dashboard.
-
-- Licence information
-
-- Keywords
-  - This is currently a list from which keywords can be selected.
-    This will be updated in the future.
+-   Keywords  
+    -   This is currently a list from which keywords can be selected.
+        This will be updated in the future.
 
 ## Importing books
 
@@ -345,12 +316,12 @@ certain headers. An example import with pre-prepared headers is coming soon.
 These headers are:
 
 | Field              | Notes                                              | Required? |
-| ------------------ | -------------------------------------------------- | --------- |
+|--------------------|----------------------------------------------------|-----------|
 | Prefix             |                                                    | No        |
 | Title              |                                                    | Yes       |
 | Subtitle           |                                                    | No        |
 | Description        |                                                    | No        |
-| Pages              |                                                    | Yes [^2]  |
+| Pages              |                                                    | Yes [^2] |
 | Edited volume      | If this is an edited volume, set this field to '1' | No        |
 | Date published     |                                                    | No        |
 | Publisher name     |                                                    | No        |
@@ -361,12 +332,12 @@ These headers are:
 
 Books import headers
 
-> [!Warning]
-> Due to a bug, UTF-8 does not seem to be properly recognised when
-> specific browser-editor combinations are used. We are investigating
-> this. If the file is not properly read upon upload, you may also wish to
-> try a regular .csv file (not UTF-8 encoded). If you still encounter an
-> error, please contact Support.
+>[!Warning]
+>Due to a bug, UTF-8 does not seem to be properly recognised when
+specific browser-editor combinations are used. We are investigating
+this. If the file is not properly read upon upload, you may also wish to
+try a regular .csv file (not UTF-8 encoded). If you still encounter an
+error, please contact Support.
 
 Once the import file has successfully been uploaded, the imported books
 will show on the main dashboard. You can now click on these to upload
@@ -389,9 +360,9 @@ selected per day, rather than per month as in the ‘Metrics by month’
 page. The date range affects both the Book Metrics field and the Format
 Metrics field.
 
-> [!Note]
-> If a monograph is not available for open-access downloading/reading, no
-> data will be collected and the metrics will remain at 0.
+>[!Note]
+>If a monograph is not available for open-access downloading/reading, no
+data will be collected and the metrics will remain at 0.
 
 ### Books metrics
 
@@ -410,7 +381,7 @@ Title, Views and Downloads.
 
 ![""](images/books-format-metrics.png)
 
-> [!Note]
-> The total views and downloads in this report may differ slightly from
-> the amounts listed in the monthly report discussed above. This is due to
-> an issue with time zones and the cutoff points used for the calculation.
+>[!Note]
+>The total views and downloads in this report may differ slightly from
+the amounts listed in the monthly report discussed above. This is due to
+an issue with time zones and the cutoff points used for the calculation.

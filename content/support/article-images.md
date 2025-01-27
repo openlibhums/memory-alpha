@@ -22,7 +22,7 @@ set it as the articles large image file (also known as the hero image).
 ## Metadata Field Reference
 
 | Field           | Notes                                    |
-| --------------- | ---------------------------------------- |
+|-----------------|------------------------------------------|
 | Identifier Type | Should be either id, doi or pub-id       |
 | Identifier      | The corresponding ID, DOI or Pub-ID      |
 | URL             | A URL leading directly to an image file. |
