@@ -1,4 +1,4 @@
-Title: Articles
+title: Articles
 # Articles
 
 Once an article is published, you may need to change it, e.g., upload a new galley or tweak the metadata if there is an error.
