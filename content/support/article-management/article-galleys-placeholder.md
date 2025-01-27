@@ -1,4 +1,4 @@
-Title: Article Galleys
+title: Article Galleys
 # Article Galleys
 
 **WIP**
@@ -16,7 +16,7 @@ Title: Article Galleys
    ///////
 
 
-Much like the Production page, the article archive allows you to upload new and replace old Galley files.
+Like the Production page, the article archive allows you to upload new and replace old Galley files.
 
 <!-- ![Galley manager block](../nstatic/galleys-archive.png) -->
 
