@@ -1,4 +1,4 @@
-Title: Article Metadata
+title: Article Metadata
 # Article Metadata
 
 **WIP**
