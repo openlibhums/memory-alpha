@@ -1,2 +1,2 @@
-Title: Repositories on Janeway
+title: Repositories on Janeway
 # Repositories on Janeway
