@@ -1,4 +1,4 @@
-Title: Licence Manager
+title: Licence Manager
 # Licence Manager
 
 ![](../../support/images/manager-licence-manager.png)
