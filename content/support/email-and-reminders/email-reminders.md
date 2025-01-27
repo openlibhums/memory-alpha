@@ -1,4 +1,4 @@
-Title: Scheduling Reminders
+title: Scheduling Reminders
 # Scheduling Reminders
 
 Janeway lets you define your own email reminders for overdue Reviews and Revision assignments. They are defined using the following:
