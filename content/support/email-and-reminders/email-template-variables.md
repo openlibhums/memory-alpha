@@ -1,4 +1,4 @@
-Title: Email Template Variables
+title: Email Template Variables
 
 # Email Template Variables
 
