@@ -1,4 +1,4 @@
-Title: Configuring the Submission Process
+title: Configuring the Submission Process
 # Configuring the Submission Process
 
 **WIP**
