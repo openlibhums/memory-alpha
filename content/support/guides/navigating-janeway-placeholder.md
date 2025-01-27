@@ -1,2 +1,2 @@
-Title: Navigating Janeway
+title: Navigating Janeway
 # Navigating Janeway
