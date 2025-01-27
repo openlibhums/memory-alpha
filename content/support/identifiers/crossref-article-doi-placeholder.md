@@ -1,3 +1,6 @@
+title: Crossref Article DOI
+# Crossref Article DOI
+
 ## When Are DOIs Minted?
 
 If all the settings are properly configured (see below), Janeway handles
