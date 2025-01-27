@@ -1,4 +1,4 @@
-Title: Triple Anonymous Peer Review
+title: Triple Anonymous Peer Review
 # Triple Anonymous Peer Review
 
 <!-- images still needed -->
