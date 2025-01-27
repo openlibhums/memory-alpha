@@ -1,4 +1,4 @@
-Title: Issues
+title: Issues
 
 # Issues
 
