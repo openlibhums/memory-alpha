@@ -1,4 +1,4 @@
-Title: Copyeditor Workflow Guide
+title: Copyeditor Workflow Guide
 
 # Copyeditor Workflow Guide
 
