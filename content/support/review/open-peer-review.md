@@ -1,4 +1,4 @@
-Title: Open Peer Review
+title: Open Peer Review
 # Open Reer Review
 
 This feature allows peer reviews to be made public with the reviewer's consent and when chosen for public display by the editor. By default, this feature is off, and peer reviews will remain confidential.
