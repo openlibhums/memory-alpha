@@ -8,7 +8,7 @@ The Import / Export / Update tool lets you perform some batch actions in
 Janeway. You can import and export article metadata and files, and you
 can update some fields of existing articles.
 
-!["The Import, Export, Update start page<"](../support/images/import-export-update-start.png)
+<!-- !["The Import, Export, Update start page<"](../support/images/import-export-update-start.png) -->
 
 ## Importing
 
@@ -16,23 +16,22 @@ With this tool, you can create new articles in Janeway and load them
 directly into the desired workflow stage (peer review, copyediting,
 typesetting, or prepublication).
 
-1.  Download a copy of the [metadata
-    template](../nstatic/imports/metadata-template.csv) and open it up to edit it.
+1.  Download a copy of the [metadata template](../support/downloadables/metadata-template.csv) and open it up to edit it.
     You can use most spreadsheet applications, but make sure you will be
     able to save it as a CSV with UTF-8 character encoding.[^1]
-2.  Enter the metadata, one article per row. See the [Metadata Field
+3.  Enter the metadata, one article per row. See the [Metadata Field
     Reference](#metadata-field-reference) and the [sample
-    import](../nstatic/imports/sample-import.csv) for pointers. For multi-author
+    import](../support/downloadables/sample-import.csv) for pointers. For multi-author
     articles, insert a new row for each author, and only fill in the
     author fields on extra rows.
-3.  Save the file with a name of your choosing.
-4.  From the journal's dashboard, navigate to **All Articles** under
+4.  Save the file with a name of your choosing.
+5.  From the journal's dashboard, navigate to **All Articles** under
     **Staff** in the lower left. You need to have 'staff' access to view
     this page. (The tool also appears as **Article Import, Export,
     Update** in the Imports plugin start page.)
-5.  Select **Upload Update** and upload your file. (It says 'update',
+6.  Select **Upload Update** and upload your file. (It says 'update',
     but this is how you import new things too.)
-6.  A table should load in your browser showing you the data, before you
+7.  A table should load in your browser showing you the data, before you
     import it. If everything looks good, select **Import**.
 
 > [!TIP]
@@ -61,7 +60,7 @@ that stage.
     articles you want to export.
 3.  If you want to download associated files, use the **Files** column
     to add files for each article.
-4.  Select **Export All** or **Export Filtered**. A zip file should be
+4.  Select **Export All** or **Export Filtered**. A ZIP file should be
     downloaded containing the metadata in `article-data.csv` and the
     article files in subfolders numbered by article ID.
 
@@ -76,8 +75,7 @@ have to click through each individual article to make the change.
     that as the basis for changes. See [Exporting](#exporting).
 
 > [!WARNING]
->The tool will let you overwrite old data if you leave fields blank, so
->make sure you start any update project by running an export.
+> The tool will let you overwrite old data if you leave fields blank, so make sure you start any update project by running an export.
 
 2.  Extract the zip file you exported and open the CSV in your
     spreadsheet software of choice (but be careful with character
