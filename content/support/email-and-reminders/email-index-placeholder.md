@@ -1,2 +1,2 @@
-Title: Emails and Reminders on Janeway
+title: Emails and Reminders on Janeway
 # Emails and Reminders on Janeway
