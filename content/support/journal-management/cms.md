@@ -1,4 +1,4 @@
-Title: Janeway Content Manager
+title: Janeway Content Manager
 # Janeway Content Manager
 
 The Content Manager is Janeway's CMS. Pages can be created and edited using our rich text editor.
