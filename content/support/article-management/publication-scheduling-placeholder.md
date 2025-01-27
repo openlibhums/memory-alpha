@@ -1,4 +1,4 @@
-Title: Publication Schedule
+title: Publication Schedule
 
 # Publication Schedule
 **WIP**
