@@ -1,4 +1,4 @@
-Title: Journal Design
+title: Journal Design
 # Journal Design
 
 <!-- Image guidelines - link here -->
