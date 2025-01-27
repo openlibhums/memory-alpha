@@ -2,6 +2,8 @@ title: Form Elements
 # Form Elements
 Custom forms in Janeway have the following aspects to them yada yada.
 
+<!-- edit to work for review, submission and hunt for any other custom forms. -->
+
 - Name
 	- This field provides the name of the submission element
  In case of a short question, you could put a question in this field. If using a longer question, you may wish to use a more generic description and provide further guidance in the help text.
@@ -18,6 +20,8 @@ Custom forms in Janeway have the following aspects to them yada yada.
 - Help text  
   - This text will display under the submission element and can provide further guidance or information for authors.
 
+- Default visibility  
+  - If enabled, this element will be visible to the author by default once the editor has shared the review with them. If disabled, the author will not see this element unless the editor overrides it.
 
 ## Element types (kind)
 A submission form element can be one of the following kinds:
