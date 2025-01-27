@@ -11,5 +11,8 @@
     {% endif %}
     class="laser-link">
     {{ caller() }}
+    {% if target=="_blank" %}
+      <span class="sr-only">(opens in new tab)</span>
+    {% endif %}
   </a>
 {%- endmacro %}

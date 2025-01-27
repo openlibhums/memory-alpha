@@ -6,7 +6,9 @@ from axe_playwright_python.sync_playwright import Axe
 
 
 pelican, settings = get_instance(parse_arguments())
-ALL_PAGES = [path for _label, path in settings.get('ALL_PAGES')]
+ALL_PAGES = [
+    path for _label, path, target in settings.get('ALL_PAGES') if not target
+]
 
 
 @pytest.fixture(scope="session")

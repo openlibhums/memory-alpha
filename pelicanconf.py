@@ -76,17 +76,18 @@ IGNORE_FILES = [
 DISPLAY_PAGES_ON_MENU = False # We want to set the order manually
 DISPLAY_CATEGORIES_ON_MENU = False
 LEFT_NAV_ITEMS = [
-    ('Our Story', '/pages/our-story.html'),
-    # ('Explore', '#'), Not in scope for MVP
-    ('Hosting', '#'),
-    # ('People', '#'), Not in scope for MVP
+    ('Our Story', '/pages/our-story.html', ""),
+    # ('Explore', '#', ''), Not in scope for MVP
+    ('Hosting', '#', ""),
+    # ('People', '#', ''), Not in scope for MVP
 ]
 RIGHT_NAV_ITEMS = [
-    # ('Book a Demo', '#') Not in scope for MVP
-    ('Support', '/support/under-construction.html'),
+    # ('Book a Demo', '#', '') Not in scope for MVP
+    ('Support', '/support/under-construction.html', "_blank"),
+    ('Source Code', 'https://github.com/openlibhums/janeway', "_blank"),
 ]
 ALL_PAGES =  [
-    ('Home', '/'),
+    ('Home', '/', ""),
 ] + LEFT_NAV_ITEMS + RIGHT_NAV_ITEMS
 
 # jinja2content plugin
