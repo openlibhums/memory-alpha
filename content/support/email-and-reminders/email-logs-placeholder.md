@@ -1,4 +1,4 @@
-Title: Email Logs 
+title: Email Logs 
 # Email Logs
 All outgoing email sent through Janeway are tracked in the article log.
 
