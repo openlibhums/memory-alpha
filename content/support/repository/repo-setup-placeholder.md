@@ -1,4 +1,4 @@
-Title: Setting up a repository with Janeway
+title: Setting up a repository with Janeway
 
 # Setting up a repository with Janeway
 
