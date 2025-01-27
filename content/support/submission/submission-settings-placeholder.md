@@ -1,4 +1,4 @@
-Title: Submission Settings
+title: Submission Settings
 # Submission Settings
 
 The submission settings are accessed through the manager dashboard under ‘Submission.’ 
