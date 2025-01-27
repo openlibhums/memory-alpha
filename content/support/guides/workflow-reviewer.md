@@ -1,4 +1,4 @@
-Title: Reviewer Workflow Guide
+title: Reviewer Workflow Guide
 
 # Reviewer Workflow Guide
 
