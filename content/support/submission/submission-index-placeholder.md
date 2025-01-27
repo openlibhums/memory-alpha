@@ -1,4 +1,4 @@
-Title: Managing Submissions on Janeway
+title: Managing Submissions on Janeway
 # Managing Submissions on Janeway
 
 **WIP**
