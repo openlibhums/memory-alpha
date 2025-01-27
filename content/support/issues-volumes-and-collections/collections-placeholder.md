@@ -1,3 +1,3 @@
-Title: Collections
+title: Collections
 
 # Collections
