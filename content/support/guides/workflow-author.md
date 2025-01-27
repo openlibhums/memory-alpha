@@ -1,4 +1,4 @@
-Title: Author Workflow Guide 
+title: Author Workflow Guide 
 
 # Author guide
 This guide will walk you through the Janeway journal submission system.
