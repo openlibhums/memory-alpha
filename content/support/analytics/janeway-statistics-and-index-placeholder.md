@@ -1,4 +1,4 @@
-Title: Janeway Analytics
+title: Janeway Analytics
 # Janeway Analytics
 
 - Janeway counts views and downloads.
