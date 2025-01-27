@@ -1,4 +1,4 @@
-Title: Clearing the Cache
+title: Clearing the Cache
 # Clearing the Cache
 
 Janeway uses a cache to speed up page loading, you can reset the cache
