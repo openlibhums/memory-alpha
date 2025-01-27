@@ -1,2 +1,2 @@
-Title: Design Themes on Janeway
+title: Design Themes on Janeway
 # Design Themes on Janeway
