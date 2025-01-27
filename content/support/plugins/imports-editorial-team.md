@@ -1,8 +1,8 @@
-Title: Editorial Team Import
+title: Editorial Team Import
 
 # Editorial Team Import
 The Editorial Team Import allows you to create your editorial team by
-uploading a CSV (Comma Seperated Value) file.
+uploading a CSV (Comma Separated Value) file.
 
 >[!NOTE]
 >If you include a user in your editorial team CSV that does not yet have
