@@ -1,4 +1,4 @@
-Title: Typesetter Workflow Guide
+title: Typesetter Workflow Guide
 
 # Typesetter Workflow Guide
 
