@@ -1,4 +1,4 @@
-Title: Editorial Team
+title: Editorial Team
 # Editorial Team
 
 <!-- how to find the interface -->
