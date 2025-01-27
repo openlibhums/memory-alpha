@@ -1,9 +1,11 @@
 ---
+
 name: Copywriting
 about: Describe content that needs writing for the main website
-title: ""
+title: ''
 labels: copy
-assignees: ""
+assignees: ''
+
 ---
 
 ## Content needed
