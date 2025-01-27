@@ -1,2 +1,2 @@
-Title: Journal Management
+title: Journal Management
 # Journal Management
