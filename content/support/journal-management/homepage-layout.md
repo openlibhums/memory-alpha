@@ -1,4 +1,4 @@
-Title: Home Page Customisation
+title: Home Page Customisation
 # Home Page Customisation
 
 Here, you can activate features for your journal home page.
