@@ -12,9 +12,9 @@ This plugin has three key functionalities:
 
 ## Main dashboard
 
-![Books plug-in dashboard, displaying all books with titles and their details
+<!--![Books plug-in dashboard, displaying all books with titles and their details
 (outlined in the text following this image), and the various functionalities in
-the right-hand top.](images/books-dashboardblock.png)
+the right-hand top.](../support/images/books-dashboardblock.png)-->
 
 From the books dashboard, you can manage all tasks and data related to
 monographs (or similar items). It also provides an overview of all items
@@ -31,7 +31,7 @@ them (they can also be sorted by any of these):
 -   Reads
 -   Downloads
 
-![""](images/books-dashboardblock-highlight.png)
+<!--![""](images/books-dashboardblock-highlight.png)-->
 
 The bar on top represents access to the key functions of the books plugin:
 
@@ -53,7 +53,7 @@ Whilst books can be assigned to a category at any moment, it is
 necessary to create the category before a book can be assigned.
 Categories cannot be created through the ‘Add a new book’ interface.
 
-![The categories dashboard, listing the existing categories on the left. For the existing categories, the number of books in the category are displayed, as well as buttons to edit and delete. On the right, the form to add a new category is visible with multiple textboxes.](images/books-category-dashboard.png)
+<!--![The categories dashboard, listing the existing categories on the left. For the existing categories, the number of books in the category are displayed, as well as buttons to edit and delete. On the right, the form to add a new category is visible with multiple textboxes.](images/books-category-dashboard.png)-->
 
 When adding a new category, the following fields are available:
 
@@ -79,7 +79,7 @@ When adding a new category, the following fields are available:
     -   This defaults to “Buy this Book”. If the item is not a book, you
         will need to update this field. This is a required field.
 
-![An example of how changing the ‘Chapter name’ fields results in a change on the website. Instead of ‘Chapters’ it reads ‘Assignment Sets’ on the dropdown. The text in the dropdown now reads ‘Introduction to Open Access - workbook (the title) has the following Assignment Sets:’. It then goes on to list these.](images/books-category-display.png)
+<!--![An example of how changing the ‘Chapter name’ fields results in a change on the website. Instead of ‘Chapters’ it reads ‘Assignment Sets’ on the dropdown. The text in the dropdown now reads ‘Introduction to Open Access - workbook (the title) has the following Assignment Sets:’. It then goes on to list these.](images/books-category-display.png)-->
 
 >[!NOTE]
 >This field is case-sensitive. If you do not wish for these words to be
@@ -93,13 +93,13 @@ the words when they appear at the start of a sentence.
 New monographs are added through the ‘Add new book’ option, which is
 positioned rightmost in the topbar of the main dashboard.
 
-![The ‘Add a new book’ page. On the left, the book details can be filled into various text boxes. On the right are sections for ‘Contributors’, ‘Formats’ and ‘Chapters’. These are currently blocked, which is indicated for each of them with a red bar and the text “Save book before adding contributors/formats/chapters”.](images/books-addbook-dashboard.png)
+<!--![The ‘Add a new book’ page. On the left, the book details can be filled into various text boxes. On the right are sections for ‘Contributors’, ‘Formats’ and ‘Chapters’. These are currently blocked, which is indicated for each of them with a red bar and the text “Save book before adding contributors/formats/chapters”.](images/books-addbook-dashboard.png)-->
 
 Before the manuscript files can be uploaded, various metadata fields
 need to be completed first, displayed on the left-hand side of the page
 under ‘Book details’.
 
-![""](images/books-addbook-details.png)
+<!--![""](images/books-addbook-details.png)-->
 
 This section contains the following fields:
 
@@ -189,7 +189,7 @@ authors and/or contributors for these chapters will need to be entered
 here. If they are not entered here, they can not be selected as
 contributors when uploading individual chapters.
 
-![The page for adding new contributors and its fields.](images/books-add-contributor.png)
+<!--![The page for adding new contributors and its fields.](images/books-add-contributor.png)-->
 
 This page contains the following fields:
 
@@ -216,7 +216,7 @@ This page contains the following fields:
 This is where manuscript files are uploaded. Various file types can be
 used, such as PDF, EPUB and Mobi.
 
-![The page where manuscript files can be uploaded. Fields are described in the text below this image.](images/books-add-format.png)
+<!--![The page where manuscript files can be uploaded. Fields are described in the text below this image.](images/books-add-format.png)-->
 
 This page contains the following fields:
 
@@ -236,7 +236,7 @@ option on the book page. This allows users to read the book using an
 online reader, without requiring a download. This can be disabled on
 request.
 
-![The download, read, and buy buttons as they appear to users on the press website.](images/books-web-buttons.png)
+<!--![The download, read, and buy buttons as they appear to users on the press website.](images/books-web-buttons.png)-->
 
 Make sure that the filename of the file uploaded is consistent and
 correct. Whilst Janeway will change the filename to the title
@@ -245,7 +245,7 @@ download, the original filename might still be visible. Google Chrome is
 an example of an application that might still display the original
 filename in its reader toolbar, as displayed in the image below.
 
-![""](images/books-final-manuscript.png)
+<!--![""](images/books-final-manuscript.png)-->
 
 >[!Note]
 >‘Read this book’ will always follow the ePub download option and ‘Buy
@@ -253,7 +253,7 @@ this book’ will always be the last one in the sequence.
 
 ### Chapters
 
-![Chapter dashboard with various fields for entering metadata.](images/books-add-chapter.png)
+<!--![Chapter dashboard with various fields for entering metadata.](images/books-add-chapter.png)-->
 
 If uploading individual chapters, this is where they are uploaded and
 the metadata is entered. This might be of particular interest if the
@@ -352,7 +352,7 @@ the files themselves and to make any further edits.
 Reporting for books does not run through the reporting plug-in, instead
 it is done separately through the books plug-in.
 
-![The Books metrics page.](images/books-metrics-dashboard.png)
+<!--![The Books metrics page.](images/books-metrics-dashboard.png)-->
 
 On this page, you can view the general access metrics for monographs, as
 well as for each format of a monograph. On this page, date ranges can be
@@ -371,7 +371,7 @@ downloads (each in their respective column) per book. The columns can be
 sorted by ID,, Subtitle, First Author name, Date published, Reads
 and Downloads.
 
-![""](images/books-metrics.png)
+<!--![""](images/books-metrics.png)-->
 
 ### Format Metrics
 
