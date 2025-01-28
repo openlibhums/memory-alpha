@@ -15,3 +15,5 @@ title: Archiving Plugins
 
 
 - FTP
+   - [GitHub Repo](https://github.com/openlibhums/janeway-ftp)
+   -  This package contains FTP, SFTP and Helpers use to prepare and deposit articles from a Janeway instance.
