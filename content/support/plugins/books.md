@@ -2,6 +2,8 @@ title: Books plugin
 
 # Books plugin
 
+[GitHub Repo](https://github.com/openlibhums/books)
+
 Through this plugin, all book-related tasks and metadata are managed.
 This plugin has three key functionalities:
 
