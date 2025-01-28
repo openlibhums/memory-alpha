@@ -1,7 +1,7 @@
 title: Archiving Plugins
 # Archiving Plugins
 
-- Portico
-- LoC
-- Lockss
+- Portico (active)
+- Library of Congress transporter (active)
+- C/Lockss (active)
 - FTP
