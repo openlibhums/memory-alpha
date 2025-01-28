@@ -2,6 +2,8 @@ title: Consortial billing plugin
 
 # Consortial billing plugin
 
+[GitHub Repo](https://github.com/openlibhums/consortial_billing)
+
 This plugin is also known as the **Supporters plugin**.
 
 The OLH model depends on a network of libraries and library consortia
