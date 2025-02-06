@@ -6,9 +6,9 @@
     <div class="nav-container">
       <div class="left">
         <ul>
-          {% for title, link in LEFT_NAV_ITEMS %}
+          {% for title, link, target in LEFT_NAV_ITEMS %}
             <li>
-              {% call laser_link(href=link) %}
+              {% call laser_link(href=link, target=target) %}
                 {{ title }}
               {% endcall %}
             </li>
@@ -26,21 +26,14 @@
       </div>
       <div class="right">
         <ul>
-          {% for title, link in RIGHT_NAV_ITEMS %}
+          {% for title, link, target in RIGHT_NAV_ITEMS %}
             <li>
-              {% call laser_link(href=link) %}
+              {% call laser_link(href=link, target=target) %}
                 {{ title }}
               {% endcall %}
             </li>
           {% endfor %}
         </ul>
-        <button
-          class="slide-drawer"
-          id="slide-drawer"
-          aria-label="Toggle the navigation menu"
-        >
-          <img src="{{ static }}/theme/images/menu.svg" alt="" />
-        </button>
       </div>
     </div>
 
@@ -48,53 +41,20 @@
     <div class="combined-menu">
       <ul>
         {% for title, link, target in LEFT_NAV_ITEMS %}
-        <li>
-          {% call laser_link(href=link, target=target) %}
-            {{ title }}
+          <li>
+            {% call laser_link(href=link, target=target) %}
+              {{ title }}
             {% endcall %}
-        </li>
+          </li>
         {% endfor %}
-      </ul>
-    </div>
-    <div class="logo">
-      <a href="/">
-        <img
-          src="{{ static }}/theme/images/logo/janeway-logo-white.svg"
-          alt="Janeway Logo"
-          width="128">
-      </a>
-    </div>
-    <div class="right">
-      <ul>
         {% for title, link, target in RIGHT_NAV_ITEMS %}
-        <li>
-          {% call laser_link(href=link, target=target) %}
-            {{ title }}
-          {% endcall %}
-        </li>
+          <li>
+            {% call laser_link(href=link, target=target) %}
+              {{ title }}
+            {% endcall %}
+          </li>
         {% endfor %}
       </ul>
     </div>
-  </div>
-
-  <!-- Combined menu for the slide drawer navigation. -->
-  <div class="combined-menu">
-    <ul>
-      {% for title, link, target in LEFT_NAV_ITEMS %}
-      <li>
-        {% call laser_link(href=link, target=target) %}
-          {{ title }}
-        {% endcall %}
-      </li>
-      {% endfor %}
-      {% for title, link, target in RIGHT_NAV_ITEMS %}
-        <li>
-          {% call laser_link(href=link, target=target) %}
-            {{ title }}
-          {% endcall %}
-        </li>
-      {% endfor %}
-    </ul>
-  </div>
-</nav>
+  </nav>
 {%- endmacro %}
