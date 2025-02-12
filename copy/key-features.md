@@ -3,12 +3,12 @@
 - Customisable submissions  
 - Open, anonymous and triple anonymous review  
 - Copyediting and typesetting  
-- XML and PDF file support  
+- Support for articles in JATS XML, PDF and HTML  
 - Metadata standards 
 - File version control 
 - Assignable roles  
 - Email templates  
 - Repository system  
 - Archiving and discovery support 
-- GDPR compliant  
+- GDPR compliance  
 - Security and privacy  
