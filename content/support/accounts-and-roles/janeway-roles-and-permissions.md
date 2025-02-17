@@ -15,19 +15,17 @@ Needs some further work, checks and dev input on a few bits. Need to check out t
 - Section Editor
 - Copyeditor
 - Typesetter
-- Proofreader
+- Proofreader]- Reader  
+  - This is not a role as such, but it is used to indicate whether a user is signed up for article publication notifications. For more information, see Email notifications <!-- missing hyperlink -->
 
 > [!NOTE] 
 > Whilst the Production Manager and Proofing Manager are still assignable in Janeway, they have been deprecated in 1.4 and are no longer in use.
-
-- Reader  
-  - This is not a role as such, but it is used to indicate whether a user is signed up for article publication notifications. For more information, see email notifications <!-- missing hyperlink -->
 
 ## Permissions
 
 In addition to the roles and their respective permissions, separate permission levels can be assigned. Editors also have specific permissions associated with their roles.
 
-###Editor permission 
+### Editor permission 
 
 Editors have control of:
 
@@ -35,15 +33,16 @@ Editors have control of:
 - Enrolling Users (giving users a role in your journal)
 - Journal Roles (viewing users with a given role)
 
-###Staff permission
+### Staff permission
 Staff have additional controls for:
 
 - Inactive Users (users who have not activated their accounts)
 - Authenticated Users (lists users with active sessions)
 - Merge Users (available at the press level)
 
-Admin permission
- Superusers permission
+### Superusers permission
+
+### Admin permission
 
 ## Granular Manager Permissions
 
