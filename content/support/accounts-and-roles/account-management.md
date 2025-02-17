@@ -1,8 +1,65 @@
 title: Managing user accounts
 # Managing user accounts
 
-**WIP**
-Some intro about managing accounts and users
+The **Users and Roles** section of the manager has various controls for
+different permission levels.
+
+Editors have control of:
+-   User accounts at the journal level.
+-   Account roles in the journal.
+-   Account activation.
+
+Staff have additional controls for:
+-   Viewing authenticated users (users with active sessions).
+-   Merging user accounts (only accessible at press level).
+
+## Journal users
+If you are an editor or staff member, you can manage user accounts for a
+journal via the **Journal Users** page.
+
+![The Journal Users page.](../../content/support/images/journal_users.png)
+
+You can search by various fields, including name, email, ORCID,
+institution, and biography. You can filter by role and whether an account
+is active.
+
+You can also add and remove roles, edit accounts, and, if needed create
+accounts.
+
+Each user's assignment history is also available from this view.
+
+## All users
+
+If you are staff, you can see all users across a press (a.k.a. Janeway
+installation) - this view is only available from the Press Manager interface.
+
+![The All Users page at the press level.](../../content/support/images/press_all_users.png)
+
+At this level, you can filter by journal and staff-member status and
+manage roles across journals, in addition to the actions an editor can
+take.
+
+## Editing user accounts
+
+When clicking **Edit** next to a user, you will be taken to the Edit User interface, where you make changes to a user's details. A few things to note regarding the permissions:
+
+-  The ‘Staff’ permission should only be given to Journal Managers/Publishers and can
+  only be assigned by other users with the Staff permission. See Permissions <!-- missing hyperlink --> for more information.
+- ‘Admin’ grants access to Janeway's admin data layer.
+- ‘Superuser’ will assign a user all roles across the system.
+
+## Merge users (Press Manager only)
+
+The press manager interface enables staff members to merge two accounts to eliminate duplicates. All associated objects, such as tasks, articles, roles, and files, will be moved from the source account to the destination account. The account profile remains unchanged, meaning any profile information in the source account will be lost.
+
+> [!WARNING]
+> When searching for users to merge, note that the user account in the left column will be merged into the user account in the right column.
+
+![A press manager is merging Andy Byers' account into Katheryn Janeway's account.](../../images/merge-users.gif) -->
+
+
+<!-- The below may be deprecated with the introduction of Users and roles
+
 
 ## Enrolled users
 
@@ -23,15 +80,7 @@ The journal user interface lists all users with one or more roles for your journ
   - Production assignments
 
 <!-- Check if image still good here ![The enrolled user interface. From here, we can search, add new users and assign additional roles, amongst other things.](../../support/images/enrolled-users.png)-->
-
-## Editing a user
-
-The edit user interface is relatively standard, though there are a few things to note:
-
--  The ‘Staff’ permission should only be given to Journal Managers/Publishers and can
-  only be assigned by other users with the Staff permission. See Permissions <!-- missing hyperlink --> for more information.
-- ‘Admin’ grants access to Janeway's admin data layer.
-- ‘Superuser’ will set a user to have all roles across the entire system.
+<!-- 
 
 ## Enrol users
 
@@ -48,18 +97,4 @@ You can search for existing user accounts by:
 Once you have found an account, you can see which roles they have and which are available to be assigned to them.
 
 <!-- Check if image still good here [This user has two roles (Author and Editor) and can be assigned any of the other roles.](../../support/images/enrol-user.gif) -->
-
-<!-- ## Merge users (Press Manager only)
-
-**WIP** Location / phrasing to be reconsidered.
-
-The press manager interface now enables staff members to merge two accounts to eliminate duplicates. All associated objects, such as tasks, articles, roles, and files, will be moved from the source account to the destination account. The account profile remains unchanged, meaning any profile information in the source account will be lost.
-
-> [!WARNING]
-> When searching for users to merge, note that the user account in the left column will be merged into the user account in the right column.
-
-![A press manager is merging Andy Byers' account into Katheryn Janeway's account.](../../images/merge-users.gif) -->
-
-
-
 
