@@ -7,7 +7,6 @@ The reporting plugin produces a range of reports for analytics within the Janewa
 - Press report
 - Journal usage by month
 - Article metrics
-- Production times
 - Geographical spread
 - Peer review report
 - Article citations
@@ -34,9 +33,6 @@ This report shows usages (views and downloads) grouped by month per journal.
 
 ## Article metrics
 This report provides view and download metrics grouped by article for a given journal. You select the journal on the reporting plugin page.
-
-## Production times
-This report has been deprecated as the production stage has been replace with the typesetting plugin. This report will be superseded by a typesetting report.
 
 ## Geographical spread
 This report provides views and downloads grouped by country.
@@ -79,9 +75,6 @@ This report provides average times for:
 - Submission to publication
 
 Data is presented in a series of averages followed by a table of data. The date filter uses the date an article was published to determine inclusion into the report.
-
- <!-- Didn't include Experimental reports as idk if they are still alive and kicking? Didn't see them on any installs that I thought had them (e.g. Essex / OLH) -->
-
 
 
 
