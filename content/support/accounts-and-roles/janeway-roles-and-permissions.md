@@ -15,7 +15,8 @@ Needs some further work, checks and dev input on a few bits. Need to check out t
 - Section Editor
 - Copyeditor
 - Typesetter
-- Proofreader]- Reader  
+- Proofreader
+- Reader  
   - This is not a role as such, but it is used to indicate whether a user is signed up for article publication notifications. For more information, see Email notifications <!-- missing hyperlink -->
 
 > [!NOTE] 
