@@ -35,15 +35,18 @@ Editors have control of:
 - Journal Roles (viewing users with a given role)
 
 ### Staff permission
-Staff have additional controls for:
+The ‘Staff’ permission should only be given to Journal Managers/Publishers and can
+  only be assigned by other users with the Staff permission. Staff have additional controls for:
 
 - Inactive Users (users who have not activated their accounts)
 - Authenticated Users (lists users with active sessions)
 - Merge Users (available at the press level)
 
 ### Superusers permission
+- ‘Superuser’ will assign a user all roles across the system.
 
 ### Admin permission
+- ‘Admin’ grants access to Janeway's admin data layer.
 
 ## Granular Manager Permissions
 
