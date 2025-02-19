@@ -41,12 +41,10 @@ take.
 
 ## Editing user accounts
 
-When clicking **Edit** next to a user, you will be taken to the Edit User interface, where you make changes to a user's details. A few things to note regarding the permissions:
+When clicking **Edit** next to a user, you will be taken to the Edit User interface, where you make changes to a user's details. There are a few things to note regarding permissions, see the Permissions page for more information <!-- missing hyperlink -->.
 
--  The ‘Staff’ permission should only be given to Journal Managers/Publishers and can
-  only be assigned by other users with the Staff permission. See Permissions <!-- missing hyperlink --> for more information.
-- ‘Admin’ grants access to Janeway's admin data layer.
-- ‘Superuser’ will assign a user all roles across the system.
+TBC 
+- information about how editing an account won't affect metadata on articles that have already been accepted: to do that you'll need to edit the frozen author record on the article metadata page. 
 
 ## Merge users (Press Manager only)
 
