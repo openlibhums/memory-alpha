@@ -28,19 +28,19 @@ In addition to the roles and their respective permissions, separate permission l
 
 ### Editor permission 
 
-Editors have control of:
+Editors have permissions that allow:
 
-- Enrolled Users (users who have a role in your journal)
-- Enrolling Users (giving users a role in your journal)
-- Journal Roles (viewing users with a given role)
+- Managing roles within their journal.
+- Viewing and editing the account activation status of journal users.
+- Editing basic account information on behalf of journal users.
+- Viewing a user's history (review/editorial/proofing etc. assignments).
+  - The user history page also displays emails sent directly to the user - excluding 'automated' emails such as reminders, notifications and invitations. 
 
 ### Staff permission
-The ‘Staff’ permission should only be given to Journal Managers/Publishers and can
-  only be assigned by other users with the Staff permission. Staff have additional controls for:
+The ‘Staff’ permission should only be given to Journal Managers/Publishers and can only be assigned by other users with the Admin and/or Superuser permission. Staff have additional controls for:
 
-- Inactive Users (users who have not activated their accounts)
-- Authenticated Users (lists users with active sessions)
-- Merge Users (available at the press level)
+- The same controls as editors, but for all the journals belonging to the press.
+- Merging duplicate user accounts (available at the press level).
 
 ### Superusers permission
 - ‘Superuser’ will assign a user all roles across the system.
