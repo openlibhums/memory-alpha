@@ -10,8 +10,9 @@ Editors have control of:
 -   Account activation.
 
 Staff have additional controls for:
--   Viewing authenticated users (users with active sessions).
--   Merging user accounts (only accessible at press level).
+-   Viewing all accounts for the Janeway installation, including their journal roles and activation status.
+-   Merging user accounts.
+Both of these are only available at the press level.
 
 ## Journal users
 If you are an editor or staff member, you can manage user accounts for a
