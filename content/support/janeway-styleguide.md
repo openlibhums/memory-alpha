@@ -72,14 +72,23 @@ Other resources that may be helpful (especially when adding to / modifying this 
 ### Voice and tone
 See: [Voice and tone](https://developers.google.com/style/tone)
 
-At glance:
-* 
+At a glance:
+* Be friendly, conversational, and respectful.
+* Be polite, but avoid _please_.
+* Be clear and consistent. 
+
+Avoid:
+* Buzzwords and jargon.
+* Placeholder phrases like please note and at this time.
+* Choppy or long-winded sentences.
+* Starting all sentences with the same phrase (such as You can or To do).
+* Using phrases like _simply_, _It's that simple_, _It's easy_, or _quickly _in a procedure.
 
 
 ### Global audience
 See:[ Write for a global audience ](https://developers.google.com/style/translation)
 
-At glance:
+At a glance:
 * Use present tense.
 * Write dates and times in unambiguous and clear ways.
 * Provide context. Don't assume that the reader already knows what you're talking about.
@@ -136,7 +145,7 @@ Note: This can be modified, updated and overwritten as required.
 ### Timeless documentation 
 See: [Timeless documentation ](https://developers.google.com/style/timeless-documentation)
 
-At glance:
+At a glance:
 
 **Avoid: **
 * Words and phrases that make promises or project plans and strategies.
@@ -157,6 +166,29 @@ Examples of words to avoid:
 * soon
 
 ## Language and grammar
+Active voice
+Anthropomorphism
+Capitalisation
+Divert from Google:
+H1 in title case, all lower headings in sentence case without a period at the end of the heading.
+
+Possessives
+Present tense
+Sentence structure
+
 ## Punctuation
+Colons and Semicolons
+Commas
+Dashes and Hyphens
+Periods and end punctuation
+Quotation marks
+
 ## Formatting and organisation
+Date and times
+Examples
+Figures and other images
+Headings and titles
+Lists
+Notes and other notices
+
 ## Linking
