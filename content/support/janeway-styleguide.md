@@ -17,17 +17,11 @@ This style guide is adapted from the Google style guide and has been adjusted to
 ## Editorial resources and hierarchy
 
 Use the following resources, including this guide, in this order:
-1. Project-specific guide.
+1. Project-specific guide: specific projects may have their own style guides, outlining exceptions to this guide or advising on the use of specific terms.
 
-Specific projects may have their own style guides, outlining exceptions to this guide or advising on the use of specific terms.
+2. This guide: where project-specific style guides do not provide guidance, follow this style guide.
 
-2. This guide
-
-Where project-specific style guides do not provide guidance, follow this style guide.
-
-3. Third-party resources
-
-If the previously listed resources do not provide guidance, you may wish to use the following:
+3. Third-party resources: if the previously listed resources do not provide guidance, you may wish to use the following:
 
 * Spelling: [Oxford English Dictionary](https://www.oed.com/) <!-- Internal note: BBK has a subscription. -->
 * If spelling not covered by OED: [Guardian and Observer style guide](https://www.theguardian.com/guardian-observer-style-guide-a)
@@ -58,7 +52,7 @@ Other resources that may be helpful (especially when adding to / modifying this 
 * Use UK English spelling and punctuation.
 * Use the second person (“you” rather than “we”).
 * Use active voice.
-* Put conditions before instructions, not after. \
+* Put conditions before instructions, not after.
 
 ### Formatting, punctuation, and organisation
 * Use title case for document titles.
