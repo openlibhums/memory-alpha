@@ -1,11 +1,11 @@
-title: Review Forms
+title: Review forms
 
-# Review Forms
-Review forms can be found in the manager dashboard, under ‘Review’:
+# Review forms
+Review forms can be found in the manager dashboard, under **Review**:
 
 ![The manager dashboard with review forms highlighted.](../../support/images/manager-review-forms.png)
 
-When a new journal is set up, Janeway automatically generates a default review form called ‘Default Form’. This form has a single text area called ‘Review’, which can be deleted or edited.
+When a new journal is set up, Janeway automatically generates a default review form called Default Form. This form has a single text area called Review, which can be deleted or edited.
 
 ## Deleting review forms
 Existing forms can be deleted using the icons to the right of the form name. If a form is set as the default review form, it cannot be deleted. Deleting forms will not affect current or past reviews using the form, but it will prevent users from selecting it for future reviews. Deleted review forms cannot be retrieved.
