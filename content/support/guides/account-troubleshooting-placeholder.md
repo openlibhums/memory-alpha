@@ -1,2 +1,2 @@
-title: Account Troubleshooting
-# Account Troubleshooting
+title: Account troubleshooting
+# Account troubleshooting
