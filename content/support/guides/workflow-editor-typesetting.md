@@ -1,12 +1,6 @@
-title: Editor Guide - Typesetting
+title: Editor guide - typesetting
 
-# Editor Guide - Typesetting
-
-The typesetting plugin is a new workflow element introduced with the
-release of Janeway v1.3.8 This new element aims to simplify the
-production process by combining the generation of the final article
-files (Refered to as 'typeset files') with the process of proofing such
-files.
+# Editor guide - typesetting
 
 Usually typeset files include but are not limited to:
 
