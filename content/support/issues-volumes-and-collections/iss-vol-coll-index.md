@@ -1,3 +1,3 @@
-title: Issues, Volumes and Collections on Janeway
-# Issues, Volumes and Collections on Janeway
+title: Issues, volumes and collections on Janeway
+# Issues, volumes and collections on Janeway
 
