@@ -1,5 +1,5 @@
-title: Google Analytics
-# Google Analytics
+title: Google analytics
+# Google analytics
 
 **WIP**
 
