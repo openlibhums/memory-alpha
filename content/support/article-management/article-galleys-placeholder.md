@@ -1,5 +1,5 @@
-title: Article Galleys
-# Article Galleys
+title: Article galleys
+# Article galleys
 
 **WIP**
 
