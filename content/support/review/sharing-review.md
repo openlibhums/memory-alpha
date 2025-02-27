@@ -1,5 +1,5 @@
-title: Sharing Review
-# Sharing Reviews
+title: Sharing review
+# Sharing reviews
 
 **WIP**
 [*Reviews can be shared with authors (the standard stuff) and between reviewers.]
