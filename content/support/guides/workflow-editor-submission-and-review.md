@@ -1,5 +1,5 @@
-title: Editor Guide -  Submission and Review
-# Editor Guide - Submission and Review
+title: Editor guide -  submission and review
+# Editor guide -  submission and review
 
 ## Unassigned submissions
 Editors will be notified by email once a new article has been submitted. This email will contain a link to the submitted article, but it can also be accessed through the dashboard.
