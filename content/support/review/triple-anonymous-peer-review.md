@@ -1,5 +1,5 @@
-title: Triple Anonymous Peer Review
-# Triple Anonymous Peer Review
+title: Triple anonymous peer review
+# Triple anonymous peer review
 
 <!-- images still needed -->
 
