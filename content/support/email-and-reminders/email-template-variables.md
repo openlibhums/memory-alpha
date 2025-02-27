@@ -1,6 +1,6 @@
-title: Email Template Variables
+title: Email template variables
 
-# Email Template Variables
+# Email template variables
 
 This section needs dev input. (Some stuff below looks like it needs backticks, but idk dawg)
 Also needs a little more info on how to put this into use. Probably part on this page, part on other pages.
