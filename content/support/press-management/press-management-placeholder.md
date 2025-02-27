@@ -1,6 +1,6 @@
-title: Press Management
+title: Press management
 
-# Press Management
+# Press management
 
 You can configure the press level of Janeway on the Press Manager page, which is accessible to users with the role of **staff**.
 
