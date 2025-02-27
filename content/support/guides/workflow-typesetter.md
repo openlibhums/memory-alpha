@@ -1,6 +1,6 @@
-title: Typesetter Workflow Guide
+title: Typesetter workflow guide
 
-# Typesetter Workflow Guide
+# Typesetter workflow guide
 
 When you have been assigned a typesetting task, you will receive an email notification containing a link. This link will lead to the Janeway Dashboard.
 
