@@ -1,15 +1,15 @@
-title: Editor Guide - Copyediting 
+title: Editor guide - copyediting 
 
-# Editor Guide - Copyediting 
+# Editor guide - copyediting 
 
 The copyediting stage provides an interface to track copyediting
 requests.
 
 <!-- ![Janeway's Copyediting screen](../nstatic/copyediting.png) -->
 
-## Assigning a Copyeditor
+## Assigning a copyeditor
 
-To assign a copyeditor select *Add a Copyedit Assignment*. This will
+To assign a copyeditor select **Add a Copyedit Assignment**. This will
 present a screen with the following options:
 
 1.  Select a Copyeditor  
