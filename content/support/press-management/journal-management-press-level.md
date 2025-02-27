@@ -1,5 +1,5 @@
-title: Journal Management at Press Level
-# Journal Management at Press Level
+title: Journal management at press level
+# Journal management at press level
 
 - Journal default settings
 - Override journal settings
