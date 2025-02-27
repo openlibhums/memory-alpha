@@ -1,6 +1,6 @@
-title: Proofreader Guide
+title: Proofreader guide
 
-# Proofreader Guide
+# Proofreader guide
 
 <!-- new version of this is available, just need to copyedit it atm-->
 
@@ -37,7 +37,7 @@ involved in the paper. PM means Proofing Manager
 
 </div>
 
-## Proofing Task
+## Proofing task
 
 The proofing task page is broken down into three sections
 
@@ -51,25 +51,25 @@ The proofing task page is broken down into three sections
 <figcaption>A proofing task that has been accepted</figcaption>
 </figure>
 
-### Task Definition
+### Task definition
 
 The task definition is a note written by the Proofing Manager when they
 create the proofing task.
 
 ### Galleys
 
-This section lists the galleys that the Proofing Manager has assigned
+This section lists the galleys that the proofing manager has assigned
 you. Common galley types are:
 
 - PDF
 - HTML
 - XML
 
-For HTML and XML galleys Janeway has a preview button that will render
+For HTML and XML galleys Janeway has a **Preview** button that will render
 the galley into a viewable block so you don't need to understand the
 underlying markup to proof them.
 
-Each of the Galleys has an accordian-type drop down so if you click on
+Each of the galleys has an accordian-type drop-down so if you click on
 its name you will see a new section appear with more information.
 
 <figure>
@@ -78,24 +78,15 @@ its name you will see a new section appear with more information.
 <figcaption>An XML galley expanded</figcaption>
 </figure>
 
-You now have the option to Download or View the galley, this will open
+You now have the option to **Download** or **View** the galley, this will open
 in a new tab in your browser. You can then use the notes box to write
 notes on the galley file.
 
-<div class="tip">
-
-<div class="title">
-
-Tip
-
-</div>
-
-You can write as many notes as you like, press Save Note to create a new
+>[!TIP]
+>You can write as many notes as you like, press **Save Note** to create a new
 one and the box will reset.
 
-</div>
-
-In addition you can download and annotate the galley documents and then
+In addition, you can download and annotate the galley documents and then
 upload them again if you require.
 
 When you have proofed *all* of the galley files you can mark the task as
