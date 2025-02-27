@@ -1,5 +1,5 @@
-Title: Editor Guide - Pre-publication
-# Editor Guide - Pre-publication
+Title: Editor guide - pre-publication
+# Editor guide -pre-publication
 
 
 The Pre Publication stage of the workflow takes you through the last
