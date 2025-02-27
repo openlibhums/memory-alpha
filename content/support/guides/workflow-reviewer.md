@@ -1,6 +1,6 @@
-title: Reviewer Workflow Guide
+title: Reviewer guide
 
-# Reviewer Workflow Guide
+# Reviewer guide
 
 As a reviewer, you can access your review task in two ways:
 1. Using the direct link in the review request email.
