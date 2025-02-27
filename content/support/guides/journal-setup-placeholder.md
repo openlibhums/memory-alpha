@@ -1,2 +1,2 @@
-title: Setup your Journal
-# Setup your Journal
+title: Setup your journal
+# Setup your journal
