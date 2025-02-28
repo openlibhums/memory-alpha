@@ -1,6 +1,6 @@
-title: Reviewer Import
+title: Reviewer import
 
-# Reviewer Import
+# Reviewer import
 
 The Reviewer import tool allows you to create reviewer accounts by
 uploading a CSV (Comma Seperated Value) file.
