@@ -1,5 +1,5 @@
-title: Editorial Team
-# Editorial Team
+title: Editorial team
+# Editorial team
 
 <!-- how to find the interface -->
 <!-- requires images and a few more in-depth explanations, but mostly fine -->
