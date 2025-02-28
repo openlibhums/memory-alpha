@@ -1,5 +1,5 @@
-title: Archiving Plugins
-# Archiving Plugins
+title: Archiving plugins
+# Archiving plugins
 
 - Portico (active)
   - [GitHub Repo](https://github.com/openlibhums/portico)
