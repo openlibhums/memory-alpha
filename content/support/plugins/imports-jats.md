@@ -1,6 +1,6 @@
-title: JATS Import
+title: JATS import
 
-# JATS Import
+# JATS import
 
 The JATS import tool allows you to upload a single article as a JATS XML
 file or a zip (.zip) file containing one or more JATS files and their
