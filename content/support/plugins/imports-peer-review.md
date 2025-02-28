@@ -1,6 +1,6 @@
 title: Article review import
 
-# Article Rrview import
+# Article review import
 The article review import tool allows you to create peer reviews by
 uploading a CSV (Comma Seperated Value) file.
 
