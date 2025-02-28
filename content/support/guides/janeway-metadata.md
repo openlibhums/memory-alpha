@@ -1,14 +1,25 @@
 title: Metadata on Janeway
+
 # Metadata on Janeway
 
-- How is metadata collected/created
+## Managing metadata
+- How is metadata collected / created
 - What metadata fields exist on Janeway
-- Downstream flows (link to plugins)
-- article licence manager
-- DOI manager
-- Import spreadsheet
 - Edit article metadata
 - Edit issue metadata
-- OAI PMH feed
+- Article licence manager
+- Frozen records
+
+## Metadata streams
+- DOI manager
+- Downstream dataflows
+
+## Importing metadata
+- Import spreadsheet. See import plugin.
+
+## Exporting metadata
+- OAI PMH
+  Journal/api/oai
 - KBART
 - Frozen author metadata
+- Export plugin.
