@@ -1,5 +1,5 @@
-title: Clearing the Cache
-# Clearing the Cache
+title: Clearing the cache
+# Clearing the cache
 
 Janeway uses a cache to speed up page loading, you can reset the cache
 from the Manager page by clicking the Clear Cache button.
