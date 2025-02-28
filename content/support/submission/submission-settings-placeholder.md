@@ -1,5 +1,5 @@
-title: Submission Settings
-# Submission Settings
+title: Submission settings
+# Submission settings
 
 The submission settings are accessed through the manager dashboard under ‘Submission.’ 
 ![" "](../../support/images/manager-submission-settings.png)
