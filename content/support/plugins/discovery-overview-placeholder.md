@@ -2,6 +2,8 @@ title: Discovery placeholder file.
 # Discovery placeholder file.
 
 - OAI-PMH
+- KBART
+- FTP
 
 - DataCite (active)
   - [GitHub Repo](https://github.com/openlibhums/datacite)
@@ -10,7 +12,6 @@ title: Discovery placeholder file.
 - DOAJ
   - [GitHub Repo](https://github.com/openlibhums/doaj_transporter)
   - This is a plugin for Janeway that allows exporting of journal and article metadata to DOAJ.
-
 
 - ScienceOpen (beta release)
   - [GitHub Repo](https://github.com/openlibhums/so_transporter)
