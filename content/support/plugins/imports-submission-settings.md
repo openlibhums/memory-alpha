@@ -1,6 +1,6 @@
-title: Copyright, Submission, Publication Fees & Reviewer Guidelines Import
+title: Copyright, submission, publication fees & reviewer guidelines import
 
-# Copyright, Submission, Publication Fees & Reviewer Guidelines Import
+# Copyright, submission, publication fees & reviewer guidelines import
 
 This tool allows you to update some article submission specific settings
 by uploading a CSV (Comma Seperated Value) file.

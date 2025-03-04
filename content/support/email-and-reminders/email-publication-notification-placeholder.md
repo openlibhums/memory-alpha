@@ -1,5 +1,5 @@
-title: Publication Notifications (Readers)
-# Publication Notifications (Readers)
+title: Publication notifications 
+# Publication notifications
 
 Janeway supports publication notifications via a new role called "reader". This feature can be toggled on or off for any given journal. Once the setting is toggled on, anyone with an account can sign up to receive emails when new articles are published via their profile page. This feature has been designed with continuous publication in mind but will also work well for those who publish full issues.
 

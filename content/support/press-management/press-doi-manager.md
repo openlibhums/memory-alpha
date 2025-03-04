@@ -1,2 +1,2 @@
-title: DOI Management - Press Level
-# DOI Management - Press Level
+title: DOI management - press level
+# DOI management - press level

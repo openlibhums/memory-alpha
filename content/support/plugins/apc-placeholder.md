@@ -1,5 +1,5 @@
-title: APC Plugin
-# APC Plugin
+title: Article publication charges
+# Article publication charges
 Active
 (GitHub Repo)[https://github.com/openlibhums/apc]
 

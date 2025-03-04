@@ -1,6 +1,6 @@
-title: Review Settings
+title: Review settings
 
-# Review Settings
+# Review settings
 Review settings can be found under ‘Review’ on the manager dashboard.
 
 ![" "](../../support/images/manager-review-settings.png)

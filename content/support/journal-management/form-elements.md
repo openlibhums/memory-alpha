@@ -1,5 +1,5 @@
-title: Form Elements
-# Form Elements
+title: Form elements
+# Form elements
 Custom forms in Janeway have the following aspects to them yada yada.
 
 <!-- edit to work for review, submission and hunt for any other custom forms. -->

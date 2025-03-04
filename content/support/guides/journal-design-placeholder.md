@@ -1,5 +1,5 @@
-title: Journal Design
-# Journal Design
+title: Journal design
+# Journal design
 
 <!-- Image guidelines - link here -->
 <!-- Themes -->

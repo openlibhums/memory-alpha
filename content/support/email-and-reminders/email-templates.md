@@ -1,5 +1,5 @@
-title: Email Templates
-# Email Templates
+title: Email templates
+# Email templates
 
 The email templates system allows you to search through and edit all of the email templates for a given journal.
 

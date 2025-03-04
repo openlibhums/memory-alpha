@@ -1,6 +1,6 @@
-title: Editors Import
+title: Editors import
 
-# Editors Import
+# Editors import
 The editor import tool allows you to create editor accounts by uploading
 a CSV (Comma Seperated Value) file.
 

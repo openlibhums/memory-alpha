@@ -1,10 +1,10 @@
-title: Journal Settings
+title: Journal settings
 
-# Journal Settings
+# Journal settings
 
 In journal settings, you can set basic information about the journal, configure home page elements, upload logos and banner images, and adjust some display elements.
 
-If you have the Janeway role Editor or Staff, you can access Journal Settings by selecting **Manager** under **Staff**.
+If you have the Janeway role of editor or staff, you can access Journal Settings by selecting **Manager** under **Staff**.
 
 ## All Settings
 

@@ -10,7 +10,7 @@ title: Migrations plugins
 - OJS import
   - [GitHub Repo](https://github.com/openlibhums/imports)
   - See OJS import documentation <!-- Missing Hyperlink-->
-- OJS Export
+- OJS export
   - An OJS plugin for exporting data for ingest into Janeway, in a custom JSON format
   - [GitHub Repo](https://github.com/openlibhums/ojs-janeway) 
 - ePrints

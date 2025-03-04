@@ -1,5 +1,5 @@
-title: Managing Rich Text Fields
-# Managing Rich Text Fields
+title: Managing rich text fields
+# Managing rich text fields
 
 * Something about us using TinyMCE
 * Explaining what it currently does and doesn't preserve

@@ -1,5 +1,5 @@
-title: Article Metadata
-# Article Metadata
+title: Article metadata
+# Article metadata
 
 **WIP**
 

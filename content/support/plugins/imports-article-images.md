@@ -1,6 +1,6 @@
-title: Article Images Import
+title: Article images import
 
-# Article Images Import
+# Article images import
 
 The article images import tool allows you to supply an article
 identifier and a URL for an image. Janeway will download the image and
@@ -19,7 +19,7 @@ set it as the articles large image file (also known as the hero image).
 > [!TIP]
 > Download the [article image import sample](../support/downloadables/article-images-import-sample.csv) CSV to see example data.
 
-## Metadata Field Reference
+## Metadata field reference
 
 | Field           | Notes                                    |
 |-----------------|------------------------------------------|

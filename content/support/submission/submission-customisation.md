@@ -1,5 +1,5 @@
-title: Configuring the Submission Process
-# Configuring the Submission Process
+title: Configuring the submission process
+# Configuring the submission process
 
 **WIP**
  intro to submission configuration and customisation in Janeway.

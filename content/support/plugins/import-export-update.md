@@ -1,6 +1,6 @@
-title: Import, Export, Update
+title: Import, export, update
 
-# Import, Export, Update
+# Import, export, update
 
 Note to SH: Update to clarify article level metadata only goes on the main author row. Update import example as well.
 

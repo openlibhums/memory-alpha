@@ -1,5 +1,5 @@
-title: Organising Publications
-# Organising Publications
+title: Organising publications
+# Organising publications
 
 <!-- Copied from issues:
 

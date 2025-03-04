@@ -1,5 +1,5 @@
-title: Article Sections
-# Article Sections
+title: Article sections
+# Article sections
 
 Sections are ways of grouping articles by their content type, e.g. "Research Articles" or "Reviews". 
 

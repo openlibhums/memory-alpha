@@ -1,2 +1,2 @@
-title: Getting Started with Janeway
-# Getting Started with Janeway
+title: Getting started with Janeway
+# Getting started with Janeway

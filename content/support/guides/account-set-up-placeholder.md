@@ -1,2 +1,2 @@
-title: Setup an Account on Janeway
-# Setup an Account on Janeway
+title: Setup an account on Janeway
+# Setup an account on Janeway

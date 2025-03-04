@@ -1,5 +1,5 @@
-title: Licence Manager
-# Licence Manager
+title: Licence manager
+# Licence manager
 
 ![](../../support/images/manager-licence-manager.png)
 

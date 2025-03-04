@@ -1,5 +1,5 @@
-title: Managing Submissions on Janeway
-# Managing Submissions on Janeway
+title: Managing submissions on Janeway
+# Managing submissions on Janeway
 
 **WIP**
 TBC on this page:

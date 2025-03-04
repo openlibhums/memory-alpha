@@ -1,2 +1,2 @@
-title: Email Settings
-# Email Settings
+title: Email settings
+# Email settings

@@ -1,7 +1,7 @@
-title: Crossref Article DOI
-# Crossref Article DOI
+title: Crossref article DOI
+# Crossref article DOI
 
-## When Are DOIs Minted?
+## When are DOIs minted?
 
 If all the settings are properly configured (see below), Janeway handles
 DOI registration for you, stepping in at a few key points in the
@@ -33,7 +33,7 @@ importing backlist content, or there's an issue with the Crossref
 settings entered, or the required metadata isn't there, you may need to
 take a more active role. That's where the DOI Manager comes in.
 
-## DOI Manager
+## DOI manager
 
 You can see all the DOIs for a journal (if you are an editor) or for a
 press (if you are a staff member) in the DOI Manager.
@@ -59,7 +59,7 @@ is a large batch), you can use **Poll for status** to check the result.
 > **Poll for status** on a large group of articles could take a long time,
 so test it out on a smaller group first.
 
-## Interpreting Registration Status
+## Interpreting registration status
 
 Unknown  
 Janeway doesn't know the status. Try **Poll for status**.

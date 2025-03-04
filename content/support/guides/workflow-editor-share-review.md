@@ -1,6 +1,6 @@
-title: Editor Guide - Review - Sharing Peer Reviews
+title: Editor guide - review - sharing peer reviews
 
-# Editor Guide - Review - Sharing Peer Reviews
+# Editor guide - review - sharing peer reviews
 
 <!-- potentially merge in with sharing peer review page general and hyperlink from submission review page?-->
 

@@ -1,5 +1,5 @@
-title: Peer Review on Janeway
-# Peer Review on Janeway
+title: Peer review on Janeway
+# Peer review on Janeway
 
 **WIP**
 

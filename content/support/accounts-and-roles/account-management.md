@@ -1,5 +1,5 @@
-title: Managing User Accounts
-# Managing User Accounts
+title: Managing user accounts
+# Managing user accounts
 
 **WIP**
 Some intro about managing accounts and users

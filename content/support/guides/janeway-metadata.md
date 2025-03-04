@@ -1,7 +1,7 @@
 title: Metadata on Janeway
 # Metadata on Janeway
 
-- How is metadata collected / created
+- How is metadata collected/created
 - What metadata fields exist on Janeway
 - Downstream flows (link to plugins)
 - article licence manager
@@ -11,3 +11,4 @@ title: Metadata on Janeway
 - Edit issue metadata
 - OAI PMH feed
 - KBART
+- Frozen author metadata
