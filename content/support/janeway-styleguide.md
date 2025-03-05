@@ -183,19 +183,19 @@ Only capitalise Janeway roles when referring to a button / UI element or when ex
 
 For example:
 
-  :heavy_check_mark:: "The Editor role has permissions for…"
+  :heavy_check_mark: **Recommended**: "The Editor role has permissions for…"
 
-  :x:: "When you assign the typesetter role…"
+  :x: **Not recommended**: "When you assign the typesetter role…"
 
   
   
-  :heavy_check_mark:: "When the typesetter sends the galleys…"
+  :heavy_check_mark: **Recommended**: "When the typesetter sends the galleys…"
 
-  :x:: "During review, Section editors require Editors to approve draft decisions."
+  :x: **Not recommended**: "During review, Section editors require Editors to approve draft decisions."
 
 At a glance:
 
-Don't use unnecessary capitalisation; before you capitalize a word, think about why (and whether) it should be capitalised.
+Don't use unnecessary capitalisation; before capitalising a word, think about why (and whether) it should be capitalised.
 
 Use a lowercase letter to begin the first word of the text immediately following a colon, unless the text is one of the following:
 * A proper noun
@@ -208,7 +208,7 @@ See: [Present tense](https://developers.google.com/style/tense)
 
 At a glance:
 
-Use present tense for statements that describe general behaviour that's not associated with a particular time. However, it's fine to use future tense (will) to distinguish an action that will occur in the future. Don't use the future tense to describe how a product or feature will work after the next release or update. Also avoid the hypothetical future _would._
+Use present tense for statements describing general behaviour not associated with a particular time. However, it's fine to use future tense (will) to distinguish an action that will occur in the future. Don't use the future tense to describe how a product or feature will work after the next release or update. Also, avoid the hypothetical future _would._
 
 ### Sentence structure
 See: [Sentence structure](https://developers.google.com/style/sentence-structure)
@@ -224,7 +224,7 @@ See: [Colons](https://developers.google.com/style/colons) and [semicolons](https
 At a glance:
 
 * When a colon introduces a list, the text that precedes the colon must be able to stand alone as a complete sentence.
-* In general, the first word in the text that follows a colon should be in lowercase.
+* Generally, the first word in the text following a colon should be in lowercase.
 * If possible, avoid using semicolons. For exceptions, see [Google style guide on semicolons](https://developers.google.com/style/semicolons).
 
 ### Commas
@@ -286,7 +286,7 @@ The following notices are available in GitHub markdown:
 
 **Warning**
 
-* Stronger than a __caution__ notice; it means "Don't do this" or that this step might be irreversible, such as leading to permanent data loss. If a reader doesn't heed the warning, they can lose money, lose work, or open themselves to a security breach. For example, "Don't put a password on the command line; doing so is a security risk."
+* Stronger than a __caution__ notice; it means "Don't do this" or that this step might be irreversible, such as leading to permanent data loss. If readers don't heed the warning, they can lose work or open themselves to a security breach. For example, "Don't put a password on the command line; doing so is a security risk."
 
 **Important**
 
@@ -298,9 +298,33 @@ The following notices are available in GitHub markdown:
 
 ## Computer interfaces
 
-Code in text
+### Menus, buttons and interaction
+See: [UI elements and interaction](https://developers.google.com/style/ui-elements)
 
-Code samples
+At a glance:
 
-@Joe 
-Do you want these included in here / any breaks from the Google styleguide? I am generally happy with it, but it may need to either sit in the contributor guide OR that needs to move over here. Would I be okay to leave you to write this?
+When practical, state instructions in terms of what the user should accomplish, rather than focusing on the widgets and gestures. By avoiding reference to UI elements, you help the user understand the purpose of an instruction, and it can help future-proof procedures.
+
+:heavy_check_mark: **Recommended**: **Refresh** the page.
+
+:heavy_check_mark: **Recommended**: Expand the **Advanced options** section.
+
+However, know the audience and understand the context. In some cases, the point of a procedure is to guide the user through elements on the page. Or the UI might not be obvious, and it's helpful to explain the gestures for completing a step. Provide the level of detail that seems useful for the intended audience.
+
+Format names of buttons, menus, windows, etc. in bold. Don't make an official feature name or product name bold, except when it directly refers to an element on the page that uses the name (such as a window title or button name).
+
+:heavy_check_mark: **Recommended**: Click on **Edit Metadata** to access the article's metadata.
+
+:x: **Not recommended**: **Janeway** can send automatic reminders.
+
+
+>[!NOTE]
+>As label capitalisation is inconsistent, use sentence case for page titles and labels in all uppercase. When referring to multiple labels that are inconsistently cased, use sentence case for all of the labels. Follow capitalisation as it is on the page for other UI elements. This will need to be revisited.
+
+:x: **Not recommended**: On the **Journal Settings** page, go to the **OTHER** section and select the **Hide from press** checkbox.
+
+:heavy_check_mark: **Recommended**: On the **Journal settings** page, go to the **Other** section and select the **Hide from press** checkbox.
+
+<!--Code in text
+
+Code samples -->
