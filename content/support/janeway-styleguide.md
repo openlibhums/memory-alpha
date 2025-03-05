@@ -313,7 +313,7 @@ However, know the audience and understand the context. In some cases, the point 
 
 Format names of buttons, menus, windows, etc. in bold. Don't make an official feature name or product name bold, except when it directly refers to an element on the page that uses the name (such as a window title or button name).
 
-:heavy_check_mark: **Recommended**: Click on **Edit Metadata** to access the article's metadata.
+:heavy_check_mark: **Recommended**: Click on **Edit metadata** to access the article's metadata.
 
 :x: **Not recommended**: **Janeway** can send automatic reminders.
 
