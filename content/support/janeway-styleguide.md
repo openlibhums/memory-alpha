@@ -10,7 +10,7 @@
 
 ## Introduction
 
-This style guide is adapted from the [Google style guide](https://developers.google.com/style) (which is available under a CC-BY 4.0 license) and has been adjusted to meet Janeway’s requirements. It will follow Google’s structure as well. This style guide ___does not___ necessarily follow OLH or OLHJ style - this is as it a) will have different requirements than OLH(J), b) will make this style guide easier to customise and maintain. This guide uses UK English. This guide uses the Chicago style (17th edition) for citations and referencing.
+This style guide is adapted from the [Google style guide](https://developers.google.com/style) (which is available under a CC-BY 4.0 license) and has been adjusted to meet Janeway’s requirements. It will follow Google’s structure as well. This style guide ___does not___ follow OLH or OLHJ style - this is as it a) will have different requirements than OLH(J), b) will make this style guide easier to customise and maintain. This guide uses UK English. This guide uses the Chicago style (17th edition) for citations and referencing.
 
 
 ## Editorial resources and hierarchy
