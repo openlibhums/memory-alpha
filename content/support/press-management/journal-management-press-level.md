@@ -23,13 +23,20 @@ The **Press manager** dashboard gives an overview of all journals on the press, 
 
 ### Add new journal
 *Code is the only required one.
-Domain if using domain more, can always be switched later.
+If using domain mode, it can always be configured later.
 
 ## Journal settings at press level
+
+Settings worth considering setting at press level:
 * User management <!-- missing hyperlink -->
 * DOI settings
 * Review settings
-
-* One click review / CrossRef DOI / Peer review guidelines / copyright submission labels (textbox that gets stamped / legal wording) can be set and locked to only be editable by press  / Google Analytics code / Journal base/default theme / Login and registration page notice / publisher name and URL / SUpport email / Support message for staff (support message / User = author on submission
-* Support messge staff = for help with JAneway contact [email] need to be set together.
-* (Which ones do we recommend set at press level?)
+ * One-click review
+ * User = author
+ * Review guidelines
+* Copyright submission labels (may contain legal text) - can also be locked to be editable by press managers only.
+* Google analytics code
+* Journal default theme
+* Login and registration page notices
+* Publisher name and URL
+* Support email and support message for staff
