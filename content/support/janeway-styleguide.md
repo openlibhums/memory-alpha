@@ -28,7 +28,7 @@ Use the following resources, including this guide, in this order:
 
 3. **Third-party resources.** If the previously listed resources do not provide guidance, you may wish to use the following:
 
-** Technical style: [Google documentation style guide](https://developers.google.com/style)
+* Technical style: [Google documentation style guide](https://developers.google.com/style)
 * Spelling: [Oxford English Dictionary](https://www.oed.com/) <!-- Internal note: BBK has a subscription. -->
 * If spelling not covered by OED: [Guardian and Observer style guide](https://www.theguardian.com/guardian-observer-style-guide-a)
 * Non-technical style: [The Chicago Manual of Style](https://www.chicagomanualofstyle.org/home.html)
