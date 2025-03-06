@@ -307,7 +307,7 @@ See:
 
 At a glance:
 * Spell out all ordinal numbers in text.
-* For number ranges, use a hyphen with no space on either side of it.
+* For number ranges, use a hyphen with no space on either side of it. (Additional guidance on [ranges of numbers](https://developers.google.com/style/hyphens#range-of-numbers).)
 * [Guidance for numbers as numerals](https://developers.google.com/style/numbers#numbers-as-numerals).
 * [Guidance for numbers as words](https://developers.google.com/style/numbers#numbers-as-words)
 * Use numerals for dimensions and use a lowercase _x_ between the numerals in the dimensions, with no space between the numerals and the _x_.
