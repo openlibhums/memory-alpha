@@ -7,14 +7,17 @@
 * [Language and grammar](#language-and-grammar)
 * [Punctuation](#punctuation)
 * [Formatting and organisation](#formatting-and-organisation)
-
 ## Introduction
+<details open>
+ <summary>About this guide </summary>
 
 This style guide is adapted from the [Google style guide](https://developers.google.com/style) (which is available under a CC-BY 4.0 license) and has been adjusted to meet Janeway’s requirements. It will follow Google’s structure as well. This style guide ___does not___ follow OLH or OLHJ style - this is as it a) will have different requirements than OLH(J), b) will make this style guide easier to customise and maintain. This guide uses UK English. This guide uses the [Chicago style (17th edition)](https://www.chicagomanualofstyle.org/book/ed17/frontmatter/toc.html) for citations and referencing (see also [Purdue's Online Writing Lab's guidance for Chicago 17th](https://owl.purdue.edu/owl/research_and_citation/chicago_manual_17th_edition/cmos_formatting_and_style_guide/chicago_manual_of_style_17th_edition.html)).
 
+</details>
 
 ## Editorial resources and hierarchy
-
+<details open>
+<summary> Using this guide </summary>
 Use the following resources, including this guide, in this order:
 1. **Project-specific.** Specific projects may have their own style guides, outlining exceptions to this guide or terms that are relevant only to your project (such as marketing materials).
 
@@ -27,17 +30,27 @@ Use the following resources, including this guide, in this order:
 * Technical style: [Google documentation style guide](https://developers.google.com/style)
 * Non-technical style: [The Chicago Manual of Style](https://www.chicagomanualofstyle.org/home.html)
 <!--	Internal note: SH has a copy available.-->
+</details>
 
 Other resources that may be helpful (especially when adding to / modifying this guide), but that are not part of the documentation itself:
-
+<details>
+ 
+ <summary> Other resources </summary>
+ 
 * [Microsoft Writing Style Guide](https://learn.microsoft.com/en-gb/style-guide/welcome/)
 * [Write the Docs](https://www.writethedocs.org/guide/writing/style-guides/)
 * [Red Hat supplementary style guide for product documentation](https://redhat-documentation.github.io/supplementary-style-guide/)
 * [Mailchimp Content Style Guide](https://styleguide.mailchimp.com/)
 * Strategic writing for UX - Torrey Podmajersky
 * Don’t make me think, revisited - Steve Krug
+ 
+</details>
 
 ## Quick reference
+This section provides a brief overview of the content of the Google styleguide, not all sections and issues are covered here. If an issue is not described below, it is likely covered within [the full guide](https://developers.google.com/style/). 
+
+>[!NOTE]
+>In terms of direct guidance, this document contains summaries and quick overviews. Additional detail and guidance on issues not covered or summarised in this guide are available in the full Google guide.
 
 ### Tone and content
 * Be conversational and friendly without being frivolous. Remain professional.
@@ -63,15 +76,16 @@ Other resources that may be helpful (especially when adding to / modifying this 
 * Put UI elements in bold.
 * [UI elements and interaction guide](https://developers.google.com/style/ui-elements)
 
->[!NOTE]
-> As labels are inconsistent, use title case for page titles and sentence case for other elements. This will need to be revisited because Janeway itself is inconsistent.
+  <!-- UI elements require further discussion -->
 
 ### Images
 * Provide alt text.
 * Provide high-resolution or vector images when practical.
 * [Diagrams, figures, and other images guide](https://developers.google.com/style/images)
 
-## Content
+ ## Content
+<details>
+<summary> Content guidance </summary>
 
 ### Voice and tone
 See: [Voice and tone](https://developers.google.com/style/tone)
@@ -163,8 +177,12 @@ Examples of words to avoid:
 * old, older
 * presently, at present
 * soon
+  
+</details>
 
 ## Language and grammar
+<details>
+ <summary>Language and grammar guidance</summary>
 ### Active voice
 See: [Active voice](https://developers.google.com/style/voice)
 
@@ -216,8 +234,11 @@ See: [Sentence structure](https://developers.google.com/style/sentence-structure
 At a glance:
 
 If you want to tell the reader to do something, try to mention the circumstance, conditions, or goal before you provide the instruction. Mentioning the circumstance first lets the reader skip the instruction if it doesn't apply.
+</details>
 
 ## Punctuation 
+<details>
+ <summary> Punctuation guidance</summary>
 ### Colons and Semicolons
 See: [Colons](https://developers.google.com/style/colons) and [semicolons](https://developers.google.com/style/semicolons)
 
@@ -269,8 +290,14 @@ At a glance:
     * In code examples, in languages that use single quotation marks.
     * When nesting a quotation inside another quotation.
 
+  </details>
+
 
 ## Formatting and organisation
+
+<details>
+ <summary> Formatting and organisation guidance </summary>
+ 
 ### Notes and other notices
 See: [Notes, cautions, warnings, and other notices](https://developers.google.com/style/notices)
 
@@ -330,3 +357,4 @@ Format names of buttons, menus, windows, etc. in bold. Don't make an official fe
 <!--Code in text
 
 Code samples -->
+</details>
