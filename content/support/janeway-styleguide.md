@@ -11,7 +11,10 @@
 <details open>
  <summary>About this guide </summary>
 
-This style guide is adapted from the [Google style guide](https://developers.google.com/style) (which is available under a CC-BY 4.0 license) and has been adjusted to meet Janeway’s requirements. It will follow Google’s structure as well. This style guide ___does not___ follow OLH or OLHJ style - this is as it a) will have different requirements than OLH(J), b) will make this style guide easier to customise and maintain. This guide uses UK English. This guide uses the [Chicago style (17th edition)](https://www.chicagomanualofstyle.org/book/ed17/frontmatter/toc.html) for citations and referencing (see also [Purdue's Online Writing Lab's guidance for Chicago 17th](https://owl.purdue.edu/owl/research_and_citation/chicago_manual_17th_edition/cmos_formatting_and_style_guide/chicago_manual_of_style_17th_edition.html)).
+* This style guide is adapted from the [Google style guide](https://developers.google.com/style) (which is available under a CC-BY 4.0 license) and has been adjusted to meet Janeway’s requirements. It will also follow Google’s structure. This document is **NOT** intended to cover all issues. It currently contains summaries for ease of access while we adopt the guide, and additions, exceptions, and deviations from the Google guide. In the long term, it will serve solely to outline exceptions, deviations, additions, etc. from the Google guide. (Hopefully, there will not be many)
+* This style guide ___does not___ follow OLH or OLHJ style - this is as it a) will have different requirements than OLH(J), b) will make this style guide easier to customise and maintain. 
+* This guide uses UK English. 
+* This guide uses the [Chicago style (17th edition)](https://www.chicagomanualofstyle.org/book/ed17/frontmatter/toc.html) for citations and referencing (see also [Purdue's Online Writing Lab's guidance for Chicago 17th](https://owl.purdue.edu/owl/research_and_citation/chicago_manual_17th_edition/cmos_formatting_and_style_guide/chicago_manual_of_style_17th_edition.html)).
 
 </details>
 
@@ -25,9 +28,9 @@ Use the following resources, including this guide, in this order:
 
 3. **Third-party resources.** If the previously listed resources do not provide guidance, you may wish to use the following:
 
+** Technical style: [Google documentation style guide](https://developers.google.com/style)
 * Spelling: [Oxford English Dictionary](https://www.oed.com/) <!-- Internal note: BBK has a subscription. -->
 * If spelling not covered by OED: [Guardian and Observer style guide](https://www.theguardian.com/guardian-observer-style-guide-a)
-* Technical style: [Google documentation style guide](https://developers.google.com/style)
 * Non-technical style: [The Chicago Manual of Style](https://www.chicagomanualofstyle.org/home.html)
 <!--	Internal note: SH has a copy available.-->
 </details>
@@ -69,6 +72,7 @@ This section provides a brief overview of the content of the Google styleguide, 
 ### Formatting, punctuation, and organisation
 * Use sentence case for all headings: capitalise the first word, but do not use a period at the end.
 * Use serial commas.
+* [Numbers guidance](https://developers.google.com/style/numbers)
 * Use numbered lists for sequences.
 * Use bulleted lists for most other lists.
 * [Lists guide](https://developers.google.com/style/lists)
@@ -297,7 +301,18 @@ At a glance:
 
 <details>
  <summary> Formatting and organisation guidance </summary>
- 
+
+### Numbers
+See:
+
+At a glance:
+* Spell out all ordinal numbers in text.
+* For number ranges, use a hyphen with no space on either side of it.
+* [Guidance for numbers as numerals](https://developers.google.com/style/numbers#numbers-as-numerals).
+* [Guidance for numbers as words](https://developers.google.com/style/numbers#numbers-as-words)
+* Use numerals for dimensions and use a lowercase _x_ between the numerals in the dimensions, with no space between the numerals and the _x_.
+* Use standard mathematical notation. Don't put a space between the base and the exponent.
+
 ### Notes and other notices
 See: [Notes, cautions, warnings, and other notices](https://developers.google.com/style/notices)
 
@@ -324,6 +339,8 @@ The following notices are available in GitHub markdown:
 >[!TIP]
 > TIP.
 * Provides helpful information that has a practical meaning but may not be obvious to users.
+
+</details>
 
 ## Computer interfaces
 
