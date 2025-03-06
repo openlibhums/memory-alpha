@@ -2,23 +2,31 @@ title: Issues
 
 # Issues
 
-Articles do not have to be part of an issue. There are some services that do require an article have an issue or volume (such as Crossref) so we recommend that if you do continues publication that you create a yearly volume/issue to add papers to. Articles are added to Issues during the Pre Publication stage, however, Issues can be managed on their own through the Issue Manager, a link to which is available on the Manager page and the main sidebar.
+Articles do not have to be part of an issue. There are some services that do require an article have an issue or volume (such as CrossRef) so we recommend that if you do continues publication that you create a yearly volume/issue to add papers to. Articles are added to issues during the **Pre-publication** stage, however, issues can be managed on their own through the **Issue manager**, a link to which is available on the **Manager** page and the main sidebar.
 
 <!-- ![The Issue Management page.](../nstatic/issue-management.png) -->
 
 > [!TIP]
-> To set the current issue, click the Make Current button. The Issue without this button *is* the current issue.
+> To set the current issue, click the **Make current** button. The issue without this button *is* the current issue.
 
 > [!TIP]
-> To re-order the issues you can drag and drop the rows of the tables or use the sort buttons at the top of the page.
+> To re-order the issues, you can drag and drop the rows of the tables or use the sort buttons at the top of the page.
+
+>[!NOTE]
+>Imports go to V1I1 if none is specified.
 
 ## Issue Types
 
-Janeway comes with two issue types built in: Issue and Collection. Collections differ in so much as they are not a primary Issue for a paper but tend to be collections of papers with similar topics across multiple different issues. So an article may be in the Thomas Pynchon Collection but it's primary Issue may be Volume 1 Issue 2 2019. You can also define your own issue types in the Django admin area.
+Janeway comes with two issue types built in: "Issue" and "Collection". Collections differ in so much as they are not a primary issue for a paper but tend to be collections of papers with similar topics across multiple issues. So an article may be in the Thomas Pynchon Collection but its primary issue may be Volume 1 Issue 2 2019. You can also define your own issue types in the Django admin area. <!-- missing hyperlink -->
+
+## Volumes
+
+Issue can either have their own volume or share a volume with other issues - you must assign an issue to have a volume.
+Volume 0 can be helpful for collections, if you do not wish for the collections to follow or interrupt the regular Volume-Issue order. (E.g. for collections you may continuously add to and arent part of specific years.)
 
 ## Display Settings
 
-In the top right of the Issue Management page there is the Edit Display Settings button. This allows you to configure how issue titles and the issue page are displayed.
+In the top right of the **Issue management** page there is the **Edit display settings** button. This allows you to configure how issue titles and the issue page are displayed.
 
 You can turn these elements on or off:
 
@@ -38,36 +46,36 @@ Here are a few example issue displays:
 - Volume 35 • 2021 • Number 49
 
 > [!TIP]
-> If you want to display a totally custom issue title, disable everything except issue title, and use that field to form the issue display for each issue.
+> If you want to display a custom issue title, disable everything except issue title, and use that field to form the issue display for each issue.
 
 > [!TIP]
-> You can use the article number field to set an arbitrary number for each article, whether to distinguish articles within each volume or issue or to number articles across volumes and issues. Article number is an optional field separate from article ID and can be set in Edit Metadata.
+> You can use the article number field to set an arbitrary number for each article, whether to distinguish articles within each volume or issue or to number articles across volumes and issues. Article number is an optional field separate from article ID and can be set in **Edit metadata**.
 
 > [!TIP]
 > If your journal has a lot of issues you can enable the "Group issues by decade" feature to allow readers to jump to a specific decade on the issues interface.
 
-## Creating and Editing Issue Details
+## Creating and editing issue details
 
-You can create new issues from this page using the Create Issue button and you view and edit the detail of individual issues by selecting them.
+You can create new issues from this page using the **Create issue** button and you view and edit the detail of individual issues by selecting them.
 
 <!-- ![An empty create issue form](../nstatic/create-issue.png) -->
 
 Information on the sizes of the cover image and large image can be found in the Styling section
 
-## Manage an Issue
+## Manage an issue
 
-Clicking on View takes you through to the manage issue page where you can alter an individual issue. The page is split into 4 sections.
+Clicking on **View** takes you through to the manage issue page where you can alter an individual issue. The page is split into 4 sections.
 
 - Issue Management
 - Table of Contents
 - Guest Editors
 - Galleys
 
-### Issue Management
+### Issue management
 
 Here you can see the metadata for your issue, edit it, delete it and if the issue is published there is a link to view it on the front end.
 
-### Table of Contents
+### Table of contents
 
 In the Table of Contents section, you can add articles to the issue, sort the sections and sort the articles within their sections.
 
@@ -75,7 +83,7 @@ For each section, there are arrow icons that allow you to move the section up an
 
 <!-- ![Issue table of contents](../nstatic/issue-table-of-contents.png) -->
 
-You can drop an article from an issue using the Remove link and add new ones clicking the Add Article link.
+You can drop an article from an issue using the Remove link and add new ones clicking the **Add article** link.
 
 <!-- ![Articles that can be added to issues](../nstatic/issue-articles.png) -->
 
