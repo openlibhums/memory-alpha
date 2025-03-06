@@ -244,8 +244,10 @@ At a glance:
 
 * End a complete sentence with a period, unless it's a question. There are exceptions for working in lists.
 * Try to avoid a URL directly preceding a period. Either use a link or rewrite the sentence. 
-* When a sentence ends with material inside quotation marks, place the period inside the quotation marks even if the period isn't part of the material inside the quotation marks. 
+* When a sentence ends with material inside quotation marks, place the period inside the quotation marks even if the period isn't part of the material inside the quotation marks.
+  * For example:  ... you might say "Fixed typo."
 * If the material inside the quotation marks ends with a question mark or an exclamation point, don't use a period.
+  * For example:  Children always ask "Why?"
 * If the last part of a sentence is contained inside parentheses, put the period after the closing parenthesis.
 * If the parentheses contain a complete sentence, put the period inside the parentheses. 
 * Don't use exclamation points in text, except when they're part of a code example.
@@ -276,24 +278,24 @@ Janeway-specific:
 
 The following notices are available in GitHub markdown:
 
-**Note**
+>[!NOTE]
+> Note.
+* An ordinary aside or tip. Provides information that is useful but not critical to the reader. For example, "Generating excessive amounts of traffic to external systems can resemble a denial-of-service attack."
 
-* An ordinary aside or tip. Provides information that is useful but not critical to the reader. For example, "Generating excessive amounts of traffic to external systems can resemble a denial-of-service attack." 
-
-**Caution**
-
+>[!CAUTION]
+> Caution.
 * Tells the reader to proceed carefully. For example, "We don't recommend using a broad `0.0.0.0/0` range that would allow all traffic."
 
-**Warning**
-
+>[!WARNING]
+> Warning.
 * Stronger than a __caution__ notice; it means "Don't do this" or that this step might be irreversible, such as leading to permanent data loss. If readers don't heed the warning, they can lose work or open themselves to a security breach. For example, "Don't put a password on the command line; doing so is a security risk."
 
-**Important**
-
+>[!IMPORTANT]
+> Important.
 * Can be used to highlight essential information. This information should also be in the main body of the text.
 
-**Tip**
-
+>[!TIP]
+> TIP.
 * Provides helpful information that has a practical meaning but may not be obvious to users.
 
 ## Computer interfaces
