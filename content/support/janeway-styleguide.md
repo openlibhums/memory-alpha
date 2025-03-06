@@ -16,7 +16,7 @@ This style guide is adapted from the [Google style guide](https://developers.goo
 ## Editorial resources and hierarchy
 
 Use the following resources, including this guide, in this order:
-1. **Project-specific.** Specific projects may have their own style guides, outlining exceptions to this guide or terms that are relevant only to your project.
+1. **Project-specific.** Specific projects may have their own style guides, outlining exceptions to this guide or terms that are relevant only to your project (such as marketing materials).
 
 2. **This style guide.** Where project-specific style guides do not provide guidance, follow this style guide.
 
