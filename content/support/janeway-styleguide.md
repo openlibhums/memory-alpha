@@ -217,7 +217,7 @@ For example:
 
 At a glance:
 
-Don't use unnecessary capitalisation; before capitalising a word, think about why (and whether) it should be capitalised.
+Don't use unnecessary capitalisation; before capitalising a word, think about why (and whether) it needs to be capitalised.
 
 Use a lowercase letter to begin the first word of the text immediately following a colon, unless the text is one of the following:
 * A proper noun
@@ -249,7 +249,7 @@ See: [Colons](https://developers.google.com/style/colons) and [semicolons](https
 At a glance:
 
 * When a colon introduces a list, the text that precedes the colon must be able to stand alone as a complete sentence.
-* Generally, the first word in the text following a colon should be in lowercase.
+* Generally, the first word in the text following a colon should be lowercase.
 * If possible, avoid using semicolons. For exceptions, see [Google style guide on semicolons](https://developers.google.com/style/semicolons).
 
 ### Commas
@@ -334,7 +334,7 @@ The following notices are available in GitHub markdown:
 
 >[!IMPORTANT]
 > Important.
-* Can be used to highlight essential information. This information should also be in the main body of the text.
+* Can be used to highlight essential information. This information must also be in the main body of the text.
 
 >[!TIP]
 > TIP.
