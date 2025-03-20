@@ -6,7 +6,7 @@ Janeway has three available themes that determine the appearance of a journal an
 Themes are based on different styling frameworks
 
 OLH foundation
-Material - Google materialise
+Material - Google materialize
 Clean - Bootstrap
 
 Same core feature set, provide the same content.
