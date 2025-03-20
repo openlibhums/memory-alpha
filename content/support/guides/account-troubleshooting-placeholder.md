@@ -15,6 +15,8 @@ If you have forgotten your password and need to reset it:
 5. Click the link in the email.
 6. Fill in the password fields to set a new password.
 
+![The login page with 'Forgot your password' highlighted.](../images/forgotten_password.png)
+
 If you have not received the password reset email, contact **Support**. <!-- Missing hyperlink-->
 
 ## Update your password
