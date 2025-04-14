@@ -1,4 +1,7 @@
-# Janeway styleguide
+title: Janeway style guide
+
+# Janeway style guide
+
 ## In this guide
 * [Introduction](#introduction)
 * [Editorial resources and hierarchy](#editorial-resources-and-hierarchy)
@@ -7,6 +10,7 @@
 * [Language and grammar](#language-and-grammar)
 * [Punctuation](#punctuation)
 * [Formatting and organisation](#formatting-and-organisation)
+
 ## Introduction
 <details open>
  <summary>About this guide </summary>
