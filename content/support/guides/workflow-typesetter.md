@@ -2,7 +2,7 @@ title: Typesetter workflow guide
 
 # Typesetter workflow guide
 
-When you have been assigned a typesetting task, you will receive an email notification containing a link. This link will lead to the Janeway Dashboard.
+When you have been assigned a typesetting task, you will receive an email notification containing a link. This link will lead to the Janeway dashboard.
 
 !["The typesetter Dashboard displaying the number of typesetter tasks assigned."](../../support/images/workflow/typesetting-dashboardblock.png)
 
@@ -49,18 +49,18 @@ This page is divided into three sections.
 
 Click **Upload a New Typeset File** to upload your completed work. 
 
-Source files (such as Adobe In Design files) can be uploaded using the ‘Upload New Source File’ button (if required).
+Source files (such as Adobe InDesign files) can be uploaded using the **Upload New Source File** button (if required).
 
 !["The ‘Upload a typeset file’ upload. It provides the options to add a label for the file, toggle whether the file should be publicly available after the article is published, choose a file to upload, and confirm the upload."](../../support/images/workflow/typesetting-upload.png)
 
-In this box, you will find the option to label your file with its file type. For instance, if this is an HTML file, you should label it as ‘HTML’. If it is a PDF, you should label it as ‘PDF’, etc. 
+In this box, you will find the option to label your file with its file type. For instance, if this is an HTML file, you should label it as 'HTML'. If it is a PDF, you should label it as 'PDF', etc. 
 Janeway will attempt to provide an appropriate label if this is left blank. However, if you wish to ensure the label is correct, you can manually enter the file type. For instructions on how to edit a label, see the section below.
 
 > [!WARNING]
 >  Janeway operates with the UTF-8 encoding. Please ensure that you upload any HTML and XML files (plain text galleys) using this encoding.
 
 ## Editing typeset files and uploading additional files
-If you need to make changes to the typeset files, reupload them or upload additional files; this can be done through the ‘Edit Typeset File’ page. This page can be accessed by clicking **Edit**.
+If you need to make changes to the typeset files, you can reupload them or upload additional files through the **Edit Typeset File** page. This page can be accessed by clicking **Edit**.
  
  !["The ‘Upload typeset files’ section, showing two uploaded files. It also displays the figure files’ status: ‘N/A’ for a file with no figure files and ‘Missing figures’ for a file with missing figures."](../../support/images/workflow/typesetting-edit-button.png)
 
@@ -80,7 +80,7 @@ This page is divided into three sections:
   - You can change the XSLT file used to render the galley. 
 
 ## Managing typeset files
-In the first section of the page, you can view the file currently uploaded and replace or download it. You can also view the file's history by clicking on the button under 'History'. 
+In the first section of the page, you can view the file currently uploaded and replace or download it. You can also view the file's history by clicking on the button under **History**. 
 
 This will open a page where you can download and reinstate previous versions or delete the current file entirely (in case you have uploaded an incorrect file).
 
@@ -93,7 +93,7 @@ When a file typeset in HTML or XML contains image links, Janeway will detect the
 
 If the image files have already been uploaded onto Janeway, you can select them instead.
 
-If you need to upload a large number of images, it might be faster to use the zip uploader (see ‘Upload Zip File’ in the image below). To do so, create a ZIP archive file with all the image files. The image filenames must match the links in the typeset file; otherwise, they will not be imported.
+If you need to upload a large number of images, it may be faster to use the zip uploader (click on **Upload Zip File**, highlighted in the image below). To do so, create a ZIP archive file with all the image files. The image filenames must match the links in the typeset file; otherwise, they will not be imported.
 
 ## Styling
 On this page, you can also upload a CSS file associated with the article for an individual style, if required. We recommend avoiding style changes to the header and footer type elements, as this will affect the page's layout.
