@@ -13,9 +13,9 @@ If the journal has enabled one-click access, you can go straight to the review p
 > Do **not** share your link! This link is generated specifically for you and your review task, and functions like a password. If you share it, someone else can access your review task under your name and credentials.
 
 ## Dashboard
-If you log into Janeway as a reviewer, you will see the ‘Reviewer’ section on your Dashboard. Here, you can see active requests, accepted ones, and reviews you have completed. 
+If you log into Janeway as a reviewer, you will see the **Reviewer** section on your Dashboard. Here, you can see active requests, accepted ones, and reviews you have completed. 
 
-If you have any other roles within a journal (e.g. author, editor), you will also see sections for these on your Dashboard. 
+If you have any other roles within a journal (e.g. author, editor), you will also see sections for these on your dashboard. 
 ![Reviewer Dashboard block](../../support/images/workflow/reviewer-block.png)
 
 Click **View Requests** to be taken to the Review Requests page. On this page, you can see more information about the review (title, abstract, keywords, etc.) and either accept or decline the task.
@@ -50,20 +50,20 @@ This is where you will complete your review. What this looks like will differ fr
 
 The sections of this form are:
 
-- File Upload
-    - You can upload your review , if you prefer to complete it offline (e.g. by writing down your feedback in a Word document). This section may be disabled for certain journals and, in those cases, will not appear.
-- Review Form
-    - This is where you will complete your review. The form may consist of a single text box or be composed of multiple boxes, which can include checkboxes and dropdowns. This will depend on the individual journal, but there will be text accompanying each part to tell you what they are looking for.
-- Your Recommendation
-    - This will be divided into two subsections: ‘Decision’ and ‘Comments for the Editor’.
+- File upload
+    - You can upload your review here if you prefer to complete it offline (e.g. by writing down your feedback in a Word document). This section may be disabled, in which case, it will not appear.
+- Review form
+    - This is where you will complete your review. The form may consist of a single text box or be composed of multiple boxes, which can include checkboxes and dropdowns. This will depend on the individual journal, but each part will be accompanied by text that explains what they are looking for.
+- Your recommendation
+    - This will be divided into two subsections: **Decision** and **Comments for the Editor**.
 - Decision
     - You may select one of the following options for your recommendations:
-        - Accept Without Revisions
-        - Minor Revisions Required
-        - Major Revisions Required
+        - Accept without revisions
+        - Minor revisions required
+        - Major revisions required
         - Reject
 - Comments for the Editor
     - If you have additional comments, they can be added here. These will be visible only to the editor(s), although they may choose to share them with the author.
 
 ## Review complete
-Once you have submitted your review you will be presented with an overview of what you have written. Please note you will not be able to return to the review page or edit what you have written once you have clicked ‘Submit’.
+Once you have submitted your review, you will be presented with an overview of what you have written. Please note you will not be able to return to the review page or edit what you have written once you have clicked **Submit**.
