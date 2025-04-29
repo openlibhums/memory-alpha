@@ -5,7 +5,7 @@ title: Editor guide -  submission and review
 Editors will be notified by email once a new article has been submitted. This email will contain a link to the submitted article, but it can also be accessed through the dashboard.
 
 > [!NOTE]
-> Notifications can also be set up per section or for section editors. See SECTION <!-- missing hyperlink -->
+> Notifications can also be set up per section or for section editors. See information on setting up submission notifications and setting up article sections. <!-- missing hyperlink -->
 
 Clicking **Unassigned** will take you to a page that displays a list of articles that have not yet been assigned an editor.
 
