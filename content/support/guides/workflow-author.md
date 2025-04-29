@@ -3,56 +3,56 @@ title: Author guide
 # Author guide
 This guide will walk you through the Janeway journal submission system.
 
+## Navigating the submission process
+Generally, all Janeway journals' submission systems will look the same. Along the top of the page, you will see a progress bar with five stages. Once a stage has been completed, the corresponding segment of the bar will turn into a link. You can use this bar to return to an earlier screen if you need to make changes. 
+
+![Submission progress bar, showing the five stages: Submission started, Article information, Author information, Article files, Review your submission.](../images/workflow/author-submission-navigation.png)
+
 ## New submissions
 There are multiple ways to submit a journal article on Janeway:
 
-1. If you do not have an account yet:
-    - From the **Submission** page on the journal site (if this is not visible on a journal website, they may not accept submissions at this time). 
+If you do not have an account yet:
+    - From the **Submission** page on the main site (if this is not visible on a journal website, they may not be accepting submissions at this time). 
 
-![An example submissions page. The submissions button on the page and the navbar items for "Start a submission" and "Submissions" are highlighted.](../content/support/images/workflow/author-submission-webpage.png)
+![An example submissions page. The submissions button on the page and the navbar items for Start a submission and Submissions are highlighted.](../images/workflow/author-submission-webpage.png)
 
-2. If you already have an account:
+If you already have an account:
     - From the drop-down menu in the top right-hand corner. This will be visible both on the journal webpage when you click **Account** and within Janeway when you click on your profile in the top right-hand corner.
 
-    - On the journal website:
-![The dropdown menu on the journal website.](../support/images/workflow/author-submission-dropdown-website.png)
+- On the journal website:
+![The dropdown menu on the journal website.](../images/workflow/author-submission-dropdown-website.png)
 
-    - On the Janeway journal platform:
-![The dropdown menu on the submission platform](../support/images/workflow/author-submission-dropdown-loggedin.png)
+- On the Janeway journal platform:
+![The dropdown menu on the submission platform](../images/workflow/author-submission-dropdown-loggedin.png)
 
-    - From the author dashboard within Janeway.
-![The author dashboard block in Janeway. Submit new article in the top right corner of the block is highlighted.](../support/images/workflow/author-dashboard-block.png)
+- From the author dashboard within Janeway.
+![The author dashboard block in Janeway. Submit new article in the top right corner of the block is highlighted.](../images/workflow/author-dashboard-block.png)
 
 If you already have an account, you will usually automatically be given the author role in Janeway when you submit an article. However, some journals will ask you to provide the details of the manuscript’s author or select yourself as the author manually. For more information on this, see the Author information <!-- Missing hyperlink --> section of this guide.
 
-### Navigating the submission process
-You can use the progress bar along the top of the page to navigate the five stages of the submission process. Once a stage has been completed, the corresponding segment of the bar will turn into a link. You can use this bar to return to an earlier screen if you need to make changes. 
-
-![Submission progress bar, showing the five stages: Submission started, Article information, Author information, Article files, Review your submission.](../content/support/images/workflow/author-submission-navigation.png)
-
 ### The author agreement
-The first page of the submission process is the author agreement. Depending on how a journal has been set up, this may look slightly different and not all of these fields may be displayed.
+The first page of the submission process is the author agreement. Depending on how a journal is set up, this may appear slightly different, and not all of these fields may be displayed.
 
-![The author agreement page.](../support/images/workflow/author-author-agreement.png)
+![The author agreement page.](../images/workflow/author-author-agreement.png)
 
 - Publication fees
     - This is where you will see any publication fees, including Voluntary Author Contributions (VACs) or Article Processing Charges (APCs) that apply to the submission.
 
 > [!NOTE]
-> Please note that a Voluntary Author Contribution and Article Processing Charge are different. The former is entirely optional and not required in order to publish in a journal. For more information about publication fees, visit the relevant journal’s policy page(s) or contact its editorial team.
+> Please note that a Voluntary Author Contribution and Article Processing Charge are different. The former is entirely optional and not required for publication in a journal. For more information about publication fees, visit the relevant journal’s policy page(s) or contact its editorial team.
 
 - Submission checklist
     - The submission checklist will display any steps you need to take before submitting the manuscript (e.g. formatting).
 - Copyright notice
-    - The copyright notice specifies the license the paper will be published under and any rights you may need to sign over to the publisher.
+    - The copyright notice specifies the license under which the paper will be published and any rights you may need to sign over to the publisher.
 - Competing interests
     - If you have any competing interests that the editors should take into account when examining your paper, this is where you will need to disclose them.
  
 If they have been enabled, the publication fees, submission checklist and copyright notice fields will be required. This means that you _must_ select the checkboxes in order to complete a submission. If you have any issues with any of the clauses, it is best to contact the editor(s) before you submit your work.
 
 ### Article information
-The **article information** page is where you will provide your submission’s metadata. Required fields will be marked with an asterisk, but we recommend that you fill out optional fields as well.
-![The article information page, filled with example data.](../support/images/workflow/author-article-information.png)
+The **article information** page is where you will provide the metadata for your submission. Required fields will be marked with an asterisk, but we recommend that you fill out optional fields as well.
+![The article information page, filled with example data.](../images/workflow/author-article-information.png)
 
 Metadata that may be requested on this page:
 - Title
@@ -67,16 +67,16 @@ Metadata that may be requested on this page:
 - Licence
     - This is usually disabled if the journal only accepts one license type.
 - Keywords
-    - You can add keywords to your article to help people discover it. To add keywords, type the word or phrase into the textbox and press ‘enter’ to add it. If you wish to delete a keyword, click the **X** icon next to it within the textbox. Keywords can include spaces and special characters.
-![""](../support/images/workflow/author-keywords.png)
+    - You can add keywords to your article to help people discover it. To add keywords, type the word or phrase into the textbox and press 'Enter' to add it. If you wish to delete a keyword, click the **X** icon next to it within the textbox. Keywords can include spaces and special characters.
+![""](../images/workflow/author-keywords.png)
 
 Individual journals can add more fields to this page. These will be displayed under **Additional fields**.
     
 ### Author information
-The **author information** page is where you fill in the relevant information about a submission’s author(s). For some journals, the person submitting will be automatically added as an author, while others will require the details to be added manually (see screenshot below). 
+The **Author information** page is where you fill in the relevant information about a submission’s author(s). For some journals, the person submitting will be automatically added as an author, while others will require the details to be added manually (see screenshot below). 
 
 In this example journal, the submitting user has not been added as an author but can use the **Add self as author** button to add themselves.
-![The article information page filled with example data](../support/images/workflow/author-author-information.png)
+![The article information page filled with example data](../images/workflow/author-author-information.png)
 
 To add more authors to a submission, you can either search the journal's author list or create a new author. If you use the **Add New Author** button to add an author who is already registered with the journal or another journal by the press, this submission will be linked to their existing record.
 
@@ -89,7 +89,7 @@ To add more authors to a submission, you can either search the journal's author 
         - Last name
         - Institution (can be supplied as ‘N/A’ or ‘Independent’ for those who do not have one)
         - Email address
-    - An account will also be generated for the author based on this information so that they can log in to the journal and check the progress of the paper. They will need to use the Password Reset function to get access to their account.
+    - An account will also be generated for the author based on this information so that they can log in to the journal and check the progress of the paper. They will need to use the password reset function to get access to their account.
 
 You can use the trash icon to delete authors from a submission. The arrow handles can be used to drag and drop the authors’ names to reorder them.
 
@@ -98,28 +98,28 @@ On the **Article files** page, you can upload your manuscript and any supplement
 
 Even if they have already been inserted into the manuscript file, you need to add any figures, diagrams, images, or other additional data separately under **Figures and data files**. 
 
-![The Article Files page.](../support/images/workflow/author-article-files.png)
+![The Article Files page.](../images/workflow/author-article-files.png)
 
 To add a file, click the **Upload** button under either **Manuscript file** or **Figures and data files**, and a popup will appear. You can select the file from here using the **Choose file** button. 
 
-You are required to add a label to any file uploaded but the description field is optional. For manuscript files, we recommend something along the lines of "submitted manuscript". For figure files, this label should correspond with the information in the manuscript (e.g. the "Figure 1" in your manuscript should be labelled as "Figure 1" when you upload it here).
+You are required to add a label to any file uploaded, but the description field is optional. For manuscript files, we recommend something along the lines of "submitted manuscript". For figure files, this label should correspond with the information in the manuscript (e.g. the "Figure 1" in your manuscript should be labelled as "Figure 1" when you upload it here).
    
-You can add only one manuscript file but multiple figures and/or data files.
+You can add only one manuscript file, but multiple figures and/or data files.
 
 ### Funding
 You will then be asked to supply information about any relevant funding. You can search for your funding source using our **Search for funder** function or add them manually. When adding a funder, you will be given the option to provide an optional Funder DOI and Grant ID.
 
-![""](../support/images/workflow/author-funding.png)
-![""](../support/images/workflow/author-add-funder.png)
+![""](../images/workflow/author-funding.png)
+![""](../images/workflow/author-add-funder.png)
 
-If you do not have any funders to add, you will be able to skip this page by clicking **Save and continue** with no funders added.
+If you do not have any funders to add, you can skip this page by clicking **Save and continue** without adding any funders.
 
-## Review
-The review page displays a run-down of the article you've submitted, metadata, files and authors. From here, you can click **Complete** to submit or jump back to other stages to make changes. Once you have finalised your submission, you cannot make any changes until editors request revisions (if applicable). 
-![""](../support/images/workflow/author-submission-review.png)
+### Review
+The **Review** page displays a run-down of the article you've submitted, metadata, files and authors. From here, you can click **Complete** to submit or jump back to other stages to make changes. Once you have finalised your submission, you cannot make any changes until editors request revisions (if applicable). 
+![""](../images/workflow/author-submission-review.png)
 
-### Revisions
-Editors may request that authors revise their files based on recommendations from reviewers. There are two types of revisions you may be asked to make:
+## Revisions
+If an article is accepted, it may enter the peer review process. Once a submission has been reviewed, editors may request that authors revise their files based on recommendations from reviewers. There are two types of revisions you may be asked to make:
 
 1. Minor revisions.
 2. Major revisions.
@@ -135,7 +135,7 @@ When an editor requests revisions, there are two ways to start this process:
     3. Scroll down to **Submitted articles**.
     4. Click the **Revision request** button next to the article.
 
-![""](../support/images/workflow/author-submitted-articles.png)
+![""](../images/workflow/author-submitted-articles.png)
 
 Once you have accessed the revision request, you can view the available peer reviews. You can also download, revise, and upload new files. 
 
@@ -143,12 +143,6 @@ Once you've uploaded the revised manuscript and any additional image files, you 
 
 ## Copyediting
 Editors and authors are encouraged to undertake as many rounds of copyediting as is necessary to ensure that the text is ready to go into typesetting. 
-
-It is important that all stylistic changes are made at this stage. As many errors as possible should be corrected at this point, and by the end of copyediting, there should be a final manuscript which requires no further changes. 
-
-The typesetters will then use this final manuscript to create the finished article, which will be sent back for checking in the form of typeset proofs. 
-
-Typeset proofs are not an opportunity to make changes to the content or style of a manuscript: the file that goes into production is final. It is expected that only a handful (less than 10) of very minor changes should be requested at the proofing stage, if any.
 
 When an editor requests an author revision following a copyedit, this can be accessed in the same way as revisions following peer review:
 
@@ -163,30 +157,36 @@ From here, you can view requested copyedits and download the copyedited file. Co
 
 Accept tracked changes you agree with and address any queries that the copyeditor has made in the comments. Check your manuscript carefully to ensure that you have not introduced any new errors before uploading your revised file back into the system. 
 
+It is important that all stylistic changes are made at this stage. As many errors as possible should be corrected at this point, and by the end of copyediting, there should be a final manuscript which requires no further changes. 
+
+The typesetters will then use this final manuscript to create the finished article, which will be sent back for checking in the form of typeset proofs. 
+
+Typeset proofs are not an opportunity to make changes to the content or style of a manuscript: the file that goes into production is final. It is expected that only a handful (less than 10) of very minor changes should be requested at the proofing stage, if any.
+
 ### To complete a copyediting author revision: 
 1. Upload your revised manuscript by replacing the copyeditor's version of the file with your own updated version.
 
-![""](../support/images/workflow/author-copyedited-files.png)
+![""](../images/workflow/author-copyedited-files.png)
 
 2. Fill in the **Note to the editor** field with any additional information.
 3. Select a Decision (either **Accept** or **Corrections required**).
 4. Click **Complete copyedit task**.
 
-![""](../support/images/workflow/author-complete-copyedit-task.png)
+![""](../images/workflow/author-complete-copyedit-task.png)
 
-### Proofing
-After your paper has been accepted and copyediting, the editors might send you a request to proof the typeset manuscript. This is the final version that will be made publicly available once the article gets published in the journal.
+## Proofing
+After your paper has been accepted and copyedited, the editors might send you a request to proof the typeset manuscript. This is the final version that will be made publicly available once the article gets published in the journal.
 
-For journals that publish content in multiple media formats (HTML, PDF, XML, etc.), it is important that you check all these files before publication. This will not require any technical knowledge; authors are not expected to be able to open and read XML/HTML code. Instead, Janeway provides a **View file** button where you will be able to preview how the article will look once it gets published.
-![Typeset Files download and preview](../support/images/workflow/author-proofreading.png)
+For journals that publish content in multiple media formats (HTML, PDF, XML, etc.), it is important that you check all these files before publication. This will not require any technical knowledge; authors are not expected to be able to open and read XML/HTML code. Instead, Janeway provides a **View file** button, which allows you to preview how the article will look once it is published.
+![Typeset Files download and preview](../images/workflow/author-proofreading.png)
 
 Once you've previewed the files, you can provide feedback in two ways:
 
 - Fill in the **Notes** field. You can use this to add not just text, but also to paste in screenshots or other relevant images.
-![Providing proofreading notes via a text editor](../support/images/workflow/author-proofreading-notes.png)
+![Providing proofreading notes via a text editor](../images/workflow/author-proofreading-notes.png)
 
 - Upload an annotated file. In the case of PDF files, you can download the file and make annotations offline using PDF readers. When this is done, you can upload the annotated file for the editor to review.
-![Providing proofreading notes by uploading an annotated file.](../support/images/workflow/author-proofreading-annotated-file.png)
+![Providing proofreading notes by uploading an annotated file.](../images/workflow/author-proofreading-annotated-file.png)
 
 It is important to proof all the files thoroughly in order to avoid unnecessary follow-up rounds. This saves everyone time, work, and money and makes the publishing process run much more smoothly.
 
