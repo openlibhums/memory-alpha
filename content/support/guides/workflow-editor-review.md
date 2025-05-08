@@ -61,17 +61,42 @@ In addition to making the overall review available for authors to read, you can 
 
 Toggling the sections on or off will determine whether the author can see answers to specific review questions when they look at the review. The answers to the corresponding toggles are displayed on this page as well. No answers will be visible until the top toggle, which enables the author to access the review, has been switched on. The default visibility of each review question can be configured through the review forms (see review settings <!-- missing hyperlink -->).
 
-### Decision helper
+## Making a review decision
+If you are ready to make a decision after a round of review, you can click on **Make a decision** to open the **Decision helper** page. On this page, you will see a summary of reviewer recommendations, their review form answers and a list of uncompleted reviews. In addition to this, the following buttons are available:
 
-[if you are ready to make a decision after a round of peer review.]
+- **Accept article**
+    - Accepts the article, allows you to email the author and moves the article into the next stage.
+- New review round
+    - This option adds a new review round. Any open review assignments on the current round are withdrawn, and a new round is set up. This process is often done after round 1 and the author has completed revisions. You can still see previous rounds through tab at the top of the page.
+- Reject article
+    - Rejects the article, removes it from the workflow and allows you to email the author.
+- Request revisions
+    - Allows you to request the author to revise their paper.
 
-Click on **Make a decision**, which will take you to the Decision helper-page. Once on this page you will see a summary of reviewer recommendations, their review form answers and a list of uncompleted reviews. 
+If enabled:
+- Draft a decision
+    - Allows Section editors to draft one of the above decisions for approval by an Editor.
+- Share peer reviews
+    - Allows an editor to email all of the reviewers who participated in the review of an article and share a link allowing them to read all of the review reports. 
+
+> [!NOTE]
+> This setting must first be enabled before the option will be displayed, see Review settings. <!- - missing hyperlinks - -> 
+
 
 ## Request revisions
 Requesting revisions will allow you to ask the author to make changes to the manuscript. 
 
 > [!TIP]
 > Before requesting revisions, make sure you have marked reviews as available to the author. The Request Revisions page will warn you if you have not done this for a given review.
+
+## Sharing reviews amongst reviewers
+<!-- link to review sharing information. Missing hyperlink -->
+
+### Deleting a review round
+This will delete the current review round in its entirety. It will remove the files, assigned reviewers, and any reviews already completed from the current round.
+
+> [!WARNING]
+> There is no way to recover a review assignment once deleted, so only use this option if you wish to remove it entirely. In many cases, it may be better to add a new round, which will close all open review assignments.
 
 ## Finishing up
 To complete the Review stage, you can either:
@@ -80,126 +105,3 @@ To complete the Review stage, you can either:
 - Decline the article and remove it from the publishing workflow.
 
 If using the standard workflow, the stage after Review is Copyediting.
-
-### Deleting a review round
-This will delete the current review round in its entirety. It will remove the files, assigned reviewers, and any reviews already completed from the current round.
-
-> [!WARNING]
-> There is no way to recover a review assignment once deleted, so only use this option if you wish to remove it entirely. In many cases, it may be better to add a new round, which will close all open review assignments.
-
-///
-## Making Reviews Available to Authors
-
-Once a peer review is complete, editors then have the option to make it
-available to the the author to read. By default the review will not be
-available for the author to read. When the review has a file, you will
-also have the option to make the file available for the author to read.
-Once you have opened a review you will see a details of the review
-assignment, a summary of the review and the review availability
-controls.
-
-![""](../nstatic/review-view-page.png)
-
-### Allow Author to Read Review
-
-You can make the review form visible to the author by toggling *Author
-can access this review*, and the file available by toggling *Author can
-access review file*.
-
-![""](../nstatic/review-visibility-controls-1.png)
-
-### Controlling Individual Answers
-
-In addition to making the overall review available for authors to read,
-you can control the individual form answers under *Answer Visibility*.
-Toggling the answers on or off will determine whether the author can see
-them when they look at the review.
-
-![""](../nstatic/review-visibility-controls-2.png)
-
-//
-
-![""](../nstatic/review-form-elements.png)
-
-Once you have adjusted the visibility of Peer Review reports, and have
-clicked through to ‘Make a Decision’, you will see a summary of the Peer
-Reviews and what is and what is not revealed to authors before sending
-your Decision.
-
-![""](../nstatic/review-visibility-4.png)
-
-## Decision Helper
-
-One of the options under Actions is "Make a Decision" this will take you
-to the Decision Helper page. Once on this page you will see a summary of
-reviewer recommendations, their review form answers and a list of
-uncompleted reviews. The decisions available from this screen are:
-
-- Accept Article  
-  - Accepts the article, allows you to email the author and moves the
-    article into the next stage.
-
-- New Review Round  
-  - This option adds a new review round, a clean slate of review! Any
-    open review assignments on the current round are withdrawn and a new
-    round is set up. This process is often done after round 1 is
-    complete and the author has also completed some form of revisions.
-    You will still be able to see Round 1 via a tab at the top of the
-    page.
-
-- Reject Article  
-  - Rejects the article, removes it from the workflow and allows you to
-    email the author.
-
-- Request Revisions  
-  - Allows you to request the author revise their paper.
-
-- If enabled, Draft a Decision  
-  - Allows Section Editors to draft one of the above decisions for
-    approval by an Editor.
-    <!-- add in link -->
-
-- Share Peer Reviews  
-  - Allows an editor to email all of the reviewers who participated in
-    the review of an article and share a link allowing them to read all
-    of the review reports. Note: This must first be enabled before the
-    option will be displayed. See the
-    Sharing Peer Reviews section.
-    <!--missing hyperlink-->
-
-![""](../nstatic/review-decision-helper.gif)
-
-## Request Revisions
-
-> [!TIP]
-> Before requesting revisions make sure you have marked reviews as
-available to the author. The Request Revisions page will warn you if you
-have not done this for a given review.
-
-Requesting revisions will allow you to ask the Author to make changes to
-the manuscript, this may be for editorial reasons or as the result of a
-round of peer review. Usually the process would be:
-
-1.  Review Round 1  
-    1.  Reviewer 1
-    2.  Reviewer 2
-
-2.  Accept/Decline/Revisions based on reviewer feedback
-
-3.  Request Revisions
-
-4.  Review Round 2  
-    1.  Reviewer 3
-    2.  Reviewer 4
-
-5.  Action based on reviewer feedback
-
-
-## Finishing Up
-
-When in the standard workflow, after Review comes Copyediting.
-
-To complete the Review stage you can select one of either:
-
-1.  Accept Article, moves the article into the next stage.
-2.  Decline Article, removes the paper from the workflow.
