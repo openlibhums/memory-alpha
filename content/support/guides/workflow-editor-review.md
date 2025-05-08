@@ -80,7 +80,7 @@ If enabled:
     - Allows an editor to email all of the reviewers who participated in the review of an article and share a link allowing them to read all of the review reports. 
 
 > [!NOTE]
-> This setting must first be enabled before the option will be displayed, see Review settings. <!- - missing hyperlinks - -> 
+> This setting must first be enabled before the option will be displayed, see Review settings. <!-- missing hyperlinks --> 
 
 
 ## Request revisions
