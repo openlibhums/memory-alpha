@@ -1,76 +1,64 @@
 title: Editor guide -  review
 # Editor guide -  review
-The review workflow may take various shapes depending on the type of review a journal uses. This guide will cover the default workflow, which applies to single anonymous, double anonymous and the core of the open and triple anonymous workflows. There are additional guides for triple anonymous peer review and sharing reviews and author responses. Information is also available on configuring the peer review process and setting up review forms. <!-- missing hyperlinks across the board -->
 
-## The review page
+The review workflow may take various shapes depending on the type of review a journal uses. This guide will cover the default workflow, which applies to single anonymous, double anonymous and the core of the open and triple anonymous workflows. 
+
+There are additional guides for triple anonymous peer review and sharing reviews and author responses. 
+Additionally, there is also information available on configuring the peer review process and setting up review forms. <!-- missing hyperlinks across the board -->
+
+## Setting up a review
+
+The first step to starting peer review is to select the file(s) to review by clicking on *Add files*. You will be able to either select a file or upload a new file. If you are using anonymous peer review, you may need to check the uploaded manuscript for identifying information and reupload a new file. All reviewers for a given review round can access the files selected.
+
+After the appropriate files have been selected, you can add the reviewers. You can either select a reviewer from the list presented to you, select an existing user who does not yet have the reviewer role (**Enrol existing user**) or invite a new reviewer who does not yet have an account (**Add new reviewer**).
+
+![]()
+
+When assigning the reviewer, you can also select the review form, review type (open, single or double anonymous) and set the due date. You can set default settings for these in review settings <! --missing hyperlink --> to [limit needing to customise every time]. Once you have selected a reviewer and are happy with the review settings, click **Add reviewer** to confirm. You will then be shown the outgoing email on the next page, where you can edit the outgoing email to the reviewer or select the option to skip sending this email.
+
+Once the reviewer has been assigned, they can access the system to accept or decline the review, and (if accepted) do the review.
+
+> [NOTE]
+> We recommend turning on one-click peer review <!-- missing hyperlink --> which allows reviewers to complete the review without creating an account. 
+
+## Managing a review
+Once a review has been added to a round, it will be listed on the review page. The initial stage of any review is "Awaiting acknowledgement" - this means the review has not yet responded to the review invitation.
+
+![]()
+
+Once a review has been requested, you can do one of the following:
+
+1. View the review (though no meaningful information will be available when the review hasn’t been completed) by clicking on the **View** button.
+
+And by clicking on the dropdown button ⏷ , the following options will also become available:
+2. If the reviewer mistakenly withdraws or declines the review, you can click the **Reset** option to return it to ‘Awaiting Acknowledgement’.
+3. Edit the review settings (due date, review type, review form)..
+4. Rate the reviewer. The reviewers’ average ratings will be visible when selecting them for review.
+5. Withdraw the review.
+6. Delete the review.
+7. If you have admin permissions, you can edit the review details in Admin. 
+
+## Completing a review round
+
+### Viewing and editing reviews
+Once a reviewer has completed their review, you can view it using the **View** button. On the **View review**, you can see the reviewer’s feedback, comments to you as the editor and you will have the option to edit the review if needed. When an author reads the review, they will see only your edited version, not the reviewer's original version. You can reset the answer at any given time. 
+
+> [!NOTE] 
+> Janeway will retain a copy of the original review and this will remain visible to editors when opening the review.
 
 
 
 
-////
-The review page contains the following functions:
-- Add files
-- Delete round
-- Add reviewer
-- New review round
-- Request revisions
+## Deleting a review round
+This will delete the current review round in its entirety. It will remove the files, assigned reviewers, and any reviews already completed from the current round.
+
+> [!WARNING]
+> There is no way to recover a review assignment once deleted, so only use this option if you wish to remove it entirely. In many cases, it may be better to add a new round, which will close all open review assignments.
 
 
-![""](../nstatic/review-main-screen.png)
 
-## Add Files
 
-The Add Files options allows you to list which files will be listed for
-the reviewers in the current review round. All reviewers for a given
-round will see the same files. You will also be asked to confirm that
-the files you've selected have been checked to ensure there is no
-identifying author information in them. If there are you can download,
-edit and replace the version in the system on this screen.
-
-![""](../nstatic/review-add-files.gif)
-
-## Delete Round
-
-This is an end all button, it will remove the files and reviewers from
-the current round. You will be given a prompt that explains what will be
-deleted if you agree, **NB**. **there is no way to recover a review
-assignment once it is deleted so only use this option if you really want
-to remove it, better to add a new round which will close all open review
-assignments.**
-
-## Add Reviewer
-
-When adding a reviewer you have two options, you can select a reviewer
-and go through the process of setting up their review (anonymity, form
-and due date) or, if you've setup the required defaults, you can "Assign
-with Defaults". This will use the default type, anonymity, form and due
-date for your journal and send an automated email to the reviewer (the
-former allows you to edit the email).
-
-Assuming you choose to select the options yourself, when you press "Add
-Reviewer" you will be taken to the "Notify" page where you can edit the
-outgoing email to the user. There is an option available to skip sending
-this email if you wish.
-
-Once the reviewer is assigned they will be able to access the system and
-let you know if they will complete the review and, if yes, access the
-review form you specified.
-
-![""](../nstatic/review-add-reviewer.gif)
-
-## Managing a Review
-
-Once you have added a review to your round, it will be listed on the
-review page. The initial stage of any review is "Awaiting
-acknowledgement" which means we are waiting on the reviewer accepting or
-declining to undertake the review. At this stage we can:
-
-1.  View the review, though it doesn't tell us much
-2.  Withdraw the review
-3.  Delete the review
-4.  If the review is withdrawn or declined by the reviewer we can use a
-    new option Reset to set it back to Awaiting Acknowledgement
-
+///
 ## Making Reviews Available to Authors
 
 Once a peer review is complete, editors then have the option to make it
@@ -100,13 +88,7 @@ them when they look at the review.
 
 ![""](../nstatic/review-visibility-controls-2.png)
 
-### Editing Answers
-
-You can edit individual answers to create an *edited version*. When
-viewing the review the author will see only your edited version and not
-the original version from the reviewer. You can reset the answer at any
-given time. Note that Janeway will retain a copy of the original and
-display it for other editors to see.
+//
 
 ![""](../nstatic/review-form-elements.png)
 
