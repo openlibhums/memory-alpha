@@ -1,55 +1,42 @@
-title: Editor guide - review - draft decisions
-# Editor guide - review - draft decisions
+title: Editor guide - Draft decisions for review
+# Editor guide - Draft decisions for review
 
+Draft decisions (DD) are an optional element of the review workflow. It allows section editors to submit a draft of their editorial decision for approval by an editor. When enabled, a section editor will only see the draft decision feature on the **Decision helper** page.
 
-Draft decisions (DD) is an optional workflow that requests that section
-editors submit a draft of their editorial decision for approval by an
-Editor before it is sent to the author via the system. When enabled, a
-Section Editor will only see the Draft Decision feature on the Decision
-Helper page.
+The options for draft decision types are the same as those in the standard decision workflow:
+- Accept
+   - The article is moved into copyediting.
 
-Section Editors:
+- Minor revisions
+  - The section editor should provide the author with guidance on implementing the feedback from the peer reviewers.
 
-1.  Go to the Decision Helper page.
-2.  Select **Draft Decision**.
-3.  Complete the form, following the onscreen instructions.
+- Major revisions
+  - The section editor should provide the author with guidance on implementing the feedback from the peer reviewers. If an article requires major revisions, another round of peer review must be undertaken once the revisions are complete.
 
-Editors:
+- Decline
+  - The article will be archived, and the author will be notified.
 
-1.  Will be notified when a Draft Decision is made.
-2.  Open the link in email.
-3.  Review the draft.
-4.  Edit, Accept or Decline the Draft.
-5.  If accepted the decision event will fire.
+## Draft decision workflows
+For section editors, the workflow will look like this:
 
-<!-- ![""](../nstatic/review-draft-a-decision.gif) -->
+1. Go to the **Decision helper** page.
+2. Select the draft decision.
+3. Complete the form, following the onscreen instructions and fill in the following details (for more information, see ):
+  - Decision type
+  - Editor
+  - If required: revision request due date
+  - Email to the editor
+  - Draft email to author
 
-Examples of Draft Decisions are: Accept, Minor Revisions, Major
-Revisions or Decline. Editors are required to approve these Draft
-Decisions (DD) before they are sent to Authors.
+For editors, this process will look like the following:
+1. Access the draft decision through the link in the notification email or **Decision helper > Draft decisions**. The draft decisions will be listed under **Existing drafts**.
 
-If the DD is Accept, an article is moved into Copyediting.
+> [!NOTE]
+> Do not start filling in the **Add a draft decision** form – the section editor will already have drafted an email to the author in **Existing draft decisions**.
 
-If the DD is Minor Revisions, the Section Editor should provide the
-Author with guidance on how to implement the feedback from the Peer
-Reviewers.
+2. Review the draft decision and email by clicking **Edit**.
 
-If the DD is Major Revisions, the Section Editor should provide the
-Author with guidance on how to implement the feedback from the Peer
-Reviewers. If an article requires Major Revisions, then another round of
-Peer Review must be undertaken once the Major Revisions are complete.
+3. If required, you can edit the decision type, due date and email to the author. You can also view any completed peer reviews on this screen.
 
-If the DD is Decline, the article will be archived and the author
-notified.
+4. Accept or decline the draft. If accepted, the decision made by the section editor(s) will be actioned.
 
-To approve a DD:
-
-1.  Click on the link in the email notifying you of the DD
-2.  Click ‘Edit’ in the ‘Existing Draft Decisions’ box on the upper
-    right hand side of the screen (NB do not start filling in the ‘Draft
-    Decision’ form – your Section Editor will already have drafted an
-    email to the author in ‘Existing Draft Decisions)
-3.  Review the email to the Author and the Peer Review reports. Helpful
-    Tip: You can open the ‘Reviews’ tab for the article in a separate
-    window to compare the Peer Review Reports with the DD
-4.  Click ‘Approve’ to action the DD
