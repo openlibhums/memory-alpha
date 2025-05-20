@@ -1,50 +1,31 @@
-title: Editor guide - copyediting 
+title: Editor guide - Copyediting
+# Editor guide - Copyediting
 
-# Editor guide - copyediting 
+The copyediting stage provides an interface to assign and track copyediting requests. 
 
-The copyediting stage provides an interface to track copyediting
-requests.
-
-<!-- ![Janeway's Copyediting screen](../nstatic/copyediting.png) -->
-
+       
 ## Assigning a copyeditor
 
-To assign a copyeditor select **Add a Copyedit Assignment**. This will
-present a screen with the following options:
+To start copyediting an article, the first thing you will need to do is open a copyediting task and assign a copyeditor. To do this, click **Add a copyedit assignment**. This will open a new page where you can do the following:
 
-1.  Select a Copyeditor  
-    1.1 You can either select a copyeditor from the list or enrol
-    another user the role before selecting them.
+- Select a copyeditor.
+   - Or give a user the copyeditor role, if do not yet have it.
+- Select the files to be copyedited. 
+   - Any of the previously uploaded manuscript files will be available to select. If the file you require is not listed, you can upload it by returning to the previous screen and clicking on **Document management**.
+  - If required, you can also select any additional appendices or figure files.
+- Leave notes for the copyeditor.
+- Set a due date.
 
-2.  Select Files  
-    2.1 Select files will list manuscript files from the review stage
-    including any new files uploaded as part of the revision process.
-    2.2 If the file you want is not here, go back to the Copyediting
-    screen and use Document Management to upload it.
+Once you have clicked **Add Copyeditor**, you will be directed to the notification page where you can email the copyeditor if you wish, or skip if you don't.
 
-3.  Set Options  
-    3.1 A notes field is available for you brief the copyeditor. 3.2 A
-    due date field with date selector allows you to set the date this
-    assignment is needed by.
 
-4.  Notify the Copyeditor  
-    4.1 Once you have clicked *Add Copyeditor* you will be directed to
-    the Notification page where you can email the copyeditor if you
-    whish, or skip if you don't.
+![]()
 
-## Managing Copyediting Assignments
+   
+> [!NOTE]
+> If a copyeditor already has an active copyediting task for this article, they will not appear in the list; you should first close that task if you wish to assign them again.
+    
 
-You can make as many copyediting assignments as you like and track them
-from the copyediting screen.
-
-<!-- ![Janeway's Copyediting screen with an assignment](../nstatic/copyediting-assigned.png) -->
-
-After an assignment has been made the copyeditor will be able to login
-to the system to do their work. Before the task is accepted you have the
-opportunity to edit the notes and due date or delete the assignment,
-once the copyeditor has accepted the task these options are removed and
-replaced with a *Review* button. The *Action Log* will also updated with
-relevant dates like *Copyeditor accepted the request*.
 
 ## Review Copyediting
 
