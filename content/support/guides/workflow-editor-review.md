@@ -8,13 +8,15 @@ Additionally, there is also information available on configuring the peer review
 
 ## Setting up a review
 
-The first step to starting peer review is to select the file(s) to review by clicking on *Add files*. You will be able to either select a file or upload a new file. If you are using anonymous peer review, you may need to check the uploaded manuscript for identifying information and reupload a new file. All reviewers for a given review round can access the files selected.
+If this is the first round of peer review, the first step to starting peer review is to select the file(s) to review by clicking on **Add files**. You will be able to either select a file or upload a new file. If you are using anonymous peer review, you may need to check the uploaded manuscript for identifying information and reupload a new file. All reviewers for a given review round can access the files selected.
+
+If this is not the first round of review, you will need to open a new review round by clicking on **⊕ New review round**
 
 After the appropriate files have been selected, you can add the reviewers. You can either select a reviewer from the list presented to you, select an existing user who does not yet have the reviewer role (**Enrol existing user**) or invite a new reviewer who does not yet have an account (**Add new reviewer**).
 
 ![]()
 
-When assigning the reviewer, you can also select the review form, review type (open, single or double anonymous) and set the due date. You can set default settings for these in review settings <! --missing hyperlink --> to [limit needing to customise every time]. Once you have selected a reviewer and are happy with the review settings, click **Add reviewer** to confirm. You will then be shown the outgoing email on the next page, where you can edit the outgoing email to the reviewer or select the option to skip sending this email.
+When assigning the reviewer, you can also select the review form, review type (open, single or double anonymous) and set the due date. You can set default settings for these in review settings <! --missing hyperlink --> to minimise the customisation needed here. Once you have selected a reviewer and are happy with the review settings, click **Add reviewer** to confirm. You will then be shown the outgoing email on the next page, where you can edit the outgoing email to the reviewer or select the option to skip sending this email.
 
 Once the reviewer has been assigned, they can access the system to accept or decline the review, and (if accepted) do the review.
 
@@ -22,22 +24,22 @@ Once the reviewer has been assigned, they can access the system to accept or dec
 > We recommend turning on one-click peer review <!-- missing hyperlink --> which allows reviewers to complete the review without creating an account. 
 
 ## Managing a review
-Once a review has been added to a round, it will be listed on the review page. The initial stage of any review is "Awaiting acknowledgement" - this means the review has not yet responded to the review invitation.
+Once a review has been added to a round, it will be listed on the review page. The initial stage of any review is 'Awaiting acknowledgement' - this means the review has not yet responded to the review invitation.
 
 ![]()
 
 Once a review has been requested, you can do one of the following:
 
-1. View the review (though no meaningful information will be available when the review hasn’t been completed) by clicking on the **View** button.
+1. View the review (though no meaningful information will be available when the review hasn’t been completed) by clicking **View**.
 
 After clicking on the dropdown button ⏷ , the following options will also become available:
 
-2. If the reviewer mistakenly withdraws or declines the review, you can click the **Reset** option to return it to ‘Awaiting Acknowledgement’.
+2. If the reviewer mistakenly withdraws or declines the review, you can click the **Reset** option to return it to 'Awaiting Acknowledgement'.
 3. Edit the review settings (due date, review type, review form)..
 4. Rate the reviewer. The reviewers’ average ratings will be visible when selecting them for review.
 5. Withdraw the review.
 6. Delete the review.
-7. If you have admin permissions, you can edit the review details in Admin. 
+7. If you have admin permissions, you can edit the review details in the admin interface. 
 
 ## Completing a round
 
@@ -53,8 +55,8 @@ Once a review is complete, editors can share it with the author(s). They are una
 
 There are two ways reviews can be made available:
 
-Individually, by clicking on **View**, then toggling the review visibility switch and then pressing **Save**.
-‘In bulk’ when making a decision, after clicking on **Make a decision**. On this screen (for more information, see Decision helper <!-- missing hyperlink -->), you will see all completed reviews in a column with a toggle detailing whether the review is visible to the author.
+* Individually, by clicking on **View**, then toggling the review visibility switch and then pressing **Save**.
+* 'In bulk' when making a decision, after clicking on **Make a decision**. On this screen (for more information, see Decision helper <!-- missing hyperlink -->), you will see all completed reviews in a column with a toggle detailing whether the review is visible to the author.
 
 #### Controlling individual review answers
 In addition to making the overall review available for authors to read, you can also control the individual form answers. This option is available on the individual review pages, under **Answer visibility**.
@@ -75,21 +77,27 @@ If you are ready to make a decision after a round of review, you can click on **
 
 If enabled:
 - Draft a decision
-    - Allows Section editors to draft one of the above decisions for approval by an Editor.
+    - Allows section editors to draft one of the above decisions for approval by an Editor.
 - Share peer reviews
     - Allows an editor to email all of the reviewers who participated in the review of an article and share a link allowing them to read all of the review reports. 
 
 > [!NOTE]
-> This setting must first be enabled before the option will be displayed, see Review settings. <!-- missing hyperlinks --> 
-
+> This setting must first be enabled before the option will be displayed, see Review settings for more information. <!-- missing hyperlinks --> 
 
 ## Request revisions
-Requesting revisions will allow you to ask the author to make changes to the manuscript. 
+Requesting revisions will allow you to ask the author to make changes to the manuscript. You can request revisions from the **Decision helper** page and selecting **Request revisions**, as described in the preceding section.
 
 > [!TIP]
-> Before requesting revisions, make sure you have marked reviews as available to the author. The Request Revisions page will warn you if you have not done this for a given review.
+> Before requesting revisions, make sure you have marked reviews as available to the author. Janeway will warn you if you have not done this for a given review.
+
+Once you have chosen to request revisions, you will be taken to a page where you can set the due date for the review, specify whether these are major or minor revisions, and provide any further information to the author. On the next screen, you can edit the email that will be sent to the author or skip sending it.
+
+Once an author has completed the revisions, you will be notified, and you can find their revised manuscript, cover letter to the editor and cover letter to the reviewers under **Revision requests** and by clicking **View**.
+
+If required, you can now either accept the article and move it to copyediting or open another round of review.
 
 ## Sharing reviews amongst reviewers
+You may wish to share completed peer reviews amongst reviewers. For information on how to set this up and complete this process, see the guidance provided here.
 <!-- link to review sharing information. Missing hyperlink -->
 
 ### Deleting a review round
@@ -104,4 +112,4 @@ To complete the Review stage, you can either:
 - Accept the article and move it into the next stage.
 - Decline the article and remove it from the publishing workflow.
 
-If using the standard workflow, the stage after Review is Copyediting.
+If using the standard workflow, the stage after **Review** is **Copyediting**.
