@@ -27,7 +27,7 @@ It is also important to ensure that the licence provided in the metadata matches
 Once you have checked the metadata, check the **Mark as complete** box to move on to the next step. 
 
 ## Set the issue
-Setting the issue is where you can assign the article to its appropriate issue(s), or check it is set to the correct issue if it was already assigned. Click **Add to issue** to assign the article to an existing issue; you can select more than one issue if needed. You can create a new issue under **Create new issue** if the issue does not yet exist; if you do make sure to click **Add issue** before closing the window.
+Setting the issue is where you can assign the article to its appropriate issue(s), or check it is set to the correct issue if it was already assigned. Click **Add to issue** to assign the article to an existing issue; you can select more than one issue if needed. You can create a new issue under **Create new issue** if the issue does not yet exist; if you do this, click **Add issue** before closing the window.
 
 Check the **Mark as complete** once you are done.
 
@@ -57,47 +57,30 @@ You can set a publication date in the future or click **Now** to publish the art
 
 Check the **Mark as complete** box to move on to the next step.
 
-## Select Article Image
+## Select the article image 
+Upload an image (JPG, PNG or GIF formats are accepted; do not use PDFs) in the pop-up window. Rectangular or landscape images work best, as this image will usually sit at the top of an article.
 
-Upload an image (JPG, PNG or GIF formats are accepted – **NOT PDFs**) in
-the pop up window. Rectangular or landscape images work best, as this
-image will usually sit at the top of an article.
-
-> [!TIP]
-> You can source many free-to-use images from Unsplash.com. Aim to choose
-eye-catching images that are relevant to the article. If you are
-sourcing images from elsewhere, be aware of any copyright restrictions
-and only use images that you are permitted to reproduce.
-
-Once you have completed the steps in Pre Publication and have set a date
-and time for an article to be published, go into ‘Edit Article Images’
-to select a thumbnail image (which can be the same image used for the
-article banner).
+You can also set an article thumbnail through the Article image manager, which is accessible through the Manager dashboard or the Article archive page. More information on managing article images is available here. <!-- missing hyperlink -->
 
 > [!TIP]
-> As thumbnail images display at the same width to height ratio as they
-are uploaded, you may want to use an image editor to crop your chosen
-thumbnail image into a square shape, with the same height and width, for
-consistency.
+> You can source many free-to-use images from Unsplash.com. If you are sourcing images from elsewhere, be aware of any copyright restrictions and only use images that you are permitted to reproduce.
 
-Check the ‘Mark as Complete’ box to move onto the next step.
+Check the **Mark as Complete** box to move onto the next step.
 
-## 7. Notify the Author of Publication
+## Send the publication notifications
+The last step before publishing the article is setting the publication notifications. This is an optional step that allows you to notify authors, co-authors, section editors or others you may wish to notify of publication. You can add people in either the CC or BCC fields.
+You can also amend the subject line, email body, and add attachments. 
 
-The pop up window generates an email template which enables you to
-notify the author, section editors and copyeditors that the article has
-been or will shortly be published. You may amend and send the template
-email to notify the author accordingly. The dates/times that you see
-here correspond either to the timezone set in your user profile, or the
-default timezone (UTC).
+The dates/times you see in the email correspond to the timezone set in your user profile or the default timezone (UTC) if none has been set. 
 
-Check the ‘Mark as Complete’ box to move onto the next step.
+Check the **Mark as Complete** box to move on to the next step. 
 
-Now click ‘Publish this Article’ at the top of the right hand column.
-Your article has now been published, or will be ready to publish at the
-time and date previously set. When the article goes live, always check
-that the article is displaying correctly on the homepage, on the
-Articles page and in its XML/HTML and PDF formats.
+## Publishing the article
+Once you have completed all the steps, you are ready to publish the article. The **Publish this article** button is located at the top of the page, on the right-hand side. Any remaining warnings, including options to address them, will accompany it.
 
-*The publishing workflow is now complete – congratulations on your
-finished article!*
+> [!NOTE]
+> The warning regarding whether an article is marked as peer reviewed will always remain. This allows editors to double-check this and easily adjust it, if needed.
+
+Once the **Publish this article** has been clicked, the article is now scheduled to publish at the specified time. Once an article is live, you can see it on the Articles page and you may wish to check if all files display correctly.
+
+The publishing workflow is now complete – congratulations on your finished article!
