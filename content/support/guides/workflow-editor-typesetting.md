@@ -39,23 +39,9 @@ Until the images are uploaded and matched to the galley, Janeway will display a 
 > Do not use this for supplementary files. See Supplementary files for more information.<!-- missing hyperlink -->
 
 ## Generating typeset files with Janeway
-Janeway provides a
-    plugin system that allows developers to write integration tools for
-    the typesetting process. One example is the [Pandoc
-    Plugin](https://github.com/BirkbeckCTP/pandoc). which can generate
-    an HTML typeset file from a MS Word document. If you are interested
-    on installing this tool others of this kind, check what is available
-    with your site manager.
+Janeway also offers the option to convert manuscript files using the [Pandoc plugin](https://github.com/BirkbeckCTP/pandoc), which can generate HTML galleys from a MS Word document. 
 
-![Detail of the contextual menu for generating typeset files
-with plugins](../nstatic/typesetting/typesetting-convert-file.png)
-
-> [!TIP]
-> The first option is always 'Convert', which will make the current file
-available as a typeset file to readers. This feature is useful when you
-want to make the original manuscript file available for download to the
-readers as it is (e.g.: Allow the readers to read the original
-manuscript as a .docx or similar)
+If you are interested in using the Pandoc plugin, contact your System administrator (What is a system administrator? <!-- missing hyperlink -->).
 
 3.  Delegate the task to a Typesetter: If your journal uses either a
     dedicated member of staff or a third party service for the
