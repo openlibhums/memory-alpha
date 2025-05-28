@@ -1,94 +1,45 @@
-title: Editor guide - typesetting
-
+title: Editor guide - typesetting 
 # Editor guide - typesetting
 
-Usually typeset files include but are not limited to:
+This stage covers typesetting and proofreading of typeset files.
 
-> - A PDF file
-> - An HTML file
-> - An XML file such as JATS-XML (Janeway can render JATS-XML files on
->   the website as HTML with the use of XSLT)
+The typesetting overview screen shows all articles currently in typesetting with their status
+You can **Claim** an article to indicate who is managing its typesetting (this doesn't restrict other editors' access). Use the filter in the top-right corner to show only **My assignments**.
 
-![Detail of a published article, showing the option to download the Tyepset files](../nstatic/typesetting/article-files-download.png)
+This guide will outline three types of typesetting workflows:
+Uploading galleys yourself.
+Converting files within Janeway.
+Working with an external typesetter.
+<!-- missing hyperlinks -->
 
-All the typeset files will be available to be rendered or downloaded
-from the article page once your article is published.
+## Typesetting files
 
-To get started with the typesetting plugin, contact your site
-administrator. You can find more details [on
-GitHub](https://github.com/BirkbeckCTP/typesetting).
+Galleys are typeset files used for proofing and displaying content, such as HTML and JATS-XML files. Typeset files typically include, but are not limited to:
+- PDF files
+- HTML files
+- JATS-XML files
 
-In a future release of Janeway, Typesetting will replace the Production
-and Proofing workflow elements.
+All typeset files will become available for download from the article page once the article is published. Janeway can display JATS XML or HTML galleys and list other formats as downloads.
 
-## The Typeseting plugin dashboard
+## File labels
+When uploading typeset files, Janeway will ask you to set a label. The label will be displayed publicly in the option to download a file as 'Download [label]'. So if you set the label as 'PDF', it will be 'Download PDF'. 
 
-When the typesetting plugin is installed and enabled as part of the
-workflow of a journal, every user will get a typesetting card on their
-dashboard. These card, will show different buttons depending on the
-roles available to the user logged in.
+Labels can also be used to denote the language of a file to readers. For instance, labelling a PDF file as 'PDF (EN)' and another as 'PDF (ES)' will allow readers to download the correct PDF for their language.
 
-- Articles in typesetting (Shown to Editors and Production managers)
-- Typesetting tasks (Shown to Typesetters)
-- Proofing tasks (Shown to all Authors, Editors, and Proofreaders)
+For PDF, XML and HTML files, Janeway can automatically set the label to the file type if left blank. For other filetypes, it will default to ‘OTHER’ if left blank.
 
-![""](../nstatic/typesetting/typesettingcard.png)
+## Manual upload
+If you do not use a typesetter or file conversion through Janeway, you can upload typeset files yourself by clicking **Upload new typeset file** in the **Current galleys** section. Once you have selected a file, you can also mark whether the file should be public upon publication and set its label.
 
-## Articles in Typesetting
+When uploading an HTML or XML file with images, they must be uploaded separately. Images can be uploaded by clicking **Edit galley** and using the upload functions provided, for more information see: Images and figure files <!-- missing hyperlink -->. On this page, you can also replace the galley file, edit its label and upload an accompanying CSS file if the article requires specific styling.
 
-From this view, editors and production managers can see all the articles
-currently on the typesetting stage as well as an overview of their
-status. There is an option to "Claim" an article. It does not have any
-practical effects, other than displaying who is managing the article to
-all the members of staff. This doesn't not restrict access to the other
-editors and production managers in the journal.
+Until the images are uploaded and matched to the galley, Janeway will display a missing image warning.
 
-![""](../nstatic/typesetting/articles-in-typesetting.png)
+> [!CAUTION]
+> Do not use this for supplementary files. See Supplementary files for more information.<!-- missing hyperlink -->
 
-There is also a filter on the top-right-hand corner to display only
-articles that have been previously claimed by you ("My Assignments")
-
-## Typesetting Article (Editor/Production Manager view)
-
-On this page, editors and production managers can control the production
-process of the article, including uploading article files, generating
-typeset files, or creating assignments for Typesetters and/or
-Proofreaders to upload new typeset files of proof typeset files
-respectively
-
-![Manager view of the 'Typesetting Article' page](../nstatic/typesetting/typesetting-article-start.png)
-
-As shown on the image above, there is a small step-by-step guide that
-assumes a user with the Typesetter role will produce the final Typeset
-file. This however, is not the only workflow possible with the
-Typesetting Plugin.
-
-## Generating Typeset Files
-
-The typesetting plugin supports 3 mechanisms for adding typeset files.
-
-1.  Manual Upload: If you produce your typeset files by yourself (e.g.:
-    Generate a PDF from MS word or a specialised tool), scroll down to
-    the 'Current typeset files' section' where you will be able to
-    upload them. When selecting your file, you can also add a custom
-    label. This label will be presented to users in the article page as
-    'Download \<label\>' (e.g 'Download PDF'). Janeway will always set
-    the label automatically for common typeset file types (PDF, XML,
-    HTML...). For unknown file types it will set it as 'OTHER'.
-
-![Manager view of the 'Typesetting Article' page](../nstatic/typesetting/upload-typeset-file.png)
-
-> [!TIP]
-> Labels can be used to denote the language of a file to readers. For
-instance labelling a pdf file as 'PDF (EN') and another as 'PDF (ES)'
-will allow readers to download the correct PDF for their language
-
-> [!TIP]
-> If you are unsure about the label to use, leave it empty. Janeway will
-try to workout the best label for your file and you can edit it later if
-necessary.
-
-2.  Generate a Typeset File with Janeway Tools: Janeway provides a
+## Generating typeset files with Janeway
+Janeway provides a
     plugin system that allows developers to write integration tools for
     the typesetting process. One example is the [Pandoc
     Plugin](https://github.com/BirkbeckCTP/pandoc). which can generate
