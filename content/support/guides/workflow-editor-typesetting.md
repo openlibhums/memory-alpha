@@ -43,72 +43,23 @@ Janeway also offers the option to convert manuscript files using the [Pandoc plu
 
 If you are interested in using the Pandoc plugin, contact your System administrator (What is a system administrator? <!-- missing hyperlink -->).
 
-3.  Delegate the task to a Typesetter: If your journal uses either a
-    dedicated member of staff or a third party service for the
-    generation of the typeset files, you can have them register on your
-    site and enrol them as 'Typesetter' \[TODO: link to roles docs\].
-    Using this workflow will allow you to assign and manage typesetting
-    tasks, handover the files for the authors/editors for proofing...
-    All within the system. In order to assign a typesetter we recommend
-    following these steps
+## Working with a typesetter
 
-3.1 Verify the 'Files for Typesetting':  
-This section will show you all the manuscript files that have been
-created during the workflow, including the original manuscript, files
-for peer-review, copyedited manuscripts etc. You will be able to select
-one of this files as the source file for your typesetter to produce the
-typeset files. You will be able to select one or more of these files to
-be used by our typesetter. If you want to upload a new file at this
-point for the typesetter to use as a base, you can still do so from the
-'Upload File' link on the top-right corner of the panel:
+### Assigning a typesetter
 
-![Detail of the 'Files for Typesetting' section](../nstatic/typesetting/files-for-typesetting.png)
+Click **Add typesetter** to open the typesetter assignment page and start a new typesetting assignment. You can now do the following: 
+1. Select a typesetter.
+2. Select the files you would like this typesetter to work on.
+3. Set a due date.
+4. Add any notes, e.g. what outputs you would like.
+5. Send a notification email to the typesetter (or skip this step).
 
-> [!TIP]
-> Images and other supplementary files are not shown on this panel. They
-can be managed from the 'Document Management' button, under 'Actions'.
-The Document Manager is always available throught the workflow in case
-you want to check, replace or delete any files for the article.
+If no issue has been set yet for this article, you may wish to do this now as typesetters may need this information (especially if working with JATS-XML).
 
-> [!TIP]
-> The typesetter will have access to all the metadata fields for the
-paper, so we recommend checking that you revise the metadata to ensure
-it is production ready. You can do so from the 'Article Metadata' under
-'Actions.'
+There is no limit on the number of typesetters you can assign at one time.
 
-3.2 Assign a Typesetter:  
-From this page, you can now create a task for the typesetter to get
-started with the production of the Typeset Files. At this point, you
-will have to select :
-
-- A Typesetter to work on the article.
-- One or more manuscript files the typesetter should have access to.
-  (They will have access to all the image files)
-- A Due date for the task to be completed by.
-- A Message for your typesetter, describing any details about the file
-  to produce. (They will have access to all of the article metadata)
-
-3.3 Send a notification email:  
-When you complete the previous form, you will be presented with a screen
-to check the notification email. You can tweak the notification before
-it goes out to the typesetter in case you want to add any extra details
-as well as an option to attach any files to the email. There is no need
-to attach any of the article files, they will have access to all the
-files you made available for them in the previous step once they log
-into the system. There is also an option to skip the email notification,
-however we recommend you always send out this notification.
-
-At this point, the task has been created and we can monitor its progress
-from the 'Typesetting Article' page.
-
-![""](../nstatic/typesetting/awaiting-typeseter.png)
-
-It shows details such as the current status of the task, whether or not
-the typesetter has accepted/declined to do the task as well as its due
-date. The 'Review Typesetting' button will, at this point allow you to
-edit any of the details of the assignment such as the files made
-available, the task assignment or the due date, as well as let you
-cancel the task if needed.
+>[!TIP]
+>Typesetters automatically access all images / figure files uploaded by the author and the article metadata. Verify metadata is production-ready via **Actions > View metadata** before assignment.
 
 ## Reviewing the typesetting task
 
@@ -250,23 +201,16 @@ zip archive and place an image (with a name matching those in the file)
 and upload it using the Zip Uploader. Janeway will unzip the archive and
 assign the images based on their name.
 
-### CSS File
+### CSS and XSL files
 
-If a given article requires special styling you can upload a CSS file
-alongside it and Janeway will output it on the article page.
-
-> [!WARNING]
-> The CSS uploaded here should only target elements inside the \<article\>
-block otherwise it could break general styling of the site.
-
-### XSL File
-
-Janeway's XSL Transformation process uses a version controlled XSL
-(Extensible Stylesheet Language) file. When you upload a JATS XML file
-to Janeway it marks the file as using the current XSL file. This means
-that as we make changes to the XSL file it will only affect future files
-uploaded and not any back content.
+CSS File
+If a given article requires special styling you can upload a CSS file alongside it and Janeway will output it on the article page.
 
 > [!WARNING]
-> Changing a XML file's XSL may cause it to render differently. It is only
-recommended that you do this before sending it for Proofreading.
+> The CSS uploaded here should only target elements inside the <article> block otherwise it could break general styling of the site.
+
+XSL File
+Janeway's XSL Transformation process uses a version controlled XSL (Extensible Stylesheet Language) file. When you upload a JATS XML file to Janeway it marks the file as using the current XSL file. This means that as we make changes to the XSL file it will only affect future files uploaded and not any back content.
+
+> [!WARNING]
+> Changing a XML file's XSL may cause it to render differently. It is only recommended that you do this before sending it for proofreading.
