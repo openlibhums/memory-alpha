@@ -61,45 +61,35 @@ There is no limit on the number of typesetters you can assign at one time.
 >[!TIP]
 >Typesetters automatically access all images / figure files uploaded by the author and the article metadata. Verify metadata is production-ready via **Actions > View metadata** before assignment.
 
-## Reviewing the typesetting task
+### Reviewing the typesetting task
+Once the typesetter has completed their task, you will receive an email notification. You can now review the typesetting task and select one of the following three options:
+- Request corrections
+   - If you notice a problem with the typeset files straight away, you can request corrections to the typesetter. See Requesting corrections <!-- missing hyperlink -->
+- Proofing required
+   - Accept the typeset files and record the decision to send the files for proofing.
+- Accept 
+   - If no (further) proofing or corrections are required, you can accept the files and end the typesetting stage.
 
-Once the typesetter has completed their task, you will receive an email
-notification. The link on the email should direct you to the
-'Typesetting Article', where you can hit the review button to check on
-the files provided by the typesetter:
+## Proofing
+This part of typesetting is used to check galley files for any issues before they are published. Files provided by the typesetter are usually sent to the authors, and potentially other editors, for proofreading. Janeway allows you to create a proofing task, where authors and/or editors can be invited to proof the typeset files.
 
-![""](../nstatic/typesetting/review-typesetting.png)
+### Requesting proofreading
+Click **Assign proofreaders** to open a new proofing task. All files listed under **Current galleys** will be made available to proofreaders. You can now do the following:
 
-As an editor or production manager we can now select one out 3 choices  
-- Request Corrections: If we notice a problem with the typeset files
-  straight away, we can requet corrections to the typesetter.
-- Proofing required: Accepts the typeset files and records the decision
-  to send the files for proofing
-- Accept: If no further proofing is required, we can accept the files as
-  they are and end the typesetting stage.
+1. Select the proofreader. 
 
-## Sending a proofreading request
+The list of potential proofreaders is made up of editors, the authors of the paper and any other users with the proofreader role. You can only select one proofreader, but you can add multiple assignments. If you wish to select a user who is not displayed in the list, click **Enrol a proofreader**.
 
-Files provided by the typesetter are usually sent to the authors, and
-potentially other editors, for proofreading. Janeway allows you to
-create a proofing task, where authors and/or editors can be invited to
-proof the typeset files.
+2. Set a due date.
 
-![""](../nstatic/typesetting/assigning-proofreaders.gif)
+3. Provide instructions for the proofreader.
 
-## Reviewing a proofreading request
+4. After completing this, you can optionally email the proofreader with information about their task.
 
-As the author/editors finish the proofing process you can review their
-comments.
+Proofing assignments can still be edited before they are accepted. You will have the option to edit it using the **Actions** drop-down. You can change the galleys, the due date and the note to the proofreader. There is also a **Delete** button that will completely remove the assignment, though information is retained in Janeway's logs.
 
-![""](../nstatic/typesetting/proofreading-review.png)
 
-Depending on the feedback coming from the proofreading, it may be
-necessary to request corrections from the typesetter. In Janeway you can
-request corrections from the typesetter by creating a new 'Typesetting
-round' that initiates the typesetting process for the article with the
-difference that we can now include the feedback from the proofreaders on
-our task
+////
 
 ## Requesting Corrections
 
