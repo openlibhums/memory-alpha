@@ -97,8 +97,18 @@ Once an author has completed the revisions, you will be notified, and you can fi
 If required, you can now either accept the article and move it to copyediting or open another round of review.
 
 ## Sharing reviews amongst reviewers
-You may wish to share completed peer reviews amongst reviewers. For information on how to set this up and complete this process, see the guidance provided here.
-<!-- link to review sharing information. Missing hyperlink -->
+You can share completed peer reviews among reviewers. There are two ways to do this, and both can be set up through the **Review Settings** interface <!-- missing hyperlink -->. Once sharing reviews has been set up, there are two ways in which reviews can be shared.
+
+- After the first round of review.
+
+Once the first round of review is complete, a new option will be present on the **Decision helper** screen to mark the reviews as shareable. It will send an email to the reviewers, providing them with a link to access and view the review content.
+
+![Share review button]()
+
+- Sharing reviews in the second round and beyond
+Reviews from previous rounds can also be automatically shared with reviewers on the current round. When reviewers access the review interface, they will be given the choice to view anonymous reviews completed by their peers. Editors can modify the message to clarify why reviewers can view the reviews through the review settings <!-- missing hyperlink -->.
+
+[How reviewers see shared reviews on the review interface.]()
 
 ### Deleting a review round
 This will delete the current review round in its entirety. It will remove the files, assigned reviewers, and any reviews already completed from the current round.
