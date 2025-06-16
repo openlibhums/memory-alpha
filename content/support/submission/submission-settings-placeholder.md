@@ -1,63 +1,105 @@
-title: Submission settings
+Title: Submission settings
 # Submission settings
 
-The submission settings are accessed through the manager dashboard under ‘Submission.’ 
+The submission settings are accessed through the manager dashboard under **Submission** and clicking **Submission settings**.
+
+
 ![" "](../../support/images/manager-submission-settings.png)
 
-This page contains the following settings, which allow you to configure the submission process:
+**Submission settings** provides access to three general blocks of settings:
 
-- Disable journal submission
-  - If checked, this setting closes submission for the journal.
+- Submission control
+  - This block controls settings relating to whether submission is turned on or off.
 
-- Submission intro text
-  - Introductory text for the head of the Submission page.
+- Editors notified on submission
+  - This controls who is notified of new submissions.
 
-- Copyright notice
-  - Copyright information for authors usually includes information on licenses used for publishing and rights retained.
+- System settings
+  - This controls a small set of settings related to authors and abstracts.
 
-- Submission checklist
-  - Usually, a numeric list of items an author should check before submitting the paper.
+- Submission page text
+  - This controls the text that makes up the submission page - e.g. focus and scope, copyright notice, acceptance criteria, etc.
 
-- Acceptance criteria
-  - The criteria the journal uses to evaluate your paper.
+- Submission files
+   - This controls settings around the manuscript files. 
 
-- Publication fees
-  - Any publication fees associated with submitting the paper.
+<!-- missing hyperlinks -->
 
-- Editors for notification
-  - This allows you to select which editors are notified of new papers being submitted.
+## Submission control
+
+The settings found here are:
+
+- **Disable journal submission** and **Disabled submission message**
+   - Checking this box closes submission for the journal. Unchecking it reopens submissions. The textbox allows you to display a message to users when submissions are disabled.
+
+You can also limit access to submission by requiring users to create an account before being allowed to submit an article. When a user without an account attempts to submit, they will be directed to a page where they can create a new account.
+
+- Limit access to submission and submission access request text
+   - Checking this box limits access to submission to registered users. The textbox allows you to display a message to users requesting submission access.
+
+- Submission access request contact
+   - This sets the address to whom submission access requests should be sent.
+
+## Editors notified on submission
+- Editors notified on submission
+   - This allows you to select which – if any – editors are notified of new papers being submitted.
+
+- Hide assigned editor details
+   - This prevents the assigned editor from being visible to the author. This does not prevent editors from identifying themselves when, for example, rejecting an article if using an account with their name associated or through email signatures.
+
+## System settings
+
+- Abstracts are required
+   - If this box is checked, all submissions will require an abstract.
+
+- Enable correspondence authors
+   - If this is checked, an author can be marked as the correspondence author.
 
 - User automatically author
-  - If enabled, Janeway assumes the user submitting the paper is its author. They can be removed as the author if required.
+   - If this is enabled, Janeway assumes the user submitting the paper is its author and automatically fills in their details. They can be removed as the author if required.
 
-- Competing interests
-  - This setting is deprecated in favour of the Submission Configurator version. <!-- should this be kept here or do I need to link to the page for it. check on JW how it displays -->
+- Non-specialist summary
+   - If enabled, submitters will be asked to provide a brief, non-technical lay summary of their paper.
 
-- Submission summary
-  - This setting will be moved to the submission configurator. If enabled, this asks for a lay summary of the paper to be submitted.
+- Copyright submission label
+   - This label appears on the **Submission** page and this setting allows you to customise the copyright text. For example: "Author(s) agree to the copyright notice, which will apply to this submission if accepted."
 
-- Accepts preprint submissions
-  - If preprints are enabled and this setting is enabled, an author can submit a preprint directly from the preprint service into the journal for evaluation.
-    
+## Submission page text
+These settings make up the **Submission** page as well as the **Submission agreement** that authors accept. The submission text can also be edited through **Submission page items** <!-- Missing hyperlink -->.
+
+- Submission page text
+   - This sets the introductory text displayed at the head of the **Submission** page.
+
 - Focus and scope
-  - The journal's Focus and Scope that are displayed on the Submissions page.
+   - Here you can outline the focus and scope of your journal.
+
+- Submission checklist
+   - This is typically a numerical, step-by-step list of things that an author should check or do before submitting their paper. You can make this list as detailed as you need it to be. 
+
+- Copyright notice
+   - This is where you can provide the information on copyright, licenses used for publishing, and rights retained.
+
+- Publication fees
+   - If there are any fees associated with submitting or publishing the paper, these should be outlined here. If there are no publication fees for an author to pay, you can also use this space to say so.
 
 - Publication cycle
-  - The journal's publication schedule, e.g. yearly or continuous, displayed on the Submissions page.
-    
-- Peer review info
-  - Information on how peer review is conducted, displayed on the Submissions page.
+   - This is where you describe the journal’s publication schedule, such as whether you publish continuously or at specific points and whether submissions are open only at specific points.
 
+- Peer review information
+   - This section allows you to provide information on how peer review is conducted and the steps involved.
+
+- Acceptance criteria
+   - Here is where you outline the criteria which your journal uses to evaluate its papers.
+
+## Submission files
 - File submission guidelines
-  - General instructions for authors when they get to the file upload stage.
+  - This describes what files you expect at the time of submission.
 
 - Manuscript file submission instructions
-  - Specific instructions for manuscripts, appearing on the manuscript upload pop-up.
+   - Here, you can provide specific instructions for uploading and submitting manuscripts, which will appear on the manuscript upload pop-up.
 
 - Limit manuscript types
-  - If enabled, only DOC, DOCX, RTF and ODT files will be accepted as manuscript files during submission.
+   - If you enable this setting, only DOC, DOCX, RTF and ODT files will be accepted as manuscript files during submission.
 
 - Data and figure file submission instructions
-  - Specific instructions for figures and data files, appearing on the figure and data upload pop-up.
-
-
+   - Here, you can provide specific instructions for uploading and submitting figures and data files, which will appear on the figure and data upload pop-up.
