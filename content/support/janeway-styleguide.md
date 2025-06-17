@@ -191,6 +191,7 @@ Examples of words to avoid:
 ## Language and grammar
 <details>
  <summary>Language and grammar guidance</summary>
+ 
 ### Active voice
 See: [Active voice](https://developers.google.com/style/voice)
 
@@ -247,6 +248,7 @@ If you want to tell the reader to do something, try to mention the circumstance,
 ## Punctuation 
 <details>
  <summary> Punctuation guidance</summary>
+ 
 ### Colons and Semicolons
 See: [Colons](https://developers.google.com/style/colons) and [semicolons](https://developers.google.com/style/semicolons)
 
