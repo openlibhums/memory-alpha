@@ -26,6 +26,7 @@ title: Janeway style guide
 <details open>
 <summary> Using this guide </summary>
 Use the following resources, including this guide, in this order:
+
 1. **Project-specific.** Specific projects may have their own style guides, outlining exceptions to this guide or terms that are relevant only to your project (such as marketing materials).
 
 2. **This style guide.** Where project-specific style guides do not provide guidance, follow this style guide.
@@ -92,6 +93,7 @@ This section provides a brief overview of the content of the Google styleguide, 
 * [Diagrams, figures, and other images guide](https://developers.google.com/style/images)
 
  ## Content
+ 
 <details>
 <summary> Content guidance </summary>
 
@@ -189,6 +191,7 @@ Examples of words to avoid:
 </details>
 
 ## Language and grammar
+
 <details>
  <summary>Language and grammar guidance</summary>
  
@@ -246,6 +249,7 @@ If you want to tell the reader to do something, try to mention the circumstance,
 </details>
 
 ## Punctuation 
+
 <details>
  <summary> Punctuation guidance</summary>
  
@@ -305,9 +309,6 @@ At a glance:
 
 ## Formatting and organisation
 
-<details>
- <summary> Formatting and organisation guidance </summary>
-
 ### Numbers
 See:
 
@@ -327,26 +328,28 @@ Janeway-specific:
 The following notices are available in GitHub markdown:
 
 >[!NOTE]
-> Note.
+>Note.
+
 * An ordinary aside or tip. Provides information that is useful but not critical to the reader. For example, "Generating excessive amounts of traffic to external systems can resemble a denial-of-service attack."
 
 >[!CAUTION]
-> Caution.
+>Caution.
+
 * Tells the reader to proceed carefully. For example, "We don't recommend using a broad `0.0.0.0/0` range that would allow all traffic."
 
 >[!WARNING]
-> Warning.
+>Warning.
+
 * Stronger than a __caution__ notice; it means "Don't do this" or that this step might be irreversible, such as leading to permanent data loss. If readers don't heed the warning, they can lose work or open themselves to a security breach. For example, "Don't put a password on the command line; doing so is a security risk."
 
 >[!IMPORTANT]
-> Important.
+>Important.
+
 * Can be used to highlight essential information. This information must also be in the main body of the text.
 
 >[!TIP]
-> TIP.
+>TIP.
 * Provides helpful information that has a practical meaning but may not be obvious to users.
-
-</details>
 
 ## Computer interfaces
 
