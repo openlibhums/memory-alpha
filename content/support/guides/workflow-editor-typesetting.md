@@ -42,7 +42,7 @@ When uploading an HTML or XML file with images, they must be uploaded separately
 > Do not use this for supplementary files. See Supplementary files for more information.<!-- missing hyperlink -->
 
 ## Generating typeset files with Janeway
-Janeway also offers the option to convert manuscript files using the [Pandoc plugin](https://github.com/BirkbeckCTP/pandoc), which can generate HTML galleys from a MS Word document. For a full guide on how to manage typesetting with Pandoc, see Typesetting with Pandoc <!-- missing hyperlink →.
+Janeway also offers the option to convert manuscript files using the [Pandoc plugin](https://github.com/BirkbeckCTP/pandoc), which can generate HTML galleys from a MS Word document. For a full guide on how to manage typesetting with Pandoc, see Typesetting with Pandoc <!-- missing hyperlink -->.
 
 If you are interested in using the Pandoc plugin, contact your System administrator (What is a system administrator? <!-- missing hyperlink -->).
 
