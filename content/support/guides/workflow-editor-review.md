@@ -1,123 +1,133 @@
 title: Editor guide -  review
 # Editor guide -  review
 
-The review workflow may take various shapes depending on the type of review a journal uses. This guide will cover the default workflow, which applies to single anonymous, double anonymous and the core of the open and triple anonymous workflows. 
+The review workflow may take various shapes depending on the type of review a journal uses. This workflow allows you to assign articles to reviewers, gather the reviews and communicate a decision about the article to the author.
 
-There are additional guides for triple anonymous peer review and sharing reviews and author responses. 
-Additionally, there is also information available on configuring the peer review process and setting up review forms. <!-- missing hyperlinks across the board -->
+This guide will cover the default review workflow, which applies to single anonymous, double anonymous, and most of the open and triple anonymous workflows. There are additional guides for triple anonymous peer review and sharing reviews and author responses. Additionally, there is information available on configuring the peer review process and setting up review forms. <!-- missing hyperlinks across the board -->
 
 ## Setting up a review
 
-If this is the first round of peer review, the first step to starting peer review is to select the file(s) to review by clicking on **Add files**. You will be able to either select a file or upload a new file. If you are using anonymous peer review, you may need to check the uploaded manuscript for identifying information and reupload a new file. All reviewers for a given review round can access the files selected.
+The first step to start peer review is to select the file(s) to review by clicking on **Add files**. You will be able to either select a file or upload a new file. If you are using anonymous peer review, you may need to check the uploaded manuscript for identifying information and reupload a new file. All reviewers for a given review round can access the files selected.
 
-If this is not the first round of review, you will need to open a new review round by clicking on **⊕ New review round**
+If this is not the first round of review, you will need to open a new review round by clicking on **⊕New review round**
 
-After the appropriate files have been selected, you can add the reviewers. You can either select a reviewer from the list presented to you, select an existing user who does not yet have the reviewer role (**Enrol existing user**) or invite a new reviewer who does not yet have an account (**Add new reviewer**).
+After the appropriate files have been selected, you can add the reviewers. You can either select a reviewer from the list presented to you, select an existing user who does not yet have the reviewer role (**Enrol existing user**) or invite a new reviewer who does not yet have an account (**Add new reviewer**). These buttons can be found in the top-right corner of the screen, in blue text.
 
 ![]()
 
-When assigning the reviewer, you can also select the review form, review type (open, single or double anonymous) and set the due date. You can set default settings for these in review settings <! --missing hyperlink --> to minimise the customisation needed here. Once you have selected a reviewer and are happy with the review settings, click **Add reviewer** to confirm. You will then be shown the outgoing email on the next page, where you can edit the outgoing email to the reviewer or select the option to skip sending this email.
+When assigning the reviewer, you can also select the review form, review type (open, single or double anonymous) and set the due date. You can set defaults for these in review settings <!--missing hyperlink --> to minimise the customisation needed here. Once you have selected a reviewer and are happy with the review settings, click **Add reviewer** to confirm. You will then be shown the outgoing email on the next page, which  you can edit or select the option to skip sending this email.
 
 Once the reviewer has been assigned, they can access the system to accept or decline the review, and (if accepted) do the review.
+
+You can see how this appears to reviewers and what the review process looks like for them in the reviewer guide <!-- missing hyperlink -->.
 
 > [!NOTE]
 > We recommend turning on one-click peer review <!-- missing hyperlink --> which allows reviewers to complete the review without creating an account. 
 
-## Managing a review
-Once a review has been added to a round, it will be listed on the review page. The initial stage of any review is 'Awaiting acknowledgement' - this means the review has not yet responded to the review invitation.
+### Managing a review
+Once a review has been requested, it will be listed on the review page. The initial stage of any review is "Awaiting acknowledgement" - this means the review has not yet responded to the review invitation.
 
 ![]()
 
 Once a review has been requested, you can do one of the following:
 
-1. View the review (though no meaningful information will be available when the review hasn’t been completed) by clicking **View**.
+- See the review by clicking on the **View** button (though no meaningful information will be available until the review is completed).
 
-After clicking on the dropdown button ⏷ , the following options will also become available:
+Or by clicking on the dropdown button ⏷ , the following options will also become available:
 
-2. If the reviewer mistakenly withdraws or declines the review, you can click the **Reset** option to return it to 'Awaiting Acknowledgement'.
-3. Edit the review settings (due date, review type, review form)..
-4. Rate the reviewer. The reviewers’ average ratings will be visible when selecting them for review.
-5. Withdraw the review.
-6. Delete the review.
-7. If you have admin permissions, you can edit the review details in the admin interface. 
+- You can click **Reset** to return the review status to “Awaiting acknowledgement” if the reviewer mistakenly withdraws or declines the review.
+- Edit the review settings (due date, review type, review form).
+- Rate the reviewer. The reviewers’ average ratings will be visible when selecting them for review.
+- Withdraw the review.
+- Delete the review.
+- If you have admin permissions, you can edit the review details in Admin. 
 
 ## Completing a round
 
 ### Viewing and editing reviews
-Once a reviewer has completed their review, you can view it using the **View** button. On the **View review**, you can see the reviewer’s feedback, comments to you as the editor and you will have the option to edit the review if needed. When an author reads the review, they will see only your edited version, not the reviewer's original version. You can reset the answer at any given time. 
+Once a reviewer has completed their review, you can view it using the **View** button. You can see the reviewer’s feedback, comments to you as the editor, and you will have the option to edit the review if needed. When an author reads the review, they will see only your edited version, not the reviewer's original version. You can reset the feedback to its original, unedited version at any time. 
 
 > [!NOTE] 
 > Janeway will retain a copy of the original review and this will remain visible to editors when opening the review.
 
 ### Sharing reviews with authors
 
-Once a review is complete, editors can share it with the author(s). They are unavailable to authors by default, until made available by the editor. If the review has a file, you will have the option to make the file available to the author as well. 
+Once a review is complete, editors can share it with the author(s). They are unavailable to authors by default. If the review includes a file, you will have the option to make it available to the author as well.
+
+You can see what the author sees in the review section of the author guide. <!-- missing hyperlink -->
 
 There are two ways reviews can be made available:
 
-* Individually, by clicking on **View**, then toggling the review visibility switch and then pressing **Save**.
-* 'In bulk' when making a decision, after clicking on **Make a decision**. On this screen (for more information, see Decision helper <!-- missing hyperlink -->), you will see all completed reviews in a column with a toggle detailing whether the review is visible to the author.
+- Individually, by clicking on **View**, then toggling the review visibility switch and then pressing **Save**.
+- ‘In bulk’ when making a decision, after clicking on **Make a decision** (for more information, see Decision helper <!-- missing hyperlink -->). First, you will see all completed reviews in a column with a toggle detailing whether the review is visible to the author.
 
 #### Controlling individual review answers
-In addition to making the overall review available for authors to read, you can also control the individual form answers. This option is available on the individual review pages, under **Answer visibility**.
+In addition to making the overall review available for authors to read, you can control the individual answers to review questions. This option is available on the individual review pages, under **Answer visibility**.
 
-Toggling the sections on or off will determine whether the author can see answers to specific review questions when they look at the review. The answers to the corresponding toggles are displayed on this page as well. No answers will be visible until the top toggle, which enables the author to access the review, has been switched on. The default visibility of each review question can be configured through the review forms (see review settings <!-- missing hyperlink -->).
+![]()
+
+Toggling the sections on or off will determine whether the author can see answers to specific review questions when they look at the review. No answers will be visible until the top toggle, which enables the author to access the review, has been switched on. The default visibility of each review question can be configured through the review forms (see review settings <!-- missing hyperlink -->).
 
 ## Making a review decision
-If you are ready to make a decision after a round of review, you can click on **Make a decision** to open the **Decision helper** page. On this page, you will see a summary of reviewer recommendations, their review form answers and a list of uncompleted reviews. In addition to this, the following buttons are available:
+If you are ready to make a decision after a round of review, you can click on **Make a decision** to open the **Decision helper** page. On this page, you will see a summary of reviewer recommendations, their review form answers and a list of uncompleted reviews. 
+
+![]()
+In addition to this, the following buttons are available:
 
 - **Accept article**
     - Accepts the article, allows you to email the author and moves the article into the next stage.
-- New review round
-    - This option adds a new review round. Any open review assignments on the current round are withdrawn, and a new round is set up. This process is often done after round 1 and the author has completed revisions. You can still see previous rounds through tab at the top of the page.
-- Reject article
+- **New review round**
+    - Adds a new review round. Any open review assignments on the current round are withdrawn, and a new round is set up. This process is often done after round 1 and the author has completed revisions. You can still see previous rounds through the tab at the top of the page.
+- **Reject article**
     - Rejects the article, removes it from the workflow and allows you to email the author.
-- Request revisions
-    - Allows you to request the author to revise their paper.
+- **Request revisions**
+    - Allows you to request the author revises their paper.
 
 If enabled:
-- Draft a decision
-    - Allows section editors to draft one of the above decisions for approval by an Editor.
-- Share peer reviews
-    - Allows an editor to email all of the reviewers who participated in the review of an article and share a link allowing them to read all of the review reports. 
+- **Draft a decision**
+    - Allows section editors to draft one of the above decisions for approval by an editor.
+- **Share peer reviews**
+    - Allows an editor to email all of the reviewers who participated in the review of an article and share a link to all of the review reports. 
 
 > [!NOTE]
-> This setting must first be enabled before the option will be displayed, see Review settings for more information. <!-- missing hyperlinks --> 
+> This setting must first be enabled before the option will be displayed, see Review settings. <!- - missing hyperlinks - -> 
 
 ## Request revisions
-Requesting revisions will allow you to ask the author to make changes to the manuscript. You can request revisions from the **Decision helper** page and selecting **Request revisions**, as described in the preceding section.
+Requesting revisions will allow you to ask the author to make changes to the manuscript. You can request revisions from the **Decision helper** page by selecting **Request revisions**, as described in the preceding section.
 
 > [!TIP]
 > Before requesting revisions, make sure you have marked reviews as available to the author. Janeway will warn you if you have not done this for a given review.
 
 Once you have chosen to request revisions, you will be taken to a page where you can set the due date for the review, specify whether these are major or minor revisions, and provide any further information to the author. On the next screen, you can edit the email that will be sent to the author or skip sending it.
 
-Once an author has completed the revisions, you will be notified, and you can find their revised manuscript, cover letter to the editor and cover letter to the reviewers under **Revision requests** and by clicking **View**.
+Once an author has completed the revisions, you will be notified, and you can find their revised manuscript, cover letter to the editor and cover letter to the reviewers under **Revision requests** by clicking **View**.
 
-If required, you can now either accept the article and move it to copyediting or open another round of review.
+![]()
+
+You can now either accept the article and move it to copyediting or open another round of review.
 
 ## Sharing reviews amongst reviewers
-You can share completed peer reviews among reviewers. There are two ways to do this, and both can be set up through the **Review Settings** interface <!-- missing hyperlink -->. Once sharing reviews has been set up, there are two ways in which reviews can be shared.
+You can share completed peer reviews among reviewers. This can be set up through the **Review settings** interface <!-- missing hyperlink -->. Once sharing reviews has been set up, there are two ways in which reviews can be shared.
 
 - After the first round of review.
 
 Once the first round of review is complete, a new option will be present on the **Decision helper** screen to mark the reviews as shareable. It will send an email to the reviewers, providing them with a link to access and view the review content.
 
-![Share review button]()
+[]()
 
 - Sharing reviews in the second round and beyond
-Reviews from previous rounds can also be automatically shared with reviewers on the current round. When reviewers access the review interface, they will be given the choice to view anonymous reviews completed by their peers. Editors can modify the message to clarify why reviewers can view the reviews through the review settings <!-- missing hyperlink -->.
 
-[How reviewers see shared reviews on the review interface.]()
+Reviews from previous rounds can also be automatically shared with reviewers on the current round. When reviewers access the review interface, they will be given the choice to view anonymous reviews completed by their peers. Editors can modify the message to clarify why reviewers can view the reviews through the review settings <!-- missing hyperlink -->.
+[]()
 
 ### Deleting a review round
 This will delete the current review round in its entirety. It will remove the files, assigned reviewers, and any reviews already completed from the current round.
 
 > [!WARNING]
-> There is no way to recover a review assignment once deleted, so only use this option if you wish to remove it entirely. In many cases, it may be better to add a new round, which will close all open review assignments.
+> There is no way to recover a review assignment once deleted. In many cases, it may be better to add a new round, which will close all open review assignments.
 
 ## Finishing up
-To complete the Review stage, you can either:
+To complete the **Review** stage, you can either:
 
 - Accept the article and move it into the next stage.
 - Decline the article and remove it from the publishing workflow.
