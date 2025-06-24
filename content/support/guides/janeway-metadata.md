@@ -10,19 +10,20 @@ title: Metadata on Janeway
 - Article licence manager
 
 ### Author metadata
-Author records include name, email, ORCID, biography, ROR-linked affiliations, and CRediT records if the journal chooses to use the CRediT taxonomy. They are created by authors during the article submission phase, and they remain with the article permanently. Editors can change them throughout the workflow stages as needed.
+
+Author records include name, email, biography, affiliations, and optional contributor roles, including structured persistent identifiers for people, organizations, and roles. These records are created by authors during the article submission phase, and they remain with the article permanently. Editors can change them throughout the workflow stages as needed.
 
 > [!NOTE]
 > Technically, editors can also change author records after publication, to handle important name changes when requested. But it is best to avoid edits after publication if possible, and it may not always be possible to change the name everywhere it appears, in search results, discovery services, and typeset versions of the article.
 
 Records for authors are distinct from user accounts. So if you choose to delete your user account after you publish an article, or if your affiliations change, your author record remains intact, to maintain a public record of your authorship at the time of publication.
 
-If you are a correspondence author, you must have a user account linked to your author record. But if another author is handling the correspondence, you do not have to have an account.
+If you are a correspondence author, you must have a user account linked to your author record. But if another author is handling the correspondence, you do not need to have an account.
 
-Author order determines the sequence of author names wherever they are displayed for readers.
+Janeway remembers the order of author records, as set by the submitting author. Editors can change it later too if needed. This order is used to set the sequence of author names wherever they are output in metadata or displayed to readers.
 
 > [!TIP]
-> For ease of use and better metadata, authors with ORCID accounts are encouraged use the ORCID login option where possible, and author records should be added by searching the ORCID registry, rather than manual entry.
+> For ease of use and better metadata, authors with ORCID accounts are encouraged to use the ORCID login option, and author records should be added by searching the ORCID registry, rather than manual entry.
 
 ## Metadata standards
 
@@ -30,11 +31,11 @@ Janeway integrates with a number of common open metadata standards to support in
 
 ### Research Organization Registry (ROR)
 
-To assess the reach of publishing activities, it can be valuable to group publications by the research organizations that satnd behind them. However, problems arise when people describe their affiliations in slightly different ways, when organizations have names in more than one language, or when two organizations have the same name.
+To assess the reach of publishing activities, it can be valuable to group publications by the research organizations that stand behind them. However, problems arise when people describe their affiliations in slightly different ways, when organizations have names in more than one language, or when two organizations have the same name.
 
 These problems are solved by the [Research Organization Registry](https://ror.org/). They assign persistent identifiers to organizations, like DOIs for articles, ORCIDs for people, and ISBNs for books. This allows multiple names to be associated with a single organization, for easier discovery and display, and it adds to the possibilities for linked open data. The ROR team regularly updates and maintains the registry, which in 2025 included more than 114,000 entries from around the world.
 
-Janeway integrates with ROR from the point of submission through to publication and metadata distribution. When authors first send a manuscript in to a Janeway journal, they are asked to search for and select their affiliated institutions from registry data. And if they signed in via ORCID, Janeway pulls over their primary affiliation from their public ORCID profile, usually including ROR data. Other users such as editors can also create affiliations that are connected to ROR data.
+Janeway integrates with ROR from the point of submission through to publication and metadata distribution. When authors first submit a manuscript to a Janeway journal, they are asked to search in registry data for their affiliated institutions. And if they signed in via ORCID, Janeway pulls over their primary affiliation from their public ORCID profile, usually with ROR IDs in tow. Other users such as editors can also create affiliations that are connected to ROR data.
 
 When Janeway metadata is distributed, the persistent identifier is provided alongside the organization names. This way, other platforms and discovery services can understand Janeway affiliation metadata unambiguously and programmatically, without the need for intensive data curation, cleaning, or matching.
 
@@ -51,6 +52,8 @@ ROR data can be integrated in these places in the future:
   - metadata imports and exports (via the **Imports** plugin)
   - Datacite deposits (via the **Datacite** plugin)
   - the **Supporters** plugin
+
+<!-- missing hyperlinks -->
 
 Typesetters have access to ROR data and are encouraged to encode it in any JATS XML they produce for Janeway.
 
@@ -73,6 +76,8 @@ CRediT data can be integrated in these places in the future:
   - metadata imports and exports (via the **Imports** plugin)
   - the repository system
   - Datacite deposits (via the **Datacite** plugin)
+
+<!-- missing hyperlinks -->
 
 Typesetters have access to CRediT data and are encouraged to encode it in any JATS XML they produce for Janeway.
 
