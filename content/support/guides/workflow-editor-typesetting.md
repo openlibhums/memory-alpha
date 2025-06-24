@@ -3,10 +3,10 @@ title: Editor guide - typesetting
 
 This stage covers typesetting and proofreading of typeset files.
 
-The typesetting overview screen shows all articles currently in typesetting with their status
-You can **Claim** an article to indicate who is managing its typesetting (this doesn't restrict other editors' access). Use the filter in the top-right corner to show only **My assignments**.
+The typesetting overview screen shows all articles currently in typesetting, with their status.
+You can **Claim** an article to indicate who is managing its typesetting (this doesn't restrict other editors' access). To see all your claimed articles, use the filter in the top-right corner to show only **My assignments**.
 
-This guide will outline three types of typesetting workflows:
+This guide will outline three typesetting workflows:
 - Uploading galleys yourself.
 - Converting files within Janeway.
 - Working with an external typesetter.
@@ -14,7 +14,7 @@ This guide will outline three types of typesetting workflows:
 
 ## Typesetting files
 
-Galleys are typeset files used for proofing and displaying content, such as HTML and JATS-XML files. Typeset files typically include, but are not limited to:
+Galleys are typeset files used for proofing and displaying content. Typeset files typically include, but are not limited to:
 - PDF files
 - HTML files
 - JATS-XML files
@@ -31,7 +31,7 @@ For PDF, XML and HTML files, Janeway can automatically set the label to the file
 ## Supplementary files
 Authors can upload supplementary files to Janeway as part of their submission. If the intention is to host the file on Janeway, editors can create a supplementary file and assign it a DOI within Janeway. This option is found at the bottom of the page, under **Optional files**. If the file isn't already uploaded to Janeway, you can opt to upload a new file.
 
-You should set the supplementary file in advance of sending the article for typesetting, where possible and notify the typesetter (if you use external typesetters). They will be able to see the file record and the DOI that has been assigned to it.
+You should set the supplementary file in advance of sending the article for typesetting, where possible, and notify the typesetter (if you use external typesetters). They will be able to see the file record and the DOI that has been assigned to it.
 
 ## Manual upload
 If you do not use a typesetter or file conversion through Janeway, you can upload typeset files yourself by clicking **Upload new typeset file** in the **Current galleys** section. Once you have selected a file, you can also mark whether the file should be public upon publication and set its label.
