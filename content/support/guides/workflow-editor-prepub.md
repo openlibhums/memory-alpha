@@ -12,9 +12,9 @@ Pre-publication takes you through the last checks before publication, going thro
 7. Send the publication notifications
 
 ## Confirm the metadata
-Confirming the metadata is the first step in prepublication. This is where you can make final checks and alterations to information such as the author details, abstracts, titles, licenses, funders, etc.
+Confirming the metadata is the first step in the prepublication process. This is where you can make final checks and alterations to information such as the author details, abstracts, titles, licenses, funders, etc.
 
-If you publishing using XML, it is necessary to ensure that the abstract and title in the metadata exactly match the abstract and title of the PDF file. Authors often change their abstracts during revision and copyediting, so the original abstract may require updating before publication. If you copy-paste an abstract into the metadata field, ensure it is pasted without formatting (Janeway will offer to remove formatting).
+If you publish using XML, it is necessary to ensure that the abstract and title in the metadata exactly match the abstract and title of the PDF file. Authors often change their abstracts during revision and copyediting, so the original abstract may require updating before publication. If you copy-paste an abstract into the metadata field, ensure it is pasted without formatting (Janeway will offer to remove formatting).
 
 > [!TIP]
 > If you are using XML files, the metadata abstract is displayed when previewing the XML file during typesetting. You can use this to check that it has updated correctly.
@@ -27,9 +27,12 @@ It is also important to ensure that the licence provided in the metadata matches
 Once you have checked the metadata, check the **Mark as complete** box to move on to the next step. 
 
 ## Set the issue
-Setting the issue is where you can assign the article to its appropriate issue(s), or check it is set to the correct issue if it was already assigned. Click **Add to issue** to assign the article to an existing issue; you can select more than one issue if needed. You can create a new issue under **Create new issue** if the issue does not yet exist; if you do this, click **Add issue** before closing the window.
+Setting the issue is where you can assign the article to its appropriate issue(s), or check it is correct if it was already assigned. Click **Add to issue** to assign the article to an existing issue; you can select more than one issue if needed. You can create a new issue under **Create new issue** if the issue does not yet exist; if you do this, click **Add issue** before closing the window.
 
 Check the **Mark as complete** once you are done.
+
+>[!CAUTION]
+>If you change the issue at this stage and have worked with an external typesetter using XML, you will likely need to edit the issue in the XML to match the change you have just made. If these don't match, archiving services such as Portico will flag this as a preservation issue.
 
 ## Verify DOIs
 Articles usually have a DOI (Digital Object Identifier) automatically assigned and created (‘minted’) for them by Janeway. The DOI serves as both a unique identifier and a permalink. The ‘Verify DOI’ step lets you check if the DOI is working successfully as a permalink.
@@ -43,7 +46,7 @@ If the DOI has more than two hops, or you see something else, you need to look m
 Check the **Mark as complete** box to move on to the next step.
 
 ## Select a galley for rendering
-At this step, you can select the file that will be shown on the article page: either XML or HTML. If you use neither (e.g. PDF only), you do not need to select a file here. If you have the option of PDF / XML or PDF, select the HTML / XML.
+At this step, you can select the file (galley) that will be used to show display (render) the article on the journal website: either XML or HTML. If you use neither (e.g. PDF only), you do not need to select a file here. If you have the option of PDF / XML or PDF, select the HTML / XML.
 
 If you have not done so already, double-check that any typesetting queries at the end of the PDF have been addressed and removed.
 
@@ -68,7 +71,7 @@ You can also set an article thumbnail through the Article image manager, which i
 Check the **Mark as Complete** box to move onto the next step.
 
 ## Send the publication notifications
-The last step before publishing the article is setting the publication notifications. This is an optional step that allows you to notify authors, co-authors, section editors or others you may wish to notify of publication. You can add people in either the CC or BCC fields.
+The last step before publishing the article is setting the publication notifications. This is an optional step that allows you to notify authors, co-authors, section editors of publication. You can add people in either the CC or BCC fields.
 You can also amend the subject line, email body, and add attachments. 
 
 The dates/times you see in the email correspond to the timezone set in your user profile or the default timezone (UTC) if none has been set. 
@@ -79,8 +82,8 @@ Check the **Mark as Complete** box to move on to the next step.
 Once you have completed all the steps, you are ready to publish the article. The **Publish this article** button is located at the top of the page, on the right-hand side. Any remaining warnings, including options to address them, will accompany it.
 
 > [!NOTE]
-> The warning regarding whether an article is marked as peer reviewed will always remain. This allows editors to double-check this and easily adjust it, if needed.
+> The warning regarding whether an article is marked as peer reviewed will always remain. This allows editors to double-check this and easily adjust, if needed.
 
-Once the **Publish this article** has been clicked, the article is now scheduled to publish at the specified time. Once an article is live, you can see it on the Articles page and you may wish to check if all files display correctly.
+Once the **Publish this article** has been clicked, the article is now scheduled to publish at the specified time. Once an article is live, you can see it on the **Articles** page and you may wish to check if all files display correctly.
 
 The publishing workflow is now complete – congratulations on your finished article!
