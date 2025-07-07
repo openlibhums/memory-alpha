@@ -23,7 +23,7 @@ If you are a correspondence author, you must have a user account linked to your 
 Janeway remembers the order of author records, as set by the submitting author. Editors can change it later too if needed. This order is used to set the sequence of author names wherever they are output in metadata or displayed to readers.
 
 > [!TIP]
-> For ease of use and better metadata, authors with ORCID accounts are encouraged to use the ORCID login option, and author records should be added by searching the ORCID registry, rather than manual entry.
+> For ease of use and better metadata, authors with ORCID accounts are encouraged to use the ORCID login option, and anyone creating affiliations should choose from the list of provided institutions rather than manually entering custom institutions.
 
 ## Metadata standards
 
@@ -46,12 +46,14 @@ ROR data is available from Janeway in these places:
   - the OAI-PMH feed (XML)
   - the Open Access Switchboard (via the **OA Switchboard** plugin)
 
-ROR data can be integrated in these places in the future:
+<!--
+  Future development
   - the repository system
   - reports (via the **Reporting** plugin)
   - metadata imports and exports (via the **Imports** plugin)
   - Datacite deposits (via the **Datacite** plugin)
   - the **Supporters** plugin
+-->
 
 <!-- missing hyperlinks -->
 
@@ -71,11 +73,13 @@ CRediT data is distributed by Janeway in these places:
   - the OAI-PMH feed (XML)
   - the Open Access Switchboard (via the **OA Switchboard** plugin)
 
-CRediT data can be integrated in these places in the future:
+<!--
+  Future development
   - in Crossref deposits (XML)
   - metadata imports and exports (via the **Imports** plugin)
   - the repository system
   - Datacite deposits (via the **Datacite** plugin)
+-->
 
 <!-- missing hyperlinks -->
 
