@@ -1,9 +1,12 @@
-title: Editor guide - Copyediting
-# Editor guide - Copyediting
-The copyediting stage provides an interface to assign and track copyediting requests. 
-       
+title: Editor guide to copyediting
+# Editor guide to copyediting
+
+The copyediting stage allows you to assign, track and complete copyediting tasks. You can also request revisions from authors from this interface.
+ 
 ## Assigning a copyeditor
-To start copyediting an article, the first thing you will need to do is open a copyediting task and assign a copyeditor. To do this, click **Add a copyedit assignment**. This will open a new page where you can do the following:
+
+To start the copyediting of an article, the first thing you will need to do is open a copyediting task and assign a copyeditor. To do this, click **Add a copyedit assignment**. This will open a new page where you can do the following:
+
 - Select a copyeditor.
    - Or give a user the copyeditor role, if they do not yet have it.
 - Select the files to be copyedited. 
@@ -11,6 +14,9 @@ To start copyediting an article, the first thing you will need to do is open a c
   - If required, you can also select any additional appendices or figure files.
 - Leave notes for the copyeditor.
 - Set a due date.
+
+>[!Warning]
+> If you are both the editor and copyeditor, do not perform the copyedit through this interface. Instead access it through the copyediting block on the main dashboard.
 
 Once you have clicked **Add copyeditor**, you will be directed to the notification page where you can send an email to notify the copyeditor.
 
@@ -22,7 +28,7 @@ Once you have clicked **Add copyeditor**, you will be directed to the notificati
 ## Managing copyediting assignments
 You can make as many copyediting assignments as needed and track them from the copyediting screen.
     
-After an assignment has been set up, the copyeditor can log in to Janeway and complete the task. 
+After an assignment has been set up, the copyeditor can log in to Janeway and complete the task. You can see the copyediting from the copyeditor's point of view in the copyeditor guide.<!-- missing hyperlink -->
 
 Before the task is accepted, you can edit the notes and due date or delete the assignment. Once the copyeditor has accepted the task, these options are removed and replaced with a **Review** button. The **Action log** will also be updated to reflect this. 
 
@@ -31,7 +37,8 @@ Before the task is accepted, you can edit the notes and due date or delete the a
 ## Review copyediting
 ![]()
 
-The review page presents the response from the copyeditor, including their notes and any files they uploaded. You can now do one of three things:
+The review copyedit page presents the response from the copyeditor, including their notes and any files they uploaded. You can now do one of three things under **Actions** on the right-hand side:
+
 - **Accept copyedit**
   - This closes the task.
 - **Request author review**
@@ -43,7 +50,7 @@ Requesting author review will ask the author to review the copyedit and inform t
 
 Reopening the task asks the copyeditor to make further changes to the manuscript file. This is often used after an author review returns “Corrections required”.
 
-If you wish to make further requests from the copyeditor after accepting/closing the assignment, you can reassign the copyeditor to a new task.
+If you want to make further requests from the copyeditor after accepting/closing the assignment, you can reassign the copyeditor to a new task.
 
 ## Finishing up
-When you are finished copyediting the manuscript, click **Completed copyediting** to move the article to typesetting (if you are using the standard workflow).
+When the work copyediting the manuscript is complete, click **Completed copyediting** to move the article to typesetting (if you are using the standard workflow).
