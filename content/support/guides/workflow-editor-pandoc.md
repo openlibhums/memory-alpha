@@ -1,5 +1,5 @@
-title: Editor guide - typesetting with Pandoc
-# Editor guide - typesetting with Pandoc
+title: Editor guide to typesetting with Pandoc
+# Editor guide to typesetting with Pandoc
 
 The Pandoc plugin provides an option to generate HTML files from submissions in DOCX or RTF format and set these HTML files as galleys.
 
