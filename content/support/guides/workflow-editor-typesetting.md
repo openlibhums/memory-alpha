@@ -1,5 +1,5 @@
-title: Editor guide - typesetting 
-# Editor guide - typesetting
+title: Editor guide to typesetting 
+# Editor guide to typesetting
 
 This stage covers typesetting and proofreading of typeset files. This guide will provide the following information:
 - An outline of the typesetter page
@@ -79,6 +79,9 @@ Click **Add typesetter** to open the typesetter assignment page and start a new 
 3. Set a due date.
 4. Add any notes, e.g. what file types you would like.
 5. Send a notification email to the typesetter (or skip this step).
+
+>[!TIP]
+> You can customise the typesetting instructions through the typesetting guidelines setting <!-- missing hyperlink  -->, in order to avoid having to repeat instructions in the notes box on every typesetting assignment.
 
 If no issue has been set yet for this article, you can do this now. Typesetters may need this information (especially if working with JATS-XML).
 
