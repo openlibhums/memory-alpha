@@ -1,5 +1,5 @@
-title: Editor guide -  review
-# Editor guide -  review
+title: Editor guide to review
+# Editor guide to review
 
 The review workflow may take various shapes depending on the type of review a journal uses. This workflow allows you to assign articles to reviewers, gather the reviews and communicate a decision about the article to the author.
 
