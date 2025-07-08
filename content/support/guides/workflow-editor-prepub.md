@@ -1,5 +1,5 @@
-title: Editor Guide - Pre-publication
-# Editor Guide - Pre-publication
+title: Editor guide to pre-publication
+# Editor guide to pre-publication
 
 Pre-publication takes you through the last checks before publication, going through each of these final elements step-by-step:
 
@@ -34,7 +34,7 @@ Check the **Mark as complete** once you are done.
 ## Verify DOIs
 Articles usually have a DOI (Digital Object Identifier) automatically assigned and created (‘minted’) for them by Janeway. The DOI serves as both a unique identifier and a permalink. The **Verify DOI** step lets you check if the DOI is working successfully as a permalink.
 
-If the DOI only has two ‘hops’, or two steps (shown as bullet points), this means that no further changes are needed and you are ready to proceed. See the image below for example.
+DOI links should redirect to the article, without intermediate steps. To ensure the redirect is working properly, you can check the number of "hops" shown in the bulleted list. There should be no more than two. See the image below for example.
 
 ![“ “](../images/workflow/prepub_doi.png)
 
@@ -43,7 +43,7 @@ If the DOI has more than two hops, or you see something else, you need to look m
 Check the **Mark as complete** box to move on to the next step.
 
 ## Select a galley for rendering
-At this step, you can select the file (galley) that will be used to show display (render) the article on the journal website: either XML or HTML. If you use neither (e.g. PDF only), you do not need to select a file here. If you have the option of PDF / XML or PDF, select the HTML / XML.
+At this step, you can select the file (galley) that will be used to show (render) the article on the journal website: either XML or HTML. If you have XML as an option, always select that. Otherwise, HTML is the best option.
 
 If you have not done so already, double-check that any typesetting queries at the end of the PDF have been addressed and removed.
 
