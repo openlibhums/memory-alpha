@@ -93,12 +93,12 @@ If enabled:
 > This setting must first be enabled before the option will be displayed, see Review settings. <!- - missing hyperlinks - -> 
 
 ## Request revisions
-Requesting revisions will allow you to ask the author to make changes to the manuscript. You can request revisions from the **Decision helper** page by selecting **Request revisions**, as described in the preceding section.
+Requesting revisions will allow you to ask the author to make changes to the manuscript. You can request revisions from the **Decision helper** page by selecting **Request revisions**.
 
 > [!TIP]
 > Before requesting revisions, make sure you have marked reviews as available to the author. Janeway will warn you if you have not done this for a given review.
 
-Once you have chosen to request revisions, you will be taken to a page where you can set the due date for the review, specify whether these are major or minor revisions, and provide any further information to the author. On the next screen, you can edit the email that will be sent to the author or skip sending it.
+Once you have chosen to request revisions, you will be taken to a page where you can set the due date for the review, specify whether these are major revisions, minor revisions, or a conditional accept and provide any further information to the author. On the next screen, you can edit the email that will be sent to the author or skip sending it. All three types of revisions will have their own email template.
 
 Once an author has completed the revisions, you will be notified, and you can find their revised manuscript, cover letter to the editor and cover letter to the reviewers under **Revision requests** by clicking **View**.
 
