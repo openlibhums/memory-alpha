@@ -10,7 +10,7 @@ This stage covers typesetting and proofreading of typeset files. This guide will
    - Working with an external typesetter.
 - An overview of the proofing workflow.
 - Information on managing typeset files.
-  -Managing image and figure files.
+- Managing image and figure files.
 
 <!-- missing hyperlinks -->
  
