@@ -1,5 +1,5 @@
-title: Editor guide -  submission
-# Editor guide -  submission
+title: Editor guide to submissions
+# Editor guide to submissions
 The editorial workflow in Janeway starts with the Unassigned stage, where you can find new submissions for your journal and assign them to an editor. You can also use this stage as an editorial screening stage, where you make the initial decision about submissions - whether to proceed with them or reject outright. 
 
 ## Unassigned submissions
