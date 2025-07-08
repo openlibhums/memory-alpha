@@ -90,7 +90,7 @@ If enabled:
     - Allows an editor to email all of the reviewers who participated in the review of an article and share a link to all of the review reports. 
 
 > [!NOTE]
-> This setting must first be enabled before the option will be displayed, see Review settings. <!- - missing hyperlinks - -> 
+> This setting must first be enabled before the option will be displayed, see Review settings. <!-- missing hyperlinks --> 
 
 ## Request revisions
 Requesting revisions will allow you to ask the author to make changes to the manuscript. You can request revisions from the **Decision helper** page by selecting **Request revisions**.
