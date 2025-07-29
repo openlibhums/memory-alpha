@@ -15,7 +15,7 @@ This configures the submission process itself and how it functions. From here, y
 This configures the submission fields used during the submission process. Any unchecked fields will not be presented during the submission process. If you do not enable the license, language and section (article type) fields, you must set a default value for these. This will set these fields to the default provided in the article metadata. If no default is provided and the field is disabled, the information will not be present in the article metadata.
 
 - Additional submission fields
-If you require any additional submission fields as part of the submission process, you can set them up through this page.
+
+If you require any additional submission fields as part of the submission process, you can set them up through this page. 
 
 Other relevant settings you may wish to configure related to submissions are the license manager <!--missing hyperlink-->, which configures the licenses available for your journal, and sections <!--missing hyperlink-->, which set the article types available for the journal and submission.
-
