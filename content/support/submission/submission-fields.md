@@ -1,20 +1,32 @@
 title: Managing submission fields
 # Managing submission fields
 
-The submission fields
+There are two parts to managing submission fields on Janeway: standard fields and custom fields. The standard fields are the preexisting submission fields on Janeway, whereas the custom ones are any you create.
 
 ## Standard submission items
 
 ![“ ”](manager-submission-fields-configurator.png)
 
-To configure what does or does not appear on the submission form,, click on **Submission fields configurator**. This can be found under **Submission**.
+There are a set of default submission fields within Janeway, the **Submission fields configurator** allows you to configure which one of these will appear during the submission process. The fields you have checked will display, while any of those which are unchecked will not. The default submission fields include:
 
-There are a set of default submission fields within Janeway, these can be turned off (or on) on this page. The fields you have checked will display, while any of those which are unchecked will not.
+- Publication fees
+- Submission check <!--check this-->
+- Copyright notice
+- Competing interests
+- Comments to editor
+- Abstract
+- Language
+- License
+- Keywords
+- Section
+- Funding
+- Figures and data files
 
-If choose not to use the license, language and section fields as a part of the submission process, we recommend setting default
+If you choose not to use the license, language and section fields as a part of the submission process, we recommend setting a default value for those. E.g. if you only accept submissions in English, you could remove the language selection from the submission process. If you do so, it is recommended you set English as the default language. If nothing is set, the language will be absent from the article metadata (or license or article type, respectively).
 
-You should set a default license, language and section so that these fields can be configured when the fields are not being used. -> if not asked, sets the default.
+If you are using Janeway in languages other than English, you can also set the label for the submission file. This is what the ‘main text’ the author uploads will be labelled within the system.
 
+![“ “]()
 
 ## Custom submission fields
 Under the same header, you will also find **Additional submission fields**. This lets you add custom fields to the submission process. It works similarly to the Review form editor. <!-- missing hyperlink -->
@@ -50,7 +62,6 @@ A submission form can have the following types of form elements:
 
 To add these options, use the **Choices** field. The options should be separated by the bar (" | ") character. This should look like this: "choice 1|choice 2|choice 2". 
 
-
 ![](element-select.png)
 
 - Email
@@ -82,5 +93,3 @@ This setting configures the width of the submission element. Being deprecated, s
 Here you have the option to add text that will display under the submission element. This can be used to provide additional information or guidance.
 
 ![Add a new field]()
-
-
