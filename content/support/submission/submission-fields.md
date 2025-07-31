@@ -5,7 +5,7 @@ There are two parts to managing submission fields on Janeway: standard fields an
 
 ## Standard submission items
 
-![“ ”](manager-submission-fields-configurator.png)
+![" "](manager-submission-fields-configurator.png)
 
 There are a set of default submission fields within Janeway, the **Submission fields configurator** allows you to configure which one of these will appear during the submission process. The fields you have checked will display, while any of those which are unchecked will not. The default submission fields include:
 
@@ -26,7 +26,7 @@ If you choose not to use the license, language and section fields as a part of t
 
 If you are using Janeway in languages other than English, you can also set the label for the submission file. This is what the ‘main text’ the author uploads will be labelled within the system.
 
-![“ “]()
+![" "]()
 
 ## Custom submission fields
 Under the same header, you will also find **Additional submission fields**. This lets you add custom fields to the submission process. It works similarly to the Review form editor. <!-- missing hyperlink -->
@@ -45,24 +45,24 @@ A submission form can have the following types of form elements:
 - Text field
 	- This creates a single-line input area for short text answers such as names, keywords or subjects. It does not allow for formatting.
 
-![](element-text-field.png)
+![" "](element-text-field.png)
 
 - Text area
 	- This provides a larger, multi-line input area for longer texts such as comments and descriptions. It allows for formatting and line breaks.
 
-![](element-text-area.png)
+![" "](element-text-area.png)
 
 - Checkbox
 	- This allows you to ask users to tick a box. These can be used to declare no competing interests or agree to terms and conditions. 
 
-![](element-check-box.png)
+![" "](element-check-box.png)
 
 - Select (dropdown)
 	- This lets you provide a set of options to be displayed in a dropdown list, allowing users to select one. 
 
 To add these options, use the **Choices** field. The options should be separated by the bar (" | ") character. This should look like this: "choice 1|choice 2|choice 2". 
 
-![](element-select.png)
+![" "](element-select.png)
 
 - Email
 	- This is a specific text field for emails. It checks if an email address is correctly formatted before a user submits the form and prompts them to edit it if it is not. 
@@ -70,7 +70,7 @@ To add these options, use the **Choices** field. The options should be separated
 - Upload
 	- This lets a user upload a file from their device.
 
-![](element-file-upload.png)
+![" "](element-file-upload.png)
 
 - Date
 	-This asks the user to provide a date.
