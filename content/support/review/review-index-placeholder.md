@@ -1,23 +1,22 @@
-title: Peer review on Janeway
+Title: Peer review on Janeway
+ 
 # Peer review on Janeway
 
-**WIP**
+This section of the documentation brings together documentation to help you configure and manage the peer review process in Janeway.
 
-*General introduction to peer review on Janeway.
+Janeway supports multiple peer review models, each offering different levels of transparency and anonymity:
+- Single anonymous review: Reviewers know the identity of the author, but the author does not know the identity of the reviewers.
+- Double anonymous review: Neither the author nor the reviewers know each other’s identities.
+- Triple anonymous review: Authors, reviewers, and section editors are all anonymised during the review process.
+- Open peer review: Reviewer comments can be made publicly visible, with the reviewer’s consent.
 
-Janeway [allows for]: double anonymous, single anonymous, open and triple anonymous peer review. Janeway can also enable sharing reviews between reviewers and assign DOIs to public reviews under open peer review.
+The review settings page includes information on how to configure the review process.
+- Configure default review model (open, single, double anonymous).
+- Set review deadlines and reminders.
+- Enable one-click reviewer access.
+- Control visibility of reviews and metadata.
+- Activate open peer review and expanded dashboards.
 
-## In this section
-This section will [explain]:
-Review settings
-Review forms
-Open peer review
-Triple anon (TBC)
-How to share reviews between reviewers
+The review forms page explains how to edit and set up new review forms. There is a separate page outlining how to create form elements on Janeway.
 
-## Finding review settings
-The management interface has two sections that allow you to manage peer
-review settings for journals.
-
-- Review Settings
-- Review Forms
+There are also pages outlining how to configure and use open peer review, triple anonymous peer review, and sharing peer reviews.
