@@ -17,32 +17,21 @@ Janeway has various controls for how review data is shared with authors. All of 
 
 ## Sharing reviews between reviewers
 
-Since Janeway version 1.5.1 (how to check your Janeway version <!-- missing hyperlink -->), editors have two options to share reviews with other peer reviewers.
+Editors have two options to share reviews with other peer reviewers. On the **Review settings** page, under the **Sharing peer reviews** header, there are four settings which control how editors can share peer reviews.
 
-In the review settings page, under the ‘Sharing Peer Reviews’ header, four settings control how editors can share peer reviews.
+- Enable share reviews decision
+   - This setting needs to be turned on to enable the sharing of reviews between reviewers. It adds the option to share reviews to the decision helper.
 
-<!-- ![Settings for controlling sharing of peer review.](../../support/images/TBC) -->
+- Display completed reviews in the review interface
+  - This setting enables the sharing of reviews between rounds, giving reviewers access to completed reviews from previous rounds.
 
-### Enable share reviews decision
-This adds a new option to the decision list and allows the editor to email all of the reviewers who have completed a review for the given article and share with them a link to view each of the other reviews that have been completed for that article.
+- Display completed reviews in the review interface text
+   - This text is displayed to reviewers when **Display completed reviews in the review interface** is enabled. It can be used to explain to reviewers why they have access to the reviews and what they have access to.
 
-> [!NOTE]
-> Reviews that are incomplete or have no decision are excluded from being shared.
+- Automatically share author response letters
+   - This setting allows you to automatically share author responses to reviewers when sharing reviews.
 
-### Display completed reviews in the review interface
-When enabled and in an additional review round (e.g. round 2 or 3), reviewers will see completed reviews from previous rounds in the review interface.
+### Sharing reviews through the decision helper
+By enabling review sharing in the decision list, editors can send an email to everyone who has completed a review for a given article, including a link to view all completed reviews for that article. Reviews that are incomplete or have no decision are excluded from being shared.
 
-> [!NOTE]
-> Incomplete reviews that do not have a decision or are part of the same round of review are excluded from being shared.
-
-### Display completed reviews in the review interface text
-The default text explains why reviews are being shared with other peer reviews. This can be customised at the journal level.
-
-<!-- Need to check the details of this w/ Andy
-
- ### Automatically share author response letters
-> [!NOTE]
-> This setting works in conjunction with either ‘Enable Share Reviews Decision’ and ‘Display Completed Reviews in Review Interface’.
-
-Additionally, it shares any completed author response letters alongside the peer reviews for both peer review sharing options. -->
-
+Access is limited to the reviewers through their Janeway accounts, so the link and its contents cannot be shared beyond this specific pool of reviewers.
