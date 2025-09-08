@@ -18,7 +18,7 @@ Existing forms can be deleted clicking <img src="../../support/images/trashcan.p
 ## New review forms
 To create a new review form, fill in the form on the right-hand side of the review forms page and click **Add form**.
 
-There is no limit on the number of review forms that can be created, but for practical reasons, we recommend regularly reviewing forms not in use.
+There is no limit on the number of review forms that can be created, but for practical reasons, we recommend regularly reading through forms that are not in use and considering whether they are still relevant.
 
 ![Review Form interface](../../support/images/review-forms-add-form.png)
 
