@@ -29,7 +29,7 @@ Editors have two options to share reviews with other peer reviewers. On the **Re
    - This text is displayed to reviewers when **Display completed reviews in the review interface** is enabled. It can be used to explain to reviewers why they have access to the reviews and what they have access to.
 
 - Automatically share author response letters
-   - This setting allows you to automatically share author responses to reviewers when sharing reviews.
+   - When this setting is enabled, author response letters (provided when doing revisions) will also be made available to reviewers as a part of sharing peer reviews.
 
 ### Sharing reviews through the decision helper
 By enabling review sharing in the decision list, editors can send an email to everyone who has completed a review for a given article, including a link to view all completed reviews for that article. Reviews that are incomplete or have no decision are excluded from being shared.
