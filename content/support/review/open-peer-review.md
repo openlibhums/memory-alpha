@@ -17,7 +17,7 @@ During prepublication, editors can choose which of the consented reviews (if the
 
 ![Editor selects peer reviews to display](../../support/images/prepublication-open-peer-review.png)
 
-When **Select reviews to display** is clicked, the following dialogue box will show:
+When **Select reviews to display** is clicked, the following dialogue box will show (if reviewers have not consented to share their review, it will not be listed here):
 
 ![Reviews that can be displayed](../../support/images/reviews-that-can-be-displayed.png)
 
