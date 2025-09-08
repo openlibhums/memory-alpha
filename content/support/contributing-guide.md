@@ -109,3 +109,20 @@ This will be displayed as:
 This is known as “escaping.” See the [Jinja
 documentation](https://jinja.palletsprojects.com/en/3.0.x/templates/#escaping)
 for more details.
+
+## Lists with definitions
+
+You may want to list things and give a sentence or two of text with each one to define or explain it. You can form this kind of list in Markdown with the use of spacing and line breaks.
+
+```md
+* Dog _space_ _space_
+  Larger and jollier.
+* Cat _space_ _space_
+  Quieter and judgier.
+```
+
+Do not put any bullet or dash before the definitions, because this will cause extra friction for users with screen readers.
+
+Importantly, put two spaces after the term in the first line, to maintain the line break when the Markdown is rendered.
+
+![The words "cat" and "dog" appear next to bullet points, and descriptions appear underneath each word](./images/lists-with-definitions.png)
