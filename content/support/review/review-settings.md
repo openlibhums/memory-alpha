@@ -17,7 +17,7 @@ Review settings control how peer review operates. The settings found in this sec
   	- This setting configures the default number of days a reviewer is given to complete a review. This number is then used to control reminders. This field is set to 56 days (8 weeks) initially. The due date can be changed when assigning a review.
 
 - One-click access
-	- When enabled, a unique access token is added to the reviewer link in the assignment email, allowing the reviewer to view the review without needing to log into the system. After the review is completed, the token is removed to prevent reuse. These tokens are Universally Unique Identifiers (UUID4s), ensuring their uniqueness.
+	- When enabled, a unique access token is added to the reviewer link in the assignment email, allowing the reviewer to view the review without needing to log into the system. After the review is completed, the token is removed to prevent reuse. These tokens are Universally Unique Identifiers (UUID4s), which ensures the link sent to reviewers is unique.
 
 - Draft decisions  
   - If enabled, section editors cannot accept papers after review. Instead, they can make recommendations to editors.
