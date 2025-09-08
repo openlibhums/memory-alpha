@@ -10,7 +10,7 @@ Janeway has various controls for how review data is shared with authors. All of 
    - When this setting is enabled, authors will see no information about active peer reviews until the editor makes them available. Otherwise, they can see whether there are reviews in progress and their due dates.
 
 - Enable peer review data on the author page
-   - When this setting is enabled, authors will have access to more information about the reviews for their article(s); they can also see the date the review was requested, the date it was due and the date it was completed. The data will be displayed on the author’s article page, which they have access to from the point of submission.
+   - When this setting is enabled, the dates for when this review was requested, when it was due and when it was completed will be displayed on the review page along with the content of the peer review. As with the review contents, this information will only appear once the review has been completed and the editor makes it available.
 
 - Enable peer review data on review pages
    - When this setting is enabled, authors will have access to more information on the review page than just the content of the peer reviews (date the review was requested, date it was due and date it was completed). The data will be displayed on the review page, which is only available after review and once the editor makes it available.
