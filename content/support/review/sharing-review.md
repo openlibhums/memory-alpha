@@ -10,7 +10,7 @@ Janeway has various controls for how review data is shared with authors. All of 
    - When this setting is enabled, authors will see no information about active peer reviews until the editor makes them available. Otherwise, they can see whether there are reviews in progress and their due dates.
 
 - Enable peer review data on the author page
-   - When this setting is enabled, authors will have access to more information about the reviews for their article(s) (date the review was requested, date it was due and date it was completed). The data will be displayed on the author’s article page, which they have access to from the point of submission.
+   - When this setting is enabled, authors will have access to more information about the reviews for their article(s); they can also see the date the review was requested, the date it was due and the date it was completed. The data will be displayed on the author’s article page, which they have access to from the point of submission.
 
 - Enable peer review data on review pages
    - When this setting is enabled, authors will have access to more information on the review page than just the content of the peer reviews (date the review was requested, date it was due and date it was completed). The data will be displayed on the review page, which is only available after review and once the editor makes it available.
@@ -34,4 +34,4 @@ Editors have two options to share reviews with other peer reviewers. On the **Re
 ### Sharing reviews through the decision helper
 By enabling review sharing in the decision list, editors can send an email to everyone who has completed a review for a given article, including a link to view all completed reviews for that article. Reviews that are incomplete or have no decision are excluded from being shared.
 
-Access is limited to the reviewers through their Janeway accounts, so the link and its contents cannot be shared beyond this specific pool of reviewers.
+Access is limited to the reviewers through their Janeway accounts, so the link and its contents cannot be shared beyond the reviewers who have been assigned to this article.
