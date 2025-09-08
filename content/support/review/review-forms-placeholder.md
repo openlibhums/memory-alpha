@@ -8,10 +8,10 @@ Review forms can be found in the manager dashboard, under **Review**:
 When a new journal is set up, Janeway automatically generates a default review form called 'Default Form'. This form has a single text area called 'Review', which can be deleted or edited.
 
 ## Deleting review forms
-Existing forms can be deleted using the <img src="../../support/images/trashcan.png" width="25" height="25"/> **Delete** . If a form is set as the default review form, it cannot be deleted. Deleting forms will not affect current or past reviews using the form, but it will prevent users from selecting it for future reviews. 
+Existing forms can be deleted using the <img src="../../support/images/trashcan.png" width="25" height="25"/> **Delete** button. If a form is set as the default review form, it cannot be deleted. Deleting forms will not affect current or past reviews using the form, but it will prevent users from selecting it for future reviews. 
 
->[!Warning]
->Deleting a review form can't be undone. Only delete forms if you are certain you will not need them again.
+> [!Warning]
+> Deleting a review form can't be undone. Only delete forms if you are certain you will not need them again.
 
 ![](../../support/images/review-forms-edit-delete.png)
 
