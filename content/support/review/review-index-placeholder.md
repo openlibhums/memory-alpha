@@ -11,6 +11,7 @@ Janeway supports multiple peer review models, each offering different levels of 
 - Open peer review: Reviewer comments can be made publicly visible, with the reviewer’s consent.
 
 The review settings page includes information on how to configure the review process.
+- Setting up double and single anonymous peer review.
 - Configure default review model (open, single, double anonymous).
 - Set review deadlines and reminders.
 - Enable one-click reviewer access.
