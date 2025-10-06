@@ -94,7 +94,9 @@ To add more authors to a submission, you can either search the journal's author 
         - Last name
         - Email address
 
-        ![" "](..\images\workflow\author-submission-author-manual.png)
+An account will also be generated for the author based on this information so that they can log in to the journal and check the progress of the paper. They will need to use the password reset function to get access to their account.
+
+![" "](..\images\workflow\author-submission-author-manual.png)
 
 If the search of the journal's author list or ORCID search are successful, author details will be added automatically. You can still make edits, by clicking on **Edit author details**. When an author already has an account with the journal or another journal under the press, this submission will be linked to their existing record.
 
