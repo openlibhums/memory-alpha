@@ -26,10 +26,10 @@ Once you have clicked into a paper, the next page you see will be broken into fo
     - Here you will find the journal's copyediting guidelines. These will help you complete your task, so you may wish to have them open in another tab as you copyedit in case you need to refer back to them.
 
 - **Article files**
-    - A list of the files supplied by the editor for copyediting. From here, you can download the necessary files to work on and any supplemental files (e.g., additional figures) using the download icon (highlighted in the image below).
+    - A list of the files supplied by the editor for copyediting. From here, you can download the necessary files to work on and any supplemental files (e.g., additional figures) by clicking the <img src="../../support/images/download-icon.png" width="12" height="12"/> **Download** icon.
 
 - **Copyedited files**
-    - A list of files you have uploaded. Use the **Upload file** button to add a new file when you have completed copyediting it. 
+    - A list of files you have uploaded. Use the <img src="../../support/images/upload-icon.png" width="12" height="12"/>**Upload file** button to add a new file when you have completed copyediting it. 
 
 - **Complete task**
     - Here you can enter a note for the editor and mark the task as complete. 
@@ -39,7 +39,7 @@ Once you have clicked into a paper, the next page you see will be broken into fo
 ### Article files & copyedited files
 ![The ‘Article files’ and ‘Copyedited files’ section. It shows the files, their filenames, labels and download buttons. There is also an upload file button for copyedited files.](../images/workflow/copyedit-files.png)
 
-This is where you can find the necessary files to complete the copyediting task. This will include the manuscript and other files, such as figures. You can upload the copyedited manuscript using the **Upload file** button.
+This is where you can find the necessary files to complete the copyediting task. This will include the manuscript and other files, such as figures. You can upload the copyedited manuscript using the <img src="../../support/images/upload-icon.png" width="12" height="12"/>**Upload file** button.
 
 ### Complete task
 ![The ‘Complete task’ section with a textbox for the notes to the editor. There is a ‘Complete copyedit task’ button at the bottom.](../images/workflow/copyedit-complete-task.png)

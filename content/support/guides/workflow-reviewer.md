@@ -18,16 +18,16 @@ If you log into Janeway as a reviewer, you will see the **Reviewer** section on 
 If you have any other roles within a journal (e.g. author, editor), you will also see sections for these on your dashboard. 
 ![Reviewer Dashboard block](../../support/images/workflow/reviewer-block.png)
 
-Click **View Requests** to be taken to the Review Requests page. On this page, you can see more information about the review (title, abstract, keywords, etc.) and either accept or decline the task.
+Click **View requests** to be taken to the Review Requests page. On this page, you can see more information about the review (title, abstract, keywords, etc.) and either accept or decline the task.
 
 ![The two columns on the ‘Review Requests’ page (‘Awaiting initial decision’ and ‘Reviews in progress’). There is a task in the left column that is awaiting a decision. The task block (or card) displays the title, due date and editor initials. It also contains three buttons: ‘View Detail’, ‘Accept Task’ and ‘Decline Task’.)](../../support/images/workflow/reviewer-kanban.png)
 
 ## Review request
 If you accept the task, you will be taken to the page for the review. It is split into three sections:
 
-1. General Review Guidelines
-2. Review Files
-3. Review Form
+1. General review guidelines
+2. Review files
+3. Review form
 
 ## General review guidelines
 This section displays information on how the editor would like you to undertake the review, an introduction to the review form, and metadata.
@@ -35,18 +35,16 @@ This section displays information on how the editor would like you to undertake 
 > [!NOTE]
 > This section may include both general review guidelines and guidelines specific to this review. These can differ depending on the journal and the type of submission. Please read through these even if you’ve reviewed a paper for this journal before, as they may not be the same as for a previous review task.
 
-At the bottom of this block, you will find another option to accept or decline this review task. If you initially accepted the task but are no longer available, please decline it here so that it can be offered to someone else. If you opt to decline to review, you will be asked if you can suggest other suitable reviewers. This is optional, but highly encouraged.
-
-![The ‘Review Request’ page, displaying the ‘General Review Guidelines’ section. The review guidelines, information for the form and accept/decline elements are visible.](../support/images/workflow/reviewer-review-request.png)
+At the bottom of this block, you will find an option to decline this review task if you are no longer able to complete it. If you opt to decline to review, you may be asked if you can suggest other suitable reviewers.
 
 ## Review files
-The files the editor has selected for you to review are listed here. There might be multiple files (e.g. supplementary files), so this block includes the option to download them all as a zip file.
+The files the editor has selected for you to review are listed here. There might be multiple files (e.g. supplementary files), so this block includes the option to download them all as a ZIP file.
 
-![The ‘Review Files’ section. One file is shown here with its label (‘Manuscript’ in this instance) filename and the download option. The ‘Download all as ZIP’ is in the top right corner of this section.](../support/images/workflow/reviewer-review-files.png)
+![The ‘Review Files’ section. One file is shown here with its label (‘Manuscript’ in this instance) filename and the download option. The ‘Download all as ZIP’ is in the top right corner of this section.](..\images\workflow\reviewer-review-files.png)
 
 ## Review form
 This is where you will complete your review. What this looks like will differ from journal to journal, but the main sections will be the same. Each element in the form will be accompanied by a title or description to assist you in completing it.
-![The ‘Review Form’ section. It shows the ‘File Upload’, ‘Recommendation’, and ‘Comments for the Editor’ blocks.](../support/images/workflow/reviewer-file-upload.png)
+![The ‘Review Form’ section. It shows the ‘File Upload’, ‘Recommendation’, and ‘Comments for the Editor’ blocks.](..\images\workflow\reviewer-file-upload.png)
 
 The sections of this form are:
 
@@ -62,7 +60,7 @@ The sections of this form are:
         - Minor revisions required
         - Major revisions required
         - Reject
-- Comments for the Editor
+- Comments for the editor
     - If you have additional comments, they can be added here. These will be visible only to the editor(s), although they may choose to share them with the author.
 
 ## Review complete

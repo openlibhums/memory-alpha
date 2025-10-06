@@ -195,7 +195,10 @@ Typeset proofs are not an opportunity to make changes to the content or style of
 ![""](../images/workflow/author-complete-copyedit-task.png)
 
 ## Proofing
-After your paper has been accepted and copyedited, the editors might send you a request to proof the typeset manuscript. This is the final version that will be made publicly available once the article gets published in the journal.
+After your paper has been accepted, copyedited and typeset, the editors might send you a request to proof the typeset manuscript. This is the final version that will be made publicly available once the article gets published in the journal.
+
+You can access your proofing tasks either through the link sent to you by email or through the proofing task button on your dashboard.
+![" "](..\images\workflow\author-proofing-task.png)
 
 [" "](/content/support/images/workflow/author-proofing-block.png)
 
@@ -203,20 +206,18 @@ After your paper has been accepted and copyedited, the editors might send you a 
 
 For journals that publish content in multiple media formats (HTML, PDF, XML, etc.), it is important that you check all these files before publication. This will not require any technical knowledge; authors are not expected to be able to open and read XML/HTML code. Instead, Janeway provides a **View file** button, which allows you to preview how the article will look once it is published.
 
-![Typeset Files download and preview](../images/workflow/author-proofing-view-file.png)
+![Typeset Files download and preview](../images/workflow/author-proofreading.png)
 
 Once you've previewed the files, you can provide feedback in two ways:
 
 - Fill in the **Notes** field. You can use this to add not just text, but also to paste in screenshots or other relevant images.
 
-![Providing proofreading notes via a text editor](../images/workflow/author-proofreading-notes.png)
-
 - Upload an annotated file. In the case of PDF files, you can download the file and make annotations offline using PDF readers. When this is done, you can upload the annotated file for the editor to review.
-
-![Providing proofreading notes by uploading an annotated file.](../images/workflow/author-proofreading-annotated-file.png)
 
 It is important to proof all the files thoroughly in order to avoid unnecessary follow-up rounds. This saves everyone time, work, and money and makes the publishing process run much more smoothly.
 
-Click **Mark task as complete** to finish proofreading. Once you have provided your feedback, the editorial team might send you another proofing task once the requested corrections have been made. If this happens, the process will be exactly the same as in the first round of proofing. If there are no (or only very minor) corrections, you will likely not be asked to review again.
+To finish proofing, click **Mark task as complete**. Once you click this button, you will not be able to return to this page.
+
+Once you have provided your feedback, the editorial team might send you another proofing task once the requested corrections have been made. If this happens, the process will be exactly the same as in the first round of proofing. If there are no (or only very minor) corrections, you will likely not be asked to review again.
 
 Once the article is published, all authors will receive a notification through the email addresses used when the article was submitted (except if this has been updated before publication).
