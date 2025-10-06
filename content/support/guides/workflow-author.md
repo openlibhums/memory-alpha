@@ -73,25 +73,37 @@ Metadata that may be requested on this page:
 Individual journals can add more fields to this page. These will be displayed under **Additional fields**.
     
 ### Author information
-The **Author information** page is where you fill in the relevant information about a submission’s author(s). For some journals, the person submitting will be automatically added as an author, while others will require the details to be added manually (see screenshot below). 
+The **Author information** page is where you fill in the relevant information about a submission’s author(s). The person submitting will be automatically added as an author.
 
-In this example journal, the submitting user has not been added as an author but can use the **Add self as author** button to add themselves.
-![The article information page filled with example data](../images/workflow/author-author-information.png)
+To add more authors to a submission, you can either search the journal's author list for existing authors, search by ORCID or add another author manually. 
 
-To add more authors to a submission, you can either search the journal's author list or create a new author. If you use the **Add New Author** button to add an author who is already registered with the journal or another journal by the press, this submission will be linked to their existing record.
-
-- Adding authors through **Search for existing authors**
-    - This box lets you search the journal's database of authors by using their email address or ORCID. You cannot search using a name or institution. 
+- Adding authors through **Add author from search**
+    - This lets you search the journal's database of authors by using their email address or ORCID. You cannot search using a name or institution. 
     - If a matching record is found, they will be added as a co-author. If not, you will be notified that no account has been found.
-- Adding authors through **Add New Author**
-    - The **Add new author** button lets you create a new author record for authors if they do not already have one. Clicking the button shows a pop-up with a series of fields to complete. The following fields are mandatory in Janeway:
+
+    ![" "](..\images\workflow\author-submission-author-search.png)
+
+- Adding authors through **Add author manually**
+    - The **Add author manually** button lets you create a new author record for authors if they do not already have one. The following fields are mandatory in Janeway:
         - First name
         - Last name
-        - Institution (can be supplied as ‘N/A’ or ‘Independent’ for those who do not have one)
         - Email address
-    - An account will also be generated for the author based on this information so that they can log in to the journal and check the progress of the paper. They will need to use the password reset function to get access to their account.
 
-You can use the trash icon to delete authors from a submission. The arrow handles can be used to drag and drop the authors’ names to reorder them.
+An account will also be generated for the author based on this information so that they can log in to the journal and check the progress of the paper. They will need to use the password reset function to get access to their account.
+
+![" "](..\images\workflow\author-submission-author-manual.png)
+
+If the search of the journal's author list or ORCID search are successful, author details will be added automatically. You can still make edits, by clicking on **Edit author details**. When an author already has an account with the journal or another journal under the press, this submission will be linked to their existing record.
+
+To change the correspondence author, another author with a pre-existing (confirmed) account needs to be added. If no other co-authors have an account, the submitting author is required to remain the correspondence author.
+
+>NOTE
+>The correspondence author does not necessarily have to be the primary author. The correspondence author can also be changed after submission.
+
+Janeway uses [Research Organization Registry (ROR)](https://ror.org/) to manage affiliation data. You can add author affiliation by clicking **Edit author details** and scrolling down to **Affiliations**. From here, you can add, remove and edit affiliations. If an author ORCID has been provided, their affiliation will be added automatically from their ORCID. You can still edit this, if it is incorrect.
+![" "](..\images\workflow\author-submission-edit-details.png)
+
+After the submission is completed, co-authors will be notified and will be able to access the submission and update or edit their details.
 
 ### Article files
 On the **Article files** page, you can upload your manuscript and any supplementary files, figures or images that go along with it.
@@ -119,10 +131,11 @@ The **Review** page displays a run-down of the article you've submitted, metadat
 ![""](../images/workflow/author-submission-review.png)
 
 ## Revisions
-If an article is accepted, it may enter the peer review process. Once a submission has been reviewed, editors may request that authors revise their files based on recommendations from reviewers. There are two types of revisions you may be asked to make:
+If an article is accepted, it may enter the peer review process. Once a submission has been reviewed, editors may request that authors revise their files based on recommendations from reviewers. There are three types of revision requests:
 
 1. Minor revisions.
 2. Major revisions.
+3. Conditional acceptance.
 
 With major revisions, the editor may send the paper for a second round of review once you have completed your revisions.
 
@@ -178,7 +191,8 @@ Typeset proofs are not an opportunity to make changes to the content or style of
 After your paper has been accepted and copyedited, the editors might send you a request to proof the typeset manuscript. This is the final version that will be made publicly available once the article gets published in the journal.
 
 For journals that publish content in multiple media formats (HTML, PDF, XML, etc.), it is important that you check all these files before publication. This will not require any technical knowledge; authors are not expected to be able to open and read XML/HTML code. Instead, Janeway provides a **View file** button, which allows you to preview how the article will look once it is published.
-![Typeset Files download and preview](../images/workflow/author-proofreading.png)
+#![Typeset Files download and preview](../images/workflow/author-proofreading.png)
+#Well that's not right.
 
 Once you've previewed the files, you can provide feedback in two ways:
 
