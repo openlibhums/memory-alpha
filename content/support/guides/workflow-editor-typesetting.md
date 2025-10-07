@@ -22,13 +22,19 @@ After selecting an article, you will be taken to the typesetting page. This page
 
 * At the top, you can see the rounds which are used for both typesetting and proofing, similar to the peer review page. From here, you start rounds and assign typesetters and proofreaders.
 
+![" "](..\images\workflow\editor-typesetting-rounds.png)
+
 * Under this, there is **Files for typesetting** where files used in typesetting are listed - this includes manuscript files, images and any pre-existing galleys. 
 
 * This is followed by **Galleys**, which lists typeset files (galleys) which will become available to readers. 
 
+![" "](..\images\workflow\editor-typesetting-files-blocks.png)
+
 * Finally, **Optional files** contains the supplementary files (data files, appendices, etc.) and (if using) source files (intermediate files used by typesetters, e.g. Adobe InDesign files).
 
 * The **Actions** block, where you can start new rounds or complete typesetting, is on the right-hand side - similar to the peer review and copyediting stages. 
+
+![" "](..\images\workflow\editor-typesetting-actions.png)
 
 You can see the typesetter's view and their experience of the workflow in the typesetter guide. <!-- missing hyperlinks -->
 
@@ -56,7 +62,11 @@ You should set the supplementary file in advance of sending the article for type
 ## Upload galleys yourself (workflow)
 If you do not use a typesetter or file conversion through Janeway, you can upload typeset files yourself by clicking **Upload new typeset file** in the **Current galleys** section. Once you have selected a file, you can also mark whether the file should be public upon publication and set its label.
 
-When uploading an HTML or XML file with images, they must be uploaded separately, as HTML and XML files do not contain the images themselves (like a DOCX or PDF file might). Images can be uploaded by clicking **Edit galley** and using the upload functions provided, for more information see: Images and figure files <!-- missing hyperlink -->.
+![" "](..\images\workflow\editor-typesetting-upload-new-typeset-file.png)
+
+When uploading an HTML or XML file with images, they must be uploaded separately, as HTML and XML files do not contain the images themselves (like a DOCX or PDF file might). Images can be uploaded by clicking the <img src="../../support/images/edit-icon.png" width="12" height="12"/> **Edit** icon and using the upload functions on the page it leads to, for more information see: Images and figure files <!-- missing hyperlink -->. You can also <img src="../../support/images/download-icon.png" width="12" height="12"/> **Download** the file or <img src="../../support/images/preview-icon.png" width="15" height="15"/> **Preview** it, using the respective icons.
+
+![" "](..\images\workflow\editor-typesetting-galley-buttons.png)
 
 > [!CAUTION]
 > Do not use the image or galley upload for supplementary files. See Supplementary files for more information.<!-- missing hyperlink -->
@@ -64,7 +74,7 @@ When uploading an HTML or XML file with images, they must be uploaded separately
 ## Generating typeset files with Janeway (workflow)
 Janeway also offers the option to convert manuscript files using the [Pandoc plugin](https://github.com/BirkbeckCTP/pandoc), which can generate HTML galleys from a MS Word document. For a full guide on how to manage typesetting with Pandoc, see Typesetting with Pandoc <!-- missing hyperlink  -->.
 
-If you are interested in using the Pandoc plugin, contact your System administrator (What is a system administrator? <!-- missing hyperlink  -->.
+If you are interested in using the Pandoc plugin, contact your System administrator (What is a system administrator?<!-- missing hyperlink  -->).
 
 ## Working with a typesetter
 
