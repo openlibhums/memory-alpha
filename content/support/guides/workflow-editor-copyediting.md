@@ -5,7 +5,11 @@ The copyediting stage allows you to assign, track and complete copyediting tasks
  
 ## Assigning a copyeditor
 
-To start the copyediting of an article, the first thing you will need to do is open a copyediting task and assign a copyeditor. To do this, click **Add a copyedit assignment**. This will open a new page where you can do the following:
+To start the copyediting of an article, the first thing you will need to do is open a copyediting task and assign a copyeditor. To do this, click **Add a copyedit assignment**. 
+
+![" "](..\images\workflow\editor-copyedit-add-assignment.png)
+
+This will open a new page where you can do the following:
 
 - Select a copyeditor.
    - Or give a user the copyeditor role, if they do not yet have it.
@@ -19,8 +23,6 @@ To start the copyediting of an article, the first thing you will need to do is o
 > If you are both the editor and copyeditor, do not perform the copyedit through this interface. Instead access it through the copyediting block on the main dashboard.
 
 Once you have clicked **Add copyeditor**, you will be directed to the notification page where you can send an email to notify the copyeditor.
-
-![]()
    
 > [!NOTE]
 > If a copyeditor already has an active copyediting task for this article, they will not appear in the list; you should first close that task if you wish to assign them again.
@@ -32,12 +34,10 @@ After an assignment has been set up, the copyeditor can log in to Janeway and co
 
 Before the task is accepted, you can edit the notes and due date or delete the assignment. Once the copyeditor has accepted the task, these options are removed and replaced with a **Review** button. The **Action log** will also be updated to reflect this. 
 
-![]()
-
 ## Review copyediting
-![]()
+![" "](..\images\workflow\editor-copyedit-review.png)
 
-The review copyedit page presents the response from the copyeditor, including their notes and any files they uploaded. You can now do one of three things under **Actions** on the right-hand side:
+The review copyedit page presents the response from the copyeditor, including their notes and any files they uploaded. You can download the copyedited manuscript using the <img src="../../support/images/download-icon.png" width="12" height="12"/> **Download** icon. You can also do one of three things under **Actions** on the right-hand side:
 
 - **Accept copyedit**
   - This closes the task.
@@ -46,6 +46,7 @@ The review copyedit page presents the response from the copyeditor, including th
 - **Reopen the task**
    - Ask the copyeditor to make further changes.
 
+![" "](..\images\workflow\editor-copyedit-review-page.png)
 Requesting author review will ask the author to review the copyedit and inform the editor if any corrections are required. The author can also upload a file if they have made corrections or used track changes.
 
 Reopening the task asks the copyeditor to make further changes to the manuscript file. This is often used after an author review returns “Corrections required”.

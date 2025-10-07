@@ -37,7 +37,7 @@ Once a review has been requested, you can do one of the following:
 
 - See the review by clicking on the **View** button (though no meaningful information will be available until the review is completed).
 
-Or by clicking on the dropdown button ⏷ , the following options will also become available:
+Or by clicking on the ⏷ **dropdown** icon, the following options will also become available:
 
 - You can click **Reset** to return the review status to “Awaiting acknowledgement” if the reviewer mistakenly withdraws or declines the review.
 - Edit the review settings (due date, review type, review form).
