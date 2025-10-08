@@ -78,14 +78,18 @@ If you are interested in using the Pandoc plugin, contact your System administra
 
 ## Working with a typesetter
 
-This section outlines how to work with an external typesetter, including assigning tasks, reviewing their work, and assigning revisions (if needed). You will need to set up an account for your typesetter. If you have not done this yet, see Account Management for more information. <!-- missing hyperlink  -->.
+This section outlines how to work with an external typesetter, including assigning tasks, reviewing their work, and assigning revisions (if needed). You will need to set up an account for your typesetter. If you have not done this yet, see Account Management for more information. <!-- missing hyperlink  -->
 
 ### Assigning a typesetter
 
-Click **Add typesetter** to open the typesetter assignment page and start a new typesetting assignment. You can now do the following: 
+Click **Assign a typesetter** to open the typesetter assignment page and start a new typesetting assignment.
+
+![" "](..\images\workflow\editor-typesetting-assign-typesetter.png)
+
+You can now do the following: 
 
 1. Select a typesetter.
-2. Select the files you would like this typesetter to work on.
+2. Select the files you would like this typesetter to work on. If any galleys are already uploaded, you can select galleys for correction as well.
 3. Set a due date.
 4. Add any notes, e.g. what file types you would like.
 5. Send a notification email to the typesetter (or skip this step).
@@ -102,13 +106,18 @@ There is no limit on the number of typesetters you can assign at one time.
 
 ### Reviewing the typesetting task
 
-Once the typesetter has completed their task, you will receive an email notification. You can now review the typesetting task and select one of the following three options:
+Once the typesetter has completed their task, you will receive an email notification. 
+
+![" "](..\images\workflow\editor-typesetting-review-typesetting.png)
+You can now review the typesetting task and select one of the following three options:
  - **Request corrections**
-   - If you notice a problem with the typeset files straight away, you can request corrections to the typesetter. See Requesting corrections <!-- missing hyperlink -->
+   - If you notice a problem with the typeset files straight away, you can request corrections to the typesetter. See Requesting corrections<!-- missing hyperlink -->.
  - **Proofing required**
    - Accept the typeset files and record the decision to send the files for proofing.
  - **Accept**
     - If no (further) proofing or corrections are required, you can accept the files and end the typesetting stage.
+
+![" "](..\images\workflow\editor-typesetting-review-typesetting-decision.png)
 
 ## Proofing
 
@@ -118,11 +127,17 @@ This part of typesetting is used to check galley files for any issues before the
 
 Once a typeset file has been uploaded by either a typesetter or editor, proofreading will become available.
 
-Click **Assign proofreaders** to open a new proofing task. All files listed under **Current galleys** will be made available to proofreaders. You can now do the following:
+Click **Assign proofreaders** to open a new proofing task. 
+
+![" "](..\images\workflow\editor-typesetting-assign-proofreader.png)
+
+All files listed under **Current galleys** will be made available to proofreaders. You can now do the following:
 
 1. Select the proofreader. 
 
 The list of potential proofreaders is made up of editors, the authors of the paper and any other users with the proofreader role. You can only select one proofreader, but you can add multiple assignments. If you wish to select a user who is not displayed in the list, click **Enrol a proofreader**.
+
+![" "](..\images\workflow\editor-typesetting-enroll-proofreader.png)
 
 2. Set a due date.
 
@@ -141,6 +156,8 @@ If no further corrections are needed, you can click **Complete typesetting** und
 
 If you require corrections, click **Request corrections**. 
 
+![" "](..\images\workflow\editor-typesetting-choice.png)
+
 ### Requesting corrections
 
 You can now assign a typesetter to correct issues that were flagged in proofing, as outlined in Assigning a typesetter <!-- missing hyperlink -->. In addition to the previous steps, you can now also do the following:
@@ -153,7 +170,9 @@ You can now assign a typesetter to correct issues that were flagged in proofing,
 
 
 ## Managing typesetting files
-Once typeset files are uploaded into Janeway, they become manageable within the system. To manage a typeset file, click the **Edit✎** icon next to it.
+Once typeset files are uploaded into Janeway, they become manageable within the system. To manage a typeset file, click the <img src="../../support/images/edit-icon.png" width="12" height="12"/> **Edit** icon next to it.
+
+![" "](..\images\workflow\editor-typesetting-edit-galley.png)
 
 On this page, you can do the following:
 - Replace the typeset file; the old file will be retained in the file history.
@@ -169,8 +188,12 @@ HTML and XML files uploaded to Janeway will be scanned to detect graphic, figure
 
 For each missing image file, Janeway will present you with a block where you can either upload a new image file or select an existing one from the images already linked to the article.
 
+![" "](..\images\workflow\editor-typesetting-imagefiles-image.png)
+
 > [!TIP]
 > For typeset files with a large number of images, you can also create a ZIP file containing all the images and upload it using the ZIP uploader. Janeway will match the images against the tags in the typeset files. Ensure the image names and file types are an exact match those in the typeset file.
+
+![" "](..\images\workflow\editor-typesetting-imagefiles-zipfile.png)
 
 ## Advanced styling
 
