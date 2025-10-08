@@ -50,3 +50,15 @@ This site was built using [GitHub Pages](https://pages.github.com/).
 | ------------- | ------------- |
 | Content Cell  | Content Cell  |
 | Content Cell  | Content Cell  |
+
+
+<table><thead>
+  <tr>
+    <th>Note</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td>Sweet sweet HTML</td>
+  </tr>
+</tbody>
+</table>
