@@ -53,6 +53,10 @@ This site was built using [GitHub Pages](https://pages.github.com/).
 
 
 <table><thead>
+ <style>
+    th {text-align: right;}
+    th {border-collapse: collapse; border-color:#aaa;}
+  </style>
   <tr>
     <th>Note</th>
   </tr></thead>
