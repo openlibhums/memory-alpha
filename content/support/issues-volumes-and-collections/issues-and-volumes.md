@@ -2,9 +2,39 @@ title: Issues
 
 # Issues
 
-Articles do not have to be part of an issue. There are some services that do require an article have an issue or volume (such as CrossRef) so we recommend that if you do continues publication that you create a yearly volume/issue to add papers to. Articles are added to issues during the **Pre-publication** stage, however, issues can be managed on their own through the **Issue manager**, a link to which is available on the **Manager** page and the main sidebar.
+On Janeway, issues organise articles for publication. While articles do not have to be part of an issue, some external services (such as CrossRef) require that articles be assigned to an issue. As such, it is recommended to use issues where possible.
+If your journal uses continuous publication, you may wish to create yearly issues to add articles to.
+
+Articles are typically assigned to issues during the **Pre-publication** stage, but can be assigned a projected issue at any point in the publication workflow. Issues can also be managed independently through the **Issue manager**, available from both the **Manager** page and the main sidebar.
+
+## Issue Types
+
+Janeway provides two built-in issue types : 
+- Issue — the standard publication issue.
+- Collection —  can be esed to group related articles across volumes or years.
+
+## Volumes
+
+Issues will automatically be part of a volume, they can either have their own volume or share a volume with other issues.
+
+You may wish to set collection volumes to 0, if you do not wish for the collections to follow or interrupt the regular Volume-Issue order. (E.g. for collections you may continuously add to and arent part of specific years.)
+
+## Issue management
+
+The **Issue management** page lists all existing issues and provides options for creating, editing, reordering, and managing them.
 
 <!-- ![The Issue Management page.](../nstatic/issue-management.png) -->
+
+- **Sort by date descending / ascending** 
+  - Reorder issues by publication date. Sorting changes the display order of issues on the public site, and changes take effect immediately.
+
+- **Edit display settings** 
+  - Opens configuration options for how issue titles and metadata are displayed. For more information, see [Display settings](#display-settings).
+
+- **Create issue**
+  - Lets you create a new issue. For more information, see [Creating and editing issues](#creating-and-editing-issues).
+
+
 
 > [!TIP]
 > To set the current issue, click the **Make current** button. The issue without this button *is* the current issue.
@@ -14,15 +44,6 @@ Articles do not have to be part of an issue. There are some services that do req
 
 >[!NOTE]
 >Imports go to V1I1 if none is specified.
-
-## Issue Types
-
-Janeway comes with two issue types built in: "Issue" and "Collection".
-
-## Volumes
-
-Issue can either have their own volume or share a volume with other issues - you must assign an issue to have a volume.
-Volume 0 can be helpful for collections, if you do not wish for the collections to follow or interrupt the regular Volume-Issue order. (E.g. for collections you may continuously add to and arent part of specific years.)
 
 ## Display Settings
 
@@ -36,7 +57,7 @@ You can turn these elements on or off:
 - Issue title
 - Article number
 - Article page numbers
-- Issue DOI
+- Issue DOI - see Issue DOI management <!-- missing hyperlink -->
 - Group issues by decade
 
 Here are a few example issue displays:
@@ -108,17 +129,6 @@ You can upload a Galley file for the whole issue, usually a PDF so that users ca
 > [!TIP]
 > If you don't upload a Galley for the issue then Janeway will allow users to download a zip file of all the individual article galley files.
 
-### Issue DOIs
-
-Issues can be assigned a DOI in Janeway. This can be done ad-hoc for each issue by editing the issue details and inputting the DOI manually, or by letting Janeway generate a DOI for you, based on a pattern (a DOI pattern can be set from the Crossref Settings page)
-
-When the Crossref integration is enabled, issue DOIs will be registered with Crossref whenever an article in that issue is registered with Crossref. This will be the case both for DOIs generated for Janeway as well as for those manually set.
-
-> [!TIP]
-> If you are migrating a Janeway installation from a version that did not support issue DOIs and would like to register issue DOIs for your back content, this can be done by populating the DOI field on those issues and then re-registering any of the articles in the issue with Crossref.
-
-> [!WARNING]
-> When an article is part of two or more issues, only the primary issue DOI will be registered with Crossref. In a future version, it will be possible to register issue DOIs on their own, even when they have no articles or all its articles are part of multiple issues.
 
 
 <!-- needs to be edited and sorted, currently merged from different sections-->
@@ -164,9 +174,6 @@ To create an issue select ***Create Issue*** in the top right and in the modal t
   - Issues can be standard issues or can also be collections which are used to collect articles from across the journal into narratives.
 
 <!-- ![New issue form](../../nstatic/new-issue.png) -->
-
-- Issue DOI  
-  - Issues can have a DOI, which will be registered with all of its articles in Crossref. If you are using Janeway's autoregistration (recommended) or if you are not interested on registering DOIs for issues, you can leave this field blank.
 
 ### Issue Articles
 
