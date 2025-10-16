@@ -86,7 +86,7 @@ To add more authors to a submission, you can either search the journal's author 
     - This lets you search the journal's database of authors by using their email address or ORCID. You cannot search using a name or institution. 
     - If a matching record is found, they will be added as a co-author. If not, you will be notified that no account has been found.
 
-    ![" "](..\images\workflow\author-submission-author-search.png)
+    ![" "](../images/workflow/author-submission-author-search.png)
 
 - Adding authors through **Add author manually**
     - The **Add author manually** button lets you create a new author record for authors if they do not already have one. The following fields are mandatory in Janeway:
