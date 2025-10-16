@@ -198,7 +198,7 @@ Typeset proofs are not an opportunity to make changes to the content or style of
 After your paper has been accepted, copyedited and typeset, the editors might send you a request to proof the typeset manuscript. This is the final version that will be made publicly available once the article gets published in the journal.
 
 You can access your proofing tasks either through the link sent to you by email or through the proofing task button on your dashboard.
-![" "](..\images\workflow\author-proofing-task.png)
+![" "](../images/workflow/author-proofing-task.png)
 
 [" "](/content/support/images/workflow/author-proofing-block.png)
 
