@@ -23,7 +23,7 @@ There is no limit on the number of review forms that can be created, but for pra
 ![Review Form interface](../../support/images/review-forms-add-form.png)
 
 ## Editing review forms
-You can add review questions to review forms by clicking <img src="../../support/images/edit.png" width="25" height="25"/> **Edit**. You can then add various review form elements by clicking **Add element**. 
+You can add review questions to review forms by clicking <img src="../../support/images/edit-icon.png" width="15" height="15"/> **Edit**. You can then add various review form elements by clicking **Add element**. 
 In addition to this, you can edit the form name, form introduction and thank you message.
 
 Read more about creating custom forms and form elements here. <!-- Missing hyperlink -->
