@@ -66,3 +66,14 @@ This site was built using [GitHub Pages](https://pages.github.com/).
   </tr>
 </tbody>
 </table>
+
+Testy test
+| Icon / Label | Button text | Description |
+|---------------|--------------|--------------|
+| 🕓 | **Sort by date descending** | Displays issues from most recent to oldest. |
+| ⏫ | **Sort by date ascending** | Displays issues from oldest to most recent. |
+| ⚙️ | **Edit display settings** | Opens the display configuration modal. |
+| ➕ | **Create issue** | Opens the new issue form to create an issue or collection. |
+| 👁️ | **View** | Opens the selected issue’s management view. |
+| 🗑️ | **Delete** | Removes the issue permanently. |
+| 🔘 | **Make current** | Marks the issue as the current active issue (used for public display). |
