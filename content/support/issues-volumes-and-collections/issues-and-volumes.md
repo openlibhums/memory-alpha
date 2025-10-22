@@ -2,12 +2,12 @@ title: Issues
 
 # Issues
 
-On Janeway, issues organise articles for publication. While articles do not have to be part of an issue, some external services (such as CrossRef) require that articles be assigned to an issue. As such, it is recommended to use issues where possible.
-If your journal uses continuous publication, you may wish to create yearly issues to add articles to.
+On Janeway, issues organise articles for publication. While articles do not have to be part of an issue, some external services (such as Crossref) require that articles be assigned to an issue. As such, it is recommended to use issues where possible.
+If your journal uses continuous publication, it is recommended to create yearly issues to add articles to.
 
 Articles are typically assigned to issues during the **Pre-publication** stage, but can be assigned a projected issue at any point in the publication workflow. Issues can also be managed independently through the **Issue manager**, available from both the **Manager** page and the main sidebar.
 
-## Issue Types
+## Issue types
 
 Janeway provides two built-in issue types : 
 - Issue — the standard publication issue.
@@ -15,16 +15,20 @@ Janeway provides two built-in issue types :
 
 ## Volumes
 
-Issues will automatically be part of a volume, they can either have their own volume or share a volume with other issues.
+Issues will automatically be assigned to a volume. They can either have their own volume or share a volume with other issues (e.g., volume 1 - issue 1, volume 1 - issue 2, etc.).
 
-You may wish to set collection volumes to 0, if you do not wish for the collections to follow or interrupt the regular Volume-Issue order. (E.g. for collections you may continuously add to and arent part of specific years.)
+You can use volume 0 for (ongoing) thematic collections - especially those that are not tied to a specific year or publication sequence. Using volume 0 will also ensure they do not interrupt the listings of regular issues on the issue page.
 
-## Issue management
+>[!NOTE]
+>If no volume and issue numbers are specified when importing articles, they will be assigned to volume 0 issue 0. For this reason, it is recommended to avoid using volume 0 issue 0, as this may create duplicates when importing. This in turn can cause problems.
 
-The **Issue management** page lists all existing issues and provides options for creating, editing, reordering, and managing them.
+## Issue manager
 
-<!-- ![The Issue Management page.](../nstatic/issue-management.png) -->
+Articles are typically assigned to issues during the pre-publication stage. However, issues can also be managed independently through the **Issue manager**, accessible from both the manager page and the main sidebar. This page lists all existing issues and provides options for creating, editing, reordering, and managing them.
 
+![The Issue manager page.](/content/support/images/issue-manager.png)
+
+Using this page, you can perform the following general actions:
 - **Sort by date descending / ascending** 
   - Reorder issues by publication date. Sorting changes the display order of issues on the public site, and changes take effect immediately.
 
@@ -34,56 +38,36 @@ The **Issue management** page lists all existing issues and provides options for
 - **Create issue**
   - Lets you create a new issue. For more information, see [Creating and editing issues](#creating-and-editing-issues).
 
+In addition, the issue list is presented in a table format. For each issue, the following actions are available:
+- **View** <img src="../../support/images/preview-icon.png" width="15" height="15"/> — Opens the [Manage issue](#managing-an-issue) page, where you can edit metadata, manage the table of contents, assign guest editors, and upload galleys.
+- **Delete** <img src="../../support/images/trashcan-icon.png" width="15" height="15"/> — Permanently deletes the issue. This cannot be undone. 
+- **Make current** <img src="../../support/images/clock-icon.png" width="17" height="17"/> — Sets the selected issue as the journal’s current issue. The current issue does not display this button.
 
-
-> [!TIP]
-> To set the current issue, click the **Make current** button. The issue without this button *is* the current issue.
-
-> [!TIP]
-> To re-order the issues, you can drag and drop the rows of the tables or use the sort buttons at the top of the page.
-
->[!NOTE]
->Imports go to V1I1 if none is specified.
-
-## Display Settings
-
-In the top right of the **Issue management** page there is the **Edit display settings** button. This allows you to configure how issue titles and the issue page are displayed.
-
-You can turn these elements on or off:
-
-- Volume number
-- Issue number
-- Issue year
-- Issue title
-- Article number
-- Article page numbers
-- Issue DOI - see Issue DOI management <!-- missing hyperlink -->
-- Group issues by decade
-
-Here are a few example issue displays:
-
-- Volume 6 • Issue 3 • Fall 2015 • 5–17
-- Winter 2009 • 19 pages
-- Volume 35 • 2021 • Number 49
-
-> [!TIP]
-> If you want to display a custom issue title, disable everything except issue title, and use that field to form the issue display for each issue.
-
-> [!TIP]
-> You can use the article number field to set an arbitrary number for each article, whether to distinguish articles within each volume or issue or to number articles across volumes and issues. Article number is an optional field separate from article ID and can be set in **Edit metadata**.
-
-> [!TIP]
-> If your journal has a lot of issues you can enable the "Group issues by decade" feature to allow readers to jump to a specific decade on the issues interface.
+You can also drag and drop issues to manually change their order; the new order updates the public display immediately. You can also view publication data such as volume, issue number, publication date, and number of articles directly from the table.
 
 ## Creating and editing issue details
 
-You can create new issues from this page using the **Create issue** button and you view and edit the detail of individual issues by selecting them.
+You can create new issues from this page using the <img src="../../support/images/plus-icon.png" width="15" height="15"/> **Create issue** button and you view and edit the detail of individual issues by selecting them.
 
-<!-- ![An empty create issue form](../nstatic/create-issue.png) -->
+![An empty create issue form](/content/support/images/create-issue.png)
 
-Information on the sizes of the cover image and large image can be found in the Styling section
+You can set the standard issue metadata and images for the issue on this page. Information on the sizes of the cover image and large image can be found in the Styling section<!-- missing hyperlink-->. In addition, you can also provide identifiers for the issue (DOI or ISBN), set an issue type or provide an issue code.
 
-## Manage an issue
+- Issue code
+  - This optional alphanumeric [slug](https://en.wikipedia.org/wiki/Slug_(web_publishing)) is used to generate a human-readable URL for an issue. It should consist of lowercase letters, numbers, and hyphens (no spaces or special characters).
+For example, if you enter winter-special-issue, the issue URL will be:
+`yourjournal.com/collection/code/winter-special-issue/`
+
+- Issue type
+  - You can select the issue type here; you can either select 'issue' or 'collection', or any custom issue types you have created for the journal. <!-- missing hyperlink-->
+
+- Issue DOI
+  - You can enter the issue DOI here. It will be registered when articles belonging to it are registered. The value entered should be the DOI only (not a full URL). If the 'issue autoregistration' setting <!-- nmissing hyperlink--> is enabled, this field should remain empty, as the DOI will be created automatically during the article registration process.
+
+- Issue ISBN
+  - If this issue has an ISBN, it can be entered here. This will only be relevant for specific (non-serial) types of content such as conference proceedings.
+
+## Managing existing issues
 
 Clicking on **View** takes you through to the manage issue page where you can alter an individual issue. The page is split into 4 sections.
 
@@ -91,10 +75,9 @@ Clicking on **View** takes you through to the manage issue page where you can al
 - Table of Contents
 - Guest Editors
 - Galleys
-
 ### Issue management
 
-Here you can see the metadata for your issue, edit it, delete it and if the issue is published there is a link to view it on the front end.
+On this page, you can see the metadata for your issue, edit it, delete it and if the issue is published there is a link to view it on the front end.
 
 ### Table of contents
 
@@ -130,62 +113,38 @@ You can upload a Galley file for the whole issue, usually a PDF so that users ca
 > If you don't upload a Galley for the issue then Janeway will allow users to download a zip file of all the individual article galley files.
 
 
-
 <!-- needs to be edited and sorted, currently merged from different sections-->
+///
 
-## Issue Manager
+## Display settings
 
-The issue manager lets you create, edit, delete and manage article records for issues. The main interface presents a list of your existing issue records with buttons to:
+To configure how issue titles and details are displayed, click <img src="../../support/images/edit-icon.png" width="15" height="15"/>**Edit display settings** in the top-right corner of the **Issue management** page.
 
-- Create a new issue
-- Edit a given issue
-- Delete a given issue
-- Mark an issue as Current
+You can turn these elements on or off:
 
-It also displays some basic data about the issues like date published and the number of articles in an issue.
+- Volume number
+- Issue number
+- Issue year
+- Issue title
+- Article number
+- Article page numbers
+- Issue DOI - see Issue DOI management <!-- missing hyperlink -->
+- Group issues by decade
+  - If your journal has a lot of issues you can use this feature to allow readers to jump to a specific decade on the issues interface.
 
-<!-- ![Issue list](../../nstatic/issue-manager.png) -->
+Example display formats:
 
-### Creating a New Issue or Collection
+- Volume 6 • Issue 3 • Fall 2015 • 5–17
+- Winter 2009 • 19 pages
+- Volume 35 • 2021 • Number 49
 
-To create an issue select ***Create Issue*** in the top right and in the modal that appears you can complete the issue metadata.
+> [!TIP]
+> If you want to display a custom issue title, disable everything except issue title, and use that field to form the issue display for each issue.
 
-- Title  
-  - Optional, a title for the issue.
+> [!TIP]
+> You can use the article number field to set an arbitrary number for each article, whether to distinguish articles within each volume or issue or to number articles across volumes and issues. Article number is an optional field separate from article ID and can be set in **Edit metadata**.<!-- add this to section on article metadata-->
 
-- Volume  
-  - The volume number.
-
-- Issue  
-  - The issue number.
-
-- Date  
-  - The date published, if in the future the issue won't appear until the date published.
-
-- Cover Image  
-  - The cover image, see the example below.
-
-- Large Image  
-  - A large image file used at the head of the issue page, will be resized automatically but should be landscape.
-
-- Description
-
-- Issue type  
-  - Issues can be standard issues or can also be collections which are used to collect articles from across the journal into narratives.
-
-<!-- ![New issue form](../../nstatic/new-issue.png) -->
-
-### Issue Articles
-
-You can manage the article associated with a given issue by selecting the ***View*** option, the data of the issue will be displayed along with a list of articles grouped by section.
-
-<!-- ![An issue page](../../nstatic/issue-page.png) -->
-
-You can reorder the Section headers using the arrows Up and Down arrows on the right and you can re-order the articles within their sections by dragging and dropping them into the order you want. To add a new article into the issue select *Add Article* and select the article you want to add.
-
-In addition, if the issue has guest editors you can add them using the Guest Editor manager at the bottom of the Issue page.
-
-### Projected Issues
+## Projected issues
 
 Janeway allows editors to mark articles as projected to be published within a given issue. This can be done in the Editor Assignment stage by using the "**Assign Projected Issue"** button.
 
