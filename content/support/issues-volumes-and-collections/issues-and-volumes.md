@@ -39,7 +39,7 @@ Using this page, you can perform the following general actions:
   - Lets you create a new issue. For more information, see [Creating and editing issues](#creating-and-editing-issues).
 
 In addition, the issue list is presented in a table format. For each issue, the following actions are available:
-- **View** <img src="../../support/images/preview-icon.png" width="15" height="15"/> — Opens the [Manage issue](#managing-an-issue) page, where you can edit metadata, manage the table of contents, assign guest editors, and upload galleys.
+- **View** <img src="../../support/images/preview-icon.png" width="15" height="15"/> — Opens the [Manage issue](#managing-existing-issues) page, where you can edit metadata, manage the table of contents, assign guest editors, and upload galleys.
 - **Delete** <img src="../../support/images/trashcan-icon.png" width="15" height="15"/> — Permanently deletes the issue. This cannot be undone. 
 - **Make current** <img src="../../support/images/clock-icon.png" width="17" height="17"/> — Sets the selected issue as the journal’s current issue. The current issue does not display this button.
 
@@ -66,54 +66,39 @@ For example, if you enter winter-special-issue, the issue URL will be:
 
 - Issue ISBN
   - If this issue has an ISBN, it can be entered here. This will only be relevant for specific (non-serial) types of content such as conference proceedings.
-
+//
 ## Managing existing issues
 
-Clicking on **View** takes you through to the manage issue page where you can alter an individual issue. The page is split into 4 sections.
+Clicking on <img src="../../support/images/preview-icon.png" width="15" height="15"/> **View** in the table listing all issues takes you through to the issue page where you can alter an individual issue. The page is split into four sections.
 
-- Issue Management
-- Table of Contents
-- Guest Editors
+- Issue management 
+  - This block displays the issue metadata and allows you to edit it, delete it, mark it as the current issue, and if the issue is published there is a link to view it on the journal website.
+
 - Galleys
-### Issue management
+  - You can upload a galley file for the whole issue, usually a PDF , so that users can download the full issue in one go.
 
-On this page, you can see the metadata for your issue, edit it, delete it and if the issue is published there is a link to view it on the front end.
+- Table of contents
+- Guest editors
 
 ### Table of contents
 
-In the Table of Contents section, you can add articles to the issue, sort the sections and sort the articles within their sections.
+In this section, you can add articles to or remove articles from the issue, sort the sections and sort the articles within their sections.
 
 For each section, there are arrow icons that allow you to move the section up and down; each of the articles can be dragged and dropped into order from inside their section.
 
 <!-- ![Issue table of contents](../nstatic/issue-table-of-contents.png) -->
 
-You can drop an article from an issue using the Remove link and add new ones clicking the **Add article** link.
+You can drop an article from an issue by clicking <img src="../../support/images/unlink-icon.png" width="15" height="15"/>**Remove** and add new ones by clicking **Add article**.
 
 <!-- ![Articles that can be added to issues](../nstatic/issue-articles.png) -->
 
-A list of all articles published in the journal that are not already in the issue is displayed and you can use the Add button to place it in the issue.
+A list of all articles in the journal not already in the issue is displayed, and you can click the <img src="../../support/images/plus-icon.png" width="15" height="15"/> **Add** button to place it in the issue.
 
-### Guest Editors
+### Guest editors
 
-An issue can list Guest Editors if the articles aren't being handled by the normal editorial team. Use the Manage button to control who appears as a Guest Editor for an issue/collection.
-
-<!-- ![An issue with no guest editors](../nstatic/empty-guest-editors.png) -->
-
-<!-- ![An issue with no guest editors](../nstatic/manage-guest-editors.png) -->
-
-When adding a new guest editor you can also enter a role, the default text for this role is *Guest Editor* though you can change it. Use the **Add** button to add a new guest editor.
-
-### Galleys
-
-You can upload a Galley file for the whole issue, usually a PDF so that users can download the whole issue in one go.
+An issue can list guest editors if the articles aren't being handled by the normal editorial team. Click <img src="../../support/images/plus-icon.png" width="15" height="15"/>**Manage** to add or edit guest editors for the issue/collection. When adding a new guest editor you can also enter a role other than 'Guest editor', which is set as the default. All users with activated accounts are listed here, click the <img src="../../support/images/plus-icon.png" width="15" height="15"/> **Add** button next to their name to add them as a guest editor.
 
 <!-- ![An issue with no guest editors](../nstatic/issue-galley.png) -->
-
-> [!TIP]
-> If you don't upload a Galley for the issue then Janeway will allow users to download a zip file of all the individual article galley files.
-
-
-<!-- needs to be edited and sorted, currently merged from different sections-->
 ///
 
 ## Display settings
