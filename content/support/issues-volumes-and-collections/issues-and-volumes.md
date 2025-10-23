@@ -13,7 +13,7 @@ Janeway provides two built-in issue types :
 - **Issue**  
   The standard publication issue.
 - **Collection**  
-  Can be esed to group related articles across volumes or years.
+  Can be used to group related articles across volumes or years.
 
 ## Volumes
 
@@ -71,7 +71,7 @@ For example, if you enter winter-special-issue, the issue URL will be:
 
 - **Issue ISBN**  
   If this issue has an ISBN, it can be entered here. This will only be relevant for specific (non-serial) types of content such as conference proceedings.
-//
+
 ## Managing existing issues
 
 Clicking on <img src="../../support/images/preview-icon.png" width="15" height="15"/> **View** in the table listing all issues takes you through to the issue page where you can alter an individual issue. The page is split into four sections.
