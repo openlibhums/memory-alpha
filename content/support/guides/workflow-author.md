@@ -20,12 +20,15 @@ If you already have an account:
     - From the drop-down menu in the top right-hand corner. This will be visible both on the journal webpage when you click **Account** and within Janeway when you click on your profile in the top right-hand corner.
 
 - On the journal website:
+
 ![The dropdown menu on the journal website.](../images/workflow/author-submission-dropdown-website.png)
 
 - On the Janeway journal platform:
+
 ![The dropdown menu on the submission platform](../images/workflow/author-submission-dropdown-loggedin.png)
 
 - From the author dashboard within Janeway.
+
 ![The author dashboard block in Janeway. Submit new article in the top right corner of the block is highlighted.](../images/workflow/author-dashboard-block.png)
 
 If you already have an account, you will usually automatically be given the author role in Janeway when you submit an article. However, some journals will ask you to provide the details of the manuscript’s author or select yourself as the author manually. For more information on this, see the Author information <!-- Missing hyperlink --> section of this guide.
@@ -52,6 +55,7 @@ If they have been enabled, the publication fees, submission checklist and copyri
 
 ### Article information
 The **article information** page is where you will provide the metadata for your submission. Required fields will be marked with an asterisk, but we recommend that you fill out optional fields as well.
+
 ![The article information page, filled with example data.](../images/workflow/author-article-information.png)
 
 Metadata that may be requested on this page:
@@ -68,6 +72,7 @@ Metadata that may be requested on this page:
     - This is usually disabled if the journal only accepts one license type.
 - Keywords
     - You can add keywords to your article to help people discover it. To add keywords, type the word or phrase into the textbox and press 'Enter' to add it. If you wish to delete a keyword, click the **X** icon next to it within the textbox. Keywords can include spaces and special characters.
+
 ![""](../images/workflow/author-keywords.png)
 
 Individual journals can add more fields to this page. These will be displayed under **Additional fields**.
@@ -89,9 +94,7 @@ To add more authors to a submission, you can either search the journal's author 
         - Last name
         - Email address
 
-An account will also be generated for the author based on this information so that they can log in to the journal and check the progress of the paper. They will need to use the password reset function to get access to their account.
-
-![" "](..\images\workflow\author-submission-author-manual.png)
+        ![" "](..\images\workflow\author-submission-author-manual.png)
 
 If the search of the journal's author list or ORCID search are successful, author details will be added automatically. You can still make edits, by clicking on **Edit author details**. When an author already has an account with the journal or another journal under the press, this submission will be linked to their existing record.
 
@@ -101,6 +104,7 @@ To change the correspondence author, another author with a pre-existing (confirm
 >The correspondence author does not necessarily have to be the primary author. The correspondence author can also be changed after submission.
 
 Janeway uses [Research Organization Registry (ROR)](https://ror.org/) to manage affiliation data. You can add author affiliation by clicking **Edit author details** and scrolling down to **Affiliations**. From here, you can add, remove and edit affiliations. If an author ORCID has been provided, their affiliation will be added automatically from their ORCID. You can still edit this, if it is incorrect.
+
 ![" "](..\images\workflow\author-submission-edit-details.png)
 
 After the submission is completed, co-authors will be notified and will be able to access the submission and update or edit their details.
@@ -128,6 +132,7 @@ If you do not have any funders to add, you can skip this page by clicking **Save
 
 ### Review
 The **Review** page displays a run-down of the article you've submitted, metadata, files and authors. From here, you can click **Complete** to submit or jump back to other stages to make changes. Once you have finalised your submission, you cannot make any changes until editors request revisions (if applicable). 
+
 ![""](../images/workflow/author-submission-review.png)
 
 ## Revisions
@@ -190,20 +195,26 @@ Typeset proofs are not an opportunity to make changes to the content or style of
 ## Proofing
 After your paper has been accepted and copyedited, the editors might send you a request to proof the typeset manuscript. This is the final version that will be made publicly available once the article gets published in the journal.
 
+[" "](/content/support/images/workflow/author-proofing-block.png)
+
+[" "](/content/support/images/workflow/author-proofing-view-assignment.png)
+
 For journals that publish content in multiple media formats (HTML, PDF, XML, etc.), it is important that you check all these files before publication. This will not require any technical knowledge; authors are not expected to be able to open and read XML/HTML code. Instead, Janeway provides a **View file** button, which allows you to preview how the article will look once it is published.
-#![Typeset Files download and preview](../images/workflow/author-proofreading.png)
-#Well that's not right.
+
+![Typeset Files download and preview](../images/workflow/author-proofing-view-file.png)
 
 Once you've previewed the files, you can provide feedback in two ways:
 
 - Fill in the **Notes** field. You can use this to add not just text, but also to paste in screenshots or other relevant images.
+
 ![Providing proofreading notes via a text editor](../images/workflow/author-proofreading-notes.png)
 
 - Upload an annotated file. In the case of PDF files, you can download the file and make annotations offline using PDF readers. When this is done, you can upload the annotated file for the editor to review.
+
 ![Providing proofreading notes by uploading an annotated file.](../images/workflow/author-proofreading-annotated-file.png)
 
 It is important to proof all the files thoroughly in order to avoid unnecessary follow-up rounds. This saves everyone time, work, and money and makes the publishing process run much more smoothly.
 
-Once you have provided your feedback, the editorial team might send you another proofing task once the requested corrections have been made. If this happens, the process will be exactly the same as in the first round of proofing. If there are no (or only very minor) corrections, you will likely not be asked to review again.
+Click **Mark task as complete** to finish proofreading. Once you have provided your feedback, the editorial team might send you another proofing task once the requested corrections have been made. If this happens, the process will be exactly the same as in the first round of proofing. If there are no (or only very minor) corrections, you will likely not be asked to review again.
 
 Once the article is published, all authors will receive a notification through the email addresses used when the article was submitted (except if this has been updated before publication).
