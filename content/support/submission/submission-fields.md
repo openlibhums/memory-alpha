@@ -42,38 +42,38 @@ Short questions or prompts such as “Is this your first submission?” or “Up
 ### Kind
 A submission form can have the following types of form elements:
 
-- Text field
-	- This creates a single-line input area for short text answers such as names, keywords or subjects. It does not allow for formatting.
+- **Text field**   
+	This creates a single-line input area for short text answers such as names, keywords or subjects. It does not allow for formatting.
 
 ![" "](../../support/images/element-text-field.png)
 
-- Text area
-	- This provides a larger, multi-line input area for longer texts such as comments and descriptions. It allows for formatting and line breaks.
+- **Text area**   
+	This provides a larger, multi-line input area for longer texts such as comments and descriptions. It allows for formatting and line breaks.
 
 ![" "](../../support/images/element-text-area.png)
 
-- Checkbox
-	- This allows you to ask users to tick a box. These can be used to declare no competing interests or agree to terms and conditions. 
+- **Checkbox**   
+	This allows you to ask users to tick a box. These can be used to declare no competing interests or agree to terms and conditions. 
 
 ![" "](../../support/images/element-check-box.png)
 
-- Select (dropdown)
-	- This lets you provide a set of options to be displayed in a dropdown list, allowing users to select one. 
+- **Select (dropdown)**   
+	This lets you provide a set of options to be displayed in a dropdown list, allowing users to select one. 
 
 To add these options, use the **Choices** field. The options should be separated by the bar (" | ") character. This should look like this: "choice 1|choice 2|choice 2". 
 
 ![" "](../../support/images/element-select.png)
 
-- Email
-	- This is a specific text field for emails. It checks if an email address is correctly formatted before a user submits the form and prompts them to edit it if it is not. 
+- **Email**   
+	This is a specific text field for emails. It checks if an email address is correctly formatted before a user submits the form and prompts them to edit it if it is not. 
 
-- Upload
-	- This lets a user upload a file from their device.
+- **Upload**   
+	This lets a user upload a file from their device.
 
 ![" "](../../support/images/element-file-upload.png)
 
-- Date
-	-This asks the user to provide a date.
+- **Date**   
+	This asks the user to provide a date.
 
 ### Choices
 The **Choices** field used in the dropdown element will appear for all of these fields. However, it can be ignored in all other cases as it only applies to **Select (dropdown)**. 

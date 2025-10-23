@@ -16,9 +16,11 @@ The reason these can be accessed and edited from two places is that submission i
 For example, if you edit your copyright notice through either the **Submission page items** or **Submission settings**, Janeway will automatically update the copyright notice on both the submission page and on the submission process.
 
 In the example below, you can see the copyright notice for the Open Library of Humanities Journal as it appears on https://olh.openlibhums.org/submissions/. 
+
 ![" "](../../support/images/copyright-submissions-page.png)
 
 Here, you can see the same text as it appears in the submission process:
+
 ![" "](../../support/images/copyright-submission-process.png)
 
 If an edit was made to this copyright notice through the **Submission page items**, it would change on both pages.  
@@ -32,19 +34,19 @@ If there is information you would like to display on the submission page that is
 
 There are three types of custom submission page items you can create using this. 
 
-- Custom text
-You can add a title and custom text, which will display on the submission information page.
+- **Custom text**   
+    You can add a title and custom text, which will display on the submission information page.
 
 ![" "](../../support/images/custom-submission-page-item.png)
 
-- Special displays
-There are two types of special displays, Licences and Sections. These will display the license and article type (section) information for your journal. It will take the information supplied through the License manager and Sections (article types) <!--missing hyperlink-->.
+- **Special displays**  
+    There are two types of special displays, Licences and Sections. These will display the license and article type (section) information for your journal. It will take the information supplied through the License manager and Sections (article types) <!--missing hyperlink-->.
 
-- Setting-based displays
-You can also set a title and select a setting to display. This will then display the text  / information set as part of the setting - this will allow consistency and ensures text only needs to be updated in one place. If you wish to check the content of the setting, the best way to do so is:
-1. Go to the **Manager dashboard**
-2. Go to **All settings**
-3. Search for the setting you wish to check.
+- **Setting-based displays**   
+    You can also set a title and select a setting to display. This will then display the text  / information set as part of the setting - this will allow consistency and ensures text only needs to be updated in one place. If you wish to check the content of the setting, the best way to do so is:
+    1. Go to the **Manager dashboard**
+    2. Go to **All settings**
+    3. Search for the setting you wish to check.
 
 For example, if you wish to display the acceptance criteria, using the acceptance criteria setting:
 
