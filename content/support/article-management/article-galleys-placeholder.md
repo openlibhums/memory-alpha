@@ -17,6 +17,21 @@ You may publish a single galley (for example, PDF only) or multiple galley types
 >[!NOTE]
 >You can also upload other file types such as Microsoft Word documents (DOCX or DOC) or LaTex (TEX) files. Janeway does not restrict what files can be uploaded as galley files. 
 
+## Editing galleys
+
+> [!WARNING]
+> Editing a galley will change how it is displayed. If making changes to a published piece, it is recommended to add a Publisher Note alongside it.
+
+### PDF
+
+### JATS-XML
+
+### HTML
+
+## Replacing galleys
+
+## Galley preview
+
 **WIP**
 
  this needs more info as galleys-related problems are more common than I'd like
@@ -36,8 +51,7 @@ Like the Production page, the article archive allows you to upload new and repla
 
 <!-- ![Galley manager block](../nstatic/galleys-archive.png) -->
 
-> [!WARNING]
-> Editing a galley will change how it is displayed. If making changes to a published piece, it is recommended to add a Publisher Note alongside it.
+
 
 > [!TIP]
 > The Edit Galleys link will take you to the Production page.
