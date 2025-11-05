@@ -1,5 +1,21 @@
 title: Article galleys
-# Article galleys
+# Article galleys]
+
+## What is a galley
+A galley is the final, formatted version of an article ready for publication. The term originates from traditional printing, where a 'galley proof' was a typeset version of content used for final review before printing. In digital publishing, a galley represents the final published format of your article. Once an article has been accepted and copyedited, one of more galley formats are produced for publication. These galleys are what readers will download or view when they access the published article.
+
+You may publish a single galley (for example, PDF only) or multiple galley types for the same article (for example, PDF and XML). Offering multiple formats allows readers to choose how they access the journal content, based on their needs.
+
+## Galley types
+
+### PDF
+
+### JATS-XML
+
+### HTML
+
+>[!NOTE]
+>You can also upload other file types such as Microsoft Word documents (DOCX or DOC) or LaTex (TEX) files. Janeway does not restrict what files can be uploaded as galley files. 
 
 **WIP**
 
