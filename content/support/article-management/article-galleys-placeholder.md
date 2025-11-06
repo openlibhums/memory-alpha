@@ -11,6 +11,7 @@ A galley is the final, formatted version of an article ready for publication. Th
 You may publish a single galley (for example, PDF only) or multiple galley types for the same article (for example, PDF and XML). Offering multiple formats allows readers to choose how they access the journal content, based on their needs.
 
 ## Galley types
+The three most common galley types are PDF, JATS-XML and HTML, though Janeway does not restrict which file types can be made available for download — you may also offer DOCX, DOC, TEX, or other formats as downloadable galleys depending on your journal's needs. For displaying content directly on the webpage, Janeway supports HTML and JATS-XML galleys.
 
 ### PDF
 
@@ -18,10 +19,6 @@ You may publish a single galley (for example, PDF only) or multiple galley types
 
 ### HTML
  - Link to Pandoc Page
-
-
->[!NOTE]
->You can also upload other file types such as Microsoft Word documents (DOCX or DOC) or LaTex (TEX) files. Janeway does not restrict what files can be uploaded as galley files. 
 
 ## Editing galleys
 
