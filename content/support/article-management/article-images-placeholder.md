@@ -18,9 +18,11 @@ If no landscape image is uploaded, the **Default large image** will be used wher
 
 ## Thumbnail image  
 
-The thumbnail is a small square image displayed on pages listing articles such as the **All articles** or the **Issue articles** list. A width-to-height ratio of about 3 to 4 is recommended. If no thumbnail is set, this defaults to the Janeway logo.
+The thumbnail is a small square image displayed on pages listing articles such as the **All articles** or the **Issue articles** list. A width-to-height ratio of about 3:4 is recommended. If the image is another size, it will be resized to fit into the box whilst preserving the original image ratio. For an example, see the image below:
 
-<!-- ![Example of thumbnail display on the article listing page](../../images/thumbnail.png)-->
+![" "](/content/support/images/thumbnails-article-list.png)
+
+Make sure to set a default image that can show when no individual thumbnail is set. This can be done through **Images** under **Journal settings** on the Manager dashboard.
 
 ## Meta image  
 
