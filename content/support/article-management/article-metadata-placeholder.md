@@ -1,54 +1,39 @@
 title: Article metadata
 # Article metadata
 
-**WIP**
+There are various ways to access an article's metadata depending on the status of an article.
 
-> Joe, this page could do with your input.
+For unpublished articles:
+1. Go to the article page within the workflow.
+2. Click on **Logs, docs and more** on the right-hand side of the blue workflow progress bar.
+3. Select 
+  a) **Article archive** if you wish to only see the metadata, 
+  b) **Edit metadata** if you wish to edit it or, 
+  c) **Edit author metadata** if you wish to edit the author metadata.
 
--How to find article metadata.
-Published VS in-progress
+![" "](/content/support/images/logs-docs-metadata.png)
 
-The first block of the page lists most of the article's metadata. To change it you can click **Edit** button.
-
-<!-- ![Top of the article archive page](../nstatic/edit-metadata.png) -->
-
-Additionally, you can make changes to the author records and re-order them as required.
-
-## Metadata fields
+For published articles:
+1. Find the published article.
+2. Click on the Account dropdown in the top-right corner.
+3. Click **Edit article** this will lead to the **Article archive** page, where you can view the article's metadata.
+![" ""](/content/support/images/front-end-metadata.png)
+4. You can now click on:
+  a) **Edit publication information**
+  b) **Edit metadata**
+  c) Or scroll down to the author section and click **Edit author metadata**
+Alternatively, you can also click on **Logs, docs and more** and find these options in the dropdown menu.
 
 ## Identifiers
+Identifiers can be managed on an indivual basis or, if using CrossRef DOIs, in bulk.
 
 Any identifiers such as DOIs are listed here and a link to manage them is in the top right of the block.
-
-- Identifiers Janeway can handle
-
-<!-- ![The article-level identifiers manager](../nstatic/edit-doi.png) -->
 
 > [!TIP]
 > You can also manage DOIs at the journal level as an editor (and at the press level as a staff user) using the DOI Manager.
 
-## Publication Information
+<!-- ![The article-level identifiers manager](../nstatic/edit-doi.png) -->
 
-The article archive page has a link to the Pre-Publication page where you can make changes to any details there.
+See also: Identifiers <!-- missing hyperlink -->
 
 ## ROR
-
-## Google Scholar
- - Google Scholar indexing is automatic; they use a webcrawler that looks for relevant materials (articles, monographs, preprints, reports, etc). It takes some time for new journals to appear on Google Scholar and for changes to existing content to show. [Google Scholar advises](https://scholar.google.com/intl/en/scholar/inclusion.html#troubleshooting) it may take 6-9 months for changes to appear.
-
- - If your journal is not properly indexed:
-  - Contact support, we work with them to make sure all journals are captured
-  - Metadata issues
-    - Gotta compare galleys against meta-tags in the HTML.
-   
-[Google Scholar documentation.](https://scholar.google.com/intl/en/scholar/inclusion.html#overview)
-
-## OAI-PMH
-
-## KBART
-
-## Credit
-
-## ORCID
-
-## Funder ref
