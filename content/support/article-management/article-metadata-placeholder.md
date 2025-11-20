@@ -37,3 +37,5 @@ Any identifiers such as DOIs are listed here and a link to manage them is in the
 See also: Identifiers <!-- missing hyperlink -->
 
 ## ROR
+
+Joe: What would you like here / is there anything not covered by other parts of the ROR docs? SHould I just link?
