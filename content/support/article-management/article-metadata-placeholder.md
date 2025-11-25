@@ -1,7 +1,7 @@
 title: Article metadata
 # Article metadata
 
-There are various ways to access an article's metadata depending on the status of an article.
+There are various ways to access an article's metadata depending on the status of an article. This page will provide an overview, for more general information on metadata, see: metadata on Janeway<!-- missing hyperlink-->.
 
 For unpublished articles:
 1. Go to the article page within the workflow.
@@ -37,5 +37,10 @@ Any identifiers such as DOIs are listed here and a link to manage them is in the
 See also: Identifiers <!-- missing hyperlink -->
 
 ## ROR
+Affiliation metadata in Janeway is managed using the [Research Organization Registry](https://ror.org/).They assign persistent identifiers to organizations, like DOIs for articles, ORCIDs for people, and ISBNs for books. This allows multiple names to be associated with a single organization, for easier discovery and display, and it adds to the possibilities for linked open data. To read more about RoR (and CRediT) on Janeway, see Metadata on Janeway<!-- missing hyperlink -->.
 
-Joe: What would you like here / is there anything not covered by other parts of the ROR docs? SHould I just link?
+## Publisher notes
+
+Publisher notes appear on the article page below the abstract and how to cite block. These can be used to notify readers of small changes to the paper like a post-publication update to fix spelling etc. The publisher notes can be edited from the **Article archive** page.
+
+<!-- Publisher note on the OLH theme](../nstatic/publisher-note.png) -->
