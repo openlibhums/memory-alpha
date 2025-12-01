@@ -3,7 +3,7 @@ title: Article metadata
 
 There are various ways to access an article's metadata depending on the status of an article. This page will provide an overview, for more general information on metadata, see: metadata on Janeway<!-- missing hyperlink-->.
 
-For unpublished articles:
+For unpublished articles, you can either scroll to the bottom-right corner with the decisions and select **View metadata** (granted an article is no longer in the unassigned stage), or you can:
 1. Go to the article page within the workflow.
 2. Click on **Logs, docs and more** on the right-hand side of the blue workflow progress bar.
 3. Select 
