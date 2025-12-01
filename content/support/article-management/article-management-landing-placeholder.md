@@ -12,8 +12,6 @@ Additionally, there are pages to manage the publication schedule, and archived a
 ## Publication schedule
 Any articles that are currently set to publish on a future date will appear in a list on this page. It will list the title, section, DOI and scheduled publication date.
 
- you publish with a publication date in the future will appear in a list on this page.
-
 ![Article listed for publication in the future](/content/support/images//pub-schedule.png)
 
 ## Archiving articles
