@@ -21,8 +21,12 @@ Any articles that are currently set to publish on a future date will appear in a
 4. Click **Archive article**
 
 # Article archive
-This page lists all rejected and archived articles. This allows you to browse these, which may be helpful if needing to check why something was rejected or to reinstate an article, if it was rejected or archived by accident. An article can be moved back to the workflow by:
+This page lists all rejected and archived articles. This allows you to browse these, which may be helpful if you need to check why something was rejected. An article can be moved back to the workflow by:
 1. Select the article.
 2. Click **Logs, docs and more** on the right-hand side of the blue workflow progress bar.
 3. Click **Manage workflow stage**
-4. You can now move the article back to the stage where it was before it was archived/rejected by clicking on the **Move to stage** button.
+4. You can now move the article back to the stage where it was before it was archived or rejected by clicking on the **Move to stage** button.
+
+Article rejections can also be undone from the **Article Archive** page (the page with the metadata and article information), using the **Undo article rejection** button.
+![" "](/content/support/images/undo-rejection.png)
+
