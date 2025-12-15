@@ -1,8 +1,7 @@
 title: Managing user accounts
 # Managing user accounts
 
-The **Users and Roles** section of the manager has various controls for
-different permission levels.
+The **Users and roles** section of the manager dashboard has various controls for different permission levels.
 
 Editors have control of:
 -   User accounts at the journal level.
@@ -16,7 +15,7 @@ Both of these are only available at the press level.
 
 ## Journal users
 If you are an editor or staff member, you can manage user accounts for a
-journal via the **Journal Users** page.
+journal via the **Journal users** page.
 
 ![The Journal Users page.](../images/journal_users.png)
 
@@ -29,7 +28,7 @@ accounts.
 
 Each user's assignment history is also available from this view.
 
-## All users
+## All press users
 
 If you are staff, you can see all users across a press (a.k.a. Janeway
 installation) - this view is only available from the Press Manager interface.
