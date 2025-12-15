@@ -5,7 +5,7 @@ The Content Manager is Janeway's CMS. Pages can be created and edited using our 
 
 <!-- ![Content Manager](../../nstatic/content-manager.png) -->
 
-## Add a New Page
+## Add a new page
 
 To add a new page to your journal select "+ Add New Page" and fill in the fields as detailed in the text beneath each field.
 
@@ -22,11 +22,11 @@ An example: <https://orbit.openlibhums.org/site/privacy>
 <!-- explain how the links/ slugs work as that is always a mess -->
 <!-- something on creating custom pages -->
 
-## Edit a Page
+## Edit a page
 
 From the Content page you can see a list of the pages currently on your journal. Select Edit to make changes.
 
-###Delete a Page
+### Delete a page
 
 To delete a page use the red Delete button.
 
