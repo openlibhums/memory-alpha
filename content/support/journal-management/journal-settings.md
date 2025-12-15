@@ -6,13 +6,13 @@ In journal settings, you can set basic information about the journal, configure 
 
 If you have the Janeway role of editor or staff, you can access Journal Settings by selecting **Manager** under **Staff**.
 
-## All Settings
+## All settings
 
 The All Settings page lists every underlying journal-level setting within Janeway and allows you to edit them. The setting groups are:
 
 - Crossref
 - Email
-- Email Subject
+- Email subject
 - General
 - Identifiers
 - Preprints
