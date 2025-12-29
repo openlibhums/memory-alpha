@@ -1,22 +1,54 @@
 title: Activating accounts
 # Activating accounts
 
-This section covers how to find if an account has been activated and, if not, how to activate it as inactive accounts are a common cause of login issues. Users who have not yet activated their account cannot log in to Janeway.
+This page explains how to check whether a user account has been activated and how to activate inactive accounts.
+
+As users must activate their account before they can log in to Janeway, inactive accounts are a common cause of login issues.
 
 ## Inactive users
-There are two places from which to check and manage the activation status of accounts: the **Journal users** page and **Inactive users** page. Both are found under **Users & roles** on the Manager dashboard. The **Journal users** page is available to editors and journal managers, where as the inactive users page is accessible to staff only.
+There are two places from which to check and manage the activation status of accounts: 
+- **Journal users**
+- **Inactive users**.
 
-Journal users is the easiest one and we recommend it. To see all inactive uses, use the filter on the left-hand side, set to **Inactive** and click **Apply**. This will list all inactive users on the journal. You can also search for specific users with their name / email address.
+Both are found under **Users & roles** on the Manager dashboard. The **Journal users** page is available to editors and journal managers, where as the **Inactive users** page is accessible to staff only.
 
-**Inactive users** lists all users who have not yet activated their accounts.
+To view inactive users:
+1. Open **Journal users**.
+2. Use the filter on the left-hand side.
+3. Set **Status** to **Inactive**.
+4. Click **Apply**.
 
-### Activating accounts
+This will list all inactive users on the journal. You can also search by name or email address.
 
-After finding an inactive account, you can activate it by clicking **edit** to open the account page. On the account page, click **Yes** under **Is active**
+The **Inactive users** page lists all inactive users across the press who have not yet activated their accounts.
 
-[image].
+## Activating accounts
+After finding an inactive account, 
 
-The user will now be able to login into the journal.- 
+Once you have identified an inactive account through either **Journal users** or **Inactive users**:
+1. Click **Edit** next to the user to open the account page.
+2. Under **Is active**, select **Yes**.
+3. Save your changes.
+
+![Account activation toggle.](../images/activate-account.png)
+
+The user will now be able to login into the journal.
+
+### Troubleshooting
+
+-Resending activation emails
+  Only from admin?
+
+Account activation should not trigger an email (check).
+
+Users usually activate through a link sent to them.
+
+/Does ORCID require activation?
+/Do author accounts automatically activate upon submission?
+/Do reviewer accounts with one-click review? -> check Mauro's suggested solution for the issue encountered.
+/Why can accounts be inactive? -> NEarly always because not activated. Rarely manually deactivated.
 
 ## Authenticated users
-It presents a list of users who are currently logged into your Janeway installation. This page is only accessible to users with staff permission.
+The **Authenticated users** page shows a list of users currently logged in to your Janeway installation.
+
+This page is only accessible to users with staff permission.

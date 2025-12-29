@@ -7,6 +7,8 @@ Janeway supports ORCID login.
 - How to register
 - How to login
 
+- Is ORCID mutually exclusive with SSO?
+
 <!-- General info - needs some input from dev -->
 
 ## Using ORCID to login to Janeway
