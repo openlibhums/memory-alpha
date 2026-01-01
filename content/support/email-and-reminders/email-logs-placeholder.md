@@ -9,7 +9,7 @@ You can view an article's logs through **Logs, docs and more**, which is found i
 
 On this page, you can see:
 - Entry type  
-     What  type of action has been logged.
+     What type of action has been logged.
 - Date
 - Actor  
     Who iniated the action.
@@ -28,11 +28,14 @@ If the action logged was an email:
 
 ## Interpreting statuses
 
-- what do the statuses mean?
-- Coloured dots -> rely on using mailgun as the underlying email service. If using Google mail, no coloured dots.
-- Cant track what happens beyond our side - emails blocked by the local server, we cannae track.
+Emails sent through Janeway can have multiple statuses, accompanied with colour-coded dots. The coloured dots will only communicate a status if your Janeway installation uses Mailgun for its email services. If you are using Googlemail, the coloured dots will not convey any information. Janeway cannot track what occurs outside of the installation and the mailservice attached. E.g., if emails are blocked by the local, receiving servers we cannot track this. If you think you may be having email delivery issues, contact your system administrator.
 
-- Not delivered messages? -> check with dev.
+Janeway email statuses:
+
+- No information
+- Accepted
+- Delivered
+- Failed <!-- check with dev-->
 
 ## Actions
 
