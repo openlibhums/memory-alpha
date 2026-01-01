@@ -7,9 +7,9 @@ Also needs a little more info on how to put this into use. Probably part on this
 
 ## Templates
 
-### Review Assignment
+### Review assignment
 
-Template Code: review_assignment
+Template code: review_assignment
 
 This template is sent to potential reviewers inviting them to submit a review.
 

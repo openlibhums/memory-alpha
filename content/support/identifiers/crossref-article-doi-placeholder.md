@@ -61,19 +61,19 @@ so test it out on a smaller group first.
 
 ## Interpreting registration status
 
-Unknown  
-Janeway doesn't know the status. Try **Poll for status**.
+- Unknown   
+    Janeway doesn't know the status. Try clicking **Poll for status**.
 
-Not yet registered  
-This DOI hasn't been registered yet. You can register it if what you see
+- Not yet registered  
+    This DOI hasn't been registered yet. You can register it if what you see
 in the **DOI** column looks right (including pattern previews).
 
-Queued at Crossref  
-The deposit batch you sent is waiting to be read by the Crossref
+- Queued at Crossref  
+    The deposit batch you sent is waiting to be read by the Crossref
 servers.
 
-Registered  
-Success! Crossref understood all the metadata you sent and didn't find
+- Registered  
+    Success! Crossref understood all the metadata you sent and didn't find
 any problems with it.
 
 > [!TIP]
@@ -81,22 +81,22 @@ any problems with it.
 resolve correctly, if the URL it points to isn't fully operational yet
 on the Janeway side (i.e., the article isn't published).
 
-Registered (but some citations not correctly parsed)  
-Crossref understood the article-level metadata, but when it went to
+- Registered (but some citations not correctly parsed)  
+    Crossref understood the article-level metadata, but when it went to
 process the citations, there were errors. Check the XML in the
 **Response** column for details.
 
-Registered with warning  
-Crossref understood and registered the DOI, but sent back a warning.
+- Registered with warning  
+    Crossref understood and registered the DOI, but sent back a warning.
 Check the XML in the **Response** column for details.
 
-Registration failed  
-Crossref tried to register the DOI but couldn't because of a problem.
+- Registration failed  
+    Crossref tried to register the DOI but couldn't because of a problem.
 Check the XML in the **Response** column for details.
 
-## Crossref Settings
+## Crossref settings
 
-To edit the Crossref settings, select **Crossref Settings** from the
+To edit the Crossref settings, select **Crossref settings** from the
 manager interface. The fields are as follows:
 
 Use Crossref DOIs  
