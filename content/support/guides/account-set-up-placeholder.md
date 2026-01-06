@@ -1,6 +1,6 @@
-title: Set up an Account on Janeway
+title: Set up an account on Janeway
 
-# Set up an Account on Janeway
+# Set up an account on Janeway
 
 ## Account without a submission
 

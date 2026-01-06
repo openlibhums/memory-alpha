@@ -44,12 +44,12 @@ The first page of the submission process is the author agreement. Depending on h
 > [!NOTE]
 > Please note that a Voluntary Author Contribution and Article Processing Charge are different. The former is entirely optional and not required for publication in a journal. For more information about publication fees, visit the relevant journal’s policy page(s) or contact its editorial team.
 
-- Submission checklist
-    - The submission checklist will display any steps you need to take before submitting the manuscript (e.g. formatting).
-- Copyright notice
-    - The copyright notice specifies the license under which the paper will be published and any rights you may need to sign over to the publisher.
-- Competing interests
-    - If you have any competing interests that the editors should take into account when examining your paper, this is where you will need to disclose them.
+- Submission checklist  
+    The submission checklist will display any steps you need to take before submitting the manuscript (e.g. formatting).
+- Copyright notice  
+    The copyright notice specifies the license under which the paper will be published and any rights you may need to sign over to the publisher.
+- Competing interests  
+    If you have any competing interests that the editors should take into account when examining your paper, this is where you will need to disclose them.
  
 If they have been enabled, the publication fees, submission checklist and copyright notice fields will be required. This means that you _must_ select the checkboxes in order to complete a submission. If you have any issues with any of the clauses, it is best to contact the editor(s) before you submit your work.
 
@@ -59,19 +59,19 @@ The **article information** page is where you will provide the metadata for your
 ![The article information page, filled with example data.](../images/workflow/author-article-information.png)
 
 Metadata that may be requested on this page:
-- Title
-    - This field is always required.
+- Title  
+    This field is always required.
 - Subtitle
-- Abstract
-    - Whether or not an abstract is required will depend on the individual journal.
-- Language
-    - This is usually only required if the journal publishes in multiple languages.
-- Section
-    - This refers to the type of article the paper is (e.g., research article, book review, editorial, etc.)
-- Licence
-    - This is usually disabled if the journal only accepts one license type.
-- Keywords
-    - You can add keywords to your article to help people discover it. To add keywords, type the word or phrase into the textbox and press 'Enter' to add it. If you wish to delete a keyword, click the **X** icon next to it within the textbox. Keywords can include spaces and special characters.
+- Abstract  
+    Whether or not an abstract is required will depend on the individual journal.
+- Language  
+    This is usually only required if the journal publishes in multiple languages.
+- Section  
+    This refers to the type of article the paper is (e.g., research article, book review, editorial, etc.)
+- Licence  
+    This is usually disabled if the journal only accepts one license type.
+- Keywords  
+    You can add keywords to your article to help people discover it. To add keywords, type the word or phrase into the textbox and press 'Enter' to add it. If you wish to delete a keyword, click the **X** icon next to it within the textbox. Keywords can include spaces and special characters.
 
 ![""](../images/workflow/author-keywords.png)
 
@@ -83,13 +83,13 @@ The **Author information** page is where you fill in the relevant information ab
 To add more authors to a submission, you can either search the journal's author list for existing authors, search by ORCID or add another author manually. 
 
 - Adding authors through **Add author from search**
-    - This lets you search the journal's database of authors by using their email address or ORCID. You cannot search using a name or institution. 
-    - If a matching record is found, they will be added as a co-author. If not, you will be notified that no account has been found.
+    1. This lets you search the journal's database of authors by using their email address or ORCID. You cannot search using a name or institution. 
+    2. If a matching record is found, they will be added as a co-author. If not, you will be notified that no account has been found.
 
     ![" "](..\images\workflow\author-submission-author-search.png)
 
-- Adding authors through **Add author manually**
-    - The **Add author manually** button lets you create a new author record for authors if they do not already have one. The following fields are mandatory in Janeway:
+- Adding authors through **Add author manually**  
+   - The **Add author manually** button lets you create a new author record for authors if they do not already have one. The following fields are mandatory in Janeway:
         - First name
         - Last name
         - Email address
@@ -100,7 +100,7 @@ If the search of the journal's author list or ORCID search are successful, autho
 
 To change the correspondence author, another author with a pre-existing (confirmed) account needs to be added. If no other co-authors have an account, the submitting author is required to remain the correspondence author.
 
->NOTE
+>[!NOTE]
 >The correspondence author does not necessarily have to be the primary author. The correspondence author can also be changed after submission.
 
 Janeway uses [Research Organization Registry (ROR)](https://ror.org/) to manage affiliation data. You can add author affiliation by clicking **Edit author details** and scrolling down to **Affiliations**. From here, you can add, remove and edit affiliations. If an author ORCID has been provided, their affiliation will be added automatically from their ORCID. You can still edit this, if it is incorrect.

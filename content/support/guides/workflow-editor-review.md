@@ -9,7 +9,7 @@ This guide will cover the default review workflow, which applies to single anony
 
 The first step to start peer review is to select the file(s) to review by clicking on **Add files**. You will be able to either select a file or upload a new file. If you are using anonymous peer review, you may need to check the uploaded manuscript for identifying information and reupload a new file. All reviewers for a given review round can access the files selected.
 
-If this is not the first round of review, you will need to open a new review round by clicking on **⊕New review round**
+If this is not the first round of review, you will need to open a new review round by clicking on **⊕ New review round**
 
 After the appropriate files have been selected, you can add the reviewers. You can either select a reviewer from the list presented to you, select an existing user who does not yet have the reviewer role (**Enrol existing user**) or invite a new reviewer who does not yet have an account (**Add new reviewer**). These buttons can be found in the top-right corner of the screen, in blue text.
 
@@ -74,20 +74,20 @@ If you are ready to make a decision after a round of review, you can click on **
 ![]()
 In addition to this, the following buttons are available:
 
-- **Accept article**
-    - Accepts the article, allows you to email the author and moves the article into the next stage.
-- **New review round**
-    - Adds a new review round. Any open review assignments on the current round are withdrawn, and a new round is set up. This process is often done after round 1 and the author has completed revisions. You can still see previous rounds through the tab at the top of the page.
-- **Reject article**
-    - Rejects the article, removes it from the workflow and allows you to email the author.
-- **Request revisions**
-    - Allows you to request the author revises their paper.
+- **Accept article**  
+    Accepts the article, allows you to email the author and moves the article into the next stage.
+- **New review round**  
+    Adds a new review round. Any open review assignments on the current round are withdrawn, and a new round is set up. This process is often done after round 1 and the author has completed revisions. You can still see previous rounds through the tab at the top of the page.
+- **Reject article**  
+    Rejects the article, removes it from the workflow and allows you to email the author.
+- **Request revisions**  
+    Allows you to request the author revises their paper.
 
 If enabled:
-- **Draft a decision**
-    - Allows section editors to draft one of the above decisions for approval by an editor.
-- **Share peer reviews**
-    - Allows an editor to email all of the reviewers who participated in the review of an article and share a link to all of the review reports. 
+- **Draft a decision**  
+    Allows section editors to draft one of the above decisions for approval by an editor.
+- **Share peer reviews**  
+    Allows an editor to email all of the reviewers who participated in the review of an article and share a link to all of the review reports. 
 
 > [!NOTE]
 > This setting must first be enabled before the option will be displayed, see Review settings. <!-- missing hyperlinks --> 

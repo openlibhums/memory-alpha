@@ -1,44 +1,78 @@
 title: Email logs 
 # Email logs
-All outgoing emails sent through Janeway are tracked in the article log.
+All outgoing emails sent through Janeway are tracked in the article log. This allows editors, journal managers and staff to confirm which emails have been sent, when they were sent, and (where supported) their delivery status. 
 
-You can view an article's logs through **Logs, docs and more**, which is found in the blue article workflow progress at the top of the screen. You can find this either through its workflow stage or through the archive (Dashboard -\> Left hand menu
--\> Back Content -\> Articles). Under **Logs, docs and more**, select **Logs**.
+Email logs are commonly used when:
+- A reviewer or author reports not receiving an email.
+- You need to confirm that a decision or notification was sent.
+- An email needs to be resent.
 
-![image of what to click]()
+## Accessing email logs
 
-On this page, you can see:
+You can view an article's logs through **Logs, docs and more**, which appears in the blue workflow progress at the top of the article screen.
+
+You can access this through:
+
+ - The article's workflow stage, or 
+ - The archive (Dashboard -\> Left hand menu
+-\> Back Content -\> Articles).
+
+![Screenshot showing where to access Logs, docs and more](email-logs-access.png)
+
+## Understanding the log entries
+
+Each entry in the log records an action that has taken place on the article. The following information is shown:
+
 - Entry type  
-     What type of action has been logged.
+     The type of action that was logged ("Review request accepted" or "Typesetting complete" for example).
 - Date
 - Actor  
-    Who iniated the action.
+    The user or system process that iniated the action.
 - Level
 <!-- what does this mean??-->
 
-If the action logged was an email:
+If the logged action relates to an email, additional details are available:
 - Addressees  
-    Who this was sent to; including CC and/or BCC.
+    The recipient(s) of the email, including any CC or BCC addresses.
 - Subject
 - Email status
-    Information about the delivery status of the email. See the section below on interpreting email statuses for more information. <!--missing hyperlink-->
+    Information about the delivery status of the email. See &&Interpreting email statuses** below for more information. <!--missing hyperlink-->
 - There is an option to click through to see the email content.
 
-<!-- [insert images] -->
+![Screenshot of an email log entry showing status and actions.](article-log.png)
 
 ## Interpreting statuses
 
-Emails sent through Janeway can have multiple statuses, accompanied with colour-coded dots. The coloured dots will only communicate a status if your Janeway installation uses Mailgun for its email services. If you are using Googlemail, the coloured dots will not convey any information. Janeway cannot track what occurs outside of the installation and the mailservice attached. E.g., if emails are blocked by the local, receiving servers we cannot track this. If you think you may be having email delivery issues, contact your system administrator.
+Emails sent through Janeway may display a delivery status, indicated with both text and coloured dots. 
 
-Janeway email statuses:
+>[!NOTE]
+>If your installation does not use Mailgun, but another email service (for example, Googlemail), the coloured dots will not display meaningful status information.
 
-- No information
-- Accepted
-- Delivered
-- Failed <!-- check with dev-->
+Janeway can only track events that occur within the system and the configured email service. It cannot track what happens after an email leaves that service (for example, if an email is blocked by the recipient’s local mail server).
+
+If you suspect persistent email delivery issues, contact your system administrator.
+
+### Email status meanings
+
+The following statuses can appear:
+
+- No information  
+    No delivery information is available from the email service.
+- Accepted  
+    The email has been accepted by the email service for delivery.
+- Delivered  
+    The email has been delivered to the recipient’s mail server.
+- Failed <!-- check with dev-->  
+    The email could not be delivered.
+
+>[!NOTE]
+> Seeing "No information" under email status does not necessarily mean an email was not sent.
 
 ## Actions
 
-- Refresh email status (??)
-- View content
-    - Resend email
+From this page there are also two things you can do:
+- Refresh the email status  
+     This checks the latest delivery status for the email. This can be used to check the delivery status. This cannot detect issues on the recipient’s side (such as local spam filtering).
+
+- View email content
+    This displays the email message that was sent From this screen, you can also resend the email.

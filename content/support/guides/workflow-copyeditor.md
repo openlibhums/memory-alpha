@@ -7,12 +7,12 @@ When a new copyediting assignment is created, you will receive an email containi
 
 On this page, you will see three columns of copyediting tasks.
 
-- **Awaiting initial decision**
-    - New tasks you have not accepted or declined.
-- **In progress**
-    - Tasks you have accepted but not completed.
-- **Completed**
-    - Tasks you have completed.
+- **Awaiting initial decision**  
+    New tasks you have not accepted or declined.
+- **In progress**  
+    Tasks you have accepted but not completed.
+- **Completed**  
+    Tasks you have completed.
 
 To start a new task, press the **Accept** button. The task will then be displayed as **In progress**. To begin copyediting, click **View** on the task's card.
 
@@ -22,17 +22,17 @@ To start a new task, press the **Accept** button. The task will then be displaye
 
 Once you have clicked into a paper, the next page you see will be broken into four sections:
 
-- **Guidelines**
-    - Here you will find the journal's copyediting guidelines. These will help you complete your task, so you may wish to have them open in another tab as you copyedit in case you need to refer back to them.
+- **Guidelines**  
+    Here you will find the journal's copyediting guidelines. These will help you complete your task, so you may wish to have them open in another tab as you copyedit in case you need to refer back to them.
 
-- **Article files**
-    - A list of the files supplied by the editor for copyediting. From here, you can download the necessary files to work on and any supplemental files (e.g., additional figures) using the download icon (highlighted in the image below).
+- **Article files**  
+    A list of the files supplied by the editor for copyediting. From here, you can download the necessary files to work on and any supplemental files (e.g., additional figures) using the download icon (highlighted in the image below).
 
-- **Copyedited files**
-    - A list of files you have uploaded. Use the **Upload file** button to add a new file when you have completed copyediting it. 
+- **Copyedited files**  
+    A list of files you have uploaded. Use the **Upload file** button to add a new file when you have completed copyediting it. 
 
-- **Complete task**
-    - Here you can enter a note for the editor and mark the task as complete. 
+- **Complete task**  
+    Here you can enter a note for the editor and mark the task as complete. 
 
 ![The ‘Article Copyediting’ page. It displays information about the manuscript, the article files, completed files and a ‘comments to the editor’ textbox. The ‘Download’, ‘Upload File’ and ‘Complete copyedit task’ buttons are highlighted.](../images/workflow/copyedit-page.png)
 
@@ -61,6 +61,6 @@ If the editor has reopened the task, you will receive an email containing a link
 
 ![The three columns on the ‘Copyedit Requests’ page (‘Awaiting initial decision’, ‘In progress’ and ‘Completed’. There is a task that has been reopened in the middle and the original completed task on the right.](../images/workflow/copyedit-reopened-kanban.png)
 
-It may appear as though the task has been duplicated, but the one in the **Completed** column is the original task, and the one shown under **In Progress** will be the reopened version.
+It may appear as though the task has been duplicated, but the one in the **Completed** column is the original task, and the one shown under **In progress** will be the reopened version.
 
 From here, this works the same way as any other copyediting task. The updated paper will be found under and can be downloaded from **Article files** for you to work on. Once you have completed your copyedit, it can be uploaded under **Copyedited files**. When you have done this, press **Complete copyedit task** to submit your work. The reopened task will be moved to **Complete** and the editor will be notified.

@@ -1,152 +1,137 @@
 title: Crossref article DOI
 # Crossref article DOI
 
+Janeway can automatically register (also called "mint" or "deposit") Digital Object Identifiers (DOIs) for articles with Crossref, provided the journal’s settings are correctly configured.
+
+This page explains:
+- When DOIs are created and updated
+- How to check and manage DOIs using the DOI Manager
+- How to interpret DOI registration statuses
+- Which Crossref settings are required
+
 ## When are DOIs minted?
 
-If all the settings are properly configured (see below), Janeway handles
-DOI registration for you, stepping in at a few key points in the
-publishing pipeline.
+If Crossref settings are correctly configured, Janeway handles DOI registration automatically at key points in the publishing workflow.
 
-By default, a DOI is registered (a.k.a. minted, deposited) with Crossref
-when an article is accepted for publication. Some provisional metadata
-is sent at this time (No author-identifiable details are shared). When
-an article is scheduled for publication, a new request is sent to
-Crossref to update all metadata records.
+By default, Janeway registers a DOI with Crossref when an article is accepted for publication.
+
+After acceptance, the DOI will exist in Crossref’s system. However, the web page it points to may not yet be live if the article has not been published. This is expected and does not indicate a problem.
+
+Provisional metadata is sent, but no author-identifiable details are shared.
+
+Later, when the article is scheduled for publication, Janeway sends a deposit to Crossref to update the metadata. 
+
+When the article is published, the DOI becomes a working permalink to the published article.
 
 > [!TIP]
-> You can let editors see a preview of the data that gets sent before
-accepting an article. See **Accept Article Warning** under
-Review Settings.
+> You can allow editors to preview the data that will be sent to Crossref before accepting an article.  
+> See **Accept article warning** under **Review settings**.  
 <!--missing hyperlink-->
 
-At this stage, the DOI will be registered with Crossref, but the webpage
-it points to on your journal website may not be active yet if the
-article isn't published yet. That's normal.
+## When manual intervention may be needed
 
-The DOI is deposited with Crossref again when the article is published,
-so any metadata updated in the interim will also be updated in
-Crossref's metadata feeds. This is also when the DOI starts working as a
-permalink, in addition to being a unique identifier.
+The automatic workflow may be interrupted in some situations, for example:
+- Importing backlist content.
+- Missing or incomplete metadata.
+- Incorrect Crossref settings.
 
-There are things that might interrupt this default behavior. If you are
-importing backlist content, or there's an issue with the Crossref
-settings entered, or the required metadata isn't there, you may need to
-take a more active role. That's where the DOI Manager comes in.
+In these cases, you may need to take action using the **DOI Manager**.
+
+//
 
 ## DOI manager
 
-You can see all the DOIs for a journal (if you are an editor) or for a
-press (if you are a staff member) in the DOI Manager.
+The **DOI Manager** allows you to view and manage DOI registration statuses. If you are an editor at journal level or if you are a staff member at press level.
 
-First, filter by date, registration status, or primary issue until you
-have an actionable set of articles.
+The DOI manager can handle up to 25 articles at a time. If your journal has more than 25 articles in total, use the filter to narrow the list of articles. You can filter by date, registration status, or primary issue until you have an actionable set of articles.
 
-At the moment, the DOI Manager can handle small batches, such as 20
-articles, with no problems, but it may not be able to handle larger
-batches very well. We will optimize it to handle large batches in the
-future.
+Once you have filtered the list, you can:
 
-In some cases, you can preview the XML that will get sent to Crossref.
+- **Register DOIs**  
+  Sends the article metadata to Crossref for registration.
 
-Once you have filtered the articles to your liking, you can take two
-actions: **Register DOIs** and **Poll for status**. **Register DOIs**
-will package up all the metadata into XML and send it to Crossref.
-Crossref will put all the deposits they receive in a queue to process,
-so the status may not be immediate. After a few moments (or longer if it
-is a large batch), you can use **Poll for status** to check the result.
+- **Poll for status**    
+  Checks the DOI status of Janeway articles.
+
+Crossref processes deposits in a queue, so status updates may not appear immediately. If you want to check the status of a DOI, you can use **Poll for status**.
 
 > [!WARNING]
-> **Poll for status** on a large group of articles could take a long time,
-so test it out on a smaller group first.
+> Using **Poll for status** on a large number of articles could take a long time. You may wish to test a small set first when investigating potential issues.
+
+In some cases, you can also preview the XML that will be sent to Crossref before registering.
 
 ## Interpreting registration status
 
+Each DOI in the DOI Manager shows a registration status:
+
 - Unknown   
-    Janeway doesn't know the status. Try clicking **Poll for status**.
+    Janeway doesn't know the status. Try **Poll for status**.
 
 - Not yet registered  
-    This DOI hasn't been registered yet. You can register it if what you see
-in the **DOI** column looks right (including pattern previews).
+    This DOI hasn't been registered yet. You can register it if what you see in the **DOI** column looks right (including pattern previews).
 
 - Queued at Crossref  
-    The deposit batch you sent is waiting to be read by the Crossref
-servers.
+    The deposit has been received by Crossref and is waiting to be processed.
 
 - Registered  
-    Success! Crossref understood all the metadata you sent and didn't find
-any problems with it.
+    Crossref successfully processed the metadata and didn't find any problems with it.
 
 > [!TIP]
-> A status of **Registered** does not necessarily mean that the DOI will
-resolve correctly, if the URL it points to isn't fully operational yet
-on the Janeway side (i.e., the article isn't published).
+> A status of **Registered** does not necessarily mean the DOI will resolve correctly if the article is not yet published (or if the URL is not operational for other reasons).
 
 - Registered (but some citations not correctly parsed)  
-    Crossref understood the article-level metadata, but when it went to
-process the citations, there were errors. Check the XML in the
-**Response** column for details.
+    Article metadata was accepted, but citation parsing errors occurred. Check the XML shown in the **Response** column for details.
 
 - Registered with warning  
-    Crossref understood and registered the DOI, but sent back a warning.
-Check the XML in the **Response** column for details.
+    The DOI was registered, but Crossref returned a warning. Check the **Response** column for more information.
 
 - Registration failed  
-    Crossref tried to register the DOI but couldn't because of a problem.
-Check the XML in the **Response** column for details.
+    Crossref could not register the DOI due to an error. Check the **Response** column to identify the issue.
 
 ## Crossref settings
 
-To edit the Crossref settings, select **Crossref settings** from the
-manager interface. The fields are as follows:
+Crossref settings are configured from the Manager interface under **Crossref settings**. On this page, you will find the following fields used to configure Crossref:
 
-Use Crossref DOIs  
-If disabled, no DOIs will be minted
+- Use Crossref DOIs 
+     Enables or disables DOI registration for the journal. If disabled, no DOIs will be minted.
 
-Use Crossref Test Deposit Server  
-If enabled, DOIs will be minted on Crossref's test system
+Use Crossref test deposit server   
+    Sends DOIs to Crossref’s test system instead of the live system. Useful for testing only.
 
-Crossref Username  
-Your crossref username
+- Crossref username  
+    Your Crossref account username.
 
-Crossref Password  
-Your crossref password
+- Crossref password  
+  Your Crossref account password.
 
-Crossref Depositor Email  
-The email address of the depositor
+- Crossref depositor email  
+    The email address of the depositor.
 
-Crossref Depositor Name  
-The name of the depositor
+- Crossref depositor name  
+    The name of the depositor
 
-Crossref Prefix  
-The prefix for your crossref account -- usually 10.XXXX
+- Crossref prefix  
+  Your Crossref prefix, usually in the form `10.xxxx`.
 
-Crossref Registrant Name  
-The name of the registrant for this journal on Crossref's system (e.g.
-Open Library of Humanities)
+- Crossref registrant name  
+    The registrant name recorded with Crossref for this journal (for example, "Open Library of Humanities").
 
-DOI Display Prefix  
-Text to prepend to DOIs -- used to generate DOI URLs
+## DOI formatting settings
 
-DOI Display Suffix  
-Text to append to DOIs -- also used to generate DOI URLs
+- DOI display prefix  
+  Text added before the DOI when generating display URLs. Usually `https://doi.org/`.
 
-DOI Pattern  
-The pattern for auto-generating DOIs. Defaults to using the journal code
-and article ID (e.g. `orbit.123`):
+- DOI display suffix  
+    Text added after the DOI when generating display URLs. Usually left blank.
 
-> `{% raw %}{{ article.journal.code }}.{{ article.pk }}{% endraw %}`
+- DOI pattern 
+    The DOI pattern controls how article DOIs are generated automatically. By default, Janeway uses the journal code and article ID, for example: `orbit.123`. Using the following objects:
+    > `{% raw %}{{ article.journal.code }}.{{ article.pk }}{% endraw %}`
 
-Title DOI  
-The DOI (not in URL format) registered for this journal (e.g.
-`10.001/my-journal`). It is included on all deposits for this journal.
-It must be registered ahead of time.
+- Title DOI  
+    The DOI for the journal itself (not in URL format), for example: `10.001/my-journal`. It is included on all deposits for this journal and, is using, must be registered ahead of time.
 
-It is mandatory for a journal to have a DOI registered **only** when an
-ISSN is not available for a journal, as Crossref requires at least one
-unique identifier for every journal.
+A journal DOI is only mandatory if a journal does *not* have an ISSN, as Crossref requires at least one unique identifier per journal.
 
-However, even if your journal has an ISSN, Crossref still recommends
-registering a DOI for your journal. We recommend using your journal code
-as the DOI. For example, with the prefix of `10.0001` and the journal
-code of `abcd`, you could set the journal DOI to `10.0001/abcd`.
-
+However, Crossref recommends registering a journal DOI even when an ISSN exists. We recommend using your journal code
+as the DOI. For example, with the prefix of `10.0001` and the journal code `abcd`, you could set the journal DOI to `10.0001/abcd`.

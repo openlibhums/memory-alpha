@@ -23,7 +23,7 @@ For completed assignments, it will display:
 
 !["The ‘Typesetting assignments’ page."](../../support/images/workflow/typesetting-assignments.png)
 
-You can then click **View Assignment** to display the assignment page.
+You can then click **View assignment** to display the assignment page.
 
 ## Typesetting assignments page
 On this page, you will find relevant information about the typesetting task. This will include the instructions, manuscript files, metadata, options to accept or decline the task, and space to upload completed files.
@@ -37,19 +37,18 @@ This page is divided into three sections.
   - You can access the files to typeset (manuscript files) and any supplementary files. 
   - Under this, you will find space to upload your completed work and (if required) any source files.
 
-- Metadata
-  - This is where you will find the metadata for the typesetting task.
+- Metadata  
+  This is where you will find the metadata for the typesetting task.
 
-- Complete typesetting
-  - Under this section, you can leave any notes to the editors. 
-  - This is also where you will mark the assignment as complete to submit the uploaded files.
+- Complete typesetting  
+  Under this section, you can leave any notes to the editors. This is also where you will mark the assignment as complete to submit the uploaded files.
 
 ## Uploading a typeset file
 !["The files section of the typesetting page. It shows the ‘Files to typeset’, ‘Upload typeset files’ and ‘Upload source file’ options."](../../support/images/workflow/typesetting-files.png)
 
-Click **Upload a New Typeset File** to upload your completed work. 
+Click **Upload a new typeset file** to upload your completed work. 
 
-Source files (such as Adobe InDesign files) can be uploaded using the **Upload New Source File** button (if required).
+Source files (such as Adobe InDesign files) can be uploaded using the **Upload new source file** button (if required).
 
 !["The ‘Upload a typeset file’ upload. It provides the options to add a label for the file, toggle whether the file should be publicly available after the article is published, choose a file to upload, and confirm the upload."](../../support/images/workflow/typesetting-upload.png)
 
@@ -60,18 +59,18 @@ Janeway will attempt to provide an appropriate label if this is left blank. Howe
 >  Janeway operates with the UTF-8 encoding. Please ensure that you upload any HTML and XML files (plain text galleys) using this encoding.
 
 ## Editing typeset files and uploading additional files
-If you need to make changes to the typeset files, you can reupload them or upload additional files through the **Edit Typeset File** page. This page can be accessed by clicking **Edit**.
+If you need to make changes to the typeset files, you can reupload them or upload additional files through the **Edit typeset file** page. This page can be accessed by clicking **Edit**.
  
  !["The ‘Upload typeset files’ section, showing two uploaded files. It also displays the figure files’ status: ‘N/A’ for a file with no figure files and ‘Missing figures’ for a file with missing figures."](../../support/images/workflow/typesetting-edit-button.png)
 
  !["The ‘Edit typeset file’ page."](../../support/images/workflow/typesetting-filehistory.png)
 
 This page is divided into three sections:
-- The typeset file
-	- You can replace the typeset file and see the file history here.
+- The typeset file  
+	You can replace the typeset file and see the file history here.
 
-- Typeset file details
-	- This is where you can edit the file label, which denotes the file type.
+- Typeset file details  
+	This is where you can edit the file label, which denotes the file type.
 
 - Additional file uploads
   - If authors or editors have already provided images, you can find and select them here. 
@@ -93,7 +92,7 @@ When a file typeset in HTML or XML contains image links, Janeway will detect the
 
 If the image files have already been uploaded onto Janeway, you can select them instead.
 
-If you need to upload a large number of images, it may be faster to use the zip uploader (click on **Upload Zip File**, highlighted in the image below). To do so, create a ZIP archive file with all the image files. The image filenames must match the links in the typeset file; otherwise, they will not be imported.
+If you need to upload a large number of images, it may be faster to use the zip uploader (click on **Upload zip file**, highlighted in the image below). To do so, create a ZIP archive file with all the image files. The image filenames must match the links in the typeset file; otherwise, they will not be imported.
 
 ## Styling
 On this page, you can also upload a CSS file associated with the article for an individual style, if required. We recommend avoiding style changes to the header and footer type elements, as this will affect the page's layout.
