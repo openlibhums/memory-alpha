@@ -22,19 +22,19 @@ After selecting an article, you will be taken to the typesetting page. This page
 
 * At the top, you can see the rounds which are used for both typesetting and proofing, similar to the peer review page. From here, you start rounds and assign typesetters and proofreaders.
 
-![" "](..\images\workflow\editor-typesetting-rounds.png)
+![" "](../images/workflow/editor-typesetting-rounds.png)
 
 * Under this, there is **Files for typesetting** where files used in typesetting are listed - this includes manuscript files, images and any pre-existing galleys. 
 
 * This is followed by **Galleys**, which lists typeset files (galleys) which will become available to readers. 
 
-![" "](..\images\workflow\editor-typesetting-files-blocks.png)
+![" "](../images/workflow/editor-typesetting-files-blocks.png)
 
 * Finally, **Optional files** contains the supplementary files (data files, appendices, etc.) and (if using) source files (intermediate files used by typesetters, e.g. Adobe InDesign files).
 
 * The **Actions** block, where you can start new rounds or complete typesetting, is on the right-hand side - similar to the peer review and copyediting stages. 
 
-![" "](..\images\workflow\editor-typesetting-actions.png)
+![" "](../images/workflow/editor-typesetting-actions.png)
 
 You can see the typesetter's view and their experience of the workflow in the typesetter guide. <!-- missing hyperlinks -->
 
@@ -62,11 +62,11 @@ You should set the supplementary file in advance of sending the article for type
 ## Upload galleys yourself (workflow)
 If you do not use a typesetter or file conversion through Janeway, you can upload typeset files yourself by clicking **Upload new typeset file** in the **Current galleys** section. Once you have selected a file, you can also mark whether the file should be public upon publication and set its label.
 
-![" "](..\images\workflow\editor-typesetting-upload-new-typeset-file.png)
+![" "](../images/workflow/editor-typesetting-upload-new-typeset-file.png)
 
 When uploading an HTML or XML file with images, they must be uploaded separately, as HTML and XML files do not contain the images themselves (like a DOCX or PDF file might). Images can be uploaded by clicking the <img src="../../support/images/edit-icon.png" width="12" height="12"/> **Edit** icon and using the upload functions on the page it leads to, for more information see: Images and figure files <!-- missing hyperlink -->. You can also <img src="../../support/images/download-icon.png" width="12" height="12"/> **Download** the file or <img src="../../support/images/preview-icon.png" width="15" height="15"/> **Preview** it, using the respective icons.
 
-![" "](..\images\workflow\editor-typesetting-galley-buttons.png)
+![" "](../images/workflow/editor-typesetting-galley-buttons.png)
 
 > [!CAUTION]
 > Do not use the image or galley upload for supplementary files. See Supplementary files for more information.<!-- missing hyperlink -->
@@ -84,7 +84,7 @@ This section outlines how to work with an external typesetter, including assigni
 
 Click **Assign a typesetter** to open the typesetter assignment page and start a new typesetting assignment.
 
-![" "](..\images\workflow\editor-typesetting-assign-typesetter.png)
+![" "](../images/workflow/editor-typesetting-assign-typesetter.png)
 
 You can now do the following: 
 
@@ -108,7 +108,7 @@ There is no limit on the number of typesetters you can assign at one time.
 
 Once the typesetter has completed their task, you will receive an email notification. 
 
-![" "](..\images\workflow\editor-typesetting-review-typesetting.png)
+![" "](../images/workflow/editor-typesetting-review-typesetting.png)
 You can now review the typesetting task and select one of the following three options:
  - **Request corrections**
    - If you notice a problem with the typeset files straight away, you can request corrections to the typesetter. See Requesting corrections<!-- missing hyperlink -->.
@@ -117,7 +117,7 @@ You can now review the typesetting task and select one of the following three op
  - **Accept**
     - If no (further) proofing or corrections are required, you can accept the files and end the typesetting stage.
 
-![" "](..\images\workflow\editor-typesetting-review-typesetting-decision.png)
+![" "](../images/workflow/editor-typesetting-review-typesetting-decision.png)
 
 ## Proofing
 
@@ -129,7 +129,7 @@ Once a typeset file has been uploaded by either a typesetter or editor, proofrea
 
 Click **Assign proofreaders** to open a new proofing task. 
 
-![" "](..\images\workflow\editor-typesetting-assign-proofreader.png)
+![" "](../images/workflow/editor-typesetting-assign-proofreader.png)
 
 All files listed under **Current galleys** will be made available to proofreaders. You can now do the following:
 
@@ -137,7 +137,7 @@ All files listed under **Current galleys** will be made available to proofreader
 
 The list of potential proofreaders is made up of editors, the authors of the paper and any other users with the proofreader role. You can only select one proofreader, but you can add multiple assignments. If you wish to select a user who is not displayed in the list, click **Enrol a proofreader**.
 
-![" "](..\images\workflow\editor-typesetting-enroll-proofreader.png)
+![" "](../images/workflow/editor-typesetting-enroll-proofreader.png)
 
 2. Set a due date.
 
@@ -156,7 +156,7 @@ If no further corrections are needed, you can click **Complete typesetting** und
 
 If you require corrections, click **Request corrections**. 
 
-![" "](..\images\workflow\editor-typesetting-choice.png)
+![" "](../images/workflow/editor-typesetting-choice.png)
 
 ### Requesting corrections
 
@@ -172,7 +172,7 @@ You can now assign a typesetter to correct issues that were flagged in proofing,
 ## Managing typesetting files
 Once typeset files are uploaded into Janeway, they become manageable within the system. To manage a typeset file, click the <img src="../../support/images/edit-icon.png" width="12" height="12"/> **Edit** icon next to it.
 
-![" "](..\images\workflow\editor-typesetting-edit-galley.png)
+![" "](../images/workflow/editor-typesetting-edit-galley.png)
 
 On this page, you can do the following:
 - Replace the typeset file; the old file will be retained in the file history.
@@ -188,12 +188,12 @@ HTML and XML files uploaded to Janeway will be scanned to detect graphic, figure
 
 For each missing image file, Janeway will present you with a block where you can either upload a new image file or select an existing one from the images already linked to the article.
 
-![" "](..\images\workflow\editor-typesetting-imagefiles-image.png)
+![" "](../images/workflow/editor-typesetting-imagefiles-image.png)
 
 > [!TIP]
 > For typeset files with a large number of images, you can also create a ZIP file containing all the images and upload it using the ZIP uploader. Janeway will match the images against the tags in the typeset files. Ensure the image names and file types are an exact match those in the typeset file.
 
-![" "](..\images\workflow\editor-typesetting-imagefiles-zipfile.png)
+![" "](../images/workflow/editor-typesetting-imagefiles-zipfile.png)
 
 ## Advanced styling
 

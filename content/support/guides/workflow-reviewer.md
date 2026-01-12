@@ -40,11 +40,11 @@ At the bottom of this block, you will find an option to decline this review task
 ## Review files
 The files the editor has selected for you to review are listed here. There might be multiple files (e.g. supplementary files), so this block includes the option to download them all as a ZIP file.
 
-![The ‘Review Files’ section. One file is shown here with its label (‘Manuscript’ in this instance) filename and the download option. The ‘Download all as ZIP’ is in the top right corner of this section.](..\images\workflow\reviewer-review-files.png)
+![The ‘Review Files’ section. One file is shown here with its label (‘Manuscript’ in this instance) filename and the download option. The ‘Download all as ZIP’ is in the top right corner of this section.](../images/workflow/reviewer-review-files.png)
 
 ## Review form
 This is where you will complete your review. What this looks like will differ from journal to journal, but the main sections will be the same. Each element in the form will be accompanied by a title or description to assist you in completing it.
-![The ‘Review Form’ section. It shows the ‘File Upload’, ‘Recommendation’, and ‘Comments for the Editor’ blocks.](..\images\workflow\reviewer-file-upload.png)
+![The ‘Review Form’ section. It shows the ‘File Upload’, ‘Recommendation’, and ‘Comments for the Editor’ blocks.](../images/workflow/reviewer-file-upload.png)
 
 The sections of this form are:
 

@@ -96,7 +96,7 @@ To add more authors to a submission, you can either search the journal's author 
 
 An account will also be generated for the author based on this information so that they can log in to the journal and check the progress of the paper. They will need to use the password reset function to get access to their account.
 
-![" "](..\images\workflow\author-submission-author-manual.png)
+![" "](../images/workflow/author-submission-author-manual.png)
 
 If the search of the journal's author list or ORCID search are successful, author details will be added automatically. You can still make edits, by clicking on **Edit author details**. When an author already has an account with the journal or another journal under the press, this submission will be linked to their existing record.
 
@@ -107,7 +107,7 @@ To change the correspondence author, another author with a pre-existing (confirm
 
 Janeway uses [Research Organization Registry (ROR)](https://ror.org/) to manage affiliation data. You can add author affiliation by clicking **Edit author details** and scrolling down to **Affiliations**. From here, you can add, remove and edit affiliations. If an author ORCID has been provided, their affiliation will be added automatically from their ORCID. You can still edit this, if it is incorrect.
 
-![" "](..\images\workflow\author-submission-edit-details.png)
+![" "](../images/workflow/author-submission-edit-details.png)
 
 After the submission is completed, co-authors will be notified and will be able to access the submission and update or edit their details.
 
