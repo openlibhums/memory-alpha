@@ -10,7 +10,7 @@ There are two parts to managing submission fields on Janeway: standard fields an
 There are a set of default submission fields within Janeway, the **Submission fields configurator** allows you to configure which one of these will appear during the submission process. The fields you have checked will display, while any of those which are unchecked will not. The default submission fields include:
 
 - Publication fees
-- Submission check <!--check this-->
+- Submission checklist
 - Copyright notice
 - Competing interests
 - Comments to editor
