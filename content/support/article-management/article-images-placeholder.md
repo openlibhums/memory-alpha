@@ -3,28 +3,47 @@ title: Article images
 
 Articles have three images that are used for display:
 
-- Large landscape image  
-  - This image is used in the heading of the article page on the material and OLH themes. It is resized to 720x324px upon uploading, so it is recommended an image be either this size or larger. This image is also used as the meta image if none is supplied This image will also be used on the homepage carousel if the article is added to it. If no landscape image is uploaded, the ‘Default large image’ will be used where the landscape image is set to display (see Image Guidelines).
+## Large landscape image 
+![An example of the landscape image in an article heading](../images/large-image-article.png)
 
+This image is used in the heading of the article page (also called a 'hero image'). This image will also be used in the carousel, popular articles and featured articles sections on the homepage, if those are enabled and an article is added to it. It is also used as the meta image if none is supplied.
 
-<!-- ![Example of the landscape image in an article heading.](../../images/large-image.png) -->
+![Example of the landscape image on the homepage using the OLH theme.](/content/support/images/large-image-homepage.png)
 
-<!-- ![Example of the landscape image in the homepage carousel.]() -->
+The exact recommended size of the large image will depend on the theme your journal uses. The height of the display will also ways be 648px, but the width will vary per theme: 1100px on the Clean theme, 1200px on the OLH theme, 1477px on the Material theme. For information on image display, cropping and sizing, see Image guidelines<!-- missing hyperlink -->. The image will be resized smaller for display on the homepage.
 
-- Thumbnail image  
-  - The thumbnail is a small square image displayed on pages listing articles such as the All Articles or the Issue Articles list. A width-to-height ratio of about 3 to 4 is recommended. If no thumbnail is set, this defaults to the Janeway logo.
+Generally, we recommend large, landscape images to be used for the large image and avoiding images with people or bodies due to potential unexpected cropping.
 
-<!-- ![Example of thumbnail display on the article listing page](../../images/thumbnail.png)-->
+If no landscape image is uploaded, the **Default large image** will be used where the landscape image is set to display.
 
-- Meta image  
-  - The meta image allows you to override the image displayed on social media when the article is shared. If no meta image is supplied, the large image is used, but it may not display correctly due to its size.
+## Thumbnail image  
 
-<!-- ![Example of a meta image on Twitter](../../images/meta-image.png) -->
+The thumbnail is a small square image displayed on pages listing articles such as the **All articles** or the **Issue articles** list. A width-to-height ratio of about 3:4 is recommended. If the image is another size, it will be resized to fit into the box whilst preserving the original image ratio. For an example, see the image below:
 
-    
+![" "](/content/support/images/thumbnails-article-list.png)
+
+Make sure to set a default image that can show when no individual thumbnail is set. This can be done through **Images** under **Journal settings** on the Manager dashboard.
+
+## Meta image  
+
+The meta image allows you to override the image displayed on social media when the article is shared. If no meta image is supplied, the large image is used, but it may not display correctly due to its size.
+
+![Example of a meta image on BlueSky](/content/support/images/meta-image-bsky.png)
+
 ## Article images manager
-The article images manager is an interface for editing all of the images for a given article.
+The Article images manager is an interface for editing all of the images for a given article. To edit the images for a given article through the Article images manager, click on **Edit image**.
+
+This page is split into three blocks; one for the large image, one for the thumbnail and one for the meta image.
+![Article images page with no images uploaded](/content/support/images/images-manager-blank.png)
+
+You can upload an image by:
+1. Clicking **Choose file**.
+2. Selecting a saved image
+3. Clicking **Upload**.
+
+Once images are uploaded, the page will look similar to the following:
+![Article images page with all three images uploaded](/content/support/images/images-manager-full.png)
+
+The large image and thumbnail will display a preview and can be removed by clicking **Delete**. The meta image will not display a preview and can be removed by checking the **Clear** box and then clicking **Upload**.
 
 See also: image guidelines <!-- missing hyperlink -->
-
-

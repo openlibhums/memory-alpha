@@ -1,46 +1,46 @@
 title: Article sections
 # Article sections
 
-Sections are ways of grouping articles by their content type, e.g. "Research Articles" or "Reviews". 
+Sections (article types) are ways of grouping articles by their content type, e.g. "Research articles" or "Reviews". You can create custom sections through the Section manager on on the Manager dashboard and configure their settings.
+![" "](/content/support/images/manager-sections.png)
 
-- Where to find sections
-- Image of how to find.
+## Managing sections
+On this page, you can edit the sections available on your journal.
 
-## An appropriate H2 header I am yet to write 
-From this interface, you can edit the sections available on your journal.
-
-<!-- ![Section Manager](../../nstatic/sections.gif) -->
-
-For each section, you can supply:
+For each section, you can provide the following information and settings:
 
 - Name
 
-- Plural name
+- Plural
+  This determines the pluralised name for the section, e.g. 'article' and 'articles'.
 
-- Number of reviewers  
-  - The number of reviewers generally required for this article type, may be 0 for editorials, etc.
+- Number of reviewers
+  This determines the number of reviewers generally required for this article type. It can be set too 0 for editorials and other non-peer reviewed content.
 
-- Is filterable  
-  - Whether this section should appear in the All Articles list filter options.
+- Is filterable
+  This determines whether this section should appear as a filter option on the All articles list.
 
 - Sequence  
-  - Order sections should appear in, can be changed using this field or by dragging and dropping.
+  This determines the order sections should appear in. This can be edited using this field or by dragging and dropping the sections in order.
 
 - Section editors  
-  - The section editors that can be assigned to handle articles within this section.
+  This determines which section editors will be notified when new papers are submitted to this section.
 
 - Editors  
-  - Editors for this section will be notified when new papers are submitted to it.
+  This determines which editors will be notified when new papers are submitted to this section.
+
+- JATS default article type
+  Only relevant if using JATS-XML: This determines the default JATS article type for articles in this section. This can be overridden on a per-article basis.
 
 - Public submissions  
-  - Checked if you want new submissions to be able to select this section.
+  This determines whether articles can be submitted to this section. Check the box to open the section to new submissions.
 
 - Indexing  
-  - Whether this section is put forward for indexing.
+  This determines whether this section is publicly discoverable and put forward for indexing. Check the box to enable indexing.
 
 - Auto-assign editors  
-  - Articles submitted to this section will be automatically assigned to any editors and/or section editors selected on the 'Editors' and/or 'Section Editors' box above.
+  This determines whether articles submitted to this section will be automatically assigned to the notified (section) editors (as determined in the preceeding **Section editors** and **Editors** settings). Tick this box to enable auto-assignment.
 
-You can edit sections, but you cannot delete a section when it would orphan an article. If you wish to remove a section, first migrate all of the articles using that section to a different section, then the delete button will become available.
+Sections can always be edited, but they cannot be deleted when articles have been assigned to this section. If you wish to remove a section that already has articles assigned to it, first migrate all of the articles using this section to a different section. Once this has been done, the **Delete** button will become available.
 
-This field can also be disabled if you only have one article type, using the Submission Configurator. <!-- missing hyperlink -->
+If you are only using one article type, the field in which authors select a section during submission can be disabled using the **Submission configurator**. <!-- missing hyperlink -->
