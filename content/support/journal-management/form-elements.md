@@ -32,12 +32,12 @@ A form element can be one of the following kinds:
 
 - Text area  
    This is a larger, multi-line input area for longer texts such as comments and descriptions. It allows for formatting and line breaks.
-   
+
    ![Example text area](../../support/images/element-text-area.png)
 
 - Checkbox  
    This element asks users to check a box, which can be used to declare no competing interests / agree to terms, for example.
-   
+
    ![Example checkbox](../../support/images/element-check-box.png)
 
 - Select (dropdown)  
@@ -55,10 +55,10 @@ A form element can be one of the following kinds:
 
     ![Example upload field](../../support/images/element-file-upload.png)
 
-- Date
+- Date  
    Asks the user to provide a date.  
 
    ![Example date field](../../support/images/element-date.png)
 
 > [!NOTE]
-> When using an element kind other than 'Select', you can ignore the ‘Choices’ field.
+> When using an element kind other than 'Select', you can ignore the 'Choices' field.

@@ -1,37 +1,44 @@
 title: Janeway content manager
 # Janeway content manager
 
-The Content Manager is Janeway's CMS. Pages can be created and edited using our rich text editor.
+The **Content manager** provides access to Janeway’s built-in content management system (CMS). It allows you to create and edit static pages for your journal, such as privacy notices, policies, or "About" pages, using a rich-text editor.
 
-<!-- ![Content Manager](../../nstatic/content-manager.png) -->
+<!-- ![Content manager](../../nstatic/content-manager.png) -->
 
 ## Add a new page
 
-To add a new page to your journal select "+ Add New Page" and fill in the fields as detailed in the text beneath each field.
+To add a new page to your journal website, click **+ Add new page** and fill in the fields as detailed in their helptexts.
+
+For information on embedding media files within a page, see Media files <!--missing hyperlink-->.
 
 <!--![Interface for adding a new page through the CMS](../../nstatic/content-edit-page.png)-->
 
-The URL for the page will be generated with these parts:
+Pages are immediately public after saving them.
 
-- Your journal's domain name (e.g. orbit.openlibhums.org)
-- The path element “site” (a namespace for custom pages)
-- The path you entered in the **Link** field.
+### Page URLs
 
-An example: <https://orbit.openlibhums.org/site/privacy>
+When you create a new page, Janeway automatically generates its URL using the following parts:
 
-<!-- explain how the links/ slugs work as that is always a mess -->
-<!-- something on creating custom pages -->
+- Your journal’s domain name (for example, `orbit.openlibhums.org`).
+- The path element `/site/`, which is used as a namespace for custom pages.
+- The value entered in the **Link** field.
+
+An example: `https://orbit.openlibhums.org/site/privacy`
+
+For information on adding new pages to your site navigation, see **Navigation**.  
+<!-- missing hyperlink -->
 
 ## Edit a page
 
-From the Content page you can see a list of the pages currently on your journal. Select Edit to make changes.
+The content manager displays a list of all custom pages currently available on your journal. Click **Edit** to make changes.
+
+Changes take effect immediately once saved. If you do not see them displayed on the journal page, you may need to refresh your cache. <!--missing hyperlink-->
+
+You can see a page's editing history by clicking **View history** at the bottom of the edit page.
 
 ### Delete a page
 
-To delete a page use the red Delete button.
+To delete a page use the **Delete** button, on the content manager page.
 
 > [!WARNING]
-> Data cannot be recovered so ensure you really want to remove a page before pressing the delete button.
-
-<!-- link to the navigation page -->
-<!-- link to embedding media --> 
+> Deleted pages cannot be recovered. Make sure you no longer need the page before deleting it.

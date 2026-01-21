@@ -25,38 +25,8 @@ works are displayed below the field.
 
 <!-- ![Editing a custom nav item in the content management system](../../nstatic/content-edit-nav.png) -->
 
-## Footer Navigation
+"This controls the order in which custom items on your navigation bar appear in relation to one another. 
+Please note that built-in page options provided by Janeway cannot be reordered directly. To reorder these pages, use 'Create a new nav item' to create a more customisable link to that page, following the same steps as you would for adding other pages to your nav bar, and disable the Janeway default version."
+  <!-- add the general navbar styling shenanigans --> 
 
-With some themes, you can put a navigation link in the footer rather
-than the top navigation bar.
-
-Use **For footer** to switch the link to the footer. At the press level,
-only the path theme support this feature so far.
-
-<!-- ![Custom footer links in the path theme](../../nstatic/footer-path-custom-links.png) -->
-
-Press managers can also create custom footer links that extend to all
-journal websites, such as for publisher policies.
-
-To do so, create a navigation item and check **Is external**, **For
-footer**, and **Extend to journals**.
-
-<!-- ![Custom footer links on a journal website set by a press manager.](../../nstatic/footer-olh.png) -->
-
-
-## Styling
-
-This page displays some general settings for controlling the styling of
-your journal.
-
-- Full Width Nav (only used by the Material theme)
-
-<!--
-
-No longer on this page:
-- Display Editorial Team Images
-- Enable Multi Page Editorial Team (splits the editorial team into pages
-  by Group)
-  -->
-
-  <!-- add the general navbar styling shenanigans -->
+For footer navigation, see footer navigation <!--missing hyperlink-->. This is only available at press level/
