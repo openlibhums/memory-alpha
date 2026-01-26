@@ -1,7 +1,7 @@
 title: Author guide 
 
 # Author guide
-This guide will walk you through the Janeway journal submission system.
+This guide will walk you through the Janeway journal submission system. 
 
 ## Navigating the submission process
 Generally, all Janeway journals' submission systems will look the same. Along the top of the page, you will see a progress bar with five stages. Once a stage has been completed, the corresponding segment of the bar will turn into a link. You can use this bar to return to an earlier screen if you need to make changes. 
@@ -38,8 +38,8 @@ The first page of the submission process is the author agreement. Depending on h
 
 ![The author agreement page.](../images/workflow/author-author-agreement.png)
 
-- Publication fees
-    - This is where you will see any publication fees, including Voluntary Author Contributions (VACs) or Article Processing Charges (APCs) that apply to the submission.
+- Publication fees  
+    This is where you will see any publication fees, including Voluntary Author Contributions (VACs) or Article Processing Charges (APCs) that apply to the submission.
 
 > [!NOTE]
 > Please note that a Voluntary Author Contribution and Article Processing Charge are different. The former is entirely optional and not required for publication in a journal. For more information about publication fees, visit the relevant journal’s policy page(s) or contact its editorial team.
