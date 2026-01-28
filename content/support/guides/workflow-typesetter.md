@@ -67,7 +67,7 @@ If you need to make changes to the typeset files, you can reupload them or uploa
 
  !["The ‘Edit typeset file’ page."](../../support/images/workflow/typesetting-filehistory.png)
 
-This page is divided into three sections:
+The **Edit Typeset File** page is divided into three sections:
 - The typeset file
 	- You can replace the typeset file and see the file history here.
 
