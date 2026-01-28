@@ -3,7 +3,7 @@ title: Editor guide to submissions
 The editorial workflow in Janeway starts with the Unassigned stage, where you can find new submissions for your journal and assign them to an editor. You can also use this stage as an editorial screening stage, where you make the initial decision about submissions - whether to proceed with them or reject outright. 
 
 ## Unassigned submissions
-By default, editors are notified by email once a new article has been submitted. This email contains a link to the submitted article. New submissions can also be accessed through the Dashboard by clicking on **Unassigned**. Clicking this this will take you to a list of all submissions that do not yet have an editor assigned.
+By default, editors are notified by email once a new article has been submitted. This email contains a link to the submitted article. New submissions can also be accessed through the Dashboard by clicking on **Unassigned**. Clicking this will take you to a list of all submissions that do not yet have an editor assigned.
 
 > [!NOTE]
 > Notifications can also be set up per article type (section) or for specific (section) editors. See information on setting up submission notifications and setting up article sections. <!-- missing hyperlink -->
