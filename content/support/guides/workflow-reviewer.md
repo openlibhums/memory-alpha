@@ -23,7 +23,7 @@ Click **View Requests** to be taken to the Review Requests page. On this page, y
 ![The two columns on the ‘Review Requests’ page (‘Awaiting initial decision’ and ‘Reviews in progress’). There is a task in the left column that is awaiting a decision. The task block (or card) displays the title, due date and editor initials. It also contains three buttons: ‘View Detail’, ‘Accept Task’ and ‘Decline Task’.)](../../support/images/workflow/reviewer-kanban.png)
 
 ## Review request
-If you accept the task, you will be taken to the page for the review. It is split into three sections:
+If you accept the task, you will be taken to the page for this review. It is split into three sections:
 
 1. General Review Guidelines
 2. Review Files
@@ -67,4 +67,5 @@ The sections of this form are:
 
 ## Review complete
 Once you have submitted your review, you will be presented with an overview of what you have written. Please note you will not be able to return to the review page or edit what you have written once you have clicked **Submit**.
+
 
