@@ -99,7 +99,7 @@ If you need to upload a large number of images, it might be faster to use the zi
 ## Styling
 On this page, you can also upload a CSS file associated with the article for an individual style, if required. We recommend avoiding style changes to the header and footer type elements, as this will affect the page's layout.
 
-You can also select the XSL file used to render the HTML from the file. Unless explicitly instructed otherwise, this will be the Janeway default (1.4.3). In that case, the editors will communicate this as part of the typesetting task or agreement.
+You can also select the XSL file used to render the HTML from the file. Unless explicitly instructed otherwise, this will be the Janeway default (1.4.3). <!-- A bit unclear which case the following is referring to -->In that case, the editors will communicate this as part of the typesetting task or agreement.
 
 ### Finishing up
 Once you finish the typesetting (or correction) task, you can leave a note for the editor, click the button to complete the task and send it to the editor for review. Please note that you cannot return to this page once you complete the task.
