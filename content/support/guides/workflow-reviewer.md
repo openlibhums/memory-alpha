@@ -13,7 +13,7 @@ If the journal has enabled one-click access, you can go straight to the review p
 > Do **not** share your link! This link is generated specifically for you and your review task. It functions like a password. If you share it, someone else can access your review task under your name and credentials.
 
 ## Dashboard
-If you log into Janeway as a reviewer, you will see the **Reviewer** section on your Dashboard. Here, you can see active requests, accepted ones, and reviews you have completed. 
+If you log into Janeway as a reviewer, you will see the **Reviewer** section on your Dashboard. Here, you can see active review requests, accepted review requests, and any reviews you have completed. 
 
 If you have any other roles within a journal (e.g. author, editor), you will also see sections for these on your dashboard. 
 ![Reviewer Dashboard block](../../support/images/workflow/reviewer-block.png)
@@ -67,5 +67,6 @@ The sections of this form are:
 
 ## Review complete
 Once you have submitted your review, you will be presented with an overview of what you have written. Please note you will not be able to return to the review page or edit what you have written once you have clicked **Submit**.
+
 
 
