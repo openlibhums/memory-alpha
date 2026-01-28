@@ -6,7 +6,7 @@ When you are assigned a typesetting task in Janeway, you will receive an email n
 
 !["The typesetter Dashboard displaying the number of typesetter tasks assigned."](../../support/images/workflow/typesetting-dashboardblock.png)
 
-You can see the number of open typesetting assignments from here. If you click on this block, it will take you to the **Typesetting Assignments** page, and you will be able to see both your currently open typesetting assignments (the top block) and your completed assignments (the bottom block).
+On the dashboard, you can see a block that displays the current number of open typesetting assignments. If you click on this block, it will take you to the **Typesetting Assignments** page, and you will be able to see both your currently open typesetting assignments (the top block) and your completed assignments (the bottom block).
 
 For open assignments, it will display:
 - Title
