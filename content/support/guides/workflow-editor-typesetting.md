@@ -56,7 +56,7 @@ You should set the supplementary file in advance of sending the article for type
 ## Upload galleys yourself (workflow)
 If you do not use a typesetter or file conversion through Janeway, you can upload typeset files yourself by clicking **Upload new typeset file** in the **Current galleys** section. Once you have selected a file, you can also mark whether the file should be public upon publication and set its label.
 
-When uploading an HTML or XML file with images, they must be uploaded separately, as HTML and XML files do not contain the images themselves (like a DOCX or PDF file might). Images can be uploaded by clicking **Edit galley** and using the upload functions provided, for more information see: Images and figure files <!-- missing hyperlink -->.
+When uploading an HTML or XML file with images, they must be uploaded separately, as HTML and XML files do not contain the images themselves (like a DOCX or PDF file might). Images can be uploaded by clicking **Edit galley** and using the upload functions provided. For more information see: **Images and figure files** <!-- missing hyperlink -->.
 
 > [!CAUTION]
 > Do not use the image or galley upload for supplementary files. See Supplementary files for more information.<!-- missing hyperlink -->
