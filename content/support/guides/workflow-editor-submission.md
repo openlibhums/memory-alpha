@@ -30,7 +30,7 @@ Accepting the article will move it into Copyediting, skipping peer review. You c
 If you move the article into review and are its author, you will initially be blocked from doing so and shown a security warning. If you override the warning, all other editors will be notified.
 
 ## Projected issues
-You can also assign a submission to a projected issue, but it can also be set or changed <!-- missing hyperlink --> at any point in the publication workflow through issue management. To set a projected issue, select the chosen issue from the dropdown and click **Save**. This article's projected issue will now be set. You can unset a projected issue by selecting the blank option.
+You can also assign a submission to a projected issue. This can be set or changed <!-- missing hyperlink --> at any point in the publication workflow through issue management. To set a projected issue, select the chosen issue from the dropdown and click **Save**. This article's projected issue will now be set. You can unset a projected issue by selecting the blank option.
 
 The projected issue functionality can be used internally to keep track of plans and communicate with typesetters, without affecting issue assignment or displaying information publicly. It is helpful for journals that add articles to issues on a rolling basis and publish them individually.
 
