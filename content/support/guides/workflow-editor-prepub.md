@@ -43,7 +43,7 @@ If the DOI has more than two hops, or you see something else, you need to look m
 Check the **Mark as complete** box to move on to the next step.
 
 ## Select a galley for rendering
-At this step, you can select the file (galley) that will be used to show (render) the article on the journal website: either XML or HTML. If you have XML as an option, always select that. Otherwise, HTML is the best option.
+You can now select the file (galley) that will be used to show (render) the article on the journal website: either XML or HTML. If you have XML as an option, always select that. Otherwise, HTML is the best option.
 
 If you have not done so already, double-check that any typesetting queries at the end of the PDF have been addressed and removed.
 
