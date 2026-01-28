@@ -64,7 +64,7 @@ When uploading an HTML or XML file with images, they must be uploaded separately
 ## Generating typeset files with Janeway (workflow)
 Janeway also offers the option to convert manuscript files using the [Pandoc plugin](https://github.com/BirkbeckCTP/pandoc), which can generate HTML galleys from a MS Word document. For a full guide on how to manage typesetting with Pandoc, see Typesetting with Pandoc <!-- missing hyperlink  -->.
 
-If you are interested in using the Pandoc plugin, contact your System administrator (What is a system administrator? <!-- missing hyperlink  -->.
+If you are interested in using the Pandoc plugin, contact your System administrator (What is a system administrator?) <!-- missing hyperlink  -->.
 
 ## Working with a typesetter
 
