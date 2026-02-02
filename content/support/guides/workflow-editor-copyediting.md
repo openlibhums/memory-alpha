@@ -36,7 +36,6 @@ Before the task is accepted, you can edit the notes and due date or delete the a
 
 ## Review copyediting
 ![]()
-
 The review copyedit page presents the response from the copyeditor, including their notes and any files they uploaded. You can now do one of three things under **Actions** on the right-hand side:
 
 - **Accept copyedit**
