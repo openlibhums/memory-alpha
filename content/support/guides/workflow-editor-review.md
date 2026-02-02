@@ -103,7 +103,6 @@ Once you have chosen to request revisions, you will be taken to a page where you
 Once an author has completed the revisions, you will be notified, and you can find their revised manuscript, cover letter to the editor and cover letter to the reviewers under **Revision requests** by clicking **View**.
 
 ![]()
-
 You can now either accept the article and move it to copyediting or open another round of review.
 
 ## Sharing reviews amongst reviewers
