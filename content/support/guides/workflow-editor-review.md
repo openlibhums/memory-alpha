@@ -12,7 +12,6 @@ The first step to start peer review is to select the file(s) to review by clicki
 If this is not the first round of review, you will need to open a new review round by clicking on **⊕New review round**
 
 After the appropriate files have been selected, you can add the reviewers. You can either select a reviewer from the list presented to you, select an existing user who does not yet have the reviewer role (**Enrol existing user**) or invite a new reviewer who does not yet have an account (**Add new reviewer**). These buttons can be found in the top-right corner of the screen, in blue text.
-
 ![]()
 
 When assigning the reviewer, you can also select the review form, review type (open, single or double anonymous) and set the due date. You can set defaults for these in review settings <!--missing hyperlink --> to minimise the customisation needed here. Once you have selected a reviewer and are happy with the review settings, click **Add reviewer** to confirm. You will then be shown the outgoing email on the next page, which  you can edit or select the option to skip sending this email.
