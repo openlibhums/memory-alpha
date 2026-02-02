@@ -40,7 +40,7 @@ The first page of the submission process is the author agreement. Depending on h
 ![The author agreement page.](../images/workflow/author-author-agreement.png)
 
 - Publication fees  
-    This is where you will see any publication fees, including Voluntary Author Contributions (VACs) or Article Processing Charges (APCs) that apply to the submission.
+    - This is where you will see any publication fees, including Voluntary Author Contributions (VACs) or Article Processing Charges (APCs) that apply to the submission.
 
 > [!NOTE]
 > Please note that a Voluntary Author Contribution and Article Processing Charge are different. The former is entirely optional and not required for publication in a journal. For more information about publication fees, visit the relevant journal’s policy page(s) or contact its editorial team.
