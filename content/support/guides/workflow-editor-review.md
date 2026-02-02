@@ -111,11 +111,11 @@ You can share completed peer reviews among reviewers. This can be set up through
 
 - After the first round of review.
 
-Once the first round of review is complete, a new option will be present on the **Decision helper** screen to mark the reviews as shareable. It will send an email to the reviewers, providing them with a link to access and view the review content.
+    - Once the first round of review is complete, a new option will be present on the **Decision helper** screen to mark the reviews as shareable. It will send an email to the reviewers, providing them with a link to access and view the review content.
 
 []()
 
-- Sharing reviews in the second round and beyond
+    - Sharing reviews in the second round and beyond
 
 Reviews from previous rounds can also be automatically shared with reviewers on the current round. When reviewers access the review interface, they will be given the choice to view anonymous reviews completed by their peers. Editors can modify the message to clarify why reviewers can view the reviews through the review settings <!-- missing hyperlink -->.
 []()
