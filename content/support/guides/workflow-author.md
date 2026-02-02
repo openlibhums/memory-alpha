@@ -121,7 +121,7 @@ To add a file, click the **Upload** button under either **Manuscript file** or *
 
 You are required to add a label to any file uploaded, but the description field is optional. For manuscript files, we recommend something along the lines of "submitted manuscript". For figure files, this label should correspond with the information in the manuscript (e.g. the "Figure 1" in your manuscript should be labelled as "Figure 1" when you upload it here).
    
-You can add only one manuscript file, but multiple figures and/or data files.
+While you can add only one manuscript file, multiple figures and/or data files can be added.
 
 ### Funding
 You will then be asked to supply information about any relevant funding. You can search for your funding source using our **Search for funder** function or add them manually. When adding a funder, you will be given the option to provide an optional Funder DOI and Grant ID.
