@@ -10,7 +10,7 @@ Generally, all Janeway journals' submission systems will look the same. Along th
 
 ## New submissions
 There are multiple ways to submit a journal article on Janeway.
-
+<! strange gap here>
 If you do not have an account yet:
 
 - First, begin from the **Submission** page on the main site. If this is not visible on a journal website, they may not be accepting submissions at this time. 
