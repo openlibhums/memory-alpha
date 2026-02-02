@@ -61,7 +61,6 @@ There are two ways reviews can be made available:
 
 #### Controlling individual review answers
 In addition to making the overall review available for authors to read, you can control the individual answers to review questions. This option is available on the individual review pages, under **Answer visibility**.
-
 ![]()
 
 Toggling the sections on or off will determine whether the author can see answers to specific review questions when they look at the review. No answers will be visible until the top toggle, which enables the author to access the review, has been switched on. The default visibility of each review question can be configured through the review forms (see review settings <!-- missing hyperlink -->).
