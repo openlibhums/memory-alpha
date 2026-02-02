@@ -206,11 +206,13 @@ For journals that publish content in multiple media formats (HTML, PDF, XML, etc
 
 Once you've previewed the files, you can provide feedback in two ways:
 
-- Fill in the **Notes** field. You can use this to add not just text, but also to paste in screenshots or other relevant images.
+- Fill in the **Notes** field.
+    - You can use this to add not just text, but also to paste in screenshots or other relevant images.
 
 ![Providing proofreading notes via a text editor](../images/workflow/author-proofreading-notes.png)
 
-- Upload an annotated file. In the case of PDF files, you can download the file and make annotations offline using PDF readers. When this is done, you can upload the annotated file for the editor to review.
+- Upload an annotated file.
+    - In the case of PDF files, you can download the file and make annotations offline using PDF readers. When this is done, you can upload the annotated file for the editor to review.
 
 ![Providing proofreading notes by uploading an annotated file.](../images/workflow/author-proofreading-annotated-file.png)
 
