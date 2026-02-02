@@ -30,7 +30,6 @@ You can make as many copyediting assignments as needed and track them from the c
 After an assignment has been set up, the copyeditor can log in to Janeway and complete the task. You can see the copyediting from the copyeditor's point of view in the copyeditor guide.<!-- missing hyperlink -->
 
 Before the task is accepted, you can edit the notes and due date or delete the assignment. Once the copyeditor has accepted the task, these options are removed and replaced with a **Review** button. The **Action log** will also be updated to reflect this. 
-
 ![]()
 
 ## Review copyediting
