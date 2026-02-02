@@ -115,9 +115,9 @@ You can share completed peer reviews among reviewers. This can be set up through
 
 []()
 
-    - Sharing reviews in the second round and beyond
+- Sharing reviews in the second round and beyond
 
-Reviews from previous rounds can also be automatically shared with reviewers on the current round. When reviewers access the review interface, they will be given the choice to view anonymous reviews completed by their peers. Editors can modify the message to clarify why reviewers can view the reviews through the review settings <!-- missing hyperlink -->.
+    - Reviews from previous rounds can also be automatically shared with reviewers on the current round. When reviewers access the review interface, they will be given the choice to view anonymous reviews completed by their peers. Editors can modify the message to clarify why reviewers can view the reviews through the review settings <!-- missing hyperlink -->.
 []()
 
 ### Deleting a review round
