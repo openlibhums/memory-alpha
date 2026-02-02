@@ -9,25 +9,26 @@ Generally, all Janeway journals' submission systems will look the same. Along th
 ![Submission progress bar, showing the five stages: Submission started, Article information, Author information, Article files, Review your submission.](../images/workflow/author-submission-navigation.png)
 
 ## New submissions
-There are multiple ways to submit a journal article on Janeway:
+There are multiple ways to submit a journal article on Janeway.
 
 If you do not have an account yet:
-    - From the **Submission** page on the main site (if this is not visible on a journal website, they may not be accepting submissions at this time). 
+
+- First, begin from the **Submission** page on the main site. If this is not visible on a journal website, they may not be accepting submissions at this time. 
 
 ![An example submissions page. The submissions button on the page and the navbar items for Start a submission and Submissions are highlighted.](../images/workflow/author-submission-webpage.png)
-
 If you already have an account:
-    - From the drop-down menu in the top right-hand corner. This will be visible both on the journal webpage when you click **Account** and within Janeway when you click on your profile in the top right-hand corner.
 
-- On the journal website:
+- First, begin from the drop-down menu in the top right-hand corner of the page. This will be visible both on the journal webpage when you click **Account** and within Janeway when you click on your profile in the top right-hand corner.
+
+This is an example of how this will appear on the journal website:
 
 ![The dropdown menu on the journal website.](../images/workflow/author-submission-dropdown-website.png)
 
-- On the Janeway journal platform:
+This is an example of how this will appear on the Janeway journal platform:
 
 ![The dropdown menu on the submission platform](../images/workflow/author-submission-dropdown-loggedin.png)
 
-- From the author dashboard within Janeway.
+This is an example of how this will appear from the author dashboard within Janeway.
 
 ![The author dashboard block in Janeway. Submit new article in the top right corner of the block is highlighted.](../images/workflow/author-dashboard-block.png)
 
