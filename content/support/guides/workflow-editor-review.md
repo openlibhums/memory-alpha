@@ -25,7 +25,6 @@ You can see how this appears to reviewers and what the review process looks like
 
 ### Managing a review
 Once a review has been requested, it will be listed on the review page. The initial stage of any review is "Awaiting acknowledgement" - this means the review has not yet responded to the review invitation.
-
 ![]()
 
 Once a review has been requested, you can do one of the following:
