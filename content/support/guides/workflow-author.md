@@ -10,12 +10,13 @@ Generally, all Janeway journals' submission systems will look the same. Along th
 
 ## New submissions
 There are multiple ways to submit a journal article on Janeway.
-<! strange gap here>
+
 If you do not have an account yet:
 
 - First, begin from the **Submission** page on the main site. If this is not visible on a journal website, they may not be accepting submissions at this time. 
 
 ![An example submissions page. The submissions button on the page and the navbar items for Start a submission and Submissions are highlighted.](../images/workflow/author-submission-webpage.png)
+
 If you already have an account:
 
 - First, begin from the drop-down menu in the top right-hand corner of the page. This will be visible both on the journal webpage when you click **Account** and within Janeway when you click on your profile in the top right-hand corner.
@@ -43,14 +44,14 @@ The first page of the submission process is the author agreement. Depending on h
     - This is where you will see any publication fees, including Voluntary Author Contributions (VACs) or Article Processing Charges (APCs) that apply to the submission.
 
 > [!NOTE]
-> Please note that a Voluntary Author Contribution and Article Processing Charge are different. The former is entirely optional and not required for publication in a journal. For more information about publication fees, visit the relevant journal’s policy page(s) or contact its editorial team.
+> Please note that a "Voluntary Author Contribution" and "Article Processing Charge" are different. The former is entirely optional and not required for publication in a journal. For more information about publication fees, visit the relevant journal’s policy page(s) or contact its editorial team.
 
-- Submission checklist
-    - The submission checklist will display any steps you need to take before submitting the manuscript (e.g. formatting).
-- Copyright notice
-    - The copyright notice specifies the license under which the paper will be published and any rights you may need to sign over to the publisher.
-- Competing interests
-    - If you have any competing interests that the editors should take into account when examining your paper, this is where you will need to disclose them.
+- Submission checklist  
+     The submission checklist will display any steps you need to take before submitting the manuscript (e.g. formatting).
+- Copyright notice  
+    The copyright notice specifies the license under which the paper will be published and any rights you may need to sign over to the publisher.
+- Competing interests  
+    If you have any competing interests that the editors should take into account when examining your paper, this is where you will need to disclose them.
  
 If they have been enabled, the publication fees, submission checklist and copyright notice fields will be required. This means that you _must_ select the checkboxes in order to complete a submission. If you have any issues with any of the clauses, it is best to contact the editor(s) before you submit your work.
 
@@ -60,19 +61,19 @@ The **article information** page is where you will provide the metadata for your
 ![The article information page, filled with example data.](../images/workflow/author-article-information.png)
 
 Metadata that may be requested on this page:
-- Title
-    - This field is always required.
+- Title  
+    This field is always required.
 - Subtitle
-- Abstract
-    - Whether or not an abstract is required will depend on the individual journal.
-- Language
-    - This is usually only required if the journal publishes in multiple languages.
-- Section
-    - This refers to the type of article the paper is (e.g., research article, book review, editorial, etc.)
-- Licence
-    - This is usually disabled if the journal only accepts one license type.
-- Keywords
-    - You can add keywords to your article to help people discover it. To add keywords, type the word or phrase into the textbox and press 'Enter' to add it. If you wish to delete a keyword, click the **X** icon next to it within the textbox. Keywords can include spaces and special characters.
+- Abstract  
+    Whether or not an abstract is required will depend on the individual journal.
+- Language  
+    This is usually only required if the journal publishes in multiple languages.
+- Section  
+    This refers to the type of article the paper is (e.g., research article, book review, editorial, etc.).
+- Licence  
+    This is usually disabled if the journal only accepts one license type.
+- Keywords  
+    You can add keywords to your article to help people discover it. To add keywords, type the word or phrase into the textbox and press 'Enter' to add it. If you wish to delete a keyword, click the **X** icon next to it within the textbox. Keywords can include spaces and special characters.
 
 ![""](../images/workflow/author-keywords.png)
 
@@ -101,7 +102,7 @@ If the search of the journal's author list or ORCID search are successful, autho
 
 To change the correspondence author, another author with a pre-existing (confirmed) account needs to be added. If no other co-authors have an account, the submitting author is required to remain the correspondence author.
 
->NOTE
+>[!NOTE]
 >The correspondence author does not necessarily have to be the primary author. The correspondence author can also be changed after submission.
 
 Janeway uses [Research Organization Registry (ROR)](https://ror.org/) to manage affiliation data. You can add author affiliation by clicking **Edit author details** and scrolling down to **Affiliations**. From here, you can add, remove and edit affiliations. If an author ORCID has been provided, their affiliation will be added automatically from their ORCID. You can still edit this, if it is incorrect.
@@ -206,13 +207,13 @@ For journals that publish content in multiple media formats (HTML, PDF, XML, etc
 
 Once you've previewed the files, you can provide feedback in two ways:
 
-- Fill in the **Notes** field.
-    - You can use this to add not just text, but also to paste in screenshots or other relevant images.
+- Fill in the **Notes** field.  
+    You can use this to add not just text, but also to paste in screenshots or other relevant images.
 
 ![Providing proofreading notes via a text editor](../images/workflow/author-proofreading-notes.png)
 
-- Upload an annotated file.
-    - In the case of PDF files, you can download the file and make annotations offline using PDF readers. When this is done, you can upload the annotated file for the editor to review.
+- Upload an annotated file.  
+    In the case of PDF files, you can download the file and make annotations offline using PDF readers. When this is done, you can upload the annotated file for the editor to review.
 
 ![Providing proofreading notes by uploading an annotated file.](../images/workflow/author-proofreading-annotated-file.png)
 
