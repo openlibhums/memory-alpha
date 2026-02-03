@@ -197,9 +197,9 @@ Typeset proofs are not an opportunity to make changes to the content or style of
 ## Proofing
 After your paper has been accepted and copyedited, the editors might send you a request to proof the typeset manuscript. This is the final version that will be made publicly available once the article gets published in the journal.
 <!--missing image-->
-[" "](/content/support/images/workflow/author-proofing-block.png)
+[" "](../images/workflow/author-proofing-block.png)
 <!--missing image-->
-[" "](/content/support/images/workflow/author-proofing-view-assignment.png)
+[" "](../images/workflow/author-proofing-view-assignment.png)
 
 For journals that publish content in multiple media formats (HTML, PDF, XML, etc.), it is important that you check all these files before publication. This will not require any technical knowledge; authors are not expected to be able to open and read XML/HTML code. Instead, Janeway provides a **View file** button, which allows you to preview how the article will look once it is published.
 
