@@ -19,6 +19,7 @@ To start the copyediting of an article, the first thing you will need to do is o
 > If you are both the editor and copyeditor, do not perform the copyedit through this interface. Instead, access it through the copyediting block on the main dashboard.
 
 Once you have clicked **Add copyeditor**, you will be directed to the notification page where you can send an email to notify the copyeditor.
+
 ![]()
    
 > [!NOTE]
@@ -38,12 +39,12 @@ Before the task is accepted, you can edit the notes and due date or delete the a
 
 The review copyedit page presents the response from the copyeditor, including their notes and any files they uploaded. You can now do one of three things under **Actions** on the right-hand side:
 
-- **Accept copyedit**
-  - This closes the task.
-- **Request author review**
-   - Ask the author to review the copyedits.
-- **Reopen the task**
-   - Ask the copyeditor to make further changes.
+- **Accept copyedit**  
+ This closes the task.
+- **Request author review**  
+ Ask the author to review the copyedits.
+- **Reopen the task**  
+   Ask the copyeditor to make further changes.
 
 Requesting author review will ask the author to review the copyedit and inform the editor if any corrections are required. The author can also upload a file if they have made corrections or used track changes.
 
