@@ -25,6 +25,7 @@ Once you have clicked into a paper, the next page you see will be broken into fo
 - **Guidelines**  
      Here you will find the journal's copyediting guidelines. These will help you complete your task, so you may wish to have them open in another tab as you copyedit in case you need to refer back to them.
 <!-- there does not appear to be a corresponding section below for this section-->
+<!--There currently isn't one, as it does not explicitly require the copyedited to 'do' anything except 'look at the guidelines'. E.g. I didn't have more to say about it than I already did here, do you feel something needs adding about it? If so, I can have a think-->
 - **Article files**  
     A list of the files supplied by the editor for copyediting. From here, you can download the necessary files to work on and any supplemental files (e.g., additional figures) using the download icon (highlighted in the image below).
 
