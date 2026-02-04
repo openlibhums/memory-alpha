@@ -82,13 +82,15 @@ Individual journals can add more fields to this page. These will be displayed un
 ### Author information
 The **Author information** page is where you fill in the relevant information about a submission’s author(s). The person submitting will be automatically added as an author.
 
-To add more authors to a submission, you can either search the journal's author list for existing authors, search by ORCID or add another author manually. 
+To add more authors to a submission, you can either search the journal's author list for existing authors, search by ORCID or add another author manually.
 
 - Adding authors through **Add author from search**
-    - This lets you search the journal's database of authors by using their email address or ORCID. You cannot search using a name or institution. 
+    - This lets you search the journal's database of authors by using their email address or ORCID. You cannot search using a name or institution.
     - If a matching record is found, they will be added as a co-author. If not, you will be notified that no account has been found.
 
     ![" "](../images/workflow/author-submission-author-search.png)
+
+If the search of the journal's author list or ORCID search are successful, author details will be added automatically. You can still make edits, by clicking on **Edit author details**. When an author already has an account with the journal or another journal under the press, this submission will be linked to their existing record.
 
 - Adding authors through **Add author manually**
     - The **Add author manually** button lets you create a new author record for authors if they do not already have one. The following fields are mandatory in Janeway:
@@ -98,7 +100,7 @@ To add more authors to a submission, you can either search the journal's author 
 
         ![" "](../images/workflow/author-submission-author-manual.png)
 
-If the search of the journal's author list or ORCID search are successful, author details will be added automatically. You can still make edits, by clicking on **Edit author details**. When an author already has an account with the journal or another journal under the press, this submission will be linked to their existing record.
+This will not create a new account for the  additionaly author(s), it will only create an author record with no account attached. If they wish to login and check the article's progress, they can create an account with the same email address that was used on the author record (submission). Either the submitting author or an editor can then link the account to the author record.
 
 To change the correspondence author, another author with a pre-existing (confirmed) account needs to be added. If no other co-authors have an account, the submitting author is required to remain the correspondence author.
 
@@ -196,14 +198,13 @@ Typeset proofs are not an opportunity to make changes to the content or style of
 
 ## Proofing
 After your paper has been accepted and copyedited, the editors might send you a request to proof the typeset manuscript. This is the final version that will be made publicly available once the article gets published in the journal.
-<!--missing image-->
-[" "](../images/workflow/author-proofing-block.png)
-<!--missing image-->
-[" "](../images/workflow/author-proofing-view-assignment.png)
+
+You can access your proofing tasks either through the link sent to you by email or through the proofing task button on your dashboard.
+![" "](../images/workflow/author-proofing-task.png)
 
 For journals that publish content in multiple media formats (HTML, PDF, XML, etc.), it is important that you check all these files before publication. This will not require any technical knowledge; authors are not expected to be able to open and read XML/HTML code. Instead, Janeway provides a **View file** button, which allows you to preview how the article will look once it is published.
 
-![Typeset Files download and preview](../images/workflow/author-proofing-view-file.png)
+![Typeset Files download and preview](../images/workflow/author-proofreading.png)
 
 Once you've previewed the files, you can provide feedback in two ways:
 

@@ -5,7 +5,11 @@ The copyediting stage allows you to assign, track and complete copyediting tasks
  
 ## Assigning a copyeditor
 
-To start the copyediting of an article, the first thing you will need to do is open a copyediting task and assign a copyeditor. To do this, click **Add a copyedit assignment**. This will open a new page where you can do the following:
+To start the copyediting of an article, the first thing you will need to do is open a copyediting task and assign a copyeditor. To do this, click **Add a copyedit assignment**. 
+
+![" "](../images/workflow/editor-copyedit-add-assignment.png)
+
+This will open a new page where you can do the following:
 
 1. Select a copyeditor.
    - Or give a user the copyeditor role, if they do not yet have it.
@@ -32,19 +36,19 @@ After an assignment has been set up, the copyeditor can log in to Janeway and co
 
 Before the task is accepted, you can edit the notes and due date or delete the assignment. Once the copyeditor has accepted the task, these options are removed and replaced with a **Review** button. The **Action log** will also be updated to reflect this.
 
-![]()
-
 ## Review copyediting
-![]()
+![" "](../images/workflow/editor-copyedit-review.png)
 
-The review copyedit page presents the response from the copyeditor, including their notes and any files they uploaded. You can now do one of three things under **Actions** on the right-hand side:
+The review copyedit page presents the response from the copyeditor, including their notes and any files they uploaded. You can download the copyedited manuscript using the <img src="../../support/images/download-icon.png" width="12" height="12"/> **Download** icon. You can also do one of three things under **Actions** on the right-hand side:
 
 - **Accept copyedit**  
- This closes the task.
+   This closes the task.
 - **Request author review**  
- Ask the author to review the copyedits.
+   Ask the author to review the copyedits.
 - **Reopen the task**  
    Ask the copyeditor to make further changes.
+
+![" "](../images/workflow/editor-copyedit-review-page.png)
 
 Requesting author review will ask the author to review the copyedit and inform the editor if any corrections are required. The author can also upload a file if they have made corrections or used track changes.
 

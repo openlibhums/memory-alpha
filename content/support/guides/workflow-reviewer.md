@@ -25,9 +25,9 @@ Click **View requests** to be taken to the Review Requests page. On this page, y
 ## Review request
 If you accept the task, you will be taken to the page for this review. It is split into three sections:
 
-1. General Review Guidelines
-2. Review Files
-3. Review Form
+1. General review guidelines
+2. Review files
+3. Review form
 
 ## General review guidelines
 This section displays information on how the editor would like you to undertake the review, an introduction to the review form, and metadata.
@@ -35,18 +35,17 @@ This section displays information on how the editor would like you to undertake 
 > [!NOTE]
 > This section may include both general review guidelines and guidelines specific to this review. These can differ depending on the journal and the type of submission. Please read through these even if you’ve reviewed a paper for this journal before, as they may not be the same as for a previous review task.
 
-At the bottom of this block, you will find another option to accept or decline this review task. If you initially accepted the task but are no longer available, please decline it here so that it can be offered to someone else. If you opt to decline to review, you will be asked if you can suggest other suitable reviewers. This is optional, but highly encouraged.
-
-![The ‘Review Request’ page, displaying the ‘General Review Guidelines’ section. The review guidelines, information for the form and accept/decline elements are visible.](../support/images/workflow/reviewer-review-request.png)
+At the bottom of this block, you will find an option to decline this review task if you are no longer able to complete it. If you opt to decline to review, you may be asked if you can suggest other suitable reviewers.
 
 ## Review files
-The files the editor has selected for you to review are listed here. There might be multiple files (e.g. supplementary files), so this block includes the option to download them all as a zip file.
+The files the editor has selected for you to review are listed here. There might be multiple files (e.g. supplementary files), so this block includes the option to download them all as a ZIP file.
 
-![The ‘Review Files’ section. One file is shown here with its label (‘Manuscript’ in this instance) filename and the download option. The ‘Download all as ZIP’ is in the top right corner of this section.](../support/images/workflow/reviewer-review-files.png)
+![The ‘Review Files’ section. One file is shown here with its label (‘Manuscript’ in this instance) filename and the download option. The ‘Download all as ZIP’ is in the top right corner of this section.](../images/workflow/reviewer-review-files.png)
 
 ## Review form
 This is where you will complete your review. What this looks like will differ from journal to journal, but the main sections will be the same. Each element in the form will be accompanied by a title or description to assist you in completing it.
-![The ‘Review Form’ section. It shows the ‘File Upload’, ‘Recommendation’, and ‘Comments for the Editor’ blocks.](../support/images/workflow/reviewer-file-upload.png)
+
+![The ‘Review Form’ section. It shows the ‘File Upload’, ‘Recommendation’, and ‘Comments for the Editor’ blocks.](../images/workflow/reviewer-file-upload.png)
 
 The sections of this form are:
 
@@ -67,7 +66,3 @@ The sections of this form are:
 
 ## Review complete
 Once you have submitted your review, you will be presented with an overview of what you have written. Please note you will not be able to return to the review page or edit what you have written once you have clicked **Submit**.
-
-
-
-

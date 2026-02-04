@@ -27,10 +27,10 @@ Once you have clicked into a paper, the next page you see will be broken into fo
 <!-- there does not appear to be a corresponding section below for this section-->
 <!--There currently isn't one, as it does not explicitly require the copyedited to 'do' anything except 'look at the guidelines'. E.g. I didn't have more to say about it than I already did here, do you feel something needs adding about it? If so, I can have a think-->
 - **Article files**  
-    A list of the files supplied by the editor for copyediting. From here, you can download the necessary files to work on and any supplemental files (e.g., additional figures) using the download icon (highlighted in the image below).
+    A list of the files supplied by the editor for copyediting. From here, you can download the necessary files to work on and any supplemental files (e.g., additional figures) by clicking the <img src="../../support/images/download-icon.png" width="12" height="12"/> **Download** icon.
 
 - **Copyedited files**  
-    A list of files you have uploaded. Use the **Upload file** button to add a new file when you have completed copyediting it. 
+    A list of files you have uploaded. Use the <img src="../../support/images/upload-icon.png" width="12" height="12"/> **Upload file** button to add a new file when you have completed copyediting it. 
 
 - **Complete task**  
     Here you can enter a note for the editor and mark the task as complete. 
