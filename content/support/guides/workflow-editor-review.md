@@ -9,7 +9,7 @@ This guide will cover the default review workflow, which applies to single anony
 
 The first step to start peer review is to select the file(s) to review by clicking on **Add files**. You will be able to either select a file or upload a new file. If you are using anonymous peer review, you may need to check the uploaded manuscript for identifying information and reupload a new file. All reviewers for a given review round can access the files selected.
 
-If this is not the first round of review, you will need to open a new review round by clicking on **⊕ New review round**
+If this is not the first round of review, you will need to open a new review round by clicking on **⊕New review round**
 
 After the appropriate files have been selected, you can add the reviewers. You can either select a reviewer from the list presented to you, select an existing user who does not yet have the reviewer role (**Enrol existing user**) or invite a new reviewer who does not yet have an account (**Add new reviewer**). These buttons can be found in the top-right corner of the screen, in blue text.
 
@@ -72,22 +72,23 @@ Toggling the sections on or off will determine whether the author can see answer
 If you are ready to make a decision after a round of review, you can click on **Make a decision** to open the **Decision helper** page. On this page, you will see a summary of reviewer recommendations, their review form answers and a list of uncompleted reviews. 
 
 ![]()
+
 In addition to this, the following buttons are available:
 
 - **Accept article**  
-    Accepts the article, allows you to email the author and moves the article into the next stage.
+  Accepts the article, allows you to email the author and moves the article into the next stage.
 - **New review round**  
-    Adds a new review round. Any open review assignments on the current round are withdrawn, and a new round is set up. This process is often done after round 1 and the author has completed revisions. You can still see previous rounds through the tab at the top of the page.
+  Adds a new review round. Any open review assignments on the current round are withdrawn, and a new round is set up. This process is often done after round 1 and the author has completed revisions. You can still see previous rounds through the tab at the top of the page.
 - **Reject article**  
-    Rejects the article, removes it from the workflow and allows you to email the author.
+  Rejects the article, removes it from the workflow and allows you to email the author.
 - **Request revisions**  
-    Allows you to request the author revises their paper.
+  Allows you to request the author revises their paper.
 
 If enabled:
 - **Draft a decision**  
-    Allows section editors to draft one of the above decisions for approval by an editor.
+  Allows section editors to draft one of the above decisions for approval by an editor.
 - **Share peer reviews**  
-    Allows an editor to email all of the reviewers who participated in the review of an article and share a link to all of the review reports. 
+  Allows an editor to email all of the reviewers who participated in the review of an article and share a link to all of the review reports. 
 
 > [!NOTE]
 > This setting must first be enabled before the option will be displayed, see Review settings. <!-- missing hyperlinks --> 
@@ -111,13 +112,14 @@ You can share completed peer reviews among reviewers. This can be set up through
 
 - After the first round of review.
 
-Once the first round of review is complete, a new option will be present on the **Decision helper** screen to mark the reviews as shareable. It will send an email to the reviewers, providing them with a link to access and view the review content.
+    - Once the first round of review is complete, a new option will be present on the **Decision helper** screen to mark the reviews as shareable. It will send an email to the reviewers, providing them with a link to access and view the review content.
 
 []()
 
 - Sharing reviews in the second round and beyond
 
-Reviews from previous rounds can also be automatically shared with reviewers on the current round. When reviewers access the review interface, they will be given the choice to view anonymous reviews completed by their peers. Editors can modify the message to clarify why reviewers can view the reviews through the review settings <!-- missing hyperlink -->.
+    - Reviews from previous rounds can also be automatically shared with reviewers on the current round. When reviewers access the review interface, they will be given the choice to view anonymous reviews completed by their peers. Editors can modify the message to clarify why reviewers can view the reviews through the review settings <!-- missing hyperlink -->.
+  
 []()
 
 ### Deleting a review round
