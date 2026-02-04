@@ -93,12 +93,12 @@ There is no limit on the number of typesetters you can assign at one time.
 ### Reviewing the typesetting task
 
 Once the typesetter has completed their task, you will receive an email notification. You can now review the typesetting task and select one of the following three options:
- - **Request corrections**
-   - If you notice a problem with the typeset files straight away, you can request corrections to the typesetter. See Requesting corrections <!-- missing hyperlink -->
- - **Proofing required**
-   - Accept the typeset files and record the decision to send the files for proofing.
- - **Accept**
-    - If no (further) proofing or corrections are required, you can accept the files and end the typesetting stage.
+ - **Request corrections**  
+   If you notice a problem with the typeset files straight away, you can request corrections to the typesetter. See Requesting corrections <!-- missing hyperlink -->
+ - **Proofing required**  
+   Accept the typeset files and record the decision to send the files for proofing.
+ - **Accept**  
+    If no (further) proofing or corrections are required, you can accept the files and end the typesetting stage.
 
 ## Proofing
 
@@ -166,16 +166,14 @@ For each missing image file, Janeway will present you with a block where you can
 
 The following information is aimed at advanced users, comfortable with CSS / XSL. If a journal has special styling requirements and you are unable to address this yourself, contact your publisher or system administrator.
 
-### CSS File
+### CSS file
 If a given article requires special styling, you can upload a CSS file alongside it and Janeway will output it on the article page.
 
 > [!WARNING]
 > The CSS uploaded here should only target elements inside the <article> block, otherwise it could break general styling of the site.
 
-### XSL File
+### XSL file
 Janeway's XSL Transformation process uses a version-controlled XSL (Extensible Stylesheet Language) file. When you upload a JATS XML file to Janeway it marks the file as using the current XSL file. This means that as we make changes to the XSL file it will only affect future files uploaded and not any back content.
 
 > [!WARNING]
 > Changing an XML file's XSL may cause it to render differently. It is only recommended that you do this _before_ sending it for proofreading.
-
-
