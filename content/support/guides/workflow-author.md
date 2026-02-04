@@ -94,7 +94,7 @@ To add more authors to a submission, you can either search the journal's author 
         - Last name
         - Email address
 
-An account will also be generated for the author based on this information so that they can log in to the journal and check the progress of the paper. They will need to use the password reset function to get access to their account.
+This will not create a new account for the  additionaly author(s), it will only create an author record with no account attached. If they wish to login and check the article's progress, they can create an account with the same email address that was used on the author record (submission). Either the submitting author or an editor can then link the account to the author record.
 
 ![" "](../images/workflow/author-submission-author-manual.png)
 
