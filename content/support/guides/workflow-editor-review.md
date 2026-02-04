@@ -9,7 +9,7 @@ This guide will cover the default review workflow, which applies to single anony
 
 The first step to start peer review is to select the file(s) to review by clicking on **Add files**. You will be able to either select a file or upload a new file. If you are using anonymous peer review, you may need to check the uploaded manuscript for identifying information and reupload a new file. All reviewers for a given review round can access the files selected.
 
-If this is not the first round of review, you will need to open a new review round by clicking on **⊕New review round**
+If this is not the first round of review, you will need to open a new review round by clicking on **⊕ New review round**
 
 After the appropriate files have been selected, you can add the reviewers. You can either select a reviewer from the list presented to you, select an existing user who does not yet have the reviewer role (**Enrol existing user**) or invite a new reviewer who does not yet have an account (**Add new reviewer**). These buttons can be found in the top-right corner of the screen, in blue text.
 
