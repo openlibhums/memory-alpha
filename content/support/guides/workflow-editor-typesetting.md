@@ -56,7 +56,7 @@ You should set the supplementary file in advance of sending the article for type
 ## Upload galleys yourself (workflow)
 If you do not use a typesetter or file conversion through Janeway, you can upload typeset files yourself by clicking **Upload new typeset file** in the **Current galleys** section. Once you have selected a file, you can also mark whether the file should be public upon publication and set its label.
 
-When uploading an HTML or XML file with images, they must be uploaded separately, as HTML and XML files do not contain the images themselves (like a DOCX or PDF file might). Images can be uploaded by clicking **Edit galley** and using the upload functions provided, for more information see: Images and figure files <!-- missing hyperlink -->.
+When uploading an HTML or XML file with images, they must be uploaded separately, as HTML and XML files do not contain the images themselves (like a DOCX or PDF file might). Images can be uploaded by clicking **Edit galley** and using the upload functions provided. For more information see: **Images and figure files** <!-- missing hyperlink -->.
 
 > [!CAUTION]
 > Do not use the image or galley upload for supplementary files. See Supplementary files for more information.<!-- missing hyperlink -->
@@ -64,7 +64,7 @@ When uploading an HTML or XML file with images, they must be uploaded separately
 ## Generating typeset files with Janeway (workflow)
 Janeway also offers the option to convert manuscript files using the [Pandoc plugin](https://github.com/BirkbeckCTP/pandoc), which can generate HTML galleys from a MS Word document. For a full guide on how to manage typesetting with Pandoc, see Typesetting with Pandoc <!-- missing hyperlink  -->.
 
-If you are interested in using the Pandoc plugin, contact your System administrator (What is a system administrator? <!-- missing hyperlink  -->.
+If you are interested in using the Pandoc plugin, contact your System administrator (What is a system administrator?) <!-- missing hyperlink  -->.
 
 ## Working with a typesetter
 
@@ -93,12 +93,12 @@ There is no limit on the number of typesetters you can assign at one time.
 ### Reviewing the typesetting task
 
 Once the typesetter has completed their task, you will receive an email notification. You can now review the typesetting task and select one of the following three options:
- - **Request corrections**  
-   If you notice a problem with the typeset files straight away, you can request corrections to the typesetter. See Requesting corrections <!-- missing hyperlink -->
- - **Proofing required**  
-   Accept the typeset files and record the decision to send the files for proofing.
- - **Accept**  
-    If no (further) proofing or corrections are required, you can accept the files and end the typesetting stage.
+ - **Request corrections**
+   - If you notice a problem with the typeset files straight away, you can request corrections to the typesetter. See Requesting corrections <!-- missing hyperlink -->
+ - **Proofing required**
+   - Accept the typeset files and record the decision to send the files for proofing.
+ - **Accept**
+    - If no (further) proofing or corrections are required, you can accept the files and end the typesetting stage.
 
 ## Proofing
 
@@ -141,6 +141,7 @@ You can now assign a typesetter to correct issues that were flagged in proofing,
 >[!TIP]
 >When requesting corrections, it is recommended to specify the corrections in the notes to the typesetter in addition to what the proofreaders have provided, especially in cases where proofreaders request contradictory corrections.
 
+
 ## Managing typesetting files
 Once typeset files are uploaded into Janeway, they become manageable within the system. To manage a typeset file, click the **Edit✎** icon next to it.
 
@@ -165,14 +166,16 @@ For each missing image file, Janeway will present you with a block where you can
 
 The following information is aimed at advanced users, comfortable with CSS / XSL. If a journal has special styling requirements and you are unable to address this yourself, contact your publisher or system administrator.
 
-### CSS file
+### CSS File
 If a given article requires special styling, you can upload a CSS file alongside it and Janeway will output it on the article page.
 
 > [!WARNING]
 > The CSS uploaded here should only target elements inside the <article> block, otherwise it could break general styling of the site.
 
-### XSL file
+### XSL File
 Janeway's XSL Transformation process uses a version-controlled XSL (Extensible Stylesheet Language) file. When you upload a JATS XML file to Janeway it marks the file as using the current XSL file. This means that as we make changes to the XSL file it will only affect future files uploaded and not any back content.
 
 > [!WARNING]
 > Changing an XML file's XSL may cause it to render differently. It is only recommended that you do this _before_ sending it for proofreading.
+
+
