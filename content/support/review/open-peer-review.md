@@ -17,11 +17,13 @@ During prepublication, editors can choose which of the consented reviews, if any
 
 ![Editor selects peer reviews to display](../../support/images/prepublication-open-peer-review.png)
 
-When **Select reviews to display** is clicked, the following dialogue box will show (if reviewers have not consented to share their review, it will not be listed here):
+When **Select reviews to display** is clicked, the following dialogue box will show:
 
 ![Reviews that can be displayed](../../support/images/reviews-that-can-be-displayed.png)
 
-If a peer review has been approved for public display by both the author and the editor, readers can open a pane on the article page to read the review.
+If reviewers have not consented to share their review, it will not be listed here.
+
+If a peer review has been approved for public display by both the author and the editor, readers can open a pane on the article page to read the review. 
 
 ![Button to open peer review](../../support/images/open-peer-review-metadata.png)
 
