@@ -11,7 +11,7 @@ Review settings control how the peer review process operates. The settings found
  	 - A set of generic review guidelines that a reviewer should follow.
 
 - Default review visibility  
-  - Janeway provides three options for the default review visibility: open, single or double anonymous review. If open, authors can see reviewers and vice versa; if single anonymous reviewers can see authors, if double anonymous, neither can see information on the other. The editor must ensure the manuscript files are sufficiently anonymised when using double anonymous review.  To configure triple anonymous review, consult the following page. <!-- missing hyperlink -->
+  - Janeway provides three options for the default review visibility: open, single or double anonymous review. If open is chosen, authors can see reviewers and vice versa. If a single anonymous is chosen, reviewers can see authors. If double anonymous is chosen, neither can see information of the other. The editor must ensure the manuscript files are sufficiently anonymised when using double anonymous review.  To configure triple anonymous review, consult the following page. <!-- missing hyperlink -->
 
 - Default review days  
   	- This setting configures the default number of days a reviewer is given to complete a review. This number is then used to control reminders. This field is set to 56 days (8 weeks) initially. The due date can be changed when assigning a review.
