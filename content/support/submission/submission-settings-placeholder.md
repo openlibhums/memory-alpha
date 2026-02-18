@@ -1,7 +1,7 @@
 Title: Submission settings
 # Submission settings
 
-The submission settings are accessed through the manager dashboard under **Submission** and clicking **Submission settings**. From here, you can configure the submission process, text blocks which overlap with the submission page and submission notifications.
+The submission settings are accessed through the manager dashboard under **Submission** and clicking **Submission settings**. From here, you can configure the submission process, the text blocks which overlap with the submission page and the submission notifications.
 
 ![" "](../../support/images/manager-submission-settings.png)
 
