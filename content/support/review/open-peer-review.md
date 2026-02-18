@@ -1,9 +1,9 @@
 title: Open peer review
 # Open peer review
 
-This feature allows peer reviews to be made public. This requires both the consent of the reviewer and public display to be enabled by the editor. This feature is off by default, and peer reviews will remain confidential until you turn this on.
+This feature allows peer reviews to be made public. This requires both the consent of the reviewer and public display to be enabled by the editor. This feature is off by default. Peer reviews will remain confidential until you turn this on.
 
-Open peer reviews that have been made public only show text that is typed into the peer review assignment box, not any comments made through uploaded files. This is for accessibility and display purposes. Accordingly, if you enable open peer review, we recommend encouraging reviewers to use the text box rather than commenting directly on a copy of the manuscript or uploading a file with their comments.
+Open peer reviews that have been made public only show text that is typed into the peer review assignment box, and exclude comments made through uploaded files. This is for accessibility and display purposes. Accordingly, if you enable open peer review, we recommend encouraging reviewers to use the text box rather than commenting directly on a copy of the manuscript or uploading a file with their comments.
 
 To enable open peer review, configure the settings found in **Review settings**.
 
@@ -13,7 +13,7 @@ If open peer review is enabled, reviewers will be asked for their permission to 
 
 ![Reviewers are asked for permission to make reviews public](../../support/images/review-form-open-peer-review.png)
 
-During prepublication, editors can choose which of the consented reviews (if there are any) to make open. Janeway can also assign DOIs to reviews.
+During prepublication, editors can choose which of the consented reviews, if any, to make open. Janeway can also assign DOIs to reviews.
 
 ![Editor selects peer reviews to display](../../support/images/prepublication-open-peer-review.png)
 
