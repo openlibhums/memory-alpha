@@ -36,13 +36,13 @@ On Janeway, where a section editor would usually see the author’s personal det
 Janeway applies anonymisation to the following areas:
 - Dashboards – this is applied not only on the main dashboard, but also on the kanban view and active submissions section.
 
-- Unassigned.
+- Unassigned. <!-- Information Missing -->
 
 - Review – the **Document manager** section will be disabled for section editors so that they cannot view any author details which might be stored there.
 
 - View metadata – section editors can view an anonymised version of the metadata, but are blocked from editing it to ensure that they have no access to author information.
 
-- Article log.
+- Article log. <!-- Information Missing -->
 
 - Email templates – this allows section editors to send decision letters (e.g. revision requests, acceptances or rejections) without seeing author details.
 
