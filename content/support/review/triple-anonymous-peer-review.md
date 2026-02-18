@@ -7,7 +7,7 @@ Using triple anonymous review requires at least one member of the journal team t
 
 ## Key settings for triple anonymous peer review
 
-Two settings must be configured for triple anonymous peer review to work: the personally identifiable information filter and the reply-to address.
+Two settings must be configured for triple anonymous peer review to work: the personally identifiable information filter and the reply-to address. These settings are accessible through the **All settings** page.
 
 <!-- Should the two step below be broken down further? -->
 - Section editor personally identifiable information filter (se_pii_filter)
@@ -24,7 +24,6 @@ Two settings must be configured for triple anonymous peer review to work: the pe
 > Be sure to check that this is correctly formatted as a valid email address, as an incorrect one will mean author email addresses will be displayed and the review will no longer be anonymous.
 
 
-These settings are accessible through the **All settings** page.
 
 ## Triple anonymous peer review in practice
 To make triple anonymous peer review possible, the main journal editor must first check a manuscript and ensure that the author cannot be identified through any of its contents, including the file information. If there are any identifying elements, it is this editor's responsibility to remove or redact them. 
