@@ -17,4 +17,4 @@ There are multiple aspects to managing submissions on Janeway. The two key parts
 - Additional submission fields
    - If you require any additional submission fields as part of the submission process, you can set them up through this page.
 
-Other relevant settings you may configure related to submissions are the license manager <!--missing hyperlink-->, which configures the licenses available for your journal, and sections <!--missing hyperlink-->, which sets the article types available for the journal and submissions.
+Other relevant settings you may configure related to submissions are the **license manager** <!--missing hyperlink-->, which configures the licenses available for your journal, and **sections** <!--missing hyperlink-->, which sets the article types available for the journal and submissions.
