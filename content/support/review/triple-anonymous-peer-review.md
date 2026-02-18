@@ -1,9 +1,9 @@
 Title: Triple anonymous peer review
 # Triple anonymous peer review
 
-In addition to open, single and double anonymous review, Janeway provides the option to use triple anonymous peer review. When this is enabled, authors, reviewers, and editors are all anonymised until the review stage is complete. This review process is slightly more complex than other forms of review.
+In addition to open, single and double anonymous review, Janeway provides the option to use triple anonymous peer review. When this is enabled, authors, reviewers, and editors are all anonymised until the review stage is complete. This review process is slightly more complex than other forms of anonymous review.
 
-Using triple anonymous review requires at least one member of the journal team to have non-anonymised access to screen articles at the submission stage. This editor will also need to act as a journal manager. The editors who require anonymised access to the submission need to be given the section editor role. These editors will not have full journal management permissions, as this would provide access to author data.
+Using triple anonymous review requires at least one member of the journal team to have non-anonymised access to screen articles at the submission stage. This editor will also need to act as a journal manager. The editors who require anonymised access to the submission need to be given the section editor role. These editors will not have full journal management permissions, as this would provide access to author data. 
 
 ## Key settings for triple anonymous peer review
 
