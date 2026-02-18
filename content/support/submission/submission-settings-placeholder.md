@@ -28,7 +28,7 @@ The submission settings are accessed through the manager dashboard under **Submi
 
 The settings found here are:
 
-- Disable journal submission** and Disabled submission message
+- Disable journal submission and Disabled submission message
    - Checking this box closes submission for the journal. Unchecking it reopens submissions. The textbox allows you to display a message to users when submissions are disabled.
 
 You can also limit access to submission by requiring users to create an account before being allowed to submit an article. When a user without an account attempts to submit, they will be directed to a page where they can create a new account.
