@@ -33,10 +33,10 @@ The settings found here are:
 
 You can also limit access to submission by requiring users to create an account before being allowed to submit an article. When a user without an account attempts to submit, they will be directed to a page where they can create a new account.
 
-- Limit access to submission and submission access request text
+- **Limit access to submission and submission access request text**
    - Checking this box limits access to submission to registered users. The textbox allows you to display a message to users requesting submission access.
 
-- Submission access request contact
+- **Submission access request contact**
    - This sets the address to whom submission access requests should be sent.
 
 ## Editors notified on submission
