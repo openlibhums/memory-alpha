@@ -21,3 +21,4 @@ The review settings page includes information on how to configure the review pro
 The review forms page explains how to edit and set up new review forms. There is a separate page outlining how to create form elements on Janeway.
 
 There are also pages outlining how to configure and use open peer review, triple anonymous peer review, and sharing peer reviews.
+<!-- Missing hyperlinks -->
