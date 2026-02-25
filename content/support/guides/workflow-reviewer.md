@@ -15,7 +15,8 @@ If the journal has enabled one-click access, you can go straight to the review p
 ## Dashboard
 If you log into Janeway as a reviewer, you will see the **Reviewer** section on your Dashboard. Here, you can see active review requests, accepted review requests, and any reviews you have completed. 
 
-If you have any other roles within a journal (e.g. author, editor), you will also see sections for these on your dashboard. 
+If you have any other roles within a journal (e.g. author, editor), you will also see sections for these on your dashboard.
+
 ![Reviewer Dashboard block](../../support/images/workflow/reviewer-block.png)
 
 Click **View requests** to be taken to the Review Requests page. On this page, you can see more information about the review (title, abstract, keywords, etc.) and either accept or decline the task.
@@ -29,7 +30,7 @@ If you accept the task, you will be taken to the page for this review. It is spl
 2. Review files
 3. Review form
 
-## General review guidelines
+### General review guidelines
 This section displays information on how the editor would like you to undertake the review, an introduction to the review form, and metadata.
 
 > [!NOTE]
@@ -37,12 +38,12 @@ This section displays information on how the editor would like you to undertake 
 
 At the bottom of this block, you will find an option to decline this review task if you are no longer able to complete it. If you opt to decline to review, you may be asked if you can suggest other suitable reviewers.
 
-## Review files
+### Review files
 The files the editor has selected for you to review are listed here. There might be multiple files (e.g. supplementary files), so this block includes the option to download them all as a ZIP file.
 
 ![The ‘Review Files’ section. One file is shown here with its label (‘Manuscript’ in this instance) filename and the download option. The ‘Download all as ZIP’ is in the top right corner of this section.](../images/workflow/reviewer-review-files.png)
 
-## Review form
+### Review form
 This is where you will complete your review. What this looks like will differ from journal to journal, but the main sections will be the same. Each element in the form will be accompanied by a title or description to assist you in completing it.
 
 ![The ‘Review Form’ section. It shows the ‘File Upload’, ‘Recommendation’, and ‘Comments for the Editor’ blocks.](../images/workflow/reviewer-file-upload.png)
@@ -65,4 +66,5 @@ The sections of this form are:
     If you have additional comments, they can be added here. These will be visible only to the editor(s), although they may choose to share them with the author.
 
 ## Review complete
+
 Once you have submitted your review, you will be presented with an overview of what you have written. Please note you will not be able to return to the review page or edit what you have written once you have clicked **Submit**.
