@@ -137,9 +137,9 @@ All files listed under **Current galleys** will be made available to proofreader
 
 1. Select the proofreader. 
 
-The list of potential proofreaders is made up of editors, the authors of the paper and any other users with the proofreader role. You can only select one proofreader, but you can add multiple assignments. If you wish to select a user who is not displayed in the list, click **Enrol a proofreader**.
+   The list of potential proofreaders is made up of editors, the authors of the paper and any other users with the proofreader role. You can only select one proofreader, but you can add multiple assignments. If you wish to select a user who is not displayed in the list, click **Enrol a proofreader**.
 
-![" "](../images/workflow/editor-typesetting-enroll-proofreader.png)
+   ![" "](../images/workflow/editor-typesetting-enroll-proofreader.png)
 
 2. Set a due date.
 
@@ -204,7 +204,7 @@ The following information is aimed at advanced users, comfortable with CSS / XSL
 If a given article requires special styling, you can upload a CSS file alongside it and Janeway will output it on the article page.
 
 > [!WARNING]
-> The CSS uploaded here should only target elements inside the <article> block, otherwise it could break general styling of the site.
+> The CSS uploaded here should only target elements inside the \<article\> block, otherwise it could break general styling of the site.
 
 ### XSL file
 Janeway's XSL Transformation process uses a version-controlled XSL (Extensible Stylesheet Language) file. When you upload a JATS XML file to Janeway it marks the file as using the current XSL file. This means that as we make changes to the XSL file it will only affect future files uploaded and not any back content.
