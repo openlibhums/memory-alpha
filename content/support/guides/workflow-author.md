@@ -41,17 +41,16 @@ The first page of the submission process is the author agreement. Depending on h
 ![The author agreement page.](../images/workflow/author-author-agreement.png)
 
 - Publication fees  
-    - This is where you will see any publication fees, including Voluntary Author Contributions (VACs) or Article Processing Charges (APCs) that apply to the submission.
-
-> [!NOTE]
-> Please note that a "Voluntary Author Contribution" and "Article Processing Charge" are different. The former is entirely optional and not required for publication in a journal. For more information about publication fees, visit the relevant journal’s policy page(s) or contact its editorial team.
-
+  This is where you will see any publication fees, including Voluntary Author Contributions (VACs) or Article Processing Charges (APCs) that apply to the submission.
 - Submission checklist  
      The submission checklist will display any steps you need to take before submitting the manuscript (e.g. formatting).
 - Copyright notice  
     The copyright notice specifies the license under which the paper will be published and any rights you may need to sign over to the publisher.
 - Competing interests  
     If you have any competing interests that the editors should take into account when examining your paper, this is where you will need to disclose them.
+
+> [!NOTE]
+> Please note that a "Voluntary Author Contribution" and "Article Processing Charge" are different. The former is entirely optional and not required for publication in a journal. For more information about publication fees, visit the relevant journal’s policy page(s) or contact its editorial team.
  
 If they have been enabled, the publication fees, submission checklist and copyright notice fields will be required. This means that you _must_ select the checkboxes in order to complete a submission. If you have any issues with any of the clauses, it is best to contact the editor(s) before you submit your work.
 
@@ -83,16 +82,12 @@ Individual journals can add more fields to this page. These will be displayed un
 The **Author information** page is where you fill in the relevant information about a submission’s author(s). The person submitting will be automatically added as an author.
 
 To add more authors to a submission, you can either search the journal's author list for existing authors, search by ORCID or add another author manually.
-To add more authors to a submission, you can either search the journal's author list for existing authors, search by ORCID or add another author manually.
 
 - Adding authors through **Add author from search**
-    - This lets you search the journal's database of authors by using their email address or ORCID. You cannot search using a name or institution.
     - This lets you search the journal's database of authors by using their email address or ORCID. You cannot search using a name or institution.
     - If a matching record is found, they will be added as a co-author. If not, you will be notified that no account has been found.
 
     ![" "](../images/workflow/author-submission-author-search.png)
-
-If the search of the journal's author list or ORCID search are successful, author details will be added automatically. You can still make edits, by clicking on **Edit author details**. When an author already has an account with the journal or another journal under the press, this submission will be linked to their existing record.
 
 If the search of the journal's author list or ORCID search are successful, author details will be added automatically. You can still make edits, by clicking on **Edit author details**. When an author already has an account with the journal or another journal under the press, this submission will be linked to their existing record.
 
@@ -104,7 +99,6 @@ If the search of the journal's author list or ORCID search are successful, autho
 
         ![" "](../images/workflow/author-submission-author-manual.png)
 
-This will not create a new account for the  additionaly author(s), it will only create an author record with no account attached. If they wish to login and check the article's progress, they can create an account with the same email address that was used on the author record (submission). Either the submitting author or an editor can then link the account to the author record.
 This will not create a new account for the  additionaly author(s), it will only create an author record with no account attached. If they wish to login and check the article's progress, they can create an account with the same email address that was used on the author record (submission). Either the submitting author or an editor can then link the account to the author record.
 
 To change the correspondence author, another author with a pre-existing (confirmed) account needs to be added. If no other co-authors have an account, the submitting author is required to remain the correspondence author.
