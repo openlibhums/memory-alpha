@@ -13,13 +13,13 @@ There are multiple ways to submit a journal article on Janeway.
 
 If you do not have an account yet:
 
-- First, begin from the **Submission** page on the main site. If this is not visible on a journal website, they may not be accepting submissions at this time. 
+First, begin from the **Submission** page on the main site. If this is not visible on a journal website, they may not be accepting submissions at this time. 
 
 ![An example submissions page. The submissions button on the page and the navbar items for Start a submission and Submissions are highlighted.](../images/workflow/author-submission-webpage.png)
 
 If you already have an account:
 
-- First, begin from the drop-down menu in the top right-hand corner of the page. This will be visible both on the journal webpage when you click **Account** and within Janeway when you click on your profile in the top right-hand corner.
+First, begin from the drop-down menu in the top right-hand corner of the page. This will be visible both on the journal webpage when you click **Account** and within Janeway when you click on your profile in the top right-hand corner.
 
 This is an example of how this will appear on the journal website:
 
@@ -74,7 +74,7 @@ Metadata that may be requested on this page:
 - Keywords  
     You can add keywords to your article to help people discover it. To add keywords, type the word or phrase into the textbox and press 'Enter' to add it. If you wish to delete a keyword, click the **X** icon next to it within the textbox. Keywords can include spaces and special characters.
 
-![""](../images/workflow/author-keywords.png)
+    ![""](../images/workflow/author-keywords.png)
 
 Individual journals can add more fields to this page. These will be displayed under **Additional fields**.
     
@@ -92,7 +92,8 @@ To add more authors to a submission, you can either search the journal's author 
 If the search of the journal's author list or ORCID search are successful, author details will be added automatically. You can still make edits, by clicking on **Edit author details**. When an author already has an account with the journal or another journal under the press, this submission will be linked to their existing record.
 
 - Adding authors through **Add author manually**
-    - The **Add author manually** button lets you create a new author record for authors if they do not already have one. The following fields are mandatory in Janeway:
+    - The **Add author manually** button lets you create a new author record for authors if they do not already have one.
+    - The following fields are mandatory in Janeway:
         - First name
         - Last name
         - Email address
@@ -184,16 +185,16 @@ The typesetters will then use this final manuscript to create the finished artic
 
 Typeset proofs are not an opportunity to make changes to the content or style of a manuscript: the file that goes into production is final. It is expected that only a handful (less than 10) of very minor changes should be requested at the proofing stage, if any.
 
-### To complete a copyediting author revision: 
+### Completing a copyediting review as an author
 1. Upload your revised manuscript by replacing the copyeditor's version of the file with your own updated version.
 
-![""](../images/workflow/author-copyedited-files.png)
+    ![""](../images/workflow/author-copyedited-files.png)
 
 2. Fill in the **Note to the editor** field with any additional information.
 3. Select a Decision (either **Accept** or **Corrections required**).
 4. Click **Complete copyedit task**.
 
-![""](../images/workflow/author-complete-copyedit-task.png)
+    ![""](../images/workflow/author-complete-copyedit-task.png)
 
 ## Proofing
 After your paper has been accepted and copyedited, the editors might send you a request to proof the typeset manuscript. This is the final version that will be made publicly available once the article gets published in the journal.
@@ -211,12 +212,12 @@ Once you've previewed the files, you can provide feedback in two ways:
 - Fill in the **Notes** field.  
     You can use this to add not just text, but also to paste in screenshots or other relevant images.
 
-![Providing proofreading notes via a text editor](../images/workflow/author-proofreading-notes.png)
+    ![Providing proofreading notes via a text editor](../images/workflow/author-proofreading-notes.png)
 
 - Upload an annotated file.  
     In the case of PDF files, you can download the file and make annotations offline using PDF readers. When this is done, you can upload the annotated file for the editor to review.
 
-![Providing proofreading notes by uploading an annotated file.](../images/workflow/author-proofreading-annotated-file.png)
+    ![Providing proofreading notes by uploading an annotated file.](../images/workflow/author-proofreading-annotated-file.png)
 
 It is important to proof all the files thoroughly in order to avoid unnecessary follow-up rounds. This saves everyone time, work, and money and makes the publishing process run much more smoothly.
 

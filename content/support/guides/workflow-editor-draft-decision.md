@@ -26,29 +26,29 @@ For section editors, the workflow will look like this:
 
 1. Go to the **Decision helper** page.
 2. Select the draft decision.
-3. Complete the form, following the onscreen instructions and fill in the following details (for more information, see ):
-  - Decision type
-  - Editor
-  - If required: revision request due date
-  - Email to the editor
-  - Draft email to author
+3. Complete the form, following the onscreen instructions and fill in the following details:
+   - Decision type
+   - Editor
+   - If required: revision request due date
+   - Email to the editor
+   - Draft email to author
 
 ![" "](../images/workflow/editor-draft-decision-screen.png)
 
 For editors, this process will look like the following:
 1. Access the draft decision through the link in the notification email or **Decision helper > Draft decisions**. The draft decisions will be listed under **Existing drafts**.
 
-![" "](../images/workflow/editor-draft-decision-button.png)
-
-> [!NOTE]
-> Do not start filling in the **Add a draft decision** form – the section editor will already have drafted an email to the author in **Existing draft decisions**.
+   ![" "](../images/workflow/editor-draft-decision-button.png)
 
 2. Review the draft decision and email by clicking **Edit**.
 
-![" "](../images/workflow/editor-draft-decision-edit.png)
+   ![" "](../images/workflow/editor-draft-decision-edit.png)
 
 3. If required, you can edit the decision type, due date and email to the author. You can also view any completed peer reviews on this screen.
 
-![" "](../images/workflow/editor-draft-decision-final.png)
+   ![" "](../images/workflow/editor-draft-decision-final.png)
 
 4. Accept or decline the draft. If accepted, the decision made by the section editor(s) will be actioned.
+
+> [!NOTE]
+> Do not start filling in the **Add a draft decision** form – the section editor will already have drafted an email to the author in **Existing draft decisions**.

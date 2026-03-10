@@ -64,12 +64,12 @@ There are two ways reviews can be made available:
 
 - Individually, by clicking on **View**, then toggling the review visibility switch and then pressing **Save**.
 
-![" "](../images/workflow/editor-share-review.png)
-![" "](../images/workflow/editor-share-review-individual.png)
+  ![" "](../images/workflow/editor-share-review.png)
+  ![" "](../images/workflow/editor-share-review-individual.png)
 
 - ‘In bulk’ when making a decision, after clicking on **Make a decision** (for more information, see Decision helper <!-- missing hyperlink -->). First, you will see all completed reviews in a column with a toggle detailing whether the review is visible to the author.
 
-![" "](../images/workflow/editor-share-review-bulk.png)
+  ![" "](../images/workflow/editor-share-review-bulk.png)
 
 #### Controlling individual review answers
 In addition to making the overall review available for authors to read, you can control the individual answers to review questions. This option is available on the individual review pages, under **Answer visibility**.
@@ -122,7 +122,7 @@ You can share completed peer reviews among reviewers. This can be set up through
 
     - Once the first round of review is complete, a new option will be present on the **Decision helper** screen to mark the reviews as shareable. It will send an email to the reviewers, providing them with a link to access and view the review content.
 
-![" "](../images/workflow/editor-review-decision-helper-share-reviews.png)
+  ![" "](../images/workflow/editor-review-decision-helper-share-reviews.png)
 
 - Sharing reviews in the second round and beyond
 

@@ -22,19 +22,19 @@ After selecting an article, you will be taken to the typesetting page. This page
 
 * At the top, you can see the rounds which are used for both typesetting and proofing, similar to the peer review page. From here, you start rounds and assign typesetters and proofreaders.
 
-![" "](../images/workflow/editor-typesetting-rounds.png)
+   ![" "](../images/workflow/editor-typesetting-rounds.png)
 
 * Under this, there is **Files for typesetting** where files used in typesetting are listed - this includes manuscript files, images and any pre-existing galleys.
 
 * This is followed by **Galleys**, which lists typeset files (galleys) which will become available to readers.
 
-![" "](../images/workflow/editor-typesetting-files-blocks.png)
+   ![" "](../images/workflow/editor-typesetting-files-blocks.png)
 
 * Finally, **Optional files** contains the supplementary files (data files, appendices, etc.) and (if using) source files (intermediate files used by typesetters, e.g. Adobe InDesign files).
 
 * The **Actions** block, where you can start new rounds or complete typesetting, is on the right-hand side - similar to the peer review and copyediting stages.
 
-![" "](../images/workflow/editor-typesetting-actions.png)
+   ![" "](../images/workflow/editor-typesetting-actions.png)
 
 You can see the typesetter's view and their experience of the workflow in the typesetter guide. <!-- missing hyperlinks -->
 

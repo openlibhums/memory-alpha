@@ -24,8 +24,7 @@ Once you have clicked into a paper, the next page you see will be broken into fo
 
 - **Guidelines**  
      Here you will find the journal's copyediting guidelines. These will help you complete your task, so you may wish to have them open in another tab as you copyedit in case you need to refer back to them.
-<!-- there does not appear to be a corresponding section below for this section-->
-<!--There currently isn't one, as it does not explicitly require the copyedited to 'do' anything except 'look at the guidelines'. E.g. I didn't have more to say about it than I already did here, do you feel something needs adding about it? If so, I can have a think-->
+
 - **Article files**  
     A list of the files supplied by the editor for copyediting. From here, you can download the necessary files to work on and any supplemental files (e.g., additional figures) by clicking the <img src="../../support/images/download-icon.png" width="12" height="12"/> **Download** icon.
 
@@ -35,7 +34,7 @@ Once you have clicked into a paper, the next page you see will be broken into fo
 - **Complete task**  
     Here you can enter a note for the editor and mark the task as complete. 
 
-![The ‘Article Copyediting’ page. It displays information about the manuscript, the article files, completed files and a ‘comments to the editor’ textbox. The ‘Download’, ‘Upload File’ and ‘Complete copyedit task’ buttons are highlighted.](../images/workflow/copyedit-page.png)
+    ![The ‘Article Copyediting’ page. It displays information about the manuscript, the article files, completed files and a ‘comments to the editor’ textbox. The ‘Download’, ‘Upload File’ and ‘Complete copyedit task’ buttons are highlighted.](../images/workflow/copyedit-page.png)
 
 ### Article files & copyedited files
 ![The ‘Article files’ and ‘Copyedited files’ section. It shows the files, their filenames, labels and download buttons. There is also an upload file button for copyedited files.](../images/workflow/copyedit-files.png)
