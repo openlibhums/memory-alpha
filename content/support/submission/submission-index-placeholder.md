@@ -18,4 +18,3 @@ This configures the submission fields used during the submission process. Any un
 If you require any additional submission fields as part of the submission process, you can set them up through this page.
 
 Other relevant settings you may wish to configure related to submissions are the license manager <!--missing hyperlink-->, which configures the licenses available for your journal, and sections <!--missing hyperlink-->, which set the article types available for the journal and submission.
-

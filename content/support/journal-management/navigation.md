@@ -36,7 +36,7 @@ This interface has multiple fields:
   The page title as it will display in the navigation bar.
   
 - Link  
-For internal pages hosted on Janeway, compare the URL of your home page with the URL of the page you wish to link to. Copy anything that comes after the main home page URL here. For page options which are provided by Janeway, this will likely be "/page-name" or "journalcode/page-name" (e.g. "/articles" or "journalcode/articles"). For custom pages you have created, this will likely be "/site/page-name" or "journalcode/site/page-name".
+  For internal pages hosted on Janeway, compare the URL of your home page with the URL of the page you wish to link to. Copy anything that comes after the main home page URL here. For page options which are provided by Janeway, this will likely be "/page-name" or "journalcode/page-name" (e.g. "/articles" or "journalcode/articles"). For custom pages you have created, this will likely be "/site/page-name" or "journalcode/site/page-name".
   
   For external pages, this will be the full URL of the site or page you want to link to.
   If you want to create a header for a dropdown on your navigation bar that doesn't also appear as a link in that dropdown, leave this field blank.

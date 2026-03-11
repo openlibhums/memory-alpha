@@ -12,8 +12,9 @@ You can control the contacts listing for your journal by adding and removing con
 - Role  
   The contact's role, e.g. editor or reviewer.
 
-Each outgoing message is recorded in the database and can be viewed in the admin area by staff.
+  ![Contact Manager interface. The sort handles indicate you can drag and drop to re-order your contacts.](contact-manager.png)
 
-<!-- ![Contact Manager interface. The sort handles indicate you can drag and drop to re-order your contacts.](../../nstatic/contact-manager.png) -->
 
-<!-- there is also the field in the journal settings - include info on it -->
+Any contacts added will be contactable through a webform, but no email address will be displayed. Each incoming message sent through the contact form is recorded in the database and can be viewed in the admin area by staff.
+
+Contacts will also be listed on the contacts page, displaying a name and role. Any information added to the contacts field in general settings (such as a physical address) will also be added in this column.
