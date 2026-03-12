@@ -34,10 +34,10 @@ Review settings control how the peer review process operates. The settings found
 - Enable save review progress  
   If enabled, reviewers can save the progress in a peer-review assignment and return to complete it later. We recommend only using this when working with particularly long review forms.
 
-- Accept article warning
+- Accept article warning  
 	This is a block of text displayed to the editor before they accept an article, prompting initial DOI and metadata registration with Crossref if the journal or press is set to use Crossref. You can use the setting to provide a readout of current metadata so the editor can check what will be sent to Crossref. 
 
-- Enable expanded review details
+- Enable expanded review details  
 	When this setting is enabled, the editor's review dashboard will show all active reviews. Otherwise, it will show a count of completed reviews.
 
 
