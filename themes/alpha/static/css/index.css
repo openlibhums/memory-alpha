@@ -18,10 +18,13 @@
 @import "../components/laser_link.css" layer(components);
 @import "../components/link_list.css" layer(components);
 @import "../components/main_nav.css" layer(components);
+@import "../components/new_way_slogan.css" layer(components);
 @import "../components/page_h1.css" layer(components);
 @import "../components/page_section.css" layer(components);
 @import "../components/page_section_group.css" layer(components);
 @import "../components/page_section_header.css" layer(components);
+@import "../components/rainbow_road_splash.css" layer(components);
+@import "../components/signature.css" layer(components);
 @import "../components/slide_gallery.css" layer(components);
 @import "../components/timeline_wheel.css" layer(components);
 

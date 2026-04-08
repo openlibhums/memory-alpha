@@ -1,0 +1,21 @@
+{% from "components/new_way_slogan.html" import new_way_slogan %}
+{% from "components/page_section.html" import page_section %}
+
+<section aria-labelledby="h1" class="rainbow-road-splash">
+  <div class="blue-circle right"></div>
+  <div class="swoosh">
+    {% include "svg/rainbow-road.svg" %}
+  </div>
+  <div class="logo">
+    {% include "svg/janeway-logo-white.svg" %}
+  </div>
+  <h1 id="h1" class="sr-only">Janeway</h1>
+  <div class="large-screen-slogan">
+    {{ new_way_slogan(viewport="large") }}
+  </div>
+</section>
+<div class="small-screen-slogan">
+  {% call page_section(labelledby="new-way-text-small", bg="bg-alpha-blue") %}
+    {{ new_way_slogan(viewport="small") }}
+  {% endcall %}
+</div>

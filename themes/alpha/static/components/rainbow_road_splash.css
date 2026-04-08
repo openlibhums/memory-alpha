@@ -1,0 +1,50 @@
+.rainbow-road-splash {
+  --swoosh-vertical-offset: calc(-1 * var(--space-3xl));
+  position: relative;
+  width: 100%;
+  .blue-circle.right {
+    width: 8rem;
+    height: 8rem;
+    position: absolute;
+    right: 20%;
+    bottom: 25%;
+  }
+  .swoosh {
+    display: flex;
+    place-content: center;
+    margin-block-end: var(--swoosh-vertical-offset);
+  }
+  .swoosh svg {
+    display: block;
+    min-width: 40rem;
+    translate: 0 var(--swoosh-vertical-offset);
+  }
+  .logo {
+    position: absolute;
+    display: flex;
+    place-content: center;
+    inset: 0;
+    padding-block-end: 20rem;
+  }
+  .logo svg {
+    display: block;
+    width: 20rem;
+  }
+  .blue-circle {
+    display: none;
+    background: var(--clr-alpha-blue);
+    border-radius: 50%;
+  }
+  .blue-circle.left {
+    width: 4rem;
+    height: 4rem;
+    margin-block-end: 4rem;
+  }
+
+  @media (width > 50rem) {
+    .blue-circle,
+    .blue-circle {
+      display: block;
+    }
+  }
+}

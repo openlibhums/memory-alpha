@@ -25,10 +25,10 @@
   .logo {
     justify-content: center;
     flex: 0 1 12.5rem;
-
-    img {
-      max-height: 100%;
-    }
+  }
+  .logo svg {
+    color: var(--clr-alpha-white);
+    width: 8rem;
   }
 
   a:not(.logo a) {

@@ -59,20 +59,7 @@
     </svg>
   </div>
   <div class="signature-wrapper">
-    <div
-      class="signature"
-      role="img"
-      aria-label="Brought to you by OLH at Birkbeck, University of London"
-    >
-      <span>Brought to you by</span>
-      <span class="signature-logo signature-logo-olh">
-        {% include "svg/olh-symbol.svg" %}
-      </span>
-      <span>at</span>
-      <span class="signature-logo signature-logo-birkbeck">
-        {% include "svg/birkbeck-logo.svg" %}
-      </span>
-    </div>
+    {% include "components/signature.html" %}
   </div>
   {% call link_list(layout='narrow') %}
     <li>
