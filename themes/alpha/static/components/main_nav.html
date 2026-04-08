@@ -1,13 +1,13 @@
 {# A component to display the main navigation. #}
 {% from "components/laser_link.html" import laser_link %}
 
-{% macro main_nav(LEFT_NAV_ITEMS, RIGHT_NAV_ITEMS) -%}
+{% macro main_nav(LEFT_NAV_ITEMS, RIGHT_NAV_ITEMS, output_file) -%}
   <nav id="main-nav" class="main-nav">
     <div class="nav-container">
       <div class="left">
         <ul>
           {% for title, link, target in LEFT_NAV_ITEMS %}
-            <li>
+            <li class="bg-alpha-black">
               {% call laser_link(href=link, target=target) %}
                 {{ title }}
               {% endcall %}
@@ -15,15 +15,13 @@
           {% endfor %}
         </ul>
       </div>
-      <div class="logo">
-        <a href="/">
-          <img
-            src="{{ static }}/theme/images/logo/janeway-logo-white.svg"
-            alt="Janeway Logo"
-            width="128"
-          />
-        </a>
-      </div>
+      {% if output_file != "index.html" %}
+        <div class="logo">
+          <a href="/">
+            {% include "svg/janeway-logo-white.svg" %}
+          </a>
+        </div>
+      {% endif %}
       <div class="right">
         <ul>
           {% for title, link, target in RIGHT_NAV_ITEMS %}

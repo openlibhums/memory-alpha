@@ -85,24 +85,11 @@
     }
   }
 
-  .signature {
+  .signature-wrapper {
     font-size: var(--step-4);
-    font-family: var(--ff-poppins-bold);
     margin-block: var(--space-xs);
     display: flex;
-    gap: 0.5rem;
-    align-items: center;
-    flex-wrap: wrap;
     justify-content: center;
-  }
-
-  .signature-logo-olh,
-  .signature-logo-olh svg {
-    height: var(--step-5);
-  }
-  .signature-logo-birkbeck,
-  .signature-logo-birkbeck svg {
-    height: var(--step-7);
   }
 
   .copyright-wrapper {

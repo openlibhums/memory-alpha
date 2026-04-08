@@ -1,7 +1,7 @@
 .page-section {
   /* Set a background pane on each side of the content
    * so the same color extends to the edge of the screen,
-   * despite the constraint the a container */
+   * despite the constraint of the container */
   position: relative;
   .background-pane-left,
   .background-pane-right {

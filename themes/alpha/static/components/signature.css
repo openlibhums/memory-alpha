@@ -1,0 +1,22 @@
+.signature {
+  font-family: var(--ff-poppins-bold);
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  .olh,
+  .olh svg {
+    height: 1.2em;
+  }
+  .birkbeck,
+  .birkbeck svg {
+    height: 1.9em;
+  }
+  @media (width > 50rem) {
+    & {
+      justify-content: left;
+    }
+  }
+}

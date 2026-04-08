@@ -1,0 +1,18 @@
+{% macro new_way_slogan(viewport="small") %}
+  <div class="new-way-slogan">
+    <div class="blue-circle left"></div>
+    <div class="text flow">
+      <h2 id="new-way-text-{{ viewport }}">
+        A New Way
+      </h2>
+      <p>
+        Open Source.<br>
+        Open Access.<br>
+        Always.<br>
+      </p>
+    </div>
+    <div class="signature-wrapper">
+      {% include "components/signature.html" %}
+    </div>
+  </div>
+{% endmacro %}

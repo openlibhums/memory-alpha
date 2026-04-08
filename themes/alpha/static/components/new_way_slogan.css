@@ -1,0 +1,47 @@
+.new-way-slogan {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  .text {
+    padding: var(--space-3xs);
+    font-family: var(--ff-space-mono-regular);
+    font-size: var(--step-5);
+  }
+  .signature-wrapper {
+    margin-block-start: var(--space-xs);
+    max-width: 14rem;
+  }
+  .text,
+  .signature-wrapper {
+    padding: var(--space-3xs);
+    background: var(--clr-alpha-black);
+    border-radius: var(--step-3);
+  }
+}
+@media (width <= 50rem) {
+  .large-screen-slogan .new-way-slogan {
+    display: none;
+  }
+  .small-screen-slogan .page-section {
+    display: block;
+    .text,
+    .signature-wrapper {
+      background: var(--clr-alpha-blue);
+      max-width: none;
+      text-align: left;
+    }
+  }
+}
+@media (width > 50rem) {
+  .small-screen-slogan .page-section {
+    display: none;
+  }
+  .large-screen-slogan .new-way-slogan {
+    display: flex;
+  }
+  .large-screen-slogan .new-way-slogan {
+    position: absolute;
+    bottom: 15rem;
+    left: 0;
+  }
+}

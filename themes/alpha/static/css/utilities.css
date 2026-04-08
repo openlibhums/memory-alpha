@@ -58,6 +58,21 @@
 .bg-alpha-yellow {
   background-color: var(--clr-alpha-yellow);
 }
+.fill-alpha-black {
+  fill: var(--clr-alpha-black);
+}
+.fill-alpha-white {
+  fill: var(--clr-alpha-white);
+}
+.fill-alpha-blue {
+  fill: var(--clr-alpha-blue);
+}
+.fill-alpha-red {
+  fill: var(--clr-alpha-red);
+}
+.fill-alpha-yellow {
+  fill: var(--clr-alpha-yellow);
+}
 
 /* Font families */
 .ff-poppins {
