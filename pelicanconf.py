@@ -1,4 +1,6 @@
+from datetime import datetime
 import logging
+
 
 AUTHOR = 'Open Library of Humanities'
 SITENAME = 'Janeway Systems'
@@ -106,6 +108,10 @@ CATEGORIES_SAVE_AS = 'support/under-construction.html'
 
 JINJA_ENVIRONMENT = {
     'extensions': ['jinja2.ext.do'],
+}
+
+JINJA_GLOBALS = {
+    "current_year": datetime.now().strftime("%Y"),
 }
 
 GH_MAIN_CONTENT_URL = 'https://github.com/BirkbeckCTP/memory-alpha/edit/main/content'
