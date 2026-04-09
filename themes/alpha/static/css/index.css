@@ -13,8 +13,9 @@
 /* Add new components to this section in alphabetical order */
 @import "../components/button.css" layer(components);
 @import "../components/example_component.css" layer(components);
-@import "../components/george_space_splash.css" layer(components);
 @import "../components/footer.css" layer(components);
+@import "../components/george_space_splash.css" layer(components);
+@import "../components/journal_cover_grid.css" layer(components);
 @import "../components/laser_link.css" layer(components);
 @import "../components/link_list.css" layer(components);
 @import "../components/main_nav.css" layer(components);

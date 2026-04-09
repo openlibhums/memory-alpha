@@ -1,0 +1,8 @@
+.journal-cover-grid {
+  display: grid;
+  gap: var(--space-s);
+  grid-template-columns: repeat(auto-fill, minmax(261px, 1fr));
+  img {
+    width: 100%;
+  }
+}
