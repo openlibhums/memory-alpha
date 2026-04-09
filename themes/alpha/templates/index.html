@@ -81,6 +81,16 @@
       <div>Logo</div>
     </div>
   {% endcall %}
+  {% call page_section(labelledby="featured-journals", bg="bg-alpha-blue") %}
+    <h2 id="featured-journals">Featured journals</h2>
+    <p>
+      Janeway is used to publish a wide range of journals with very different
+      characteristics. We cover disciplines from the humanities and sciences,
+      and we support equations and tables, multimedia content and multilingual
+      articles.
+    </p>
+    {% include "components/journal_cover_grid.html" %}
+  {% endcall %}
 
   {#
   {% for article in articles_page.object_list %}
