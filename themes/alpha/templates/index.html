@@ -64,22 +64,8 @@
       </h2>
     </div>
   {% endcall %}
-  {% call page_section(labelledby="academic-owned", bg="bg-alpha-white") %}
-    <div class="flow" style="max-width: 30rem;">
-      <h2 id="academic-owned">Academic Owned</h2>
-      {{ lipsum(n=1, min=20, max=40) }}
-    </div>
-    <div
-      class="flex text-alpha-black"
-      style="justify-content: space-between; margin-block-start: var(--space-m);"
-    >
-      <div>Logo</div>
-      <div>Logo</div>
-      <div>Logo</div>
-      <div>Logo</div>
-      <div>Logo</div>
-      <div>Logo</div>
-    </div>
+  {% call page_section(labelledby="key-features", bg="bg-alpha-black") %}
+    {% include "components/key_features.html" %}
   {% endcall %}
   {% call page_section(labelledby="featured-journals", bg="bg-alpha-blue") %}
     <h2 id="featured-journals">Featured journals</h2>

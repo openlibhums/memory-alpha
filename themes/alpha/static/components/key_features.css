@@ -1,0 +1,24 @@
+.key-features {
+  ul {
+    list-style: none;
+    line-height: 2;
+    padding-inline-start: 0;
+  }
+  li {
+    padding-inline-start: 0;
+    display: grid;
+    grid-template-columns: 2rem auto;
+    gap: 1rem;
+    padding-block: var(--space-3xs);
+  }
+  li svg {
+    margin-top: var(--space-3xs);
+    width: var(--step-5);
+    height: unset;
+  }
+}
+@media (width > 50rem) {
+  .key-features ul {
+    columns: 2;
+  }
+}

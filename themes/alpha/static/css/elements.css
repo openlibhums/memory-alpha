@@ -20,7 +20,7 @@ h1 {
   --flow-space: var(--space-xl);
 }
 h2 {
-  font-size: var(--step-4);
+  font-size: var(--step-5);
   font-family: var(--ff-space-mono-bold);
   font-weight: normal;
   --flow-space: var(--space-l);
@@ -45,7 +45,9 @@ h6 {
   font-family: var(--ff-poppins);
   --flow-space: var(--space-m);
 }
-p {
+p,
+ul,
+li {
   font-size: var(--step-3);
   font-family: var(--ff-poppins);
   --flow-space: var(--space-s);
