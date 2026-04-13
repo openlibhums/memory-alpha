@@ -2,7 +2,8 @@
   aria-hidden="true"
   focusable="false"
   xmlns="http://www.w3.org/2000/svg"
-  viewBox="0 0 51.23 96.8">
+  viewBox="0 0 51.23 96.8"
+>
   <defs>
     <style>
       .cls-1 {
@@ -13,6 +14,10 @@
     </style>
   </defs>
   <g>
-    <polyline stroke="currentColor" class="cls-1" points="49.82 95.39 2.83 48.4 49.81 1.41"/>
+    <polyline
+      stroke="currentColor"
+      class="cls-1"
+      points="49.82 95.39 2.83 48.4 49.81 1.41"
+    />
   </g>
 </svg>
