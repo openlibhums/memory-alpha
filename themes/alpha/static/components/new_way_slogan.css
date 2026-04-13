@@ -5,11 +5,15 @@
   .text {
     padding: var(--space-3xs);
     font-family: var(--ff-space-mono-regular);
-    font-size: var(--step-5);
+    font-size: var(--step-4);
+  }
+  .text p {
+    font-size: var(--step-4);
   }
   .signature-wrapper {
     margin-block-start: var(--space-xs);
-    max-width: 14rem;
+    max-width: 16rem;
+    font-size: var(--step-3);
   }
   .text,
   .signature-wrapper {

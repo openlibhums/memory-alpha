@@ -16,6 +16,7 @@
 @import "../components/footer.css" layer(components);
 @import "../components/george_space_splash.css" layer(components);
 @import "../components/journal_cover_grid.css" layer(components);
+@import "../components/key_features.css" layer(components);
 @import "../components/laser_link.css" layer(components);
 @import "../components/link_list.css" layer(components);
 @import "../components/main_nav.css" layer(components);
