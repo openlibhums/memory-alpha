@@ -2,6 +2,7 @@
   "type": "module",
   "devDependencies": {
     "prettier": "^3.8.1",
+    "@prettier/plugin-xml": "^3.4.2",
     "prettier-plugin-jinja-template": "^2.0.0"
   }
 }

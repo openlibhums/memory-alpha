@@ -1,5 +1,9 @@
 {
-  "plugins": ["prettier-plugin-jinja-template"],
+  "xmlWhitespaceSensitivity": "ignore",
+  "plugins": [
+    "@prettier/plugin-xml",
+    "prettier-plugin-jinja-template"
+  ],
   "overrides": [
     {
       "files": ["*.html"],
