@@ -1,0 +1,11 @@
+<svg id="Icons" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130 130">
+  <circle class="fill-alpha-yellow" cx="65.09" cy="53.18" r="43" />
+  <path
+    class="fill-alpha-blue"
+    d="m73.02,100.96h-20.18v-11.89h-7.09v31.55h34.35v-31.55h-7.09v11.89Zm-20.18,12.57v-5.48h20.18v5.48h-20.18Z"
+  />
+  <path
+    class="fill-alpha-blue"
+    d="m65.09,19.54v7.09c14.64,0,26.56,11.91,26.56,26.56h7.09c0-18.55-15.09-33.64-33.64-33.64Z"
+  />
+</svg>

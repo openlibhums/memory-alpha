@@ -1,0 +1,11 @@
+<svg id="Icons" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130 130">
+  <circle class="fill-alpha-yellow" cx="65" cy="65" r="43" />
+  <polygon
+    class="fill-alpha-blue"
+    points="110.31 39.03 105.82 33.55 68 64.52 105.82 95.49 110.31 90.01 79.18 64.52 110.31 39.03"
+  />
+  <rect class="fill-alpha-blue" x="25.69" y="85.92" width="32.66" height="7.09" />
+  <rect class="fill-alpha-blue" x="25.69" y="36.99" width="32.66" height="7.09" />
+  <rect class="fill-alpha-blue" x="25.69" y="69.61" width="32.66" height="7.09" />
+  <rect class="fill-alpha-blue" x="25.69" y="53.3" width="32.66" height="7.09" />
+</svg>

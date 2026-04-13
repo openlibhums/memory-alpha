@@ -1,0 +1,14 @@
+<svg id="Icons" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130 130">
+  <circle class="fill-alpha-yellow" cx="75.76" cy="75.58" r="43" />
+  <path
+    class="fill-alpha-blue"
+    d="m46.26,37.15h-22.49c.76-8.52,7.93-15.22,16.64-15.22v-7.09c-12.62,0-22.98,9.88-23.75,22.31h-.05v29.65h29.65v-29.65Zm-7.09,22.56h-15.48v-15.48h15.48v15.48Z"
+  />
+  <path
+    class="fill-alpha-blue"
+    d="m59.41,37.15c.76-8.52,7.93-15.22,16.64-15.22v-7.09c-12.62,0-22.98,9.88-23.75,22.31h-.05v29.65h29.65v-29.65h-22.49Zm15.4,22.56h-15.48v-15.48h15.48v15.48Z"
+  />
+  <rect class="fill-alpha-blue" x="20.15" y="78.6" width="58.21" height="7.09" />
+  <rect class="fill-alpha-blue" x="20.15" y="93.19" width="58.21" height="7.09" />
+  <rect class="fill-alpha-blue" x="20.15" y="107.79" width="58.21" height="7.09" />
+</svg>
