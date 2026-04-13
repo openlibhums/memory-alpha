@@ -2,7 +2,7 @@
   h1 {
     padding-block-start: var(--space-2xl);
     padding-block-end: var(--space-l);
-    max-width: 9ch;
+    max-width: var(--max-char-width);
   }
   .h1-text::after {
     content: "_" / "";
