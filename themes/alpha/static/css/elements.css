@@ -27,7 +27,7 @@ h2 {
 }
 h3 {
   font-size: var(--step-3);
-  font-family: var(--ff-poppins-medium);
+  font-family: var(--ff-space-mono-bold);
   --flow-space: var(--space-m);
 }
 h4 {
@@ -54,4 +54,5 @@ li {
 }
 hr {
   background-color: var(--clr-alpha-blue);
+  --flow-space: var(--space-m);
 }

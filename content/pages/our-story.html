@@ -29,9 +29,7 @@
 
     {% call prose_columns() %}
       {% call column() %}
-        <h3 id="what-is-janeway">
-          What is Janeway?
-        </h3>
+        <h3 id="what-is-janeway">What is Janeway?</h3>
         <p>
           Janeway is an intuitive and adaptable platform for digital publishing
           that helps you manage manuscript submissions, including review,
@@ -82,9 +80,20 @@
       UK’s most established publishers.
     </p>
 
-    {% call button(volume="loud", parent_text_color="blue", parent_background_color="white") %}
-      Meet the crew
-    {% endcall %}
+    <div
+      class="grid place-content-center not-prose"
+      style="--flow-space: var(--space-m);"
+    >
+      {%
+        call button(
+        volume="loud",
+        parent_text_color="blue",
+        parent_background_color="white"
+        )
+      %}
+        Meet the crew
+      {% endcall %}
+    </div>
   {% endcall %}
   {% call sr_only_h2(id="timeline-wheel-h2") -%}
     Timeline

@@ -1,0 +1,25 @@
+.speak-to-us {
+  display: grid;
+  place-content: center;
+  margin-block: 3rem;
+  a {
+    text-decoration: none;
+  }
+  .alpha-icon {
+    width: 10rem;
+    height: unset;
+  }
+  .link-frame {
+    display: flex;
+    gap: var(--space-l);
+  }
+  .text {
+    padding: var(--space-s);
+    color: var(--clr-alpha-blue);
+    background: var(--clr-alpha-white);
+    margin-top: var(--space-l);
+    font-size: var(--step-7);
+    font-family: var(--ff-mono-regular);
+    line-height: 1.1;
+  }
+}

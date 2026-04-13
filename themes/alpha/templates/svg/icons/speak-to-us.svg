@@ -1,0 +1,13 @@
+<svg
+  class="alpha-icon"
+  viewBox="0 0 108 100.77"
+  width="108"
+  height="100.77"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <circle class="fill-alpha-white" cx="65" cy="57.77" r="43" />
+  <path
+    class="fill-alpha-blue"
+    d="M 48.71,65.64 26.11,48.81 H 0 V 0 H 68.91 V 48.81 H 48.7 V 65.64 Z M 7.09,41.72 h 21.37 l 13.16,9.8 v -9.8 H 61.83 V 7.09 H 7.09 Z"
+  />
+</svg>

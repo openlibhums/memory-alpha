@@ -1,0 +1,6 @@
+{% macro icon_plus_action(icon_path) -%}
+  <div class="icon-plus-action">
+    {% include icon_path %}
+    <div class="flow">{{ caller() }}</div>
+  </div>
+{%- endmacro %}

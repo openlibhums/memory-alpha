@@ -1,5 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 320 320">
+<?xml version="1.0" encoding="UTF-8" ?>
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  viewBox="0 0 320 320"
+>
   <defs>
     <style>
       .alpha-yellow {
@@ -19,13 +23,30 @@
       <circle cx="160" cy="160" r="160" fill="white" />
     </mask>
   </defs>
-  <g class="favicon" mask="url(#mask)" transform="rotate(90)" transform-origin="160 160">
+  <g
+    class="favicon"
+    mask="url(#mask)"
+    transform="rotate(90)"
+    transform-origin="160 160"
+  >
     <rect class="alpha-black" x="0" y="0" width="320" height="320" />
-    <path class="alpha-red" d="m202.97,-90v274.15c0,173.66,125.51,321.17,125.51,321.17h243.79s-360.29-97.88-360.29-384.11v-211.22h-9.02Z"/>
-    <path class="alpha-red" d="m154.62,-90s0,118.04,0,274.15c0,173.66-125.51,321.17-125.51,321.17h-243.79s360.29-97.88,360.29-384.11c0-101.78,0-211.22,0-211.22h9.02Z"/>
-    <path class="alpha-yellow" d="m178.63,-90v595.22h64.05s-54.44-155.56-54.44-321.17v-274.05h-9.61Z"/>
-    <path class="alpha-yellow" d="m178.96,-90v595.22h-64.05s54.44-155.56,54.44-321.17c0-156.01,0-274.05,0-274.05h9.61Z"/>
-    <circle class="alpha-blue" cx="0" cy="250" r="100"/>
-    <circle class="alpha-yellow" cx="300" cy="130" r="50"/>
+    <path
+      class="alpha-red"
+      d="m202.97,-90v274.15c0,173.66,125.51,321.17,125.51,321.17h243.79s-360.29-97.88-360.29-384.11v-211.22h-9.02Z"
+    />
+    <path
+      class="alpha-red"
+      d="m154.62,-90s0,118.04,0,274.15c0,173.66-125.51,321.17-125.51,321.17h-243.79s360.29-97.88,360.29-384.11c0-101.78,0-211.22,0-211.22h9.02Z"
+    />
+    <path
+      class="alpha-yellow"
+      d="m178.63,-90v595.22h64.05s-54.44-155.56-54.44-321.17v-274.05h-9.61Z"
+    />
+    <path
+      class="alpha-yellow"
+      d="m178.96,-90v595.22h-64.05s54.44-155.56,54.44-321.17c0-156.01,0-274.05,0-274.05h9.61Z"
+    />
+    <circle class="alpha-blue" cx="0" cy="250" r="100" />
+    <circle class="alpha-yellow" cx="300" cy="130" r="50" />
   </g>
 </svg>
