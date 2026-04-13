@@ -1,11 +1,17 @@
-<svg id="Icons" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130 130">
-  <circle class="fill-alpha-yellow" cx="63.3" cy="65" r="43" />
+<svg
+  class="alpha-icon"
+  viewBox="0 0 110.96 105.47"
+  width="110.96"
+  height="105.47"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <circle class="fill-alpha-yellow" cx="52.48" cy="50.959999" r="43" />
   <path
     class="fill-alpha-blue"
-    d="m10.82,63.45h49.41V14.04H10.82v49.41Zm7.09-42.33h35.24v35.24H17.9V21.12Z"
+    d="M 0,49.41 H 49.41 V 0 H 0 Z M 7.09,7.08 H 42.33 V 42.32 H 7.08 V 7.08 Z"
   />
   <path
     class="fill-alpha-blue"
-    d="m65,70.34l28.39,49.17,28.39-49.17h-56.77Zm12.27,7.09h32.23l-16.11,27.91-16.11-27.91Z"
+    d="M 54.18,56.3 82.57,105.47 110.96,56.3 H 54.19 Z m 12.27,7.09 H 98.68 L 82.57,91.3 66.46,63.39 Z"
   />
 </svg>

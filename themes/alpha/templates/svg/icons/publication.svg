@@ -1,11 +1,41 @@
-<svg id="Icons" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130 130">
-  <circle class="fill-alpha-yellow" cx="65" cy="65" r="43" />
-  <rect class="fill-alpha-blue" x="53.42" y="85.92" width="62.74" height="7.09" />
-  <rect class="fill-alpha-blue" x="53.42" y="36.99" width="62.74" height="7.09" />
+<svg
+  class="alpha-icon"
+  viewBox="0 0 94.160004 86"
+  width="94.160004"
+  height="86"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <circle class="fill-alpha-yellow" cx="43" cy="43" r="43" />
+  <rect
+    class="fill-alpha-blue"
+    x="31.419998"
+    y="63.919998"
+    width="62.740002"
+    height="7.0900002"
+  />
+  <rect
+    class="fill-alpha-blue"
+    x="31.419998"
+    y="14.990002"
+    width="62.740002"
+    height="7.0900002"
+  />
   <path
     class="fill-alpha-blue"
-    d="m76.7,76.7h-23.4v-23.4h23.4v23.4Zm-16.31-7.09h9.23v-9.22h-9.23v9.22Z"
+    d="M 54.7,54.7 H 31.3 V 31.3 H 54.7 Z M 38.39,47.61 h 9.23 v -9.22 h -9.23 z"
   />
-  <rect class="fill-alpha-blue" x="83.5" y="69.61" width="32.66" height="7.09" />
-  <rect class="fill-alpha-blue" x="83.5" y="53.3" width="32.66" height="7.09" />
+  <rect
+    class="fill-alpha-blue"
+    x="61.5"
+    y="47.610001"
+    width="32.66"
+    height="7.0900002"
+  />
+  <rect
+    class="fill-alpha-blue"
+    x="61.5"
+    y="31.299999"
+    width="32.66"
+    height="7.0900002"
+  />
 </svg>

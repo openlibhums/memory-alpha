@@ -1,14 +1,38 @@
-<svg id="Icons" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130 130">
-  <circle class="fill-alpha-yellow" cx="75.76" cy="75.58" r="43" />
+<svg
+  class="alpha-icon"
+  viewBox="0 0 102.15 103.74001"
+  width="102.15"
+  height="103.74001"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <circle class="fill-alpha-yellow" cx="59.150002" cy="60.740002" r="43" />
   <path
     class="fill-alpha-blue"
-    d="m46.26,37.15h-22.49c.76-8.52,7.93-15.22,16.64-15.22v-7.09c-12.62,0-22.98,9.88-23.75,22.31h-.05v29.65h29.65v-29.65Zm-7.09,22.56h-15.48v-15.48h15.48v15.48Z"
+    d="M 29.65,22.31 H 7.16 C 7.92,13.79 15.09,7.09 23.8,7.09 V 0 C 11.18,0 0.82,9.88 0.05,22.31 H 0 V 51.96 H 29.65 Z M 22.56,44.87 H 7.08 V 29.39 h 15.48 z"
   />
   <path
     class="fill-alpha-blue"
-    d="m59.41,37.15c.76-8.52,7.93-15.22,16.64-15.22v-7.09c-12.62,0-22.98,9.88-23.75,22.31h-.05v29.65h29.65v-29.65h-22.49Zm15.4,22.56h-15.48v-15.48h15.48v15.48Z"
+    d="M 42.8,22.31 C 43.56,13.79 50.73,7.09 59.44,7.09 V 0 C 46.82,0 36.46,9.88 35.69,22.31 H 35.64 V 51.96 H 65.29 V 22.31 Z M 58.2,44.87 H 42.72 V 29.39 H 58.2 Z"
   />
-  <rect class="fill-alpha-blue" x="20.15" y="78.6" width="58.21" height="7.09" />
-  <rect class="fill-alpha-blue" x="20.15" y="93.19" width="58.21" height="7.09" />
-  <rect class="fill-alpha-blue" x="20.15" y="107.79" width="58.21" height="7.09" />
+  <rect
+    class="fill-alpha-blue"
+    x="3.5399997"
+    y="63.759998"
+    width="58.209999"
+    height="7.0900002"
+  />
+  <rect
+    class="fill-alpha-blue"
+    x="3.5399997"
+    y="78.350006"
+    width="58.209999"
+    height="7.0900002"
+  />
+  <rect
+    class="fill-alpha-blue"
+    x="3.5399997"
+    y="92.950005"
+    width="58.209999"
+    height="7.0900002"
+  />
 </svg>

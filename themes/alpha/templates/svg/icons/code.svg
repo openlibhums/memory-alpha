@@ -1,8 +1,21 @@
-<svg id="Icons" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130 130">
-  <circle class="fill-alpha-yellow" cx="65" cy="65" r="43" />
+<svg
+  class="alpha-icon"
+  viewBox="0 0 86 86"
+  width="86"
+  height="86"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <circle class="fill-alpha-yellow" cx="43" cy="43" r="43" />
   <polygon
     class="fill-alpha-blue"
-    points="27.12 95.49 22.63 90.01 53.75 64.52 22.63 39.03 27.12 33.55 64.94 64.52 27.12 95.49"
+    points="53.75,64.52 22.63,39.03 27.12,33.55 64.94,64.52 27.12,95.49 22.63,90.01 "
+    transform="translate(-22,-22)"
   />
-  <rect class="fill-alpha-blue" x="67.5" y="79.31" width="40.21" height="7.09" />
+  <rect
+    class="fill-alpha-blue"
+    x="45.5"
+    y="57.309998"
+    width="40.209999"
+    height="7.0900002"
+  />
 </svg>

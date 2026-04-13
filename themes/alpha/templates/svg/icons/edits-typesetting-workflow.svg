@@ -1,10 +1,35 @@
-<svg id="Icons" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130 130">
-  <circle class="fill-alpha-yellow" cx="65" cy="65" r="43" />
-  <rect class="fill-alpha-blue" x="32.38" y="81.76" width="65.25" height="7.09" />
-  <rect class="fill-alpha-blue" x="85.09" y="61.31" width="12.53" height="7.09" />
-  <rect class="fill-alpha-blue" x="32.38" y="41.06" width="65.25" height="7.09" />
+<svg
+  class="alpha-icon"
+  viewBox="0 0 93.379997 86"
+  width="93.379997"
+  height="86"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <circle class="fill-alpha-yellow" cx="50.380001" cy="43" r="43" />
+  <rect
+    class="fill-alpha-blue"
+    x="17.76"
+    y="59.760002"
+    width="65.25"
+    height="7.0900002"
+  />
+  <rect
+    class="fill-alpha-blue"
+    x="70.469994"
+    y="39.310001"
+    width="12.53"
+    height="7.0900002"
+  />
+  <rect
+    class="fill-alpha-blue"
+    x="17.76"
+    y="19.060001"
+    width="65.25"
+    height="7.0900002"
+  />
   <polygon
     class="fill-alpha-blue"
-    points="64 73.66 69.23 78.45 81.68 64.86 69.23 51.27 64 56.06 68.82 61.31 14.62 61.31 14.62 68.4 68.82 68.4 64 73.66"
+    points="81.68,64.86 69.23,51.27 64,56.06 68.82,61.31 14.62,61.31 14.62,68.4 68.82,68.4 64,73.66 69.23,78.45 "
+    transform="translate(-14.62,-22)"
   />
 </svg>
