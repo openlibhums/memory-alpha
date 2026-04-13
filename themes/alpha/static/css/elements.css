@@ -45,7 +45,9 @@ h6 {
   font-family: var(--ff-poppins);
   --flow-space: var(--space-m);
 }
-p {
+p,
+ul,
+li {
   font-size: var(--step-3);
   font-family: var(--ff-poppins);
   --flow-space: var(--space-s);

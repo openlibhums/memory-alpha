@@ -1,0 +1,59 @@
+{% from "components/page_h1.html" import page_h1 %}
+{% from "components/page_section.html" import page_section %}
+
+<head>
+  <title>Copyright and licensing</title>
+</head>
+<body>
+  {% call page_h1(max_char_width=15) %}
+    Copyright and licensing
+  {%- endcall %}
+  {% call page_section(labelledby="our-mission", bg="bg-alpha-white") %}
+    <h2>Content</h2>
+    <p>
+      Unless otherwise stated, the original textual content and visual designs
+      on this website are the copyright of Birkbeck, University of London, and
+      they are licensed under a
+      <a href="https://creativecommons.org/licenses/by/4.0/">
+        Creative Commons Attribution 4.0 International License
+      </a>
+      (CC BY 4.0). The Open Library of Humanities and its logos are registered
+      trademarks.
+    </p>
+    <p>
+      The CC BY licence allows you to share and adapt these materials, as long
+      as you properly credit the source. Proper attribution of the OLH must be
+      given in the following manner:
+    </p>
+    <ul>
+      <li>
+        Attribute the materials wherever they appear, including published
+        end-product websites.
+      </li>
+      <li>
+        Spell out the full name of the Open Library of Humanities or Janeway and
+        provide a link to this website.
+      </li>
+      <li>
+        Display the attribution so that it is clearly visible and easily
+        legible, not obscured or hidden, with text that is the same size as the
+        main text in your work, or a minimum of 12pt (print) or 18px (web),
+        whichever is larger.
+      </li>
+    </ul>
+  {%- endcall %}
+  {% call page_section(labelledby="our-mission", bg="bg-alpha-blue") %}
+    <h2>Software</h2>
+    <p>
+      The
+      <a href="https://github.com/openlibhums/memory-alpha">
+        code in the corresponding repository
+      </a>
+      is licensed under
+      <a href="https://en.wikipedia.org/wiki/GNU_Affero_General_Public_License">
+        AGPL 3.0
+      </a>
+      .
+    </p>
+  {%- endcall %}
+</body>
