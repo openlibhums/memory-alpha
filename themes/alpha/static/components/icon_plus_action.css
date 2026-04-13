@@ -1,0 +1,10 @@
+.icon-plus-action {
+  display: grid;
+  grid-template-columns: 7rem auto;
+  gap: 3rem;
+  .alpha-icon {
+    width: 7rem;
+    height: unset;
+    padding: var(--space-3xs);
+  }
+}

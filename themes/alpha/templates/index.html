@@ -1,5 +1,6 @@
 {% extends "base.html" %}
 {% from "components/button.html" import button %}
+{% from "components/icon_plus_action.html" import icon_plus_action %}
 {% from "components/page_section.html" import page_section %}
 {% from "components/page_section_group.html" import page_section_group %}
 
@@ -10,43 +11,88 @@
   {% endblock %}
 
   {% call page_section_group() %}
-    {% call page_section(labelledby="open-and-community", bg="bg-alpha-white", layout="layout-left") %}
+    {%
+      call page_section(
+      labelledby="open-and-community",
+      bg="bg-alpha-white",
+      layout="layout-left")
+    %}
       <h2 id="open-and-community">Open and community-driven</h2>
       <hr />
-      <h3>Code</h3>
-      {{ lipsum(n=1, min=8, max=12) }}
-      {% call button(volume="loud", parent_text_color="blue", parent_background_color="white") %}
-        loud action
+      {% call icon_plus_action(icon_path="svg/icons/code.svg") %}
+        <h3>Code</h3>
+        <p>
+          Our public repositories hold all the Python, HTML, CSS, JavaScript,
+          and XML that make up Janeway.
+        </p>
+        {%
+          call button(
+            volume="loud",
+            link="https://github.com/openlibhums",
+            parent_text_color="blue",
+            parent_background_color="white"
+          )
+        %}
+          View the source
+        {% endcall %}
       {% endcall %}
       <hr />
-      <h3>Roadmap</h3>
-      {{ lipsum(n=1, min=8, max=12) }}
+      {% call icon_plus_action(icon_path="svg/icons/road-map.svg") %}
+        <h3>Roadmap</h3>
+        <p>
+          Take a bird's-eye view of the team's current and planned work with our
+          public roadmap.
+        </p>
+        {%
+          call button(
+          volume="loud",
+          link="https://github.com/orgs/openlibhums/projects/21",
+          parent_text_color="blue",
+          parent_background_color="white")
+        %}
+          Check our progress
+        {% endcall %}
+      {% endcall %}
       <hr />
-      <h3>Discord</h3>
-      {{ lipsum(n=1, min=8, max=12) }}
-      {% call button(volume="quiet", parent_text_color="blue", parent_background_color="white") %}
-        quiet action
+      {% call icon_plus_action(icon_path="svg/icons/customizable-themes.svg") %}
+        <h3>Discord</h3>
+        <p>
+          Our lively Discord server offers a place to find other Janeway users,
+          share tips, and chat with Janeway developers.
+        </p>
+        {%
+          call button(
+          volume="loud",
+          link="https://discord.gg/4hgZ4XVvBN",
+          parent_text_color="blue",
+          parent_background_color="white")
+        %}
+          Stop by
+        {% endcall %}
       {% endcall %}
     {% endcall %}
     {% call page_section_group() %}
-      {% call page_section(labelledby="our-mission", bg="bg-alpha-blue", layout="layout-right") %}
+      {%
+        call page_section(
+        labelledby="our-mission",
+        bg="bg-alpha-blue",
+        layout="layout-right")
+      %}
         <h2 id="our-mission">Our Mission</h2>
         <p class="fs-4 ff-space-mono-regular">
-          {{ lipsum(n=1, min=15, max=20, html=False) }}
+          The mission of the Open Library of Humanities is to support and extend
+          open access to scholarship in the humanities – for free, for everyone,
+          for ever.
         </p>
-        {% call button(labelledby="speak-to-us", link="docs/example-docs-page.html", volume="loud", parent_text_color="white", parent_background_color="blue") %}
-          loud link
-        {% endcall %}
       {% endcall %}
-      {% call page_section(labelledby="speak-to-us", bg="bg-alpha-red", layout="layout-right") %}
-        <h2 id="speak-to-us">
-          Speak<br />
-          to us
-        </h2>
-
-        {% call button(link="docs/example-docs-page.html", volume="quiet", parent_text_color="white", parent_background_color="red") %}
-          quiet link
-        {% endcall %}
+      {%
+        call page_section(
+        labelledby="speak-to-us",
+        bg="bg-alpha-yellow",
+        layout="layout-right"
+        )
+      %}
+        {% include "components/speak_to_us.html" %}
       {% endcall %}
     {% endcall %}
   {% endcall %}

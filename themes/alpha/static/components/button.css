@@ -1,12 +1,10 @@
 .button-container {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: var(--space-l);
+  --flow-space: var(--space-m);
 
   & .button {
     border-radius: var(--space-xl);
-    padding: var(--space-m);
+    padding: var(--space-s);
     text-decoration-line: none;
     line-height: 1.1;
 

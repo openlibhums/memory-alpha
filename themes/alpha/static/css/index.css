@@ -15,6 +15,7 @@
 @import "../components/example_component.css" layer(components);
 @import "../components/footer.css" layer(components);
 @import "../components/george_space_splash.css" layer(components);
+@import "../components/icon_plus_action.css" layer(components);
 @import "../components/journal_cover_grid.css" layer(components);
 @import "../components/key_features.css" layer(components);
 @import "../components/laser_link.css" layer(components);
@@ -28,6 +29,7 @@
 @import "../components/rainbow_road_splash.css" layer(components);
 @import "../components/signature.css" layer(components);
 @import "../components/slide_gallery.css" layer(components);
+@import "../components/speak_to_us.css" layer(components);
 @import "../components/timeline_wheel.css" layer(components);
 
 /* Utilities have greatest precedence */
