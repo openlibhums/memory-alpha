@@ -183,7 +183,7 @@ based on the background colour you pass in.
 
 ### Responsiveness and breakpoints
 
-We currently use one breakpoint of 50rems. Use media queries with
+We currently use one breakpoint of 50 rems. Use media queries with
 `width <= 50rem` or `width > 50rem`.
 
 At the smaller width, think primarily of touch-screen users, especially those
@@ -193,6 +193,8 @@ In the wider range, think about layouts that can be easily linearized
 for narrow screens using something simple like `flex-direction`, and note that there
 are utility classes for flex direction. Avoid separate HTML structures for wide
 and narrow screens, as duplicate content is harder to maintain.
+
+We sparingly use one other wide breakpoint, 70 rems, in multi-column layouts where there would be empty space otherwise.
 
 ### CSS in general
 

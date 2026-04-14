@@ -3,6 +3,7 @@
     list-style: none;
     line-height: 2;
     padding-inline-start: 0;
+    column-gap: var(--space-xl);
   }
   li {
     padding-inline-start: 0;
@@ -20,5 +21,10 @@
 @media (width > 50rem) {
   .key-features ul {
     columns: 2;
+  }
+}
+@media (width > 70rem) {
+  .key-features ul {
+    columns: 3;
   }
 }
