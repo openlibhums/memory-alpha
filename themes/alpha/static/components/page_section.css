@@ -27,6 +27,15 @@
     }
   }
 
+  /* When the page section has an arbitrary height,
+   * like when it's placed at half width inside a page section group,
+   * sometimes we want to vertically center content.
+   * So we make sure that all frames use full height. */
+  .section,
+  .frame {
+    height: 100%;
+  }
+
   /* Content should have padding above and below */
   --frame-padding: var(--space-xl);
   .frame {

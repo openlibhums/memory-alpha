@@ -3,7 +3,7 @@
   grid-template-columns: 7rem auto;
   gap: 3rem;
   .alpha-icon {
-    width: 7rem;
+    width: calc(2.5 * var(--step-7));
     height: unset;
     padding: var(--space-3xs);
   }
