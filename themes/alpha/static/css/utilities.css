@@ -73,6 +73,21 @@
 .fill-alpha-yellow {
   fill: var(--clr-alpha-yellow);
 }
+.stroke-alpha-black {
+  stroke: var(--clr-alpha-black);
+}
+.stroke-alpha-white {
+  stroke: var(--clr-alpha-white);
+}
+.stroke-alpha-blue {
+  stroke: var(--clr-alpha-blue);
+}
+.stroke-alpha-red {
+  stroke: var(--clr-alpha-red);
+}
+.stroke-alpha-yellow {
+  stroke: var(--clr-alpha-yellow);
+}
 
 /* Font families */
 .ff-poppins {
@@ -202,6 +217,9 @@
     &.direction-column-large {
       flex-direction: column;
     }
+  }
+  &.justify-center {
+    justify-content: center;
   }
   .grow-1 {
     flex-grow: 1;

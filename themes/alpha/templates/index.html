@@ -67,7 +67,7 @@
           parent_text_color="blue",
           parent_background_color="white")
         %}
-          Stop by
+          Join in
         {% endcall %}
       {% endcall %}
     {% endcall %}
@@ -96,22 +96,11 @@
       {% endcall %}
     {% endcall %}
   {% endcall %}
-  {% call page_section(labelledby="join-our-mission", bg="bg-alpha-blue", prose="") %}
-    <div
-      class="grid place-content-center"
-      style="padding-block: var(--space-xl);"
-    >
-      <h2
-        id="join-our-mission"
-        class="bg-alpha-black text-tan fs-5"
-        style="padding: var(--space-xs);"
-      >
-        Join our mission
-      </h2>
-    </div>
-  {% endcall %}
   {% call page_section(labelledby="key-features", bg="bg-alpha-black", prose="") %}
     {% include "components/key_features.html" %}
+  {% endcall %}
+  {% call page_section(labelledby="article-infographic", bg="bg-alpha-white", prose="") %}
+    {% include "components/article_infographic.html" %}
   {% endcall %}
   {% call page_section(labelledby="featured-journals", bg="bg-alpha-blue") %}
     <h2 id="featured-journals">Featured journals</h2>
