@@ -1,0 +1,37 @@
+.hosting-splash {
+  position: relative;
+  overflow-y: clip;
+  height: clamp(21rem, 30vw, 35rem);
+  .planetary-belt {
+    position: absolute;
+    top: 28rem;
+    right: -65rem;
+    transform: rotate(-146deg);
+    transform-origin: top left;
+    height: 100%;
+    max-width: unset;
+  }
+  .splash-h1-wrapper {
+    position: absolute;
+    bottom: 0;
+  }
+}
+@media (width > 50rem) {
+  .hosting-splash {
+    .planetary-belt {
+      top: 68%;
+      left: 15rem;
+      transform: rotate(-35deg);
+      height: 150%;
+      width: unset;
+    }
+    .yellow-bg-right {
+      position: absolute;
+      height: 100%;
+      width: 50vw;
+      left: 90%;
+      background: var(--clr-alpha-yellow);
+      clip-path: polygon(25% 0, 100% 0, 100% 100%, 0 100%, 0 25%);
+    }
+  }
+}

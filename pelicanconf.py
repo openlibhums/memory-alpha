@@ -78,9 +78,9 @@ IGNORE_FILES = [
 DISPLAY_PAGES_ON_MENU = False # We want to set the order manually
 DISPLAY_CATEGORIES_ON_MENU = False
 LEFT_NAV_ITEMS = [
-    ('Our story', '/pages/our-story.html', ""),
+    ('Our story', '/pages/our-story/', ""),
     # ('Explore', '#', ''), Not in scope for MVP
-    ('Hosting', '#', ""),
+    ('Hosting', '/pages/hosting/', ""),
     # ('People', '#', ''), Not in scope for MVP
 ]
 RIGHT_NAV_ITEMS = [
