@@ -60,21 +60,13 @@
   </div>
   <div class="signature-wrapper">{% include "components/signature.html" %}</div>
   {% call link_list(layout='narrow') %}
-    <li>
-      {% call laser_link(href="/pages/accessibility/") %}
-        Accessibility
-      {% endcall %}
-    </li>
-    <li>
-      {% call laser_link(href="/pages/copyright-and-licensing/") %}
-        Copyright
-      {% endcall %}
-    </li>
-    <li>
-      {% call laser_link(href="https://www.openlibhums.org/", target="_blank") %}
-        Open Library of Humanities
-      {% endcall %}
-    </li>
+    {% for title, link, target in FOOTER_LINKS %}
+      <li>
+        {% call laser_link(href=link, target=target) %}
+          {{ title }}
+        {% endcall %}
+      </li>
+    {% endfor %}
   {% endcall %}
   <div class="flow">
     <p class="licensing-line flex direction-column-small">

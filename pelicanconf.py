@@ -88,9 +88,15 @@ RIGHT_NAV_ITEMS = [
     ('Support', '/support/under-construction.html', "_blank"),
     ('Source code', 'https://github.com/openlibhums/janeway', "_blank"),
 ]
+FOOTER_LINKS = [
+    ('Accessibility', '/pages/accessibility-of-this-website/', ""),
+    ('Copyright', "/pages/copyright-and-licensing/", ""),
+    ('Open Library of Humanities', "https://www.openlibhums.org/", "_blank"),
+
+]
 ALL_PAGES =  [
     ('Home', '/', ""),
-] + LEFT_NAV_ITEMS + RIGHT_NAV_ITEMS
+] + LEFT_NAV_ITEMS + RIGHT_NAV_ITEMS + FOOTER_LINKS
 
 # jinja2content plugin
 JINJA2CONTENT_TEMPLATES = [
