@@ -1,7 +1,7 @@
 title: Author guide 
 
 # Author guide
-This guide will walk you through the Janeway journal submission system.
+This guide will walk you through the Janeway journal submission system. 
 
 ## Navigating the submission process
 Generally, all Janeway journals' submission systems will look the same. Along the top of the page, you will see a progress bar with five stages. Once a stage has been completed, the corresponding segment of the bar will turn into a link. You can use this bar to return to an earlier screen if you need to make changes. 
@@ -9,47 +9,48 @@ Generally, all Janeway journals' submission systems will look the same. Along th
 ![Submission progress bar, showing the five stages: Submission started, Article information, Author information, Article files, Review your submission.](../images/workflow/author-submission-navigation.png)
 
 ## New submissions
-There are multiple ways to submit a journal article on Janeway:
+There are multiple ways to submit a journal article on Janeway.
 
 If you do not have an account yet:
-    - From the **Submission** page on the main site (if this is not visible on a journal website, they may not be accepting submissions at this time). 
+
+First, begin from the **Submission** page on the main site. If this is not visible on a journal website, they may not be accepting submissions at this time. 
 
 ![An example submissions page. The submissions button on the page and the navbar items for Start a submission and Submissions are highlighted.](../images/workflow/author-submission-webpage.png)
 
 If you already have an account:
-    - From the drop-down menu in the top right-hand corner. This will be visible both on the journal webpage when you click **Account** and within Janeway when you click on your profile in the top right-hand corner.
 
-- On the journal website:
+First, begin from the drop-down menu in the top right-hand corner of the page. This will be visible both on the journal webpage when you click **Account** and within Janeway when you click on your profile in the top right-hand corner.
+
+This is an example of how this will appear on the journal website:
 
 ![The dropdown menu on the journal website.](../images/workflow/author-submission-dropdown-website.png)
 
-- On the Janeway journal platform:
+This is an example of how this will appear on the Janeway journal platform:
 
 ![The dropdown menu on the submission platform](../images/workflow/author-submission-dropdown-loggedin.png)
 
-- From the author dashboard within Janeway.
+This is an example of how this will appear from the author dashboard within Janeway.
 
 ![The author dashboard block in Janeway. Submit new article in the top right corner of the block is highlighted.](../images/workflow/author-dashboard-block.png)
 
-If you already have an account, you will usually automatically be given the author role in Janeway when you submit an article. However, some journals will ask you to provide the details of the manuscript’s author or select yourself as the author manually. For more information on this, see the Author information <!-- Missing hyperlink --> section of this guide.
+If you already have an account, you will usually automatically be given the author role in Janeway when you submit an article. However, some journals will ask you to provide the details of the manuscript’s author or select yourself as the author manually. For more information on this, see the **Author information** <!-- Missing hyperlink --> section of this guide.
 
 ### The author agreement
 The first page of the submission process is the author agreement. Depending on how a journal is set up, this may appear slightly different, and not all of these fields may be displayed.
 
 ![The author agreement page.](../images/workflow/author-author-agreement.png)
 
-- Publication fees
-    - This is where you will see any publication fees, including Voluntary Author Contributions (VACs) or Article Processing Charges (APCs) that apply to the submission.
+- Publication fees  
+  This is where you will see any publication fees, including Voluntary Author Contributions (VACs) or Article Processing Charges (APCs) that apply to the submission.
+- Submission checklist  
+     The submission checklist will display any steps you need to take before submitting the manuscript (e.g. formatting).
+- Copyright notice  
+    The copyright notice specifies the license under which the paper will be published and any rights you may need to sign over to the publisher.
+- Competing interests  
+    If you have any competing interests that the editors should take into account when examining your paper, this is where you will need to disclose them.
 
 > [!NOTE]
-> Please note that a Voluntary Author Contribution and Article Processing Charge are different. The former is entirely optional and not required for publication in a journal. For more information about publication fees, visit the relevant journal’s policy page(s) or contact its editorial team.
-
-- Submission checklist
-    - The submission checklist will display any steps you need to take before submitting the manuscript (e.g. formatting).
-- Copyright notice
-    - The copyright notice specifies the license under which the paper will be published and any rights you may need to sign over to the publisher.
-- Competing interests
-    - If you have any competing interests that the editors should take into account when examining your paper, this is where you will need to disclose them.
+> Please note that a "Voluntary Author Contribution" and "Article Processing Charge" are different. The former is entirely optional and not required for publication in a journal. For more information about publication fees, visit the relevant journal’s policy page(s) or contact its editorial team.
  
 If they have been enabled, the publication fees, submission checklist and copyright notice fields will be required. This means that you _must_ select the checkboxes in order to complete a submission. If you have any issues with any of the clauses, it is best to contact the editor(s) before you submit your work.
 
@@ -59,53 +60,56 @@ The **article information** page is where you will provide the metadata for your
 ![The article information page, filled with example data.](../images/workflow/author-article-information.png)
 
 Metadata that may be requested on this page:
-- Title
-    - This field is always required.
+- Title  
+    This field is always required.
 - Subtitle
-- Abstract
-    - Whether or not an abstract is required will depend on the individual journal.
-- Language
-    - This is usually only required if the journal publishes in multiple languages.
-- Section
-    - This refers to the type of article the paper is (e.g., research article, book review, editorial, etc.)
-- Licence
-    - This is usually disabled if the journal only accepts one license type.
-- Keywords
-    - You can add keywords to your article to help people discover it. To add keywords, type the word or phrase into the textbox and press 'Enter' to add it. If you wish to delete a keyword, click the **X** icon next to it within the textbox. Keywords can include spaces and special characters.
+- Abstract  
+    Whether or not an abstract is required will depend on the individual journal.
+- Language  
+    This is usually only required if the journal publishes in multiple languages.
+- Section  
+    This refers to the type of article the paper is (e.g., research article, book review, editorial, etc.).
+- Licence  
+    This is usually disabled if the journal only accepts one license type.
+- Keywords  
+    You can add keywords to your article to help people discover it. To add keywords, type the word or phrase into the textbox and press 'Enter' to add it. If you wish to delete a keyword, click the **X** icon next to it within the textbox. Keywords can include spaces and special characters.
 
-![""](../images/workflow/author-keywords.png)
+    ![""](../images/workflow/author-keywords.png)
 
 Individual journals can add more fields to this page. These will be displayed under **Additional fields**.
     
 ### Author information
 The **Author information** page is where you fill in the relevant information about a submission’s author(s). The person submitting will be automatically added as an author.
 
-To add more authors to a submission, you can either search the journal's author list for existing authors, search by ORCID or add another author manually. 
+To add more authors to a submission, you can either search the journal's author list for existing authors, search by ORCID or add another author manually.
 
 - Adding authors through **Add author from search**
-    - This lets you search the journal's database of authors by using their email address or ORCID. You cannot search using a name or institution. 
+    - This lets you search the journal's database of authors by using their email address or ORCID. You cannot search using a name or institution.
     - If a matching record is found, they will be added as a co-author. If not, you will be notified that no account has been found.
 
-    ![" "](..\images\workflow\author-submission-author-search.png)
+    ![" "](../images/workflow/author-submission-author-search.png)
+
+If the search of the journal's author list or ORCID search are successful, author details will be added automatically. You can still make edits, by clicking on **Edit author details**. When an author already has an account with the journal or another journal under the press, this submission will be linked to their existing record.
 
 - Adding authors through **Add author manually**
-    - The **Add author manually** button lets you create a new author record for authors if they do not already have one. The following fields are mandatory in Janeway:
+    - The **Add author manually** button lets you create a new author record for authors if they do not already have one.
+    - The following fields are mandatory in Janeway:
         - First name
         - Last name
         - Email address
 
-        ![" "](..\images\workflow\author-submission-author-manual.png)
+        ![" "](../images/workflow/author-submission-author-manual.png)
 
-If the search of the journal's author list or ORCID search are successful, author details will be added automatically. You can still make edits, by clicking on **Edit author details**. When an author already has an account with the journal or another journal under the press, this submission will be linked to their existing record.
+This will not create a new account for the  additionaly author(s), it will only create an author record with no account attached. If they wish to login and check the article's progress, they can create an account with the same email address that was used on the author record (submission). Either the submitting author or an editor can then link the account to the author record.
 
 To change the correspondence author, another author with a pre-existing (confirmed) account needs to be added. If no other co-authors have an account, the submitting author is required to remain the correspondence author.
 
->NOTE
+>[!NOTE]
 >The correspondence author does not necessarily have to be the primary author. The correspondence author can also be changed after submission.
 
 Janeway uses [Research Organization Registry (ROR)](https://ror.org/) to manage affiliation data. You can add author affiliation by clicking **Edit author details** and scrolling down to **Affiliations**. From here, you can add, remove and edit affiliations. If an author ORCID has been provided, their affiliation will be added automatically from their ORCID. You can still edit this, if it is incorrect.
 
-![" "](..\images\workflow\author-submission-edit-details.png)
+![" "](../images/workflow/author-submission-edit-details.png)
 
 After the submission is completed, co-authors will be notified and will be able to access the submission and update or edit their details.
 
@@ -120,7 +124,7 @@ To add a file, click the **Upload** button under either **Manuscript file** or *
 
 You are required to add a label to any file uploaded, but the description field is optional. For manuscript files, we recommend something along the lines of "submitted manuscript". For figure files, this label should correspond with the information in the manuscript (e.g. the "Figure 1" in your manuscript should be labelled as "Figure 1" when you upload it here).
    
-You can add only one manuscript file, but multiple figures and/or data files.
+While you can add only one manuscript file, multiple figures and/or data files can be added.
 
 ### Funding
 You will then be asked to supply information about any relevant funding. You can search for your funding source using our **Search for funder** function or add them manually. When adding a funder, you will be given the option to provide an optional Funder DOI and Grant ID.
@@ -181,37 +185,39 @@ The typesetters will then use this final manuscript to create the finished artic
 
 Typeset proofs are not an opportunity to make changes to the content or style of a manuscript: the file that goes into production is final. It is expected that only a handful (less than 10) of very minor changes should be requested at the proofing stage, if any.
 
-### To complete a copyediting author revision: 
+### Completing a copyediting review as an author
 1. Upload your revised manuscript by replacing the copyeditor's version of the file with your own updated version.
 
-![""](../images/workflow/author-copyedited-files.png)
+    ![""](../images/workflow/author-copyedited-files.png)
 
 2. Fill in the **Note to the editor** field with any additional information.
 3. Select a Decision (either **Accept** or **Corrections required**).
 4. Click **Complete copyedit task**.
 
-![""](../images/workflow/author-complete-copyedit-task.png)
+    ![""](../images/workflow/author-complete-copyedit-task.png)
 
 ## Proofing
 After your paper has been accepted and copyedited, the editors might send you a request to proof the typeset manuscript. This is the final version that will be made publicly available once the article gets published in the journal.
 
-[" "](/content/support/images/workflow/author-proofing-block.png)
+You can access your proofing tasks either through the link sent to you by email or through the proofing task button on your dashboard.
 
-[" "](/content/support/images/workflow/author-proofing-view-assignment.png)
+![" "](../images/workflow/author-proofing-task.png)
 
 For journals that publish content in multiple media formats (HTML, PDF, XML, etc.), it is important that you check all these files before publication. This will not require any technical knowledge; authors are not expected to be able to open and read XML/HTML code. Instead, Janeway provides a **View file** button, which allows you to preview how the article will look once it is published.
 
-![Typeset Files download and preview](../images/workflow/author-proofing-view-file.png)
+![Typeset Files download and preview](../images/workflow/author-proofreading.png)
 
 Once you've previewed the files, you can provide feedback in two ways:
 
-- Fill in the **Notes** field. You can use this to add not just text, but also to paste in screenshots or other relevant images.
+- Fill in the **Notes** field.  
+    You can use this to add not just text, but also to paste in screenshots or other relevant images.
 
-![Providing proofreading notes via a text editor](../images/workflow/author-proofreading-notes.png)
+    ![Providing proofreading notes via a text editor](../images/workflow/author-proofreading-notes.png)
 
-- Upload an annotated file. In the case of PDF files, you can download the file and make annotations offline using PDF readers. When this is done, you can upload the annotated file for the editor to review.
+- Upload an annotated file.  
+    In the case of PDF files, you can download the file and make annotations offline using PDF readers. When this is done, you can upload the annotated file for the editor to review.
 
-![Providing proofreading notes by uploading an annotated file.](../images/workflow/author-proofreading-annotated-file.png)
+    ![Providing proofreading notes by uploading an annotated file.](../images/workflow/author-proofreading-annotated-file.png)
 
 It is important to proof all the files thoroughly in order to avoid unnecessary follow-up rounds. This saves everyone time, work, and money and makes the publishing process run much more smoothly.
 

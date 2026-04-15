@@ -2,11 +2,11 @@ title: Typesetter workflow guide
 
 # Typesetter workflow guide
 
-When you have been assigned a typesetting task, you will receive an email notification containing a link. This link will lead to the Janeway dashboard.
+When you are assigned a typesetting task in Janeway, you will receive an email notification containing a link. This link will lead to the Janeway dashboard.
 
 !["The typesetter Dashboard displaying the number of typesetter tasks assigned."](../../support/images/workflow/typesetting-dashboardblock.png)
 
-You can see the number of open typesetting assignments from here. If you click on this block, it will take you to the **Typesetting Assignments** page, and you will be able to see both your currently open typesetting assignments (the top block) and your completed assignments (the bottom block).
+On the dashboard, you can see a block that displays the current number of open typesetting assignments. If you click on this block, it will take you to the **Typesetting Assignments** page, and you will be able to see both your currently open typesetting assignments (the top block) and your completed assignments (the bottom block).
 
 For open assignments, it will display:
 - Title
@@ -67,7 +67,7 @@ If you need to make changes to the typeset files, you can reupload them or uploa
 
  !["The ‘Edit typeset file’ page."](../../support/images/workflow/typesetting-filehistory.png)
 
-This page is divided into three sections:
+The **Edit Typeset File** page is divided into three sections:
 - The typeset file
 	- You can replace the typeset file and see the file history here.
 
@@ -99,7 +99,7 @@ If you need to upload a large number of images, it might be faster to use the zi
 ## Styling
 On this page, you can also upload a CSS file associated with the article for an individual style, if required. We recommend avoiding style changes to the header and footer type elements, as this will affect the page's layout.
 
-You can also select the XSL file used to render the HTML from the file. Unless explicitly instructed otherwise, this will be the Janeway default (1.4.3). In that case, the editors will communicate this as part of the typesetting task or agreement.
+You can also select the XSL file used to render the HTML from the file. Unless explicitly instructed otherwise, this will be the Janeway default (1.4.3). <!-- A bit unclear which case the following is referring to -->In that case, the editors will communicate this as part of the typesetting task or agreement.
 
 ### Finishing up
 Once you finish the typesetting (or correction) task, you can leave a note for the editor, click the button to complete the task and send it to the editor for review. Please note that you cannot return to this page once you complete the task.
