@@ -1,0 +1,53 @@
+{% from "components/page_h1.html" import page_h1 %}
+{% from "components/page_section.html" import page_section %}
+
+<head>
+  <title>Accessibility of this website</title>
+</head>
+<body>
+  {% call page_h1(max_char_width=16) %}
+    Accessibility of this website
+  {%- endcall %}
+  {% call page_section(labelledby="approach", bg="bg-alpha-white") %}
+    <h2 id="approach">Approach</h2>
+    <p>
+      When making this site, we learned from our accessibility work on the
+      Janeway platform, and we tried to build accessibility into all stages of
+      our design and development process.
+    </p>
+    <p>
+      For example, we tailored the colour palette to provide good contrast, we
+      tested the interactive features with assistive technologies as we made
+      them, and we used open web technologies in a variety of other ways to
+      support accessibility.
+    </p>
+  {%- endcall %}
+  {% call page_section(labelledby="testing-and-audits", bg="bg-alpha-blue") %}
+    <h2 id="testing-and-audits">Testing and audits</h2>
+    <p>
+      To further embed accessibility checks into our daily process, we
+      integrated a set of automated accessibility tests, using the
+      <a
+        href="https://github.com/dequelabs/axe-core?tab=readme-ov-file#axe-core"
+        target="_blank"
+        >Axe</a
+      >
+      engine, which run automatically on GitHub whenever changes are made to the
+      codebase or content. The tests attempt to cover as much of WCAG 2.2 AA as
+      it is possible to do in an automated way: about 57%, according to Axe. All
+      of the Axe tests are currently passing when run against this website.
+    </p>
+    <p>
+      However, automated testing is not enough. To assess the full scope of WCAG
+      compliance and discover issues not covered by WCAG, it is necessary to do
+      periodic audits by hand. We are building a process for regularly
+      conducting such audits for the Janeway reader interface, the Janeway back
+      office, and the OLH website. The website you are on is in the queue as
+      well, and a VPAT will be posted here as soon as the first audit is
+      conducted. To see our progress, you can check the public
+      <a href="https://github.com/orgs/openlibhums/projects/49/views/10"
+        >Accessibility project board on GitHub</a
+      >.
+    </p>
+  {%- endcall %}
+</body>
