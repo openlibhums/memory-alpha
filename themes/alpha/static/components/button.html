@@ -17,13 +17,18 @@
     parent_text_color="blue", 
     parent_background_color="white",
     labelledby="", 
-    label="") 
+    label="",
+    target=""
+    ) 
 -%}
 
 
 <div class="button-container not-prose">
     {% if link %}
         <a href="{{link}}"
+           {% if target %}
+               target="{{ target }}"
+           {% endif %}
     {% else %}
         <button type="button" onclick="{{onclick}}"
     {% endif %}
