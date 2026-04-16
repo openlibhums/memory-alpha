@@ -78,9 +78,9 @@ IGNORE_FILES = [
 DISPLAY_PAGES_ON_MENU = False # We want to set the order manually
 DISPLAY_CATEGORIES_ON_MENU = False
 LEFT_NAV_ITEMS = [
-    ('Our story', '/pages/our-story/', ""),
+    ('Our story', '/pages/our-story.html', ""),
     # ('Explore', '#', ''), Not in scope for MVP
-    ('Hosting', '/pages/hosting/', ""),
+    ('Hosting', '/pages/hosting.html', ""),
     # ('People', '#', ''), Not in scope for MVP
 ]
 RIGHT_NAV_ITEMS = [
@@ -89,9 +89,9 @@ RIGHT_NAV_ITEMS = [
     ('Source code', 'https://github.com/openlibhums/janeway', "_blank"),
 ]
 FOOTER_LINKS = [
-    ('Accessibility', '/pages/accessibility-of-this-website/', ""),
-    ('Copyright', "/pages/copyright-and-licensing/", ""),
-    ('Open Library of Humanities', "https://www.openlibhums.org/", "_blank"),
+    ('Accessibility', '/pages/accessibility-of-this-website.html', ""),
+    ('Copyright', "/pages/copyright-and-licensing.html", ""),
+    ('Open Library of Humanities', "https://www.openlibhums.org.html", "_blank"),
 
 ]
 ALL_PAGES =  [

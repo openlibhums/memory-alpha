@@ -1,4 +1,5 @@
 import os
+import re
 import pytest
 from pytest_server import PytestPelicanServer
 from pelican import get_instance, parse_arguments
@@ -40,3 +41,8 @@ def axe():
 @pytest.fixture(scope="module", params=ALL_PAGES)
 def site_page(request):
     yield request.param
+
+
+@pytest.fixture(scope="module")
+def html_ending_regex():
+    return re.compile(r".html")
