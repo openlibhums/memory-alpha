@@ -96,7 +96,9 @@ To add more authors to a submission, you can either search the journal's author 
         - Last name
         - Email address
 
-        ![" "](../images/workflow/author-submission-author-manual.png)
+This will not create a new account for the  additionaly author(s), it will only create an author record with no account attached. If they wish to login and check the article's progress, they can create an account with the same email address that was used on the author record (submission). Either the submitting author or an editor can then link the account to the author record.
+
+![" "](../images/workflow/author-submission-author-manual.png)
 
 If the search of the journal's author list or ORCID search are successful, author details will be added automatically. You can still make edits, by clicking on **Edit author details**. When an author already has an account with the journal or another journal under the press, this submission will be linked to their existing record.
 
@@ -183,7 +185,8 @@ The typesetters will then use this final manuscript to create the finished artic
 
 Typeset proofs are not an opportunity to make changes to the content or style of a manuscript: the file that goes into production is final. It is expected that only a handful (less than 10) of very minor changes should be requested at the proofing stage, if any.
 
-### To complete a copyediting author revision: 
+### To complete a copyediting author revision:
+
 1. Upload your revised manuscript by replacing the copyeditor's version of the file with your own updated version.
 
 ![""](../images/workflow/author-copyedited-files.png)
@@ -196,29 +199,35 @@ Typeset proofs are not an opportunity to make changes to the content or style of
 
 ## Proofing
 After your paper has been accepted and copyedited, the editors might send you a request to proof the typeset manuscript. This is the final version that will be made publicly available once the article gets published in the journal.
-<!--missing image-->
+
+You can access your proofing tasks either through the link sent to you by email or through the proofing task button on your dashboard.
+
+![" "](../images/workflow/author-proofing-task.png)
+
 [" "](../images/workflow/author-proofing-block.png)
-<!--missing image-->
+
 [" "](../images/workflow/author-proofing-view-assignment.png)
 
 For journals that publish content in multiple media formats (HTML, PDF, XML, etc.), it is important that you check all these files before publication. This will not require any technical knowledge; authors are not expected to be able to open and read XML/HTML code. Instead, Janeway provides a **View file** button, which allows you to preview how the article will look once it is published.
 
-![Typeset Files download and preview](../images/workflow/author-proofing-view-file.png)
+![Typeset Files download and preview](../images/workflow/author-proofreading.png)
 
 Once you've previewed the files, you can provide feedback in two ways:
 
 - Fill in the **Notes** field.  
     You can use this to add not just text, but also to paste in screenshots or other relevant images.
 
-![Providing proofreading notes via a text editor](../images/workflow/author-proofreading-notes.png)
+    ![Providing proofreading notes via a text editor](../images/workflow/author-proofreading-notes.png)
 
 - Upload an annotated file.  
     In the case of PDF files, you can download the file and make annotations offline using PDF readers. When this is done, you can upload the annotated file for the editor to review.
 
-![Providing proofreading notes by uploading an annotated file.](../images/workflow/author-proofreading-annotated-file.png)
+    ![Providing proofreading notes by uploading an annotated file.](../images/workflow/author-proofreading-annotated-file.png)
 
 It is important to proof all the files thoroughly in order to avoid unnecessary follow-up rounds. This saves everyone time, work, and money and makes the publishing process run much more smoothly.
 
-Click **Mark task as complete** to finish proofreading. Once you have provided your feedback, the editorial team might send you another proofing task once the requested corrections have been made. If this happens, the process will be exactly the same as in the first round of proofing. If there are no (or only very minor) corrections, you will likely not be asked to review again.
+To finish proofing, click **Mark task as complete**. Once you click this button, you will not be able to return to this page.
+
+Once you have provided your feedback, the editorial team might send you another proofing task once the requested corrections have been made. If this happens, the process will be exactly the same as in the first round of proofing. If there are no (or only very minor) corrections, you will likely not be asked to review again.
 
 Once the article is published, all authors will receive a notification through the email addresses used when the article was submitted (except if this has been updated before publication).

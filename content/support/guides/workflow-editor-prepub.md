@@ -71,7 +71,7 @@ Check the **Mark as Complete** box to move on to the next step.
 The last step before publishing the article is setting the publication notifications. This is an optional step that allows you to notify authors, co-authors, section editors or others of publication. You can add people in either the CC or BCC fields.
 You can also amend the subject line, email body, and add attachments. 
 
-The dates/times you see in the email correspond to the timezone set in your user profile or the default timezone (UTC) if none has been set. 
+The dates/times you see in the email correspond to the timezone set in your user profile or the default timezone (UTC) if none has been set.
 
 Check the **Mark as Complete** box to move on to the next step. 
 

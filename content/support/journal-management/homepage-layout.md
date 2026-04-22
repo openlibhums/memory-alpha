@@ -39,7 +39,7 @@ You can select the number of items to display and the items you want to include 
 - HTML  
   A generic segment that you can customize according to your needs. It can hold text and more complex HTML, such as a social media feed.
 
-- News  **
+- News  
   Displays a list of the most recent news items. You can configure the number of items to display (the default is 5).
 
 - Popular articles  
