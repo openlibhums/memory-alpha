@@ -21,3 +21,9 @@ This opens up the repo wizard, which is used for both configurring a new reposit
     Sets the repository as live.
 
 Additional settings for licenses, additional submission fields, subjects. <!-- missing hyperlink-->
+
+## Licenses
+
+## Subjects
+
+## Additional submission fields
