@@ -14,6 +14,8 @@ WIP:
 
 ## Repository settings
 
+## Handling preprints
+
 To-do:
 
 ## Navigating a repository
@@ -21,5 +23,3 @@ To-do:
 ## Managing repositories
 
 ### Deleting repositories
-
-## Handling preprints
