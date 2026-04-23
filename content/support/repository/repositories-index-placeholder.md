@@ -1,19 +1,25 @@
 title: Repositories on Janeway
 # Repositories on Janeway
 
-## Navigating repositories
 
-## Managing repositories
+[Something about JW repos.]
 
-### Setting up respositories
+Done:
 
-See: Repository settings
+## Setting up a respository
 
-### Deleting repositories
+## Submitting to a repository
+
+WIP:
 
 ## Repository settings
 
+To-do:
+
+## Navigating a repository
+
+## Managing repositories
+
+### Deleting repositories
 
 ## Handling preprints
-
-## Submitting preprints
