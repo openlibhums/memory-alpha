@@ -26,9 +26,17 @@ Additional settings for licenses, additional submission fields, subjects. <!-- m
 
 ![" "](../images/repositories/repo-licences.png)
 
+This page lets you pick which licenses are made available for preprints in this repository. The available licenses are all licenses made available on the press (each journal), which is why you may see duplicates.
+
 ## Subjects
 
 ![" "](../images/repositories/repo-subjects.png)
+
+This page lets you set the subjects which preprints can fall into. These can be organised hierachically, with sub-subjects ('children') - e.g., 'Biology' and 'Marine biology'. These will be grouped together, with the parent subject being listed first in the group.
+
+![" "](../images/repositories/repo-parent-child-subject.png)
+
+You can also select editors who should be notified of submissions made to this subject.
 
 ## Additional submission fields
 
@@ -37,3 +45,5 @@ Additional settings for licenses, additional submission fields, subjects. <!-- m
 ## Recommendations
 
 ![" "](../images/repositories/repo-recommendations.png)
+
+This page lets you configure the recommendations available

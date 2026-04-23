@@ -40,8 +40,16 @@ If upon initial review, the preprint is suitable, you can click **Create a versi
 
 ![" "](../images/repositories/repo-preprint-controls.png)
 
-Similar to published preprints, the controls block will display the preprint's status and primary identifier, and present various options. These are the same as those for published preprints, except that 'Edit published date' and 'Un-publish this article' have been replaced with 'Accept article' and 'Reject article'.
+Similar to published preprints, the controls block will display the preprint's status and primary identifier, and present various options. These are the same as those for published preprints, except that 'Edit published date' and 'Un-publish this article' have been replaced with 'Accept article' and **Reject article'.
 
 ## Moderating new versions
 
-## Handling review commens
+On the Repository manager, in the Stats block, click **Versions awaiting moderation**.
+
+![" "](../images/repositories/repo-awaiting-moderation.png)
+
+This will display a list with all versions awaiting moderation and the request type. Click **View detail** to review the version, you can then click **Accept** or **Decline** to record your decision.
+
+![" "](../images/repositories/repo-version-moderation.png)
+
+## Handling review comments
