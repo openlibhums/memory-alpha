@@ -4,7 +4,43 @@
 #
 #    pip-compile dev-requirements.in
 #
+attrs==26.1.0
+    # via fiona
+certifi==2026.4.22
+    # via
+    #   fiona
+    #   pyproj
+click==8.3.3
+    # via
+    #   click-plugins
+    #   cligj
+    #   fiona
+    #   svgis
+click-plugins==1.1.1.2
+    # via fiona
+cligj==0.7.2
+    # via fiona
+cssselect==1.4.0
+    # via svgis
+diskcache==5.6.3
+    # via -r dev-requirements.in
+fiona==1.10.1
+    # via svgis
+geojson==3.2.0
+    # via -r dev-requirements.in
+lxml==6.1.0
+    # via svgis
 nodejs-bin[cmd]==18.4.0a4
     # via -r dev-requirements.in
 nodejs-cmd==0.0.1a0
     # via nodejs-bin
+pyproj==3.7.1
+    # via svgis
+svgis==0.5.4
+    # via -r dev-requirements.in
+tinycss2==1.5.1
+    # via svgis
+utm==0.8.1
+    # via svgis
+webencodings==0.5.1
+    # via tinycss2
