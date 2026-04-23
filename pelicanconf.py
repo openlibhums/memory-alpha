@@ -1,3 +1,4 @@
+import json
 from datetime import datetime
 import logging
 
@@ -116,8 +117,14 @@ JINJA_ENVIRONMENT = {
     'extensions': ['jinja2.ext.do'],
 }
 
+# Data for maps on Hosting page
+INSTALLATION_GEOJSON = "themes/alpha/static/data/janeway_installations.geojson"
+with open(INSTALLATION_GEOJSON) as ref:
+    installation_json = ref.read()
+
 JINJA_GLOBALS = {
     "current_year": datetime.now().strftime("%Y"),
+    "installation_map_json": json.loads(installation_json),
 }
 
 GH_MAIN_CONTENT_URL = 'https://github.com/BirkbeckCTP/memory-alpha/edit/main/content'

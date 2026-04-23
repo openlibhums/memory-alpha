@@ -1,0 +1,761 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 2643743,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-0.12574, 51.50853]
+      },
+      "properties": {
+        "name": "London",
+        "continent": "Europe",
+        "installations": [
+          [
+            "Open Library of Humanities",
+            "https://www.openlibhums.org/",
+            "https://ror.org/02mb95055",
+            "paid"
+          ],
+          [
+            "University College London Open Access Student Journals",
+            "https://student-journals.ucl.ac.uk/",
+            "https://ror.org/02jx3x895",
+            "paid"
+          ],
+          [
+            "University College London Press",
+            "https://journals.uclpress.co.uk/",
+            "https://ror.org/02jx3x895",
+            "paid"
+          ],
+          [
+            "New Vistas",
+            "https://uwlpress.uwl.ac.uk/",
+            "https://ror.org/03e5mzp60",
+            "paid"
+          ],
+          [
+            "University of Westminster Press",
+            "https://uwestminsterpress.co.uk/",
+            "https://ror.org/04ycpbx82",
+            "paid"
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2657832,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-2.09814, 57.14369]
+      },
+      "properties": {
+        "name": "Aberdeen",
+        "continent": "Europe",
+        "installations": [
+          [
+            "Aberdeen University Press",
+            "https://journals.aberdeenunipress.org/",
+            "https://ror.org/016476m91",
+            "paid"
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4752031,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-78.47668, 38.02931]
+      },
+      "properties": {
+        "name": "Charlottesville",
+        "continent": "North America",
+        "installations": [
+          [
+            "Aperio Journals",
+            "https://journals.aperio.press/",
+            "https://ror.org/0153tk833",
+            "paid"
+          ],
+          [
+            "Journal of Contemplative Studies",
+            "https://jcs.contemplativejournal.org/",
+            "https://ror.org/0153tk833",
+            "paid"
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5318313,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-110.92648, 32.22174]
+      },
+      "properties": {
+        "name": "Tucson",
+        "continent": "North America",
+        "installations": [
+          [
+            "University of Arizona Libraries",
+            "https://journals.librarypublishing.arizona.edu/",
+            "https://ror.org/03m2x1q45",
+            "paid"
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5017822,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-94.88028, 47.47356]
+      },
+      "properties": {
+        "name": "Bemidji",
+        "continent": "North America",
+        "installations": [
+          [
+            "American Review of Political Economy",
+            "https://arpejournal.com/",
+            "https://ror.org/01yjyvb35",
+            "paid"
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2654710,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-0.13947, 50.82838]
+      },
+      "properties": {
+        "name": "Brighton",
+        "continent": "Europe",
+        "installations": [
+          [
+            "Brief Encounters",
+            "https://briefencounters-journal.co.uk/",
+            "https://ror.org/00ayhx656",
+            "paid"
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5128581,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.00597, 40.71427]
+      },
+      "properties": {
+        "name": "New York",
+        "continent": "North America",
+        "installations": [
+          [
+            "Video Journal of Education",
+            "https://vjer.tc.columbia.edu/",
+            "https://ror.org/00hj8s172",
+            "paid"
+          ],
+          [
+            "Voices in Urban Education",
+            "https://vue.metrocenter.steinhardt.nyu.edu/",
+            "https://ror.org/0190ak572",
+            "paid"
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2938913,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.65027, 49.87167]
+      },
+      "properties": {
+        "name": "Darmstadt",
+        "continent": "Europe",
+        "installations": [
+          [
+            "University and State Library Darmstadt",
+            "https://tujournals.ulb.tu-darmstadt.de/",
+            "https://ror.org/05n911h24",
+            "paid"
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2964574,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-6.24889, 53.33306]
+      },
+      "properties": {
+        "name": "Dublin",
+        "continent": "Europe",
+        "installations": [
+          [
+            "Communications Undergraduate Journal",
+            "https://cujournal.ie/",
+            "https://ror.org/04a1a1e81",
+            "paid"
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2652618,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [0.90421, 51.88921]
+      },
+      "properties": {
+        "name": "Colchester",
+        "continent": "Europe",
+        "installations": [
+          [
+            "Essex Student Journal",
+            "https://publications.essex.ac.uk/",
+            "https://ror.org/02nkf1q06",
+            "paid"
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2797656,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.71667, 51.05]
+      },
+      "properties": {
+        "name": "Ghent",
+        "continent": "Europe",
+        "installations": [
+          [
+            "Ghent University Library",
+            "https://openjournals.ugent.be/",
+            "https://ror.org/00cv9y106",
+            "paid"
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2646458,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-1.78416, 53.64904]
+      },
+      "properties": {
+        "name": "Huddersfield",
+        "continent": "Europe",
+        "installations": [
+          [
+            "University of Huddersfield Press",
+            "https://unipress.hud.ac.uk/",
+            "https://ror.org/05t1h8f27",
+            "paid"
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4862034,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-91.53017, 41.66113]
+      },
+      "properties": {
+        "name": "Iowa City",
+        "continent": "North America",
+        "installations": [
+          [
+            "University of Iowa Libraries",
+            "https://pubs.lib.uiowa.edu/",
+            "https://ror.org/036jqmy94",
+            "paid"
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4846834,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-93.61994, 42.03471]
+      },
+      "properties": {
+        "name": "Ames",
+        "continent": "North America",
+        "installations": [
+          [
+            "Iowa State University Digital Press",
+            "https://iastatedigitalpress.com/",
+            "https://ror.org/04rswrd78",
+            "paid"
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4460162,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-79.05584, 35.9132]
+      },
+      "properties": {
+        "name": "Chapel Hill",
+        "continent": "North America",
+        "installations": [
+          [
+            "University of North Carolina Press",
+            "https://janeway.uncpress.org",
+            "https://ror.org/0130frc33",
+            "paid"
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2874225,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.2791, 49.98419]
+      },
+      "properties": {
+        "name": "Mainz",
+        "continent": "Europe",
+        "installations": [
+          [
+            "Mainz University Library",
+            "https://journals.ub.uni-mainz.de/",
+            "https://ror.org/023b0x485",
+            "paid"
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4984247,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-83.74088, 42.27756]
+      },
+      "properties": {
+        "name": "Ann Arbor",
+        "continent": "North America",
+        "installations": [
+          [
+            "Michigan Publishing",
+            "https://journals.publishing.umich.edu/",
+            "https://ror.org/00jmfr291",
+            "paid"
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4509177,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-82.99879, 39.96118]
+      },
+      "properties": {
+        "name": "Columbus",
+        "continent": "North America",
+        "installations": [
+          [
+            "Ohio State University Libraries Digital Publishing",
+            "https://ojs.library.osu.edu/",
+            "https://ror.org/00rs6vg23",
+            "paid"
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2638671,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-2.29042, 53.48771]
+      },
+      "properties": {
+        "name": "Salford",
+        "continent": "Europe",
+        "installations": [
+          [
+            "Salford Open Journals",
+            "https://openjournals.salford.ac.uk/",
+            "https://ror.org/01tmqtf75",
+            "paid"
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2638077,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-1.4659, 53.38297]
+      },
+      "properties": {
+        "name": "Sheffield",
+        "continent": "Europe",
+        "installations": [
+          [
+            "Field Journal",
+            "https://www.field-journal.org/",
+            "https://ror.org/05krs5044",
+            "paid"
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5102922,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.65905, 40.34872]
+      },
+      "properties": {
+        "name": "Princeton",
+        "continent": "North America",
+        "installations": [
+          [
+            "The Spenser Review",
+            "https://spenserreview.org/",
+            "https://ror.org/00hx57361",
+            "paid"
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4956184,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.80229, 42.26259]
+      },
+      "properties": {
+        "name": "Worcester",
+        "continent": "North America",
+        "installations": [
+          [
+            "University of Massachusetts Chan Medical School",
+            "https://publishing.escholarship.umassmed.edu/",
+            "https://ror.org/0464eyp60",
+            "paid"
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4929023,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-72.51925, 42.37537]
+      },
+      "properties": {
+        "name": "Amherst Center",
+        "continent": "North America",
+        "installations": [
+          [
+            "Open Publishing at University of Massachusetts Amherst",
+            "https://openpublishing.library.umass.edu/",
+            "https://ror.org/0072zz521",
+            "paid"
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5234372,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.21207, 44.47588]
+      },
+      "properties": {
+        "name": "Burlington",
+        "continent": "North America",
+        "installations": [
+          [
+            "University of Vermont Press",
+            "https://vermont.defender.janeway.systems/",
+            "https://ror.org/0155zta11",
+            "paid"
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2640729,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-1.25596, 51.75222]
+      },
+      "properties": {
+        "name": "Oxford",
+        "continent": "Europe",
+        "installations": [
+          [
+            "Digital Enlightnment Studies",
+            "https://digitalenlightenmentstudies.org/",
+            "https://ror.org/052gg0110",
+            "paid"
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2759794,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.88969, 52.37403]
+      },
+      "properties": {
+        "name": "Amsterdam",
+        "continent": "Europe",
+        "installations": [
+          [
+            "Science for Sustainability Journal",
+            "https://s4s.greenofficevu.nl/",
+            "https://ror.org/008xxew50",
+            "paid"
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2653822,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.18, 51.48]
+      },
+      "properties": {
+        "name": "Cardiff",
+        "continent": "Europe",
+        "installations": [
+          [
+            "University of Wales Press",
+            "https://journal.uwp.co.uk/",
+            "https://ror.org/01se4f844",
+            "paid"
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4407066,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-90.19789, 38.62727]
+      },
+      "properties": {
+        "name": "St Louis",
+        "continent": "North America",
+        "installations": [
+          [
+            "Washington University in St. Louis University Libraries",
+            "https://journals.library.wustl.edu/",
+            "https://ror.org/01yc7t268",
+            "paid"
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2638664,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-1.79569, 51.06931]
+      },
+      "properties": {
+        "name": "Salisbury",
+        "continent": "Europe",
+        "installations": [
+          [
+            "Wessex Archaeology",
+            "https://www.wessexarchlibrary.org/",
+            "https://ror.org/02j3zbr06",
+            "paid"
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2171507,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [150.89345, -34.424]
+      },
+      "properties": {
+        "name": "Wollongong",
+        "continent": "Oceania",
+        "installations": [
+          [
+            "University of Wollongong Library",
+            "https://www.uowoajournals.org/",
+            "https://ror.org/00jtmb277",
+            "paid"
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4058553,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-86.98334, 34.60593]
+      },
+      "properties": {
+        "name": "Decatur",
+        "continent": "North America",
+        "installations": [
+          [
+            "Journal of the National Organization for Student Success",
+            "https://www.jnoss.org/",
+            "https://ror.org/034948b51",
+            "paid"
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4634946,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-83.92074, 35.96064]
+      },
+      "properties": {
+        "name": "Knoxville",
+        "continent": "North America",
+        "installations": [
+          [
+            "University of Tennessee Libraries",
+            "",
+            "https://ror.org/020f3ap87",
+            "paid"
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3165185,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.77678, 45.64953]
+      },
+      "properties": {
+        "name": "Trieste",
+        "continent": "Europe",
+        "installations": [
+          [
+            "Sissa Medialab",
+            "https://medialab.sissa.it/en",
+            "https://ror.org/004fze387",
+            "self-hosted"
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5378538,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.2708, 37.80437]
+      },
+      "properties": {
+        "name": "Oakland",
+        "continent": "North America",
+        "installations": [
+          [
+            "California Digital Library",
+            "https://escholarship.org/",
+            "https://ror.org/03yrm5c26",
+            "self-hosted"
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2761369,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.37208, 48.20849]
+      },
+      "properties": {
+        "name": "Vienna",
+        "continent": "Europe",
+        "installations": [
+          [
+            "Vienna University of Technology",
+            "",
+            "https://ror.org/04d836q62",
+            "self-hosted"
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5206379,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-79.99589, 40.44062]
+      },
+      "properties": {
+        "name": "Pittsburgh",
+        "continent": "North America",
+        "installations": [
+          [
+            "Carnegie Mellon University Library Publishing Service",
+            "https://lps.library.cmu.edu/",
+            "https://ror.org/05x2bcf33",
+            "self-hosted"
+          ]
+        ]
+      }
+    }
+  ]
+}

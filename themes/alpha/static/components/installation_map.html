@@ -1,0 +1,29 @@
+{% macro installation_map(svg_path, continent) -%}
+  <div class="installation-map flow">
+    {% include svg_path %}
+    <h3 class="fs-4">{{ continent }}</h3>
+    <ul class="flow">
+      {% for city in installation_map_json.features|sort(attribute="properties.installations") %}
+        {% if city.properties.continent == continent %}
+          {% for name, site, _ror_id, hosting in city.properties.installations %}
+            <li>
+              {% if site %}
+                <a href="{{ site }}" target="_blank">
+                  {{ name }}
+                  {% if hosting == "self-hosted" %}
+                    (self-hosted)
+                  {% endif %}
+                </a>
+              {% else %}
+                {{ name }}
+                {% if hosting == "self-hosted" %}
+                  (self-hosted)
+                {% endif %}
+              {% endif %}
+            </li>
+          {% endfor %}
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+{%- endmacro %}

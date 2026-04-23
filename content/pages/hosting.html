@@ -1,9 +1,35 @@
 {% from "components/page_h1.html" import page_h1 %}
 {% from "components/page_section.html" import page_section %}
+{% from "components/installation_map.html" import installation_map %}
 
 <head>
   <title>Hosting</title>
 </head>
 <body>
   {% include "components/hosting_splash.html" %}
+  {% call page_section(labelledby="ideal-for", bg="bg-alpha-white") -%}
+    <h2 id="ideal-for" class="sr-only">Ideal for</h2>
+    <p class="fs-6 ff-space-mono-regular">
+      Janeway is ideal for library publishers and university presses that manage
+      journals.
+    </p>
+    <p>
+      Many independent and society journals have also found a home on the
+      platform.
+    </p>
+  {%- endcall %}
+  {% call page_section(labelledby="janeway-installations", bg="bg-alpha-black") -%}
+    <h2 id="janeway-installations">Where Janeway can be found</h2>
+    <p>
+      We host Janeway for dozens of publishers, mainly in Europe and North
+      America. Our platform is also run independently by a growing number of
+      universities and research institutions.
+    </p>
+    <p>(Don't see your Janeway site on the list? Drop us a note.)</p>
+    <div class="not-prose flow flow-first-child">
+      {{ installation_map(svg_path="svg/europe_map.svg", continent="Europe") }}
+      {{ installation_map(svg_path="svg/north_america_map.svg", continent="North America") }}
+      {# {{ installation_map(svg_path="svg/australia_map.svg", continent="Oceania") }} #}
+    </div>
+  {%- endcall %}
 </body>
