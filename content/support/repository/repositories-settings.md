@@ -24,6 +24,16 @@ Additional settings for licenses, additional submission fields, subjects. <!-- m
 
 ## Licenses
 
+![" "](../images/repositories/repo-licences.png)
+
 ## Subjects
 
+![" "](../images/repositories/repo-subjects.png)
+
 ## Additional submission fields
+
+![" "](../images/repositories/repo-additional-fields.png)
+
+## Recommendations
+
+![" "](../images/repositories/repo-recommendations.png)

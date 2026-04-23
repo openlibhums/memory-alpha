@@ -32,14 +32,16 @@ Clicking on the title of a preprint will take you to the preprint dashboard. Her
 
 ## Unpublished preprints
 
+Similar to published preprints, you can click on the title of an unpublished preprint in the Repository manager to be taken to the preprint page. On this page, you can review the (supplementary) files and metadata.
+
+If upon initial review, the preprint is suitable, you can click **Create a version with this file**. After this, you can invite reviewers and take other actions to process the preprint. To reject the preprint, you can select **Reject article** in the control section, an email prompt will open up where you can explain your reasoning to the author(s). When the preprint is ready for publication, you can click **Accept preprint** in the Control block, and set a publication date.
+
 ### Controls
 
 ![" "](../images/repositories/repo-preprint-controls.png)
 
 Similar to published preprints, the controls block will display the preprint's status and primary identifier, and present various options. These are the same as those for published preprints, except that 'Edit published date' and 'Un-publish this article' have been replaced with 'Accept article' and 'Reject article'.
 
-### Accepting preprints
+## Moderating new versions
 
-### Rejecting preprints
-
-## Preprints awaiting moderation
+## Handling review commens
