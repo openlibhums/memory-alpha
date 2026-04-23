@@ -1,1 +1,4 @@
 nodejs-bin[cmd]
+geojson
+diskcache
+svgis
