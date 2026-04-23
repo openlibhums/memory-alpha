@@ -11,6 +11,7 @@ body {
   background-color: var(--clr-alpha-black);
   font-family: var(--ff-poppins-regular);
   overflow-x: hidden;
+  text-underline-offset: 0.25rem;
 }
 h1 {
   font-size: var(--step-8);

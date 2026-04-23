@@ -196,6 +196,36 @@ and narrow screens, as duplicate content is harder to maintain.
 
 We sparingly use one other wide breakpoint, 70 rems, in multi-column layouts where there would be empty space otherwise.
 
+### Maps
+
+The maps on the **Hosting** page are dynamically generated from the CSV file listing Janeway installations.
+
+To add new installations:
+
+1. Install development requirements.
+
+   ```
+   pip install -r dev-requirements.txt
+   ```
+
+2. Edit the CSV at `themes/alpha/static/data/janeway_installations.csv`.
+   - Name  
+     The name of the journal or press, with acronyms spelled out.
+   - Site  
+     URL of the Janeway press or journal site, or a third-party site if it better represents the scope of the installation.
+   - ROR ID  
+     Choose the ROR record that best represents the affiliation of the journal or press. The ROR ID is required since we use their API for geographical data.
+   - Hosting  
+     Either `paid` if a Janeway client, or `self-hosted` if self-hosted.
+
+3. Run the command to update the geojson and SVG files. A network connection is required, since we use the ROR API (with caching).
+
+   ```
+   python commands/draw_installation_maps.py
+   ```
+
+4. Commit the modified GeoJSON and SVG files to the Git history.
+
 ### CSS in general
 
 See the [CSS README](themes/alpha/static/css/README.md).

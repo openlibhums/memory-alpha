@@ -1,0 +1,38 @@
+.installation-map {
+  --flow-space: var(--space-xl);
+  position: relative;
+  svg {
+    width: unset;
+    height: unset;
+    max-height: 30rem;
+    margin-inline: auto;
+  }
+
+  polygon.ne_110m_admin_0_countries {
+    fill: var(--clr-alpha-blue);
+    stroke: var(--clr-alpha-black);
+    stroke-width: 0.5%;
+    stroke-linejoin: round;
+  }
+  circle.janeway_installations {
+    fill: var(--clr-alpha-yellow);
+    stroke-width: 1%;
+    r: 1%;
+  }
+  ul {
+    columns: 1;
+  }
+  li {
+    padding-inline-end: var(--space-s);
+  }
+}
+@media (width > 50rem) {
+  .installation-map ul {
+    columns: 2;
+  }
+}
+@media (width > 70rem) {
+  .installation-map ul {
+    columns: 3;
+  }
+}
