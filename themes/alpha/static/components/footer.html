@@ -1,6 +1,7 @@
 {# The main product site footer #}
 {% from "components/laser_link.html" import laser_link %}
 {% from "components/link_list.html" import link_list %}
+{% from "components/button.html" import button %}
 
 <footer class="footer">
   <div class="circle-wrapper-top">
@@ -12,24 +13,23 @@
       <circle class="circle-path-blue" cx="50" cy="50" r="40" />
     </svg>
   </div>
-  <div class="grid place-content-center">
+  <div class="grid place-content-center flow flow-first-child">
     <div class="footer-title-wrapper">
       <p class="footer-title">Follow a new way</p>
       <p>Get the latest information on Janeway development and training.</p>
     </div>
-    <div class="signup-form">
-      <div class="signup-form-wrapper">
-        <label for="signup-form-email" id="signup-form-label" class=""
-          >Your email</label
-        >
-        <input
-          aria-describedby="signup-form-label"
-          type="email"
-          class="text-input"
-          id="signup-form-email"
-          placeholder="janeway@email.com"
-        />
-      </div>
+    <div class="grid place-content-center">
+      {%
+        call button(
+          volume="loud",
+          link="https://forms.office.com/Pages/ResponsePage.aspx?id=R3_QiVjSPEaHAGNf-uyjjoRElTXNbC1BhWwR3IwusVpURUo2WE1QVkI5QVg1SkQwSU1JNTJWSTYzQS4u",
+          target="_blank",
+          parent_text_color="white",
+          parent_background_color="black"
+        )
+      %}
+        Sign up to our mailing list
+      {% endcall %}
     </div>
     {% call link_list(layout='wide') %}
       <li>
