@@ -97,7 +97,8 @@
   }
   .yellow-circle {
     padding: var(--portal-padding);
-    background-color: var(--clr-alpha-yellow);
+    --clr-background: var(--clr-alpha-yellow);
+    background-color: var(--clr-background);
     clip-path: circle(50%);
   }
   .picture-portal {
@@ -112,7 +113,8 @@
     padding: var(--portal-padding);
     height: 100%;
     width: 100%;
-    background-color: var(--clr-alpha-red);
+    --clr-background: var(--clr-alpha-red);
+    background: var(--clr-background);
     clip-path: circle(47%);
   }
   .george-picture {
@@ -157,7 +159,8 @@
     clip-path: circle(50%);
     display: grid;
     place-content: center;
-    background: var(--clr-alpha-blue);
+    --clr-background: var(--clr-alpha-blue);
+    background: var(--clr-background);
     @media (width > 50rem) {
       height: 20rem;
       width: 20rem;
@@ -179,7 +182,8 @@
   .george-text p,
   .space-text p {
     color: var(--clr-alpha-white);
-    background: var(--clr-alpha-blue);
+    --clr-background: var(--clr-alpha-blue);
+    background: var(--clr-background);
     padding-inline: 1rem;
     font-size: 1.2rem;
     @media (width > 50rem) {
@@ -223,13 +227,15 @@
     display: block;
     height: 22px;
     width: 6px;
-    background: var(--clr-alpha-white);
+    --clr-background: var(--clr-alpha-white);
+    background: var(--clr-background);
   }
   &:not(.running) .play-pause .triangle {
     display: block;
     height: 20px;
     width: 20px;
-    background: var(--clr-alpha-white);
+    --clr-background: var(--clr-alpha-white);
+    background: var(--clr-background);
     clip-path: polygon(15% 0, 100% 50%, 15% 100%);
   }
 

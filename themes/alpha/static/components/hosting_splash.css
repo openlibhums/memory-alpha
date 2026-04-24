@@ -30,7 +30,8 @@
       height: 100%;
       width: 50vw;
       left: 90%;
-      background: var(--clr-alpha-yellow);
+      --clr-background: var(--clr-alpha-yellow);
+      background: var(--clr-background);
       clip-path: polygon(25% 0, 100% 0, 100% 100%, 0 100%, 0 25%);
     }
   }

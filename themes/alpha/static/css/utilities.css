@@ -44,19 +44,24 @@
   color: var(--clr-alpha-yellow);
 }
 .bg-alpha-black {
-  background-color: var(--clr-alpha-black);
+  --clr-background: var(--clr-alpha-black);
+  background-color: var(--clr-background);
 }
 .bg-alpha-white {
-  background-color: var(--clr-alpha-white);
+  --clr-background: var(--clr-alpha-white);
+  background-color: var(--clr-background);
 }
 .bg-alpha-blue {
-  background-color: var(--clr-alpha-blue);
+  --clr-background: var(--clr-alpha-blue);
+  background-color: var(--clr-background);
 }
 .bg-alpha-red {
-  background-color: var(--clr-alpha-red);
+  --clr-background: var(--clr-alpha-red);
+  background-color: var(--clr-background);
 }
 .bg-alpha-yellow {
-  background-color: var(--clr-alpha-yellow);
+  --clr-background: var(--clr-alpha-yellow);
+  background-color: var(--clr-background);
 }
 .fill-alpha-black {
   fill: var(--clr-alpha-black);
@@ -428,7 +433,8 @@
 
   /* Avoid irrelevant contrast warnings from a11y checkers */
   color: var(--clr-alpha-white);
-  background: var(--clr-alpha-black);
+  --clr-background: var(--clr-alpha-black);
+  background: var(--clr-background);
 }
 
 /* Hide overflow on the left and right of an element */

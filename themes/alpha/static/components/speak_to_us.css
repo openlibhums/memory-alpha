@@ -19,7 +19,8 @@
   .text {
     padding: var(--space-s);
     color: var(--clr-alpha-blue);
-    background: var(--clr-alpha-white);
+    --clr-background: var(--clr-alpha-white);
+    background: var(--clr-background);
     margin-left: var(--space-3xl);
     font-size: var(--step-7);
     font-family: var(--ff-mono-regular);

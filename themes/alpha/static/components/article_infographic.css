@@ -15,7 +15,8 @@
   }
   .line,
   .circle {
-    background: var(--clr-alpha-yellow);
+    --clr-background: var(--clr-alpha-yellow);
+    background: var(--clr-background);
   }
   .circle {
     border-radius: 50%;

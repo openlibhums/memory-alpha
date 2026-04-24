@@ -8,7 +8,7 @@ main {
 }
 body {
   color: var(--clr-alpha-white);
-  background-color: var(--clr-alpha-black);
+  background: var(--clr-background);
   font-family: var(--ff-poppins-regular);
   overflow-x: hidden;
   text-underline-offset: 0.25rem;
@@ -54,6 +54,65 @@ li {
   --flow-space: var(--space-xs);
 }
 hr {
-  background-color: var(--clr-alpha-blue);
+  border: 1px solid var(--clr-alpha-blue);
   --flow-space: var(--space-m);
+}
+
+/*
+ * Default backgrounds and focus states
+ * See https://piccalil.li/blog/taking-a-shot-at-the-double-focus-ring-problem-using-modern-css/
+ */
+
+a,
+button,
+input,
+textarea,
+select,
+details,
+audio,
+video,
+object,
+[contenteditable],
+[tabindex] {
+  background: var(--clr-background);
+  --focus-ring-distance: 0.2rem;
+  --focus-ring-color-background: var(--clr-background);
+
+  &:focus-visible {
+    --focus-ring-color-inner: var(--clr-alpha-white);
+    --focus-ring-color-outer: var(--clr-alpha-black);
+
+    box-shadow:
+      0 0 0 var(--focus-ring-distance) var(--focus-ring-color-background),
+      0 0 0 calc(var(--focus-ring-distance) * 2) var(--focus-ring-color-inner),
+      0 0 0 calc(var(--focus-ring-distance) * 3)
+        var(--focus-ring-color-background),
+      0 0 0 calc(var(--focus-ring-distance) * 4) var(--focus-ring-color-outer);
+    outline: none;
+  }
+
+  @supports (color: hsl(from var(--clr-alpha-white) h s l)) {
+    &:focus-visible {
+      --focus-ring-color-inner: currentColor;
+      --focus-ring-color-outer: hsl(
+        from var(--focus-ring-color-inner) calc(h + 180) s l
+      );
+      box-shadow:
+        0 0 0 var(--focus-ring-distance) var(--focus-ring-color-background),
+        0 0 0 calc(var(--focus-ring-distance) * 2)
+          var(--focus-ring-color-inner),
+        0 0 0 calc(var(--focus-ring-distance) * 3)
+          var(--focus-ring-color-background),
+        0 0 0 calc(var(--focus-ring-distance) * 4)
+          var(--focus-ring-color-outer);
+      outline: none;
+    }
+  }
+  @media (forced-colors: active) {
+    &:focus-visible {
+      box-shadow: none;
+      outline: var(--focus-ring-distance) solid LinkText;
+      outline-offset: var(--focus-ring-distance);
+    }
+  }
 }

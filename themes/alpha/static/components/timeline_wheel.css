@@ -13,13 +13,13 @@
   button {
     border: none;
     padding: 0;
-    background: transparent;
+    --clr-background: transparent;
+    background: var(--clr-background);
+    --focus-ring-distance: 0.1rem;
+    --focus-ring-color-inner: var(--clr-alpha-white);
+    --focus-ring-color-outer: transparent;
+    --focus-ring-color-background: transparent;
     cursor: pointer;
-  }
-  button:focus {
-    outline-width: 3px;
-    outline-color: var(--clr-alpha-white);
-    outline-style: dotted;
   }
   .point-circle {
     width: calc(var(--tracksize) * 6);
@@ -29,11 +29,13 @@
     z-index: 1;
   }
   :not(.selected) .point-circle {
-    background: var(--clr-alpha-white);
+    --clr-background: var(--clr-alpha-white);
+    background: var(--clr-background);
   }
   .point:hover .point-circle,
   .point.selected .point-circle {
-    background: var(--clr-alpha-yellow);
+    --clr-background: var(--clr-alpha-yellow);
+    background: var(--clr-background);
   }
   :not(.selected) .point-label {
     color: var(--clr-alpha-white);
@@ -82,11 +84,6 @@
   .text-block:not(.selected) {
     display: none;
   }
-  .text-block:focus {
-    outline-color: var(--clr-alpha-white);
-    outline-width: 3px;
-    outline-style: dotted;
-  }
   .text-block p {
     font-size: var(--step-3);
   }
@@ -108,7 +105,8 @@
     .wheel::before {
       content: "";
       width: calc(2 * var(--tracksize));
-      background: var(--clr-alpha-white);
+      --clr-background: var(--clr-alpha-white);
+      background: var(--clr-background);
       position: absolute;
       top: calc(var(--space-s) + (2 * var(--tracksize)));
       bottom: calc(var(--space-s) + (2 * var(--tracksize)));
@@ -128,14 +126,15 @@
       content: "";
       height: calc(var(--tracksize) / 2);
       width: 8rem;
-      background-color: var(--clr-alpha-yellow);
+      --clr-background: var(--clr-alpha-yellow);
+      background: var(--clr-background);
       position: absolute;
       right: 100%;
       top: calc(50% - var(--tracksize) / 4);
       z-index: 1;
     }
-    .point:focus .arrow-keyboard.up,
-    .point:focus .arrow-keyboard.down {
+    .point:focus-visible .arrow-keyboard.up,
+    .point:focus-visible .arrow-keyboard.down {
       display: block;
     }
     .text-blocks {
@@ -144,9 +143,6 @@
     }
     .text-block {
       max-width: 50vw;
-    }
-    .text-block:focus {
-      outline-offset: var(--space-xs);
     }
   }
 
@@ -197,14 +193,15 @@
       content: "";
       height: 8rem;
       width: calc(var(--tracksize) / 2);
-      background-color: var(--clr-alpha-yellow);
+      --clr-background: var(--clr-alpha-yellow);
+      background: var(--clr-background);
       position: absolute;
       top: 100%;
       left: calc(50% - var(--tracksize) / 4);
       z-index: 1;
     }
-    .point:focus .arrow-keyboard.left,
-    .point:focus .arrow-keyboard.right {
+    .point:focus-visible .arrow-keyboard.left,
+    .point:focus-visible .arrow-keyboard.right {
       display: block;
     }
     .point-label {
@@ -223,11 +220,9 @@
       z-index: 2;
     }
     .text-block {
-      background: var(--clr-alpha-blue);
+      --clr-background: var(--clr-alpha-blue);
+      background: var(--clr-background);
       padding: var(--space-s);
-    }
-    .text-block:focus {
-      outline-offset: -4px;
     }
   }
 }

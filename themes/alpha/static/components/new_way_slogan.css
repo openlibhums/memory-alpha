@@ -18,7 +18,8 @@
   .text,
   .signature-wrapper {
     padding: var(--space-3xs);
-    background: var(--clr-alpha-black);
+    --clr-background: var(--clr-alpha-black);
+    background: var(--clr-background);
     border-radius: var(--step-3);
   }
 }
@@ -30,7 +31,8 @@
     display: block;
     .text,
     .signature-wrapper {
-      background: var(--clr-alpha-blue);
+      --clr-background: var(--clr-alpha-blue);
+      background: var(--clr-background);
       max-width: none;
       text-align: left;
     }
