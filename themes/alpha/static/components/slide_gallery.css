@@ -4,7 +4,8 @@
   margin: auto;
 
   button {
-    background: inherit;
+    --clr-background: inherit;
+    background: var(--clr-background);
     border: none;
     padding-inline: 0;
     cursor: pointer;
@@ -96,7 +97,8 @@
     color: var(--clr-alpha-white);
   }
   .label {
-    background-color: var(--clr-alpha-red);
+    --clr-background: var(--clr-alpha-red);
+    background: var(--clr-background);
     padding-block: 0.5rem;
     padding-inline: var(--space-xs);
     font-size: var(--step-2);
@@ -113,12 +115,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: var(--space-s);
+  }
+  .tablist-button {
+    --focus-ring-color-inner: var(--clr-alpha-blue);
   }
   .tablist-button .circle {
     width: 1.3rem;
     height: 1.3rem;
     margin: var(--circle-padding);
-    background: var(--clr-alpha-blue);
+    --clr-background: var(--clr-alpha-blue);
+    background: var(--clr-background);
     border-radius: 50%;
     opacity: 50%;
   }

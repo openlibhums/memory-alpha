@@ -32,7 +32,8 @@
   }
   .blue-circle {
     display: none;
-    background: var(--clr-alpha-blue);
+    --clr-background: var(--clr-alpha-blue);
+    background: var(--clr-background);
     border-radius: 50%;
   }
   .blue-circle.left {

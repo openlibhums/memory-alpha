@@ -74,7 +74,8 @@
 
   .slide-drawer {
     display: none;
-    background: none;
+    --clr-background: inherit;
+    background: var(--clr-background);
     border: none;
     color: var(--clr-alpha-white);
     cursor: pointer;
@@ -83,7 +84,8 @@
   .combined-menu {
     display: none;
     flex-direction: column;
-    background-color: var(--clr-alpha-black);
+    --clr-background: var(--clr-alpha-black);
+    background: var(--clr-background);
     align-items: flex-start;
     width: 100%;
     transition: max-height 0.3s ease;

@@ -28,75 +28,75 @@
     /* color pairs foreground-background*/
     &.white-on-black {
       color: var(--clr-alpha-white);
-      background-color: var(--clr-alpha-black);
+      --clr-background: var(--clr-alpha-black);
     }
     &.black-on-white {
       color: var(--clr-alpha-black);
-      background-color: var(--clr-alpha-white);
+      --clr-background: var(--clr-alpha-white);
     }
 
     &.yellow-on-black {
       color: var(--clr-alpha-yellow);
-      background-color: var(--clr-alpha-black);
+      --clr-background: var(--clr-alpha-black);
     }
     &.black-on-yellow {
       color: var(--clr-alpha-black);
-      background-color: var(--clr-alpha-yellow);
+      --clr-background: var(--clr-alpha-yellow);
     }
 
     &.white-on-red {
       color: var(--clr-alpha-white);
-      background-color: var(--clr-alpha-red);
+      --clr-background: var(--clr-alpha-red);
     }
     &.red-on-white {
       color: var(--clr-alpha-red);
-      background-color: var(--clr-alpha-white);
+      --clr-background: var(--clr-alpha-white);
     }
 
     &.white-on-blue {
       color: var(--clr-alpha-white);
-      background-color: var(--clr-alpha-blue);
+      --clr-background: var(--clr-alpha-blue);
     }
     &.blue-on-white {
       color: var(--clr-alpha-blue);
-      background-color: var(--clr-alpha-white);
+      --clr-background: var(--clr-alpha-white);
     }
 
     /* hover inversing color pair */
     &.white-on-black:hover {
       color: var(--clr-alpha-black);
-      background-color: var(--clr-alpha-white);
+      --clr-background: var(--clr-alpha-white);
     }
     &.black-on-white:hover {
       color: var(--clr-alpha-white);
-      background-color: var(--clr-alpha-black);
+      --clr-background: var(--clr-alpha-black);
     }
 
     &.yellow-on-black:hover {
       color: var(--clr-alpha-black);
-      background-color: var(--clr-alpha-yellow);
+      --clr-background: var(--clr-alpha-yellow);
     }
     &.black-on-yellow:hover {
       color: var(--clr-alpha-yellow);
-      background-color: var(--clr-alpha-black);
+      --clr-background: var(--clr-alpha-black);
     }
 
     &.white-on-red:hover {
       color: var(--clr-alpha-red);
-      background-color: var(--clr-alpha-white);
+      --clr-background: var(--clr-alpha-white);
     }
     &.red-on-white:hover {
       color: var(--clr-alpha-white);
-      background-color: var(--clr-alpha-red);
+      --clr-background: var(--clr-alpha-red);
     }
 
     &.white-on-blue:hover {
       color: var(--clr-alpha-blue);
-      background-color: var(--clr-alpha-white);
+      --clr-background: var(--clr-alpha-white);
     }
     &.blue-on-white:hover {
       color: var(--clr-alpha-white);
-      background-color: var(--clr-alpha-blue);
+      --clr-background: var(--clr-alpha-blue);
     }
   }
 }

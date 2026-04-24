@@ -30,12 +30,16 @@
 
 /* Custom properties */
 :root {
-  /* Colours */
+  /* Theme colours */
   --clr-alpha-black: #262522;
   --clr-alpha-white: #fdf3e3;
   --clr-alpha-blue: #36565f;
   --clr-alpha-red: #bb4e30;
   --clr-alpha-yellow: #c08031;
+
+  /* Semantic colours */
+  --clr-background: var(--clr-alpha-black);
+  --clr-foreground: var(--clr-alpha-white);
 
   /* Font families */
   --ff-poppins-regular: "Poppins Regular", sans-serif;
