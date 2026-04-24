@@ -8,7 +8,7 @@
   }
 
   .footer-title-wrapper {
-    padding: var(--space-l);
+    --flow-space: var(--space-xl);
   }
   .footer-title {
     font-family: var(--ff-mono-regular);
@@ -59,29 +59,6 @@
     @media (width <= 50rem) {
       left: unset;
       right: 30px;
-    }
-  }
-
-  .signup-form {
-    .signup-form-wrapper {
-      position: relative;
-    }
-    .text-input {
-      border: none;
-      border-bottom: 2px solid var(--clr-alpha-white);
-      background-color: transparent;
-      color: var(--clr-alpha-white);
-      font-size: 16px;
-      padding: 5px;
-      width: 100%;
-      transition:
-        border-bottom-color 0.3s,
-        transform 0.3s;
-    }
-
-    .text-input:focus {
-      border-bottom-color: #00d2ff;
-      transform: scale(1.05);
     }
   }
 
