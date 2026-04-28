@@ -83,4 +83,14 @@
       {%- endcall %}
     {%- endcall %}
   {%- endcall %}
+  {%
+    call page_section(
+    labelledby="get-a-quote",
+    bg="bg-alpha-yellow",
+    prose="",
+    )
+  %}
+    {% set speak_to_us="Get a quote" %}
+    {% include "components/speak_to_us.html" %}
+  {% endcall %}
 </body>

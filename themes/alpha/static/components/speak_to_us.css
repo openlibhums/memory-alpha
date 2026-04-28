@@ -24,5 +24,7 @@
     font-size: var(--step-7);
     font-family: var(--ff-mono-regular);
     line-height: 1.1;
+    max-width: 7ch;
+    text-align: center;
   }
 }
