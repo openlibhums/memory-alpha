@@ -27,7 +27,7 @@ h2 {
   --flow-space: var(--space-l);
 }
 h3 {
-  font-size: var(--step-3);
+  font-size: var(--step-4);
   font-family: var(--ff-space-mono-bold);
   --flow-space: var(--space-m);
 }
