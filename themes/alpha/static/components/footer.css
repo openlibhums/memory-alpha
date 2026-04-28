@@ -7,15 +7,11 @@
     }
   }
 
-  .footer-title-wrapper {
-    --flow-space: var(--space-xl);
-  }
   .footer-title {
+    --flow-space: var(--space-xl);
     font-family: var(--ff-mono-regular);
     font-size: var(--step-7);
     max-width: 40rem;
-    padding: var(--space-xs);
-    text-align: center;
   }
   .circle-wrapper-top {
     position: relative;

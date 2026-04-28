@@ -13,25 +13,24 @@
       <circle class="circle-path-blue" cx="50" cy="50" r="40" />
     </svg>
   </div>
-  <div class="grid place-content-center flow flow-first-child">
-    <div class="footer-title-wrapper">
-      <p class="footer-title">Follow a new way</p>
-      <p>Get the latest information on Janeway development and training.</p>
-    </div>
-    <div class="grid place-content-center">
-      {%
-        call button(
-          volume="loud",
-          link="https://forms.office.com/Pages/ResponsePage.aspx?id=R3_QiVjSPEaHAGNf-uyjjoRElTXNbC1BhWwR3IwusVpURUo2WE1QVkI5QVg1SkQwSU1JNTJWSTYzQS4u",
-          target="_blank",
-          parent_text_color="white",
-          parent_background_color="black"
-        )
-      %}
-        Sign up to our mailing list
-      {% endcall %}
-    </div>
-    {% call link_list(layout='wide') %}
+  <div
+    class="grid place-items-center-large place-items-start-small flow
+    flow-first-child gap-0-5"
+  >
+    <p class="footer-title">Follow a new way</p>
+    <p>Get the latest information on Janeway development and training.</p>
+    {%
+      call button(
+        volume="loud",
+        link="https://forms.office.com/Pages/ResponsePage.aspx?id=R3_QiVjSPEaHAGNf-uyjjoRElTXNbC1BhWwR3IwusVpURUo2WE1QVkI5QVg1SkQwSU1JNTJWSTYzQS4u",
+        target="_blank",
+        parent_text_color="white",
+        parent_background_color="black"
+      )
+    %}
+      Sign up to our mailing list
+    {% endcall %}
+    {% call link_list() %}
       <li>
         {% call laser_link(href="https://bsky.app/profile/janewayolh.bsky.social", target="_blank") %}
           Bluesky
@@ -59,7 +58,7 @@
     </svg>
   </div>
   <div class="signature-wrapper">{% include "components/signature.html" %}</div>
-  {% call link_list(layout='narrow') %}
+  {% call link_list() %}
     {% for title, link, target in FOOTER_LINKS %}
       <li>
         {% call laser_link(href=link, target=target) %}
