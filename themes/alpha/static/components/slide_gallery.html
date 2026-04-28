@@ -14,19 +14,19 @@
   #}
   <div id="{{ id_prefix }}-slide-{{ num }}" class="slide" data-current-slide>
     <div class="slide-content prose flow">
-      <div class="label-wrapper">
-        <div
-          tabindex="0"
-          aria-label="Slide {{ num }}"
-          data-slide-label
-          class="label uppercase ff-space-mono-bold"
-        >
-          {% if label %}
+      {% if label %}
+        <div class="label-wrapper">
+          <div
+            tabindex="0"
+            aria-label="Slide {{ num }}"
+            data-slide-label
+            class="label uppercase ff-space-mono-bold"
+          >
             {{ label }}
-          {% endif %}
-          {{ num }}
+            {{ num }}
+          </div>
         </div>
-      </div>
+      {% endif %}
       <div class="body flow">{{ caller() }}</div>
     </div>
   </div>

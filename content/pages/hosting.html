@@ -1,6 +1,8 @@
 {% from "components/page_h1.html" import page_h1 %}
 {% from "components/page_section.html" import page_section %}
 {% from "components/installation_map.html" import installation_map %}
+{% from "components/slide_gallery.html" import slide_gallery, slide %}
+{% from "components/quote_by.html" import quote_by %}
 
 <head>
   <title>Hosting</title>
@@ -31,5 +33,54 @@
       {{ installation_map(svg_path="svg/north_america_map.svg", continent="North America") }}
       {# {{ installation_map(svg_path="svg/australia_map.svg", continent="Oceania") }} #}
     </div>
+  {%- endcall %}
+  {% call page_section(bg="bg-alpha-white", labelledby="client-quotes", layout="layout-full-small", prose="") %}
+    <h2 id="client-quotes" class="sr-only">Client quotes</h2>
+    {% call slide_gallery(num_slides=3) -%}
+      {% call slide(num=1) -%}
+        <blockquote tabindex="0" class="fs-4 ff-space-mono-regular">
+          "The first thing to know about Janeway is that it is not just a
+          submission system and platform. It is a complete publishing tool that
+          allows the editors to basically operate as . . . a publisher. That
+          makes it hugely empowering."
+        </blockquote>
+        {% call quote_by() -%}
+          <p>
+            <strong>Johan Rooryck</strong> <br />
+            Editor-in-chief of <i>Glossa</i> and former executive director of
+            cOAlition S
+          </p>
+        {%- endcall %}
+      {%- endcall %}
+      {% call slide(num=2) -%}
+        <blockquote tabindex="0" class="fs-4 ff-space-mono-regular">
+          "Often scaling means asking people to do more repetitive tasks which
+          are not intellectually engaging. Using Janeway has allowed us to scale
+          but not at the expense of our people. It has made our team’s jobs
+          better, more satisfying, more engaging, rather than more automated."
+        </blockquote>
+        {% call quote_by() -%}
+          <p>
+            <strong>Jason Colman</strong> <br />
+            Director of Michigan Publishing Services
+          </p>
+        {%- endcall %}
+      {%- endcall %}
+      {% call slide(num=3) -%}
+        <blockquote tabindex="0" class="fs-4 ff-space-mono-regular">
+          "Janeway is the most intuitive platform I have seen in terms of user
+          experience, and it was the only platform to offer all the features we
+          were keen to have. The team behind Janeway were a pleasure to work
+          with and are very open to working collaboratively on the platform,
+          which makes a big difference."
+        </blockquote>
+        {% call quote_by() -%}
+          <p>
+            <strong>Megan Taylor</strong> <br />
+            Former press manager at University of Huddersfield Press
+          </p>
+        {%- endcall %}
+      {%- endcall %}
+    {%- endcall %}
   {%- endcall %}
 </body>
