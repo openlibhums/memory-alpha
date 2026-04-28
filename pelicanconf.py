@@ -86,7 +86,7 @@ LEFT_NAV_ITEMS = [
 ]
 RIGHT_NAV_ITEMS = [
     # ('Book a Demo', '#', '') Not in scope for MVP
-    ('Support', '/support/under-construction.html', "_blank"),
+    # ('Support', '/support/under-construction.html', "_blank"),
     ('Source code', 'https://github.com/openlibhums/janeway', "_blank"),
 ]
 FOOTER_LINKS = [
