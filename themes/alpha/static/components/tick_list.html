@@ -1,0 +1,14 @@
+{% macro tick_list_item() %}
+  <li>
+    {% include "svg/tick-icon.svg" %}
+    {{ caller() }}
+  </li>
+{% endmacro %}
+
+{% macro tick_list() %}
+  <div class="tick-list flow">
+    <ul class="flow">
+      {{ caller() }}
+    </ul>
+  </div>
+{% endmacro %}

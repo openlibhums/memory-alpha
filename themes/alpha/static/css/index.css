@@ -20,7 +20,6 @@
 @import "../components/icon_plus_action.css" layer(components);
 @import "../components/installation_map.css" layer(components);
 @import "../components/journal_cover_grid.css" layer(components);
-@import "../components/key_features.css" layer(components);
 @import "../components/laser_link.css" layer(components);
 @import "../components/link_list.css" layer(components);
 @import "../components/main_nav.css" layer(components);
@@ -33,6 +32,7 @@
 @import "../components/signature.css" layer(components);
 @import "../components/slide_gallery.css" layer(components);
 @import "../components/speak_to_us.css" layer(components);
+@import "../components/tick_list.css" layer(components);
 @import "../components/timeline_wheel.css" layer(components);
 @import "../components/quote_by.css" layer(components);
 

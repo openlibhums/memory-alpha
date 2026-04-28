@@ -3,6 +3,7 @@
 {% from "components/icon_plus_action.html" import icon_plus_action %}
 {% from "components/page_section.html" import page_section %}
 {% from "components/page_section_group.html" import page_section_group %}
+{% from "components/tick_list.html" import tick_list, tick_list_item %}
 
 {% block content %}
 
@@ -101,7 +102,45 @@
     {% endcall %}
   {% endcall %}
   {% call page_section(labelledby="key-features", bg="bg-alpha-black", prose="") %}
-    {% include "components/key_features.html" %}
+    <h2 id="key-features">Key features</h2>
+    {% call tick_list() %}
+      {% call tick_list_item() %}
+        Customisable submissions
+      {% endcall %}
+      {% call tick_list_item() %}
+        Open, anonymous and triple anonymous review
+      {% endcall %}
+      {% call tick_list_item() %}
+        Copyediting and typesetting
+      {% endcall %}
+      {% call tick_list_item() %}
+        Support for articles in JATS XML, PDF and HTML
+      {% endcall %}
+      {% call tick_list_item() %}
+        Metadata standards
+      {% endcall %}
+      {% call tick_list_item() %}
+        File version control
+      {% endcall %}
+      {% call tick_list_item() %}
+        Assignable roles
+      {% endcall %}
+      {% call tick_list_item() %}
+        Email templates
+      {% endcall %}
+      {% call tick_list_item() %}
+        Repository system
+      {% endcall %}
+      {% call tick_list_item() %}
+        Archiving and discovery support
+      {% endcall %}
+      {% call tick_list_item() %}
+        GDPR compliance
+      {% endcall %}
+      {% call tick_list_item() %}
+        Security and privacy
+      {% endcall %}
+    {% endcall %}
   {% endcall %}
   {% call page_section(labelledby="article-infographic", bg="bg-alpha-white", prose="") %}
     {% include "components/article_infographic.html" %}

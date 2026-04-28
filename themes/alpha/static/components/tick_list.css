@@ -1,4 +1,4 @@
-.key-features {
+.tick-list {
   ul {
     list-style: none;
     line-height: 2;
@@ -10,7 +10,6 @@
     display: grid;
     grid-template-columns: 2rem auto;
     gap: 1rem;
-    padding-block: var(--space-3xs);
   }
   li svg {
     margin-top: var(--space-3xs);
@@ -19,12 +18,12 @@
   }
 }
 @media (width > 50rem) {
-  .key-features ul {
+  .tick-list ul {
     columns: 2;
   }
 }
 @media (width > 70rem) {
-  .key-features ul {
+  .tick-list ul {
     columns: 3;
   }
 }
