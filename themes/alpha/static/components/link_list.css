@@ -10,23 +10,11 @@
     text-decoration: none;
   }
 
-  &.narrow {
-    @media (width <= 50rem) {
-      flex-direction: column;
-    }
-    @media (width > 50rem) {
-      flex-direction: row;
-      li {
-        display: flex;
-        column-gap: var(--space-s);
-      }
-      li:not(:last-child)::after {
-        content: "|";
-      }
-    }
+  @media (width <= 50rem) {
+    flex-direction: column;
   }
 
-  &.wide {
+  @media (width > 50rem) {
     flex-direction: row;
     li {
       display: flex;

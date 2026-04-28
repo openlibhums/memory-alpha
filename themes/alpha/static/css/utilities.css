@@ -242,6 +242,39 @@
   &.place-content-center {
     place-content: center;
   }
+  &.place-items-center {
+    place-items: center;
+  }
+
+  @media (width > 50rem) {
+    &.place-content-center-large {
+      place-content: center;
+    }
+    &.place-items-center-large {
+      place-items: center;
+    }
+    &.place-content-start-large {
+      place-content: start;
+    }
+    &.place-items-start-large {
+      place-items: start;
+    }
+  }
+  @media (width <= 50rem) {
+    &.place-content-center-small {
+      place-content: center;
+    }
+    &.place-items-center-small {
+      place-items: center;
+    }
+    &.place-content-start-small {
+      place-content: start;
+    }
+    &.place-items-start-small {
+      place-items: start;
+    }
+  }
+
   /* Create an automatically responsive grid with minimum item size */
   &.auto {
     grid-template-columns: repeat(
