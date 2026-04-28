@@ -51,7 +51,7 @@ ul,
 li {
   font-size: var(--step-3);
   font-family: var(--ff-poppins);
-  --flow-space: var(--space-s);
+  --flow-space: var(--space-xs);
 }
 hr {
   background-color: var(--clr-alpha-blue);

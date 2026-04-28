@@ -2,6 +2,7 @@
 {% from "components/page_section.html" import page_section %}
 {% from "components/installation_map.html" import installation_map %}
 {% from "components/slide_gallery.html" import slide_gallery, slide %}
+{% from "components/tick_list.html" import tick_list, tick_list_item %}
 {% from "components/quote_by.html" import quote_by %}
 
 <head>
@@ -19,6 +20,57 @@
       Many independent and society journals have also found a home on the
       platform.
     </p>
+  {%- endcall %}
+  {% call page_section(labelledby="self-hosting", bg="bg-alpha-blue", prose="") -%}
+    <h2 id="self-hosting">Self-hosting</h2>
+    <p>
+      Because it is free and open-source software, you can run Janeway
+      independently if you have the technical resources. Here is what it takes.
+    </p>
+    <h3>Someone on your team who can...</h3>
+    {% call tick_list() -%}
+      {% call tick_list_item() -%}
+        Run a stable, secure, and performant Linux web server with tools like
+        systemd and nginx.
+      {%- endcall %}
+      {% call tick_list_item() -%}
+        Navigate Git repositories to install Janeway versions and plugins.
+      {%- endcall %}
+      {% call tick_list_item() -%}
+        Deploy a Python Django web application.
+      {%- endcall %}
+      {% call tick_list_item() -%}
+        Install and run a PostgreSQL or MySQL database securely.
+      {%- endcall %}
+      {% call tick_list_item() -%}
+        Manage domains and subdomains for the publisher and optionally for each
+        journal.
+      {%- endcall %}
+      {% call tick_list_item() -%}
+        Follow docs to set up integrations for services like email, ORCID, OIDC,
+        Crossref, Datacite, and CAPTCHA.
+      {%- endcall %}
+      {% call tick_list_item() -%}
+        Provide first-line tech support and troubleshooting when users get
+        stuck.
+      {%- endcall %}
+      {% call tick_list_item() -%}
+        Be willing to handle unlikely crises like servers being down or security
+        incidents on evenings and weekends.
+      {%- endcall %}
+    {%- endcall %}
+    <h3>Funding for...</h3>
+    {% call tick_list() -%}
+      {% call tick_list_item() -%}
+        Server compute and storage space
+      {%- endcall %}
+      {% call tick_list_item() -%}
+        Domains
+      {%- endcall %}
+      {% call tick_list_item() -%}
+        Third-party services like DOI deposit
+      {%- endcall %}
+    {%- endcall %}
   {%- endcall %}
   {% call page_section(labelledby="janeway-installations", bg="bg-alpha-black") -%}
     <h2 id="janeway-installations">Where Janeway can be found</h2>
