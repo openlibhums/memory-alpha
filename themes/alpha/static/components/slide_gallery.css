@@ -22,6 +22,17 @@
     overflow-x: scroll;
   }
 
+  /* Hide the scrollbar when there are arrow buttons */
+    @media (width > 50rem) {
+    .scroll-container {
+      scrollbar-width: none; /* Chrome, Edge, Firefox */
+    }
+    .scroll-container::-webkit-scrollbar {
+      display: none;
+    }
+  }
+
+
   .slide-container {
     display: flex;
   }
@@ -50,7 +61,6 @@
   .previous-slide-button svg,
   .next-slide-button svg {
     width: max-content;
-    color: var(--clr-alpha-blue);
     margin-inline: var(--space-xs);
     opacity: 50%;
     max-width: var(--step-5);
@@ -65,9 +75,10 @@
 
   @media (width <= 50rem) {
     .slide:nth-child(even) {
-      --clr-background: var(--clr-alpha-blue);
+      --clr-background: var(--clr-alpha-white);
       background: var(--clr-background);
-      color: var(--clr-alpha-white);
+      --clr-foreground: var(--clr-alpha-black);
+      color: var(--clr-foreground);
     }
     .previous-slide,
     .next-slide {

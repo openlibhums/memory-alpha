@@ -29,19 +29,24 @@
 
 /* Colours */
 .text-alpha-black {
-  color: var(--clr-alpha-black);
+  --clr-foreground: var(--clr-alpha-black);
+  color: var(--clr-foreground);
 }
 .text-alpha-white {
-  color: var(--clr-alpha-white);
+  --clr-foreground: var(--clr-alpha-white);
+  color: var(--clr-foreground);
 }
 .text-alpha-blue {
-  color: var(--clr-alpha-blue);
+  --clr-foreground: var(--clr-alpha-blue);
+  color: var(--clr-foreground);
 }
 .text-alpha-red {
-  color: var(--clr-alpha-red);
+  --clr-foreground: var(--clr-alpha-red);
+  color: var(--clr-foreground);
 }
 .text-alpha-yellow {
-  color: var(--clr-alpha-yellow);
+  --clr-foreground: var(--clr-alpha-yellow);
+  color: var(--clr-foreground);
 }
 .bg-alpha-black {
   --clr-background: var(--clr-alpha-black);
@@ -78,20 +83,28 @@
 .fill-alpha-yellow {
   fill: var(--clr-alpha-yellow);
 }
+.stroke-foreground {
+  stroke: var(--clr-foreground);
+}
 .stroke-alpha-black {
-  stroke: var(--clr-alpha-black);
+  --clr-foreground: --clr-alpha-black;
+  stroke: var(--clr-foreground);
 }
 .stroke-alpha-white {
-  stroke: var(--clr-alpha-white);
+  --clr-foreground: var(--clr-alpha-white);
+  stroke: var(--clr-foreground);
 }
 .stroke-alpha-blue {
-  stroke: var(--clr-alpha-blue);
+  --clr-foreground: var(--clr-alpha-blue);
+  stroke: var(--clr-foreground);
 }
 .stroke-alpha-red {
-  stroke: var(--clr-alpha-red);
+  --clr-foreground: var(--clr-alpha-red);
+  stroke: var(--clr-foreground);
 }
 .stroke-alpha-yellow {
-  stroke: var(--clr-alpha-yellow);
+  --clr-foreground: var(--clr-alpha-yellow);
+  stroke: var(--clr-foreground);
 }
 
 /* Font families */

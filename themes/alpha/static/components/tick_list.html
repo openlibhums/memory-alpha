@@ -6,7 +6,7 @@
 {% endmacro %}
 
 {% macro tick_list(max_columns=3) %}
-  <div class="tick-list flow max-columns-{{ max_columns }}">
+  <div class="tick-list flow max-columns-{{ max_columns }} not-prose">
     <ul class="flow">
       {{ caller() }}
     </ul>
