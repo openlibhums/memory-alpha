@@ -95,10 +95,10 @@
     ul {
       width: 100%;
       flex-direction: column;
+      gap: 0;
 
       li {
         border-bottom: 1px solid var(--clr-alpha-white);
-        padding-block-end: var(--space-xs);
       }
 
       a {
@@ -107,6 +107,7 @@
         font-family: var(--ff-poppins-medium);
         font-weight: normal;
         transition: font-weight 0.2s ease-out;
+        display: block;
 
         &:hover {
           font-weight: 950;
