@@ -82,6 +82,7 @@ LEFT_NAV_ITEMS = [
     ('Our story', '/pages/our-story.html', ""),
     # ('Explore', '#', ''), Not in scope for MVP
     ('Hosting', '/pages/hosting.html', ""),
+    ('Support', '/pages/support.html', ""),
     # ('People', '#', ''), Not in scope for MVP
 ]
 RIGHT_NAV_ITEMS = [

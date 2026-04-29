@@ -1,0 +1,69 @@
+{% from "components/page_h1.html" import page_h1 %}
+{% from "components/page_section.html" import page_section %}
+{% from "components/page_section_group.html" import page_section_group %}
+
+<head>
+  <title>Support</title>
+</head>
+<body>
+  {% call page_h1() %}
+    Support
+  {%- endcall %}
+  {% call page_section(labelledby="work-in-progress", bg="bg-alpha-blue") %}
+    <h2 id="work-in-progress">Work in progress</h2>
+    <p>
+      We are working hard to build a new support website. While you wait, this
+      page points to our pre-existing documentation and support resources.
+    </p>
+  {%- endcall %}
+  {% call page_section_group() %}
+    {%
+      call page_section(
+        labelledby="live-support",
+        bg="bg-alpha-white",
+        layout="layout-left",
+      )
+    %}
+      <h2 id="live-support">Live support</h2>
+      <p>
+        If we manage your Janeway installation, you can open tickets on our
+        helpdesk, and you can check on your server with our uptime tracker.
+      </p>
+      <ul>
+        <li>
+          <a href="https://janeway.freshdesk.com/" target="_blank">Helpdesk</a>
+        </li>
+        <li>
+          <a href="https://uptime.janeway.systems/" target="_blank"
+            >Uptime tracker</a
+          >
+        </li>
+      </ul>
+    {%- endcall %}
+    {%
+      call page_section(
+        labelledby="community-resources",
+        bg="bg-alpha-white",
+        layout="layout-right",
+        same_bg="same-bg",
+      )
+    %}
+      <h2 id="hosted-installs">Community resources</h2>
+      <p>
+        Our legacy documentation provides both end-user guides and
+        developer-tailored information about running Janeway. And everyone is
+        welcome on our Discord server.
+      </p>
+      <ul>
+        <li>
+          <a href="https://janeway.readthedocs.io/en/latest/" target="_blank"
+            >Docs</a
+          >
+        </li>
+        <li>
+          <a href="https://discord.gg/gBbSGec7Ft" target="_blank">Discord</a>
+        </li>
+      </ul>
+    {%- endcall %}
+  {%- endcall %}
+</body>

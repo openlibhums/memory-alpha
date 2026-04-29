@@ -61,4 +61,9 @@
       margin-inline: calc(0rem - 50vw + 50%);
     }
   }
+  @media (width <= 50rem) {
+    &.same-bg .frame {
+      padding-block-start: 0;
+    }
+  }
 }
