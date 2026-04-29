@@ -1,0 +1,55 @@
+.dot-carousel {
+  position: relative;
+  margin-inline: auto;
+
+  button {
+    --clr-background: inherit;
+    background: var(--clr-background);
+    border: none;
+    padding-inline: 0;
+    cursor: pointer;
+  }
+
+  .item-container {
+    display: flex;
+  }
+  [role="tabpanel"] {
+    display: none;
+  }
+  [role="tabpanel"].selected {
+    display: block;
+  }
+  .chip {
+    color: var(--clr-alpha-white);
+    --clr-background: var(--clr-alpha-red);
+    background: var(--clr-background);
+    max-width: max-content;
+    padding-block: 0.5rem;
+    padding-inline: var(--space-xs);
+    font-size: var(--step-2);
+    border-radius: 5rem;
+  }
+  [role="tablist"] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: var(--space-s);
+    --flow-space: var(--space-m);
+  }
+  [role="tab"] {
+    --focus-ring-color-inner: var(--clr-alpha-blue);
+  }
+  [role="tab"] .circle {
+    width: 1.3rem;
+    height: 1.3rem;
+    margin: var(--space-s);
+    --clr-background: var(--clr-alpha-blue);
+    background: var(--clr-background);
+    border-radius: 50%;
+    opacity: 50%;
+  }
+  [role="tab"]:hover .circle,
+  [role="tab"][aria-selected="true"] .circle {
+    opacity: 100%;
+  }
+}

@@ -4,8 +4,7 @@
 {% from "components/prose_columns.html" import prose_columns, column %}
 {% from "components/button.html" import button %}
 {% from "components/page_section_header.html" import page_section_header_wrapper, page_section_header, page_section_intro_text %}
-{% from "components/slide_gallery.html" import slide_gallery, slide, slide_h3 %}
-{% from "components/sr_only_h2.html" import sr_only_h2 %}
+{% from "components/dot_carousel.html" import dot_carousel, carousel_item, carousel_h3 %}
 
 <head>
   <title>Our story</title>
@@ -97,19 +96,15 @@
       {% endcall %}
     </div>
   {% endcall %}
-  {% call sr_only_h2(id="timeline-wheel-h2") -%}
-    Timeline
-  {%- endcall %}
   {% call page_section(bg="bg-alpha-blue", prose="", labelledby="timeline-wheel-h2") %}
+    <h2 id="timeline-wheel-h2" class="sr-only">Timeline</h2>
     {% include "components/timeline_wheel.html" %}
   {% endcall %}
-  {% call sr_only_h2(id="slide-gallery-h2") -%}
-    Janeway Axioms
-  {%- endcall %}
-  {% call page_section(bg="bg-alpha-white", labelledby="slide-gallery-h2", layout="layout-full-small", prose="") %}
-    {% call slide_gallery(num_slides=5) -%}
-      {% call slide(num=1, label="Axiom") -%}
-        {% call slide_h3() -%}
+  {% call page_section(bg="bg-alpha-white", labelledby="janeway-axioms") %}
+    <h2 id="janeway-axioms" class="sr-only">Janeway axioms</h2>
+    {% call dot_carousel(num_items=5, id_prefix="axiom") -%}
+      {% call carousel_item(num=1, label="Axiom", id_prefix="axiom") -%}
+        {% call carousel_h3() -%}
           Never accept paywalls.
         {%- endcall %}
         <p>
@@ -117,8 +112,8 @@
           promise never to write paywall features into Janeway.
         </p>
       {%- endcall %}
-      {% call slide(num=2, label="Axiom") -%}
-        {% call slide_h3() -%}
+      {% call carousel_item(num=2, label="Axiom", id_prefix="axiom") -%}
+        {% call carousel_h3() -%}
           Changes must be open.
         {%- endcall %}
         <p>
@@ -127,8 +122,8 @@
           the codebase.
         </p>
       {%- endcall %}
-      {% call slide(num=3, label="Axiom") -%}
-        {% call slide_h3() -%}
+      {% call carousel_item(num=3, label="Axiom", id_prefix="axiom") -%}
+        {% call carousel_h3() -%}
           Drink your own beer.
         {%- endcall %}
         <p>
@@ -137,8 +132,8 @@
           problems to solve.
         </p>
       {%- endcall %}
-      {% call slide(num=4, label="Axiom") -%}
-        {% call slide_h3() -%}
+      {% call carousel_item(num=4, label="Axiom", id_prefix="axiom") -%}
+        {% call carousel_h3() -%}
           Learn from sci-fi and pop culture.
         {%- endcall %}
         <p>
@@ -146,8 +141,8 @@
           through interface design, business principles or work practices.
         </p>
       {%- endcall %}
-      {% call slide(num=5, label="Axiom") -%}
-        {% call slide_h3() -%}
+      {% call carousel_item(num=5, label="Axiom", id_prefix="axiom") -%}
+        {% call carousel_h3() -%}
           Design for humans.
         {%- endcall %}
         <p>
