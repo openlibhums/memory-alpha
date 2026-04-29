@@ -12,24 +12,11 @@
                      multiple slide galleries on the same page;
                      must match slide_gallery's id_prefix
   #}
-  <div id="{{ id_prefix }}-slide-{{ num }}" class="slide" data-current-slide>
+  <li id="{{ id_prefix }}-slide-{{ num }}" class="slide" data-slide>
     <div class="slide-content prose flow">
-      {% if label %}
-        <div class="label-wrapper">
-          <div
-            tabindex="0"
-            aria-label="Slide {{ num }}"
-            data-slide-label
-            class="label uppercase ff-space-mono-bold"
-          >
-            {{ label }}
-            {{ num }}
-          </div>
-        </div>
-      {% endif %}
       <div class="body flow">{{ caller() }}</div>
     </div>
-  </div>
+  </li>
 {%- endmacro %}
 
 {% macro slide_gallery(num_slides=0, id_prefix="gallery") -%}
@@ -50,8 +37,12 @@
           {% include "svg/arrow-slender-left.svg" %}
         </button>
       </div>
-      <div class="scroll-container" data-scroll-container tabindex="-1">
-        <div class="slide-container">{{ caller() }}</div>
+      {# Set tabindex explicitly to catch the focus-visible styling in
+      elements.css #}
+      <div class="scroll-container" data-scroll-container tabindex="0">
+        <ul class="slide-container" role="list">
+          {{ caller() }}
+        </ul>
       </div>
       <div class="next-slide">
         <button
@@ -63,23 +54,5 @@
         </button>
       </div>
     </div>
-    <nav class="slide-nav" aria-label="Gallery navigation">
-      <ul class="slide-nav-tablist" role="list">
-        {% for num in range(1, num_slides + 1) %}
-          {% set aria_controls = id_prefix ~ '-slide-' ~ num %}
-          <li>
-            <button
-              class="tablist-button"
-              aria-controls="{{ aria_controls }}"
-              data-target="{{ aria_controls }}"
-              aria-label="Scroll to gallery slide {{ num }}"
-              data-tablist-button
-            >
-              <div class="circle"></div>
-            </button>
-          </li>
-        {% endfor %}
-      </ul>
-    </nav>
   </div>
 {%- endmacro %}
