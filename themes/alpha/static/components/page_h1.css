@@ -6,5 +6,10 @@
   }
   .h1-text::after {
     content: "_" / "";
+    animation-duration: 600ms;
+    animation-timing-function: steps(2, jump-none);
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-name: blink;
   }
 }

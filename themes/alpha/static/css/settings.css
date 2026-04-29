@@ -93,3 +93,13 @@
   --container-padding-small: 1rem;
   --container-padding-large: 2rem;
 }
+
+/* Common animation keyframes */
+@keyframes blink {
+  0% {
+    opacity: 100%;
+  }
+  100% {
+    opacity: 0%;
+  }
+}
