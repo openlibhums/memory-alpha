@@ -23,6 +23,7 @@
 @import "../components/journal_cover_grid.css" layer(components);
 @import "../components/laser_link.css" layer(components);
 @import "../components/link_list.css" layer(components);
+@import "../components/loud_heading.css" layer(components);
 @import "../components/main_nav.css" layer(components);
 @import "../components/new_way_slogan.css" layer(components);
 @import "../components/page_h1.css" layer(components);

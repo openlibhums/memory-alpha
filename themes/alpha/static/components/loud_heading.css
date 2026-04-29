@@ -1,0 +1,28 @@
+.loud-heading {
+  height: 100%;
+  display: grid;
+  place-content: center;
+  padding-block: var(--space-m);
+  .alpha-icon {
+    width: calc(2 * var(--space-xl));
+    height: unset;
+  }
+  .heading-frame {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-l);
+    align-items: start;
+  }
+  .text {
+    padding: var(--space-s);
+    color: var(--clr-alpha-blue);
+    --clr-background: var(--clr-alpha-white);
+    background: var(--clr-background);
+    margin-left: var(--space-3xl);
+    font-size: var(--step-7);
+    font-family: var(--ff-mono-regular);
+    line-height: 1.1;
+    text-align: center;
+    max-width: var(--max-char-width);
+  }
+}
