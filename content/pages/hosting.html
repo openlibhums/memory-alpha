@@ -1,6 +1,7 @@
+{% from "components/installation_map.html" import installation_map %}
 {% from "components/page_h1.html" import page_h1 %}
 {% from "components/page_section.html" import page_section %}
-{% from "components/installation_map.html" import installation_map %}
+{% from "components/page_section_group.html" import page_section_group %}
 {% from "components/slide_gallery.html" import slide_gallery, slide %}
 {% from "components/tick_list.html" import tick_list, tick_list_item %}
 {% from "components/quote_by.html" import quote_by %}
@@ -58,7 +59,7 @@
       {%- endcall %}
     {%- endcall %}
     <h3>Funding for...</h3>
-    {% call tick_list() -%}
+    {% call tick_list(max_columns=1) -%}
       {% call tick_list_item() -%}
         Server compute and storage space
       {%- endcall %}
@@ -83,6 +84,125 @@
       {{ installation_map(svg_path="svg/north_america_map.svg", continent="North America") }}
       {# {{ installation_map(svg_path="svg/australia_map.svg", continent="Oceania") }} #}
     </div>
+  {%- endcall %}
+  {% call page_section_group() %}
+    {%
+      call page_section(
+      labelledby="hosted-services",
+      bg="bg-alpha-white",
+      layout="layout-left"
+      )
+    -%}
+      <h2 id="hosted-services">Hosted services</h2>
+      <p>
+        By signing up for paid hosting, you get everything you need to run
+        Janeway and support others using it, from content migration to technical
+        provision to ongoing support.
+      </p>
+      {% call tick_list(max_columns=1) %}
+        {% call tick_list_item() %}
+          Your own Janeway instance
+        {% endcall %}
+        {% call tick_list_item() %}
+          A website for each journal or repository
+        {% endcall %}
+        {% call tick_list_item() %}
+          A website for the publisher
+        {% endcall %}
+        {% call tick_list_item() %}
+          Regular patches and upgrades
+        {% endcall %}
+        {% call tick_list_item() %}
+          Domain registration and management
+        {% endcall %}
+        {% call tick_list_item() %}
+          Recorded training sessions
+        {% endcall %}
+        {% call tick_list_item() %}
+          Unlimited data storage
+        {% endcall %}
+        {% call tick_list_item() %}
+          Data backup and recovery
+        {% endcall %}
+        {% call tick_list_item() %}
+          Unlimited user accounts
+        {% endcall %}
+        {% call tick_list_item() %}
+          Unlimited articles
+        {% endcall %}
+        {% call tick_list_item() %}
+          Live support via email and Discord
+        {% endcall %}
+        {% call tick_list_item() %}
+          Basic theme customization
+        {% endcall %}
+        {% call tick_list_item() %}
+          Plugin installation and support
+        {% endcall %}
+        {% call tick_list_item() %}
+          Access to test journals and repositories
+        {% endcall %}
+        {% call tick_list_item() %}
+          Management of DOI registration on your Crossref or Datacite account
+        {% endcall %}
+        {% call tick_list_item() %}
+          Indexing and discovery workflow management
+        {% endcall %}
+      {% endcall %}
+    {%- endcall %}
+    {%
+      call page_section(
+      labelledby="pricing",
+      bg="bg-alpha-blue",
+      layout="layout-right"
+      )
+    -%}
+      {% set migration_fee_min = 300 %}
+      {% set migration_fee_max = 2500 %}
+      {% set journal_fee = 1200 %}
+      {% set six_ten_discount = 0.75 %}
+      {% set eleven_up_discount = 0.65 %}
+      {% set repository_fee = 1100 %}
+      <h2 id="pricing">Pricing</h2>
+      <p>
+        Our pricing varies to fit your needs. All prices here are in GBP and
+        exclude VAT.
+      </p>
+      <h3>Annual fees and bulk discounts</h3>
+      <p>
+        Our annual fee per journal is £{{ journal_fee|round|int }} for the first
+        5 journals, then £{{ (journal_fee * six_ten_discount)|round|int }} for
+        journals 6-10, and then
+        £{{ (journal_fee * eleven_up_discount)|round|int }} for journals 11 and
+        up.
+      </p>
+      <p>
+        The standard annual fee per repository is
+        £{{ repository_fee|round|int }}.
+      </p>
+      <h3>One-time costs</h3>
+      <p>
+        Content migration costs vary from £{{ migration_fee_min }} for a single
+        journal to £{{ migration_fee_max }} for a large press.
+      </p>
+      <p>
+        We sometimes have capacity to adapt Janeway to special workflows or
+        integrations. This custom development work is priced by the project.
+      </p>
+      <h3>Editorial and production services</h3>
+      <p>
+        If you want to publish JATS XML or professionally typeset PDFs, we can
+        recommend a trusted vendor to provide encoding and typesetting.
+      </p>
+      <p>
+        We can also make recommendations for copyediting and managing editor
+        services.
+      </p>
+      <p>
+        They can work within your Janeway installation using the editor,
+        copyeditor or typesetter role.
+      </p>
+    {%- endcall %}
   {%- endcall %}
   {% call page_section(bg="bg-alpha-white", labelledby="client-quotes", layout="layout-full-small", prose="") %}
     <h2 id="client-quotes" class="sr-only">Client quotes</h2>
