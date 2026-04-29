@@ -1,0 +1,60 @@
+{% macro carousel_h3() -%}
+  {# A carousel heading. Call inside carousel. #}
+  <h3 class="ff-space-mono-regular fs-5">{{ caller() }}</h3>
+{%- endmacro %}
+
+{% macro carousel_item(num=None, label="", id_prefix="carousel") -%}
+  {# One item in the carousel carousel. Call inside carousel at the root level.
+    num: int - the item number, starting at 1 (required)
+    label: str - an optional label for the type of item, like
+                 "axiom" or "step" or "quote" (optional), which is also used in ids,
+    id_prefix: str - an optional string for keeping ids unique when you have
+                     multiple carousels on the same page;
+                     must match carousel's id_prefix
+  #}
+  <div
+    id="{{ id_prefix }}-carousel-{{ num }}"
+    role="tabpanel"
+    class="{% if num == 1 %}selected{% endif %} flow"
+    {% if num == 1 %}tabindex="0"{% else %}tabindex="-1"{% endif %}
+    aria-labelledby="{{ id_prefix }}-carousel-label-{{ num }}"
+  >
+    {% if label or num %}
+      <div class="chip uppercase ff-space-mono-bold">
+        {% if label %}
+          {{ label }}
+        {% endif %}
+        {% if num %}
+          {{ num }}
+        {% endif %}
+      </div>
+    {% endif %}
+    {{ caller() }}
+  </div>
+{%- endmacro %}
+
+{% macro dot_carousel(num_items=0, id_prefix="carousel") -%}
+  {# A sliding carousel for browsing a set of 3-5 parallel items.
+    num_items: str - the number of items, for creating the nav
+    id_prefix: str - an optional string for keeping ids unique when you have
+                     multiple carousels on the same page;
+                     must match each child items's id_prefix
+  #}
+  <div class="dot-carousel flow" data-dot-carousel>
+    <div class="carousel-container">{{ caller() }}</div>
+    <div role="tablist" aria-label="Carousel">
+      {% for num in range(1, num_items + 1) %}
+        {% set aria_controls = id_prefix ~ '-carousel-' ~ num %}
+        <button
+          role="tab"
+          aria-controls="{{ aria_controls }}"
+          aria-selected="{% if num == 1 %}true{% else %}false{% endif %}"
+          aria-label="{{ num }}"
+          {% if num == 1 %}tabindex="0"{% else %}tabindex="-1"{% endif %}
+        >
+          <div class="circle"></div>
+        </button>
+      {% endfor %}
+    </div>
+  </div>
+{%- endmacro %}

@@ -11,7 +11,7 @@
 }
 
 /* Add spacing flexibly between elements (source 3) */
-.flow > *:where(:not(:first-child)) {
+.flow > *:where(:not(:first-child):not(.sr-only + *)) {
   margin-block-start: var(--flow-space, 1rem);
 }
 /* Optionally flow the first child as well */
