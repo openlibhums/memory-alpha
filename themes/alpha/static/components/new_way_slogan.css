@@ -22,6 +22,15 @@
     background: var(--clr-background);
     border-radius: var(--step-3);
   }
+  h2::after {
+    content: "_" / "";
+    animation-duration: 600ms;
+    animation-timing-function: steps(2, jump-none);
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-name: blink;
+  }
+
 }
 @media (width <= 50rem) {
   .large-screen-slogan .new-way-slogan {

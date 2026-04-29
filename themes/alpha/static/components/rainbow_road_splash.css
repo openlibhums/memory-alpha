@@ -2,6 +2,7 @@
   --swoosh-vertical-offset: calc(-1 * var(--space-3xl));
   position: relative;
   width: 100%;
+
   .blue-circle.right {
     width: 8rem;
     height: 8rem;
