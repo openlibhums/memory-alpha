@@ -86,6 +86,7 @@ LEFT_NAV_ITEMS = [
 ]
 RIGHT_NAV_ITEMS = [
     # ('Book a Demo', '#', '') Not in scope for MVP
+    ('Symposium', 'https://thelowerdecks.janeway.systems/', "_blank"),
     # ('Support', '/support/under-construction.html', "_blank"),
     ('Source code', 'https://github.com/openlibhums/janeway', "_blank"),
 ]

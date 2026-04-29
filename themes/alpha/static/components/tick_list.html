@@ -5,8 +5,8 @@
   </li>
 {% endmacro %}
 
-{% macro tick_list() %}
-  <div class="tick-list flow">
+{% macro tick_list(max_columns=3) %}
+  <div class="tick-list flow max-columns-{{ max_columns }}">
     <ul class="flow">
       {{ caller() }}
     </ul>
