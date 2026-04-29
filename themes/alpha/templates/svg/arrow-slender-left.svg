@@ -6,7 +6,7 @@
 >
   <defs>
     <style>
-      .cls-1 {
+      .arrow-slender-left {
         fill: none;
         stroke-miterlimit: 10;
         stroke-width: 4px;
@@ -15,8 +15,7 @@
   </defs>
   <g>
     <polyline
-      stroke="currentColor"
-      class="cls-1"
+      class="arrow-slender-left stroke-foreground"
       points="49.82 95.39 2.83 48.4 49.81 1.41"
     />
   </g>

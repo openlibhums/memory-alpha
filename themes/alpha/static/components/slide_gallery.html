@@ -1,9 +1,11 @@
+{% from "utils.html" import best_foreground %}
+
 {% macro slide_h3() -%}
   {# A slide heading. Call inside slide. #}
   <h3 class="ff-space-mono-regular fs-5">{{ caller() }}</h3>
 {%- endmacro %}
 
-{% macro slide(num=1, label="", id_prefix="gallery") -%}
+{% macro slide(num=1, label="", id_prefix="gallery", bg="bg-alpha-white") -%}
   {# One slide in the slide gallery. Call inside slide_gallery at the root level.
     num: int - the slide number, starting at 1 (required)
     label: str - an optional label for the type of thing on the slide, like
@@ -31,7 +33,7 @@
       <div class="previous-slide">
         <button
           aria-label="Scroll to previous gallery slide"
-          class="previous-slide-button"
+          class="previous-slide-button {{ best_foreground(bg) }}"
           data-previous-button
         >
           {% include "svg/arrow-slender-left.svg" %}
@@ -47,7 +49,7 @@
       <div class="next-slide">
         <button
           aria-label="Scroll to next gallery slide"
-          class="next-slide-button"
+          class="next-slide-button {{ best_foreground(bg) }}"
           data-next-button
         >
           {% include "svg/arrow-slender-right.svg" %}

@@ -22,7 +22,7 @@
       platform.
     </p>
   {%- endcall %}
-  {% call page_section(labelledby="self-hosting", bg="bg-alpha-blue", prose="") -%}
+  {% call page_section(labelledby="self-hosting", bg="bg-alpha-blue") -%}
     <h2 id="self-hosting">Self-hosting</h2>
     <p>
       Janeway is free and open-source, and many institutions run it themselves.
@@ -204,11 +204,18 @@
       </p>
     {%- endcall %}
   {%- endcall %}
-  {% call page_section(bg="bg-alpha-white", labelledby="client-quotes", layout="layout-full-small", prose="") %}
+  {%
+    call page_section(
+      bg="bg-alpha-black",
+      labelledby="client-quotes",
+      layout="layout-full-small",
+      prose="",
+    )
+  %}
     <h2 id="client-quotes" class="sr-only">Client quotes</h2>
     {% call slide_gallery(num_slides=3) -%}
-      {% call slide(num=1) -%}
-        <blockquote class="fs-3 ff-space-mono-regular">
+      {% call slide(num=1, bg="bg-alpha-black") -%}
+        <blockquote class="fs-4 ff-space-mono-regular">
           "The first thing to know about Janeway is that it is not just a
           submission system and platform. It is a complete publishing tool that
           allows the editors to basically operate as . . . a publisher. That
@@ -222,8 +229,8 @@
           </p>
         {%- endcall %}
       {%- endcall %}
-      {% call slide(num=2) -%}
-        <blockquote class="fs-3 ff-space-mono-regular">
+      {% call slide(num=2, bg="bg-alpha-black") -%}
+        <blockquote class="fs-4 ff-space-mono-regular">
           "Often scaling means asking people to do more repetitive tasks which
           are not intellectually engaging. Using Janeway has allowed us to scale
           but not at the expense of our people. It has made our team’s jobs
@@ -236,8 +243,8 @@
           </p>
         {%- endcall %}
       {%- endcall %}
-      {% call slide(num=3) -%}
-        <blockquote class="fs-3 ff-space-mono-regular">
+      {% call slide(num=3, bg="bg-alpha-black") -%}
+        <blockquote class="fs-4 ff-space-mono-regular">
           "Janeway is the most intuitive platform I have seen in terms of user
           experience, and it was the only platform to offer all the features we
           were keen to have. The team behind Janeway were a pleasure to work

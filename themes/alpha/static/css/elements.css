@@ -7,7 +7,7 @@ main {
   z-index: 5;
 }
 body {
-  color: var(--clr-alpha-white);
+  color: var(--clr-foreground);
   background: var(--clr-background);
   font-family: var(--ff-poppins-regular);
   overflow-x: hidden;
@@ -99,12 +99,10 @@ object,
       );
       box-shadow:
         0 0 0 var(--focus-ring-distance) var(--focus-ring-color-background),
-        0 0 0 calc(var(--focus-ring-distance) * 2)
-          var(--focus-ring-color-inner),
+        0 0 0 calc(var(--focus-ring-distance) * 2) var(--focus-ring-color-inner),
         0 0 0 calc(var(--focus-ring-distance) * 3)
           var(--focus-ring-color-background),
-        0 0 0 calc(var(--focus-ring-distance) * 4)
-          var(--focus-ring-color-outer);
+        0 0 0 calc(var(--focus-ring-distance) * 4) var(--focus-ring-color-outer);
       outline: none;
     }
   }

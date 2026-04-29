@@ -30,7 +30,6 @@
     animation-direction: alternate;
     animation-name: blink;
   }
-
 }
 @media (width <= 50rem) {
   .large-screen-slogan .new-way-slogan {
