@@ -1,0 +1,14 @@
+{% macro loud_heading(icon_path, heading_id, max_char_width=10) -%}
+  <div class="loud-heading">
+    <div class="heading-frame">
+      {% include icon_path %}
+      <h2
+        id="{{ heading_id }}"
+        class="text"
+        style="--max-char-width: {{ max_char_width }}ch;"
+      >
+        {{ caller() }}
+      </h2>
+    </div>
+  </div>
+{%- endmacro %}
