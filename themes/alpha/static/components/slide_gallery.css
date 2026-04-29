@@ -23,7 +23,7 @@
   }
 
   /* Hide the scrollbar when there are arrow buttons */
-    @media (width > 50rem) {
+  @media (width > 50rem) {
     .scroll-container {
       scrollbar-width: none; /* Chrome, Edge, Firefox */
     }
@@ -31,7 +31,6 @@
       display: none;
     }
   }
-
 
   .slide-container {
     display: flex;
