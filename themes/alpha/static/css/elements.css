@@ -54,6 +54,25 @@ hr {
   --flow-space: var(--space-m);
 }
 
+table {
+  border-collapse: collapse;
+  width: 100%;
+  --flow-space: var(--space-m);
+}
+table,
+td,
+th {
+  border: 1px solid var(--clr-alpha-white);
+}
+td,
+th {
+  padding: var(--space-xs) var(--space-s);
+  text-align: left;
+}
+th {
+  font-family: var(--ff-poppins-bold);
+}
+
 /*
  * Default backgrounds and focus states
  * See https://piccalil.li/blog/taking-a-shot-at-the-double-focus-ring-problem-using-modern-css/
