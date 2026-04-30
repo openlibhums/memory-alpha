@@ -18,6 +18,7 @@
   .swoosh svg {
     display: block;
     min-width: 40rem;
+    width: 100%;
     translate: 0 var(--swoosh-vertical-offset);
   }
   .logo {

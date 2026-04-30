@@ -10,13 +10,20 @@
   }
 }
 
-/* Add spacing flexibly between elements (source 3) */
-.flow > *:where(:not(:first-child):not(.sr-only + *)) {
+/* Add spacing flexibly between elements */
+.flow > *:where(:not(:first-child):not(.sr-only + *):not(li)) {
   margin-block-start: var(--flow-space, 1rem);
 }
 /* Optionally flow the first child as well */
-.flow-first-child > *:where(:first-child) {
+.flow-first-child > *:where(:first-child:not(li)) {
   margin-block-start: var(--flow-space, 1rem);
+}
+/* Apply flow spacing on lists using a pseudo-element hack because
+ * of a Safari bug that happens when using `columns` on `ul` elements */
+.flow > li:not(:last-child)::after {
+  content: "";
+  display: block;
+  height: var(--flow-space, 1rem);
 }
 
 /* Prose text */
