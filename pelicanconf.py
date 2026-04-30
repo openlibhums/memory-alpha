@@ -4,8 +4,8 @@ import logging
 
 
 AUTHOR = 'Open Library of Humanities'
-SITENAME = 'Janeway Systems'
-SITEURL = ""
+SITENAME = 'Janeway'
+SITEURL = "https://janeway.systems"
 
 PATH = "content"
 
