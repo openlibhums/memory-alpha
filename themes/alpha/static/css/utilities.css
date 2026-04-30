@@ -115,9 +115,6 @@
 }
 
 /* Font families */
-.ff-poppins {
-  font-family: var(--ff-poppins);
-}
 .ff-poppins-medium {
   font-family: var(--ff-poppins-medium);
 }
