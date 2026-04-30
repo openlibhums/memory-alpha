@@ -1,0 +1,26 @@
+<meta property="og:title" content="{{ SITENAME|striptags }}" />
+<meta name="twitter:title" content="{{ SITENAME|striptags }}" />
+
+{% set meta_description -%}
+  A platform for digital publishing that helps you manage manuscript
+  submissions, including review, copyediting, typesetting and publication.
+{%- endset %}
+<meta name="description" content="{{ meta_description }}" />
+<meta property="og:description" content="{{ meta_description }}" />
+<meta name="twitter:description" content="{{ meta_description }}" />
+
+{% set meta_image = "theme/images/rainbow-road-1200-630.png" %}
+<meta
+  property="og:image"
+  content="{{ SITEURL }}{{ static }}/{{ meta_image }}"
+/>
+<meta
+  property="og:image:alt"
+  content="An abstract brand image with bands of muted colors stretching up and out into a dark expanse"
+/>
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta
+  name="twitter:image"
+  content="{{ SITEURL }}{{ static }}/{{ meta_image }}"
+/>
