@@ -1,15 +1,15 @@
 title: Displaying Custom Accessibility Information
 # Displaying Custom Accessibility Information
 ## Introduction
-Janeway 1.9 introduced an Accessibility page linked from the footer. 
+Janeway 1.9 introduced an **Accessibility** page linked from the footer. 
 By default, this only shows the platform accessibility information, 
-however there are settings to include custom press and/or journal specific 
-information. Journal information can only be displayed if a setting to allow that is switched on at Press level. 
+however, there are settings to include custom press and/or journal specific 
+information. Journal information can only be displayed if the setting **Allow journal accessibility information** is switched on at the **Press**.  It is off by default. 
 
 ## Enter press accessibility information
 Press accessibility information may be entered in through the **Press manager** under **Edit press details**. There is a section for **Accessibility**, within which there is a rich-text area for **Press accessibility Information**. 
 
-Press manager | Edit press details | Accessibility | Press accessibiilty information
+Press manager | Edit press details | Accessibility | Press accessibility information
 
 ![Screenshot: Press accessibility custom information field](../images/a11y-press-custom-info.png)
 
