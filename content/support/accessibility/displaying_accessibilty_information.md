@@ -1,5 +1,5 @@
-title: Displaying Custom Accessibility Information
-# Displaying Custom Accessibility Information
+title: Displaying custom accessibility information
+# Displaying custom accessibility information
 ## Introduction
 Janeway 1.9 introduced an **Accessibility** page linked from the footer. 
 By default, this only shows the platform accessibility information, 
