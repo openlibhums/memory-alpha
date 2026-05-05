@@ -94,7 +94,7 @@ RIGHT_NAV_ITEMS = [
 FOOTER_LINKS = [
     ('Accessibility', '/pages/accessibility-of-this-website.html', ""),
     ('Copyright', "/pages/copyright-and-licensing.html", ""),
-    ('Open Library of Humanities', "https://www.openlibhums.org.html", "_blank"),
+    ('Open Library of Humanities', "https://www.openlibhums.org", "_blank"),
 
 ]
 ALL_PAGES =  [
