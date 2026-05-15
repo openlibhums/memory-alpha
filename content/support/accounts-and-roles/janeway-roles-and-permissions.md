@@ -3,9 +3,9 @@ title: Roles and permissions on Janeway
 
 This page explains the different roles available in Janeway and how permissions are managed.
 
-Role VS permissions
+<!-- Role VS permissions
 
-<!--Needs some further work, checks and dev input on a few bits. Need to check out the granular permissions still.-->
+Needs some further work, checks and dev input on a few bits. Need to check out the granular permissions still.-->
 
 ## Janeway roles
 
@@ -34,7 +34,7 @@ Janeway has a variety of roles available that can be assigned to users, some of 
 
 In addition to the roles and their respective permissions, separate permission levels can be assigned for certain settings for journal managers and editors. Editors also have specific permissions associated with their roles.
 
-### Editor permission 
+### Editor permission
 
 Editors can:
 - Manage roles within their journal.

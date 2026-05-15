@@ -1,12 +1,14 @@
 title: Articles
 # Articles
 
+*To be edited*
+
 Once an article is published, you may need to change it, e.g., upload a new galley or tweak the metadata if there is an error.
 
 All published articles can be found on the Articles page under Back Content. The Article back content page lists both published and rejected papers. You can search and then select an article to edit.
 
 > [!TIP]
-> You can also edit papers by going to their page and using the account drop-down to select **Edit Article**.
+> You can also edit papers by going to their page and using the account drop-down to select **Edit article**.
 
 <!-- ![Top of the article archive page](../nstatic/article-archive.png) -->
 

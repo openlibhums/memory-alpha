@@ -15,7 +15,7 @@ You can view unpublished preprints, preprint stats and published preprints.
 ### Preprint stats
 
 - High-level stats overview
-- From here you can navigate to rejected, versions awaiting moderation, orphaned preprints, manage reviewers.
+- From here you can navigate to rejected preprints, versions awaiting moderation, orphaned preprints, and the reviewer management page.
 
 ## Getting started
 The first step is to enable the repository system in the press-level
@@ -25,12 +25,16 @@ settings:
 2.  Open **Edit press details**.
 3.  Tick the **Enable repository system** box and click **Save**.
 4. Return to the **Press manager**.
-5. The option to **Add a new repository** will have appeared below the list of journals on the press, click this.
+5. The **Add a new repository** option appears below the list of journals.
+   Click it.  
 ![" "](../images/repositories/repos-add-new.png)
-6. This will open the repository set-up wizard. See Repository settings for more information <!-- missing hyperlink>.
+6. This opens the repository set-up wizard. See Repository settings for more information <!-- missing hyperlink>.
 
 ## Other settings
 
 Licenses, additional fields, subjects.
+*Coming soon*
 
 ## Linking a repository and journal
+
+*Coming soon*

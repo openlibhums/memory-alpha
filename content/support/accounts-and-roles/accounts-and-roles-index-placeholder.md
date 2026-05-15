@@ -21,4 +21,4 @@ Janeway supports single sign-on (SSO), allowing users to log in using their inst
 
 SSO must be configured by your system administrator. If you are interested in enabling SSO for your journal or press, contact your system administrator for further information.
 
--Dev help needed
+<!-- -Dev help needed -->

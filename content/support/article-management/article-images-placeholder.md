@@ -26,5 +26,3 @@ Articles have three images that are used for display:
 The article images manager is an interface for editing all of the images for a given article.
 
 See also: image guidelines <!-- missing hyperlink -->
-
-

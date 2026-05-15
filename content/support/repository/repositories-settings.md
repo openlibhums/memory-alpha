@@ -2,37 +2,39 @@ title: Repository settings
 
 # Repository settings
 
-This opens up the repo wizard, which is used for both configurring a new repository or editing the settings of an existing repository.
+Clicking**Repository settings** opens the repository setup wizard, which is used for both configuring a new repository and editing the settings of an existing one.
 
-5 steps:
-1. Repository details 1
-    Key repo details such as the name, custom domain, name of the objects in the repo (e.g. "article" or "preprint) etc. Helptext available on page.
+The wizard has five steps:
+1. **Repository details 1**
+    Key repository details, such as the name, custom domain, and the name of the objects in the repository (for example, "article" or "preprint"). Help text is available on the page.
 
-2. Repository details 2
-    More detailed information. Repo description and images, review guidance text information for users.
+2. **Repository details 2**
+    Provides more detailed repository information, including the repository description and images, and review guidance for users.
 
-3. Submission details
-    Text shown to users on the submission page and settings related to review; 
+3. **Submission details**
+    Text shown to users on the submission page, and settings related to review.
 
-4. Email templates
-    Displays the email templates available on the repository. For more information on editing email templates and email template variables. <!-- do we have a full list of repo email template vars? --> see, Email templates <!-- missing hyperlink>.
+4. **Email templates**
+    Displays the email templates available on the repository. For more
+   information on editing email templates and email template variables,
+   see Email templates. <!-- do we have a full list of repo email template vars? --> <!-- missing hyperlink>
 
-5. Live
+5. **Live**
     Sets the repository as live.
 
-Additional settings for licenses, additional submission fields, subjects. <!-- missing hyperlink-->
+The section below will briefly outline the the other pages which lets you configure youre repository. For information on additional settings, including licenses, submission fields, and subjects, see Additional repository settings. <!-- missing hyperlink--> <!--need to write this still-->
 
 ## Licenses
 
 ![" "](../images/repositories/repo-licences.png)
 
-This page lets you pick which licenses are made available for preprints in this repository. The available licenses are all licenses made available on the press (each journal), which is why you may see duplicates.
+This page lets you choose which licenses are made available for preprints in this repository. The available licenses are all of those made available on the Janeway press, which is why you may see duplicates.
 
 ## Subjects
 
 ![" "](../images/repositories/repo-subjects.png)
 
-This page lets you set the subjects which preprints can fall into. These can be organised hierachically, with sub-subjects ('children') - e.g., 'Biology' and 'Marine biology'. These will be grouped together, with the parent subject being listed first in the group.
+This page lets you set the subjects that preprints can fall into. These can be organised hierarchically, with child subjects; for example, "Biology" and "Marine biology". Subjects are grouped together, with the parent subject listed first.
 
 ![" "](../images/repositories/repo-parent-child-subject.png)
 
@@ -42,8 +44,10 @@ You can also select editors who should be notified of submissions made to this s
 
 ![" "](../images/repositories/repo-additional-fields.png)
 
+You can set up additional, custom submission fields for your repository on this page.
+
 ## Recommendations
 
 ![" "](../images/repositories/repo-recommendations.png)
 
-This page lets you configure the recommendations available
+You can create, edit, and delete review recommendations for your repository using the interface here.

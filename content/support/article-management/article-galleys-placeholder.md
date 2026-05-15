@@ -1,9 +1,9 @@
 title: Article galleys
 # Article galleys
 
-**WIP**
+*More updates coming soon*
 
- this needs more info as galleys-related problems are more common than I'd like
+ <!-- this needs more info as galleys-related problems are more common than I'd like -->
 
  - What is a galley
  - PDF / HTML / XML
@@ -13,9 +13,6 @@ title: Article galleys
  - Preview galleys
  - What you wont see on a galley preview
 
-   ///////
-
-
 Like the Production page, the article archive allows you to upload new and replace old Galley files.
 
 <!-- ![Galley manager block](../nstatic/galleys-archive.png) -->
@@ -24,7 +21,7 @@ Like the Production page, the article archive allows you to upload new and repla
 > Editing a galley will change how it is displayed. If making changes to a published piece, it is recommended to add a Publisher Note alongside it.
 
 > [!TIP]
-> The Edit Galleys link will take you to the Production page.
+> The **Edit galleys** link will take you to the Production page.
 
 
 

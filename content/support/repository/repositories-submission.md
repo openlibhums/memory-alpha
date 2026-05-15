@@ -6,23 +6,23 @@ To submit to a repository, you must either already have an account or create one
 
 Once you have an account and are logged in, there are three places you can submit from:
 
-1. Through the front-page navbar (if enabled by press):
+1. Through the website navbar (if enabled by press):
     ![" "](../images/repositories/repo-submit-frontend.png)
 
-2. From anywhere within the system (not the public facing pages) by clicking on your profile in the top-right corner and selecting **Submit**:
+2. From anywhere within the system (not the public facing pages) by clicking your profile in the top-right corner and selecting **Submit**:
     ![" "](../images/repositories/repo-submit-profile-backend.png)
 
-3. From the Author dashboard, by clicking **Start new submission** in the Incomplete submissions block:
+3. From the Author dashboard, by clicking **Start new submission** in the **Incomplete submissions** block:
     ![" "](../images/repositories/repo-submit-author-dash.png)
 
-Once you have clicked **Submit** you will be guided through a submission process where you will be asked to supply information about the submission, this will include things such as:
+Once you click **Submit**, you are guided through a submission process where you are asked to supply information about the submission. This includes:
 
 1. The submission agreement and article information.
     This page usually provides information about any submission or file requirements as well. Fields marked with an asterisk are required to complete the submission.
 2. Author information.
 3. Article files and supplemantary files.
 
-After which, you will have the chance to look over and confirm all details are correct, before completing the submission. If there are any issues, you can click **Edit metadata** or **Edit authors** to make changes.
+After this, you can review and confirm that all details are correct before completing the submission. If there are any issues, click **Edit metadata** or **Edit authors** to make changes.
 
 ## Updating a submission
 

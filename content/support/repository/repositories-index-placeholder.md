@@ -1,25 +1,31 @@
-title: Repositories on Janeway
-# Repositories on Janeway
+title: Janeway repositories
+# Janeway repositories
 
+Janeway supports hosting repositories for preprints, postprints, field reports, and other publication types within the same press environment as journals. Repository managers can configure and moderate repositories from the Repository Manager.
 
-[Something about JW repos.]
+## For repository managers
 
-Done:
+### [Setting up a repository](repositories-setup-placeholder.md)
 
-## Setting up a respository
+How to enable the repository system in your Janeway press and create a new repository. Covers the Press manager settings required before a repository can be configured.
+ 
+### [Repository settings](repositories-settings.md)
 
-## Submitting to a repository
+A guide to the five-step repository setup wizard, used for both configuring a new repository and editing the settings of an existing one. Also covers additional configuration options, including licenses, subjects, submission fields, and review recommendations.
 
-WIP:
+### [Moderator guide](repositories-moderator.md)
 
-## Repository settings
+How to manage published and unpublished preprints from the Repository Manager. Covers reviewing and accepting submissions, moderating new versions, and handling review comments.
 
-## Handling preprints
+### Linking a repository and journal
+ *Coming soon*
 
-To-do:
+### Other settings
 
-## Navigating a repository
+*Content coming soon.*
 
-## Managing repositories
+## For authors
 
-### Deleting repositories
+### [Submitting to a Janeway repository](repositories-submission.md)
+
+How to submit a preprint to a Janeway repository, including the three submission entry points available in the system. Also covers how to update an existing submission, manage supplementary files, and track the status of pending changes
