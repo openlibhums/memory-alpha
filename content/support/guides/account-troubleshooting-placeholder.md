@@ -2,6 +2,27 @@ title: Account troubleshooting
 
 # Account troubleshooting
 
+## Activate your account
+
+If you are sure your password is correct and you cannot login, your account has likely not been activated yet.
+This is usually resolved either by:
+- Requesting a password reset link. This will send you an account activation email, if your account has not yet been activated. If your account was not created by you (or an editor) but was imported into Janeway, this will not work. You will need to use the option below.
+
+- An editor or journal manager activating your account. (See Activating a user account for instructions <!-- missing hyperlink -->)
+
+### Activating a user account
+
+1. Go to **Journal users** on the **Manager** interface.
+2. Find the user in question through the searchbox and/or filter by account activation status.
+    ![" "](../images/search-inactive.png)
+3. Click **Edit** for the appropriate user
+    ![" "](../images/edit-user.png)
+4. Set the account activation toggle to **Yes**.
+    ![" "](../images/active-toggle.png)
+5. Make sure to save the change made by clicking the **Save** button at the bottom of the page.
+6. The account is now active.
+
+<!--Duplicate with section in accounts. May need to be deduplicated, but we may also need to consider if we need all the pages under user management.-->
 ## New password
 
 ### Reset your password
@@ -28,4 +49,4 @@ If you know your Janeway password and want to update it:
 4. Go to the **Update password** block and fill in your current and new passwords in the respective fields.
 5. Click the **Update password** button.
 
-## Activate your account
+

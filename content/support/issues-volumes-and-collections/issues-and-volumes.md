@@ -2,37 +2,48 @@ title: Issues
 
 # Issues
 
-On Janeway, issues organise articles for publication. While articles do not have to be part of an issue, some external services (such as Crossref) require that articles be assigned to an issue. As such, it is recommended to use issues where possible.
-If your journal uses continuous publication, it is recommended to create yearly issues to add articles to.
+On Janeway, issues organise articles for publication. While articles do not
+have to be part of an issue, some external services (such as Crossref) require
+that articles be assigned to an issue. As such, we recommend using issues where
+possible. If your journal uses continuous publication, we recommend creating
+yearly issues to add articles to.
 
-Articles are typically assigned to issues during the **Pre-publication** stage, but can be assigned a projected issue at any point in the publication workflow. Issues can also be managed independently through the **Issue manager**, available from both the **Manager** page and the main sidebar.
+Articles are typically assigned to issues during the **Pre-publication** stage,
+but can be assigned a projected issue at any point in the publication workflow.
+Issues can also be managed independently through the **Issue manager**,
+available from both the **Manager** page and the main sidebar.
 
 ## Issue types
 
-Janeway provides two built-in issue types : 
+Janeway provides two built-in issue types: 
 - **Issue**  
   The standard publication issue.
 - **Collection**  
-  Can be used to group related articles across volumes or years.
+  Used to group related articles across volumes or years.
 
 ## Volumes
 
-Issues will automatically be assigned to a volume. They can either have their own volume or share a volume with other issues (e.g., volume 1 - issue 1, volume 1 - issue 2, etc.).
+Issues are automatically assigned to a volume. They can either have their own
+volume or share a volume with other issues (for example, Volume 1 - Issue 1,
+Volume 1 – Issue 2).
 
-You can use volume 0 for (ongoing) thematic collections - especially those that are not tied to a specific year or publication sequence. Using volume 0 will also ensure they do not interrupt the listings of regular issues on the issue page.
+You can use Volume 0 for ongoing thematic collections — especially those that are
+not tied to a specific year or publication sequence. Using Volume 0 also ensures
+they do not interrupt the listings of regular issues on the issue page.
 
 >[!NOTE]
 >If no volume and issue numbers are specified when importing articles, they will be assigned to volume 0 issue 0. For this reason, it is recommended to avoid using volume 0 issue 0, as this may create duplicates when importing. This in turn can cause problems.
 
 ## Issue manager
 
-Articles are typically assigned to issues during the pre-publication stage. However, issues can also be managed independently through the **Issue manager**, accessible from both the manager page and the main sidebar. This page lists all existing issues and provides options for creating, editing, reordering, and managing them.
+This page lists all existing issues and provides options for creating, editing, reordering, and managing them.
 
 ![The Issue manager page.](/content/support/images/issue-manager.png)
 
-Using this page, you can perform the following general actions:
+From this page, you can perform the following actions:
+
 - **Sort by date descending / ascending**  
-  Reorder issues by publication date. Sorting changes the display order of issues on the public site, and changes take effect immediately.
+  Reorders issues by publication date. Sorting changes the display order of issues on the public site, and changes take effect immediately.
 
 - **Edit display settings**  
     Opens configuration options for how issue titles and metadata are displayed. For more information, see [Display settings](#display-settings).
@@ -48,7 +59,7 @@ In addition, the issue list is presented in a table format. For each issue, the 
 - **Make current** <img src="../../support/images/clock-icon.png" width="17" height="17"/>  
   Sets the selected issue as the journal’s current issue. The current issue does not display this button.
 
-You can also drag and drop issues to manually change their order; the new order updates the public display immediately. You can also view publication data such as volume, issue number, publication date, and number of articles directly from the table.
+You can also drag and drop issues to manually change their order; the new order updates the public display immediately. You can view publication data such as volume, issue number, publication date, and number of articles directly from the table.
 
 ## Creating and editing issue details
 

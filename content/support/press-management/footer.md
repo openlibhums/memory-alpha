@@ -1,9 +1,12 @@
 title: Journal footer
 # Journal footer 
 
-As a press manager, you can control some of the elements that appear in the website footer of every journal.
+As a press manager, you can control some of the elements that appear in the
+footer of every journal website.
 
-Some journal indexers require a postal address to be displayed on every journal website. You can add this kind of information with **Edit Press Details** \> **Journal footer text**.
+Some journal indexers require a postal address to be displayed on every journal
+website. You can add a postal address and similar contact information by clicking
+**Edit press details** and then editing the **Journal footer text** setting.
 
 <!-- ![A customised journal footer in the OLH theme](../../nstatic/footer-olh.png) -->
 
@@ -15,20 +18,15 @@ You can also add custom links to the footer, such as to publisher policies, usin
 
 ## Footer navigation
 
-With some themes, you can put a navigation link in the footer rather
-than the top navigation bar.
+You can add navigation links to the footer rather than the top navigation bar.
+Use **For footer** to move a link to the footer.
 
-Use **For footer** to switch the link to the footer. At the press level,
-only the path theme support this feature so far.
+Use the **For footer** option to switch the link to the footer, instead of the navbar. This feature is currently only supported in path mode (where journals are served from a shared press domain, such as `www.pressdomain.com/journal`).
 
- ![Custom footer links in the path theme](../../nstatic/footer-path-custom-links.png)
+<!-- ![Custom footer links in the path theme](../../nstatic/footer-path-custom-links.png) -->
 
-Press managers can also create custom footer links that extend to all
-journal websites, such as for publisher policies.
+As a press manager, you can also create custom footer links that extend to all
+journal websites; for example, links to publisher policies. To do this, create
+a navigation item and check the **Is external**, **For footer**, and **Extend to journals** boxes.
 
-To do so, create a navigation item and check **Is external**, **For
-footer**, and **Extend to journals**.
-
-![Custom footer links on a journal website set by a press manager.](../../nstatic/footer-olh.png) -->
-
-
+<!--[Custom footer links on a journal website set by a press manager.](../../nstatic/footer-olh.png)  -->

@@ -2,6 +2,8 @@ title: Set up your journal
 
 # Set up your journal
 
+*This is a work in progress*
+
 Journal name
 
 Journal domain
