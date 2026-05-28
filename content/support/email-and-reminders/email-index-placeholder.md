@@ -20,7 +20,7 @@ This section explains:
 - Email content can be customised per journal using templates.
 
 >[!NOTE]
-> Due to GDPR restrictions, Janeway does not offer any options for email campgains.
+> Due to GDPR restrictions, Janeway does not offer any options for email campaigns.
 
 ## Common questions
 
@@ -38,4 +38,4 @@ This section explains:
 
 <!--missing hyperlinks-->
 
-If something is unclear or you are unsure whether a change is safe to make contact your system administrator.
+If something is unclear or you are unsure whether a change is safe to make, contact your system administrator.

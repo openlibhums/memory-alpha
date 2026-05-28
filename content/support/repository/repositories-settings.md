@@ -26,13 +26,13 @@ The section below will briefly outline the the other pages which lets you config
 
 ## Licenses
 
-![" "](../images/repositories/repo-licences.png)
+!["The repository licenses page."](../images/repositories/repo-licences.png)
 
 This page lets you choose which licenses are made available for preprints in this repository. The available licenses are all of those made available on the Janeway press, which is why you may see duplicates.
 
 ## Subjects
 
-![" "](../images/repositories/repo-subjects.png)
+!["The repository subjects page."](../images/repositories/repo-subjects.png)
 
 This page lets you set the subjects that preprints can fall into. These can be organised hierarchically, with child subjects; for example, "Biology" and "Marine biology". Subjects are grouped together, with the parent subject listed first.
 
@@ -42,12 +42,12 @@ You can also select editors who should be notified of submissions made to this s
 
 ## Additional submission fields
 
-![" "](../images/repositories/repo-additional-fields.png)
+!["Repository additional fields pages."](../images/repositories/repo-additional-fields.png)
 
 You can set up additional, custom submission fields for your repository on this page.
 
 ## Recommendations
 
-![" "](../images/repositories/repo-recommendations.png)
+!["The recommendations page."](../images/repositories/repo-recommendations.png)
 
 You can create, edit, and delete review recommendations for your repository using the interface here.

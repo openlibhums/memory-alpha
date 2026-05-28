@@ -3,7 +3,7 @@ title: Licence manager
 
 The licence manager allows you to define the licenses available for submission to your journal. By default, Janeway provides all the CC 4.0 licences and an All Rights Reserved licence. You can edit the list to fit your journal's needs.
 
-![" "](../../support/images/manager-licence-manager.png)
+![" The manager dashboard with the License manager button highlighted."](../../support/images/manager-licence-manager.png)
 
 Each licence has the following configurable properties:
 

@@ -56,7 +56,7 @@ In this box, you will find the option to label your file with its file type. For
 Janeway will attempt to provide an appropriate label if this is left blank. However, if you wish to ensure the label is correct, you can manually enter the file type. For instructions on how to edit a label, see the section below.
 
 > [!WARNING]
->  Janeway operates with the UTF-8 encoding. Please ensure that you upload any HTML and XML files (plain text galleys) using this encoding.
+>  Janeway operates with the UTF-8 encoding. Ensure that you upload any HTML and XML files (plain text galleys) using this encoding.
 
 ## Editing typeset files and uploading additional files
 If you need to make changes to the typeset files, you can reupload them or upload additional files through the **Edit typeset file** page. This page can be accessed by clicking **Edit**.
@@ -100,7 +100,7 @@ On this page, you can also upload a CSS file associated with the article for an 
 You can also select the XSL file used to render the HTML from the file. Unless explicitly instructed otherwise, this will be the Janeway default (1.4.3). In that case, the editors will communicate this as part of the typesetting task or agreement.
 
 ### Finishing up
-Once you finish the typesetting (or correction) task, you can leave a note for the editor, click the button to complete the task and send it to the editor for review. Please note that you cannot return to this page once you complete the task.
+Once you finish the typesetting (or correction) task, you can leave a note for the editor, click the button to complete the task and send it to the editor for review. Note that you cannot return to this page once you complete the task.
 
 > [!NOTE]
 > If you attempt to complete the typesetting task with potential issues remaining (e.g. missing image files, typeset files that have not been corrected), Janeway will warn you about this.
@@ -114,14 +114,14 @@ default.
 
 Here is an example in JATS XML of an isolated bit of Arabic text in a
 document that is otherwise left-to-right:
-![""](../../support/images/workflow/typesetting-arabic-rtl-jats-xml.png)
+![" "](../../support/images/workflow/typesetting-arabic-rtl-jats-xml.png)
 
 Make sure you use a text editor that shows zero-width unicode
 characters, like U-2067. The above screenshot is an XML file opened in
 VS Code.
 
 Here is the rendered output:
-![""](../../support/images/workflow/typesetting-arabic-rtl-rendered.png)
+![" "](../../support/images/workflow/typesetting-arabic-rtl-rendered.png)
 
 Notice the following about the code sample:
 
@@ -155,7 +155,7 @@ In some cases you might need to center-align text:
 ```
 
 The output is:
-![""](../../support/images/workflow/typesetting-text-align-center.png)
+![" "](../../support/images/workflow/typesetting-text-align-center.png)
 
 
 This is accomplished with the the [styled-content JATS

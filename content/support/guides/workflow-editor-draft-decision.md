@@ -3,7 +3,7 @@ title: Editor guide to draft decisions
 
 Draft decisions (DD) are an optional element of the review workflow. It allows section editors to submit a draft of their editorial decision for approval by an editor. When enabled, a section editor will only see the draft decision feature on the **Decision helper** page.
 
-![" "](../images/workflow/editor-draft-decision.png)
+!["The draft decision page."](../images/workflow/editor-draft-decision.png)
 
 The options for draft decision types are the same as those in the standard decision workflow:
 - **Accept**  
@@ -33,12 +33,12 @@ For section editors, the workflow will look like this:
   - Email to the editor
   - Draft email to author
 
-![" "](../images/workflow/editor-draft-decision-screen.png)
+!["The draft decision helper page."](../images/workflow/editor-draft-decision-screen.png)
 
 For editors, this process will look like the following:
 1. Access the draft decision through the link in the notification email or **Decision helper > Draft decisions**. The draft decisions will be listed under **Existing drafts**.
 
-![" "](../images/workflow/editor-draft-decision-button.png)
+!["The draft decisions button."](../images/workflow/editor-draft-decision-button.png)
 
 > [!NOTE]
 > Do not start filling in the **Add a draft decision** form – the section editor will already have drafted an email to the author in **Existing draft decisions**.
@@ -49,6 +49,6 @@ For editors, this process will look like the following:
 
 3. If required, you can edit the decision type, due date and email to the author. You can also view any completed peer reviews on this screen.
 
-![" "](../images/workflow/editor-draft-decision-final.png)
+!["The page where editors can edit the draft decision."](../images/workflow/editor-draft-decision-final.png)
 
 4. Accept or decline the draft. If accepted, the decision made by the section editor(s) will be actioned.

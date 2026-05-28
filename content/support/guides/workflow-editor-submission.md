@@ -18,7 +18,7 @@ The left block of the page displays the article’s metadata and author metadata
 
 Before the article can enter the workflow, it must be assigned to an Editor or Section editor through **Add editors**.
 
-![" "](../images/workflow/editor-submission-editors.png)
+!["The blocks for adding editors and displaying assigned editors."](../images/workflow/editor-submission-editors.png)
 
 Once assigned, the editor can do one of the following through **Actions**:
 
@@ -28,7 +28,7 @@ Once assigned, the editor can do one of the following through **Actions**:
 
 If you reject the article, there will be an opportunity to provide an explanation to the author.
 
-![" "](../images/workflow/editor-submission-actions.png)
+!["The actions block."](../images/workflow/editor-submission-actions.png)
 
 Accepting the article will move it into Copyediting, skipping peer review. You can do this for editorials or other submissions that do not require peer review.
 
@@ -43,6 +43,6 @@ The projected issue functionality can be used internally to keep track of plans 
 On this page, you can also edit author details. This is done by clicking **Edit author metadata** which will take you to a screen where you can edit author details, change the author order, change the correspondence author, or add authors.
 To edit an author's affiliation, click **Edit author details** and scroll down to the **Affiliations** block, where you can edit, add or remove an author's affiliation(s).
 
-![" "](../images/workflow/editor-submission-edit-author.png)
+!["The edit author page."](../images/workflow/editor-submission-edit-author.png)
 
 Janeway uses [Research Organization Registry (ROR)](https://ror.org/) to manage affiliation data, this ensures consistent formatting of affiliation data and links authors to their instituions, improving metadata quality. You can search for an institution or, if no match is found, add the details manually.

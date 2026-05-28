@@ -33,9 +33,9 @@ If you accept the task, you will be taken to the page for this review. It is spl
 This section displays information on how the editor would like you to undertake the review, an introduction to the review form, and metadata.
 
 > [!NOTE]
-> This section may include both general review guidelines and guidelines specific to this review. These can differ depending on the journal and the type of submission. Please read through these even if you’ve reviewed a paper for this journal before, as they may not be the same as for a previous review task.
+> This section may include both general review guidelines and guidelines specific to this review. These can differ depending on the journal and the type of submission. Read through these even if you’ve reviewed a paper for this journal before, as they may not be the same as for a previous review task.
 
-At the bottom of this block, you will find another option to accept or decline this review task. If you initially accepted the task but are no longer available, please decline it here so that it can be offered to someone else. If you opt to decline to review, you will be asked if you can suggest other suitable reviewers. This is optional, but highly encouraged.
+At the bottom of this block, you will find another option to accept or decline this review task. If you initially accepted the task but are no longer available, decline it here so that it can be offered to someone else. If you opt to decline to review, you will be asked if you can suggest other suitable reviewers. This is optional, but highly encouraged.
 
 ![The ‘Review Request’ page, displaying the ‘General Review Guidelines’ section. The review guidelines, information for the form and accept/decline elements are visible.](../support/images/workflow/reviewer-review-request.png)
 
@@ -67,4 +67,4 @@ The sections of this form are:
     If you have additional comments, they can be added here. These will be visible only to the editor(s), although they may choose to share them with the author.
 
 ## Review complete
-Once you have submitted your review, you will be presented with an overview of what you have written. Please note you will not be able to return to the review page or edit what you have written once you have clicked **Submit**.
+Once you have submitted your review, you will be presented with an overview of what you have written. Note you will not be able to return to the review page or edit what you have written once you have clicked **Submit**.

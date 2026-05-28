@@ -15,7 +15,7 @@ The first block of the **Article archive** page lists most of the article's meta
 
 This will take you to the following page, where you can edit the article's metadata:
 
-![" "](../images/edit-metadata.png)
+!["Edit metadata page, displaying the title and abstract."](../images/edit-metadata.png)
 
 Make sure you scroll down and click **Update metadata** to save any changes.
 
@@ -33,7 +33,7 @@ Janeway can mint CrossRef and DataCite DOIs <!-- missing hyperlinks --> and if w
 
 Identifiers associated with an article can be found through **Identifiers** under **Logs, documents and more**. Though DataCite DOIs will not show up here and need to be managed through the DataCite plugin. <!--missing hyperlink-->
 
-![" "](../images/article-identifiers.png)
+!["The identifiers page. It displays a list of identifiers associated with the journal, including a DOI, OJS id and DOAJ is. There are columns for each showing whether they are registered, and for DOI showing options to register, poll, desposit and view the response XML. There are also delete buttons for all identifiers."](../images/article-identifiers.png)
 
 > [!TIP]
 > You can also manage CrossRef DOIs at the journal level as an editor (and at the press level as a staff user) using the DOI Manager.

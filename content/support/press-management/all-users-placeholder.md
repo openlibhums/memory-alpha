@@ -5,7 +5,7 @@ title: Managing users at press level
 From the **Press manager** you can manage users across all journals through the **All users** interface.
 You can filter users by whether they are active, are staff, their role(s), and their journal(s). 
 
-You can easily see what roles and permissions any given user has across all journals. You can remove or grant additional roles and/or permissions for multiple journals without needing to go into each journal or the admin area. For each user, there is also a link available to view their history, edit their profile or 'control' the user.
+You can see what roles and permissions any given user has across all journals. You can remove or grant additional roles and/or permissions for multiple journals without needing to go into each journal or the admin area. For each user, there is also a link available to view their history, edit their profile or 'control' the user.
 
 >[!NOTE]
 >Explain what controlling a user is.

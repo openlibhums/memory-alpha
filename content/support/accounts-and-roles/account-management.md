@@ -1,7 +1,7 @@
 title: Managing user accounts
 # Managing user accounts
 
-The **Users and roles** section of the Manager dashboard has various controls for managing users and permissions. Who can manage what will depand on their role and permissions associated with it.
+The **Users and roles** section of the Manager dashboard has various controls for managing users and permissions. Who can manage what will depend on their role and permissions associated with it.
 
 **Editors** and **Journal managers** can:
 

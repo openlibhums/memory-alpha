@@ -5,7 +5,7 @@ The Pandoc plugin provides an option to generate HTML files from submissions in 
 
 To work on a file, find it under **Files for typesetting** and click **Options**. This will present two options:
 
-![" "](../images/workflow/editor-typesetting-options.png)
+!["The files for typesetting block."](../images/workflow/editor-typesetting-options.png)
 
 - Convert: This option makes the file available for download to readers. This feature is useful when you want to make the original manuscript file available.
 

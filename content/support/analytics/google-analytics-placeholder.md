@@ -9,9 +9,9 @@ Allows you to measure activity on your web pages.
 
 Found through either general settings -> scroll down
 
-![" "](../../support/images/general-settings-google.png)
+!["Google analytics settings"](../../support/images/general-settings-google.png)
 
 Or through all settings:
 
-![" "](../../support/images/all-settings-google.png)
+!["Google analytics settings shown on the All settings page"](../../support/images/all-settings-google.png)
 

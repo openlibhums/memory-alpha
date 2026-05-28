@@ -13,18 +13,18 @@ Two settings must be configured for triple anonymous peer review to work: the pe
 - Section editor personally identifiable information filter (se_pii_filter)  
   Turning on this setting means that all relevant author data will be anonymised for section editors when they are accessing Janeway. This enables them to access the review stage without encountering the author’s personal details.
 
-   ![" "](../../support/images/see-filter.png)
+   !["All settings page with the Section editor personally identifiable information filter."](../../support/images/see-filter.png)
 
 - Reply-to address (replyto_address)  
   In order to make triple anonymous review possible, author email addresses need to be hidden. Janeway masks these email addresses with your journal’s reply-to address, which you will need to fill in here.
 
-   ![" "](../../support/images/reply-to.png)
+   !["All settings page with the reply-to address setting."](../../support/images/reply-to.png)
 
 >[!NOTE]
 > Be sure to check that this is correctly formatted as a valid email address, as an incorrect one will mean author email addresses will be displayed and the review will no longer be anonymous.
 
 ## Triple anonymous peer review in practice
-To make triple anonymous peer review possible, the main journal editor must first check a manuscript and ensure that the author cannot be identified through any of its contents, including the file information. If there are any identifying elements, it is this editor's responsibility to remove or redact them. 
+To make triple anonymous peer review possible, the main journal editor must first check a manuscript and ensure that the author cannot be identified through any of its contents, including the file information. If there are any identifying elements, it is this editor's responsibility to remove or redact them.
 
 Once a file has been fully anonymised, the journal editor can assign it to a section editor. The section editor can now manage the peer review process as they normally would. 
 

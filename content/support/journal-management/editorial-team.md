@@ -43,7 +43,7 @@ To add someone to an editorial team, they need to have a Janeway account. A list
 
 If someone does not have an account yet, you can either invite them to create an account or create one on their behalf by clicking **Add new user**.
 
-If you are setting up a group where multiple users do not have accounts yet, you may wish to use the editorial team import process instead. <!--missing hyperlink--> This process allows you to easily create editorial groups where the members do not yet have accounts.
+If you are setting up a group where multiple users do not have accounts yet, you may wish to use the editorial team import process instead. <!--missing hyperlink--> This process allows you to create editorial groups where the members do not yet have accounts.
 
 Alternatively, if you do not want to create a Janeway account for every individual, you can list names directly in the **Group description** box. This field supports HTML and uses a rich-text editor, so you ccould list the editors using formatted text (for example, a bulleted list). 
 

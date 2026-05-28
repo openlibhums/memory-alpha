@@ -14,7 +14,7 @@ This is usually resolved either by:
 
 1. Go to **Journal users** on the **Manager** interface.
 2. Find the user in question through the searchbox and/or filter by account activation status.
-    ![" "](../images/search-inactive.png)
+    !["A screenshot of the search options for the user search. Including a text field and various filters."](../images/search-inactive.png)
 3. Click **Edit** for the appropriate user
     ![" "](../images/edit-user.png)
 4. Set the account activation toggle to **Yes**.
@@ -36,7 +36,7 @@ If you have forgotten your password and need to reset it:
 5. Click the link in the email.
 6. Fill in the password fields to set a new password.
 
-![The login page with 'Forgot your password' highlighted.](../images/forgotten_password.png)
+![The login page with 'Forgot your password' highlighted.](../images/forgotten-password.png)
 
 If you have not received the password reset email, contact **Support**. <!-- Missing hyperlink-->
 

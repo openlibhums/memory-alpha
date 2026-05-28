@@ -44,7 +44,7 @@ The first page of the submission process is the author agreement. Depending on h
     - This is where you will see any publication fees, including Voluntary Author Contributions (VACs) or Article Processing Charges (APCs) that apply to the submission.
 
 > [!NOTE]
-> Please note that a "Voluntary Author Contribution" and "Article Processing Charge" are different. The former is entirely optional and not required for publication in a journal. For more information about publication fees, visit the relevant journal’s policy page(s) or contact its editorial team.
+> Note that a "Voluntary Author Contribution" and "Article Processing Charge" are different. The former is entirely optional and not required for publication in a journal. For more information about publication fees, visit the relevant journal’s policy page(s) or contact its editorial team.
 
 - Submission checklist  
      The submission checklist will display any steps you need to take before submitting the manuscript (e.g. formatting).
@@ -74,8 +74,7 @@ Metadata that may be requested on this page:
     This is usually disabled if the journal only accepts one license type.
 - Keywords  
     You can add keywords to your article to help people discover it. To add keywords, type the word or phrase into the textbox and press 'Enter' to add it. If you wish to delete a keyword, click the **X** icon next to it within the textbox. Keywords can include spaces and special characters.
-
-![""](../images/workflow/author-keywords.png)
+    !["The field to enter keywords."](../images/workflow/author-keywords.png)
 
 Individual journals can add more fields to this page. These will be displayed under **Additional fields**.
     
@@ -88,7 +87,7 @@ To add more authors to a submission, you can either search the journal's author 
     - This lets you search the journal's database of authors by using their email address or ORCID. You cannot search using a name or institution. 
     - If a matching record is found, they will be added as a co-author. If not, you will be notified that no account has been found.
 
-    ![" "](../images/workflow/author-submission-author-search.png)
+    !["The Add more authors block with the button to search for authors highlighted."](../images/workflow/author-submission-author-search.png)
 
 - Adding authors through **Add author manually**
     - The **Add author manually** button lets you create a new author record for authors if they do not already have one. The following fields are mandatory in Janeway:
@@ -98,7 +97,7 @@ To add more authors to a submission, you can either search the journal's author 
 
 This will not create a new account for the  additionaly author(s), it will only create an author record with no account attached. If they wish to login and check the article's progress, they can create an account with the same email address that was used on the author record (submission). Either the submitting author or an editor can then link the account to the author record.
 
-![" "](../images/workflow/author-submission-author-manual.png)
+!["The page where someone can manually add an author to the submission and enter their details."](../images/workflow/author-submission-author-manual.png)
 
 If the search of the journal's author list or ORCID search are successful, author details will be added automatically. You can still make edits, by clicking on **Edit author details**. When an author already has an account with the journal or another journal under the press, this submission will be linked to their existing record.
 
@@ -109,7 +108,7 @@ To change the correspondence author, another author with a pre-existing (confirm
 
 Janeway uses [Research Organization Registry (ROR)](https://ror.org/) to manage affiliation data. You can add author affiliation by clicking **Edit author details** and scrolling down to **Affiliations**. From here, you can add, remove and edit affiliations. If an author ORCID has been provided, their affiliation will be added automatically from their ORCID. You can still edit this, if it is incorrect.
 
-![" "](../images/workflow/author-submission-edit-details.png)
+!["An example author on a submission, with the button to edit author details highlighted."](../images/workflow/author-submission-edit-details.png)
 
 After the submission is completed, co-authors will be notified and will be able to access the submission and update or edit their details.
 
@@ -129,15 +128,15 @@ While you can add only one manuscript file, multiple figures and/or data files c
 ### Funding
 You will then be asked to supply information about any relevant funding. You can search for your funding source using our **Search for funder** function or add them manually. When adding a funder, you will be given the option to provide an optional Funder DOI and Grant ID.
 
-![""](../images/workflow/author-funding.png)
-![""](../images/workflow/author-add-funder.png)
+!["The funding information page."](../images/workflow/author-funding.png)
+!["The funder ID block, with example information."](../images/workflow/author-add-funder.png)
 
 If you do not have any funders to add, you can skip this page by clicking **Save and continue** without adding any funders.
 
 ### Review
 The **Review** page displays a run-down of the article you've submitted, metadata, files and authors. From here, you can click **Complete** to submit or jump back to other stages to make changes. Once you have finalised your submission, you cannot make any changes until editors request revisions (if applicable). 
 
-![""](../images/workflow/author-submission-review.png)
+!["The submission confirmation page."](../images/workflow/author-submission-review.png)
 
 ## Revisions
 If an article is accepted, it may enter the peer review process. Once a submission has been reviewed, editors may request that authors revise their files based on recommendations from reviewers. There are three types of revision requests:
@@ -157,7 +156,7 @@ When an editor requests revisions, there are two ways to start this process:
     3. Scroll down to **Submitted articles**.
     4. Click the **Revision request** button next to the article.
 
-![""](../images/workflow/author-submitted-articles.png)
+!["The block showing submitted articles and their status in the workflow"](../images/workflow/author-submitted-articles.png)
 
 Once you have accessed the revision request, you can view the available peer reviews. You can also download, revise, and upload new files. 
 
@@ -189,24 +188,24 @@ Typeset proofs are not an opportunity to make changes to the content or style of
 
 1. Upload your revised manuscript by replacing the copyeditor's version of the file with your own updated version.
 
-![""](../images/workflow/author-copyedited-files.png)
+!["The block for copyedited files, listing copyedited files accompanied by a download button and replace button for each file."](../images/workflow/author-copyedited-files.png)
 
 2. Fill in the **Note to the editor** field with any additional information.
 3. Select a Decision (either **Accept** or **Corrections required**).
 4. Click **Complete copyedit task**.
 
-![""](../images/workflow/author-complete-copyedit-task.png)
+!["The block where authors can leave notes to the editor, record their decision and the button they click to complete the task."](../images/workflow/author-complete-copyedit-task.png)
 
 ## Proofing
 After your paper has been accepted and copyedited, the editors might send you a request to proof the typeset manuscript. This is the final version that will be made publicly available once the article gets published in the journal.
 
 You can access your proofing tasks either through the link sent to you by email or through the proofing task button on your dashboard.
 
-![" "](../images/workflow/author-proofing-task.png)
+!["The proofing block on the author dashboard, displaying there is one proofing task."](../images/workflow/author-proofing-task.png)
 
-[" "](../images/workflow/author-proofing-block.png)
+!["A zoomed out version of the proofing block on the author dashboard, displaying there is one proofing task, to show users where on the page it is"](../images/workflow/author-proofing-block.png)
 
-[" "](../images/workflow/author-proofing-view-assignment.png)
+!["The page displaying a list of open proofing assignments."](../images/workflow/author-proofing-view-assignment.png)
 
 For journals that publish content in multiple media formats (HTML, PDF, XML, etc.), it is important that you check all these files before publication. This will not require any technical knowledge; authors are not expected to be able to open and read XML/HTML code. Instead, Janeway provides a **View file** button, which allows you to preview how the article will look once it is published.
 

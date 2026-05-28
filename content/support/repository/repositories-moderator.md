@@ -4,7 +4,7 @@ title: Moderator guide
 
 As a moderator you can find (un)published preprints and preprint stats in the Repository manager, accessible from the left navigation menu.
 
-![" "](../images/repositories/repo-manager.png)
+!["The repository manager."](../images/repositories/repo-manager.png)
 
 ## Published preprints
 
@@ -37,7 +37,7 @@ If the preprint is suitable after initial review, click **Create a version with 
 
 ### Controls
 
-![" "](../images/repositories/repo-preprint-controls.png)
+!["Preprint controls."](../images/repositories/repo-preprint-controls.png)
 
 Similar to published preprints, the control panel displays the preprint's status and primary identifier, and presents various options. These are the same as those for published preprints, except that **Edit published date** and **Unpublish this article** are replaced with **Accept article** and **Reject article**.
 

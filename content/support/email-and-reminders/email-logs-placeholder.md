@@ -27,7 +27,7 @@ Each entry in the log records an action that has taken place on the article. The
      The type of action that was logged ("Review request accepted" or "Typesetting complete" for example).
 - Date
 - Actor  
-    The user or system process that iniated the action.
+    The user or system process that intiated the action.
 - Level
 <!-- what does this mean??-->
 

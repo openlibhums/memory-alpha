@@ -95,6 +95,9 @@ Here are some common examples you can copy and reuse.
 - The article's correspondence author  
   `{% raw %}{{ article.correspondence_author.full_name|se_can_see_pii:article }}{% endraw %}`
 
+
+If you use a variable with information that isn't available; e.g. a middlename for a user who has not provided one, it will be ignored and display a blank space instead.
+
 >[!NOTE]
 > Certain variables, such as the title, have `safe_` appended to the second half of the object. This is to ensure they display correctly.
 
@@ -212,4 +215,3 @@ The journal object contains the following attributes:
 - review_file (FK File)
 - display_review_file (Bool)
 
-<!-- Q to devs: what happens if you'd include a variable for information that isn't available? E.g. ORCID / salutation / middle name. IF no one knows, I'll test it myself later + I assume dates get localisaed automatically?-->

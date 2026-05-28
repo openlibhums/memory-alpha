@@ -9,7 +9,7 @@ Needs some further work, checks and dev input on a few bits. Need to check out t
 
 ## Janeway roles
 
-Janeway has a variety of roles available that can be assigned to users, some of which will affect the permissions of the user. Roles do not exclude eachother, e.g. having one role will not prevent you another one.
+Janeway has a variety of roles available that can be assigned to users, some of which will affect the permissions of the user. Roles do not exclude each other, e.g. having one role will not prevent you another one.
 
 - Author  
    Assigned automatically when a user registers with a journal or submits an article. This can be considered the 'base role'.
@@ -72,7 +72,7 @@ Janeway allows more granular permissions for journal managers and editors, using
 >[!NOTE]
 >The following sections contain information on configuring granular permissions. This requires more advanced technical knowledge, though you are unlikely to need this (often).
 
-There is no interface for updating the roles that can access these pages and the setting is JSON stored in the database. If you are not comfortable or able editing this, please contact your system administrator.
+There is no interface for updating the roles that can access these pages and the setting is JSON stored in the database. If you are not comfortable or able editing this, contact your system administrator.
 
 > [!WARNING]
 > Only modify granular permissions if you are confident in the change you are making.
