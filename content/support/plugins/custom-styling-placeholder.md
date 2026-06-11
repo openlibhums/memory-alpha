@@ -1,5 +1,7 @@
 title: Custom styling
+
 # Custom styling
+
 A Janeway plugin that allows a staff member to add custom CSS directives to a journal or press site, giving the user control over the styling of each site.
 
 [GitHub Repo](https://github.com/openlibhums/customstyling)
@@ -7,6 +9,7 @@ A Janeway plugin that allows a staff member to add custom CSS directives to a jo
 ## CSS variables
 
 If your journal or press uses the OLH theme, you can quickly update the colour palette with the following CSS template. Replace the colour code used for each variable to match your desired output:
+
 ```
 :root {
 --primary-dark-color: #22175b; /* Primary colour used by elements such as buttons */
@@ -18,7 +21,7 @@ If your journal or press uses the OLH theme, you can quickly update the colour p
 --menu-foreground-color: #000000; /* font colour used in the menu bar */
 --link-color: #2199e8;
 --toc-link-color: #22175b; /* Colour used by text on TOC sidebar elements */
---figure-caption-background-color: #003DAC; 
+--figure-caption-background-color: #003DAC;
 --figure-caption-color: #FFFFFF;
 }
 ```

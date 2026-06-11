@@ -9,7 +9,8 @@ Articles are typically assigned to issues during the **Pre-publication** stage, 
 
 ## Issue types
 
-Janeway provides two built-in issue types : 
+Janeway provides two built-in issue types :
+
 - **Issue**  
   The standard publication issue.
 - **Collection**  
@@ -21,8 +22,8 @@ Issues will automatically be assigned to a volume. They can either have their ow
 
 You can use volume 0 for (ongoing) thematic collections - especially those that are not tied to a specific year or publication sequence. Using volume 0 will also ensure they do not interrupt the listings of regular issues on the issue page.
 
->[!NOTE]
->If no volume and issue numbers are specified when importing articles, they will be assigned to volume 0 issue 0. For this reason, it is recommended to avoid using volume 0 issue 0, as this may create duplicates when importing. This in turn can cause problems.
+> [!NOTE]
+> If no volume and issue numbers are specified when importing articles, they will be assigned to volume 0 issue 0. For this reason, it is recommended to avoid using volume 0 issue 0, as this may create duplicates when importing. This in turn can cause problems.
 
 ## Issue manager
 
@@ -31,20 +32,22 @@ Articles are typically assigned to issues during the pre-publication stage. Howe
 ![The Issue manager page.](/content/support/images/issue-manager.png)
 
 Using this page, you can perform the following general actions:
+
 - **Sort by date descending / ascending**  
   Reorder issues by publication date. Sorting changes the display order of issues on the public site, and changes take effect immediately.
 
 - **Edit display settings**  
-    Opens configuration options for how issue titles and metadata are displayed. For more information, see [Display settings](#display-settings).
+   Opens configuration options for how issue titles and metadata are displayed. For more information, see [Display settings](#display-settings).
 
 - **Create issue**  
   Lets you create a new issue. For more information, see [Creating and editing issues](#creating-and-editing-issues).
 
 In addition, the issue list is presented in a table format. For each issue, the following actions are available:
+
 - **View** <img src="../../support/images/preview-icon.png" width="15" height="15"/>  
   Opens the [Manage issue](#managing-existing-issues) page, where you can edit metadata, manage the table of contents, assign guest editors, and upload galleys.
 - **Delete** <img src="../../support/images/trashcan-icon.png" width="15" height="15"/>  
-  Permanently deletes the issue. This cannot be undone. 
+  Permanently deletes the issue. This cannot be undone.
 - **Make current** <img src="../../support/images/clock-icon.png" width="17" height="17"/>  
   Sets the selected issue as the journal’s current issue. The current issue does not display this button.
 
@@ -59,9 +62,9 @@ You can create new issues from this page using the <img src="../../support/image
 You can set the standard issue metadata and images for the issue on this page. Information on the sizes of the cover image and large image can be found in the Styling section<!-- missing hyperlink-->. In addition, you can also provide identifiers for the issue (DOI or ISBN), set an issue type or provide an issue code.
 
 - **Issue code**  
-  This optional alphanumeric [slug](https://en.wikipedia.org/wiki/Slug_(web_publishing)) is used to generate a human-readable URL for an issue. It should consist of lowercase letters, numbers, and hyphens (no spaces or special characters).
-For example, if you enter winter-special-issue, the issue URL will be:
-`yourjournal.com/collection/code/winter-special-issue/`
+   This optional alphanumeric [slug](<https://en.wikipedia.org/wiki/Slug_(web_publishing)>) is used to generate a human-readable URL for an issue. It should consist of lowercase letters, numbers, and hyphens (no spaces or special characters).
+  For example, if you enter winter-special-issue, the issue URL will be:
+  `yourjournal.com/collection/code/winter-special-issue/`
 
 - **Issue type**  
   You can select the issue type here; you can either select 'issue' or 'collection', or any custom issue types you have created for the journal. <!-- missing hyperlink-->
@@ -117,7 +120,7 @@ You can turn these elements on or off:
 - Article page numbers
 - Issue DOI - see [Issue DOI management]() <!-- missing hyperlink -->
 - Group issues by decade
- If your journal has a lot of issues you can use this feature to allow readers to jump to a specific decade on the issues interface.
+  If your journal has a lot of issues you can use this feature to allow readers to jump to a specific decade on the issues interface.
 
 Example display formats:
 
@@ -133,4 +136,4 @@ Example display formats:
 
 ## Projected issues
 
-Janeway allows editors to mark articles as projected to be published within a given issue. This can be done in the **Unassigned** stage by using the **Assign projected issue** button. On the projected issue screen, you can select, from a drop-down, the issue you expect the article to be published in. Assigning an article to a projected issue is not the same as assigning an article directly to an issue. Projected issues are used mainly for internal tracking. 
+Janeway allows editors to mark articles as projected to be published within a given issue. This can be done in the **Unassigned** stage by using the **Assign projected issue** button. On the projected issue screen, you can select, from a drop-down, the issue you expect the article to be published in. Assigning an article to a projected issue is not the same as assigning an article directly to an issue. Projected issues are used mainly for internal tracking.

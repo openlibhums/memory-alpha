@@ -1,4 +1,5 @@
 title: Janeway content manager
+
 # Janeway content manager
 
 The Content Manager is Janeway's CMS. Pages can be created and edited using our rich text editor.
@@ -34,4 +35,4 @@ To delete a page use the red Delete button.
 > Data cannot be recovered so ensure you really want to remove a page before pressing the delete button.
 
 <!-- link to the navigation page -->
-<!-- link to embedding media --> 
+<!-- link to embedding media -->

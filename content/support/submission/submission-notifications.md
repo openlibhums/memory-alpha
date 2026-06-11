@@ -16,6 +16,6 @@ To set up submission notifications per section (also referred to as article type
 
 On **Sections** click on the **Edit** button on the section for which you want to set up submission notifications.
 
-
 ### Section-editor notifications
+
 Can only be done through sections. Even if you do not use sections, you will still have a single section. You can add section editors as needed by editing the section on the **Sections** page.

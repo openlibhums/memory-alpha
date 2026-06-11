@@ -1,4 +1,5 @@
 title: Similarity checker
+
 # Similarity checker
 
 Janeway supports Crosscheck (also called Similarity Check), which is provided by iThenticate. You can sign up for an account via Crossref, allowing you to send submitted manuscripts for originality checking.
@@ -6,16 +7,17 @@ Janeway supports Crosscheck (also called Similarity Check), which is provided by
 ## Crosscheck settings
 
 <!-- image on where to find them -->
+
 The settings are:
-- Enable  
+
+- Enable
   - Enables display for Crosscheck buttons
 
-- Username  
+- Username
   - Your iThenticate service username
 
-- Password  
+- Password
   - Your iThenticate service password
 
 More info on Crosscheck/Similarity Check:
 <https://www.crossref.org/services/similarity-check/>
-

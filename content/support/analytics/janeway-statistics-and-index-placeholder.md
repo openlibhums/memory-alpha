@@ -1,4 +1,5 @@
 title: Janeway analytics
+
 # Janeway analytics
 
 - Janeway counts views and downloads.
@@ -13,10 +14,9 @@ Janeway VS COUNTER.
 This section needs dev input
 
 ## Reporting
+
 Brief overview and link to reporting plugin
 
 ### Institutional statistics
 
 OR ‘why we cannot tell you’ and info we _can_ give you.
-
-

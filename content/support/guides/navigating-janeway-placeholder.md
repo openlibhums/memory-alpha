@@ -1,4 +1,5 @@
 title: Navigating Janeway
+
 # Navigating Janeway
 
 ## Journal and press website
@@ -13,12 +14,13 @@ To access Janeway, the dashboard and/or manager interface (back office):
 3. Select **Dashboard** (or **Manager** if you have the appropriate permissions).
 
 ## Navigating Janeway
+
 Also called the 'backoffice'
 
 Dashboard
 
 Manager interface
 
-
 ## Admin area
+
 Ordered by the underlying database - cannot be changed.

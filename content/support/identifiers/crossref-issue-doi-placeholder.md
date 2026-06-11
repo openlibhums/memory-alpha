@@ -1,7 +1,9 @@
 title: Crossref issue DOI
+
 # Crossref issue DOI
 
-## Issue DOI pattern  
+## Issue DOI pattern
+
 Janeway supports minting DOIs for journal issues automatically. With
 this setting, you can define the pattern used to generate the
 issue-level DOI that will be used for registration.
@@ -13,12 +15,12 @@ and journal code `abcd`) will have a generated DOI of
 A collection with an ID of `2` would have a generated DOI of
 `10.0001/abcd.collection.2`.
 
-## Auto-register issue-level DOIs  
+## Auto-register issue-level DOIs
+
 When enabled, issues will have a DOI assigned and registered as soon as
 the first article in the issue is scheduled for publication. If an issue
 DOI has not been entered manually, Janeway will use the pattern defined
 in the setting above to generate one automatically.
-
 
 **Taken from issues, currently duplicate:**
 
@@ -36,12 +38,12 @@ well as for those manually set.
 
 > [!TIP]
 > If you are migrating a Janeway installation from a version that did not
-support issue DOIs and would like to register issue DOIs for your back
-content, this can be done by populating the DOI field on those issues
-and then re-registering any of the articles in the issue with Crossref.
+> support issue DOIs and would like to register issue DOIs for your back
+> content, this can be done by populating the DOI field on those issues
+> and then re-registering any of the articles in the issue with Crossref.
 
 > [!WARNING]
 > When an article is part of two or more issues, only the primary issue
-DOI will be registered with Crossref. In a future version, it will be
-possible to register issue DOIs on their own, even when they have no
-articles or all its articles are part of multiple issues.
+> DOI will be registered with Crossref. In a future version, it will be
+> possible to register issue DOIs on their own, even when they have no
+> articles or all its articles are part of multiple issues.

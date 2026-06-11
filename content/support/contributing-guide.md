@@ -72,6 +72,7 @@ For example:
 ```md
 # Contributing to Janeway documentation
 ```
+
 ## Internal links
 
 If you want to link to another page in the documentation, use Markdown’s link
@@ -115,9 +116,9 @@ for more details.
 You may want to list things and give a sentence or two of text with each one to define or explain it. You can form this kind of list in Markdown with the use of spacing and line breaks.
 
 ```md
-* Dog _space_ _space_
+- Dog _space_ _space_
   Larger and jollier.
-* Cat _space_ _space_
+- Cat _space_ _space_
   Quieter and judgier.
 ```
 

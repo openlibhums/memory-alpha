@@ -1,4 +1,5 @@
 title: Adverts on Janeway
+
 # Adverts on Janeway
 
 It is possible to show basic adverts on Janeway, this can be (done next to articles (left and right margin)).

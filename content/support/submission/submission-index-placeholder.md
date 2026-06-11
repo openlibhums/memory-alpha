@@ -1,4 +1,5 @@
 title: Managing submissions on Janeway
+
 # Managing submissions on Janeway
 
 There are multiple aspects to managing submissions on Janeway. The two key parts are the submission information page and the submission process. The submission page displays information for potential authors on the journal website. The submission process is where authors submit their manuscript and provide information about the submission. Certain fields, such as the copyright notice, publication fees and submission checklist, appear on both (by default). The textboxes for these are crosslinked; this ensures the information provided to authors regarding submission remains consistent regardless of where it is presented to them.
@@ -6,6 +7,7 @@ There are multiple aspects to managing submissions on Janeway. The two key parts
 ![" "](../../support/images/manager-submission.png)
 
 ## Submission page items
+
 This configures the text on the submission page, visible at `[yourjournalwebsite]/submissions`.
 
 ## Submission settings
@@ -18,7 +20,8 @@ This configures the submission fields used during the submission process. Any un
 
 ## Additional submission fields
 
-If you require any additional submission fields as part of the submission process, you can set them up through this page. 
+If you require any additional submission fields as part of the submission process, you can set them up through this page.
 
 ## Other settings
+
 Other relevant settings you may wish to configure related to submissions are the license manager <!--missing hyperlink-->, which configures the licenses available for your journal, and sections <!--missing hyperlink-->, which set the article types available for the journal and submission.

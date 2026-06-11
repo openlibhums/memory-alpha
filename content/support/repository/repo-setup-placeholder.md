@@ -3,10 +3,13 @@ title: Setting up a repository with Janeway
 # Setting up a repository with Janeway
 
 ## About Janeway repositories
+
 Janeway supports hosting repositories for preprints, postprints, field reports, and other publication types within the same press environment as journals.
+
 <!-- provide some additional information about JW repos-->
 
 ## Getting started
+
 The first step is to enable the repository system in the press-level
 settings:
 

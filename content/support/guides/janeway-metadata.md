@@ -3,6 +3,7 @@ title: Metadata on Janeway
 # Metadata on Janeway
 
 ## Managing metadata
+
 - How is metadata collected / created
 - What metadata fields exist on Janeway
 - Edit article metadata
@@ -40,11 +41,12 @@ Janeway integrates with ROR from the point of submission through to publication 
 When Janeway metadata is distributed, the persistent identifier is provided alongside the organization names. This way, other platforms and discovery services can understand Janeway affiliation metadata unambiguously and programmatically, without the need for intensive data curation, cleaning, or matching.
 
 ROR data is available from Janeway in these places:
-  - journal article web pages (HTML)
-  - auto-generated JATS XML stubs
-  - Crossref deposits (XML)
-  - the OAI-PMH feed (XML)
-  - the Open Access Switchboard (via the **OA Switchboard** plugin)
+
+- journal article web pages (HTML)
+- auto-generated JATS XML stubs
+- Crossref deposits (XML)
+- the OAI-PMH feed (XML)
+- the Open Access Switchboard (via the **OA Switchboard** plugin)
 
 <!--
   Future development
@@ -68,10 +70,11 @@ The [CRediT system](https://credit.niso.org/) standardizes fourteen roles that a
 Each CRediT term is connected to a persistent identifier with a URI form, so CRediT data can be used in linked data environments alongside ORCIDs and ROR IDs.
 
 CRediT data is distributed by Janeway in these places:
-  - on journal article web pages (HTML)
-  - in auto-generated JATS XML stubs
-  - the OAI-PMH feed (XML)
-  - the Open Access Switchboard (via the **OA Switchboard** plugin)
+
+- on journal article web pages (HTML)
+- in auto-generated JATS XML stubs
+- the OAI-PMH feed (XML)
+- the Open Access Switchboard (via the **OA Switchboard** plugin)
 
 <!--
   Future development
@@ -86,13 +89,16 @@ CRediT data is distributed by Janeway in these places:
 Typesetters have access to CRediT data and are encouraged to encode it in any JATS XML they produce for Janeway.
 
 ## Metadata streams
+
 - DOI manager
 - Downstream dataflows
 
 ## Importing metadata
+
 - Import spreadsheet. See import plugin.
 
 ## Exporting metadata
+
 - OAI PMH
   Journal/api/oai
 - KBART

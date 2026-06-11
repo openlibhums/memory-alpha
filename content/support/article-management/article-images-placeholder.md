@@ -1,9 +1,11 @@
 title: Article images
+
 # Article images
 
 Articles have three images that are used for display:
 
-## Large landscape image 
+## Large landscape image
+
 ![An example of the landscape image in an article heading](../images/large-image-article.png)
 
 This image is used in the heading of the article page (also called a 'hero image'). This image will also be used in the carousel, popular articles and featured articles sections on the homepage, if those are enabled and an article is added to it. It is also used as the meta image if none is supplied.
@@ -16,7 +18,7 @@ Generally, we recommend large, landscape images to be used for the large image a
 
 If no landscape image is uploaded, the **Default large image** will be used where the landscape image is set to display.
 
-## Thumbnail image  
+## Thumbnail image
 
 The thumbnail is a small square image displayed on pages listing articles such as the **All articles** or the **Issue articles** list. A width-to-height ratio of about 3:4 is recommended. If the image is another size, it will be resized to fit into the box whilst preserving the original image ratio. For an example, see the image below:
 
@@ -24,19 +26,21 @@ The thumbnail is a small square image displayed on pages listing articles such a
 
 Make sure to set a default image that can show when no individual thumbnail is set. This can be done through **Images** under **Journal settings** on the Manager dashboard.
 
-## Meta image  
+## Meta image
 
 The meta image allows you to override the image displayed on social media when the article is shared. If no meta image is supplied, the large image is used, but it may not display correctly due to its size.
 
 ![Example of a meta image on BlueSky](/content/support/images/meta-image-bsky.png)
 
 ## Article images manager
+
 The Article images manager is an interface for editing all of the images for a given article. To edit the images for a given article through the Article images manager, click on **Edit image**.
 
 This page is split into three blocks; one for the large image, one for the thumbnail and one for the meta image.
 ![Article images page with no images uploaded](/content/support/images/images-manager-blank.png)
 
 You can upload an image by:
+
 1. Clicking **Choose file**.
 2. Selecting a saved image
 3. Clicking **Upload**.
