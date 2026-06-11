@@ -2,6 +2,10 @@ title: Janeway guides
 
 # Janeway guides
 
+This is a landing page for guides available.
+_Coming soon_
+
+<!--
 # h1
 
 ## h2
@@ -46,7 +50,7 @@ This site was built using [GitHub Pages](https://pages.github.com/).
 > [!CAUTION]
 > Advises about risks or negative outcomes of certain actions.
 
-<!-- safety check -->
+safety check
 
 ![" "](../images/all-settings-google.png)
 
@@ -80,3 +84,5 @@ Testy test
 | 👁️ | **View** | Opens the selected issue’s management view. |
 | 🗑️ | **Delete** | Removes the issue permanently. |
 | 🔘 | **Make current** | Marks the issue as the current active issue (used for public display). |
+
+-->

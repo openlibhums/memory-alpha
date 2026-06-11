@@ -10,14 +10,14 @@ Janeway supports Crosscheck (also called Similarity Check), which is provided by
 
 The settings are:
 
-- Enable
-  - Enables display for Crosscheck buttons
+- Enable  
+  Enables display for Crosscheck buttons
 
-- Username
-  - Your iThenticate service username
+- Username  
+  Your iThenticate service username
 
-- Password
-  - Your iThenticate service password
+- Password  
+  Your iThenticate service password
 
 More info on Crosscheck/Similarity Check:
 <https://www.crossref.org/services/similarity-check/>

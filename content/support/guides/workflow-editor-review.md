@@ -14,14 +14,14 @@ If this is not the first round of review, you will need to open a new review rou
 
 After the appropriate files have been selected, you can add the reviewers. You do this by clicking **Add new reviewer**.
 
-![" "](../images/workflow/editor-review-setup.png)
+!["The peer review page."](../images/workflow/editor-review-setup.png)
 
 Now, you can either select a reviewer from the list presented to you, select an existing user who does not yet have the reviewer role (**Enrol existing user**) or invite a new reviewer who does not yet have an account (**Add new reviewer**).
 
 > [!TIP]
 > It is recommended to turn on [one-click review]() <!-- missing hyperlink-->. This allows reviewers to complete a review using a unique link without needing to register an account or log in.
 
-![" "](../images/workflow/editor-review-add-reviewer.png)
+!["The add review assignment page, focussed on the select reviewer block."](../images/workflow/editor-review-add-reviewer.png)
 
 When assigning the reviewer, you can also select the review form, review type (open, single or double anonymous) and set the due date. You can set defaults for these in review settings <!--missing hyperlink --> to minimise the customisation needed here. Once you have selected a reviewer and are happy with the review settings, click **Add reviewer** at the bottom of the page to confirm. You will then be shown the outgoing email on the next page, which you can edit or select the option to skip sending this email.
 
@@ -33,7 +33,7 @@ You can see how this appears to reviewers and what the review process looks like
 
 Once a review has been requested, it will be listed on the review page. The initial stage of any review is "Awaiting acknowledgement" - this means the review has not yet responded to the review invitation.
 
-![" "](../images/workflow/editor-review-awaiting-acknowledgement.png)
+!["A review awaiting acknowledgement."](../images/workflow/editor-review-awaiting-acknowledgement.png)
 
 Once a review has been requested, you can do one of the following:
 
@@ -86,7 +86,7 @@ Toggling the sections on or off will determine whether the author can see answer
 
 If you are ready to make a decision after a round of review, you can click on **Make a decision** to open the **Decision helper** page. On this page, you will see a summary of reviewer recommendations, their review form answers and a list of uncompleted reviews.
 
-![" "](../images/workflow/editor-review-decision-helper.png)
+!["The decision helper page."](../images/workflow/editor-review-decision-helper.png)
 
 In addition to this, the following buttons are available:
 
@@ -129,7 +129,7 @@ You can share completed peer reviews among reviewers. This can be set up through
 - After the first round of review.
   - Once the first round of review is complete, a new option will be present on the **Decision helper** screen to mark the reviews as shareable. It will send an email to the reviewers, providing them with a link to access and view the review content.
 
-  ![" "](../images/workflow/editor-review-decision-helper-share-reviews.png)
+!["The decision helper page with the option to share reviews highlighted."](../images/workflow/editor-review-decision-helper-share-reviews.png)
 
 - Sharing reviews in the second round and beyond
   - Reviews from previous rounds can also be automatically shared with reviewers on the current round. When reviewers access the review interface, they will be given the choice to view anonymous reviews completed by their peers. Editors can modify the message to clarify why reviewers can view the reviews through the review settings <!-- missing hyperlink -->.

@@ -2,17 +2,17 @@ title: Google analytics
 
 # Google analytics
 
-**WIP**
+_Coming soon_
+Allows you to measure activity on your web pages.
 
 - About Google analytics
-- If no Google analytics, where to get. Link to GA page.
-- GA 3 vs 4
+- Link to GA page
 - If issues, send email to support.
 
 Found through either general settings -> scroll down
 
-![" "](../../support/images/general-settings-google.png)
+!["Google analytics settings"](../../support/images/general-settings-google.png)
 
 Or through all settings:
 
-![" "](../../support/images/all-settings-google.png)
+!["Google analytics settings shown on the All settings page"](../../support/images/all-settings-google.png)
