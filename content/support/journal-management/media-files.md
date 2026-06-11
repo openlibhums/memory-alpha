@@ -1,4 +1,5 @@
 title: Media files
+
 # Media files
 
 The Media Files manager lets editors upload and host small files.

@@ -1,6 +1,7 @@
 title: Contact import
 
 # Contact import
+
 The contact import tool allows you to create contacts by uploading a CSV (Comma Seperated Value) file.
 
 > [!WARNING]

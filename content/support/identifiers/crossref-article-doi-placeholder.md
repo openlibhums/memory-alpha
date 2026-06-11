@@ -1,4 +1,5 @@
 title: Crossref article DOI
+
 # Crossref article DOI
 
 ## When are DOIs minted?
@@ -15,8 +16,9 @@ Crossref to update all metadata records.
 
 > [!TIP]
 > You can let editors see a preview of the data that gets sent before
-accepting an article. See **Accept Article Warning** under
-Review Settings.
+> accepting an article. See **Accept Article Warning** under
+> Review Settings.
+
 <!--missing hyperlink-->
 
 At this stage, the DOI will be registered with Crossref, but the webpage
@@ -57,7 +59,7 @@ is a large batch), you can use **Poll for status** to check the result.
 
 > [!WARNING]
 > **Poll for status** on a large group of articles could take a long time,
-so test it out on a smaller group first.
+> so test it out on a smaller group first.
 
 ## Interpreting registration status
 
@@ -78,8 +80,8 @@ any problems with it.
 
 > [!TIP]
 > A status of **Registered** does not necessarily mean that the DOI will
-resolve correctly, if the URL it points to isn't fully operational yet
-on the Janeway side (i.e., the article isn't published).
+> resolve correctly, if the URL it points to isn't fully operational yet
+> on the Janeway side (i.e., the article isn't published).
 
 Registered (but some citations not correctly parsed)  
 Crossref understood the article-level metadata, but when it went to
@@ -149,4 +151,3 @@ However, even if your journal has an ISSN, Crossref still recommends
 registering a DOI for your journal. We recommend using your journal code
 as the DOI. For example, with the prefix of `10.0001` and the journal
 code of `abcd`, you could set the journal DOI to `10.0001/abcd`.
-

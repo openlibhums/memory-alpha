@@ -14,30 +14,32 @@ Same core feature set, provide the same content.
 Clean is the most differnet from the two - thinner viewport and less prominent images. Clean doesnt display images on the issue page.
 
 ## Clean
-* Currently most accessible.
-* Minimalistic, less images.
+
+- Currently most accessible.
+- Minimalistic, less images.
 
 Examples:
 
 [Political Philosophy](https://politicalphilosophyjournal.org/)
 [Free and Equal](https://freeandequaljournal.org/)
 
-
 Screenshots:
 
 ## Material
+
 Examples:
 [The Comics Grid](https://www.comicsgrid.com/)
 [Theory and Social Inquiry](https://www.theoryandsocialinquiry.org/)
 
-
 Screenshots
 
 ## OLH
+
 Examples:
 [G+C](https://www.genealogy-critique.net/)
 [JSCDM](https://www.jscdm.org/)
 [ing.grid](https://www.inggrid.org/)
+
 - Note: Quite a lot of customisation!
 
 Screenshots

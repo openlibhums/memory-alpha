@@ -25,7 +25,7 @@ If you know your Janeway password and want to update it:
 
 1. Log into the journal.
 2. Click on the circle with your initials or profile picture in the top-right corner and select **Profile**.
-4. Go to the **Update password** block and fill in your current and new passwords in the respective fields.
-5. Click the **Update password** button.
+3. Go to the **Update password** block and fill in your current and new passwords in the respective fields.
+4. Click the **Update password** button.
 
 ## Activate your account

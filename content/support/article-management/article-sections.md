@@ -1,10 +1,12 @@
 title: Article sections
+
 # Article sections
 
 Sections (article types) are ways of grouping articles by their content type, e.g. "Research articles" or "Reviews". You can create custom sections through the Section manager on on the Manager dashboard and configure their settings.
 ![" "](/content/support/images/manager-sections.png)
 
 ## Managing sections
+
 On this page, you can edit the sections available on your journal.
 
 For each section, you can provide the following information and settings:

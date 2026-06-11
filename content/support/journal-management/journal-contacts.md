@@ -1,15 +1,16 @@
 title: Journal contacts
+
 # Journal contacts
 
 You can control the contacts listing for your journal by adding and removing contacts through this interface. Only three fields are used for this:
 
-- Name  
+- Name
   - The contact's name.
 
-- Email  
+- Email
   - The email address that should be contacted.
 
-- Role  
+- Role
   - The contact's role, e.g. editor or reviewer.
 
 Each outgoing message is recorded in the database and can be viewed in the admin area by staff.

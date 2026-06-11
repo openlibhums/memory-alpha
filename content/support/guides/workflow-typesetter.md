@@ -9,6 +9,7 @@ When you are assigned a typesetting task in Janeway, you will receive an email n
 On the dashboard, you can see a block that displays the current number of open typesetting assignments. If you click on this block, it will take you to the **Typesetting Assignments** page, and you will be able to see both your currently open typesetting assignments (the top block) and your completed assignments (the bottom block).
 
 For open assignments, it will display:
+
 - Title
 - Current typesetting round
 - Date it was assigned
@@ -16,6 +17,7 @@ For open assignments, it will display:
 - Time to due date
 
 For completed assignments, it will display:
+
 - Title
 - Typesetting round
 - Date it was assigned
@@ -26,68 +28,75 @@ For completed assignments, it will display:
 You can then click **View Assignment** to display the assignment page.
 
 ## Typesetting assignments page
+
 On this page, you will find relevant information about the typesetting task. This will include the instructions, manuscript files, metadata, options to accept or decline the task, and space to upload completed files.
 
 !["The ‘Assignment information’ page."](../../support/images/workflow/typesetting-interface.png)
 
 This page is divided into three sections.
+
 - Assignment information
   - This section shows the typesetting guide, which the journal may use to provide a standard set of instructions for typesetting.
-  - You can view any comments from the editor or proofreaders. 
-  - You can access the files to typeset (manuscript files) and any supplementary files. 
+  - You can view any comments from the editor or proofreaders.
+  - You can access the files to typeset (manuscript files) and any supplementary files.
   - Under this, you will find space to upload your completed work and (if required) any source files.
 
 - Metadata
   - This is where you will find the metadata for the typesetting task.
 
 - Complete typesetting
-  - Under this section, you can leave any notes to the editors. 
+  - Under this section, you can leave any notes to the editors.
   - This is also where you will mark the assignment as complete to submit the uploaded files.
 
 ## Uploading a typeset file
+
 !["The files section of the typesetting page. It shows the ‘Files to typeset’, ‘Upload typeset files’ and ‘Upload source file’ options."](../../support/images/workflow/typesetting-files.png)
 
-Click **Upload a new typeset file** to upload your completed work. 
+Click **Upload a new typeset file** to upload your completed work.
 
 Source files (such as Adobe InDesign files) can be uploaded by clicking **Upload new source file**.
 
 !["The typeset file upload. It provides the options to add a label for the file, toggle whether the file should be publicly available after the article is published, choose a file to upload, and confirm the upload."](../../support/images/workflow/typesetting-upload.png)
 
-In this box, you can label your file with its file format. For instance, if this is an HTML file, you should label it as ‘HTML’. If it is a PDF, you should label it as ‘PDF’, etc. 
+In this box, you can label your file with its file format. For instance, if this is an HTML file, you should label it as ‘HTML’. If it is a PDF, you should label it as ‘PDF’, etc.
 
 Janeway will attempt to provide an appropriate label if this is left blank. However, if you wish to ensure the label is correct, you can manually enter the file type. For instructions on how to edit a label, see the section below.
 
 > [!WARNING]
->  Janeway operates with the UTF-8 encoding. Please ensure that you upload any HTML and XML files (plain text galleys) using this encoding.
+> Janeway operates with the UTF-8 encoding. Please ensure that you upload any HTML and XML files (plain text galleys) using this encoding.
 
 ## Editing typeset files and uploading additional files
-If you need to make changes to the typeset files, you can reupload them or upload additional files through the **Edit Typeset File** page. This page can be accessed by clicking **Edit**.
- 
- !["The ‘Upload typeset files’ section, showing two uploaded files. It also displays the figure files’ status: ‘N/A’ for a file with no figure files and ‘Missing figures’ for a file with missing figures."](../../support/images/workflow/typesetting-edit-button.png)
 
- !["The ‘Edit typeset file’ page."](../../support/images/workflow/typesetting-filehistory.png)
+If you need to make changes to the typeset files, you can reupload them or upload additional files through the **Edit Typeset File** page. This page can be accessed by clicking **Edit**.
+
+!["The ‘Upload typeset files’ section, showing two uploaded files. It also displays the figure files’ status: ‘N/A’ for a file with no figure files and ‘Missing figures’ for a file with missing figures."](../../support/images/workflow/typesetting-edit-button.png)
+
+!["The ‘Edit typeset file’ page."](../../support/images/workflow/typesetting-filehistory.png)
 
 The **Edit Typeset File** page is divided into three sections:
+
 - The typeset file
-	- You can replace the typeset file and see the file history here.
+  - You can replace the typeset file and see the file history here.
 
 - Typeset file details
-	- This is where you can edit the file label, which denotes the file type.
+  - This is where you can edit the file label, which denotes the file type.
 
 - Additional file uploads
-  - If authors or editors have already provided images, you can find and select them here. 
+  - If authors or editors have already provided images, you can find and select them here.
   - You can upload images as individual image files or using a ZIP file.
-  - There is space to upload a CSS file to accompany the galley. 
-  - You can change the XSLT file used to render the galley. 
+  - There is space to upload a CSS file to accompany the galley.
+  - You can change the XSLT file used to render the galley.
 
 ## Managing typeset files
-In the first section of the page, you can view the file currently uploaded and replace or download it. You can also view the file's history by clicking on the button under **History**. 
+
+In the first section of the page, you can view the file currently uploaded and replace or download it. You can also view the file's history by clicking on the button under **History**.
 
 This will open a page where you can download and reinstate previous versions or delete the current file entirely (in case you have uploaded an incorrect file).
 
 !["The File history and Metadata page."](../../support/images/workflow/typesetting-filehistory.png)
 
 ## Managing images and figure files
+
 !["A screenshot displaying the available options for adding image files: uploading a file in a section for a dedicated image (displaying its filename), uploading images as additional files or uploading a zip file."](../../support/images/workflow/typesetting-image-upload.png)
 
 When a file typeset in HTML or XML contains image links, Janeway will detect these and prompt you to upload the image files. The file names should match the `src` or `href` used in the XML/HTML and be relative (e.g. `src="fig1.jpg`).
@@ -97,11 +106,13 @@ If the image files have already been uploaded onto Janeway, you can select them 
 If you need to upload a large number of images, it might be faster to use the zip uploader (see **Upload ZIP file** in the picture below). To do so, create a ZIP archive file with all the image files. The image filenames must match the links in the typeset file; otherwise, they will not be imported.
 
 ## Styling
+
 On this page, you can also upload a CSS file associated with the article for an individual style, if required. We recommend avoiding style changes to the header and footer type elements, as this will affect the page's layout.
 
 You can also select the XSL file used to render the HTML from the file. Unless explicitly instructed otherwise, this will be the Janeway default (1.4.3). <!-- A bit unclear which case the following is referring to -->In that case, the editors will communicate this as part of the typesetting task or agreement.
 
 ### Finishing up
+
 Once you finish the typesetting (or correction) task, you can leave a note for the editor, click the button to complete the task and send it to the editor for review. Please note that you cannot return to this page once you complete the task.
 
 > [!NOTE]
@@ -110,6 +121,7 @@ Once you finish the typesetting (or correction) task, you can leave a note for t
 ## Typesetting recipes
 
 ### Right-to-left text direction
+
 Arabic and many other languages are written right to left, requiring
 special markup in an XHTML environment that operates left-to-right by
 default.
@@ -145,6 +157,7 @@ Notice the following about the code sample:
     arbitrary line breaks.
 
 ### Center alignment
+
 In some cases you might need to center-align text:
 
 <!-- prettier-ignore-start -->
@@ -157,7 +170,6 @@ In some cases you might need to center-align text:
 
 The output is:
 ![""](../../support/images/workflow/typesetting-text-align-center.png)
-
 
 This is accomplished with the the [styled-content JATS
 element](https://jats.nlm.nih.gov/publishing/tag-library/1.3/element/styled-content.html)

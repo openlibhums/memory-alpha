@@ -1,6 +1,7 @@
 title: Image guidelines
 
 # Image guidelines
+
 <!--
 This section describes the different images that can be uploaded in
 Janeway to customise the look and feel of your journal, as well as the
@@ -115,7 +116,7 @@ ratio.
 
 This small icon serves multiple purposes in the user's browser.
 
-From Wikipedia:  
+From Wikipedia:
 A favicon /ˈfæv.ɪˌkɒn/ (short for favorite icon), also known as a
 shortcut icon, website icon, tab icon, URL icon, or bookmark icon, is a
 file containing one or more small icons, associated with a particular
@@ -147,12 +148,12 @@ has for them, but it won't change the proportions of width to height.
 ![Header image in top left and large image in center, with OLH
 theme](../../nstatic/images/Home-page-screenshot.png)
 
-- Header image  
+- Header image
   - Typically the journal logo goes here. It appears in the top left corner
 on desktop or laptop screens, and at the top of the page on mobile
 devices.
 
-- Default large image  
+- Default large image
   - This image shows up in several places, depending on how your theme and
 home page are configured:
 
@@ -167,28 +168,27 @@ home page are configured:
 Use a wide image (about 4 parts width to 1 part height) with good
 resolution when set at 300 or 400 pixels tall.
 
-Press override image  
+Press override image
 This can be set to replace the press logo that appears in the footer
 when using the OLH theme or the clean theme.
 
-Default cover image  
+Default cover image
 The default image for issue covers when no image is set specifically for
 that issue.
 ![A screenshot indicating where the cover image displays.](../../nstatic/images/Issues.png)
 
-Default thumbnail  
+Default thumbnail
 The default image for each article when viewing an article list. A
 width-to-height ratio of about 3 to 4 is recommended. If no thumbnail is
 set, this defaults to the Janeway logo.
 ![A screenshot indicating where the thumbnail displays.](../../nstatic/images/Articles-screenshot.png)
 
-Favicon  
+Favicon
 The tiny little image you often see in the browser tab before the name
 of a webpage. Use a very small image of equal width and height. If not
 set, no Favicon will appear.
 
-Default Profile Image  
+Default Profile Image
 The default image used when editorial team groups have "Display profile
 images" enabled. The image is also used on the public profile page when
 a user has enabled it. -->
-

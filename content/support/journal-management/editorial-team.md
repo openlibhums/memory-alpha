@@ -1,4 +1,5 @@
 title: Editorial team
+
 # Editorial team
 
 <!-- how to find the interface -->
@@ -27,13 +28,13 @@ When you access the interface the form for making a new group is displayed on th
 
 Creating a new group allows you to add members and display them on the Editorial Team page. Each group is headed by the group name you supply.
 
-- Name  
+- Name
   - The group name, e.g. Editorial Team or Advisors.
 
-- Description  
+- Description
   - Displayed under the Name header on the Editorial Team page.
 
-- Sequence  
+- Sequence
   - The order in which the groups should be displayed. You can reorder the groups by editing their sequence or by dragging and dropping their record.
 
 ## Adding Members to a Group
@@ -47,6 +48,6 @@ On the left is a list of the current members, you can:
 - Delete a member from the group
 - Reorder the members by dragging and dropping a listing
 
-Journal users are listed on the right and you can add a user to the group using the *Add* button. If a user account does not exist for the user you can use the *Add New User* button to add them.
+Journal users are listed on the right and you can add a user to the group using the _Add_ button. If a user account does not exist for the user you can use the _Add New User_ button to add them.
 
 <!-- adding in bulk -> link to import plugin page -->

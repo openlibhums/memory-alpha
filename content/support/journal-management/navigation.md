@@ -1,4 +1,5 @@
 title: Navigation
+
 # Navigation
 
 The nav bar is made up of two kinds of items:
@@ -42,7 +43,6 @@ To do so, create a navigation item and check **Is external**, **For
 footer**, and **Extend to journals**.
 
 <!-- ![Custom footer links on a journal website set by a press manager.](../../nstatic/footer-olh.png) -->
-
 
 ## Styling
 

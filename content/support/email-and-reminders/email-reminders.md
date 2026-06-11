@@ -1,21 +1,22 @@
 title: Scheduling reminders
+
 # Scheduling reminders
 
 Janeway lets you define your own email reminders for overdue Reviews and Revision assignments. They are defined using the following:
 
-- Type  
+- Type
   - Review (new), Review (accepted) or Revision reminder.
 
-- Run Type  
+- Run Type
   - Whether to run before or after the request is due.
 
-- Days  
+- Days
   - The number of days before or after the request is due this reminder should be sent.
 
-- Template Name  
+- Template Name
   - The template name should be used when sending the reminder. If this template does not exist, you will be asked to create it.
 
-- Subject  
+- Subject
   - The email subject to send with the reminder.
 
 Janeway supports three types of reminder emails:
@@ -30,6 +31,7 @@ Janeway supports three types of reminder emails:
 Review reminders, both invited and accepted, are sent based on the review assignment due date set by the editor. Revision reminders are sent based on the revision request due date set by the editor. You can set reminders to be sent either before or after the set due date.
 
 A reminder email has access to three objects in the template:
+
 - Review_assignment or revision (depending on which type of reminder)
 - Journal
   - The journal sending the reminder.
@@ -44,4 +46,3 @@ Once a reminder is created, a Cron job <!-- missing hyperlink explaining what th
 
 > [!TIP]
 > If automated reminders are not being sent for your journal the most likely explanation is that the cron job has not been setup properly. You should contact your administrator, who can set up the call to the send_reminders management command.
-

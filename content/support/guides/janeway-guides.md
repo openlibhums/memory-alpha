@@ -1,16 +1,20 @@
 title: Janeway guides
+
 # Janeway guides
 
 # h1
+
 ## h2
+
 ### h3
+
 #### h4??
 
 **This is bold text**
 
-_This text is italicized_	
+_This text is italicized_
 
-This is an <ins>underlined</ins> text	
+This is an <ins>underlined</ins> text
 
 `???`
 
@@ -18,9 +22,9 @@ This site was built using [GitHub Pages](https://pages.github.com/).
 
 [Contribution guidelines for this project](../contributing-guide.md)
 
-* List
-  * Listy list
- 
+- List
+  - Listy list
+
 1. number
 2. two
 
@@ -46,11 +50,10 @@ This site was built using [GitHub Pages](https://pages.github.com/).
 
 ![" "](../images/all-settings-google.png)
 
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
-
+| First Header | Second Header |
+| ------------ | ------------- |
+| Content Cell | Content Cell  |
+| Content Cell | Content Cell  |
 
 <table><thead>
  <style>

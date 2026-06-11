@@ -1,4 +1,5 @@
 title: Google analytics
+
 # Google analytics
 
 **WIP**
@@ -15,4 +16,3 @@ Found through either general settings -> scroll down
 Or through all settings:
 
 ![" "](../../support/images/all-settings-google.png)
-
