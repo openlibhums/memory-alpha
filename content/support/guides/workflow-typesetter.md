@@ -147,14 +147,13 @@ Notice the following about the code sample:
 ### Center alignment
 In some cases you might need to center-align text:
 
-``` xml
-<p>Then came the apotheosis of modernism:</p>
-<disp-quote>
-    <styled-content style="text-align: center; display: block;">
-        Leaves are falling
-    </styled-content>
-</disp-quote>
+<!-- prettier-ignore-start -->
+```xml
+<styled-content style="text-align: center; display: block;">
+    Leaves are falling
+</styled-content>
 ```
+<!-- prettier-ignore-end -->
 
 The output is:
 ![""](../../support/images/workflow/typesetting-text-align-center.png)
