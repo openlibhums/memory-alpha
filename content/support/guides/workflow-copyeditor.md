@@ -41,7 +41,7 @@ Once you have clicked into a paper, the next page you see will be broken into fo
 
 ![The ‘Article files’ and ‘Copyedited files’ section. It shows the files, their filenames, labels and download buttons. There is also an upload file button for copyedited files.](../images/workflow/copyedit-files.png)
 
-This is where you can find the necessary files to complete the copyediting task. This will include the manuscript and other files, such as figures. You can upload the copyedited manuscript using the **Upload file** button.
+This is where you can find the necessary files to complete the copyediting task. This will include the manuscript and other files, such as figures. You can upload the copyedited manuscript using the <img src="../../support/images/upload-icon.png" width="12" height="12"/> **Upload file** button.
 
 ### Complete task
 

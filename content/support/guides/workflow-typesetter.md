@@ -25,7 +25,7 @@ For completed assignments, it will display:
 
 !["The ‘Typesetting assignments’ page."](../../support/images/workflow/typesetting-assignments.png)
 
-You can then click **View Assignment** to display the assignment page.
+You can then click **View assignment** to display the assignment page.
 
 ## Typesetting assignments page
 
@@ -41,8 +41,8 @@ This page is divided into three sections.
   - You can access the files to typeset (manuscript files) and any supplementary files.
   - Under this, you will find space to upload your completed work and (if required) any source files.
 
-- Metadata
-  - This is where you will find the metadata for the typesetting task.
+- Metadata  
+  This is where you will find the metadata for the typesetting task.
 
 - Complete typesetting
   - Under this section, you can leave any notes to the editors.
@@ -67,19 +67,19 @@ Janeway will attempt to provide an appropriate label if this is left blank. Howe
 
 ## Editing typeset files and uploading additional files
 
-If you need to make changes to the typeset files, you can reupload them or upload additional files through the **Edit Typeset File** page. This page can be accessed by clicking **Edit**.
+If you need to make changes to the typeset files, you can reupload them or upload additional files through the **Edit typeset file** page. This page can be accessed by clicking **Edit**.
 
 !["The ‘Upload typeset files’ section, showing two uploaded files. It also displays the figure files’ status: ‘N/A’ for a file with no figure files and ‘Missing figures’ for a file with missing figures."](../../support/images/workflow/typesetting-edit-button.png)
 
 !["The ‘Edit typeset file’ page."](../../support/images/workflow/typesetting-filehistory.png)
 
-The **Edit Typeset File** page is divided into three sections:
+This page is divided into three sections:
 
-- The typeset file
-  - You can replace the typeset file and see the file history here.
+- The typeset file  
+  You can replace the typeset file and see the file history here.
 
-- Typeset file details
-  - This is where you can edit the file label, which denotes the file type.
+- Typeset file details  
+  This is where you can edit the file label, which denotes the file type.
 
 - Additional file uploads
   - If authors or editors have already provided images, you can find and select them here.
@@ -103,7 +103,7 @@ When a file typeset in HTML or XML contains image links, Janeway will detect the
 
 If the image files have already been uploaded onto Janeway, you can select them instead.
 
-If you need to upload a large number of images, it might be faster to use the zip uploader (see **Upload ZIP file** in the picture below). To do so, create a ZIP archive file with all the image files. The image filenames must match the links in the typeset file; otherwise, they will not be imported.
+If you need to upload a large number of images, it may be faster to use the zip uploader (click on **Upload zip file**, highlighted in the image below). To do so, create a ZIP archive file with all the image files. The image filenames must match the links in the typeset file; otherwise, they will not be imported.
 
 ## Styling
 
@@ -113,7 +113,7 @@ You can also select the XSL file used to render the HTML from the file. Unless e
 
 ### Finishing up
 
-Once you finish the typesetting (or correction) task, you can leave a note for the editor, click the button to complete the task and send it to the editor for review. Please note that you cannot return to this page once you complete the task.
+Once you finish the typesetting (or correction) task, you can leave a note for the editor, click the button to complete the task and send it to the editor for review. Note that you cannot return to this page once you complete the task.
 
 > [!NOTE]
 > If you attempt to complete the typesetting task with potential issues remaining (e.g. missing image files, typeset files that have not been corrected), Janeway will warn you about this.
@@ -128,14 +128,14 @@ default.
 
 Here is an example in JATS XML of an isolated bit of Arabic text in a
 document that is otherwise left-to-right:
-![""](../../support/images/workflow/typesetting-arabic-rtl-jats-xml.png)
+![" "](../../support/images/workflow/typesetting-arabic-rtl-jats-xml.png)
 
 Make sure you use a text editor that shows zero-width unicode
 characters, like U-2067. The above screenshot is an XML file opened in
 VS Code.
 
 Here is the rendered output:
-![""](../../support/images/workflow/typesetting-arabic-rtl-rendered.png)
+![" "](../../support/images/workflow/typesetting-arabic-rtl-rendered.png)
 
 Notice the following about the code sample:
 
@@ -171,8 +171,4 @@ In some cases you might need to center-align text:
 The output is:
 ![""](../../support/images/workflow/typesetting-text-align-center.png)
 
-This is accomplished with the the [styled-content JATS
-element](https://jats.nlm.nih.gov/publishing/tag-library/1.3/element/styled-content.html)
-and a [style
-attribute](https://jats.nlm.nih.gov/publishing/tag-library/1.3/attribute/style.html)
-specifying CSS for center text alignment and block display.
+This is accomplished with the the [styled-content JATS element](https://jats.nlm.nih.gov/publishing/tag-library/1.3/element/styled-content.html) and a [style attribute](https://jats.nlm.nih.gov/publishing/tag-library/1.3/attribute/style.html) specifying CSS for center text alignment and block display.

@@ -8,7 +8,7 @@ The copyediting stage allows you to assign, track and complete copyediting tasks
 
 To start the copyediting of an article, the first thing you will need to do is open a copyediting task and assign a copyeditor. To do this, click **Add a copyedit assignment**.
 
-![" "](../images/workflow/editor-copyedit-add-assignment.png)
+!["The copyediting page, with the Add a copyedit assignment button highlighted."](../images/workflow/editor-copyedit-add-assignment.png)
 
 This will open a new page where you can do the following:
 
@@ -40,7 +40,7 @@ Before the task is accepted, you can edit the notes and due date or delete the a
 
 ## Review copyediting
 
-![" "](../images/workflow/editor-copyedit-review.png)
+!["The copyediting page, with two completed copyedits visible. The review buttons for both assignments are highlighted."](../images/workflow/editor-copyedit-review.png)
 
 The review copyedit page presents the response from the copyeditor, including their notes and any files they uploaded. You can download the copyedited manuscript using the <img src="../../support/images/download-icon.png" width="12" height="12"/> **Download** icon. You can also do one of three things under **Actions** on the right-hand side:
 
@@ -51,7 +51,7 @@ The review copyedit page presents the response from the copyeditor, including th
 - **Reopen the task**  
    Ask the copyeditor to make further changes.
 
-![" "](../images/workflow/editor-copyedit-review-page.png)
+!["The actions block."](../images/workflow/editor-copyedit-review-page.png)
 
 Requesting author review will ask the author to review the copyedit and inform the editor if any corrections are required. The author can also upload a file if they have made corrections or used track changes.
 

@@ -2,7 +2,7 @@ title: Submission notifications
 
 # Submission notifications
 
-Janeway allows editors and section editors to be notified when authors create submissions. It is possible to configure this by submission section (e.g. notifying book review editors only for submissions in the book review section) or by individual editors. If no editors are selected to receive submission notifications, all editors will receive notifications. This excludes section editors, they will always need to be manually assigned to relevant sections or will receive no submission notifications.
+Janeway allows editors and section editors to be notified when authors create submissions. It is possible to configure this by submission section (e.g. notifying book review editors only for submissions in the book review section) or by individual editors. If no editors are selected to receive submission notifications, all editors will receive notifications. This excludes section editors, as they will will receive no submission notifications if not manually assigned to relevant sections.
 
 <!-- This will need some stuff about the notifications around submissions, who can be notified and how, sections, section editors etc. Link to info about sections and section editors. -->
 

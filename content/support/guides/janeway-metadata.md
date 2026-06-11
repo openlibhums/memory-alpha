@@ -2,6 +2,8 @@ title: Metadata on Janeway
 
 # Metadata on Janeway
 
+_This is a work in progress_
+
 ## Managing metadata
 
 - How is metadata collected / created

@@ -15,7 +15,7 @@ Existing forms can be deleted clicking <img src="../../support/images/trashcan.p
 > [!Warning]
 > Deleting a review form can't be undone. Only delete forms if you are certain you will not need them again.
 
-![](../../support/images/review-forms-edit-delete.png)
+!["Deleting a review form."](../../support/images/review-forms-edit-delete.png)
 
 ## New review forms
 
@@ -36,4 +36,4 @@ Read more about creating custom forms and form elements here. <!-- Missing hyper
 
 The review form can be previewed using the **Preview** button, this can be done at any point when working on a review form.
 
-![](../../support/images/review-form-preview.png)
+!["The preview button."](../../support/images/review-form-preview.png)

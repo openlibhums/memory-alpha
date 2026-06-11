@@ -40,7 +40,7 @@ Articles usually have a DOI (Digital Object Identifier) automatically assigned a
 
 DOI links should redirect to the article, without intermediate steps. To ensure the redirect is working properly, you can check the number of "hops" shown in the bulleted list. There should be no more than two. See the image below for example.
 
-![“ “](../images/workflow/prepub_doi.png)
+![" "](../images/workflow/prepub_doi.png)
 
 If the DOI has more than two hops, or you see something else, you need to look more closely at the DOI's details. Select **Edit** and check the **Status** column for an indication of what to do next. See Interpreting DOI status for more information. <!-- missing hyperlink-->
 
@@ -88,7 +88,7 @@ Check the **Mark as Complete** box to move on to the next step.
 Once you have completed all the steps, you are ready to publish the article. The **Publish this article** button is located at the top of the page, on the right-hand side. Any remaining warnings, including options to address them, will accompany it.
 
 > [!NOTE]
-> The warning regarding whether an article is marked as peer reviewed will always remain. This allows editors to double-check this and easily adjust, if needed.
+> The warning regarding whether an article is marked as peer reviewed will always remain. This allows editors to double-check this and adjust, if needed.
 
 Once the **Publish this article** has been clicked, the article is now scheduled to publish at the specified time. Once an article is live, you can see it on the Articles page and you may wish to check if all files display correctly. For information on managing articles after publication, see: Content management. <!-- missing hyperlink -->
 

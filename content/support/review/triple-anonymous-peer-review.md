@@ -2,23 +2,23 @@ Title: Triple anonymous peer review
 
 # Triple anonymous peer review
 
-In addition to open, single and double anonymous review, Janeway provides the option to use triple anonymous peer review. When this is enabled, authors, reviewers, and editors are all anonymised until the review stage is complete. This review option is, however, slightly more complex than other forms of review.
+In addition to open, single and double anonymous review, Janeway provides the option to use triple anonymous peer review. When this is enabled, authors, reviewers, and editors are all anonymised until the review stage is complete. This review process is slightly more complex than other forms of anonymous review.
 
-Using triple anonymous review requires at least one member of the journal team to have non-anonymised access to screen articles at the submission stage. This editor will also need to act as a journal manager. The editors who require anonymised access to the submission need to be given the section editor role. These editors will not have full journal management permission, as this would inherently provide access to author data.
+Using triple anonymous review requires at least one member of the journal team to have non-anonymised access to screen articles at the submission stage. This editor will also need to act as a journal manager. The editors who require anonymised access to the submission need to be given the section editor role. These editors will not have full journal management permissions, as this would provide access to author data.
 
 ## Key settings for triple anonymous peer review
 
-Two settings must be configured for triple anonymous peer review to work: the personally identifiable information filter and the reply-to address.
+Two settings must be configured for triple anonymous peer review to work: the personally identifiable information filter and the reply-to address. These settings are accessible through the **All settings** page.
 
-- Section editor personally identifiable information filter (se_pii_filter)
-  - Turning on this setting means that all relevant author data will be anonymised for section editors when they are accessing Janeway. This enables them to access the review stage without encountering the author’s personal details.
+- Section editor personally identifiable information filter (se_pii_filter)  
+  Turning on this setting means that all relevant author data will be anonymised for section editors when they are accessing Janeway. This enables them to access the review stage without encountering the author’s personal details.
 
-![" "](../../support/images/see-filter.png)
+<!-- Should the two steps below be broken down further? -->
 
-- Reply-to address (replyto_address)
-  - In order to make triple anonymous review possible, author email addresses need to be hidden. Janeway masks these email addresses with your journal’s reply-to address, which you will need to fill in here.
-
-![" "](../../support/images/reply-to.png)
+- Reply-to address (replyto_address)  
+  In order to make triple anonymous review possible, author email addresses need to be hidden. Janeway masks these email addresses with your journal’s reply-to address, which you will need to fill in here.
+  !["All settings page with the Section editor personally identifiable information filter."](../../support/images/see-filter.png)
+  !["All settings page with the reply-to address setting."](../../support/images/reply-to.png)
 
 > [!NOTE]
 > Be sure to check that this is correctly formatted as a valid email address, as an incorrect one will mean author email addresses will be displayed and the review will no longer be anonymous.
@@ -39,12 +39,12 @@ Janeway applies anonymisation to the following areas:
 
 - Dashboards – this is applied not only on the main dashboard, but also on the kanban view and active submissions section.
 
-- Unassigned.
+- Unassigned. <!-- Information Missing -->
 
 - Review – the **Document manager** section will be disabled for section editors so that they cannot view any author details which might be stored there.
 
 - View metadata – section editors can view an anonymised version of the metadata, but are blocked from editing it to ensure that they have no access to author information.
 
-- Article log.
+- Article log. <!-- Information Missing -->
 
 - Email templates – this allows section editors to send decision letters (e.g. revision requests, acceptances or rejections) without seeing author details.
