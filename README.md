@@ -226,6 +226,18 @@ To add new installations:
 
 4. Commit the modified GeoJSON and SVG files to the Git history.
 
+### Export to DOCX via pandoc
+
+The end-user docs in `content/support` can be exported to a DOCX file tree that mirrors the Markdown tree.
+
+1. [Install pandoc](https://pandoc.org/installing.html).
+
+2. Run this command:
+
+   ```sh
+   python commands/export_to_docx_via_pandoc.py
+   ```
+
 ### CSS in general
 
 See the [CSS README](themes/alpha/static/css/README.md).

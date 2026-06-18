@@ -34,12 +34,22 @@ nodejs-bin[cmd]==18.4.0a4
     # via -r dev-requirements.in
 nodejs-cmd==0.0.1a0
     # via nodejs-bin
+pandoc==2.4
+    # via -r dev-requirements.in
+plumbum==2.0.1
+    # via pandoc
+ply==3.11
+    # via pandoc
 pyproj==3.7.1
     # via svgis
 svgis==0.5.4
     # via -r dev-requirements.in
 tinycss2==1.5.1
     # via svgis
+tqdm==4.68.3
+    # via -r dev-requirements.in
+typing-extensions==4.15.0
+    # via plumbum
 utm==0.8.1
     # via svgis
 webencodings==0.5.1
