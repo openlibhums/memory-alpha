@@ -205,7 +205,7 @@ For each missing image file, Janeway will present you with a block where you can
 
 > [!TIP]
 > For typeset files with a large number of images, you can also create a ZIP file containing all the images and upload it using the ZIP uploader. Janeway will match the images against the tags in the typeset files. Ensure the image names and file types are an exact match those in the typeset file.
-> 
+>
 > ![" "](../images/workflow/editor-typesetting-imagefiles-zipfile.png)
 
 ## Advanced styling
