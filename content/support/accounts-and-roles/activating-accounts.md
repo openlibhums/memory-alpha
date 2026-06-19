@@ -36,7 +36,7 @@ Once you have identified an inactive account through either **Journal users** or
 
 The user will now be able to login into the journal.
 
-### Troubleshooting
+<!-- ### Troubleshooting
 
 -Resending activation emails
 Only from admin?
@@ -48,7 +48,7 @@ Users usually activate through a link sent to them.
 /Does ORCID require activation?
 /Do author accounts automatically activate upon submission?
 /Do reviewer accounts with one-click review? -> check Mauro's suggested solution for the issue encountered.
-/Why can accounts be inactive? -> NEarly always because not activated. Rarely manually deactivated.
+/Why can accounts be inactive? -> NEarly always because not activated. Rarely manually deactivated. -->
 
 ## Authenticated users
 

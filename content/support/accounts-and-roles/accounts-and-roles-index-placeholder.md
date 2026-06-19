@@ -14,7 +14,7 @@ This section explains how user accounts and permissions work in Janeway, includi
 
 ## New accounts
 
-Account creation VS self-registration
+<!-- Account creation VS self-registration -->
 
 ## Single sign-on (SSO) login
 
