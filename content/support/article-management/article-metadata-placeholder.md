@@ -31,8 +31,6 @@ For published articles:
    c) Or scroll down to the author section and click **Edit author metadata**
    Alternatively, you can also click on **Logs, docs and more** and find these options in the dropdown menu.
 
-_Coming soon_
-
 ## Identifiers
 
 Identifiers can be managed on an indivual basis or, if using CrossRef DOIs, in bulk.

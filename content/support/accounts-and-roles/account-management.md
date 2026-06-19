@@ -33,7 +33,7 @@ From this page you can:
 
 Each user's assignment history (for example, editorial or review activity) is also available from this view.
 
-This page cannot be used to delete accounts, only deactivate them. Accounts can only be deleting using through the **Admin area** <!-- missing hyperlink>.
+This page cannot be used to delete accounts, only deactivate them. Accounts can only be deleting using through the **Admin area** <!-- missing hyperlink -->.
 
 ## All press users
 
