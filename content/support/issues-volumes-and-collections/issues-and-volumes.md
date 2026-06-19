@@ -2,16 +2,9 @@ title: Issues
 
 # Issues
 
-On Janeway, issues organise articles for publication. While articles do not
-have to be part of an issue, some external services (such as Crossref) require
-that articles be assigned to an issue. As such, we recommend using issues where
-possible. If your journal uses continuous publication, we recommend creating
-yearly issues to add articles to.
+On Janeway, issues organise articles for publication. While articles do not have to be part of an issue, some external services (such as Crossref) require that articles be assigned to an issue. As such, we recommend using issues where possible. If your journal uses continuous publication, we recommend creating yearly issues to add articles to.
 
-Articles are typically assigned to issues during the **Pre-publication** stage,
-but can be assigned a projected issue at any point in the publication workflow.
-Issues can also be managed independently through the **Issue manager**,
-available from both the **Manager** page and the main sidebar.
+Articles are typically assigned to issues during the **Pre-publication** stage, but can be assigned a projected issue at any point in the publication workflow. Issues can also be managed independently through the **Issue manager**, available from both the **Manager** page and the main sidebar.
 
 ## Issue types
 
@@ -24,13 +17,9 @@ Janeway provides two built-in issue types:
 
 ## Volumes
 
-Issues are automatically assigned to a volume. They can either have their own
-volume or share a volume with other issues (for example, Volume 1 - Issue 1,
-Volume 1 – Issue 2).
+Issues are automatically assigned to a volume. They can either have their own volume or share a volume with other issues (for example, Volume 1 - Issue 1, Volume 1 – Issue 2).
 
-You can use Volume 0 for ongoing thematic collections — especially those that are
-not tied to a specific year or publication sequence. Using Volume 0 also ensures
-they do not interrupt the listings of regular issues on the issue page.
+You can use Volume 0 for ongoing thematic collections — especially those that are not tied to a specific year or publication sequence. Using Volume 0 also ensures they do not interrupt the listings of regular issues on the issue page.
 
 > [!NOTE]
 > If no volume and issue numbers are specified when importing articles, they will be assigned to volume 0 issue 0. For this reason, it is recommended to avoid using volume 0 issue 0, as this may create duplicates when importing. This in turn can cause problems.

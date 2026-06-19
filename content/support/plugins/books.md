@@ -335,11 +335,7 @@ These headers are:
 Books import headers
 
 > [!Warning]
-> Due to a bug, UTF-8 does not seem to be properly recognised when
-> specific browser-editor combinations are used. We are investigating
-> this. If the file is not properly read upon upload, you may also wish to
-> try a regular .csv file (not UTF-8 encoded). If you still encounter an
-> error, contact Support.
+> Due to a bug, UTF-8 does not seem to be properly recognised when specific browser-editor combinations are used. We are investigating this. If the file is not properly read upon upload, you may also wish to try a regular .csv file (not UTF-8 encoded). If you still encounter an error, contact Support.
 
 Once the import file has successfully been uploaded, the imported books
 will show on the main dashboard. You can now click on these to upload

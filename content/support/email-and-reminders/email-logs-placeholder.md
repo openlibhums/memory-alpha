@@ -40,7 +40,7 @@ If the logged action relates to an email, additional details are available:
    The recipient(s) of the email, including any CC or BCC addresses.
 - Subject
 - Email status
-  Information about the delivery status of the email. See &&Interpreting email statuses\*\* below for more information. <!--missing hyperlink-->
+  Information about the delivery status of the email. See **Interpreting statuses** below for more information. <!--missing hyperlink-->
 - There is an option to click through to see the email content.
 
 ![Screenshot of an email log entry showing status and actions.](article-log.png)

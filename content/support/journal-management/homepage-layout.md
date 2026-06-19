@@ -2,7 +2,7 @@ title: Homepage customisation
 
 # Homepage customisation
 
-The Hhmepage customisation settings allow you to control which features appear on your journal’s home page and how they are displayed.
+The Homepage customisation settings allow you to control which features appear on your journal’s home page and how they are displayed.
 
 From this page, you can:
 

@@ -36,6 +36,7 @@ settings:
 ## Other settings
 
 Licenses, additional fields, subjects.
+
 _Coming soon_
 
 ## Linking a repository and journal

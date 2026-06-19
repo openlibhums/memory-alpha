@@ -25,8 +25,8 @@ Janeway has a variety of roles available that can be assigned to users, some of 
 - Copyeditor
 - Typesetter
 - Proofreader
-- Reader
-  - This is not a role as such, but it is used to indicate whether a user is signed up for article publication notifications. For more information, see Email notifications <!-- missing hyperlink -->
+- Reader  
+  This is not a role as such, but it is used to indicate whether a user is signed up for article publication notifications. For more information, see Email notifications <!-- missing hyperlink -->
 
 > [!NOTE]
 > Whilst the Production manager and Proofing manager are still assignable in Janeway, they have been deprecated in 1.4 and are no longer in use.

@@ -3,6 +3,7 @@ title: Google analytics
 # Google analytics
 
 _Coming soon_
+
 Allows you to measure activity on your web pages.
 
 - About Google analytics
