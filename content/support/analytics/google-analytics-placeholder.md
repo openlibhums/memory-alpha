@@ -4,7 +4,7 @@ title: Google analytics
 
 _Coming soon_
 
-Allows you to measure activity on your web pages.
+<!-- Allows you to measure activity on your web pages.
 
 - About Google analytics
 - Link to GA page
@@ -17,3 +17,4 @@ Found through either general settings -> scroll down
 Or through all settings:
 
 !["Google analytics settings shown on the All settings page"](../../support/images/all-settings-google.png)
+ -->
