@@ -2,84 +2,59 @@ title: Article metadata
 
 # Article metadata
 
-<!-- Siobhan: this is the only doc that I could not figure out how to merge when I was doing the big merge in the second week of June. -->
+There are several ways to access and edit an article's metadata in Janeway, depending on whether the article has been published. For more general information on metadata, see: metadata on Janeway<!-- missing hyperlink-->.
 
-<!-- start version 1 -->
+## Finding article metadata
 
-There are various ways to access an article's metadata depending on the status of an article. This page will provide an overview, for more general information on metadata, see: metadata on Janeway<!-- missing hyperlink-->.
+### Unpublished articles
 
-For unpublished articles, you can either scroll to the bottom-right corner with the decisions and select **View metadata** (granted an article is no longer in the unassigned stage), or you can:
+For articles that are in progress (that is, beyond the unassigned stage), you can access metadata in two ways.
+
+Using the **Actions panel:** Scroll to the bottom-right corner of the article page and select **View metadata**.
+
+Using the workflow bar:
 
 1. Go to the article page within the workflow.
-2. Click on **Logs, docs and more** on the right-hand side of the blue workflow progress bar.
-3. Select
-   a) **Article archive** if you wish to only see the metadata,
-   b) **Edit metadata** if you wish to edit it or,
-   c) **Edit author metadata** if you wish to edit the author metadata.
+2. Click **Logs, docs and more** on the right-hand side of the blue workflow progress bar.
+3. Select one of the following:
+   - **Article archive** to view the metadata.
+   - **Edit metadata** to edit it.
+   - **Edit author metadata** to edit the author metadata.
 
-![" "](/content/support/images/logs-docs-metadata.png)
+![Logs, docs and more menu open, showing Article archive, Edit metadata, and Edit author metadata options](/content/support/images/logs-docs-metadata.png)
 
-For published articles:
+### Published articles
 
-1. Find the published article.
-2. Click on the Account dropdown in the top-right corner.
-3. Click **Edit article** this will lead to the **Article archive** page, where you can view the article's metadata.
-   ![" ""](/content/support/images/front-end-metadata.png)
-4. You can now click on:
-   a) **Edit publication information**
-   b) **Edit metadata**
-   c) Or scroll down to the author section and click **Edit author metadata**
-   Alternatively, you can also click on **Logs, docs and more** and find these options in the dropdown menu.
+1. Find the published article on the journal front end.
+2. Click the **Account** dropdown in the top-right corner (make sure you are logged in).
+3. Click **Edit article**. This opens the **Article archive** page.
 
-## Identifiers
+   ![Account dropdown on the journal front end, showing the Edit article option](/content/support/images/front-end-metadata.png)
 
-Identifiers can be managed on an indivual basis or, if using CrossRef DOIs, in bulk.
+4. From the **Article archive** page, you can:
+   - Click **Edit publication information**.
+   - Click **Edit metadata**.
+   - Scroll to the author section and click **Edit author metadata**.
 
-Any identifiers such as DOIs are listed here and a link to manage them is in the top right of the block.
+   Alternatively, click **Logs, docs and more** to access these options from the dropdown menu.
 
-> [!TIP]
-> You can also manage DOIs at the journal level as an editor (and at the press level as a staff user) using the DOI Manager.
+## Editing metadata
 
-<!-- ![The article-level identifiers manager](../nstatic/edit-doi.png) -->
+![Logs, documents and more dropdown menu open, showing the Article archive and Edit metadata options](/content/support/images/logs-edit-metadata.png)
 
-See also: Identifiers <!-- missing hyperlink -->
+The first block of the **Article archive** page lists most of the article's metadata. To edit it, click **Edit**.
 
-## ROR
+![Top of the article archive page, with the Edit button highlighted](/content/support/images/article-archive-edit-metadata.png)
 
-Affiliation metadata in Janeway is managed using the [Research Organization Registry](https://ror.org/).They assign persistent identifiers to organizations, like DOIs for articles, ORCIDs for people, and ISBNs for books. This allows multiple names to be associated with a single organization, for easier discovery and display, and it adds to the possibilities for linked open data. To read more about RoR (and CRediT) on Janeway, see Metadata on Janeway<!-- missing hyperlink -->.
+This opens the **Edit metadata** page, where you can update the article's title, abstract, and other fields.
 
-## Publisher notes
+![Edit metadata page, displaying the title and abstract fields](/content/support/images/edit-metadata.png)
 
-Publisher notes appear on the article page below the abstract and how to cite block. These can be used to notify readers of small changes to the paper like a post-publication update to fix spelling etc. The publisher notes can be edited from the **Article archive** page.
+Scroll down and click **Update metadata** to save your changes.
 
-<!-- Publisher note on the OLH theme](../nstatic/publisher-note.png) -->
+![Update metadata button at the bottom of the Edit metadata page](/content/support/images/update-metadata.png)
 
-<!-- end version 1 -->
-
-<!-- start version 2 -->
-
-_Coming soon_
-
-<!-- -How to find article metadata.
-Published VS in-progress -->
-
-Article metadata can be edited through either the **Archive** page or through **Edit metadata**. Both can be found under **Logs, documents and more** in the blue workflow bar.
-
-![" "](../images/logs-edit-metadata.png)
-
-The first block of the **Article archive** page lists most of the article's metadata. To change it you can click **Edit** button.
-
-![Top of the article archive page](../images/article-archive-edit-metadata.png)
-
-This will take you to the following page, where you can edit the article's metadata:
-
-!["Edit metadata page, displaying the title and abstract."](../images/edit-metadata.png)
-
-Make sure you scroll down and click **Update metadata** to save any changes.
-
-![" "](../images/update-metadata.png)
-
-On this page, after the block for the article metadata, you can also edit the author metadata and funder information.
+Below the article metadata block, you can also edit author metadata and funder information.
 
 ## Metadata fields
 
@@ -87,36 +62,30 @@ _Coming soon_
 
 ## Identifiers
 
-Janeway can mint CrossRef and DataCite DOIs <!-- missing hyperlinks --> and if working with data imported from other platforms can also maintain existing publisher IDs, such as an OJS ID.
+Janeway can mint CrossRef and DataCite DOIs<!-- missing hyperlinks --> and, if working with data imported from other platforms, can also maintain existing publisher IDs such as an OJS ID. Identifiers can be managed on an individual basis or, for CrossRef DOIs, in bulk.
 
-Identifiers associated with an article can be found through **Identifiers** under **Logs, documents and more**. Though DataCite DOIs will not show up here and need to be managed through the DataCite plugin. <!--missing hyperlink-->
+Identifiers associated with an article can be found through **Identifiers** under **Logs, documents and more**.
 
-!["The identifiers page. It displays a list of identifiers associated with the journal, including a DOI, OJS id and DOAJ is. There are columns for each showing whether they are registered, and for DOI showing options to register, poll, desposit and view the response XML. There are also delete buttons for all identifiers."](../images/article-identifiers.png)
+![The identifiers page, displaying a list of identifiers associated with the article, including a DOI, OJS ID, and DOAJ ID. For DOIs, there are options to register, poll, deposit, and view the response XML. Delete buttons are available for all identifiers.](/content/support/images/article-identifiers.png)
 
 > [!TIP]
-> You can also manage CrossRef DOIs at the journal level as an editor (and at the press level as a staff user) using the DOI Manager.
+> **Advanced:** You can also manage CrossRef DOIs in bulk at the journal level as an editor (and at the press level as a staff user) using the DOI Manager.
+
+> [!NOTE]
+> **Advanced:** DataCite DOIs do not appear on the identifiers page and must be managed through the DataCite plugin.<!--missing hyperlink-->
+
+See also: Identifiers<!-- missing hyperlink -->
+
+## ROR
+
+Affiliation metadata in Janeway is managed using the [Research Organization Registry](https://ror.org/). ROR assigns persistent identifiers to organizations, similar to how DOIs identify articles, ORCIDs identify people, and ISBNs identify books. This allows multiple names to be associated with a single organization, making discovery and display easier and enabling linked open data. To read more about ROR (and CRediT) on Janeway, see Metadata on Janeway<!-- missing hyperlink -->.
 
 ## Google Scholar
 
-Google Scholar indexing is automatic; they use a webcrawler that looks for relevant materials (articles, monographs, preprints, reports, etc). It takes some time for new journals to appear on Google Scholar and for changes to existing content to show. [Google Scholar advises](https://scholar.google.com/intl/en/scholar/inclusion.html#troubleshooting) it may take 6-9 months for changes to appear.
+Google Scholar indexing is automatic. Google uses a web crawler to identify relevant materials such as articles, monographs, preprints, and reports. It takes some time for new journals to appear on Google Scholar, and for changes to existing content to show. [Google Scholar advises](https://scholar.google.com/intl/en/scholar/inclusion.html#troubleshooting) that changes may take 6–9 months to appear.
 
-If your journal is not properly indexed, contact support, we work with Google Scholar to make sure all journals are captured
-
- <!-- - Metadata issues
-    - Gotta compare galleys against meta-tags in the HTML.
-   
-[Google Scholar documentation.](https://scholar.google.com/intl/en/scholar/inclusion.html#overview)
+If your journal is not indexed correctly, contact support. When investigating indexing issues yourself, compare the galleys against the meta-tags in the HTML to check for discrepancies.
 
 ## Publisher notes
 
-Publisher notes appear on the article page below the abstract and how to cite block. These can be used to notify readers of small changes to the paper like a post-publication update to fix spelling etc. The publisher notes can be edited from the **Article archive** page.
-
-## Credit
-
-## ORCID
-
-## Funder ref
-
--->
-
-<!-- end version 2 -->
+Publisher notes appear on the article page below the abstract and how-to-cite block. They can be used to notify readers of minor changes to a paper, such as a post-publication correction for a spelling error. Publisher notes can be edited from the **Article archive** page.
