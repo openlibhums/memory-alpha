@@ -56,10 +56,6 @@ Scroll down and click **Update metadata** to save your changes.
 
 Below the article metadata block, you can also edit author metadata and funder information.
 
-## Metadata fields
-
-_Coming soon_
-
 ## Identifiers
 
 Janeway can mint CrossRef and DataCite DOIs<!-- missing hyperlinks --> and, if working with data imported from other platforms, can also maintain existing publisher IDs such as an OJS ID. Identifiers can be managed on an individual basis or, for CrossRef DOIs, in bulk.

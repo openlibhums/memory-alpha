@@ -2,59 +2,70 @@ title: Articles
 
 # Articles
 
-_To be edited_
+Once an article is published, you may need to change it — for example, to upload a new galley or correct a metadata error. All published articles can be found on the **Published articles** page under **Back content** in the left-hand sidemenu.
 
-Once an article is published, you may need to change it, e.g., upload a new galley or tweak the metadata if there is an error.
-
-All published articles can be found on the Articles page under Back Content. The Article back content page lists both published and rejected papers. You can search and then select an article to edit.
+Archived and rejected papers can be found under **Archived articles**. On either page, you can search and then select an article to edit.
 
 > [!TIP]
-> You can also edit papers by going to their page and using the account drop-down to select **Edit article**.
+> You can also edit a published article by going to its page on the journal front end and selecting **Edit article** from the account dropdown.
 
 <!-- ![Top of the article archive page](../nstatic/article-archive.png) -->
 
-## Article Archive
+## How to use the article archive page
 
-From this page you can:
+From the **Article archive** page, you can:
 
 - Edit metadata
 - Edit publication information
-- Add/remove images
-- Create Publisher Notes
+- Add or remove images
+- Create publisher notes
 - Manage identifiers
 - Manage galley files
 - Manage which issues an article appears in
-- If an article is rejected, unreject the article
+- Unreject a previously rejected article
 
-### Publisher Notes
+## Issues
 
-Publisher notes appear on the article page below the abstract and how to cite block. These can be used to notify readers of small changes to the paper like a post-publication update to fix spelling etc.
+The issues that an article belongs to are listed at the bottom of the Article archive page. From here you can edit individual issues or go to the issue manager.
 
-<!-- Publisher note on the OLH theme](../nstatic/publisher-note.png) -->
+## Archiving an article
 
-### Issues
+To archive an article that is in progress:
 
-You can see the issues that an article is part of at the bottom of the Article Archive page. You can edit each of the issues or jump to the issue manager.
+1. Select the article.
+2. Click **Logs, docs and more** on the right-hand side of the blue workflow progress bar.
+3. Click **Manage workflow stage**.
+4. Click **Archive article**.
 
-<!-- ![Archive issue block](../nstatic/archive-issue.png) -->
+## Restoring archived or rejected articles
 
-### Actions
+To move an article back into the workflow:
 
-You can unreject a previously rejected article using this button. You will have the opportunity to write an email to the author before the change takes effect.
+1. Select the article.
+2. Click **Logs, docs and more** on the right-hand side of the blue workflow progress bar.
+3. Click **Manage workflow stage**.
+4. Click **Move to stage** to return the article to the stage it was at before it was archived or rejected.
 
-If the article was previously assigned to an editor, the article will move to the Review stage. Otherwise, it will move to the Unassigned stage.
+Article rejections can also be undone directly from the Article archive page using the **Undo article rejection** button.
 
-### Article Display Settings
+![Undo article rejection button](/content/support/images/undo-rejection.png)
 
-The Article Display Settings page has settings for controlling the way articles look and for deciding how metrics are displayed.
+If the article was previously assigned to an editor, it will move to the Review stage. Otherwise, it will move to the Unassigned stage.
 
-- Disable Article Images
-- Display Guest Editors
-- Suppress How to Cite
-- View PDF Option
-- Disable Metrics Display
-- Suppress Citation Metrics
+## Article display settings
 
-How To Cite is an auto-generated citation based on a custom OLH citation style. Note that a previous version of the citation included "p" before page ranges. To get this back, enter a custom value in Page Numbers in the Edit Metadata pane for each article.
+<!--This should probably eventually move elsewhere-->
 
-You can suppress How To Cite for all articles with Suppress How To Cite. You can also override it for individual articles by entering a custom citation in the Edit Metadata pane for each article.
+The **Article display** page has settings for controlling how articles look and how metrics are displayed.
+
+- Disable article images
+- Display guest editors
+- Suppress how to cite
+- View PDF option
+- Disable metrics display
+- Suppress citation metrics
+
+How to cite is an auto-generated citation based on a custom OLH citation style. You can suppress it for all articles using **Suppress how to cite**. You can also override it for individual articles by entering a custom citation in the **Edit metadata** pane for each article.
+
+> [!NOTE]
+> A previous version of the citation included "p" before page ranges. To restore this, enter a custom value in the **Page numbers** field in **Edit metadata** for each article.
