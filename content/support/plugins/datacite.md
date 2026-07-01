@@ -15,12 +15,6 @@ Use this plugin when your membership is with DataCite instead of, or in addition
 
 A server administrator sets your DataCite credentials (username, password, and DOI prefix) when the plugin is installed. These values are not editable from the journal interface, so contact your administrator if they need to change.
 
-### Advanced: test deposits
-
-This part is aimed at server administrators; you do not need to understand it to use the plugin.
-
-While a site runs in debug mode, the plugin deposits to DataCite's test API rather than the live one. DOIs minted against the test system do not resolve and are periodically cleared by DataCite.
-
 ## Opening the plugin
 
 To open the plugin, go to the manager and select **DataCite** from the list of plugins. The plugin's home page gives you three options:
@@ -91,3 +85,9 @@ For an article that already has a DOI, minting again from the **Article list** r
 
 > [!TIP]
 > To see the exact metadata Janeway will send, use the article's export option. It returns the DataCite JSON for that article without depositing anything.
+
+## Test deposits
+
+This is a technical detail that server administrators may find useful.
+
+While a site runs in debug mode, the plugin deposits to DataCite's test API rather than the live one. DOIs minted against the test system do not resolve and are periodically cleared by DataCite.
