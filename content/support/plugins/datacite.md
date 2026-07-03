@@ -4,7 +4,7 @@ title: DataCite plugin
 
 [GitHub Repo](https://github.com/openlibhums/datacite)
 
-The DataCite plugin is an alternative to Janeway's built-in Crossref support. It registers Digital Object Identifiers (DOIs) with [DataCite](https://datacite.org/) rather than Crossref, and it manages the deposit for you. DOIs are still stored on the core identifier record for each article, so the rest of Janeway treats a DataCite DOI the same way it treats any other DOI.
+The DataCite plugin is an alternative to Janeway's built-in Crossref support. It registers Digital Object Identifiers (DOIs) with [DataCite](https://datacite.org/) rather than Crossref, and it manages the deposit for you. DOIs are stored on the same identifier record as with Crossref DOIs, so the rest of Janeway treats a DataCite DOI the same way it treats any other DOI.
 
 Use this plugin when your membership is with DataCite instead of, or in addition to, Crossref.
 
@@ -85,9 +85,3 @@ For an article that already has a DOI, minting again from the **Article list** r
 
 > [!TIP]
 > To see the exact metadata Janeway will send, use the article's export option. It returns the DataCite JSON for that article without depositing anything.
-
-## Test deposits
-
-This is a technical detail that server administrators may find useful.
-
-While a site runs in debug mode, the plugin deposits to DataCite's test API rather than the live one. DOIs minted against the test system do not resolve and are periodically cleared by DataCite.
