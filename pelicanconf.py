@@ -85,7 +85,7 @@ DISPLAY_CATEGORIES_ON_MENU = False
 LEFT_NAV_ITEMS = [
     ('Our story', '/pages/our-story.html', ""),
     ('Hosting', '/pages/hosting.html', ""),
-    ('Support', '/pages/support0.html', ""),
+    ('Support', '/pages/support.html', ""),
 ]
 RIGHT_NAV_ITEMS = [
     ('Symposium', 'https://thelowerdecks.janeway.systems/', "_blank"),
