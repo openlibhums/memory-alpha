@@ -3,9 +3,10 @@ from datetime import datetime
 import logging
 
 
+TESTING = True
 AUTHOR = 'Open Library of Humanities'
 SITENAME = 'Janeway'
-SITEURL = "https://janeway.systems"
+SITEURL = "http://localhost:8000" if TESTING else "https://janeway.systems"
 
 PATH = "content"
 
@@ -49,16 +50,19 @@ STYLESHEET_URL = 'theme/css/index.css'
 # via the GitHub user interface, using the Preview tab in the markdown editor
 # to check the content is rendering as expected.
 PATH_METADATA = r'(?P<path_no_ext>.*)\..*'
-ARTICLE_URL = ARTICLE_SAVE_AS = '{path_no_ext}.html'
+ARTICLE_URL = ARTICLE_SAVE_AS = PAGE_URL = PAGE_SAVE_AS = '{path_no_ext}.html'
 
-# Where to put and serve pages
-# PAGE_URL = '{slug}.html'
-# PAGE_SAVE_AS = '{slug}.html'
+# Default metadata for all pages and articles
+DEFAULT_METADATA = {
+    # The default alpha_site is support so that we do
+    # not have to specify it in every docs Markdown file.
+    "alpha_site": "support",
+}
 
 # Static
 STATIC_PATHS = [
-    'support/images',
-    'support/downloadables',
+    'pages/support/images',
+    'pages/support/downloadables',
 
     # Legacy paths from old docs
     # that we will eventually remove
@@ -80,15 +84,11 @@ DISPLAY_PAGES_ON_MENU = False # We want to set the order manually
 DISPLAY_CATEGORIES_ON_MENU = False
 LEFT_NAV_ITEMS = [
     ('Our story', '/pages/our-story.html', ""),
-    # ('Explore', '#', ''), Not in scope for MVP
     ('Hosting', '/pages/hosting.html', ""),
-    ('Support', '/pages/support.html', ""),
-    # ('People', '#', ''), Not in scope for MVP
+    ('Support', '/pages/support0.html', ""),
 ]
 RIGHT_NAV_ITEMS = [
-    # ('Book a Demo', '#', '') Not in scope for MVP
     ('Symposium', 'https://thelowerdecks.janeway.systems/', "_blank"),
-    # ('Support', '/support/under-construction.html', "_blank"),
     ('Source code', 'https://github.com/openlibhums/janeway', "_blank"),
 ]
 FOOTER_LINKS = [
@@ -104,16 +104,11 @@ ALL_PAGES =  [
 # jinja2content plugin
 JINJA2CONTENT_TEMPLATES = [
     'pages',
-    'support',
     'old-docs', # temporary until new docs are complete
 ]
 
 # Use mtime of files as date in webpage metadata
 DEFAULT_DATE = 'fs'
-
-# Take the 'categories' feature and temporarily
-# mis-use it to create a working contents tree for docs
-CATEGORIES_SAVE_AS = 'support/under-construction.html'
 
 JINJA_ENVIRONMENT = {
     'extensions': ['jinja2.ext.do'],
@@ -128,9 +123,6 @@ JINJA_GLOBALS = {
     "current_year": datetime.now().strftime("%Y"),
     "installation_map_json": json.loads(installation_json),
 }
-
-GH_MAIN_CONTENT_URL = 'https://github.com/BirkbeckCTP/memory-alpha/edit/main/content'
-GH_COPYEDIT_CONTENT_URL = 'https://github.com/BirkbeckCTP/memory-alpha/edit/copyediting/content'
 
 # Filter out empty alt warnings, which do not account for the primary method of
 # marking images as decorative, which is alt=""

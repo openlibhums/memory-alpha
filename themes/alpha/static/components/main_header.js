@@ -1,8 +1,8 @@
 export function slideDrawer() {
   const slideDrawer = document.getElementById("slide-drawer");
-  const mainNav = document.getElementById("main-nav");
+  const mainHeader = document.getElementById("main-header");
 
   slideDrawer?.addEventListener("click", function () {
-    mainNav?.classList.toggle("open");
+    mainHeader?.classList.toggle("open");
   });
 }

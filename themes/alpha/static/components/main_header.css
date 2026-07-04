@@ -1,4 +1,21 @@
-.main-nav {
+.main-header {
+  --clr-background: var(--clr-alpha-black);
+  --clr-foreground: var(--clr-alpha-white);
+  position: relative;
+  .background-pane-left,
+  .background-pane-right {
+    top: 0px;
+    bottom: 0px;
+    width: 50vw;
+    position: absolute;
+  }
+  .background-pane-left {
+    right: 50%;
+  }
+  .background-pane-right {
+    left: 50%;
+  }
+
   .nav-container {
     display: flex;
     justify-content: space-between;
@@ -14,7 +31,7 @@
     padding: 0;
     margin: 0;
     display: flex;
-    column-gap: 1rem;
+    column-gap: var(--space-2xs);
     row-gap: 1rem;
   }
 
@@ -36,7 +53,7 @@
     color: var(--clr-alpha-white);
     font-family: var(--ff-poppins-medium);
     position: relative;
-    padding: 0.7rem 0;
+    padding: 0.7rem var(--space-3xs);
   }
 
   .left,
@@ -134,7 +151,7 @@
 
 /* Mobile view: Hide left and right UL, display slide-drawer */
 @media (width <= 50rem) {
-  .main-nav {
+  .main-header {
     .left ul,
     .right ul {
       display: none;
@@ -153,7 +170,7 @@
 
 /* Desktop view: Always display left and right UL, hide slide-drawer */
 @media (width > 50rem) {
-  .main-nav {
+  .main-header {
     .left ul,
     .right ul {
       display: flex;

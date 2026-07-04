@@ -1,8 +1,18 @@
 {# A component to display the main navigation. #}
 {% from "components/laser_link.html" import laser_link %}
 
-{% macro main_nav(LEFT_NAV_ITEMS, RIGHT_NAV_ITEMS, output_file) -%}
-  <nav id="main-nav" class="main-nav">
+{% macro main_header(LEFT_NAV_ITEMS, RIGHT_NAV_ITEMS, output_file) -%}
+  <nav id="main-header" class="main-header">
+    {% if output_file != "index.html" %}
+      {#
+        On most pages it makes sense to set the color mode explicitly for the
+        header, since the page can vary bewtween "main" and "alpha" site
+        types. However, this would interfere with the full-height swoosh
+        on the main landing page.
+      #}
+      <div class="background-pane-left bg-alpha-black"></div>
+      <div class="background-pane-right bg-alpha-black"></div>
+    {% endif %}
     <div class="nav-container">
       <div class="left">
         <ul>
@@ -17,7 +27,7 @@
       </div>
       {% if output_file != "index.html" %}
         <div class="logo">
-          <a href="/"> {% include "svg/janeway-logo-white.svg" %} </a>
+          <a href="/"> {% include "svg/janeway-logo-foreground.svg" %} </a>
         </div>
       {% endif %}
       <div class="right">

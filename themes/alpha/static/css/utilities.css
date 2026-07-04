@@ -1,4 +1,6 @@
-/* Page container to set left and right boundaries */
+/* Page container to set left and right boundaries
+ * and establish grid for header, main, and footer layout
+ * so content has same height even if much shorter than viewport. */
 .container {
   margin-inline: auto;
   max-width: var(--container-max-width);
@@ -8,6 +10,12 @@
   @media (width > 50rem) {
     padding-inline: var(--container-padding-large);
   }
+  display: flex;
+  flex-direction: column;
+
+}
+.container > :nth-last-child(2) {
+  flex-grow: 1;
 }
 
 /* Add spacing flexibly between elements */
@@ -74,6 +82,9 @@
 .bg-alpha-yellow {
   --clr-background: var(--clr-alpha-yellow);
   background-color: var(--clr-background);
+}
+.fill-foreground {
+  fill: var(--clr-foreground);
 }
 .fill-alpha-black {
   fill: var(--clr-alpha-black);
@@ -455,7 +466,12 @@
 }
 
 /* Hide overflow on the left and right of an element */
-
 .overflow-x-hidden {
   overflow-x: hidden;
+}
+
+/* Maintain minimum height of webpage so footer still appears at the bottom
+ * even if there is very little content */
+.min-height-viewport {
+  min-height: 100vh;
 }

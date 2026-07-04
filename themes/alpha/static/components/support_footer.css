@@ -1,0 +1,6 @@
+.support-footer {
+  .logo svg {
+    height: 4rem;
+  }
+  margin-block-end: var(--space-s);
+}

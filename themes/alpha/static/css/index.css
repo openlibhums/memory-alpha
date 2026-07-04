@@ -15,16 +15,17 @@
 @import "../components/button.css" layer(components);
 @import "../components/dot_carousel.css" layer(components);
 @import "../components/example_component.css" layer(components);
-@import "../components/footer.css" layer(components);
 @import "../components/george_space_splash.css" layer(components);
 @import "../components/hosting_splash.css" layer(components);
 @import "../components/icon_plus_action.css" layer(components);
 @import "../components/installation_map.css" layer(components);
 @import "../components/journal_cover_grid.css" layer(components);
 @import "../components/laser_link.css" layer(components);
+@import "../components/licensing_line.css" layer(components);
 @import "../components/link_list.css" layer(components);
 @import "../components/loud_heading.css" layer(components);
-@import "../components/main_nav.css" layer(components);
+@import "../components/main_header.css" layer(components);
+@import "../components/main_footer.css" layer(components);
 @import "../components/new_way_slogan.css" layer(components);
 @import "../components/page_h1.css" layer(components);
 @import "../components/page_section.css" layer(components);
@@ -34,6 +35,7 @@
 @import "../components/signature.css" layer(components);
 @import "../components/slide_gallery.css" layer(components);
 @import "../components/speak_to_us.css" layer(components);
+@import "../components/support_footer.css" layer(components);
 @import "../components/tick_list.css" layer(components);
 @import "../components/timeline_wheel.css" layer(components);
 @import "../components/quote_by.css" layer(components);

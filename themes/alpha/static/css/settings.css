@@ -37,10 +37,6 @@
   --clr-alpha-red: #bb4e30;
   --clr-alpha-yellow: #c08031;
 
-  /* Semantic colours */
-  --clr-background: var(--clr-alpha-black);
-  --clr-foreground: var(--clr-alpha-white);
-
   /* Font families */
   --ff-poppins-regular: "Poppins Regular", sans-serif;
   --ff-poppins-medium: "Poppins Medium", sans-serif;
@@ -92,6 +88,21 @@
   --container-max-width: 72rem;
   --container-padding-small: 1rem;
   --container-padding-large: 2rem;
+
+}
+
+/* Settings for the main site */
+:root > [data-alpha-site="main"] {
+  /* Semantic colours */
+  --clr-background: var(--clr-alpha-black);
+  --clr-foreground: var(--clr-alpha-white);
+}
+
+/* Settings for the support site */
+:root > [data-alpha-site="support"] {
+  /* Semantic colours */
+  --clr-background: var(--clr-alpha-white);
+  --clr-foreground: var(--clr-alpha-black);
 }
 
 /* Common animation keyframes */

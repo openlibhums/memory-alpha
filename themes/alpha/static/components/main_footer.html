@@ -3,7 +3,7 @@
 {% from "components/link_list.html" import link_list %}
 {% from "components/button.html" import button %}
 
-<footer class="footer">
+<div class="main-footer">
   <div class="circle-wrapper-top">
     <svg
       class="circle circle-top"
@@ -67,39 +67,5 @@
       </li>
     {% endfor %}
   {% endcall %}
-  <div class="flow">
-    <p class="licensing-line flex direction-column-small">
-      <span class="copyright">
-        Copyright &copy; 2017&ndash;{{ current_year }}
-        <a target="_blank" href="https://www.bbk.ac.uk/">
-          Birkbeck, University of London
-        </a>
-      </span>
-      <span class="agpl">
-        Software
-        <a
-          href="https://github.com/openlibhums/janeway?tab=AGPL-3.0-1-ov-file#readme"
-          target="_blank"
-        >
-          AGPLv3
-        </a>
-      </span>
-      <span class="cc-by">
-        Content
-        <a
-          rel="license"
-          href="http://creativecommons.org/licenses/by/4.0/"
-          target="_blank"
-        >
-          CC BY 4.0
-        </a>
-      </span>
-      <span class="design-by">
-        Design by
-        <a href="https://www.keepingthewolvesatbay.co.uk" target="_blank">
-          KTWAB
-        </a>
-      </span>
-    </p>
-  </div>
-</footer>
+  {% include "components/licensing_line.html" %}
+</div>
