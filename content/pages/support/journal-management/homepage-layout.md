@@ -16,7 +16,7 @@ From this page, you can:
 
 To add a homepage element, select **Add** next to the feature you want to add. Once it has been added, click **Configure** to view its options. You can reorder elements by dragging and dropping them. To delete a homepage element, click the **Delete** icon.
 
-Any changes take effect immediately, if you do not see them you may need to clear your cache. <!-- missing hyperlink -->
+Any changes take effect immediately, if you do not see them you may need to [clear your cache](./cache.md).
 
 ## Homepage features
 
@@ -29,10 +29,10 @@ Any changes take effect immediately, if you do not see them you may need to clea
   - Latest news.
   - A combination of both.
 
-You can select the number of items to display and the items you want to include or exclude. For more information, see carousel configuration. <!--missing hyperlink-->
+You can select the number of items to display and the items you want to include or exclude. For more information, see [carousel configuration](./carousel.md). 
 
 - Current issue  
-  Takes whichever issue is marked as current and displays its table of contents on the home page. To learn how to select a current issue, check the issue page. <!--missing hyperlink-->
+  Takes whichever issue is marked as current and displays its table of contents on the home page. To learn how to select a current issue, check the [issues page](../issues-volumes-and-collections/index.md).
 
 - Featured articles  
    This option allows you to select a series of articles to display on the homepage. The selected articles are displayed in a grid, cascading onto a new line every three articles.

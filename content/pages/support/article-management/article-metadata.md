@@ -2,7 +2,7 @@ title: Article metadata
 
 # Article metadata
 
-There are several ways to access and edit an article's metadata in Janeway, depending on whether the article has been published. For more general information on metadata, see: metadata on Janeway<!-- missing hyperlink-->.
+There are several ways to access and edit an article's metadata in Janeway, depending on whether the article has been published. For more general information on metadata, see: [metadata on Janeway](../article-management/article-metadata.md).
 
 ## Finding article metadata
 
@@ -58,7 +58,7 @@ Below the article metadata block, you can also edit author metadata and funder i
 
 ## Identifiers
 
-Janeway can mint CrossRef and DataCite DOIs<!-- missing hyperlinks --> and, if working with data imported from other platforms, can also maintain existing publisher IDs such as an OJS ID. Identifiers can be managed on an individual basis or, for CrossRef DOIs, in bulk.
+Janeway can mint [CrossRef](../identifiers/crossref-article-doi.md) and [DataCite DOIs](../identifiers/datacite-dois.md) and, if working with data imported from other platforms, can also maintain existing publisher IDs such as an OJS ID. Identifiers can be managed on an individual basis or, for CrossRef DOIs, in bulk.
 
 Identifiers associated with an article can be found through **Identifiers** under **Logs, documents and more**.
 
@@ -68,13 +68,13 @@ Identifiers associated with an article can be found through **Identifiers** unde
 > **Advanced:** You can also manage CrossRef DOIs in bulk at the journal level as an editor (and at the press level as a staff user) using the DOI Manager.
 
 > [!NOTE]
-> **Advanced:** DataCite DOIs do not appear on the identifiers page and must be managed through the DataCite plugin.<!--missing hyperlink-->
+> **Advanced:** DataCite DOIs do not appear on the identifiers page and must be managed through the [DataCite plugin](../identifiers/datacite-dois.md).
 
-See also: Identifiers<!-- missing hyperlink -->
+See also: [Identifiers](../identifiers/index.md).
 
 ## ROR
 
-Affiliation metadata in Janeway is managed using the [Research Organization Registry](https://ror.org/). ROR assigns persistent identifiers to organizations, similar to how DOIs identify articles, ORCIDs identify people, and ISBNs identify books. This allows multiple names to be associated with a single organization, making discovery and display easier and enabling linked open data. To read more about ROR (and CRediT) on Janeway, see Metadata on Janeway<!-- missing hyperlink -->.
+Affiliation metadata in Janeway is managed using the [Research Organization Registry](https://ror.org/). ROR assigns persistent identifiers to organizations, similar to how DOIs identify articles, ORCIDs identify people, and ISBNs identify books. This allows multiple names to be associated with a single organization, making discovery and display easier and enabling linked open data. To read more about ROR (and CRediT) on Janeway, see [Metadata on Janeway](../article-management/article-metadata.md).
 
 ## Google Scholar
 

@@ -11,4 +11,4 @@ CrossRef settings can be set at press level (and then overridden at journal leve
 
 ## DOI manager
 
-Manage DOIs across journals, same as journal level DOI manager, but now you can filter by journal and select appropriately. The same limits apply as on journal level. See DOI manager <!-- missing hyperlink--> for more information on how to use the DOI manager.
+Manage DOIs across journals, same as journal level DOI manager, but now you can filter by journal and select appropriately. The same limits apply as on journal level. See [DOI manager](../identifiers/index.md) for more information on how to use the DOI manager.

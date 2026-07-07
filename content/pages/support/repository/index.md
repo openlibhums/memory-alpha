@@ -6,7 +6,7 @@ Janeway supports hosting repositories for preprints, postprints, field reports, 
 
 ## For repository managers
 
-### [Setting up a repository](repositories-setup-placeholder.md)
+### [Setting up a repository](./repositories-setup.md)
 
 How to enable the repository system in your Janeway press and create a new repository. Covers the Press manager settings required before a repository can be configured.
 

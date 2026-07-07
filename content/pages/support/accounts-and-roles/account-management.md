@@ -4,13 +4,13 @@ title: Managing user accounts
 
 The **Users and roles** section of the Manager dashboard has various controls for managing users and permissions. Who can manage what will depend on their role and permissions associated with it.
 
-**Editors** and **Journal managers** can:
+*Editors* and *Journal managers* can:
 
 - Manage user accounts at the journal level.
 - Assign and remove roles for users on the journal.
 - View and update account activation status.
 
-**Staff** have additional controls for:
+*Staff* have additional controls for:
 
 - Viewing all accounts for the press (Janeway installation), including their journal roles and activation status.
 - Merging duplicate user accounts.
@@ -51,7 +51,7 @@ At press level you can:
 
 Click **Edit** next to a user to open the **Edit user** interface, where you can update a user’s account details.
 
-Some changes are restricted by permission level. For more information, see the **Permissions** page. <!--missing hyperlink-->
+Some changes are restricted by permission level. For more information, see the [**Permissions** page](./janeway-roles-and-permissions.md).
 
 > [!IMPORTANT]
 > Editing a user account does **not** change author metadata on articles that have already been accepted.  
@@ -69,5 +69,3 @@ When accounts are merged:
 - All associated items (including articles, tasks, roles and files) are transferred from the source account to the destination account.
 - The destination account profile is retained.
 - Any profile information from the source account is permanently lost. <!--check how much of this is the case -->
-
-<!-- ![A press manager is merging Andy Byers' account into Katheryn Janeway's account.](../images/merge-users.gif) -->

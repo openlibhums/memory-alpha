@@ -11,7 +11,7 @@ Custom forms in Janeway have the following aspects to them yada yada.
   In case of a short question, you could put a question in this field. If using a longer question, you may wish to use a more generic description and provide further guidance in the help text.
 
 - Kind  
-  This determines the type of element, e.g., text field, checkbox, dropdown etc. For an overview of element types available, see Element types <!-- missing hyperlink -->
+  This determines the type of element, e.g., text field, checkbox, dropdown etc. For an overview of element types available, see [Element types](#element-types-kind).
 
 - Required  
    Check this setting’s box to make this part of the form obligatory to complete.
