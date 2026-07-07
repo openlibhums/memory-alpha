@@ -1,4 +1,4 @@
-2title: Article galleys
+title: Article galleys
 
 # Article galleys
 
