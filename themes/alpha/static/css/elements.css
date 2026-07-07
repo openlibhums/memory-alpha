@@ -14,11 +14,18 @@ body {
   text-underline-offset: 0.25rem;
 }
 h1 {
-  font-size: var(--step-8);
   font-family: var(--ff-space-mono-regular);
   font-weight: normal;
   line-height: 1.1;
+}
+
+:where(body[data-alpha-site="main"]) h1 {
+  font-size: var(--step-8);
   --flow-space: var(--space-xl);
+}
+:where(body[data-alpha-site="support"]) h1 {
+  font-size: var(--step-7);
+  --flow-space: var(--space-l);
 }
 h2 {
   font-size: var(--step-5);

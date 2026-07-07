@@ -1,0 +1,39 @@
+<div class="support-breadcrumbs not-prose">
+  <nav aria-label="Breadcrumbs">
+    <ol>
+      {# Form the first few items manually #}
+        <li><a href="/">Home</a></li>
+      {% if output_file == "pages/support2.html" %}
+        <li>Support</li>
+      {% else %}
+        <li><a href="{{ SITEURL }}/pages/support2">Support</a></li>
+      {% endif %}
+
+      {# Avoid repeating the name of an index page #}
+      {% set index_pages = ["/index.html", "/support2.html"] %}
+      {% set output = namespace(file=output_file) %}
+      {% for index_page in index_pages %}
+        {% if output.file.endswith(index_page) %}
+          {% set output.file = output.file.replace(index_page, "") %}
+        {% endif %}
+      {% endfor %}
+
+      {% for path_part in output.file.split("/") %}
+        {% if loop.index0 > 1 %}
+          {# Use the page title for the last item since file names and page
+          titles can differ #}
+          {% if loop.last %}
+            {% set label = page.title %}
+            <li>{{ label.capitalize() }}</li>
+          {# Form intermediary breadcrumbs from the name of the folder #}
+          {% else %}
+            {% set label = path_part.replace(".html", "").replace("-", " ").capitalize() %}
+            <li>
+              <a href="{{ SITEURL }}/pages/support/{{ path_part }}">{{ label }}</a>
+            </li>
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+    </ol>
+  </nav>
+</div>

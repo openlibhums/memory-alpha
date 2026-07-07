@@ -26,6 +26,7 @@
             {% else %}
               <article>
                 <div class="flow flow-first-child prose">
+                  {% include "components/support_breadcrumbs.html" %}
                   {{ page.content }}
                 </div>
               </article>
