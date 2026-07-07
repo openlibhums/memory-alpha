@@ -20,7 +20,7 @@ You can access this through:
 - The archive (Dashboard -\> Left hand menu
   -\> Back Content -\> Articles).
 
-![Screenshot showing where to access Logs, docs and more](email-logs-access.png)
+![Screenshot showing where to access Logs, docs and more](../images/email-logs-access.png)
 
 ## Understanding the log entries
 
@@ -40,10 +40,10 @@ If the logged action relates to an email, additional details are available:
    The recipient(s) of the email, including any CC or BCC addresses.
 - Subject
 - Email status
-  Information about the delivery status of the email. See **Interpreting statuses** below for more information. <!--missing hyperlink-->
+  Information about the delivery status of the email. See [**Interpreting statuses**](#email-status-meanings) below for more information.
 - There is an option to click through to see the email content.
 
-![Screenshot of an email log entry showing status and actions.](article-log.png)
+![Screenshot of an email log entry showing status and actions.](../images/article-log.png)
 
 ## Interpreting statuses
 

@@ -57,7 +57,7 @@ The built-in page options provided by Janeway cannot be reordered directly. To r
 
   <!-- add the general navbar styling shenanigans -->
 
-For footer navigation, see footer navigation <!--missing hyperlink-->. This is only available at press level/
+For footer navigation, see [footer navigation](../press-management/footer.md). This is only available at press level/
 
 ## Footer Navigation
 
@@ -82,7 +82,7 @@ footer**, and **Extend to journals**.
 This page displays some general settings for controlling the styling of
 your journal.
 
-- Full Width Nav (only used by the Material theme)
+- Full width nav (only used by the Material theme)
 
 <!--
 

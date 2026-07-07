@@ -30,7 +30,7 @@ There is no limit on the number of review forms that can be created, but for pra
 You can add review questions to review forms by clicking <img src="../../support/images/edit-icon.png" width="15" height="15"/> **Edit**. You can then add various review form elements by clicking **Add element**.
 In addition to this, you can edit the form name, form introduction and thank you message.
 
-Read more about creating custom forms and form elements here. <!-- Missing hyperlink -->
+Read more about creating custom forms and form elements [here](../journal-management/form-elements.md).
 
 ## Preview review forms
 

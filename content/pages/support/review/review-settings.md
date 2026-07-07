@@ -24,7 +24,7 @@ Review settings control how the peer review process operates. The settings found
   If enabled, section editors cannot accept papers after review. Instead, they can make recommendations to editors.
 
 - Enable open peer review  
-  Turns on the open peer review feature. <!-- missing hyperlink -->
+  Turns on the [open peer review](./open-peer-review.md) feature.
 
 - Default review form  
   This setting controls the default review form displayed when assigning a reviewer.

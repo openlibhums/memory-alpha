@@ -4,7 +4,7 @@ title: News manager
 
 The news manager allows you to create news items, assign them start- and end dates, and upload images to display alongside them.
 
-News items can also displayed in the carousel. <!--missing hyperlink-->
+News items can also displayed in [the carousel](./carousel.md).
 
 To add a new news item, select the **News manager**. The interface displays existing news items on the left and a form for adding new items on the right.
 

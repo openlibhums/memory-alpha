@@ -11,7 +11,7 @@ Janeway supports multiple peer review models, each offering different levels of 
 - Triple anonymous review: Authors, reviewers, and section editors are all anonymised during the review process.
 - Open peer review: Reviewer comments can be made publicly visible, with the reviewer’s consent.
 
-The review settings page includes information on how to configure the review process.
+The [review settings page](./review-settings.md) includes information on how to configure the review process.
 
 - Setting up double and single anonymous peer review.
 - Configure default review model (open, single, double anonymous).
@@ -20,8 +20,6 @@ The review settings page includes information on how to configure the review pro
 - Control visibility of reviews and metadata.
 - Activate open peer review and expanded dashboards.
 
-The review forms page explains how to edit and set up new review forms. There is a separate page outlining how to create form elements on Janeway.
+The [review forms page](./review-forms.md) explains how to edit and set up new review forms. There is a separate page outlining [how to create form elements](../journal-management/form-elements.md) on Janeway.
 
-There are also pages outlining how to configure and use open peer review, triple anonymous peer review, and sharing peer reviews.
-
-<!-- Missing hyperlinks -->
+There are also pages outlining how to configure and use [open peer review](./open-peer-review.md), [triple anonymous peer review](./triple-anonymous-peer-review.md), and [sharing peer reviews](./sharing-review.md).

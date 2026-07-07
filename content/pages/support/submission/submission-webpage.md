@@ -10,7 +10,7 @@ The option to configure the submission information page for authors can be found
 
 ## Crosslinked submission page items
 
-Some aspects of the submission page can also be edited through **Submission settings** <!-- missing hyperlink -->
+Some aspects of the submission page can also be edited through [**Submission settings**](./submission-settings.md).
 
 The reason these can be accessed and edited from two places is that submission information is displayed in two places: on the submissions webpage and as part of the submission process. Changing the content in one location will automatically change it in the other, so you do not have to update each one individually.
 

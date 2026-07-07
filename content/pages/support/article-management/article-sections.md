@@ -45,4 +45,4 @@ For each section, you can provide the following information and settings:
 
 Sections can always be edited, but they cannot be deleted when articles have been assigned to this section. If you wish to remove a section that already has articles assigned to it, first migrate all of the articles using this section to a different section. Once this has been done, the **Delete** button will become available.
 
-If you are only using one article type, the field in which authors select a section during submission can be disabled using the **Submission configurator**. <!-- missing hyperlink -->
+If you are only using one article type, the field in which authors select a section during submission can be disabled using the [**Submission configurator**](../submission/submission-settingd.md).

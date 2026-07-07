@@ -12,7 +12,7 @@ Submission notifications are configured on the **Submission settings** page, und
 
 ### By section
 
-To set up submission notifications per section (also referred to as article types), you must first set up the submission sections. See [page title] for more information on setting up sections. <!-- missing hyperlink -->
+To set up submission notifications per section (also referred to as article types), you must first set up the submission sections. See [page title] for more information on setting up [sections](../article-management/article-sections.md).
 
 On **Sections** click on the **Edit** button on the section for which you want to set up submission notifications.
 

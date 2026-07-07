@@ -8,17 +8,19 @@ The submission settings are accessed through the manager dashboard under **Submi
 
 **Submission settings** provides access to five blocks of settings:
 
-- **Submission control**  
+- [**Submission control**](#submission-control)    
   This block controls settings relating to whether submission is turned on or off.
-- **Editors notified on submission**  
+
+- [**Editors notified on submission**](#editors-notified-on-submission)     
   This controls who is notified of new submissions.
-- **System settings**  
+
+- [**System settings**](#submission-settings)      
   This controls a small set of settings related to authors and abstracts.
 
-- **Submission page text**  
+- [**Submission page text**](#submission-page-text)      
   This controls the text that makes up the submission page - e.g. focus and scope, copyright notice, acceptance criteria, etc.
 
-- **Submission files**  
+- [**Submission files**](#submission-files)      
    This controls settings around the manuscript files.
 
 <!-- missing hyperlinks -->
@@ -62,7 +64,7 @@ You can also limit access to submission by requiring users to create an account 
 
 ## Submission page text
 
-These settings make up the **Submission** page as well as the **Submission agreement** that authors accept. The submission text can also be edited through **Submission page items** <!-- Missing hyperlink -->.
+These settings make up the **Submission** page as well as the **Submission agreement** that authors accept. The submission text can also be edited through [**Submission page items**](./submission-webpage.md).
 
 - **Submission page text**  
    This sets the introductory text displayed at the head of the **Submission** page.
