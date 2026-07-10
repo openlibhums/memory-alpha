@@ -30,7 +30,9 @@
             and add index.html #}
             {% set label = path_part.replace("-", " ").capitalize() %}
             <li>
-              <a href="{{ SITEURL }}/pages/support/{{ path_part ~ "/index.html" }}">
+              <a
+                href="{{ SITEURL }}/pages/support/{{ path_part ~ "/index.html" }}"
+              >
                 {{ label }}
               </a>
             </li>
