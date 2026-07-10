@@ -1,5 +1,3 @@
-Title: Contributing to Janeway documentation
-
 # Contributing to Janeway documentation
 
 Work-in-process note: This page could explain how people including us and
@@ -52,20 +50,10 @@ Don’t:
   my&your-folder/my&your-file-name.txt
 ```
 
-## Page metadata
+## Headings
 
-At the beginning of the file, please include the page title, preceded by
-`Title: `. It will appear in the browser tab, on search results, and on social
-media when the page is shared.
-
-The page you are reading has this at the top:
-
-```md
-Title: Contributing to Janeway documentation
-```
-
-Please also include a top-level heading for each page, using the single hash in
-Markdown syntax. Usually this will be the same as the page title.
+Include a top-level heading for each page, using the single hash in
+Markdown syntax.
 
 For example:
 

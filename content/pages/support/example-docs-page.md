@@ -1,5 +1,3 @@
-Title: Example Docs Page
-
 # Example Docs Page
 
 This is an example of a docs page. It has an image with alt text that [can

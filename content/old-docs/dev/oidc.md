@@ -1,5 +1,3 @@
-Title: Open ID Connect (OIDC)
-
 # Open ID Connect (OIDC)
 
 Support for Open ID Connect has been added in 1.4.2 of Janeway. This
