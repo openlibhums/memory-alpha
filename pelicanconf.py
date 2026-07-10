@@ -59,6 +59,9 @@ DEFAULT_METADATA = {
     "alpha_site": "support",
 }
 
+PLUGIN_PATHS = ["plugins"]
+PLUGINS = ["janeway"]
+
 # Static
 STATIC_PATHS = [
     'pages/support/images',
@@ -100,12 +103,6 @@ FOOTER_LINKS = [
 ALL_PAGES =  [
     ('Home', '/', ""),
 ] + LEFT_NAV_ITEMS + RIGHT_NAV_ITEMS + FOOTER_LINKS
-
-# jinja2content plugin
-JINJA2CONTENT_TEMPLATES = [
-    'pages',
-    'old-docs', # temporary until new docs are complete
-]
 
 # Use mtime of files as date in webpage metadata
 DEFAULT_DATE = 'fs'
