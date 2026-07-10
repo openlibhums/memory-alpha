@@ -8,7 +8,7 @@ If you have the Janeway role of editor or staff, you can access Journal Settings
 
 ## All settings
 
-The All Settings page lists every underlying journal-level setting within Janeway and allows you to edit them. The setting groups are:
+The **All settings** page lists every underlying journal-level setting within Janeway and allows you to edit them. The setting groups are:
 
 - Crossref
 - Email

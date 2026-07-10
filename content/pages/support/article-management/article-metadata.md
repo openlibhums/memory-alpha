@@ -12,6 +12,8 @@ For articles that are in progress (that is, beyond the unassigned stage), you ca
 
 Using the **Actions panel:** Scroll to the bottom-right corner of the article page and select **View metadata**.
 
+![" "](../images/view-metadata.png)
+
 Using the workflow bar:
 
 1. Go to the article page within the workflow.
@@ -21,7 +23,7 @@ Using the workflow bar:
    - **Edit metadata** to edit it.
    - **Edit author metadata** to edit the author metadata.
 
-![Logs, docs and more menu open, showing Article archive, Edit metadata, and Edit author metadata options](/content/support/images/logs-docs-metadata.png)
+![Logs, docs and more menu open, showing Article archive, Edit metadata, and Edit author metadata options](../images/logs-docs-metadata.png)
 
 ### Published articles
 
@@ -29,7 +31,7 @@ Using the workflow bar:
 2. Click the **Account** dropdown in the top-right corner (make sure you are logged in).
 3. Click **Edit article**. This opens the **Article archive** page.
 
-   ![Account dropdown on the journal front end, showing the Edit article option](/content/support/images/front-end-metadata.png)
+   ![Account dropdown on the journal front end, showing the Edit article option](../images/front-end-metadata.png)
 
 4. From the **Article archive** page, you can:
    - Click **Edit publication information**.
@@ -40,19 +42,19 @@ Using the workflow bar:
 
 ## Editing metadata
 
-![Logs, documents and more dropdown menu open, showing the Article archive and Edit metadata options](/content/support/images/logs-edit-metadata.png)
+![Logs, documents and more dropdown menu open, showing the Article archive and Edit metadata options](../images/logs-edit-metadata.png)
 
 The first block of the **Article archive** page lists most of the article's metadata. To edit it, click **Edit**.
 
-![Top of the article archive page, with the Edit button highlighted](/content/support/images/article-archive-edit-metadata.png)
+![Top of the article archive page, with the Edit button highlighted](../images/article-archive-edit-metadata.png)
 
 This opens the **Edit metadata** page, where you can update the article's title, abstract, and other fields.
 
-![Edit metadata page, displaying the title and abstract fields](/content/support/images/edit-metadata.png)
+![Edit metadata page, displaying the title and abstract fields](../images/edit-metadata.png)
 
 Scroll down and click **Update metadata** to save your changes.
 
-![Update metadata button at the bottom of the Edit metadata page](/content/support/images/update-metadata.png)
+![Update metadata button at the bottom of the Edit metadata page](../images/update-metadata.png)
 
 Below the article metadata block, you can also edit author metadata and funder information.
 
@@ -62,7 +64,7 @@ Janeway can mint [CrossRef](../identifiers/crossref-article-doi.md) and [DataCit
 
 Identifiers associated with an article can be found through **Identifiers** under **Logs, documents and more**.
 
-![The identifiers page, displaying a list of identifiers associated with the article, including a DOI, OJS ID, and DOAJ ID. For DOIs, there are options to register, poll, deposit, and view the response XML. Delete buttons are available for all identifiers.](/content/support/images/article-identifiers.png)
+![The identifiers page, displaying a list of identifiers associated with the article, including a DOI, OJS ID, and DOAJ ID. For DOIs, there are options to register, poll, deposit, and view the response XML. Delete buttons are available for all identifiers.](../images/article-identifiers.png)
 
 > [!TIP]
 > **Advanced:** You can also manage CrossRef DOIs in bulk at the journal level as an editor (and at the press level as a staff user) using the DOI Manager.

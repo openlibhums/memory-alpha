@@ -20,7 +20,7 @@ You can access this through:
 - The archive (Dashboard -\> Left hand menu
   -\> Back Content -\> Articles).
 
-![Screenshot showing where to access Logs, docs and more](../images/email-logs-access.png)
+![Screenshot showing where to access Logs, docs and more](../images/navigation-logs.png)
 
 ## Understanding the log entries
 

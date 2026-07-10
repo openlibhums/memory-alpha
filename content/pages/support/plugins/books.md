@@ -14,9 +14,7 @@ This plugin has three key functionalities:
 
 ## Main dashboard
 
-<!--![Books plug-in dashboard, displaying all books with titles and their details
-(outlined in the text following this image), and the various functionalities in
-the right-hand top.](../support/images/books-dashboardblock.png)-->
+![Books plug-in dashboard, displaying all books with titles and their details, and the various functionalities in the right-hand top.](../images/books-dashboardblock.png)
 
 From the books dashboard, you can manage all tasks and data related to
 monographs (or similar items). It also provides an overview of all items
@@ -26,22 +24,22 @@ them (they can also be sorted by any of these):
 - ID
 - Title
 - Subtitle
-- First Author
+- First author
 - ISBN
 - DOI
-- Date Published
+- Date published
 - Reads
 - Downloads
 
-<!--![""](images/books-dashboardblock-highlight.png)-->
+![""](../images/books-dashboardblock-highlight.png)
 
 The bar on top represents access to the key functions of the books plugin:
 
-- Metrics by Month
+- Metrics by month
 - (General) Metrics
-- Import Books
+- Import books
 - Categories
-- Add New Book
+- Add new book
 
 ## Categories
 
@@ -53,35 +51,35 @@ in a category.
 
 Whilst books can be assigned to a category at any moment, it is
 necessary to create the category before a book can be assigned.
-Categories cannot be created through the ‘Add a new book’ interface.
+Categories cannot be created through the **Add a new book** interface.
 
-<!--![The categories dashboard, listing the existing categories on the left. For the existing categories, the number of books in the category are displayed, as well as buttons to edit and delete. On the right, the form to add a new category is visible with multiple textboxes.](images/books-category-dashboard.png)-->
+![The categories dashboard, listing the existing categories on the left. For the existing categories, the number of books in the category are displayed, as well as buttons to edit and delete. On the right, the form to add a new category is visible with multiple textboxes.](../images/books-category-dashboard.png)
 
 When adding a new category, the following fields are available:
 
-- Name
-  - This is a required field.
+- Name   
+This is a required field.
 
 - Description
 
-- Display title
-  - Leave this unchecked if you want to hide the category title.
+- Display title  
+  Leave this unchecked if you want to hide the category title.
 
-- Chapter name
-  - This is where the ‘Chapter’ label can be edited, in case the
+- Chapter name  
+This is where the ‘Chapter’ label can be edited, in case the
     individual components of publications assigned to this category
     are not chapters. This is a required field.
 
-- Chapter name plural
-  - This is where the plural for the ‘Chapter’ label can be edited
+- Chapter name plural  
+  This is where the plural for the ‘Chapter’ label can be edited
     to ensure the label is pluralised correctly. This is a required
     field.
 
-- Buy button text
-  - This defaults to “Buy this Book”. If the item is not a book, you
+- Buy button text   
+  This defaults to “Buy this Book”. If the item is not a book, you
     will need to update this field. This is a required field.
 
-<!--![An example of how changing the ‘Chapter name’ fields results in a change on the website. Instead of ‘Chapters’ it reads ‘Assignment Sets’ on the dropdown. The text in the dropdown now reads ‘Introduction to Open Access - workbook (the title) has the following Assignment Sets:’. It then goes on to list these.](images/books-category-display.png)-->
+![An example of how changing the ‘Chapter name’ fields results in a change on the website. Instead of ‘Chapters’ it reads ‘Assignment Sets’ on the dropdown. The text in the dropdown now reads ‘Introduction to Open Access - workbook (the title) has the following Assignment Sets:’. It then goes on to list these.](../images/books-category-display.png)
 
 > [!NOTE]
 > This field is case-sensitive. If you do not wish for these words to be
@@ -92,64 +90,64 @@ When adding a new category, the following fields are available:
 
 ## Adding a new book
 
-New monographs are added through the ‘Add new book’ option, which is
+New monographs are added by clicking **Add new book**, which is
 positioned rightmost in the topbar of the main dashboard.
 
-<!--![The ‘Add a new book’ page. On the left, the book details can be filled into various text boxes. On the right are sections for ‘Contributors’, ‘Formats’ and ‘Chapters’. These are currently blocked, which is indicated for each of them with a red bar and the text “Save book before adding contributors/formats/chapters”.](images/books-addbook-dashboard.png)-->
+<![The ‘Add a new book’ page. On the left, the book details can be filled into various text boxes. On the right are sections for ‘Contributors’, ‘Formats’ and ‘Chapters’. These are currently blocked, which is indicated for each of them with a red bar and the text “Save book before adding contributors/formats/chapters”.](../images/books-addbook-dashboard.png)
 
 Before the manuscript files can be uploaded, various metadata fields
 need to be completed first, displayed on the left-hand side of the page
-under ‘Book details’.
+under **Book details**.
 
-<!--![""](images/books-addbook-details.png)-->
+![""](../images/books-addbook-details.png)
 
 This section contains the following fields:
 
 - Prefix
 
-- Title
-  - This is a required field.
+- Title  
+  This is a required field.
 
 - Subtitle
 
-- Category
-  - This is where a publication can be assigned to an imprint, if
+- Category  
+  This is where a publication can be assigned to an imprint, if
     applicable.
 
-- Description
-  - The book’s description can be provided here.
+- Description  
+  The book’s description can be provided here.
 
-- Pages
-  - This is the total number of pages.
+- Pages  
+  This is the total number of pages.
 
-- Edited volume?
-  - If this is an edited volume, tick this box. This will ensure the
+- Edited volume?  
+  If this is an edited volume, tick this box. This will ensure the
     citation is adjusted to match.
 
-- Open Access?
-  - If this monograph is Open Access, tick this box. This will
+- Open Access?   
+  If this monograph is Open Access, tick this box. This will
     ensure the monograph is marked as open access and made available
     on the website.
 
-- Date embargo
-  - This will specify the date until which the title is embargoed.
+- Date embargo  
+  This will specify the date until which the title is embargoed.
 
-- Date published
-  - This will specify the date of publication (this can be before
+- Date published  
+  This will specify the date of publication (this can be before
     the upload date for example if the official publication date
     precedes the date on which the digital edition was made
     available).
 
-- Publisher name
-  - This is a required field.
+- Publisher name  
+   This is a required field.
 
-- Publisher location
-  - This is a required field.
+- Publisher location  
+  This is a required field.
 
 - Cover
 
-- DOI
-  - DOIs for monographs and chapters cannot be minted directly
+- DOI  
+   DOIs for monographs and chapters cannot be minted directly
     through Janeway, but if a DOI has been chosen, it can be added
     here. To mint a DOI for a monograph or chapter after it has been
     uploaded, you can do so through the [Crossref
@@ -157,30 +155,30 @@ This section contains the following fields:
 
 - ISBN
 
-- Purchase URL
-  - If this book has an option for physical purchase, this is where
+- Purchase URL  
+  If this book has an option for physical purchase, this is where
     this can be linked. It will show as an option next to the ‘Read’
     and ‘Download’ buttons on the book’s page.
 
-- Remote URL
-  - If this monograph is not hosted on Janeway but you would like it
+- Remote URL  
+  If this monograph is not hosted on Janeway but you would like it
     linked on the website, this is where to provide the link. If the
     monograph is hosted on Janeway (if you are uploading manuscript
     files), there is no need for this.
 
-- Remote label
-  - This will set the label for the link above. If not set, it will
+- Remote label  
+  This will set the label for the link above. If not set, it will
     display the domain name.
 
-- Licence information
-  - Add copyright and/or licence information here.
+- Licence information  
+  Add copyright and/or licence information here.
 
-- Custom how-to-cite
-  - To be used only if the citation block generated by Janeway is
+- Custom how-to-cite  
+  To be used only if the citation block generated by Janeway is
     not suitable.
 
 After the required fields above have been filled in and you have pressed
-‘Save Book’, you can now move onto the following steps (displayed on the
+**Save book**, you can now move onto the following steps (displayed on the
 right-hand side in Janeway):
 
 ### Contributors
@@ -191,25 +189,25 @@ authors and/or contributors for these chapters will need to be entered
 here. If they are not entered here, they can not be selected as
 contributors when uploading individual chapters.
 
-<!--![The page for adding new contributors and its fields.](images/books-add-contributor.png)-->
+![The page for adding new contributors and its fields.](../images/books-add-contributor.png)
 
 This page contains the following fields:
 
-- First name
-  - This is a required field.
+- First name  
+  This is a required field.
 
 - Middle name
 
-- Last name
-  - This is a required field.
+- Last name  
+  This is a required field.
 
-- Affiliation
-  - This is a required field.
+- Affiliation  
+  This is a required field.
 
 - Email
 
-- Sequence
-  - This determines the order in which contributors are displayed
+- Sequence  
+  This determines the order in which contributors are displayed
     and will be auto-filled (but can be edited). This is a required
     field.
 
@@ -218,27 +216,27 @@ This page contains the following fields:
 This is where manuscript files are uploaded. Various file types can be
 used, such as PDF, EPUB and Mobi.
 
-<!--![The page where manuscript files can be uploaded. Fields are described in the text below this image.](images/books-add-format.png)-->
+![The page where manuscript files can be uploaded. Fields are described in the text below this image.](../images/books-add-format.png)
 
 This page contains the following fields:
 
-- Title
-  - The title field is where you specify the format. This will be
+- Title  
+  The title field is where you specify the format. This will be
     displayed on the website as ‘Download \[title\]’ (see image
     below). This field is case-sensitive, so you may wish to be
     consistent with capitalisation. This is a required field.
 
-- Sequence
-  - The sequence field will determine in what order the respective
-    ‘Read’ and ‘Download’ options will be displayed. This is useful
+- Sequence   
+  The sequence field will determine in what order the respective
+    **Read** and **Download** options will be displayed. This is useful
     to ensure consistency in order of the options across books.
 
-When an .ePub is uploaded, Janeway will generate a ‘Read this book’
+When an .ePub is uploaded, Janeway will generate a **Read this book**
 option on the book page. This allows users to read the book using an
 online reader, without requiring a download. This can be disabled on
 request.
 
-<!--![The download, read, and buy buttons as they appear to users on the press website.](images/books-web-buttons.png)-->
+![The download, read, and buy buttons as they appear to users on the press website.](../images/books-web-buttons.png)
 
 Make sure that the filename of the file uploaded is consistent and
 correct. Whilst Janeway will change the filename to the title
@@ -247,15 +245,15 @@ download, the original filename might still be visible. Google Chrome is
 an example of an application that might still display the original
 filename in its reader toolbar, as displayed in the image below.
 
-<!--![""](images/books-final-manuscript.png)-->
+![""](../images/books-final-manuscript.png)
 
 > [!Note]
-> ‘Read this book’ will always follow the ePub download option and ‘Buy
-> this book’ will always be the last one in the sequence.
+> **Read this book** will always follow the ePub download option and **Buy
+> this book** will always be the last one in the sequence.
 
 ### Chapters
 
-<!--![Chapter dashboard with various fields for entering metadata.](images/books-add-chapter.png)-->
+![Chapter dashboard with various fields for entering metadata.](../images/books-add-chapter.png)
 
 If uploading individual chapters, this is where they are uploaded and
 the metadata is entered. This might be of particular interest if the
@@ -268,49 +266,48 @@ uploads with their respective metadata allow for higher discoverability.
 
 This page contains the following fields:
 
-- Title
-  - This is a required field.
+- Title  
+  This is a required field.
 
-- Description
-  - This is a required field.
+- Description  
+  This is a required field.
 
 - Pages
 
-- DOI
-  - Janeway will not automatically generate a DOI for individual
+- DOI  
+    Janeway will not automatically generate a DOI for individual
     chapters, these will need to be registered with Crossref
     manually. This can be done through the [Crossref
     website](https://apps.crossref.org/webDeposit/)
 
-- Number
-  - This is where the chapter number is set; this can be zero for
+- Number  
+  This is where the chapter number is set; this can be zero for
     prelims, appendices etc.
 
 - Date embargo
 
 - Date published
 
-- Sequence
-  - This will determine in what order the chapters are displayed.
+- Sequence   
+  This will determine in what order the chapters are displayed.
     This field will autofill and chapters will appear in the order
     they were added to Janeway, but this can be edited through this
     field. This is a required field.
 
-- Contributors
-  - This is where contributors to chapters can be selected, for them
+- Contributors  
+  This is where contributors to chapters can be selected, for them
     to appear their details need to have been entered in the
-    ‘Contributors’ fields through the Book Details dashboard.
+    **Contributors** fields through the **Book details** dashboard.
 
 - Licence information
 
-- Keywords
-  - This is currently a list from which keywords can be selected.
-    This will be updated in the future.
+- Keywords  
+  This is currently a list from which keywords can be selected.
 
 ## Importing books
 
 You can import the metadata for multiple monographs into Janeway at once
-using the ‘import books’ option. This is commonly used for migrations.
+using the **Import books** option. This is commonly used for migrations.
 
 Metadata can be imported using a .csv file encoded in UTF-8 [^1] with
 certain headers. An example import with pre-prepared headers is coming soon.
@@ -350,7 +347,7 @@ the files themselves and to make any further edits.
 Reporting for books does not run through the reporting plug-in, instead
 it is done separately through the books plug-in.
 
-<!--![The Books metrics page.](images/books-metrics-dashboard.png)-->
+![The Books metrics page.](../images/books-metrics-dashboard.png)
 
 On this page, you can view the general access metrics for monographs, as
 well as for each format of a monograph. On this page, date ranges can be
@@ -366,18 +363,18 @@ Metrics field.
 
 The first section of this dashboard displays the total views and
 downloads (each in their respective column) per book. The columns can be
-sorted by ID,, Subtitle, First Author name, Date published, Reads
-and Downloads.
+sorted by ID, subtitle, first author name, date published, reads
+and downloads.
 
-<!--![""](images/books-metrics.png)-->
+![""](../images/books-metrics.png)
 
-### Format Metrics
+### Format metrics
 
 This section sorts the data by format, providing insights into how
-specific formats are performing. This section can be sorted by Format,
-Title, Views and Downloads.
+specific formats are performing. This section can be sorted by format,
+title, views and downloads.
 
-![""](images/books-format-metrics.png)
+![""](../images/books-format-metrics.png)
 
 > [!Note]
 > The total views and downloads in this report may differ slightly from

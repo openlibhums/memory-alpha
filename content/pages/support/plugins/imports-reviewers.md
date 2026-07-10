@@ -12,7 +12,7 @@ uploading a CSV (Comma Seperated Value) file.
 To import reviewer accounts:
 
 1.  Download the
-    [reviewer import template](../support/downloadables/reviewer-import-template.csv).
+    [reviewer import template](../downloadables/reviewer-import-template.csv).
 2.  Enter your reviewer details, one per row.
 3.  If you wish to add more than one interest you should separate them
     with a semi colon eg. interest one; interest two; interest three.
@@ -28,5 +28,5 @@ To import reviewer accounts:
 > spam.
 
 > [!TIP]
-> Download the [reviewer import sample](../support/downloadables/reviewer-import-sample.csv) CSV to see
+> Download the [reviewer import sample](../downloadables/reviewer-import-sample.csv) CSV to see
 > example data.

@@ -61,6 +61,8 @@ Some changes are restricted by permission level. For more information, see the [
 
 When users have multiple accounts (often due to different email addresses having been used), it may be helpful to merge accounts. Users with staff permission can merge two user accounts to remove duplicates, using the **Press manager interface**. When searching for users to merge, note that the user account in the left column (source account) will be merged into the user account in the right column (destination account).
 
+![The merge users page](../images/merge-users.png)
+
 > [!WARNING]
 > An account merge **cannot** be undone. Only merge account when you are certain they can be merged.
 

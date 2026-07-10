@@ -90,7 +90,7 @@ CRediT data is distributed by Janeway in these places:
 
 Typesetters have access to CRediT data and are encouraged to encode it in any JATS XML they produce for Janeway.
 
-## Metadata streams
+<!-- ## Metadata streams
 
 - DOI manager
 - Downstream dataflows
@@ -105,4 +105,4 @@ Typesetters have access to CRediT data and are encouraged to encode it in any JA
   Journal/api/oai
 - KBART
 - Frozen author metadata
-- Export plugin.
+- Export plugin. -->

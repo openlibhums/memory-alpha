@@ -1,4 +1,4 @@
-Title: Peer review on Janeway
+title: Peer review on Janeway
 
 # Peer review on Janeway
 

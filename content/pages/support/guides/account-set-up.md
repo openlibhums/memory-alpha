@@ -6,7 +6,7 @@ From the front page of a journal, select **Register** to set up an account. Comp
 
 If you are an author making a submission, you don't need to create an account. One will be created as part of the submission process.
 
-If you have been invited to review, you may be able to complete your review without creating an account if the journal has enabled one-click peer review. <!-- missing hyperlink-->
+If you have been invited to review, you may be able to complete your review without creating an account if the journal has enabled [one-click peer review](../review/review-settings.md).
 
 If the journal is part of a press and you have access to another journal in that press, you may already have an account. Sign in using your existing credentials. If you make a submission, you automatically receive the author role. If you need other roles on the journal, ask an editor or press manager to assign the relevant roles.
 

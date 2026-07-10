@@ -12,7 +12,7 @@ uploading a CSV (Comma Seperated Value) file.
 To import peer reviews:
 
 1.  Download the
-    [article review import template](../support/downloadables/reviewer-import-template.csv).
+    [article review import template](../downloadables/reviewer-import-template.csv).
 2.  Enter your peer review details, one per row.
 3.  On the Imports Plugin main page select **Reviewer Import** and click
     **Start Import**.
@@ -32,5 +32,5 @@ To import peer reviews:
 | Visibility            | Either: open, blind or double-blind                        |
 
 > [!TIP]
-> Download the [article review import sample](../support/downloadables/reviewer-import-sample.csv)
+> Download the [article review import sample](../downloadables/reviewer-import-sample.csv)
 > CSV to see example data.

@@ -2,15 +2,14 @@ title: Identifiers
 
 # Identifiers & discovery
 
-_Coming soon_
-
-<!--
-What do we offer and with whom, bla bla.
-Support for minting Digital Object Identifiers (DOIs) with Crossref is built into Janeway's core. We will be expanding this to other providers in the future. < Aint we also doing Datacite now?
-
-## Crossref
-
-## DataCite
+Janeway supports minting Digital Object Identifiers (DOIs) for articles and issues through Crossref and DataCite. This section explains how DOIs are generated and registered, and covers other identifier and discovery services relevant to your journal.
+ 
+- [Crossref article DOI](./crossref-article-doi.md)  
+  When article DOIs are minted, how to check and manage them using the DOI Manager, and the Crossref settings required.
+- [Crossref issue DOI](./crossref-issue-doi.md)  
+  How issue-level DOIs are generated and registered alongside article DOIs, and important limitations to be aware of.
+- [DataCite DOIs](./datacite-dois.md)  
+  Registering DOIs with DataCite as an alternative to Crossref.
 
 ## Google Scholar
 
@@ -23,6 +22,8 @@ Support for minting Digital Object Identifiers (DOIs) with Crossref is built int
 
 [Google Scholar documentation.](https://scholar.google.com/intl/en/scholar/inclusion.html#overview)
 
+
+<!-- To-do
 ## OAI-PMH
 
 ## KBART

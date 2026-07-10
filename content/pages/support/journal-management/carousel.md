@@ -52,7 +52,7 @@ To remove an item, select it in **Chosen** and click the **left-facing arrow**.
 
 Buttons below each column allow you to **Select all** or **Remove all** items.
 
-![" "](image.png)
+![" "](../images/carousel-selector.png)
 
 ### Articles
 

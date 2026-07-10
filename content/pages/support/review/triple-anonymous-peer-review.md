@@ -1,4 +1,4 @@
-Title: Triple anonymous peer review
+title: Triple anonymous peer review
 
 # Triple anonymous peer review
 

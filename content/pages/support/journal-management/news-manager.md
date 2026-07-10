@@ -6,9 +6,9 @@ The news manager allows you to create news items, assign them start- and end dat
 
 News items can also displayed in [the carousel](./carousel.md).
 
-To add a new news item, select the **News manager**. The interface displays existing news items on the left and a form for adding new items on the right.
+To add a new news item, click **Add news item**.
 
-<!-- ![News Manager interface](../../nstatic/news-manager.png) -->
+![" "](../images/news-manager.png)
 
 The form fields include:
 
@@ -28,12 +28,12 @@ The form fields include:
   Use for sorting when news items are posted on the same day.
 
 - Image file  
-  An image file to fit the news piece; ensure you have the right to post it.
+  An image file to fit the news piece; this will display at the top as a banner image.
 
 - Custom byline  
   Lets you overwrite the name displayed as the author of the news item.
 
 - Tags  
-  A series of tags/keywords for the piece, you can filter news items by tags.
+  A series of tags/keywords for the piece, you can filter news items by tags. These tags are case-sensitive.
 
-<!-- ![A news item with image and tags, material theme](../../nstatic/news-item.png) -->
+![An example of a published news item with tags, an author and a banner image.](../images/news-item.png)

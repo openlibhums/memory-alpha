@@ -8,8 +8,9 @@ Archived and rejected papers can be found under **Archived articles**. On either
 
 > [!TIP]
 > You can also edit a published article by going to its page on the journal front end and selecting **Edit article** from the account dropdown.
+> ![Showing the edit metadata option on the front end.](../images/front-end-metadata.png)
 
-<!-- ![Top of the article archive page](../nstatic/article-archive.png) -->
+
 
 ## How to use the article archive page
 
@@ -48,7 +49,7 @@ To move an article back into the workflow:
 
 Article rejections can also be undone directly from the Article archive page using the **Undo article rejection** button.
 
-![Undo article rejection button](/content/support/images/undo-rejection.png)
+![Undo article rejection button](../images/undo-rejection.png)
 
 If the article was previously assigned to an editor, it will move to the Review stage. Otherwise, it will move to the Unassigned stage.
 

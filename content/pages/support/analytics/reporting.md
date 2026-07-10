@@ -1,8 +1,12 @@
-Title: Reporting
+title: Reporting
 
-## Reporting plugin
+# Reporting plugin
 
-The reporting plugin produces a range of reports for analytics within the Janeway publishing platform. These reports include:
+The reporting plugin can be found by clicking **Plugins** in the right-hand sidebar and selecting **Reporting plugin**.
+
+![A screenshot showing where to find the plugin](../images/finding-reporting.png)
+
+This plugin produces a range of reports for analytics within Janeway. These reports include:
 
 - Press report
 - Journal usage by month
@@ -18,11 +22,9 @@ The reporting plugin produces a range of reports for analytics within the Janewa
 - Workflow report
 - Experimental reports
 
-## Press Report
+## Press report
 
-This report summarises the overall performance of the press, including analytics around the number of publications and usage data across journals.
-
-This report uses the dates specified in the filter when retrieving data.
+This report summarises the overall performance of the press, including analytics around the number of publications and usage data across journals. This report uses the dates specified in the filter when retrieving data.
 
 > [!TIP]
 > If you wish to review statistics over a year, we recommend setting the end date not on 31/12 but on 01/01 of the year following.

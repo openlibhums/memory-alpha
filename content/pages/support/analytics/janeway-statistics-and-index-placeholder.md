@@ -2,35 +2,22 @@ title: Janeway analytics
 
 # Janeway analytics
 
-_Coming soon_
+Janeway tracks views and downloads for articles, and can report on this activity across your journal or press. This section explains what analytics data is available and how to access it.
+ 
+- [Reporting](./reporting.md)  
+  A breakdown of the reports available through the Reporting plugin, including press reports, journal usage by month, article metrics, citations and more.
+- Google Analytics  
+  _Coming soon_ — connecting Google Analytics to your journal for additional web traffic insights.
 
-<!--
-- Janeway counts views and downloads.
-- Can get author data
-- Review data
-- Workflow data
+## Institutional statistics
+ 
+Janeway cannot provide usage statistics broken down by institution, since this would require tracking readers behind a paywall in a way Janeway does not support. Author, reviewer and editor affiliation data is available where it has been saved as part of a frozen author record.
+ 
 
-## How Janeway measures access
-
-
+<!-- ## How Janeway measures access
 
 Janeway VS COUNTER.
 
 - How do we measure stats and how does meet COUNTER requirements.
 
-This section needs dev input.
-
-## Reporting
-
-For in-depth information on various reports, see: Reporting
-
-- How to find the reporting plugin.
-- Who has access to the reporting plugin.
-
-### Institutional statistics
-
-OR ‘why we cannot tell you’ and info Janeway _can_ give you.
-
-- Cannot provide institutional statistics
-    - No information on who from specific organisations -> no paywall.
-- Can provide authors, reviewers, editor affiliation based on frozen author records / what is saved on the system. -->
+This section needs dev input. ->

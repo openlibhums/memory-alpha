@@ -14,7 +14,7 @@ uploading a CSV (Comma Separated Value) file.
 To import your editorial team:
 
 1.  Download the
-    [editorial team template](../support/downloadables/editor-import-template.csv).
+    [editorial team template](../downloadables/editor-import-template.csv).
 2.  Enter the details of your editorial team members, one per row.
 3.  The last field "group name" should match for all the members you
     want to be in the same group eg. "Editor" or "Reviews Editors".
@@ -28,5 +28,5 @@ will be live. If not you can view them from the Editorial Team page on
 the Journal Manager.
 
 > [!TIP]
-> Download the [editorial team sample](../support/downloadables/editorial-team-sample.csv)
+> Download the [editorial team sample](../downloadables/editorial-team-sample.csv)
 > CSV to see example data.

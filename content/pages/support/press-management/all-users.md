@@ -12,7 +12,7 @@ You can see what roles and permissions any given user has across all journals. Y
 
 ## Merging users
 
-If a user has multiple accounts (often the case after changing institutions and making a new account if the older email is no longer accessible), these can be merged at press level, as such only press managers can do this.
+If a user has multiple accounts (often the case after changing institutions and making a new account if the older email is no longer accessible), these can be merged at press level, as such only press managers can do this. This can be done through the **Merge users** page.
 Merges from left into right. This **cannot** be undone. Merges everything - articles, review assignments etc.
 Does not affect frozen author records. The email address can still be changed after the merge.
 
