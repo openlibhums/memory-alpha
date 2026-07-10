@@ -2,13 +2,13 @@ title: Import, export, update
 
 # Import, export, update
 
-Note to SH: Update to clarify article level metadata only goes on the main author row. Update import example as well.
+<!-- Note to SH: Update to clarify article level metadata only goes on the main author row. Update import example as well.-->
 
 The Import / Export / Update tool lets you perform some batch actions in
 Janeway. You can import and export article metadata and files, and you
 can update some fields of existing articles.
 
-<!-- !["The Import, Export, Update start page<"](../support/images/import-export-update-start.png) -->
+!["The Import, Export, Update start page<"](../images/import-export-update-start.png)
 
 ## Importing
 
@@ -16,12 +16,12 @@ With this tool, you can create new articles in Janeway and load them
 directly into the desired workflow stage (peer review, copyediting,
 typesetting, or prepublication).
 
-1.  Download a copy of the [metadata template](../support/downloadables/metadata-template.csv) and open it up to edit it.
+1.  Download a copy of the [metadata template](../downloadables/metadata-template.csv) and open it up to edit it.
     You can use most spreadsheet applications, but make sure you will be
     able to save it as a CSV with UTF-8 character encoding.[^1]
 2.  Enter the metadata, one article per row. See the [Metadata Field
     Reference](#metadata-field-reference) and the [sample
-    import](../support/downloadables/sample-import.csv) for pointers. For multi-author
+    import](../downloadables/sample-import.csv) for pointers. For multi-author
     articles, insert a new row for each author, and only fill in the
     author fields on extra rows.
 3.  Save the file with a name of your choosing.
@@ -55,14 +55,14 @@ You can export a CSV containing metadata for all the articles currently
 in a given workflow stage. It will also download selected files from
 that stage.
 
-1.  From the journal's dashboard, navigate to **All Articles** under
+1.  From the journal's dashboard, navigate to **All articles** under
     **Staff** in the lower left. You need to have 'staff' access to view
     this page.
 2.  Use the **Filter by Stage** drop-down menu to choose a set of
     articles you want to export.
 3.  If you want to download associated files, use the **Files** column
     to add files for each article.
-4.  Select **Export All** or **Export Filtered**. A ZIP file should be
+4.  Select **Export all** or **Export filtered**. A ZIP file should be
     downloaded containing the metadata in `article-data.csv` and the
     article files in subfolders numbered by article ID.
 
@@ -84,18 +84,18 @@ have to click through each individual article to make the change.
     spreadsheet software of choice (but be careful with character
     encoding).
 3.  Edit the metadata as desired. You an rearrange the columns but the
-    column names have to stay exactly the same. See the [sample update](../support/downloadables/sample-update.csv), which shows changes made to the
-    data in [sample import](../support/downloadables/sample-import.csv). See also the
+    column names have to stay exactly the same. See the [sample update](../downloadables/sample-update.csv), which shows changes made to the
+    data in [sample import](../downloadables/sample-import.csv). See also the
     [Metadata Field Reference](#metadata-field-reference) for details on
     each field.
 4.  Save the CSV file with a name of your choosing.
-5.  On the **All Articles** page, select **Upload Update** and upload
+5.  On the **All articles** page, select **Upload update** and upload
     your CSV file.
 6.  A table should load in your browser showing you the data you
     uploaded, so you can look it over before importing it. If everything
     looks good, select **Import**.
 
-## Metadata Field Reference
+## Metadata field reference
 
 The table below shows you what actions (i.e. import, export, update) you
 can perform with each field (yes/no). For example, you can't _import_
@@ -158,7 +158,7 @@ like the keywords.
 | Issue pub date            | YYYY-MM-DD (or any ISO 8601)[^15]   | yes, optional  | yes    | yes, optional                         |
 | PDF URI                   | A valid URI (advanced users)        | yes, optional  | no     | yes, optional                         |
 
-## Custom Submission Fields
+## Custom submission fields
 
 If your journal has any additional submission fields available, this
 plugin will also allow you to export and update such fields.

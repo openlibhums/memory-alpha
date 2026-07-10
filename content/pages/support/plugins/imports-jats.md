@@ -45,5 +45,5 @@ Once you have prepared you zip file you can follow the instructions
 above and select the zip file in place of the JATS file.
 
 > [!TIP]
-> Download the [JATS import sample](../support/downloadables/jats-import-sample.zip) CSV
+> Download the [JATS import sample](../downloadables/jats-import-sample.zip) CSV
 > to see an example zip file.

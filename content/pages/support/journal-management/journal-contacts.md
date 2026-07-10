@@ -13,7 +13,7 @@ You can control the contacts listing for your journal by adding and removing con
 - Role  
   The contact's role, e.g. editor or reviewer.
 
-  ![Contact Manager interface. The sort handles indicate you can drag and drop to re-order your contacts.](contact-manager.png)
+  ![Contact manager interface. The sort handles indicate you can drag and drop to re-order your contacts.](../images/contacts-manager.png)
 
 Any contacts added will be contactable through a webform, but no email address will be displayed. Each incoming message sent through the contact form is recorded in the database and can be viewed in the admin area by staff.
 

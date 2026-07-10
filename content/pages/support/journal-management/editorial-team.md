@@ -15,7 +15,7 @@ There is no limit on the number of editorial groups you can create or how many m
 
 Adding someone to an editorial group does not assign them the editor role and it does not affect the permissions given to a user. Editorial groups are used for display purposes only.
 
-<!-- ![The Editorial Team interface](../../nstatic/editorial-team.png) -->
+![The Editorial Team interface](../images/editorial-team.png)
 
 ## Creating a new group
 
@@ -32,9 +32,9 @@ Creating a new group allows you to add members and display them on the Editorial
 
 ## Editing a group
 
-To edit an existing group, click the **Edit members** button.
+To edit an existing group, click the **Manage group members** button.
 
-<!-- ![The Editorial Team edit page.](../../nstatic/group-membership.png) -->
+![The Editorial Team edit page.](../images/manage-editorial-team-membership.png)
 
 On the left-hand side, you will see a list of current group members. From here you can:
 
@@ -45,7 +45,7 @@ To add someone to an editorial team, they need to have a Janeway account. A list
 
 If someone does not have an account yet, you can either invite them to create an account or create one on their behalf by clicking **Add new user**.
 
-If you are setting up a group where multiple users do not have accounts yet, you may wish to use the editorial team import process instead. <!--missing hyperlink--> This process allows you to create editorial groups where the members do not yet have accounts.
+If you are setting up a group where multiple users do not have accounts yet, you may wish to use the [editorial team import process](../plugins/imports-editorial-team.md) instead. This process allows you to create editorial groups where the members do not yet have accounts.
 
 Alternatively, if you do not want to create a Janeway account for every individual, you can list names directly in the **Group description** box. This field supports HTML and uses a rich-text editor, so you ccould list the editors using formatted text (for example, a bulleted list).
 

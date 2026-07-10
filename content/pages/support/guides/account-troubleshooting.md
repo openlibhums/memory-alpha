@@ -40,7 +40,7 @@ If you have forgotten your password and need to reset it:
 
 ![The login page with 'Forgot your password' highlighted.](../images/forgotten-password.png)
 
-If you have not received the password reset email, contact **Support**. <!-- Missing hyperlink-->
+If you have not received the password reset email, contact **Support**.
 
 ## Update your password
 

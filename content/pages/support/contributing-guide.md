@@ -11,11 +11,11 @@ how to name files and folders.
 ## Creating and editing pages
 
 All the pages of the support site are generated from text files stored under
-`/content/support/` in this repository. Old documentation can be found at
+`content/pages/content/support/` in this repository. Old documentation can be found at
 `/content/old-docs/` while the support site is being built.
 
 Pages for the support site should be written in GitHub-flavored Markdown (GFM).
-Image files should be added under `/content/support/images/`. All the content
+Image files should be added under `content/pages/support/images/`. All the content
 can be edited on GitHub, so that you can make use of the Preview tab in GitHub.
 
 When creating Git commits, create a dedicated branch if you are working in

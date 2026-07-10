@@ -11,6 +11,10 @@ This section explains:
 - [How to set up automated reminders.](./email-reminders.md)  
 - [How to set up publication notifications.](./email-publication-notification.md)  
 
+The pages to control these are found through the **Manager dashboard**, under **Cache, cron and emails**.
+
+![" "](../images/cache-cron-emails.png)
+
 ## How email works in Janeway (at a glance)
 
 - Emails are sent automatically or manually as part of article workflows.

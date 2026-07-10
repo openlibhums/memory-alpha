@@ -1,6 +1,6 @@
-Title: Janeway Documentation
+title: Janeway documentation
 
-# Janeway Documentation
+# Janeway documentation
 
 This guide, whilst not exhaustive, provides various guides for running
 articles through the workflow, configuring journals and setting up an

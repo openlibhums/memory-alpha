@@ -19,8 +19,7 @@ Janeway supports three types of reminder emails:
 - **Revision**  
   Sent to authors who have an active revision request.
 
-Review reminders are sent based on the **review assignment due date** set by the editor.  
-Revision reminders are sent based on the **revision due date** set by the editor.
+Review reminders are sent based on the **review assignment due date** set by the editor. Revision reminders are sent based on the **revision due date** set by the editor.
 
 For all reminder types, you can choose to send reminders **before or after** the due date.
 
@@ -60,13 +59,17 @@ Reminder emails use standard email templates and have access to specific objects
 - Article  
   The appropriate article.
 
-The **Edit template** page includes guidance and examples showing some of the variables available for use in reminder emails.
+The **Create reminder template** page (accessed by clicking the **Edit** button under **Template name** on the **Reminders** page) includes guidance and examples showing some of the variables available for use in reminder emails. This information and additional detail can also be found in [Email templates](./email-templates.md) and [Email template variables](./email-template-variables.md)
 
-<!-- ![A GIF showing the creating, editing and deleting of a reminder, showing the various screens and fields.](../../nstatic/create-reminders.gif) -->
+![" "](../images/edit-template-name.png)
+
+![" "](../images/create-reminder1.png)
+
+![" "](../images/create-reminder2.png)
 
 ## How reminders are sent
 
-Once a reminder has been created, it is processed automatically by a scheduled background task (sometimes called a 'cron job' <!--missing hyperlink to something that explains what this is-->) on the server.
+Once a reminder has been created, it is processed automatically by a scheduled background task (sometimes called a ['cron job'](https://en.wikipedia.org/wiki/Cron) ) on the server.
 
 This task checks for review and revision assignments that match the reminder criteria and sends emails when appropriate.
 

@@ -2,15 +2,13 @@ title: Homepage customisation
 
 # Homepage customisation
 
-The Homepage customisation settings allow you to control which features appear on your journal’s home page and how they are displayed.
+The homepage customisation settings allow you to control which features appear on your journal’s home page and how they are displayed.
 
 From this page, you can:
 
 - Enable or disable homepage features.
 - Configure the content of each feature.
 - Change the order in which features appear.
-
-<!-- ![The Journal Home Settings page](../../nstatic/journal-home-settings.png) -->
 
 ## Adding and managing homepage features
 

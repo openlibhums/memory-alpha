@@ -11,7 +11,7 @@ a CSV (Comma Seperated Value) file.
 
 To import editor accounts:
 
-1.  Download the [editors import template](../support/downloadables/editor-import-template.csv).
+1.  Download the [editors import template](../downloadables/editor-import-template.csv).
 2.  Enter your editor's details, one per row.
 3.  On the Imports Plugin main page select **Editors Import** and click
     **Start Import**.
@@ -25,5 +25,5 @@ To import editor accounts:
 > spam.
 
 > [!TIP]
-> Download the [editors import sample](../support/downloadables/editor-import-sample.csv)
+> Download the [editors import sample](../downloadables/editor-import-sample.csv)
 > CSV to see example data.
