@@ -4,13 +4,13 @@ title: Managing user accounts
 
 The **Users and roles** section of the Manager dashboard has various controls for managing users and permissions. Who can manage what will depend on their role and permissions associated with it.
 
-*Editors* and *Journal managers* can:
+_Editors_ and _Journal managers_ can:
 
 - Manage user accounts at the journal level.
 - Assign and remove roles for users on the journal.
 - View and update account activation status.
 
-*Staff* have additional controls for:
+_Staff_ have additional controls for:
 
 - Viewing all accounts for the press (Janeway installation), including their journal roles and activation status.
 - Merging duplicate user accounts.

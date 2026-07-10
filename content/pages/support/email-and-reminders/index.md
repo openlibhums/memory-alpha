@@ -6,10 +6,10 @@ Janeway uses email to support many key editorial and publishing workflows; inclu
 
 This section explains:
 
-- [How to check what emails were sent and when.](./email-logs.md)  
-- [How to customise email content through templates](./email-templates.md) and [how to work with email template variables.](./email-template-variables.md)  
-- [How to set up automated reminders.](./email-reminders.md)  
-- [How to set up publication notifications.](./email-publication-notification.md)  
+- [How to check what emails were sent and when.](./email-logs.md)
+- [How to customise email content through templates](./email-templates.md) and [how to work with email template variables.](./email-template-variables.md)
+- [How to set up automated reminders.](./email-reminders.md)
+- [How to set up publication notifications.](./email-publication-notification.md)
 
 The pages to control these are found through the **Manager dashboard**, under **Cache, cron and emails**.
 

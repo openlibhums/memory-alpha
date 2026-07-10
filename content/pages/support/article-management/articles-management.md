@@ -10,8 +10,6 @@ Archived and rejected papers can be found under **Archived articles**. On either
 > You can also edit a published article by going to its page on the journal front end and selecting **Edit article** from the account dropdown.
 > ![Showing the edit metadata option on the front end.](../images/front-end-metadata.png)
 
-
-
 ## How to use the article archive page
 
 From the **Article archive** page, you can:

@@ -29,7 +29,7 @@ After the [press accessibility information](#enter-press-accessibility-informati
 > [!WARNING]
 > The setting at press level must be switched on to make this available in the journal manager. If this section does not appear within your journal, then please contact your press manager.
 
-Journal accessibility information may be entered through the **Journal manager**, through  the**General**/**Journal settings** page.
+Journal accessibility information may be entered through the **Journal manager**, through the**General**/**Journal settings** page.
 
 ![Screenshot: Journal accessibility custom information field](../images/a11y-journal-custom-info.png)
 
