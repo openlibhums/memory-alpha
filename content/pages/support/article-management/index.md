@@ -18,6 +18,7 @@ Any articles that are currently set to publish on a future date will appear in a
 
 ![Article listed for publication in the future](../images//pub-schedule.png)
 <--
+
 <!--![Article listed for publication in the future](../nstatic/pub-schedule.png) -->
 
 <!-- explain scheduling around end of year and why to avoid, explain where this is found. -->-->

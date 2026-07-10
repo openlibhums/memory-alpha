@@ -2,7 +2,7 @@
   <nav aria-label="Breadcrumbs">
     <ol>
       {# Form the first few items manually #}
-        <li><a href="/">Home</a></li>
+      <li><a href="/">Home</a></li>
       {% if output_file == "pages/support2.html" %}
         <li>Support</li>
       {% else %}
@@ -25,11 +25,13 @@
           {% if loop.last %}
             {% set label = page.title %}
             <li>{{ label.capitalize() }}</li>
-          {# Form intermediary breadcrumbs from the name of the folder #}
+            {# Form intermediary breadcrumbs from the name of the folder #}
           {% else %}
             {% set label = path_part.replace(".html", "").replace("-", " ").capitalize() %}
             <li>
-              <a href="{{ SITEURL }}/pages/support/{{ path_part }}">{{ label }}</a>
+              <a href="{{ SITEURL }}/pages/support/{{ path_part }}"
+                >{{ label }}</a
+              >
             </li>
           {% endif %}
         {% endif %}

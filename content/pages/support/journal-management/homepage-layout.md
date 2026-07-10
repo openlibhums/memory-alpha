@@ -27,7 +27,7 @@ Any changes take effect immediately, if you do not see them you may need to [cle
   - Latest news.
   - A combination of both.
 
-You can select the number of items to display and the items you want to include or exclude. For more information, see [carousel configuration](./carousel.md). 
+You can select the number of items to display and the items you want to include or exclude. For more information, see [carousel configuration](./carousel.md).
 
 - Current issue  
   Takes whichever issue is marked as current and displays its table of contents on the home page. To learn how to select a current issue, check the [issues page](../issues-volumes-and-collections/index.md).

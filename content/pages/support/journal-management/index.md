@@ -31,10 +31,10 @@ These interfaces help you create and maintain the content that appears on your j
 
 These settings control how your journal’s homepage elements are displayed.
 
-- [Homepage elements](./homepage-layout.md)    
+- [Homepage elements](./homepage-layout.md)  
    Configure homepage features such as the carousel, featured articles, popular articles, and other homepage components.
 
-- [Carousel configuration](./carousel.md)    
+- [Carousel configuration](./carousel.md)  
    Additional guidance for configuring homepage carousel elements and troubleshooting common issues.
 
 - [Journal images]()  
@@ -55,13 +55,13 @@ Use these interfaces to manage the people and contact details displayed on your 
 - [Journal settings](./journal-settings.md)  
    Set key journal details, configure email settings, and adjust various display and integration settings.
 
-- [Image guidelines](./image-guidelines.md)    
+- [Image guidelines](./image-guidelines.md)  
    Guidance on how and where images appear on the journal site, and image size guidelines.
 
-- [Similarity checker](./similarity-check.md)    
+- [Similarity checker](./similarity-check.md)  
    Configure the Crossref Similarity Check (iThenticate) integration for checking submitted manuscripts.
 
-- [Clearing the cache](./cache.md)    
+- [Clearing the cache](./cache.md)  
    If recent changes are not appearing on your journal website, you may need to clear the system cache to refresh stored data.
 
 <!-- There is an argument here to be made around crosslinking to other sections/folders. E.g. include a link to Crossref/identifiers, which can lead to a page for that?-->
