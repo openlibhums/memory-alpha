@@ -1,5 +1,3 @@
-title: Displaying custom accessibility information
-
 # Displaying custom accessibility information
 
 ## Introduction

@@ -1,5 +1,3 @@
-title: Managing users at press level
-
 # Managing users at press level
 
 From the **Press manager** you can manage users across all journals through the **All users** interface.

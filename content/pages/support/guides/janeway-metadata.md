@@ -1,5 +1,3 @@
-title: Metadata on Janeway
-
 # Metadata on Janeway
 
 _This is a work in progress_

@@ -1,5 +1,3 @@
-title: Reviewer guide
-
 # Reviewer guide
 
 As a reviewer, you can access your review task in two ways:

@@ -1,5 +1,3 @@
-title: Accounts and roles
-
 # Accounts and roles
 
 This section explains how user accounts and permissions work in Janeway, including how roles are assigned and managed. Read the following pages for more information:

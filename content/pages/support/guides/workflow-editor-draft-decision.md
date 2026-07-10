@@ -1,5 +1,3 @@
-title: Editor guide to draft decisions
-
 # Editor guide to draft decisions
 
 Draft decisions (DD) are an optional element of the review workflow. It allows section editors to submit a draft of their editorial decision for approval by an editor. When enabled, a section editor will only see the draft decision feature on the **Decision helper** page.

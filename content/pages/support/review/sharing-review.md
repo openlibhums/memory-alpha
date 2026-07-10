@@ -1,5 +1,3 @@
-title: Sharing review
-
 # Sharing reviews
 
 Completed peer reviews can be shared with authors and between reviewers, both within the same review round and between different review rounds.

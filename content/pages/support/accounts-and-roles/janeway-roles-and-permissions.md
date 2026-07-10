@@ -1,5 +1,3 @@
-title: Roles and permissions on Janeway
-
 # Roles and permissions on Janeway
 
 This page explains the different roles available in Janeway and how permissions are managed.

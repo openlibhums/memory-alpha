@@ -1,5 +1,3 @@
-title: Article images import
-
 # Article images import
 
 The article images import tool allows you to supply an article

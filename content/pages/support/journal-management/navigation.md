@@ -1,5 +1,3 @@
-title: Navigation
-
 # Navigation
 
 A journal's navigation bar (navbar) is customised through the **Content manager**.

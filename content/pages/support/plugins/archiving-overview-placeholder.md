@@ -1,5 +1,3 @@
-title: Archiving plugins
-
 # Archiving plugins
 
 - Portico (active)

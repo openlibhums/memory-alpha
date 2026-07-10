@@ -1,5 +1,3 @@
-title: Setting up a repository with Janeway
-
 # Setting up a repository with Janeway
 
 ## About Janeway repositories

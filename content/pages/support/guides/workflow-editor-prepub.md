@@ -1,5 +1,3 @@
-title: Editor guide to pre-publication
-
 # Editor guide to pre-publication
 
 Pre-publication takes you through the last checks before publication, going through each of these final elements step-by-step:

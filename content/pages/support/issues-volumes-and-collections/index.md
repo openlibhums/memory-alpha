@@ -1,5 +1,3 @@
-title: Issues, volumes and collections on Janeway
-
 # Issues, volumes and collections on Janeway
 
 Janeway organises published articles into issues, which are in turn grouped into volumes. Collections offer an additional way to group related articles across issues and volumes. This section explains how each of these works and how to manage them.

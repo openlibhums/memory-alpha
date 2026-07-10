@@ -1,5 +1,3 @@
-title: Submitting to a Janeway repository
-
 # Submitting to a Janeway repository
 
 To submit to a repository, you must either already have an account or create one.

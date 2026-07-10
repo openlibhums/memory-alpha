@@ -1,5 +1,3 @@
-title: Google analytics
-
 # Google analytics
 
 _Coming soon_

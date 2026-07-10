@@ -1,5 +1,3 @@
-title: Email templates
-
 # Email templates
 
 The email templates system allows you to view, search and edit the email templates used by a journal. These templates control the content of both automated and manually sent emails (for example, review invitations, reminders and decision emails).

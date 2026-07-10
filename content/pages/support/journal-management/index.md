@@ -1,5 +1,3 @@
-title: Journal management
-
 # Journal management
 
 This section brings together the tools and settings used to manage your journal’s website, content, and configuration in Janeway.

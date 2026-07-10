@@ -1,5 +1,3 @@
-title: Author guide
-
 # Author guide
 
 This guide will walk you through the Janeway journal submission system.

@@ -1,5 +1,3 @@
-title: Email template variables
-
 # Email template variables
 
 Email template variables allow Janeway to automatically insert information into emails, such as article titles, reviewer names or due dates.

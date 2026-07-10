@@ -1,5 +1,3 @@
-title: Article publication charges
-
 # Article publication charges
 
 Active

@@ -1,5 +1,3 @@
-title: Janeway documentation
-
 # Janeway documentation
 
 This guide, whilst not exhaustive, provides various guides for running

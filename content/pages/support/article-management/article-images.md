@@ -1,5 +1,3 @@
-title: Article images
-
 # Article images
 
 Articles have three images that are used for display:

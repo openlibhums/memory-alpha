@@ -1,5 +1,3 @@
-title: Reporting
-
 # Reporting plugin
 
 The reporting plugin can be found by clicking **Plugins** in the right-hand sidebar and selecting **Reporting plugin**.

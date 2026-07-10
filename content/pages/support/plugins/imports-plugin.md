@@ -1,5 +1,3 @@
-title: Imports
-
 # Imports
 
 [GitHub Repo](https://github.com/openlibhums/imports)

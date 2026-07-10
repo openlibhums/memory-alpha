@@ -1,5 +1,3 @@
-title: Creating an account on Janeway
-
 # Creating an account on Janeway
 
 From the front page of a journal, select **Register** to set up an account. Complete the form and activate your account using the link sent to you by email. Once your account is set up and activated, you can sign in to Janeway.

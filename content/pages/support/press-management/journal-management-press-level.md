@@ -1,5 +1,3 @@
-title: Journal management at press level
-
 # Journal management at press level
 
 - Journal default settings

@@ -1,5 +1,3 @@
-title: DOI management - press level
-
 # DOI management - press level
 
 _Work in progress_

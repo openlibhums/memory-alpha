@@ -1,5 +1,3 @@
-title: Janeway content manager
-
 # Janeway content manager
 
 The **Content manager** provides access to Janeway’s built-in content management system (CMS). It allows you to create and edit static pages for your journal, such as privacy notices, policies, or "About" pages, using a rich-text editor.

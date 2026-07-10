@@ -1,5 +1,3 @@
-title: Journal design
-
 # Journal design
 
 _Coming soon_

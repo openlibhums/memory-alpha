@@ -1,5 +1,3 @@
-title: Crossref issue DOI
-
 # Crossref issue DOI
 
 Janeway supports registering (minting) DOIs for journal issues, in addition to article-level DOIs. Issue DOIs are not registered independently. Instead, they are registered with Crossref when an article in the issue has its article DOI minted. The issue DOI is included in the XML send to Crossref, which will then mint the issue DOI. Only the primary issue to which an article is assigned will have its DOI minted.

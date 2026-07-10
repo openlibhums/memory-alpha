@@ -1,5 +1,3 @@
-title: Article review import
-
 # Article review import
 
 The article review import tool allows you to create peer reviews by

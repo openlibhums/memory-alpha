@@ -1,5 +1,3 @@
-title: Article galleys
-
 # Article galleys
 
 ## What is a galley

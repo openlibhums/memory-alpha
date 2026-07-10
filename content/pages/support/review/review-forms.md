@@ -1,5 +1,3 @@
-title: Review forms
-
 # Review forms
 
 Review forms can be found in the manager dashboard, under **Review**:

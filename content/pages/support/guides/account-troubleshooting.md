@@ -1,5 +1,3 @@
-title: Account troubleshooting
-
 # Account troubleshooting
 
 ## Activate your account

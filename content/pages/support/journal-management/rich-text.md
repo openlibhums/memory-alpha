@@ -1,5 +1,3 @@
-title: Managing rich text fields
-
 # Managing rich text fields
 
 - Something about us using TinyMCE

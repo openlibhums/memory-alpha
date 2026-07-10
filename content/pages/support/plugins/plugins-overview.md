@@ -1,5 +1,3 @@
-title: Plugins available on Janeway
-
 # Plugins available on Janeway
 
 ## VAC (Voluntary Author Contributions)

@@ -1,5 +1,3 @@
-title: Managing submission fields
-
 # Managing submission fields
 
 There are two parts to managing submission fields on Janeway: standard fields and custom fields. The standard fields are the preexisting submission fields on Janeway, whereas the custom ones are any you create.

@@ -1,5 +1,3 @@
-title: Configuring the submission page
-
 # Configuring the submission page
 
 ![" "](../../support/images/manager-submission-page-items.png)

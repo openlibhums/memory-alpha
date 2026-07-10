@@ -1,5 +1,3 @@
-title: Books plugin
-
 # Books plugin
 
 [GitHub Repo](https://github.com/openlibhums/books)

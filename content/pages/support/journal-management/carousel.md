@@ -1,5 +1,3 @@
-title: Carousel configuration
-
 # Carousel configuration
 
 The homepage carousel is a rotating banner that can display selected content from your journal, such as articles, news items, issues, or collections. These content types can be mixed within the same carousel.

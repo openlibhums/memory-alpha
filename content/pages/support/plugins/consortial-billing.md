@@ -1,5 +1,3 @@
-title: Consortial billing plugin
-
 # Consortial billing plugin
 
 [GitHub Repo](https://github.com/openlibhums/consortial_billing)

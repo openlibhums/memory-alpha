@@ -1,5 +1,3 @@
-title: Collections
-
 # Collections
 
 Collections differ in so much as they are not a primary issue for a paper but tend to be collections of papers with similar topics across multiple issues. So an article may be in the Thomas Pynchon Collection but its primary issue may be Volume 1 Issue 2 2019. You can also define your own issue types in the Django admin area. <!-- missing hyperlink -->

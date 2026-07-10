@@ -1,5 +1,3 @@
-title: ORCID login
-
 # ORCID login
 
 _Coming soon_

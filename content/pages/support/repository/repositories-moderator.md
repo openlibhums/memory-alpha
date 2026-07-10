@@ -1,5 +1,3 @@
-title: Moderator guide
-
 # Moderator guide
 
 As a moderator you can find (un)published preprints and preprint stats in the Repository manager, accessible from the left navigation menu.

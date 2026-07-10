@@ -1,5 +1,3 @@
-title: Janeway repositories
-
 # Janeway repositories
 
 Janeway supports hosting repositories for preprints, postprints, field reports, and other publication types within the same press environment as journals. Repository managers can configure and moderate repositories from the Repository Manager.

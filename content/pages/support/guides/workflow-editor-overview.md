@@ -1,5 +1,3 @@
-title: Editor guide - overview
-
 # Editor guide - overview
 
 This page will provide editors with an overview of the workflow, the different parts of the guide (and maybe a flowchart). Probably also some direct links to common sections / some other relevant bits.

@@ -1,5 +1,3 @@
-title: Janeway guides
-
 # Janeway guides
 
 This is a landing page for guides available.

@@ -1,5 +1,3 @@
-title: Press management
-
 # Press management
 
 _Coming soon_

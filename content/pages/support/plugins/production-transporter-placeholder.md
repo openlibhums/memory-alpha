@@ -1,5 +1,3 @@
-title: Production transporter
-
 # Production transporter
 
 [GitHub Repo](https://github.com/openlibhums/production_transporter)

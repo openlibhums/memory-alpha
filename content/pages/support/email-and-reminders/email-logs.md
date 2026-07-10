@@ -1,5 +1,3 @@
-title: Email logs
-
 # Email logs
 
 All outgoing emails sent through Janeway are tracked in the article log. This allows editors, journal managers and staff to confirm which emails have been sent, when they were sent, and (where supported) their delivery status.

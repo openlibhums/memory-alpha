@@ -1,5 +1,3 @@
-title: Articles
-
 # Articles
 
 Once an article is published, you may need to change it — for example, to upload a new galley or correct a metadata error. All published articles can be found on the **Published articles** page under **Back content** in the left-hand sidemenu.

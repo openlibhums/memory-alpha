@@ -1,5 +1,3 @@
-title: Repository settings
-
 # Repository settings
 
 Clicking**Repository settings** opens the repository setup wizard, which is used for both configuring a new repository and editing the settings of an existing one.

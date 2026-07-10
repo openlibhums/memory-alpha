@@ -1,5 +1,3 @@
-title: Editor guide to copyediting
-
 # Editor guide to copyediting
 
 The copyediting stage allows you to assign, track and complete copyediting tasks. You can also request revisions from authors from this interface.

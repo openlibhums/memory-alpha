@@ -1,5 +1,3 @@
-title: JATS import
-
 # JATS import
 
 The JATS import tool allows you to upload a single article as a JATS XML

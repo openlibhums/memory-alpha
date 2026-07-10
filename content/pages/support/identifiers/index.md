@@ -1,5 +1,3 @@
-title: Identifiers
-
 # Identifiers & discovery
 
 Janeway supports minting Digital Object Identifiers (DOIs) for articles and issues through Crossref and DataCite. This section explains how DOIs are generated and registered, and covers other identifier and discovery services relevant to your journal.

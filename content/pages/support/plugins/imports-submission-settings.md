@@ -1,5 +1,3 @@
-title: Copyright, submission, publication fees & reviewer guidelines import
-
 # Copyright, submission, publication fees & reviewer guidelines import
 
 This tool allows you to update some article submission specific settings

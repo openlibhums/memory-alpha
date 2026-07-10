@@ -1,5 +1,3 @@
-title: Janeway analytics
-
 # Janeway analytics
 
 Janeway tracks views and downloads for articles, and can report on this activity across your journal or press. This section explains what analytics data is available and how to access it.

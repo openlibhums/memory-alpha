@@ -1,5 +1,3 @@
-title: Editorial team import
-
 # Editorial team import
 
 The Editorial Team Import allows you to create your editorial team by

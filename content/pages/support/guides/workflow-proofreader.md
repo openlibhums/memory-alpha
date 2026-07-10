@@ -1,5 +1,3 @@
-title: Proofreader guide
-
 # Proofreader guide
 
 <!-- new version of this is available, just need to copyedit it atm-->

@@ -1,5 +1,3 @@
-title: Article metadata
-
 # Article metadata
 
 There are several ways to access and edit an article's metadata in Janeway, depending on whether the article has been published. For more general information on metadata, see: [metadata on Janeway](../article-management/article-metadata.md).

@@ -1,5 +1,3 @@
-title: Design themes on Janeway
-
 # Design themes on Janeway
 
 Janeway has three available themes that determine the appearance of a journal and its layout. These themes are Clean, Material and OLH.

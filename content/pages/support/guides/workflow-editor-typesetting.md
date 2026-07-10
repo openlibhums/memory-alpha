@@ -1,5 +1,3 @@
-title: Editor guide to typesetting
-
 # Editor guide to typesetting
 
 This stage covers typesetting and proofreading of typeset files. This guide will provide the following information:

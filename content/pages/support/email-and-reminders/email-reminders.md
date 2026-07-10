@@ -1,5 +1,3 @@
-title: Scheduling reminders
-
 # Scheduling reminders
 
 Janeway allows you to schedule automated email reminders for review\*\* and revision assignments. These reminders help prompt reviewers and authors when deadlines are approaching or have passed.

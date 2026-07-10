@@ -1,5 +1,3 @@
-title: Emails and reminders on Janeway
-
 # Emails and reminders on Janeway
 
 Janeway uses email to support many key editorial and publishing workflows; including reviewer invitations, decision notifications, revision requests, publication alerts, and automated reminders.

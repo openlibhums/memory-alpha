@@ -1,5 +1,3 @@
-title: Peer review on Janeway
-
 # Peer review on Janeway
 
 This section of the documentation brings together documentation to help you configure and manage the peer review process in Janeway.

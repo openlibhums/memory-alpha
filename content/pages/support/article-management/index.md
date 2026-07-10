@@ -1,5 +1,3 @@
-title: Article management
-
 # Article management
 
 There are various aspects to article management within Janeway and various interfaces to manage them from. This section contains documentation on the following:

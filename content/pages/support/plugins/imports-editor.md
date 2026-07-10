@@ -1,5 +1,3 @@
-title: Editors import
-
 # Editors import
 
 The editor import tool allows you to create editor accounts by uploading

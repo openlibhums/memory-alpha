@@ -1,5 +1,3 @@
-title: Migrations plugins
-
 # Migrations plugins
 
 - Wordpress

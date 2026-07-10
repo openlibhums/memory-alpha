@@ -1,5 +1,3 @@
-title: Publication notifications
-
 # Publication notifications
 
 Janeway supports publication notifications through the **Reader** role. This feature allows users to receive email notifications when new articles are published in a journal.

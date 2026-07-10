@@ -1,5 +1,3 @@
-title: Form elements
-
 # Form elements
 
 Custom forms in Janeway have the following aspects to them yada yada.

@@ -1,5 +1,3 @@
-title: Set up your journal
-
 # Set up your journal
 
 _This is a work in progress_

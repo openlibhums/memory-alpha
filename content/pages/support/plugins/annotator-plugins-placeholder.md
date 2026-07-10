@@ -1,5 +1,3 @@
-title: Annotators overview
-
 # Annotator overview
 
 - Hypothesis - [GitHub Repo](https://github.com/openlibhums/annotators)

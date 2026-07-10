@@ -1,5 +1,3 @@
-title: Triple anonymous peer review
-
 # Triple anonymous peer review
 
 In addition to open, single and double anonymous review, Janeway provides the option to use triple anonymous peer review. When this is enabled, authors, reviewers, and editors are all anonymised until the review stage is complete. This review process is slightly more complex than other forms of anonymous review.

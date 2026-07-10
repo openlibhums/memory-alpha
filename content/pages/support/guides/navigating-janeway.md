@@ -1,5 +1,3 @@
-title: Navigating Janeway
-
 # Navigating Janeway
 
 ## Journal and press website

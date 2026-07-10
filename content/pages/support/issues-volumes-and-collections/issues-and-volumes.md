@@ -1,5 +1,3 @@
-title: Issues
-
 # Issues
 
 On Janeway, issues organise articles for publication. While articles do not have to be part of an issue, some external services (such as Crossref) require that articles be assigned to an issue. As such, we recommend using issues where possible. If your journal uses continuous publication, we recommend creating yearly issues to add articles to.

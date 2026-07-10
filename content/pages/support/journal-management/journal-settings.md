@@ -1,5 +1,3 @@
-title: Journal settings
-
 # Journal settings
 
 In journal settings, you can set basic information about the journal, configure home page elements, upload logos and banner images, and adjust some display elements.

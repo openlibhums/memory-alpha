@@ -1,5 +1,3 @@
-title: Copyeditor guide
-
 # Copyeditor guide
 
 When a new copyediting assignment is created, you will receive an email containing a link. Click on this link to be taken to the **Copyediting Requests** page, where you can see all of your copyediting tasks. You can also access this page through the copyediting block on the journal dashboard by clicking on **View Requests**.

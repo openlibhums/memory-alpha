@@ -1,5 +1,3 @@
-title: Image guidelines
-
 # Image guidelines
 
 <!--

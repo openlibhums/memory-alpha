@@ -1,5 +1,3 @@
-title: Licence manager
-
 # Licence manager
 
 ![" The manager dashboard with the License manager button highlighted."](../../support/images/manager-licence-manager.png)

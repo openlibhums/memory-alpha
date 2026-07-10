@@ -1,5 +1,3 @@
-title: Media files
-
 # Media files
 
 The Media files manager lets editors upload and host small files, which can then have download links embedded within a page.

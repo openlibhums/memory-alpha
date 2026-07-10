@@ -1,5 +1,3 @@
-title: Janeway style guide
-
 # Janeway style guide
 
 ## In this guide

@@ -1,5 +1,3 @@
-title: Activating accounts
-
 # Activating accounts
 
 This page explains how to check whether a user account has been activated and how to activate inactive accounts. As users must activate their account before they can log in to Janeway, inactive accounts are a common cause of login issues.

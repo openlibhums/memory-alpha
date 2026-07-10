@@ -1,5 +1,3 @@
-title: DataCite plugin
-
 # DataCite plugin
 
 [GitHub Repo](https://github.com/openlibhums/datacite)

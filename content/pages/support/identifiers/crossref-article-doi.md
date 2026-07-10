@@ -1,5 +1,3 @@
-title: Crossref article DOI
-
 # Crossref article DOI
 
 Janeway can automatically register (also called "mint" or "deposit") Digital Object Identifiers (DOIs) for articles with Crossref, provided the journal’s settings are correctly configured.
