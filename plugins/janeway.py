@@ -1,4 +1,5 @@
 import os
+import re
 from tempfile import NamedTemporaryFile
 
 from jinja2 import ChoiceLoader, Environment, FileSystemLoader
@@ -45,12 +46,30 @@ def load_jinja_environment(settings):
 
 JINJA_ENV = load_jinja_environment(SETTINGS)
 
+MD_FILE_ENDING_RE = re.compile(r"\.md$")
+MD_FILE_ENDING_FRAGMENT_RE = re.compile(r"\.md\#")
+
 
 class JanewayRendererMixin:
     # This is a Marko mixin
     # https://marko-py.readthedocs.io/en/latest/extend.html#create-an-extension-object
 
-    pass
+    def render_link(self, element):
+        # From overwritten function
+        title = f' title="{self.escape_html(element.title)}"' if element.title else ""
+        url = self.escape_url(element.dest)
+        body = self.render_children(element)
+
+        # New behavior
+        url = re.sub(MD_FILE_ENDING_RE, "", url)
+        url = re.sub(MD_FILE_ENDING_FRAGMENT_RE, "#", url)
+        context = {
+            "title": title,
+            "url": url,
+            "body": body,
+        }
+        template = JINJA_ENV.get_template("components/rendered_link.html")
+        return template.render(context)
 
 
 JanewayMarkoExtension = MarkoExtension(

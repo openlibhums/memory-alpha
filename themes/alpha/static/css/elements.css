@@ -60,6 +60,9 @@ hr {
   border: 1px solid var(--clr-alpha-blue);
   --flow-space: var(--space-m);
 }
+a {
+  color: inherit;
+}
 
 table {
   border-collapse: collapse;
