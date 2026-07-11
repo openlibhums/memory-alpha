@@ -19,36 +19,32 @@ h1 {
   line-height: 1.1;
 }
 
-:where(body[data-alpha-site="main"]) h1 {
-  font-size: var(--step-8);
-  --flow-space: var(--space-xl);
-}
-:where(body[data-alpha-site="support"]) h1 {
-  font-size: var(--step-7);
-  --flow-space: var(--space-l);
+h1 {
+  font-size: var(--font-size-h1);
+  --flow-space: var(--flow-space-h1);
 }
 h2 {
-  font-size: var(--step-5);
+  font-size: var(--font-size-h2);
   font-family: var(--ff-space-mono-bold);
   font-weight: normal;
-  --flow-space: var(--space-l);
+  --flow-space: var(--flow-space-h2);
 }
 h3 {
-  font-size: var(--step-4);
+  font-size: var(--font-size-h3);
   font-family: var(--ff-space-mono-bold);
-  --flow-space: var(--space-m);
+  --flow-space: var(--flow-space-h3);
 }
 h4 {
-  font-size: var(--step-3);
-  --flow-space: var(--space-m);
+  font-size: var(--font-size-h4);
+  --flow-space: var(--flow-space-h4);
 }
 h5 {
-  font-size: var(--step-3);
-  --flow-space: var(--space-m);
+  font-size: var(--font-size-h5);
+  --flow-space: var(--flow-space-h5);
 }
 h6 {
-  font-size: var(--step-3);
-  --flow-space: var(--space-m);
+  font-size: var(--font-size-h6);
+  --flow-space: var(--flow-space-h6);
 }
 p,
 ul,

@@ -12,6 +12,7 @@ from marko import Markdown
 from marko.ast_renderer import ASTRenderer
 from marko.ext.gfm import GFM
 from marko.helpers import MarkoExtension
+from marko.ext.toc import slugify
 
 
 SETTINGS = read_settings(DEFAULT_CONFIG_NAME)
@@ -54,6 +55,24 @@ class JanewayRendererMixin:
     # This is a Marko mixin
     # https://marko-py.readthedocs.io/en/latest/extend.html#create-an-extension-object
 
+    def render_heading(self, element):
+        # From overwritten function
+        children = self.render_children(element)
+        level = element.level
+        if level > 1:
+            section_id = slugify(children)
+        else:
+            section_id = ""
+
+        # New behaviour
+        context = {
+            "level": level,
+            "children": children,
+            "section_id": section_id,
+        }
+        template = JINJA_ENV.get_template("components/rendered_heading.html")
+        return template.render(context)
+
     def render_alert(self, element):
         # From overwritten function
         header = self.escape_html(element.alert_type)
@@ -79,7 +98,7 @@ class JanewayRendererMixin:
             "header_title": header.title(),
             "children": children,
         }
-        template = JINJA_ENV.get_template("components/markdown_alert.html")
+        template = JINJA_ENV.get_template("components/rendered_alert.html")
         return template.render(context)
 
     def render_link(self, element):
