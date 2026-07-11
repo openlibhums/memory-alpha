@@ -68,4 +68,4 @@ When accounts are merged:
 
 - All associated items (including articles, tasks, roles and files) are transferred from the source account to the destination account.
 - The destination account profile is retained.
-- Any profile information from the source account is permanently lost. <!--check how much of this is the case -->
+- Any profile information from the source account is permanently lost. This includes information like email, name, ORCID ID, social media usernames, and preferences about things like profile visibility and preferred timezone.

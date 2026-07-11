@@ -11,15 +11,15 @@ Needs some further work, checks and dev input on a few bits. Need to check out t
 Janeway has a variety of roles available that can be assigned to users, some of which will affect the permissions of the user. Roles do not exclude each other, e.g. having one role will not prevent you another one.
 
 - Author  
-   Assigned automatically when a user registers with a journal or submits an article. This can be considered the 'base role'.
+  Assigned automatically when a user registers with a journal or submits an article. This can be considered the 'base role'.
 - Reviewer
 - Editor  
-   Editors handle processing of articles and assignment of tasks. An editor has access to the journal workflow, manager dashboard and journal settings, certain plugins and is able to do general journal management.
+  Editors handle processing of articles and assignment of tasks. An editor has access to the journal workflow, manager dashboard and journal settings, certain plugins and is able to do general journal management.
   An editor does not have access to the admin area, press level settings and certain plugins.
 - Journal manager  
-   Journal managers have a similar level of permission to the editor role, but can be given additional access (see below).
+  Journal managers have a similar level of permission to the editor role, but can be given additional access (see below).
 - Section editor  
-   Section editors have access only to the workflow elements of articles assigned to them. They cannot access any articles not assigned to them, journal settings or plugins. This role is well-suited for (guest) editors who only need to handle specific articles within the journal.
+  Section editors have access only to the workflow elements of articles assigned to them. They cannot access any articles not assigned to them, journal settings or plugins. This role is well-suited for editors who only need to handle specific articles within the journal, such as guest editors.
 - Copyeditor
 - Typesetter
 - Proofreader
@@ -53,12 +53,14 @@ Staff users can:
 - Merge duplicate user accounts at press level.
 - Use all installed plugins.
 - View additional manager pages (for example: inactive users, authenticated users).
-- View the **All articles** page. <!-- check-->
+- View the **All articles** page.
 - Access the **Admin area**. <!--missing hyperlink-->
 
-### Superusers permission
+### Superuser permission
 
-‘Superuser’ will assign a user all roles across the system.
+Superuser status allows a user to bypass most role-based permissions restrictions. This effectively allows the user to see most views in Janeway.
+
+There are some cases that superusers cannot access a page. For example, sometimes Janeway only gives access if the user is assigned to a particular task, or if the user was sent particular contact message.
 
 ## Granular manager permissions
 
@@ -67,17 +69,17 @@ Staff users can:
 Janeway allows more granular permissions for journal managers and editors, using the **Permissions** setting group. This can be used on the configuration of licences and sections as following:
 
 - Licenses  
-   Permissions control whether users can access the licenses control pages based on their roles, defaulting to Editor and Journal Manager.
+  Permissions control whether users can access the licenses control pages based on their roles, defaulting to Editor and Journal Manager.
 
 - Sections  
-   Permissions control whether a user can access the sections control pages based on their roles, defaulting to Editor and Journal Manager.
+  Permissions control whether a user can access the sections control pages based on their roles, defaulting to Editor and Journal Manager.
 
 ### Editing granular permissions (staff only - advanced)
 
 > [!NOTE]
 > The following sections contain information on configuring granular permissions. This requires more advanced technical knowledge, though you are unlikely to need this (often).
 
-There is no interface for updating the roles that can access these pages and the setting is JSON stored in the database. If you are not comfortable or able editing this, contact your system administrator.
+There is no interface for updating the roles that can access the licenses and sections pages and the setting is JSON stored in the database. If you are not comfortable or able editing this, contact your system administrator.
 
 > [!WARNING]
 > Only modify granular permissions if you are confident in the change you are making.

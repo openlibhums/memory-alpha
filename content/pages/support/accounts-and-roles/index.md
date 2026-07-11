@@ -14,6 +14,13 @@ This section explains how user accounts and permissions work in Janeway, includi
 
 ## Single sign-on (SSO) login
 
-Janeway supports single sign-on (SSO), allowing users to log in using their institutional credentials without creating a separate Janeway account.
+Janeway supports single sign-on (SSO), allowing users to log in using their institutional credentials. SSO shows up on the login screen as a button reading “Log in with [name of institution]”
 
-SSO must be configured by your system administrator. If you are interested in enabling SSO for your journal or press, contact your system administrator for further information.
+When users login with SSO the first time, Janeway creates a regular account in the background, recording the name and email that it gets from the SSO system.
+
+Users who originally signed in with SSO can switch to regular login after resetting their password from the login screen. Likewise, users who registered a normal Janeway account can start using SSO if their Janeway account email address matches the one they use with their institution.
+
+> [!TIP]
+> If you do not see the SSO login option on your installation of Janeway, then it has not been configured. Contact your system administrator for help configuring SSO.
+
+<!-- missing link for devs to OIDC docs -->
