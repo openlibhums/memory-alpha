@@ -34,8 +34,16 @@
 }
 
 /* Prose text */
-.prose > * {
+/* Constrain the width of most prose elements.
+ * But allow screenshots in docs to extend past the prose
+ * reading width. */
+.prose > *:where(:not(p:has(img:first-child:last-child))) {
   max-width: 40rem;
+}
+@supports not selector(:has(*)) {
+  .prose > * {
+    max-width: 40rem;
+  }
 }
 .not-prose {
   max-width: none;

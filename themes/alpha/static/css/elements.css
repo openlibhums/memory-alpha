@@ -56,6 +56,12 @@ li {
   font-size: var(--step-3);
   --flow-space: var(--space-xs);
 }
+/* Images in paragraphs surrounded by text (like
+ * icons in support docs) should be inline */
+p img:where(:not(:first-child:last-child)) {
+  display: inline;
+  max-width: unset;
+}
 hr {
   border: 1px solid var(--clr-alpha-blue);
   --flow-space: var(--space-m);

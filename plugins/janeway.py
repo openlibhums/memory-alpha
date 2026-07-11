@@ -54,6 +54,34 @@ class JanewayRendererMixin:
     # This is a Marko mixin
     # https://marko-py.readthedocs.io/en/latest/extend.html#create-an-extension-object
 
+    def render_alert(self, element):
+        # From overwritten function
+        header = self.escape_html(element.alert_type)
+        children = self.render_children(element)
+
+        # New behavior
+        alert_type = element.alert_type.lower()
+        if alert_type == "note":
+            icon = "info-circle"
+        elif alert_type == "tip":
+            icon = "bulb"
+        elif alert_type == "important":
+            icon = "message-report"
+        elif alert_type == "warning":
+            icon = "alert-triangle"
+        elif alert_type == "caution":
+            icon = "alert-octagon"
+        else:
+            icon = "info-circle"
+        context = {
+            "alert_type": alert_type,
+            "icon_file": f"svg/tabler/{ icon }.svg",
+            "header_title": header.title(),
+            "children": children,
+        }
+        template = JINJA_ENV.get_template("components/markdown_alert.html")
+        return template.render(context)
+
     def render_link(self, element):
         # From overwritten function
         title = f' title="{self.escape_html(element.title)}"' if element.title else ""

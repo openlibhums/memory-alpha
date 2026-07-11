@@ -101,6 +101,8 @@
   .combined-menu {
     display: none;
     flex-direction: column;
+    --clr-foreground: var(--clr-alpha-white);
+    color: var(--clr-foreground);
     --clr-background: var(--clr-alpha-black);
     background: var(--clr-background);
     align-items: flex-start;
