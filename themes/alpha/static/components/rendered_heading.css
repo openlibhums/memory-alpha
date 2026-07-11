@@ -45,8 +45,9 @@
   .section-link svg,
   .document-link svg {
     display: inline;
-    vertical-align: center;
+    vertical-align: baseline;
     height: 1em;
     width: 1em;
+    margin-block-end: -0.25rem;
   }
 }

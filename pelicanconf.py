@@ -3,7 +3,7 @@ from datetime import datetime
 import logging
 
 
-TESTING = True
+TESTING = False
 AUTHOR = 'Open Library of Humanities'
 SITENAME = 'Janeway'
 SITEURL = "http://localhost:8000" if TESTING else "https://janeway.systems"
