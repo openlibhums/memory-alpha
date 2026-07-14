@@ -6,13 +6,15 @@ To work on a file, find it under **Files for typesetting** and click **Options**
 
 !["The files for typesetting block."](../images/workflow/editor-typesetting-options.png)
 
-- Convert: This option makes the file available for download to readers. This feature is useful when you want to make the original manuscript file available.
+- Convert  
+    This option makes the file available for download to readers. This feature is useful when you want to make the original manuscript file available.
 
-- Transform to HTML: This option transforms the manuscript file (DOCX or RTF) into an HTML file that displays the article within a web browser.
+- Transform to HTML  
+    This option transforms the manuscript file (DOCX or RTF) into an HTML file that displays the article within a web browser.
 
 Once a file has been converted or transformed to HTML, it will be listed under **Current galleys**. If you have done both, it will display twice.
 
-You can now edit the galley and manage images as outlined in the Editor - typesetting guide <!-- missing hyperlink -->.
+You can now edit the galley and manage images as outlined in the [Editor - typesetting guide](./workflow-editor-typesetting.md#image-and-figure-files).
 
 ## Editing galleys
 

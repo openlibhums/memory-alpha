@@ -48,4 +48,4 @@ To edit an author's affiliation, click **Edit author details** and scroll down t
 
 !["The edit author page."](../images/workflow/editor-submission-edit-author.png)
 
-Janeway uses [Research Organization Registry (ROR)](https://ror.org/) to manage affiliation data, this ensures consistent formatting of affiliation data and links authors to their instituions, improving metadata quality. You can search for an institution or, if no match is found, add the details manually.
+Janeway uses [Research Organization Registry (ROR)](https://ror.org/) to manage affiliation data, this ensures consistent formatting of affiliation data and links authors to their institutions, improving metadata quality. You can search for an institution or, if no match is found, add the details manually.

@@ -3,18 +3,19 @@
 ## Activate your account
 
 If you are sure your password is correct and you cannot login, your account has likely not been activated yet.
+
 This is usually resolved either by:
 
 - Requesting a password reset link. This will send you an account activation email, if your account has not yet been activated. If your account was not created by you (or an editor) but was imported into Janeway, this will not work. You will need to use the option below.
 
-- An editor or journal manager activating your account. (See Activating a user account for instructions <!-- missing hyperlink -->)
+- An editor or journal manager activating your account. (If you are an editor or journal manager, see [Activating a user account](#activating-a-user-account) for more information).
 
 ### Activating a user account
 
 1. Go to **Journal users** on the **Manager** interface.
 2. Find the user in question through the searchbox and/or filter by account activation status.
    !["A screenshot of the search options for the user search. Including a text field and various filters."](../images/search-inactive.png)
-3. Click **Edit** for the appropriate user
+3. Click **Edit** for the appropriate user.
    ![" "](../images/edit-user.png)
 4. Set the account activation toggle to **Yes**.
    ![" "](../images/active-toggle.png)
@@ -31,7 +32,7 @@ If you have forgotten your password and need to reset it:
 
 1. Click **Forgotten your password?**
 2. Enter your email address.
-3. Click the **Request token**
+3. Click the **Request token** button.
 4. Open your email inbox and locate the password reset email. The email subject will be "[journal name] Password Reset". It can take a few minutes to arrive and may arrive in your spam folder.
 5. Click the link in the email.
 6. Fill in the password fields to set a new password.

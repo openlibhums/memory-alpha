@@ -70,7 +70,7 @@ You can also set an article thumbnail through the **Article image manager**, whi
 > [!TIP]
 > You can source many free-to-use images from [Unsplash.com](https://unsplash.com/). If you are sourcing images from elsewhere, be aware of any copyright restrictions and only use images that you are permitted to reproduce.
 
-Check the **Mark as Complete** box to move on to the next step.
+Check the **Mark as complete** box to move on to the next step.
 
 ## Send the publication notifications
 
@@ -79,7 +79,7 @@ You can also amend the subject line, email body, and add attachments.
 
 The dates/times you see in the email correspond to the timezone set in your user profile or the default timezone (UTC) if none has been set.
 
-Check the **Mark as Complete** box to move on to the next step.
+Check the **Mark as complete** box to move on to the next step.
 
 ## Publishing the article
 
@@ -88,6 +88,6 @@ Once you have completed all the steps, you are ready to publish the article. The
 > [!NOTE]
 > The warning regarding whether an article is marked as peer reviewed will always remain. This allows editors to double-check this and adjust, if needed.
 
-Once the **Publish this article** has been clicked, the article is now scheduled to publish at the specified time. Once an article is live, you can see it on the Articles page and you may wish to check if all files display correctly. For information on managing articles after publication, see: Content management. <!-- missing hyperlink -->
+Once the **Publish this article** has been clicked, the article is now scheduled to publish at the specified time. Once an article is live, you can see it on the Articles page and you may wish to check if all files display correctly. For information on managing articles after publication, see: [Article management](../article-management/articles-management.md).
 
 The publishing workflow is now complete – congratulations on your finished article!

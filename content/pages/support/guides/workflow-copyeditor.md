@@ -1,6 +1,6 @@
 # Copyeditor guide
 
-When a new copyediting assignment is created, you will receive an email containing a link. Click on this link to be taken to the **Copyediting Requests** page, where you can see all of your copyediting tasks. You can also access this page through the copyediting block on the journal dashboard by clicking on **View Requests**.
+When a new copyediting assignment is created, you will receive an email containing a link. Click on this link to be taken to the **Copyediting requests** page, where you can see all of your copyediting tasks. You can also access this page through the copyediting block on the journal dashboard by clicking on **View requests**.
 
 ![copyeditor dashboard block](../images/workflow/copyeditor-dashboard.png)
 
@@ -58,10 +58,10 @@ The editor can then either accept your copyedited manuscript and move onto the n
 
 ## Reopened task
 
-If the editor has reopened the task, you will receive an email containing a link to the **Copyediting requests** page. There, you will be able to see the request on your Dashboard.
+If the editor has reopened the task, you will receive an email containing a link to the **Copyediting requests** page. There, you will be able to see the request on your dashboard.
 
 ![The three columns on the 'Copyedit Requests' page ('Awaiting initial decision', 'In progress' and 'Completed'. There is a task that has been reopened in the middle and the original completed task on the right.](../images/workflow/copyedit-reopened-kanban.png)
 
-It may appear as though the task has been duplicated, but the one in the **Completed** column is the original task, and the one shown under **In Progress** will be the reopened version.
+It may appear as though the task has been duplicated, but the one in the **Completed** column is the original task, and the one shown under **In progress** will be the reopened version.
 
 From here, this works the same way as any other copyediting task. The updated paper will be found under and can be downloaded from **Article files** for you to work on. Once you have completed your copyedit, it can be uploaded under **Copyedited files**. When you have done this, press **Complete copyedit task** to submit your work. The reopened task will be moved to **Complete** and the editor will be notified.
