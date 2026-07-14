@@ -13,7 +13,7 @@ Clean is the most differnet from the two - thinner viewport and less prominent i
 
 ## Clean
 
-- Currently most accessible.
+- Most accessible.
 - Minimalistic, less images.
 
 Examples:

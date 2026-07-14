@@ -2,7 +2,7 @@
 
 Once an article is published, you may need to change it — for example, to upload a new galley or correct a metadata error. All published articles can be found on the **Published articles** page under **Back content** in the left-hand sidemenu.
 
-Archived and rejected papers can be found under **Archived articles**. On either page, you can search and then select an article to edit.
+Archived and rejected articles can be found under **Archived articles**. On either page, you can search and then select an article to edit.
 
 > [!TIP]
 > You can also edit a published article by going to its page on the journal front end and selecting **Edit article** from the account dropdown.
@@ -63,7 +63,7 @@ The **Article display** page has settings for controlling how articles look and 
 - Disable metrics display
 - Suppress citation metrics
 
-How to cite is an auto-generated citation based on a custom OLH citation style. You can suppress it for all articles using **Suppress how to cite**. You can also override it for individual articles by entering a custom citation in the **Edit metadata** pane for each article.
+How to cite is an auto-generated citation based on a custom Open Library of Humanities citation style. You can suppress it for all articles using **Suppress how to cite**. You can also override it for individual articles by entering a custom citation in the **Edit metadata** pane for each article.
 
 > [!NOTE]
 > A previous version of the citation included "p" before page ranges. To restore this, enter a custom value in the **Page numbers** field in **Edit metadata** for each article.

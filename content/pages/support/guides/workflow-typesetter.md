@@ -4,7 +4,7 @@ When you are assigned a typesetting task in Janeway, you will receive an email n
 
 !["The typesetter Dashboard displaying the number of typesetter tasks assigned."](../../support/images/workflow/typesetting-dashboardblock.png)
 
-On the dashboard, you can see a block that displays the current number of open typesetting assignments. If you click on this block, it will take you to the **Typesetting Assignments** page, and you will be able to see both your currently open typesetting assignments (the top block) and your completed assignments (the bottom block).
+On the dashboard, you can see a block that displays the current number of open typesetting assignments. If you click on this block, it will take you to the **Typesetting assignments** page, and you will be able to see both your open typesetting assignments (the top block) and your completed assignments (the bottom block).
 
 For open assignments, it will display:
 
@@ -21,7 +21,7 @@ For completed assignments, it will display:
 - Date it was assigned
 - Completion date
 
-!["The ‘Typesetting assignments’ page."](../../support/images/workflow/typesetting-assignments.png)
+!["The 'Typesetting assignments' page."](../../support/images/workflow/typesetting-assignments.png)
 
 You can then click **View assignment** to display the assignment page.
 
@@ -29,7 +29,7 @@ You can then click **View assignment** to display the assignment page.
 
 On this page, you will find relevant information about the typesetting task. This will include the instructions, manuscript files, metadata, options to accept or decline the task, and space to upload completed files.
 
-!["The ‘Assignment information’ page."](../../support/images/workflow/typesetting-interface.png)
+!["The 'Assignment information' page."](../../support/images/workflow/typesetting-interface.png)
 
 This page is divided into three sections.
 
@@ -48,28 +48,28 @@ This page is divided into three sections.
 
 ## Uploading a typeset file
 
-!["The files section of the typesetting page. It shows the ‘Files to typeset’, ‘Upload typeset files’ and ‘Upload source file’ options."](../../support/images/workflow/typesetting-files.png)
+!["The files section of the typesetting page. It shows the 'Files to typeset', 'Upload typeset files' and 'Upload source file' options."](../../support/images/workflow/typesetting-files.png)
 
 Click **Upload a new typeset file** to upload your completed work.
 
 Source files (such as Adobe InDesign files) can be uploaded by clicking **Upload new source file**.
 
-!["The typeset file upload. It provides the options to add a label for the file, toggle whether the file should be publicly available after the article is published, choose a file to upload, and confirm the upload."](../../support/images/workflow/typesetting-upload.png)
+!["The typeset file upload. It provides the options to add a label for the file, toggle whether the file will be publicly available after the article is published, choose a file to upload, and confirm the upload."](../../support/images/workflow/typesetting-upload.png)
 
-In this box, you can label your file with its file format. For instance, if this is an HTML file, you should label it as ‘HTML’. If it is a PDF, you should label it as ‘PDF’, etc.
+In this box, you can label your file with its file format. For instance, if this is an HTML file, you should label it as 'HTML'. If it is a PDF, you should label it as 'PDF', etc.
 
 Janeway will attempt to provide an appropriate label if this is left blank. However, if you wish to ensure the label is correct, you can manually enter the file type. For instructions on how to edit a label, see the section below.
 
 > [!WARNING]
-> Janeway operates with the UTF-8 encoding. Please ensure that you upload any HTML and XML files (plain text galleys) using this encoding.
+> Janeway operates with the UTF-8 encoding. Ensure that you upload any HTML and XML files (plain text galleys) using this encoding.
 
 ## Editing typeset files and uploading additional files
 
 If you need to make changes to the typeset files, you can reupload them or upload additional files through the **Edit typeset file** page. This page can be accessed by clicking **Edit**.
 
-!["The ‘Upload typeset files’ section, showing two uploaded files. It also displays the figure files’ status: ‘N/A’ for a file with no figure files and ‘Missing figures’ for a file with missing figures."](../../support/images/workflow/typesetting-edit-button.png)
+!["The 'Upload typeset files' section, showing two uploaded files. It also displays the figure files' status: 'N/A' for a file with no figure files and 'Missing figures' for a file with missing figures."](../../support/images/workflow/typesetting-edit-button.png)
 
-!["The ‘Edit typeset file’ page."](../../support/images/workflow/typesetting-filehistory.png)
+!["The 'Edit typeset file' page."](../../support/images/workflow/typesetting-filehistory.png)
 
 This page is divided into three sections:
 
@@ -97,7 +97,7 @@ This will open a page where you can download and reinstate previous versions or 
 
 !["A screenshot displaying the available options for adding image files: uploading a file in a section for a dedicated image (displaying its filename), uploading images as additional files or uploading a zip file."](../../support/images/workflow/typesetting-image-upload.png)
 
-When a file typeset in HTML or XML contains image links, Janeway will detect these and prompt you to upload the image files. The file names should match the `src` or `href` used in the XML/HTML and be relative (e.g. `src="fig1.jpg`).
+When a file typeset in HTML or XML contains image links, Janeway will detect these and prompt you to upload the image files. The file names must match the `src` or `href` used in the XML/HTML and be relative (e.g. `src="fig1.jpg`).
 
 If the image files have already been uploaded onto Janeway, you can select them instead.
 
@@ -105,7 +105,7 @@ If you need to upload a large number of images, it may be faster to use the zip 
 
 ## Styling
 
-On this page, you can also upload a CSS file associated with the article for an individual style, if required. We recommend avoiding style changes to the header and footer type elements, as this will affect the page's layout.
+On this page, you can also upload a CSS file associated with the article for an individual style, if required. It is recommended to avoid style changes to the header and footer type elements, as this will affect the page's layout.
 
 You can also select the XSL file used to render the HTML from the file. Unless explicitly instructed otherwise, this will be the Janeway default (1.4.3). <!-- A bit unclear which case the following is referring to -->In that case, the editors will communicate this as part of the typesetting task or agreement.
 

@@ -1,10 +1,10 @@
 # Reviewer import
 
 The Reviewer import tool allows you to create reviewer accounts by
-uploading a CSV (Comma Seperated Value) file.
+uploading a CSV (Comma-separated values) file.
 
 > [!WARNING]
-> This importer is site specific. You should be accessing the import tool
+> This importer is site specific. You must access the import tool
 > from the press or journal you want it import the reviewers into.
 
 To import reviewer accounts:
@@ -12,7 +12,7 @@ To import reviewer accounts:
 1.  Download the
     [reviewer import template](../downloadables/reviewer-import-template.csv).
 2.  Enter your reviewer details, one per row.
-3.  If you wish to add more than one interest you should separate them
+3.  If you wish to add more than one interest you must separate them
     with a semi colon eg. interest one; interest two; interest three.
 4.  On the Imports Plugin main page select **Reviewer Import** and click
     **Start Import**.

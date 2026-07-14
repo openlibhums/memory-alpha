@@ -1,6 +1,6 @@
 # Crossref article DOI
 
-Janeway can automatically register (also called "mint" or "deposit") Digital Object Identifiers (DOIs) for articles with Crossref, provided the journal’s settings are correctly configured.
+Janeway can automatically register (also called "mint" or "deposit") Digital Object Identifiers (DOIs) for articles with Crossref, provided the journal's settings are correctly configured.
 
 This page explains:
 
@@ -15,7 +15,7 @@ If Crossref settings are correctly configured, Janeway handles DOI registration 
 
 By default, Janeway registers a DOI with Crossref when an article is accepted for publication.
 
-After acceptance, the DOI will exist in Crossref’s system. However, the web page it points to may not yet be live if the article has not been published. This is expected and does not indicate a problem.
+After acceptance, the DOI will exist in Crossref's system. However, the web page it points to may not yet be live if the article has not been published. This is expected and does not indicate a problem.
 
 Provisional metadata is sent, but no author-identifiable details are shared.
 
@@ -95,7 +95,7 @@ Crossref settings are configured from the Manager interface under **Crossref set
   Enables or disables DOI registration for the journal. If disabled, no DOIs will be minted.
 
 Use Crossref test deposit server  
- Sends DOIs to Crossref’s test system instead of the live system. Useful for testing only.
+ Sends DOIs to Crossref's test system instead of the live system. Useful for testing only.
 
 - Crossref username  
    Your Crossref account username.
@@ -133,5 +133,5 @@ Use Crossref test deposit server
 
 A journal DOI is only mandatory if a journal does _not_ have an ISSN, as Crossref requires at least one unique identifier per journal.
 
-However, Crossref recommends registering a journal DOI even when an ISSN exists. We recommend using your journal code
+However, Crossref recommends registering a journal DOI even when an ISSN exists. It is recommended to use your journal code
 as the DOI. For example, with the prefix of `10.0001` and the journal code `abcd`, you could set the journal DOI to `10.0001/abcd`.

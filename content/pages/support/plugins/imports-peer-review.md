@@ -1,7 +1,7 @@
 # Article review import
 
 The article review import tool allows you to create peer reviews by
-uploading a CSV (Comma Seperated Value) file.
+uploading a CSV (Comma-separated values) file.
 
 > [!WARNING]
 > This tool only allows the import of reviews as files, as such you may
@@ -22,11 +22,11 @@ To import peer reviews:
 
 | Field                 | Notes                                                      |
 | --------------------- | ---------------------------------------------------------- |
-| Identifier Type       | Should be either id, doi or pub-id                         |
+| Identifier Type       | Must be either id, doi or pub-id                         |
 | Identifier            | The corresponding ID, DOI or Pub-ID                        |
 | Review recommendation | Either: accept, minor_revisions, major_revisions or reject |
 | Review filename       | Path to a file on disk eg: /home/username/files/review.pdf |
-| Date Fields           | All date fields should be in ISO format YYYY-MM-DD         |
+| Date Fields           | All date fields must be in ISO format YYYY-MM-DD         |
 | Visibility            | Either: open, blind or double-blind                        |
 
 > [!TIP]

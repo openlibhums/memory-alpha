@@ -30,4 +30,4 @@ On this page, you can do the following:
 - Set your profile visibility.
 
 > [!IMPORTANT]
-> Just the unique ID should be entered in the **ORCID** field (e.g. `0000-1234-5678-901X`). Do not include `https://orcid.org/`.
+> Just the unique ID must be entered in the **ORCID** field (e.g. `0000-1234-5678-901X`). Do not include `https://orcid.org/`.

@@ -36,7 +36,7 @@ Do:
   my-folder/my-file-name.txt
 ```
 
-Don’t:
+Don't:
 
 - use spaces (reason: shell scripting)
 - use capital letters (reason: avoid broken links)
@@ -63,7 +63,7 @@ For example:
 
 ## Internal links
 
-If you want to link to another page in the documentation, use Markdown’s link
+If you want to link to another page in the documentation, use Markdown's link
 syntax, but leave the extension off the file, since eventually it will be an
 HTML file, not a Markdown file. For example, to create a link to this file from
 another file in the same folder, you can do this:

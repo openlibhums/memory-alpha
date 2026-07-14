@@ -24,4 +24,4 @@ If your journal or press uses the OLH theme, you can quickly update the colour p
 }
 ```
 
-These variables do not work on the Material or Clean themes yet, though we have plans to add these or similar variables for those themes.
+These variables do not work on the Material or Clean themes.

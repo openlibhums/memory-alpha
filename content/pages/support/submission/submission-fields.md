@@ -15,15 +15,15 @@ There are a set of default submission fields within Janeway, the **Submission fi
 - Comments to editor
 - Abstract
 - Language
-- License
+- Licence
 - Keywords
 - Section
 - Funding
 - Figures and data files
 
-If you choose not to use the license, language and section fields as a part of the submission process, we recommend setting a default value for those. E.g. if you only accept submissions in English, you could remove the language selection from the submission process. If you do so, it is recommended you set English as the default language. If nothing is set, the language will be absent from the article metadata (or license or article type, respectively).
+If you choose not to use the licence, language and section fields as a part of the submission process, it is recommended to set a default value for those. E.g. if you only accept submissions in English, you could remove the language selection from the submission process. If you do so, it is recommended you set English as the default language. If nothing is set, the language will be absent from the article metadata (or licence or article type, respectively).
 
-If you are using Janeway in languages other than English, you can also set the label for the submission file. This is what the ‘main text’ the author uploads will be labelled within the system.
+If you are using Janeway in languages other than English, you can also set the label for the submission file. This is what the 'main text' the author uploads will be labelled within the system.
 
 ![" "](../../support/images/manuscript-label.png)
 
@@ -38,7 +38,7 @@ To add a new field, must provide the following:
 ### Name
 
 For each element, you will need to set a name. That name will display as text above the part which the user fills in or interacts with.
-Short questions or prompts such as “Is this your first submission?” or “Upload” should be put in this field. If you have a longer question or need to provide more details, you may wish to use a more generic header and include additional information in the help text.
+Short questions or prompts such as “Is this your first submission?” or “Upload” can be put in this field. If you have a longer question or need to provide more details, you may wish to use a more generic header and include additional information in the help text.
 
 ### Kind
 
@@ -62,7 +62,7 @@ A submission form can have the following types of form elements:
 - **Select (dropdown)**  
   This lets you provide a set of options to be displayed in a dropdown list, allowing users to select one.
 
-To add these options, use the **Choices** field. The options should be separated by the bar (" | ") character. This should look like this: "choice 1|choice 2|choice 2".
+To add these options, use the **Choices** field. The options must be separated by the bar (" | ") character. This will look like this: "choice 1|choice 2|choice 2".
 
 ![" "](../../support/images/element-select.png)
 

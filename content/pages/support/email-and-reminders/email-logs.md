@@ -50,7 +50,7 @@ Emails sent through Janeway may display a delivery status, indicated with both t
 > [!NOTE]
 > If your installation does not use Mailgun, but another email service (for example, Googlemail), the coloured dots will not display meaningful status information.
 
-Janeway can only track events that occur within the system and the configured email service. It cannot track what happens after an email leaves that service (for example, if an email is blocked by the recipient’s local mail server).
+Janeway can only track events that occur within the system and the configured email service. It cannot track what happens after an email leaves that service (for example, if an email is blocked by the recipient's local mail server).
 
 If you suspect persistent email delivery issues, contact your system administrator.
 
@@ -63,7 +63,7 @@ The following statuses can appear:
 - Accepted  
    The email has been accepted by the email service for delivery.
 - Delivered  
-   The email has been delivered to the recipient’s mail server.
+   The email has been delivered to the recipient's mail server.
 - Failed <!-- check with dev-->  
    The email could not be delivered.
 
@@ -75,7 +75,7 @@ The following statuses can appear:
 From this page there are also two things you can do:
 
 - Refresh the email status  
-   This checks the latest delivery status for the email. This can be used to check the delivery status. This cannot detect issues on the recipient’s side (such as local spam filtering).
+   This checks the latest delivery status for the email. This can be used to check the delivery status. This cannot detect issues on the recipient's side (such as local spam filtering).
 
 - View email content
   This displays the email message that was sent From this screen, you can also resend the email.

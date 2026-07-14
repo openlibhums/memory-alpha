@@ -1,10 +1,10 @@
 # Editors import
 
 The editor import tool allows you to create editor accounts by uploading
-a CSV (Comma Seperated Value) file.
+a CSV (Comma-separated values) file.
 
 > [!WARNING]
-> This importer is site-specific. You should be accessing the import tool
+> This importer is site-specific. You must access the import tool
 > from the press or journal you want it import the editors into.
 
 To import editor accounts:
@@ -12,7 +12,7 @@ To import editor accounts:
 1.  Download the [editors import template](../downloadables/editor-import-template.csv).
 2.  Enter your editor's details, one per row.
 3.  On the Imports Plugin main page select **Editors Import** and click
-    **Start Import**.
+    **Start import**.
 4.  Select your CSV and, if you want you editors to receive a password
     reset notification check that option.
 5.  Click **Import** to complete the process.

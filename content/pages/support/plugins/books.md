@@ -44,7 +44,7 @@ The bar on top represents access to the key functions of the books plugin:
 This is where categories can be created that books can be assigned to;such as imprints, collections or even record labels.
 
 All current categories are displayed on the right-hand side, with a link
-to the live website where you can view all monographs currently present
+to the live website where you can view all monographs present
 in a category.
 
 Whilst books can be assigned to a category at any moment, it is
@@ -64,12 +64,12 @@ When adding a new category, the following fields are available:
   Leave this unchecked if you want to hide the category title.
 
 - Chapter name  
-  This is where the ‘Chapter’ label can be edited, in case the
+  This is where the 'Chapter' label can be edited, in case the
   individual components of publications assigned to this category
   are not chapters. This is a required field.
 
 - Chapter name plural  
-  This is where the plural for the ‘Chapter’ label can be edited
+  This is where the plural for the 'Chapter' label can be edited
   to ensure the label is pluralised correctly. This is a required
   field.
 
@@ -77,7 +77,7 @@ When adding a new category, the following fields are available:
   This defaults to “Buy this Book”. If the item is not a book, you
   will need to update this field. This is a required field.
 
-![An example of how changing the ‘Chapter name’ fields results in a change on the website. Instead of ‘Chapters’ it reads ‘Assignment Sets’ on the dropdown. The text in the dropdown now reads ‘Introduction to Open Access - workbook (the title) has the following Assignment Sets:’. It then goes on to list these.](../images/books-category-display.png)
+![An example of how changing the 'Chapter name' fields results in a change on the website. Instead of 'Chapters' it reads 'Assignment Sets' on the dropdown. The text in the dropdown now reads 'Introduction to Open Access - workbook (the title) has the following Assignment Sets:'. It then goes on to list these.](../images/books-category-display.png)
 
 > [!NOTE]
 > This field is case-sensitive. If you do not wish for these words to be
@@ -91,7 +91,7 @@ When adding a new category, the following fields are available:
 New monographs are added by clicking **Add new book**, which is
 positioned rightmost in the topbar of the main dashboard.
 
-<![The ‘Add a new book’ page. On the left, the book details can be filled into various text boxes. On the right are sections for ‘Contributors’, ‘Formats’ and ‘Chapters’. These are currently blocked, which is indicated for each of them with a red bar and the text “Save book before adding contributors/formats/chapters”.](../images/books-addbook-dashboard.png)
+<![The 'Add a new book' page. On the left, the book details can be filled into various text boxes. On the right are sections for 'Contributors', 'Formats' and 'Chapters'. These are currently blocked, which is indicated for each of them with a red bar and the text “Save book before adding contributors/formats/chapters”.](../images/books-addbook-dashboard.png)
 
 Before the manuscript files can be uploaded, various metadata fields
 need to be completed first, displayed on the left-hand side of the page
@@ -113,7 +113,7 @@ This section contains the following fields:
   applicable.
 
 - Description  
-  The book’s description can be provided here.
+  The book's description can be provided here.
 
 - Pages  
   This is the total number of pages.
@@ -155,8 +155,8 @@ This section contains the following fields:
 
 - Purchase URL  
   If this book has an option for physical purchase, this is where
-  this can be linked. It will show as an option next to the ‘Read’
-  and ‘Download’ buttons on the book’s page.
+  this can be linked. It will show as an option next to the 'Read'
+  and 'Download' buttons on the book's page.
 
 - Remote URL  
   If this monograph is not hosted on Janeway but you would like it
@@ -220,7 +220,7 @@ This page contains the following fields:
 
 - Title  
   The title field is where you specify the format. This will be
-  displayed on the website as ‘Download \[title\]’ (see image
+  displayed on the website as 'Download \[title\]' (see image
   below). This field is case-sensitive, so you may wish to be
   consistent with capitalisation. This is a required field.
 
@@ -245,7 +245,7 @@ filename in its reader toolbar, as displayed in the image below.
 
 ![""](../images/books-final-manuscript.png)
 
-> [!Note]
+> [!NOTE]
 > **Read this book** will always follow the ePub download option and **Buy
 > this book** will always be the last one in the sequence.
 
@@ -258,7 +258,7 @@ the metadata is entered. This might be of particular interest if the
 book is an edited volume with multiple contributors; individual chapter
 uploads with their respective metadata allow for higher discoverability.
 
-> [!Note]
+> [!NOTE]
 > The chapter-level uploads are limited to one file, so only one file type
 > can be used here.
 
@@ -300,7 +300,7 @@ This page contains the following fields:
 - Licence information
 
 - Keywords  
-  This is currently a list from which keywords can be selected.
+  This is a list from which keywords can be selected.
 
 ## Importing books
 
@@ -329,16 +329,16 @@ These headers are:
 
 Books import headers
 
-> [!Warning]
-> Due to a bug, UTF-8 does not seem to be properly recognised when specific browser-editor combinations are used. We are investigating this. If the file is not properly read upon upload, you may also wish to try a regular .csv file (not UTF-8 encoded). If you still encounter an error, contact Support.
+> [!WARNING]
+> Due to a bug, UTF-8 does not seem to be properly recognised when specific browser-editor combinations are used. If the file is not properly read upon upload, you may also wish to try a regular .csv file (not UTF-8 encoded). If you still encounter an error, contact Support.
 
 Once the import file has successfully been uploaded, the imported books
 will show on the main dashboard. You can now click on these to upload
 the files themselves and to make any further edits.
 
-[^1]: Using a character encoding other than UTF-8 can cause bugs during imports or updates. See “[What is character encoding?](https://www.w3.org/International/questions/qa-what-is-encoding)” These apps save .csvs with UTF-8 by default: OpenRefine, LibreOffice, Google Sheets, and Apple Numbers. However! If you use Microsoft Excel, keep in mind some versions don’t automatically create .csv files with UTF-8 character encoding. This may cause punctuation and special characters to be garbled on import. So, when saving, look for the ‘.csv (UTF-8)’ option in the drop-down box.
+[^1]: Using a character encoding other than UTF-8 can cause bugs during imports or updates. See “[What is character encoding?](https://www.w3.org/International/questions/qa-what-is-encoding)” These apps save .csvs with UTF-8 by default: OpenRefine, LibreOffice, Google Sheets, and Apple Numbers. However! If you use Microsoft Excel, keep in mind some versions don't automatically create .csv files with UTF-8 character encoding. This may cause punctuation and special characters to be garbled on import. So, when saving, look for the '.csv (UTF-8)' option in the drop-down box.
 
-[^2]: Required due to a bug - we aim to fix this in the near future.
+[^2]: Required due to a bug.
 
 ## Reporting metrics for books
 
@@ -349,11 +349,11 @@ it is done separately through the books plug-in.
 
 On this page, you can view the general access metrics for monographs, as
 well as for each format of a monograph. On this page, date ranges can be
-selected per day, rather than per month as in the ‘Metrics by month’
+selected per day, rather than per month as in the 'Metrics by month'
 page. The date range affects both the Book Metrics field and the Format
 Metrics field.
 
-> [!Note]
+> [!NOTE]
 > If a monograph is not available for open-access downloading/reading, no
 > data will be collected and the metrics will remain at 0.
 
@@ -374,7 +374,7 @@ title, views and downloads.
 
 ![""](../images/books-format-metrics.png)
 
-> [!Note]
+> [!NOTE]
 > The total views and downloads in this report may differ slightly from
 > the amounts listed in the monthly report discussed above. This is due to
 > an issue with time zones and the cutoff points used for the calculation.

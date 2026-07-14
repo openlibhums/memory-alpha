@@ -9,9 +9,9 @@ The options for draft decision types are the same as those in the standard decis
 - **Accept**  
    The article is moved into copyediting.
 - **Minor revisions**
-  The section editor should provide the author with guidance on implementing the feedback from the peer reviewers.
+  The section editor can provide the author with guidance on implementing the feedback from the peer reviewers.
 - **Major revisions**
-  The section editor should provide the author with guidance on implementing the feedback from the peer reviewers. If an article requires major revisions, another round of peer review must be undertaken once the revisions are complete.
+  The section editor can provide the author with guidance on implementing the feedback from the peer reviewers. If an article requires major revisions, another round of peer review must be undertaken once the revisions are complete.
 
 - **Conditional accept**  
    This option allows the section editor to request revisions from the author.

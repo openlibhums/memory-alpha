@@ -1,6 +1,6 @@
 # Editorial team import
 
-The Editorial Team Import allows you to create your editorial team by
+The Editorial team import allows you to create your editorial team by
 uploading a CSV (Comma Separated Value) file.
 
 > [!NOTE]
@@ -14,16 +14,16 @@ To import your editorial team:
 1.  Download the
     [editorial team template](../downloadables/editor-import-template.csv).
 2.  Enter the details of your editorial team members, one per row.
-3.  The last field "group name" should match for all the members you
-    want to be in the same group eg. "Editor" or "Reviews Editors".
-4.  On the Imports Plugin main page select **Editorial Team Import** and
-    click **Start Import**.
+3.  The last field "group name" must match for all the members you
+    want to be in the same group eg. "Editor" or "Reviews editors".
+4.  On the Imports Plugin main page select **Editorial team import** and
+    click **Start import**.
 5.  Upload your file.
 6.  Click **Import** to complete the process.
 
-If you have enabled the Editorial Team page these groups and members
-will be live. If not you can view them from the Editorial Team page on
-the Journal Manager.
+If you have enabled the editorial team page these groups and members
+will be live. If not you can view them from the editorial team page on
+the journal manager.
 
 > [!TIP]
 > Download the [editorial team sample](../downloadables/editorial-team-sample.csv)

@@ -21,13 +21,13 @@ The wizard has five steps:
 5. **Live**
    Sets the repository as live.
 
-The section below will briefly outline the the other pages which lets you configure youre repository. For information on additional settings, including licenses, submission fields, and subjects, see Additional repository settings. <!-- missing hyperlink--> <!--need to write this still-->
+The section below will briefly outline the the other pages which lets you configure youre repository. For information on additional settings, including licences, submission fields, and subjects, see [Additional repository settings](). <!-- missing hyperlink--> <!--need to write this still-->
 
-## Licenses
+## Licences
 
-!["The repository licenses page."](../images/repositories/repo-licences.png)
+!["The repository licences page."](../images/repositories/repo-licences.png)
 
-This page lets you choose which licenses are made available for preprints in this repository. The available licenses are all of those made available on the Janeway press, which is why you may see duplicates.
+This page lets you choose which licences are made available for preprints in this repository. The available licences are all of those made available on the Janeway press, which is why you may see duplicates.
 
 ## Subjects
 
@@ -37,7 +37,7 @@ This page lets you set the subjects that preprints can fall into. These can be o
 
 ![" "](../images/repositories/repo-parent-child-subject.png)
 
-You can also select editors who should be notified of submissions made to this subject.
+You can also select editors who will be notified of submissions made to this subject.
 
 ## Additional submission fields
 

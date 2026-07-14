@@ -16,7 +16,7 @@ This plugin produces a range of reports for analytics within Janeway. These repo
 - Journal citations
 - Book citations
 - Crossref DOI URLs
-- License report
+- Licence report
 - Workflow report
 - Experimental reports
 
@@ -25,9 +25,9 @@ This plugin produces a range of reports for analytics within Janeway. These repo
 This report summarises the overall performance of the press, including analytics around the number of publications and usage data across journals. This report uses the dates specified in the filter when retrieving data.
 
 > [!TIP]
-> If you wish to review statistics over a year, we recommend setting the end date not on 31/12 but on 01/01 of the year following.
+> If you wish to review statistics over a year, it is recommended to set the end date not on 31/12/yy but on 01/01/yy of the year following.
 
-The first three columns (Submissions, Published Submissions and Rejected Submissions) use the submission date as their data point.
+The first three columns (submissions, published submissions and rejected submissions) use the submission date as their data point.
 
 ## Journal usage by month
 
@@ -54,7 +54,7 @@ This report shows article citations. It can either show citations per year or of
 For a citation to be countable, the citing article needs to have a DOI deposited with Crossref.
 
 > [!TIP]
-> We recommend also depositing citations and producing XML to improve article citation accuracy.
+> It is recommended to deposit citations and produce XML to improve article citation accuracy.
 
 ## Article authors
 
@@ -75,9 +75,9 @@ This report shows total book citations using Crossref data.
 
 This report can be used to generate TSV files that can be shared with Crossref to perform bulk updates. You can either use it to update URLs linked to DOIs stored in Janeway or to update full-text URLs for updating Crossref Similarity Check.
 
-## License report
+## Licence report
 
-This report shows the number of article using specific licenses in the period specified in the date filter. The date filter for this report uses the date an article was published.
+This report shows the number of article using specific licences in the period specified in the date filter. The date filter for this report uses the date an article was published.
 
 ## Workflow report
 

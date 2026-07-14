@@ -34,7 +34,7 @@ This is an example of how this will appear from the author dashboard within Jane
 
 ![The author dashboard block in Janeway. Submit new article in the top right corner of the block is highlighted.](../images/workflow/author-dashboard-block.png)
 
-If you already have an account, you will usually automatically be given the author role in Janeway when you submit an article. However, some journals will ask you to provide the details of the manuscript’s author or select yourself as the author manually. For more information on this, see the **Author information** <!-- Missing hyperlink --> section of this guide.
+If you already have an account, you will usually automatically be given the author role in Janeway when you submit an article. However, some journals will ask you to provide the details of the manuscript's author or select yourself as the author manually. For more information on this, see the **Author information** <!-- Missing hyperlink --> section of this guide.
 
 ### The author agreement
 
@@ -47,18 +47,18 @@ The first page of the submission process is the author agreement. Depending on h
 - Submission checklist  
    The submission checklist will display any steps you need to take before submitting the manuscript (e.g. formatting).
 - Copyright notice  
-   The copyright notice specifies the license under which the paper will be published and any rights you may need to sign over to the publisher.
+   The copyright notice specifies the licence under which the paper will be published and any rights you may need to sign over to the publisher.
 - Competing interests  
    If you have any competing interests that the editors should take into account when examining your paper, this is where you will need to disclose them.
 
 > [!NOTE]
-> Please note that a "Voluntary Author Contribution" and "Article Processing Charge" are different. The former is entirely optional and not required for publication in a journal. For more information about publication fees, visit the relevant journal’s policy page(s) or contact its editorial team.
+> Note that a "Voluntary Author Contribution" and "Article Processing Charge" are different. The former is entirely optional and not required for publication in a journal. For more information about publication fees, visit the relevant journal's policy page(s) or contact its editorial team.
 
 If they have been enabled, the publication fees, submission checklist and copyright notice fields will be required. This means that you _must_ select the checkboxes in order to complete a submission. If you have any issues with any of the clauses, it is best to contact the editor(s) before you submit your work.
 
 ### Article information
 
-The **article information** page is where you will provide the metadata for your submission. Required fields will be marked with an asterisk, but we recommend that you fill out optional fields as well.
+The **article information** page is where you will provide the metadata for your submission. Required fields will be marked with an asterisk, but it is recommended that you fill out optional fields as well.
 
 ![The article information page, filled with example data.](../images/workflow/author-article-information.png)
 
@@ -74,7 +74,7 @@ Metadata that may be requested on this page:
 - Section  
    This refers to the type of article the paper is (e.g., research article, book review, editorial, etc.).
 - Licence  
-   This is usually disabled if the journal only accepts one license type.
+   This is usually disabled if the journal only accepts one licence type.
 - Keywords  
    You can add keywords to your article to help people discover it. To add keywords, type the word or phrase into the textbox and press 'Enter' to add it. If you wish to delete a keyword, click the **X** icon next to it within the textbox. Keywords can include spaces and special characters.
 
@@ -84,7 +84,7 @@ Individual journals can add more fields to this page. These will be displayed un
 
 ### Author information
 
-The **Author information** page is where you fill in the relevant information about a submission’s author(s). The person submitting will be automatically added as an author.
+The **Author information** page is where you fill in the relevant information about a submission's author(s). The person submitting will be automatically added as an author.
 
 To add more authors to a submission, you can either search the journal's author list for existing authors, search by ORCID or add another author manually.
 
@@ -138,13 +138,13 @@ Even if they have already been inserted into the manuscript file, you need to ad
 
 To add a file, click the **Upload** button under either **Manuscript file** or **Figures and data files**, and a popup will appear. You can select the file from here using the **Choose file** button.
 
-You are required to add a label to any file uploaded, but the description field is optional. For manuscript files, we recommend something along the lines of "submitted manuscript". For figure files, this label should correspond with the information in the manuscript (e.g. the "Figure 1" in your manuscript should be labelled as "Figure 1" when you upload it here).
+You are required to add a label to any file uploaded, but the description field is optional. For manuscript files, it is recommended to use something along the lines of "submitted manuscript". For figure files, this label should correspond with the information in the manuscript (e.g. the "Figure 1" in your manuscript should be labelled as "Figure 1" when you upload it here).
 
 While you can add only one manuscript file, multiple figures and/or data files can be added.
 
 ### Funding
 
-You will then be asked to supply information about any relevant funding. You can search for your funding source using our **Search for funder** function or add them manually. When adding a funder, you will be given the option to provide an optional Funder DOI and Grant ID.
+You will then be asked to supply information about any relevant funding. You can search for your funding source using the **Search for funder** function or add them manually. When adding a funder, you will be given the option to provide an optional Funder DOI and Grant ID.
 
 !["The funding information page."](../images/workflow/author-funding.png)
 !["The funder ID block, with example information."](../images/workflow/author-add-funder.png)
@@ -203,7 +203,7 @@ It is important that all stylistic changes are made at this stage. As many error
 
 The typesetters will then use this final manuscript to create the finished article, which will be sent back for checking in the form of typeset proofs.
 
-Typeset proofs are not an opportunity to make changes to the content or style of a manuscript: the file that goes into production is final. It is expected that only a handful (less than 10) of very minor changes should be requested at the proofing stage, if any.
+Typeset proofs are not an opportunity to make changes to the content or style of a manuscript: the file that goes into production is final. It is expected that only a handful (less than 10) of very minor changes are requested at the proofing stage, if any.
 
 ### Completing a copyediting review as an author
 

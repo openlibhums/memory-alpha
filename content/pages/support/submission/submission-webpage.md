@@ -24,7 +24,7 @@ Here, you can see the same text as it appears in the submission process:
 
 If an edit was made to this copyright notice through the **Submission page items**, it would change on both pages.
 
-In the **Submission page items list**, you can see all the areas that function like this. All of the options displayed as ‘Linked to’ can be edited through either **Submission page items** or **Submission settings**.
+In the **Submission page items list**, you can see all the areas that function like this. All of the options displayed as 'Linked to' can be edited through either **Submission page items** or **Submission settings**.
 
 ![" "](../../support/images/submission-page-item-list.png)
 
@@ -40,7 +40,7 @@ There are three types of custom submission page items you can create using this.
 ![" "](../../support/images/custom-submission-page-item.png)
 
 - **Special displays**  
-   There are two types of special displays, Licences and Sections. These will display the license and article type (section) information for your journal. It will take the information supplied through the License manager and Sections (article types) <!--missing hyperlink-->.
+   There are two types of special displays, Licences and Sections. These will display the licence and article type (section) information for your journal. It will take the information supplied through the [Licence manager](./article-licence-manager.md) and [Sections (article types)](../article-management/article-sections.md).
 
 - **Setting-based displays**  
    You can also set a title and select a setting to display. This will then display the text / information set as part of the setting - this will allow consistency and ensures text only needs to be updated in one place. If you wish to check the content of the setting, the best way to do so is:
