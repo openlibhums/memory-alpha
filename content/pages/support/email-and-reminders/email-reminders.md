@@ -1,6 +1,6 @@
 # Scheduling reminders
 
-Janeway allows you to schedule automated email reminders for review\*\* and revision assignments. These reminders help prompt reviewers and authors when deadlines are approaching or have passed.
+Janeway allows you to schedule automated email reminders for review and revision assignments. These reminders help prompt reviewers and authors when deadlines are approaching or have passed.
 
 Reminders are configured at the journal level and are sent automatically based on the due dates set by editors.
 
@@ -17,7 +17,7 @@ Janeway supports three types of reminder emails:
 - **Revision**  
   Sent to authors who have an active revision request.
 
-Review reminders are sent based on the **review assignment due date** set by the editor. Revision reminders are sent based on the **revision due date** set by the editor.
+Review reminders are sent based on the _review assignment due date_ set by the editor. Revision reminders are sent based on the _revision due date_ set by the editor.
 
 For all reminder types, you can choose to send reminders _before or after_ the due date.
 

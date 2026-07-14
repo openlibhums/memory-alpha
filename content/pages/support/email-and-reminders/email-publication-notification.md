@@ -1,6 +1,6 @@
 # Publication notifications
 
-Janeway supports publication notifications through the **Reader** role. This feature allows users to receive email notifications when new articles are published in a journal.
+Janeway supports publication notifications through the Reader role. This feature allows users to receive email notifications when new articles are published in a journal.
 
 Publication notifications can be enabled or disabled on a per-journal basis. When enabled, any user with a Janeway account can opt in to receive notifications via their profile page.
 
@@ -25,7 +25,7 @@ Users can sign up for publication notifications by:
 
 ![Screenshot showing the option to subscribe to publication notifications on the user profile page](../images/publication-notifications-profile.png)
 
-The **Reader** role is not a workflow role and does not grant access to editorial or journal management features. It is used only to manage publication notification preferences.
+The Reader role is not a workflow role and does not grant access to editorial or journal management features. It is used only to manage publication notification preferences.
 
 For more information about roles, see [**Roles and permissions**](../accounts-and-roles/janeway-roles-and-permissions.md).
 
