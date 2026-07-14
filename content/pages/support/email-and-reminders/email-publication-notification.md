@@ -35,6 +35,6 @@ Publication notifications are sent as a daily email digest:
 
 - All articles published on a given day are included in a single email.
 - If no articles are published on a particular day, no notification is sent.
-- Emails are sent using BCC, so recipients do not see other subscribers’ email addresses.
+- Emails are sent using BCC, so recipients do not see other subscribers' email addresses.
 
 <!--Are notifications logged in any logs?-->

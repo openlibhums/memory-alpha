@@ -7,9 +7,9 @@ This page explains how to check whether a user account has been activated and ho
 There are two places from which to check and manage the activation status of accounts:
 
 - **Journal users**
-- **Inactive users**.
+- **Inactive users**
 
-Both are found under **Users & roles** on the Manager dashboard. The **Journal users** page is available to editors and journal managers, where as the **Inactive users** page is accessible to staff only.
+Both are found under **Users & roles** on the Manager dashboard. The **Journal users** page is available to editors and journal managers, whereas the **Inactive users** page is accessible to staff only.
 
 To view inactive users:
 
@@ -32,7 +32,7 @@ Once you have identified an inactive account through either **Journal users** or
 
 ![Account activation toggle.](../images/activate-account.png)
 
-The user will now be able to login into the journal.
+The user will now be able to log in to the journal.
 
 <!-- ### Troubleshooting
 

@@ -10,9 +10,9 @@ This image is used in the heading of the article page (also called a 'hero image
 
 ![Example of the landscape image on the homepage using the OLH theme.](../images/large-image-homepage.png)
 
-The exact recommended size of the large image will depend on the theme your journal uses. The height of the display will also ways be 648px, but the width will vary per theme: 1100px on the Clean theme, 1200px on the OLH theme, 1477px on the Material theme. For information on image display, cropping and sizing, see Image guidelines<!-- missing hyperlink -->. The image will be resized smaller for display on the homepage.
+The exact recommended size of the large image will depend on the theme your journal uses. The height of the display will always be 648px, but the width will vary per theme: 1100px on the Clean theme, 1200px on the OLH theme, 1477px on the Material theme. For information on image display, cropping and sizing, see [Image guidelines](../journal-management/image-guidelines.md). The image will be resized smaller for display on the homepage.
 
-Generally, we recommend large, landscape images to be used for the large image and avoiding images with people or bodies due to potential unexpected cropping.
+Generally, large, landscape images are recommended to be used for the large image and avoiding images with people or bodies due to potential unexpected cropping.
 
 If no landscape image is uploaded, the **Default large image** will be used where the landscape image is set to display.
 
@@ -48,4 +48,4 @@ Once images are uploaded, the page will look similar to the following:
 
 The large image and thumbnail will display a preview and can be removed by clicking **Delete**. The meta image will not display a preview and can be removed by checking the **Clear** box and then clicking **Upload**.
 
-See also: image guidelines <!-- missing hyperlink -->
+See also: [Image guidelines](../journal-management/image-guidelines.md).

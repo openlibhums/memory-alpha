@@ -27,7 +27,7 @@
   ## WordPress
 
   > [!WARNING]
-  > This importer is site-specific. You should be accessing the import tool from the press or journal you want it import the reviewers into.
+  > This importer is site-specific. You must be access the import tool from the press or journal you want it import the reviewers into.
 
 To import Wordpress posts:
 

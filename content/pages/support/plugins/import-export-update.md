@@ -29,7 +29,7 @@ typesetting, or prepublication).
     Update** in the Imports plugin start page.)
 5.  Select **Upload Update** and upload your file. (It says 'update',
     but this is how you import new things too.)
-6.  A table should load in your browser showing you the data, before you
+6.  A table will load in your browser showing you the data, before you
     import it. If everything looks good, select **Import**.
 
 > [!TIP]
@@ -49,7 +49,7 @@ typesetting, or prepublication).
 
 ## Exporting
 
-You can export a CSV containing metadata for all the articles currently
+You can export a CSV containing metadata for all the articles
 in a given workflow stage. It will also download selected files from
 that stage.
 
@@ -60,7 +60,7 @@ that stage.
     articles you want to export.
 3.  If you want to download associated files, use the **Files** column
     to add files for each article.
-4.  Select **Export all** or **Export filtered**. A ZIP file should be
+4.  Select **Export all** or **Export filtered**. A ZIP file will be
     downloaded containing the metadata in `article-data.csv` and the
     article files in subfolders numbered by article ID.
 
@@ -72,7 +72,7 @@ have to click through each individual article to make the change.
 1.  To update one field, you have to provide data for all the fields, or
     at least most of them, because the tool interprets empty fields
     literally, and will save empty fields (potentially overwriting older
-    data). So we recommend you first export the set of articles, and use
+    data). So it is recommended to first export the set of articles, and use
     that as the basis for changes. See [Exporting](#exporting).
 
 > [!WARNING]
@@ -89,7 +89,7 @@ have to click through each individual article to make the change.
 4.  Save the CSV file with a name of your choosing.
 5.  On the **All articles** page, select **Upload update** and upload
     your CSV file.
-6.  A table should load in your browser showing you the data you
+6.  A table will load in your browser showing you the data you
     uploaded, so you can look it over before importing it. If everything
     looks good, select **Import**.
 
@@ -170,7 +170,7 @@ The header location is irrelevant, as long as the header matches the
 name of the field in Janeway exactly.
 
 [^1]:
-    The Janeway ID should only be populated when updating a record
+    The Janeway ID must only be populated when updating a record
     that already exists in Janeway. These IDs are allocated by the
     system and can not be set by the user.
 
@@ -206,18 +206,17 @@ name of the field in Janeway exactly.
     and these won't work without email addresses.
 
 [^7]:
-    You should include existing email addresses in your CSV when
+    You must include existing email addresses in your CSV when
     you're trying to update other fields. You can also add or remove
     author records from an article with this tool. However, you
-    shouldn't use this tool to change an author's email address, because
+    must not use this tool to change an author's email address, because
     Janeway will think you're trying to add a new author and will create
-    a duplicate account with the new address. We will improve this
-    behaviour in the future.
+    a duplicate account with the new address.
 
 [^8]:
     'Author is primary' tells Janeway which author is the
-    correspondence author. Generally, one and only one author should be
-    marked 'Y' and the rest 'N' or blank. If you leave this field blank
+    correspondence author. Only one author can be
+    marked 'Y', and the rest must be 'N' or blank. If you leave this field blank
     for all authors, the article won't have a correspondence author.
 
 [^9]:
@@ -233,10 +232,8 @@ name of the field in Janeway exactly.
     is left blank, the article will be put in the `Unassigned` stage
 
 [^11]:
-    Currently the workflow stage cannot be changed en masse once the
-    articles are imported, since that might break tasks in progress. In
-    the future we want to make it possible to change the stage of
-    multiple articles.
+    The workflow stage cannot be changed en masse once the
+    articles are imported, since that might break tasks in progress.
 
 [^12]:
     You can import PDF galleys with this process using the PDF URI
@@ -255,7 +252,7 @@ name of the field in Janeway exactly.
 
 [^14]:
     The ISSN override field works in the same way as the journal
-    title override, and it should only be used if you want to display a
+    title override, and it must only be used if you want to display a
     different ISSN for specific articles in special circumstances.
 
 [^15]:

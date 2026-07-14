@@ -33,17 +33,17 @@ Once you have clicked into a paper, the next page you see will be broken into fo
 - **Complete task**  
    Here you can enter a note for the editor and mark the task as complete.
 
-  ![The ‘Article Copyediting’ page. It displays information about the manuscript, the article files, completed files and a ‘comments to the editor’ textbox. The ‘Download’, ‘Upload File’ and ‘Complete copyedit task’ buttons are highlighted.](../images/workflow/copyedit-page.png)
+  ![The 'Article Copyediting' page. It displays information about the manuscript, the article files, completed files and a 'comments to the editor' textbox. The 'Download', 'Upload File' and 'Complete copyedit task' buttons are highlighted.](../images/workflow/copyedit-page.png)
 
 ### Article files & copyedited files
 
-![The ‘Article files’ and ‘Copyedited files’ section. It shows the files, their filenames, labels and download buttons. There is also an upload file button for copyedited files.](../images/workflow/copyedit-files.png)
+![The 'Article files' and 'Copyedited files' section. It shows the files, their filenames, labels and download buttons. There is also an upload file button for copyedited files.](../images/workflow/copyedit-files.png)
 
 This is where you can find the necessary files to complete the copyediting task. This will include the manuscript and other files, such as figures. You can upload the copyedited manuscript using the <img src="../../support/images/upload-icon.png" width="12" height="12"/> **Upload file** button.
 
 ### Complete task
 
-![The ‘Complete task’ section with a textbox for the notes to the editor. There is a ‘Complete copyedit task’ button at the bottom.](../images/workflow/copyedit-complete-task.png)
+![The 'Complete task' section with a textbox for the notes to the editor. There is a 'Complete copyedit task' button at the bottom.](../images/workflow/copyedit-complete-task.png)
 
 In this section, you can leave any notes for the editor. They may pass these to the author if so required.
 
@@ -60,7 +60,7 @@ The editor can then either accept your copyedited manuscript and move onto the n
 
 If the editor has reopened the task, you will receive an email containing a link to the **Copyediting requests** page. There, you will be able to see the request on your Dashboard.
 
-![The three columns on the ‘Copyedit Requests’ page (‘Awaiting initial decision’, ‘In progress’ and ‘Completed’. There is a task that has been reopened in the middle and the original completed task on the right.](../images/workflow/copyedit-reopened-kanban.png)
+![The three columns on the 'Copyedit Requests' page ('Awaiting initial decision', 'In progress' and 'Completed'. There is a task that has been reopened in the middle and the original completed task on the right.](../images/workflow/copyedit-reopened-kanban.png)
 
 It may appear as though the task has been duplicated, but the one in the **Completed** column is the original task, and the one shown under **In Progress** will be the reopened version.
 

@@ -41,7 +41,7 @@ Or by clicking on the ⏷ **dropdown** icon, the following options will also bec
 
 - You can click **Reset** to return the review status to “Awaiting acknowledgement” if the reviewer mistakenly withdraws or declines the review.
 - Edit the review settings (due date, review type, review form).
-- Rate the reviewer. The reviewers’ average ratings will be visible when selecting them for review.
+- Rate the reviewer. The reviewers' average ratings will be visible when selecting them for review.
 - Withdraw the review.
 - Delete the review.
 - If you have admin permissions, you can edit the review details in Admin.
@@ -50,7 +50,7 @@ Or by clicking on the ⏷ **dropdown** icon, the following options will also bec
 
 ### Viewing and editing reviews
 
-Once a reviewer has completed their review, you can view it using the **View** button. You can see the reviewer’s feedback, comments to you as the editor, and you will have the option to edit the review if needed. When an author reads the review, they will see only your edited version, not the reviewer's original version. You can reset the feedback to its original, unedited version at any time.
+Once a reviewer has completed their review, you can view it using the **View** button. You can see the reviewer's feedback, comments to you as the editor, and you will have the option to edit the review if needed. When an author reads the review, they will see only your edited version, not the reviewer's original version. You can reset the feedback to its original, unedited version at any time.
 
 > [!NOTE]
 > Janeway will retain a copy of the original review and this will remain visible to editors when opening the review.
@@ -68,7 +68,7 @@ There are two ways reviews can be made available:
   ![" "](../images/workflow/editor-share-review.png)
   ![" "](../images/workflow/editor-share-review-individual.png)
 
-- ‘In bulk’ when making a decision, after clicking on **Make a decision** (for more information, see Decision helper <!-- missing hyperlink -->). First, you will see all completed reviews in a column with a toggle detailing whether the review is visible to the author.
+- 'In bulk' when making a decision, after clicking on **Make a decision** (for more information, see Decision helper <!-- missing hyperlink -->). First, you will see all completed reviews in a column with a toggle detailing whether the review is visible to the author.
 
   ![" "](../images/workflow/editor-share-review-bulk.png)
 

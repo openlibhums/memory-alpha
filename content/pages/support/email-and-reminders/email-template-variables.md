@@ -18,7 +18,7 @@ Variables are placeholders that Janeway replace with real information when an em
 
 For example:
 
-- The reviewer’s name.
+- The reviewer's name.
 - The article title.
 - A review deadline.
 - A link to a review task.
@@ -51,7 +51,7 @@ Commonly used variables include:
 - `{% raw %}{{ article.safe_title }}{% endraw %}`  
   The article title.
 - `{% raw %}{{ editor.first_name }}{% endraw %}`  
-  The editor’s first name.
+  The editor's first name.
 - `{% raw %}{{ review_assignment.reviewer.full_name }}{% endraw %}`  
   The reviewer's full name.
 - `{% raw %}{{ review_assignment.date_due }}{% endraw %}`  

@@ -1,6 +1,6 @@
 # Editorial team
 
-The Editorial team interface allows you to create and manage the groups displayed on your journal’s **Editorial team** page. It is accessed from the **Manager dashboard**, under **Content**.
+The Editorial team interface allows you to create and manage the groups displayed on your journal's **Editorial team** page. It is accessed from the **Manager dashboard**, under **Content**.
 
 On this page you can:
 

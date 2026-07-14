@@ -12,7 +12,7 @@ To remove the carousel from your homepage, click the **Delete** icon next to it.
 
 ## Customising carousel content
 
-The carousel can display three types of content articles, news items, and issues and collections. All of these can appear together in the same carousel. The carousel does not enforce a fixed display order. It cycles through the selected items continuously. For usability reasons, we keeping the total number of items between 5-6 items, and avoiding more than 10.
+The carousel can display three types of content articles, news items, and issues and collections. All of these can appear together in the same carousel. The carousel does not enforce a fixed display order. It cycles through the selected items continuously. For usability reasons, it is best to limit the total number of items to 5-6, and avoid more than 10.
 
 ### Images used in the carousel
 
@@ -66,10 +66,10 @@ Enable **Latest news** to automatically display recent announcements, and set th
 
 ### Issues and collections
 
-Issues and collections behave the same as articles and news in the carousel. However, instead of the option to show multiple recent issues, is has the option to enable **Current issue** to display the issue currently marked as current.
+Issues and collections behave the same as articles and news in the carousel. However, instead of the option to show multiple recent issues, is has the option to enable **Current issue** to display the issue marked as current.
 
 > [!TIP]
-> If changes are not appearing on the homepage, trying clearing the cache. <!-- missing hyperlink-->
+> If changes are not appearing on the homepage, trying [clearing the cache](./cache.md).
 
 ## Image contrast and carousel overlays
 

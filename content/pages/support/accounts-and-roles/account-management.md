@@ -2,13 +2,13 @@
 
 The **Users and roles** section of the Manager dashboard has various controls for managing users and permissions. Who can manage what will depend on their role and permissions associated with it.
 
-_Editors_ and _Journal managers_ can:
+Editors and journal managers can:
 
 - Manage user accounts at the journal level.
 - Assign and remove roles for users on the journal.
 - View and update account activation status.
 
-_Staff_ have additional controls for:
+Staff have additional controls for:
 
 - Viewing all accounts for the press (Janeway installation), including their journal roles and activation status.
 - Merging duplicate user accounts.
@@ -31,7 +31,7 @@ From this page you can:
 
 Each user's assignment history (for example, editorial or review activity) is also available from this view.
 
-This page cannot be used to delete accounts, only deactivate them. Accounts can only be deleting using through the **Admin area** <!-- missing hyperlink -->.
+This page cannot be used to delete accounts, only deactivate them. Accounts can only be deleted using through the **Admin area** <!-- missing hyperlink -->.
 
 ## All press users
 
@@ -47,13 +47,13 @@ At press level you can:
 
 ## Editing user accounts
 
-Click **Edit** next to a user to open the **Edit user** interface, where you can update a user’s account details.
+Click **Edit** next to a user to open the **Edit user** interface, where you can update a user's account details.
 
 Some changes are restricted by permission level. For more information, see the [**Permissions** page](./janeway-roles-and-permissions.md).
 
 > [!IMPORTANT]
 > Editing a user account does **not** change author metadata on articles that have already been accepted.  
-> To update author details on an accepted article, you must edit the _frozen author record_ on the article’s metadata page.
+> To update author details on an accepted article, you must edit the _frozen author record_ on the article's metadata page.
 
 ## Merge users (staff only)
 
@@ -66,6 +66,6 @@ When users have multiple accounts (often due to different email addresses having
 
 When accounts are merged:
 
-- All associated items (including articles, tasks, roles and files) are transferred from the source account to the destination account.
+- All associated items (including articles, tasks, roles, and files) are transferred from the source account to the destination account.
 - The destination account profile is retained.
 - Any profile information from the source account is permanently lost. This includes information like email, name, ORCID ID, social media usernames, and preferences about things like profile visibility and preferred timezone.

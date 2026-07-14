@@ -9,12 +9,12 @@ Using triple anonymous review requires at least one member of the journal team t
 Two settings must be configured for triple anonymous peer review to work: the personally identifiable information filter and the reply-to address. These settings are accessible through the **All settings** page.
 
 - Section editor personally identifiable information filter (se_pii_filter)  
-  Turning on this setting means that all relevant author data will be anonymised for section editors when they are accessing Janeway. This enables them to access the review stage without encountering the author’s personal details.
+  Turning on this setting means that all relevant author data will be anonymised for section editors when they are accessing Janeway. This enables them to access the review stage without encountering the author's personal details.
 
 <!-- Should the two steps below be broken down further? -->
 
 - Reply-to address (replyto_address)  
-  In order to make triple anonymous review possible, author email addresses need to be hidden. Janeway masks these email addresses with your journal’s reply-to address, which you will need to fill in here.
+  In order to make triple anonymous review possible, author email addresses need to be hidden. Janeway masks these email addresses with your journal's reply-to address, which you will need to fill in here.
   !["All settings page with the Section editor personally identifiable information filter."](../../support/images/see-filter.png)
   !["All settings page with the reply-to address setting."](../../support/images/reply-to.png)
 
@@ -29,7 +29,7 @@ To make triple anonymous peer review possible, the main journal editor must firs
 
 Once a file has been fully anonymised, the journal editor can assign it to a section editor. The section editor can now manage the peer review process as they normally would.
 
-On Janeway, where a section editor would usually see the author’s personal details (name, email, or institution), those fields will now show as ‘[Anonymised data]’ for the duration of the review process. After the full process is completed, these fields will return to showing an author’s personal details.
+On Janeway, where a section editor would usually see the author's personal details (name, email, or institution), those fields will now show as '[Anonymised data]' for the duration of the review process. After the full process is completed, these fields will return to showing an author's personal details.
 
 ## Areas with anonymisation
 

@@ -1,6 +1,6 @@
 # Issues
 
-On Janeway, issues organise articles for publication. While articles do not have to be part of an issue, some external services (such as Crossref) require that articles be assigned to an issue. As such, we recommend using issues where possible. If your journal uses continuous publication, we recommend creating yearly issues to add articles to.
+On Janeway, issues organise articles for publication. While articles do not have to be part of an issue, some external services (such as Crossref) require that articles be assigned to an issue. As such, it is recommended to use issues where possible. If your journal uses continuous publication, it is recommended to create yearly issues to add articles to.
 
 Articles are typically assigned to issues during the **Pre-publication** stage, but can be assigned a projected issue at any point in the publication workflow. Issues can also be managed independently through the **Issue manager**, available from both the **Manager** page and the main sidebar.
 
@@ -46,7 +46,7 @@ In addition, the issue list is presented in a table format. For each issue, the 
 - **Delete** <img src="../../support/images/trashcan-icon.png" width="15" height="15"/>  
   Permanently deletes the issue. This cannot be undone.
 - **Make current** <img src="../../support/images/clock-icon.png" width="17" height="17"/>  
-  Sets the selected issue as the journal’s current issue. The current issue does not display this button.
+  Sets the selected issue as the journal's current issue. The current issue does not display this button.
 
 You can also drag and drop issues to manually change their order; the new order updates the public display immediately. You can view publication data such as volume, issue number, publication date, and number of articles directly from the table.
 
@@ -59,7 +59,7 @@ You can create new issues from this page using the <img src="../../support/image
 You can set the standard issue metadata and images for the issue on this page. Information on the sizes of the cover image and large image can be found in the Styling section<!-- missing hyperlink-->. In addition, you can also provide identifiers for the issue (DOI or ISBN), set an issue type or provide an issue code.
 
 - **Issue code**  
-   This optional alphanumeric [slug](<https://en.wikipedia.org/wiki/Slug_(web_publishing)>) is used to generate a human-readable URL for an issue. It should consist of lowercase letters, numbers, and hyphens (no spaces or special characters).
+   This optional alphanumeric [slug](<https://en.wikipedia.org/wiki/Slug_(web_publishing)>) is used to generate a human-readable URL for an issue. It can consist of lowercase letters, numbers, and hyphens (no spaces or special characters).
   For example, if you enter winter-special-issue, the issue URL will be:
   `yourjournal.com/collection/code/winter-special-issue/`
 
@@ -67,7 +67,7 @@ You can set the standard issue metadata and images for the issue on this page. I
   You can select the issue type here; you can either select 'issue' or 'collection', or any custom issue types you have created for the journal. <!-- missing hyperlink-->
 
 - **Issue DOI**  
-  You can enter the issue DOI here. It will be registered when articles belonging to it are registered. The value entered should be the DOI only (not a full URL). If the 'issue autoregistration' setting <!-- nmissing hyperlink--> is enabled, this field should remain empty, as the DOI will be created automatically during the article registration process.
+  You can enter the issue DOI here. It will be registered when articles belonging to it are registered. The value entered must be the DOI only (not a full URL). If the 'issue autoregistration' setting <!-- nmissing hyperlink--> is enabled, this field must remain empty, as the DOI will be created automatically during the article registration process.
 
 - **Issue ISBN**  
   If this issue has an ISBN, it can be entered here. This will only be relevant for specific (non-serial) types of content such as conference proceedings.
@@ -115,7 +115,7 @@ You can turn these elements on or off:
 - Issue title
 - Article number
 - Article page numbers
-- Issue DOI - see [Issue DOI management]() <!-- missing hyperlink -->
+- Issue DOI - see [Issue DOI management](../identifiers/crossref-issue-doi.md)
 - Group issues by decade
   If your journal has a lot of issues you can use this feature to allow readers to jump to a specific decade on the issues interface.
 

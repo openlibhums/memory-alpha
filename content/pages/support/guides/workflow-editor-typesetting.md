@@ -2,21 +2,19 @@
 
 This stage covers typesetting and proofreading of typeset files. This guide will provide the following information:
 
-- An outline of the typesetter page
-- Information on files relevant to typesetting
-- An overview of the three types of typesetting workflows
-  - Uploading galleys yourself.
-  - Converting files within Janeway.
-  - Working with an external typesetter.
-- An overview of the proofing workflow.
-- Information on managing typeset files.
-- Managing image and figure files.
-
-<!-- missing hyperlinks -->
+- [An outline of the typesetter page.](#the-typesetting-stage)
+- [Information on files relevant to typesetting.](#typesetting-files)
+- An overview of the three types of typesetting workflows.
+  - [Uploading galleys yourself.](#upload-galleys-yourself-workflow)
+  - [Converting files within Janeway.](#generating-typeset-files-with-janeway-workflow)
+  - [Working with an external typesetter.](#working-with-a-typesetter)
+- [An overview of the proofing workflow.](#proofing)
+- [Information on managing typeset files.](#managing-typesetting-files)
+- [Managing image and figure files.](#image-and-figure-files).
 
 ## The typesetting stage
 
-The typesetting overview screen shows all articles currently in typesetting, with their status.
+The typesetting overview screen shows all articles in typesetting, with their status.
 You can **Claim** an article to indicate who is managing its typesetting (this doesn't restrict other editors' access). To see all your claimed articles, use the filter in the top-right corner to show only **My assignments**.
 
 After selecting an article, you will be taken to the typesetting page. This page is divided into blocks:
@@ -37,7 +35,7 @@ After selecting an article, you will be taken to the typesetting page. This page
 
   !["The typesetting page with the Actions block highlighted."](../images/workflow/editor-typesetting-actions.png)
 
-You can see the typesetter's view and their experience of the workflow in the typesetter guide. <!-- missing hyperlinks -->
+You can see the typesetter's view and their experience of the workflow in the [typesetter guide](./workflow-typesetter.md).
 
 ## Typesetting files
 
@@ -55,7 +53,7 @@ When uploading typeset files, Janeway will ask you to set a label. The label wil
 
 Labels can also be used to denote the language of a file to readers. For instance, labelling a PDF file as 'PDF (EN)' and another as 'PDF (ES)' will allow readers to download the correct PDF for their language.
 
-For PDF, XML and HTML files, Janeway can automatically set the label to the file type if left blank. For other filetypes, it will default to ‘OTHER’ if left blank.
+For PDF, XML and HTML files, Janeway can automatically set the label to the file type if left blank. For other filetypes, it will default to 'OTHER' if left blank.
 
 ## Supplementary files
 
@@ -65,26 +63,26 @@ You should set the supplementary file in advance of sending the article for type
 
 ## Upload galleys yourself (workflow)
 
-If you do not use a typesetter or file conversion through Janeway, you can upload typeset files yourself by clicking **Upload new typeset file** in the **Current galleys** section. Once you have selected a file, you can also mark whether the file should be public upon publication and set its label.
+If you do not use a typesetter or file conversion through Janeway, you can upload typeset files yourself by clicking **Upload new typeset file** in the **Current galleys** section. Once you have selected a file, you can also mark whether the file will be public upon publication and set its label.
 
 ![" "](../images/workflow/editor-typesetting-upload-new-typeset-file.png)
 
-When uploading an HTML or XML file with images, they must be uploaded separately, as HTML and XML files do not contain the images themselves (like a DOCX or PDF file might). Images can be uploaded by clicking the <img src="../../support/images/edit-icon.png" width="12" height="12"/> **Edit** icon and using the upload functions on the page it leads to, for more information see: Images and figure files <!-- missing hyperlink -->. You can also <img src="../../support/images/download-icon.png" width="12" height="12"/> **Download** the file or <img src="../../support/images/preview-icon.png" width="15" height="15"/> **Preview** it, using the respective icons.
+When uploading an HTML or XML file with images, they must be uploaded separately, as HTML and XML files do not contain the images themselves (like a DOCX or PDF file might). Images can be uploaded by clicking the <img src="../../support/images/edit-icon.png" width="12" height="12"/> **Edit** icon and using the upload functions on the page it leads to, for more information see: [Images and figure files](#image-and-figure-files). You can also <img src="../../support/images/download-icon.png" width="12" height="12"/> **Download** the file or <img src="../../support/images/preview-icon.png" width="15" height="15"/> **Preview** it, using the respective icons.
 
 !["Current galleys blocks, with the various buttons highlighted."](../images/workflow/editor-typesetting-galley-buttons.png)
 
 > [!CAUTION]
-> Do not use the image or galley upload for supplementary files. See Supplementary files for more information.<!-- missing hyperlink -->
+> Do not use the image or galley upload for supplementary files. See [Supplementary files](#supplementary-files) for more information.<!-- missing hyperlink -->
 
 ## Generating typeset files with Janeway (workflow)
 
-Janeway also offers the option to convert manuscript files using the [Pandoc plugin](https://github.com/BirkbeckCTP/pandoc), which can generate HTML galleys from a MS Word document. For a full guide on how to manage typesetting with Pandoc, see Typesetting with Pandoc <!-- missing hyperlink  -->.
+Janeway also offers the option to convert manuscript files using the [Pandoc plugin](https://github.com/BirkbeckCTP/pandoc), which can generate HTML galleys from a MS Word document. For a full guide on how to manage typesetting with Pandoc, see [Typesetting with Pandoc](./workflow-editor-pandoc.md).
 
 If you are interested in using the Pandoc plugin, contact your System administrator (What is a system administrator? <!-- missing hyperlink  -->).
 
 ## Working with a typesetter
 
-This section outlines how to work with an external typesetter, including assigning tasks, reviewing their work, and assigning revisions (if needed). You will need to set up an account for your typesetter. If you have not done this yet, see Account Management for more information. <!-- missing hyperlink  -->
+This section outlines how to work with an external typesetter, including assigning tasks, reviewing their work, and assigning revisions (if needed). You will need to set up an account for your typesetter. If you have not done this yet, see [Account Management](../accounts-and-roles/account-management.md) for more information.
 
 ### Assigning a typesetter
 
@@ -119,7 +117,7 @@ Once the typesetter has completed their task, you will receive an email notifica
 You can now review the typesetting task and select one of the following three options:
 
 - **Request corrections**  
-  If you notice a problem with the typeset files straight away, you can request corrections to the typesetter. See Requesting corrections <!-- missing hyperlink -->.
+  If you notice a problem with the typeset files straight away, you can request corrections to the typesetter. See [Requesting corrections](#requesting-corrections).
 - **Proofing required**  
   Accept the typeset files and record the decision to send the files for proofing.
 - **Accept**  
@@ -159,7 +157,7 @@ Proofing assignments can still be edited before the proofreader accepts them, in
 
 Once proofreaders have finished their task, you can review their feedback and any uploaded annotated documents by clicking **Manage** on the proofreader assignment.
 
-The review page will list the galleys that have been proofed and displays the proofreader’s feedback. If the proofreader uploaded an annotated document, you can also view it on this page.
+The review page will list the galleys that have been proofed and displays the proofreader's feedback. If the proofreader uploaded an annotated document, you can also view it on this page.
 
 If no further corrections are needed, you can click **Complete typesetting** under **Actions** to finish typesetting and move the article to prepublication.
 
@@ -169,7 +167,7 @@ If you require corrections, click **Request corrections**.
 
 ### Requesting corrections
 
-You can now assign a typesetter to correct issues that were flagged in proofing, as outlined in Assigning a typesetter <!-- missing hyperlink -->. In addition to the previous steps, you can now also do the following:
+You can now assign a typesetter to correct issues that were flagged in proofing, as outlined in [Assigning a typesetter](#assigning-a-typesetter). In addition to the previous steps, you can now also do the following:
 
 - Provide the typesetter with an annotated document, if one was provided.
 - Select the galleys that require corrections.
@@ -189,9 +187,9 @@ On this page, you can do the following:
 - Replace the typeset file; the old file will be retained in the file history.
 - Edit the file label.
 - (Un)mark the file as public.
-- Manage image files <!-- missing hyperlink -->
-- Manage CSS files <!-- missing hyperlink -->
-- Manage XSL files <!-- missing hyperlink -->
+- [Manage image files](#image-and-figure-files).
+- [Manage CSS files](#css-file).
+- [Manage XSL files](#xsl-file).
 
 ### Image and figure files
 
@@ -215,11 +213,11 @@ The following information is aimed at advanced users, comfortable with CSS / XSL
 If a given article requires special styling, you can upload a CSS file alongside it and Janeway will output it on the article page.
 
 > [!WARNING]
-> The CSS uploaded here should only target elements inside the \<article\> block, otherwise it could break general styling of the site.
+> The CSS uploaded here must only target elements inside the \<article\> block, otherwise it could break general styling of the site.
 
 ### XSL file
 
-Janeway's XSL Transformation process uses a version-controlled XSL (Extensible Stylesheet Language) file. When you upload a JATS XML file to Janeway it marks the file as using the current XSL file. This means that as we make changes to the XSL file it will only affect future files uploaded and not any back content.
+Janeway's XSL Transformation process uses a version-controlled XSL (Extensible Stylesheet Language) file. When you upload a JATS XML file to Janeway it marks the file as using the current XSL file. This means that when changes are made to the XSL file it will only affect future files uploaded and not any back content.
 
 > [!WARNING]
 > Changing an XML file's XSL may cause it to render differently. It is only recommended that you do this _before_ sending it for proofreading.

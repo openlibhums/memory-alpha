@@ -5,9 +5,9 @@ This section of the documentation brings together documentation to help you conf
 Janeway supports multiple peer review models, each offering different levels of transparency and anonymity:
 
 - Single anonymous review: Reviewers know the identity of the author, but the author does not know the identity of the reviewers.
-- Double anonymous review: Neither the author nor the reviewers know each other’s identities.
+- Double anonymous review: Neither the author nor the reviewers know each other's identities.
 - Triple anonymous review: Authors, reviewers, and section editors are all anonymised during the review process.
-- Open peer review: Reviewer comments can be made publicly visible, with the reviewer’s consent.
+- Open peer review: Reviewer comments can be made publicly visible, with the reviewer's consent.
 
 The [review settings page](./review-settings.md) includes information on how to configure the review process.
 

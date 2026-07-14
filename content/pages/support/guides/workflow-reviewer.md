@@ -22,7 +22,7 @@ If you have any other roles within a journal (e.g. author, editor), you will als
 
 Click **View requests** to be taken to the Review Requests page. On this page, you can see more information about the review (title, abstract, keywords, etc.) and either accept or decline the task.
 
-![The two columns on the ‘Review Requests’ page (‘Awaiting initial decision’ and ‘Reviews in progress’). There is a task in the left column that is awaiting a decision. The task block (or card) displays the title, due date and editor initials. It also contains three buttons: ‘View Detail’, ‘Accept Task’ and ‘Decline Task’.)](../../support/images/workflow/reviewer-kanban.png)
+![The two columns on the 'Review Requests' page ('Awaiting initial decision' and 'Reviews in progress'). There is a task in the left column that is awaiting a decision. The task block (or card) displays the title, due date and editor initials. It also contains three buttons: 'View Detail', 'Accept Task' and 'Decline Task'.)](../../support/images/workflow/reviewer-kanban.png)
 
 ## Review request
 
@@ -37,23 +37,23 @@ If you accept the task, you will be taken to the page for this review. It is spl
 This section displays information on how the editor would like you to undertake the review, an introduction to the review form, and metadata.
 
 > [!NOTE]
-> This section may include both general review guidelines and guidelines specific to this review. These can differ depending on the journal and the type of submission. Read through these even if you’ve reviewed a paper for this journal before, as they may not be the same as for a previous review task.
+> This section may include both general review guidelines and guidelines specific to this review. These can differ depending on the journal and the type of submission. Read through these even if you've reviewed a paper for this journal before, as they may not be the same as for a previous review task.
 
 At the bottom of this block, you will find another option to accept or decline this review task. If you initially accepted the task but are no longer available, decline it here so that it can be offered to someone else. If you opt to decline to review, you will be asked if you can suggest other suitable reviewers. This is optional, but highly encouraged.
 
-![The ‘Review Request’ page, displaying the ‘General Review Guidelines’ section. The review guidelines, information for the form and accept/decline elements are visible.](../support/images/workflow/reviewer-review-request.png)
+![The 'Review Request' page, displaying the 'General Review Guidelines' section. The review guidelines, information for the form and accept/decline elements are visible.](../support/images/workflow/reviewer-review-request.png)
 
 ### Review files
 
 The files the editor has selected for you to review are listed here. There might be multiple files (e.g. supplementary files), so this block includes the option to download them all as a ZIP file.
 
-![The ‘Review Files’ section. One file is shown here with its label (‘Manuscript’ in this instance) filename and the download option. The ‘Download all as ZIP’ is in the top right corner of this section.](../images/workflow/reviewer-review-files.png)
+![The 'Review Files' section. One file is shown here with its label ('Manuscript' in this instance) filename and the download option. The 'Download all as ZIP' is in the top right corner of this section.](../images/workflow/reviewer-review-files.png)
 
 ### Review form
 
 This is where you will complete your review. What this looks like will differ from journal to journal, but the main sections will be the same. Each element in the form will be accompanied by a title or description to assist you in completing it.
 
-![The ‘Review Form’ section. It shows the ‘File Upload’, ‘Recommendation’, and ‘Comments for the Editor’ blocks.](../images/workflow/reviewer-file-upload.png)
+![The 'Review Form' section. It shows the 'File Upload', 'Recommendation', and 'Comments for the Editor' blocks.](../images/workflow/reviewer-file-upload.png)
 
 The sections of this form are:
 

@@ -25,7 +25,7 @@ Click the title of a preprint to go to the preprint dashboard. Here, you can vie
 - Edit published date
 - Un-published this article
 - Send to journal  
-   Lets you send the preprint to a journal on the Janeway press. Select the license, section (article type), and the stage to send it to. <!--I'll need to look into why 'Force' is used.-->
+   Lets you send the preprint to a journal on the Janeway press. Select the licence, section (article type), and the stage to send it to. <!--I'll need to look into why 'Force' is used.-->
 
 ## Unpublished preprints
 

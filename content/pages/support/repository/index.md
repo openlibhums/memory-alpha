@@ -10,7 +10,7 @@ How to enable the repository system in your Janeway press and create a new repos
 
 ### [Repository settings](repositories-settings.md)
 
-A guide to the five-step repository setup wizard, used for both configuring a new repository and editing the settings of an existing one. Also covers additional configuration options, including licenses, subjects, submission fields, and review recommendations.
+A guide to the five-step repository setup wizard, used for both configuring a new repository and editing the settings of an existing one. Also covers additional configuration options, including licences, subjects, submission fields, and review recommendations.
 
 ### [Moderator guide](repositories-moderator.md)
 

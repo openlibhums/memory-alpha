@@ -18,7 +18,7 @@ This will open a new page where you can do the following:
 3. Leave notes for the copyeditor.
 4. Set a due date.
 
-> [!Warning]
+> [!WARNING]
 > If you are both the editor and copyeditor, do not perform the copyedit through this interface. Instead, access it through the copyediting block on the main dashboard.
 
 Once you have clicked **Add copyeditor**, you will be directed to the notification page where you can send an email to notify the copyeditor.
@@ -26,13 +26,13 @@ Once you have clicked **Add copyeditor**, you will be directed to the notificati
 ![]()
 
 > [!NOTE]
-> If a copyeditor already has an active copyediting task for this article, they will not appear in the list; you should first close that task if you wish to assign them again.
+> If a copyeditor already has an active copyediting task for this article, they will not appear in the list; you must first close that task if you wish to assign them again.
 
 ## Managing copyediting assignments
 
 You can make as many copyediting assignments as needed and track them from the copyediting screen.
 
-After an assignment has been set up, the copyeditor can log in to Janeway and complete the task. You can see the copyediting from the copyeditor's point of view in the copyeditor guide.<!-- missing hyperlink -->
+After an assignment has been set up, the copyeditor can log in to Janeway and complete the task. You can see the copyediting from the copyeditor's point of view in the [copyeditor guide](./workflow-copyeditor.md).<!-- missing hyperlink -->
 
 Before the task is accepted, you can edit the notes and due date or delete the assignment. Once the copyeditor has accepted the task, these options are removed and replaced with a **Review** button. The **Action log** will also be updated to reflect this.
 

@@ -8,10 +8,10 @@ Needs some further work, checks and dev input on a few bits. Need to check out t
 
 ## Janeway roles
 
-Janeway has a variety of roles available that can be assigned to users, some of which will affect the permissions of the user. Roles do not exclude each other, e.g. having one role will not prevent you another one.
+Janeway has a variety of roles available that can be assigned to users, some of which will affect the permissions of the user. Roles do not exclude each other, e.g. having one role will not prevent you from having another one.
 
 - Author  
-  Assigned automatically when a user registers with a journal or submits an article. This can be considered the 'base role'.
+  Assigned automatically when a user registers with a journal or submits an article. This can be considered the "base role".
 - Reviewer
 - Editor  
   Editors handle processing of articles and assignment of tasks. An editor has access to the journal workflow, manager dashboard and journal settings, certain plugins and is able to do general journal management.
@@ -40,7 +40,7 @@ Editors can:
 - Manage roles within their journal.
 - View and edit account activation status for journal users.
 - Edit basic account information on behalf of users.
-- View a user’s assignment history (editorial, review, proofing, etc.).
+- View a user's assignment history (editorial, review, proofing, etc.).
   - The user history page also displays emails sent directly to the user - excluding 'automated' emails such as reminders, notifications and invitations.
 
 ### Staff permission
@@ -68,8 +68,8 @@ There are some cases that superusers cannot access a page. For example, sometime
 
 Janeway allows more granular permissions for journal managers and editors, using the **Permissions** setting group. This can be used on the configuration of licences and sections as following:
 
-- Licenses  
-  Permissions control whether users can access the licenses control pages based on their roles, defaulting to Editor and Journal Manager.
+- Licences  
+  Permissions control whether users can access the licences control pages based on their roles, defaulting to Editor and Journal Manager.
 
 - Sections  
   Permissions control whether a user can access the sections control pages based on their roles, defaulting to Editor and Journal Manager.
@@ -79,12 +79,12 @@ Janeway allows more granular permissions for journal managers and editors, using
 > [!NOTE]
 > The following sections contain information on configuring granular permissions. This requires more advanced technical knowledge, though you are unlikely to need this (often).
 
-There is no interface for updating the roles that can access the licenses and sections pages and the setting is JSON stored in the database. If you are not comfortable or able editing this, contact your system administrator.
+There is no interface for updating the roles that can access the licences and sections pages and the setting is JSON stored in the database. If you are not comfortable or able editing this, contact your system administrator.
 
 > [!WARNING]
 > Only modify granular permissions if you are confident in the change you are making.
 
-By default, both settings read `["editor", "journal-manager"]`. If, for example, you wanted to stop editors from editing licenses, you could change it to read `["journal-manager"]`. Once saved, only users with the journal manager role will be able to access the licenses
+By default, both settings read `["editor", "journal-manager"]`. If, for example, you wanted to stop editors from editing licences, you could change it to read `["journal-manager"]`. Once saved, only users with the journal manager role will be able to access the licences
 pages.
 
 ### Granular settings permissions (staff only - advanced)

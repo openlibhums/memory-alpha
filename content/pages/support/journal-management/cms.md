@@ -1,6 +1,6 @@
 # Janeway content manager
 
-The **Content manager** provides access to Janeway’s built-in content management system (CMS). It allows you to create and edit static pages for your journal, such as privacy notices, policies, or "About" pages, using a rich-text editor.
+The **Content manager** provides access to Janeway's built-in content management system (CMS). It allows you to create and edit static pages for your journal, such as privacy notices, policies, or "About" pages, using a rich-text editor.
 
 ![Content manager](../images/cms.png)
 
@@ -16,7 +16,7 @@ Pages are immediately public after saving them.
 
 When you create a new page, Janeway automatically generates its URL using the following parts:
 
-- Your journal’s domain name (for example, `orbit.openlibhums.org`).
+- Your journal's domain name (for example, `orbit.openlibhums.org`).
 - The path element `/site/`, which is used as a namespace for custom pages.
 - The value entered in the **Link** field.
 
@@ -26,7 +26,7 @@ For information on adding new pages to your site navigation, see [**Navigation**
 
 ## Edit a page
 
-The content manager displays a list of all custom pages currently available on your journal. Click **Edit** to make changes.
+The content manager displays a list of all custom pages available on your journal. Click **Edit** to make changes.
 
 Changes take effect immediately once saved. If you do not see them displayed on the journal page, you may need to [refresh your cache](./cache.md).
 

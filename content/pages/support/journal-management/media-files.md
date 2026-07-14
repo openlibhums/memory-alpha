@@ -10,4 +10,4 @@ Examples include:
 Once a file is uploaded a link is provided that you can then insert into CMS pages or templates.
 
 > [!NOTE]
-> The **Media files** should not be used to upload videos unless you have sufficient storage space/bandwidth. If you use Janeway hosting you should contact the support team.
+> The **Media files** must not be used to upload videos unless you have sufficient storage space/bandwidth. If you use Janeway hosting you can contact the support team.

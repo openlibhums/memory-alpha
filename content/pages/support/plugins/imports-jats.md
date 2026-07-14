@@ -18,8 +18,8 @@ If you want to import multiple JATS files or a single JATS file with its
 figures you first need to prepare a zip (.zip) file.
 
 The top level directory can be called anything you like. Inside that
-directory you should add you JATS XML files. Image files can be added
-and should match the xlink:href of the figure or graphic.
+directory you must add your JATS XML files. Image files can be added
+and must match the xlink:href of the figure or graphic.
 
 - articles (top level directory)
   - article_1234.xml
@@ -28,7 +28,7 @@ and should match the xlink:href of the figure or graphic.
   - article_9876_fig_1.jpg
   - article_9876_fig_2.jpg
 
-If the href of the images includes a directory name you should include
+If the href of the images includes a directory name you must include
 that directory:
 
 - articles/ (top level directory)

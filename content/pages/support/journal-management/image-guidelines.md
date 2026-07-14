@@ -26,7 +26,7 @@ making it suitable for either square or landscape logos.
 rendered within the same line, competing for space. If a very wide
 image is combined with a large number of navigation items, the two may
 overlap on narrow screens. If your journal has a large number of
-navigation links (5 or more), we recommend using a dropdown menu
+navigation links (5 or more), it is recommended to use a dropdown menu
 grouping similar items.
 
 ## Cover Image
@@ -71,7 +71,7 @@ through Journal Settings.
 The large image has a maximum height of 260px for the material theme and
 400px for the OLH theme. Any image larger than 750x324 pixels will be
 compressed to fit those dimensions, and then it will be cropped
-horizontally to fit the user’s screen size. For this reason, very wide
+horizontally to fit the user's screen size. For this reason, very wide
 landscape images work best for this element.
 
 ![Example of large image: material theme](../nstatic/image-guidelines/article-large-image.png)

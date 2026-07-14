@@ -19,7 +19,7 @@ Janeway supports three types of reminder emails:
 
 Review reminders are sent based on the **review assignment due date** set by the editor. Revision reminders are sent based on the **revision due date** set by the editor.
 
-For all reminder types, you can choose to send reminders **before or after** the due date.
+For all reminder types, you can choose to send reminders _before or after_ the due date.
 
 Multiple reminders can be created for the same task (for example, one before and one after the due date).
 
@@ -31,10 +31,10 @@ Each reminder is defined using the following settings:
   The reminder category: "Review (invited)", "Review (accepted)", or "Revision".
 
 - Run type  
-  Whether the reminder should be sent before or after the assignment due date.
+  Whether the reminder is sent before or after the assignment due date.
 
 - Days  
-  The number of days before or after the due date that the reminder should be sent.
+  The number of days before or after the due date that the reminder is sent.
 
 - Template name  
   The email template used for the reminder.  

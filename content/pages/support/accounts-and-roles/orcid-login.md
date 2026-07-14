@@ -35,7 +35,7 @@ If you create a regular Janeway account first, and later want to log in with ORC
 
 Anyone who does not want to sign in with ORCID can use the regular Janeway login as an alternative.
 
-The third sign-in option is single sign-on (SSO), where you log in with your university or other institution’s credentials. Like ORCID, this has to be set up for each Janeway installation. ORCID login can be enabled alongside SSO with no problems.
+The third sign-in option is single sign-on (SSO), where you log in with your university or other institution's credentials. Like ORCID, this has to be set up for each Janeway installation. ORCID login can be enabled alongside SSO with no problems.
 
 ## Managing ORCID IDs
 

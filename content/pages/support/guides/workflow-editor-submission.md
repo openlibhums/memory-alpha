@@ -15,7 +15,7 @@ When you click on an article in the list of new submissions, you will be taken t
 
 ![" "](../images/workflow/editor-submission-overview.png)
 
-The left block of the page displays the article’s metadata and author metadata, whilst workflow actions and potential editors are displayed on the right.
+The left block of the page displays the article's metadata and author metadata, whilst workflow actions and potential editors are displayed on the right.
 
 Before the article can enter the workflow, it must be assigned to an Editor or Section editor through **Add editors**.
 

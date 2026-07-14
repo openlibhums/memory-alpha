@@ -36,7 +36,7 @@ You can also limit access to submission by requiring users to create an account 
    Checking this box limits access to submission to registered users. The textbox allows you to display a message to users requesting submission access.
 
 - **Submission access request contact**  
-   This sets the address to whom submission access requests should be sent.
+   This sets the address to whom submission access requests will be sent.
 
 ## Editors notified on submission
 
@@ -71,13 +71,13 @@ These settings make up the **Submission** page as well as the **Submission agree
 - **Submission checklist**  
    This is typically a numerical, step-by-step list of things that an author should check or do before submitting their paper. You can make this list as detailed as you need it to be.
 - **Copyright notice**  
-   This is where you can provide the information on copyright, licenses used for publishing, and rights retained.
+   This is where you can provide the information on copyright, licences used for publishing, and rights retained.
 
 - **Publication fees**  
-   If there are any fees associated with submitting or publishing the paper, these should be outlined here. If there are no publication fees for an author to pay, you can also use this space to say so.
+   If there are any fees associated with submitting or publishing the paper, these can be outlined here. If there are no publication fees for an author to pay, you can also use this space to say so.
 
 - **Publication cycle**  
-   This is where you describe the journal’s publication schedule, such as whether you publish continuously or at specific points and whether submissions are open only at specific points.
+   This is where you describe the journal's publication schedule, such as whether you publish continuously or at specific points and whether submissions are open only at specific points.
 
 - **Peer review information**  
    This section allows you to provide information on how peer review is conducted and the steps involved.

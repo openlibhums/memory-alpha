@@ -12,7 +12,7 @@ Custom forms in Janeway have the following aspects to them yada yada.
   This determines the type of element, e.g., text field, checkbox, dropdown etc. For an overview of element types available, see [Element types](#element-types-kind).
 
 - Required  
-   Check this setting’s box to make this part of the form obligatory to complete.
+   Check this setting's box to make this part of the form obligatory to complete.
 
 - Order  
    This determines the order of elements on the form.
@@ -43,7 +43,7 @@ A form element can be one of the following kinds:
   ![Example checkbox](../../support/images/element-check-box.png)
 
 - Select (dropdown)  
-   Shows a predefined list of options, allowing users to select one. You will need to create the options. This is done through the ‘Choices’ field. The options should be separated by the bar " | " character, e.g. " choice 1|choice 2|choice 2 ".
+   Shows a predefined list of options, allowing users to select one. You will need to create the options. This is done through the 'Choices' field. The options must be separated by the bar " | " character, e.g. " choice 1|choice 2|choice 2 ".
 
   ![Example dropdown](../../support/images/element-select.png)
 

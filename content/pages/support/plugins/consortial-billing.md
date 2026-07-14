@@ -13,8 +13,8 @@ annual billing process.
 
 There are a few things to configure before the plugin can be used.
 
-> [!Note]
-> Developers can import a sample configuration. See the plugin’s README.
+> [!NOTE]
+> Developers can import a sample configuration. See the plugin's README.
 
 ### Currencies
 
@@ -70,7 +70,7 @@ one country each. There also must be one default agent, which will be assigned
 to supporters in all countries not covered by a local billing agent.
 
 The redirect URL controls whether the user who fills out the signup form will
-be redirected to the billing agent’s website to complete the process.
+be redirected to the billing agent's website to complete the process.
 
 | Name    | Country | Redirect URL        | Default |
 | ------- | ------- | ------------------- | ------- |
@@ -103,8 +103,8 @@ data model:
 - Support level
 - Billing setup
 
-Let’s say there are 5 support levels, ranging from standard to platinum.
-And let’s say there are 4 billing setups, including 1 default setup where
+Let's say there are 5 support levels, ranging from standard to platinum.
+And let's say there are 4 billing setups, including 1 default setup where
 you as publisher are the billing agent for most supporters in most
 countries, plus 3 other setups where an external billing agent is in
 charge of all the supporters in a particular country.
@@ -123,5 +123,5 @@ For how the size affects the fee, see **Supporter sizes**.
 GNI per capita is another important variable that will come into play with fees
 calculated from base bands, especially with the default billing agent and
 countries around the world. In the example above, the default billing setup
-is tied to Germany as a relatively stable base from which we can calculate fees
+is tied to Germany as a relatively stable base from which fees can be calculated
 around the world.

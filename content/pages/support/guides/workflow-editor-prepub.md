@@ -12,7 +12,7 @@ Pre-publication takes you through the last checks before publication, going thro
 
 ## Confirm the metadata
 
-Confirming the metadata is the first step in prepublication. This is where you can make final checks and alterations to information such as the author details, abstracts, titles, licenses, funders, etc.
+Confirming the metadata is the first step in prepublication. This is where you can make final checks and alterations to information such as the author details, abstracts, titles, licences, funders, etc.
 
 If you publish using XML, it is essential to ensure that the abstract and title in the metadata exactly match those of the PDF file. Authors often change their abstracts during revision and copyediting, so the original abstract may require updating before publication. If you copy and paste an abstract into the metadata field, ensure it is pasted without formatting (Janeway will offer to remove formatting).
 
@@ -34,7 +34,7 @@ Check the **Mark as complete** once you are done.
 
 ## Verify DOIs
 
-Articles usually have a DOI (Digital Object Identifier) automatically assigned and created (‘minted’) for them by Janeway. The DOI serves as both a unique identifier and a permalink. The **Verify DOI** step lets you check if the DOI is working successfully as a permalink.
+Articles usually have a DOI (Digital Object Identifier) automatically assigned and created ('minted') for them by Janeway. The DOI serves as both a unique identifier and a permalink. The **Verify DOI** step lets you check if the DOI is working successfully as a permalink.
 
 DOI links should redirect to the article, without intermediate steps. To ensure the redirect is working properly, you can check the number of "hops" shown in the bulleted list. There should be no more than two. See the image below for example.
 

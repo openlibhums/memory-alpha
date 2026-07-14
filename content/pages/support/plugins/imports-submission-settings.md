@@ -1,7 +1,7 @@
 # Copyright, submission, publication fees & reviewer guidelines import
 
 This tool allows you to update some article submission specific settings
-by uploading a CSV (Comma Seperated Value) file.
+by uploading a CSV (Comma-separated values) file.
 
 > [!TIP]
 > You can import settings into multiple journals using this tool.

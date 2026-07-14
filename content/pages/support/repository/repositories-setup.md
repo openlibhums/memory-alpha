@@ -33,7 +33,7 @@ settings:
 
 ## Other settings
 
-Licenses, additional fields, subjects.
+Licences, additional fields, subjects.
 
 _Coming soon_
 

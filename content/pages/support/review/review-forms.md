@@ -10,7 +10,7 @@ When a new journal is set up, Janeway automatically generates a default review f
 
 Existing forms can be deleted clicking <img src="../../support/images/trashcan.png" width="25" height="25"/> **Delete**. If a form is set as the default review form, it cannot be deleted. Deleting forms will not affect current or past reviews using the form, but it will prevent users from selecting it for future reviews.
 
-> [!Warning]
+> [!WARNING]
 > Deleting a review form can't be undone. Only delete forms if you are certain you will not need them again.
 
 !["Deleting a review form."](../../support/images/review-forms-edit-delete.png)
@@ -19,7 +19,7 @@ Existing forms can be deleted clicking <img src="../../support/images/trashcan.p
 
 To create a new review form, fill in the form on the right-hand side of the review forms page and click **Add form**.
 
-There is no limit on the number of review forms that can be created, but for practical reasons, we recommend regularly reading through forms that are not in use and considering whether they are still relevant.
+There is no limit on the number of review forms that can be created, but for practical reasons, it is recommended to regularly read through forms that are not in use and considering whether they are still relevant.
 
 ![Review Form interface](../../support/images/review-forms-add-form.png)
 
