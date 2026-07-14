@@ -11,7 +11,7 @@ To access Janeway, the dashboard and/or manager interface (back office):
 2. Click on your name in the top-right corner.
 3. Select **Dashboard** (or **Manager** if you have the appropriate permissions).
 
-## Navigating Janeway
+## Navigating Janeway workflows and management areas
 
 Also called the 'backoffice'
 

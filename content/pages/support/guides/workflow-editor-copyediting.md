@@ -23,10 +23,8 @@ This will open a new page where you can do the following:
 
 Once you have clicked **Add copyeditor**, you will be directed to the notification page where you can send an email to notify the copyeditor.
 
-![]()
-
 > [!NOTE]
-> If a copyeditor already has an active copyediting task for this article, they will not appear in the list; you must first close that task if you wish to assign them again.
+> If a copyeditor already has an active copyediting task for this article, they will not appear in the list, you must first close that task if you wish to assign them again.
 
 ## Managing copyediting assignments
 

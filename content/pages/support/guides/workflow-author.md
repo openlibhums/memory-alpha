@@ -34,7 +34,7 @@ This is an example of how this will appear from the author dashboard within Jane
 
 ![The author dashboard block in Janeway. Submit new article in the top right corner of the block is highlighted.](../images/workflow/author-dashboard-block.png)
 
-If you already have an account, you will usually automatically be given the author role in Janeway when you submit an article. However, some journals will ask you to provide the details of the manuscript's author or select yourself as the author manually. For more information on this, see the **Author information** <!-- Missing hyperlink --> section of this guide.
+If you already have an account, you will usually automatically be given the author role in Janeway when you submit an article. However, some journals will ask you to provide the details of the manuscript's author or select yourself as the author manually. For more information on this, see the [**Author information**](#author-information) section of this guide.
 
 ### The author agreement
 

@@ -1,6 +1,6 @@
 # Editor guide to draft decisions
 
-Draft decisions (DD) are an optional element of the review workflow. It allows section editors to submit a draft of their editorial decision for approval by an editor. When enabled, a section editor will only see the draft decision feature on the **Decision helper** page.
+Draft decisions are an optional element of the review workflow. It allows section editors to submit a draft of their editorial decision for approval by an editor. When enabled, a section editor will only see the draft decision feature on the **Decision helper** page.
 
 !["The draft decision page."](../images/workflow/editor-draft-decision.png)
 
@@ -10,6 +10,7 @@ The options for draft decision types are the same as those in the standard decis
    The article is moved into copyediting.
 - **Minor revisions**
   The section editor can provide the author with guidance on implementing the feedback from the peer reviewers.
+
 - **Major revisions**
   The section editor can provide the author with guidance on implementing the feedback from the peer reviewers. If an article requires major revisions, another round of peer review must be undertaken once the revisions are complete.
 
@@ -36,7 +37,7 @@ For section editors, the workflow will look like this:
 
 For editors, this process will look like the following:
 
-1. Access the draft decision through the link in the notification email or **Decision helper > Draft decisions**. The draft decisions will be listed under **Existing drafts**.
+1. Access the draft decision through the link in the notification email or **Decision helper** /> **Draft decisions**. The draft decisions will be listed under **Existing drafts**.
 
    !["The draft decisions button."](../images/workflow/editor-draft-decision-button.png)
 
