@@ -5,7 +5,7 @@ The email templates system allows you to view, search and edit the email templat
 > [!WARNING]
 > Editing an email template can cause emails to display incorrectly if placeholders are changed or removed.
 
-Each email template has access to a specific set of objects (such as an article, review assignment or journal). Because this varies by template, there is no documentation for every possible option. However, more information can be found on the Email variables <!--missing hyperlink--> page and template examples are available as well. If you are uncertain about how to update an email template or uncomfortable, you can reach out to your administrator or Janeway Support.
+Each email template has access to a specific set of objects (such as an article, review assignment or journal). Because this varies by template, there is no documentation for every possible option. However, more information can be found on the [Email variables](./email-template-variables.md) page and template examples are available as well. If you are uncertain about how to update an email template or uncomfortable, you can reach out to your administrator or Janeway Support.
 
 ## Editing templates
 
@@ -25,5 +25,4 @@ To get started, copy the default version into the rich-text box and edit it.
 <!-- ![The review assignment email template screen, showing the default value with the customisation textbox below it.](../../nstatic/edit-template.png) -->
 
 ## Template examples
-
-**TBC**
+_Coming soon_

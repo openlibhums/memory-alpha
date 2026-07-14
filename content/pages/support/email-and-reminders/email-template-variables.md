@@ -10,7 +10,7 @@ This page explains:
 - Which variables are available in common templates.
 - How to use them safely.
 
-For general guidance on editing templates, see Email templates <!--missing hyperlink-->.
+For general guidance on editing templates, see [Email templates](./email-templates.md).
 
 ## What are email template variables?
 
@@ -94,7 +94,7 @@ Here are some common examples you can copy and reuse.
 - The article's correspondence author  
   `{% raw %}{{ article.correspondence_author.full_name|se_can_see_pii:article }}{% endraw %}`
 
-If you use a variable with information that isn't available; e.g. a middlename for a user who has not provided one, it will be ignored and display a blank space instead.
+If you use a variable with information that isn't available, e.g. a middle name for a user who has not provided one, it will be ignored and display a blank space instead.
 
 > [!NOTE]
 > Certain variables, such as the title, have `safe_` appended to the second half of the object. This is to ensure they display correctly.
@@ -120,7 +120,7 @@ KEY
   objects of the given type.
 - 121 is One to One, it means these two objects are linked.
 - Bool is a Boolean value and will return True or False.
-- DateTime is a field that stores a internationalised date and time.
+- DateTime is a field that stores a  internationalised date and time.
 - Email is a validated email address.
 
 ### Account object reference
