@@ -27,7 +27,7 @@ Users can sign up for publication notifications by:
 
 The Reader role is not a workflow role and does not grant access to editorial or journal management features. It is used only to manage publication notification preferences.
 
-For more information about roles, see [**Roles and permissions**](../accounts-and-roles/roles-and-permissions-on-Janeway.md).
+For more information about roles, see [**Roles and permissions**](../accounts-and-roles/roles-and-permissions-on-janeway.md).
 
 ## How notification emails are sent
 

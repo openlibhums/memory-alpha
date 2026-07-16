@@ -3,7 +3,7 @@
 This section explains how user accounts and permissions work in Janeway, including how roles are assigned and managed. Read the following pages for more information:
 
 - [Managing user accounts](../accounts-and-roles/managing-user-accounts.md)
-- [Roles and permissions](../accounts-and-roles/roles-and-permissions-on-Janeway.md)
+- [Roles and permissions](../accounts-and-roles/roles-and-permissions-on-janeway.md)
 - [Activating accounts](../accounts-and-roles/activating-accounts.md)
 - [ORCID login](../accounts-and-roles/orcid-login.md)
 - [Single sign-on (SSO)](#single-sign-on-sso-login)

@@ -17,7 +17,7 @@ The third sign-in option is single sign-on (SSO), where you log in with your uni
 
 ## Managing ORCID IDs
 
-You can edit your ORCID ID by [editing your account](../guides/creating-an-account-on-Janeway.md#editing-your-account).
+You can edit your ORCID ID by [editing your account](../guides/creating-an-account-on-janeway.md#editing-your-account).
 
 > [!WARNING]
 > Editing ORCID IDs by hand can cause metadata mixups and trouble logging in with ORCID in the case of mistakes.
