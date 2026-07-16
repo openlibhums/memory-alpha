@@ -7,7 +7,7 @@ The editorial workflow in Janeway starts with the Unassigned stage, where you ca
 By default, editors are notified by email once a new article has been submitted. This email contains a link to the submitted article. New submissions can also be accessed through the Dashboard by clicking on **Unassigned**. Clicking this will take you to a list of all submissions that do not yet have an editor assigned.
 
 > [!NOTE]
-> Notifications can also be set up per article type (section) or for specific (section) editors. See information on setting up submission notifications and setting up article sections. <!-- missing hyperlink -->
+> Notifications can also be set up per article type (section) or for specific (section) editors. See information on setting up [submission notifications](../submission/submission-notifications.md) and setting up [article sections](../article-management/article-sections.md).
 
 ## Reviewing submissions
 

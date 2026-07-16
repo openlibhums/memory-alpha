@@ -33,11 +33,7 @@ This page lets you choose which licences are made available for preprints in thi
 
 !["The repository subjects page."](../images/repositories/repo-subjects.png)
 
-This page lets you set the subjects that preprints can fall into. These can be organised hierarchically, with child subjects; for example, "Biology" and "Marine biology". Subjects are grouped together, with the parent subject listed first.
-
-![" "](../images/repositories/repo-parent-child-subject.png)
-
-You can also select editors who will be notified of submissions made to this subject.
+This page lets you set the subjects that preprints can fall into.
 
 ## Additional submission fields
 

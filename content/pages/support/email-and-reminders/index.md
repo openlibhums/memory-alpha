@@ -6,8 +6,8 @@ This section explains:
 
 - [How to check what emails were sent and when](./email-logs.md).
 - [How to customise email content through templates](./email-templates.md) and [how to work with email template variables](./email-template-variables.md).
-- [How to set up automated reminders](./email-reminders.md).
-- [How to set up publication notifications](./email-publication-notification.md).
+- [How to set up automated reminders](./scheduling-reminders.md).
+- [How to set up publication notifications](./publication-notifications.md).
 
 The pages to control these are found through the **Manager dashboard**, under **Cache, cron and emails**.
 
@@ -36,6 +36,6 @@ The pages to control these are found through the **Manager dashboard**, under **
    Check Scheduling reminders and confirm that due dates were set correctly. If reminders still do not send, contact your system administrator.
 
 - _“Can readers (un)subscribe to/from publication notifications?”_  
-   Yes. Readers manage their notification preferences via their profile page. See [Publication notifications](./email-publication-notification.md) for more information.
+   Yes. Readers manage their notification preferences via their profile page. See [Publication notifications](./publication-notifications.md) for more information.
 
 If something is unclear or you are unsure whether a change is safe to make, contact your system administrator.

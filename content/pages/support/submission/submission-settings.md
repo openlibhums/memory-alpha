@@ -62,7 +62,7 @@ You can also limit access to submission by requiring users to create an account 
 
 ## Submission page text
 
-These settings make up the **Submission** page as well as the **Submission agreement** that authors accept. The submission text can also be edited through [**Submission page items**](./submission-webpage.md).
+These settings make up the **Submission** page as well as the **Submission agreement** that authors accept. The submission text can also be edited through [**Submission page items**](./configuring-the-submission-page.md).
 
 - **Submission page text**  
    This sets the introductory text displayed at the head of the **Submission** page.

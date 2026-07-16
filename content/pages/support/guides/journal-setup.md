@@ -33,7 +33,7 @@ Journal design - see guide <!-- missing hyperlink -->.
 
 ## Review
 
-- Review type: double or single anonymous, open peer review <!-- missing hyperlink--> or triple anonymous <!-- missing hyperlink -->
+- Review type: double or single anonymous, [open peer review](../review/open-peer-review.md) or [triple anonymous](../review/triple-anonymous-peer-review.md)
 - Review form
 - One-click peer review
 

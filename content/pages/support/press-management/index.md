@@ -8,9 +8,9 @@ The **Press manager** page brings together settings and tools that apply across 
 
 - [Journal management at press level](./journal-management-press-level.md)  
   An overview of the Press manager dashboard, including press-wide journal settings and overrides.
-- [Managing users at press level](./all-users.md)  
+- [Managing users at press level](./managing-users-at-press-level.md)  
   How to view, filter and manage user roles and permissions across all journals from the **All users** interface, as well as merging duplicate accounts through the **Merge users** interface.
 - [Journal footer](./footer.md)  
   Configuring the postal address, contact details and navigation links shown in every journal's footer.
-- [DOI management – press level](./press-doi-manager.md)  
+- [DOI management – press level](./DOI-management-at-press-level.md)  
   Managing Crossref DOI settings and the DOI Manager across journals from the press level.

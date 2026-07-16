@@ -3,7 +3,7 @@
 ## Journal and press website
 
 The journal and / or press website (also called 'frontend') can be navigated through the navigation bar ('navbar') at the top of the website. In addition, the privacy policy, accessibility and similar items can also be linked in the footer.
-To setup your navbar, see this section on customing the navbar <!-- missing hyperlink -->
+To setup your navbar, see this section on [customing the navbar](../journal-management/navigation.md).
 
 To access Janeway, the dashboard and/or manager interface (back office):
 

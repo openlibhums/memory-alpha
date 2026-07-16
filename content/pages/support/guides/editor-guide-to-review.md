@@ -2,7 +2,7 @@
 
 The review workflow may take various shapes depending on the type of review a journal uses. This workflow allows you to assign articles to reviewers, gather the reviews and communicate a decision about the article to the author.
 
-This guide will cover the default review workflow, which applies to single anonymous, double anonymous, and most of the open and triple anonymous workflows. There are additional pages with information on using [triple anonymous peer review](../review/triple-anonymous-peer-review.md) and [sharing reviews and author responses](../review/sharing-review.md). Additionally, there is information available on [configuring the peer review process](../review/index.md) and [setting up review forms](../review/review-forms.md).
+This guide will cover the default review workflow, which applies to single anonymous, double anonymous, and most of the open and triple anonymous workflows. There are additional pages with information on using [triple anonymous peer review](../review/triple-anonymous-peer-review.md) and [sharing reviews and author responses](../review/sharing-reviews.md). Additionally, there is information available on [configuring the peer review process](../review/index.md) and [setting up review forms](../review/review-forms.md).
 
 ## Setting up a review
 
@@ -17,15 +17,15 @@ After the appropriate files have been selected, you can add the reviewers. You d
 Now, you can either select a reviewer from the list presented to you, select an existing user who does not yet have the reviewer role (**Enrol existing user**) or invite a new reviewer who does not yet have an account (**Add new reviewer**).
 
 > [!TIP]
-> It is recommended to turn on [one-click review]() <!-- missing hyperlink-->. This allows reviewers to complete a review using a unique link without needing to register an account or log in.
+> It is recommended to turn on [one-click review](../review/review-settings.md). This allows reviewers to complete a review using a unique link without needing to register an account or log in.
 
 !["The add review assignment page, focussed on the select reviewer block."](../images/workflow/editor-review-add-reviewer.png)
 
-When assigning the reviewer, you can also select the review form, review type (open, single or double anonymous) and set the due date. You can set defaults for these in review settings <!--missing hyperlink --> to minimise the customisation needed here. Once you have selected a reviewer and are happy with the review settings, click **Add reviewer** at the bottom of the page to confirm. You will then be shown the outgoing email on the next page, which you can edit or select the option to skip sending this email.
+When assigning the reviewer, you can also select the review form, review type (open, single or double anonymous) and set the due date. You can set defaults for these in [review settings](../review/review-settings.md) to minimise the customisation needed here. Once you have selected a reviewer and are happy with the review settings, click **Add reviewer** at the bottom of the page to confirm. You will then be shown the outgoing email on the next page, which you can edit or select the option to skip sending this email.
 
 Once the reviewer has been assigned, they can access the system to accept or decline the review, and (if accepted) do the review.
 
-You can see how this appears to reviewers and what the review process looks like for them in the [reviewer guide](./workflow-reviewer.md).
+You can see how this appears to reviewers and what the review process looks like for them in the [reviewer guide](./reviewer-guide.md).
 
 ### Managing a review
 
@@ -59,7 +59,7 @@ Once a reviewer has completed their review, you can view it using the **View** b
 
 Once a review is complete, editors can share it with the author(s). They are unavailable to authors by default. If the review includes a file, you will have the option to make it available to the author as well.
 
-You can see what the author sees in the review section of the [author guide](./workflow-author.md).
+You can see what the author sees in the review section of the [author guide](./author-guide.md).
 
 There are two ways reviews can be made available:
 
@@ -68,7 +68,7 @@ There are two ways reviews can be made available:
   ![" "](../images/workflow/editor-share-review.png)
   ![" "](../images/workflow/editor-share-review-individual.png)
 
-- 'In bulk' when making a decision, after clicking on **Make a decision** (for more information, see [Decision helper](#) <!-- missing hyperlink -->). First, you will see all completed reviews in a column with a toggle detailing whether the review is visible to the author.
+- 'In bulk' when making a decision, after clicking on **Make a decision**. First, you will see all completed reviews in a column with a toggle detailing whether the review is visible to the author.
 
   ![" "](../images/workflow/editor-share-review-bulk.png)
 

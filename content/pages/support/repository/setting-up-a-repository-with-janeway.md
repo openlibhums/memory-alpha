@@ -29,9 +29,17 @@ settings:
 5.  The **Add a new repository** option appears below the list of journals.
     Click it.  
     ![" "](../images/repositories/repos-add-new.png)
-6.  This opens the repository set-up wizard. See Repository settings for more information <!-- missing hyperlink>.
+6.  This opens the repository set-up wizard. See [Repository settings](./repository-settings.md) for more information.
 
 ## Other settings
+
+### Subjects
+
+On this page, you can create subjects to be used in the repository. These can be organised hierarchically, with child subjects; for example, "Biology" and "Marine biology". Subjects are grouped together, with the parent subject listed first.
+
+![" "](../images/repositories/repo-parent-child-subject.png)
+
+You can also select editors who will be notified of submissions made to this subject.
 
 Licences, additional fields, subjects.
 

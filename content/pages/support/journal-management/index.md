@@ -10,7 +10,7 @@ Most of these tools are available from the Manager dashboard under **Content** o
 
 These interfaces help you create and maintain the content that appears on your journal website, such as information pages, navigation links, and downloadable files.
 
-- [Content manager](./cms.md)  
+- [Content manager](./Janeway-content-manager.md)  
   Create and edit static pages for your journal, such as About, Policies, or Privacy notices, using Janeway's built-in content management system.
 
 - [News manager](./news-manager.md)  
@@ -29,7 +29,7 @@ These interfaces help you create and maintain the content that appears on your j
 
 These settings control how your journal's homepage elements are displayed.
 
-- [Homepage elements](./homepage-layout.md)  
+- [Homepage elements](./homepage-customisation.md)  
    Configure homepage features such as the carousel, featured articles, popular articles, and other homepage components.
 
 - [Carousel configuration](./carousel.md)  
@@ -59,7 +59,7 @@ Use these interfaces to manage the people and contact details displayed on your 
 - [Similarity checker](./similarity-check.md)  
    Configure the Crossref Similarity Check (iThenticate) integration for checking submitted manuscripts.
 
-- [Clearing the cache](./cache.md)  
+- [Clearing the cache](./clearing-the-cache.md)  
    If recent changes are not appearing on your journal website, you may need to clear the system cache to refresh stored data.
 
 <!-- There is an argument here to be made around crosslinking to other sections/folders. E.g. include a link to Crossref/identifiers, which can lead to a page for that?-->

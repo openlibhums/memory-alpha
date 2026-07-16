@@ -14,7 +14,7 @@ To work on a file, find it under **Files for typesetting** and click **Options**
 
 Once a file has been converted or transformed to HTML, it will be listed under **Current galleys**. If you have done both, it will display twice.
 
-You can now edit the galley and manage images as outlined in the [Editor - typesetting guide](./workflow-editor-typesetting.md#image-and-figure-files).
+You can now edit the galley and manage images as outlined in the [Editor - typesetting guide](./editor-guide-to-typesetting.md#image-and-figure-files).
 
 ## Editing galleys
 
@@ -28,4 +28,4 @@ On the file editor, you can find a table with all HTML and XML galleys in your j
 > [!NOTE]
 > A rich text editor will display content as it will appear on the page (Like Microsoft Word or Google Drive). A plain text editor will display the code, rather than how the content will appear on the page.
 
-You can now edit the galley and save it. Changes made through this editor cannot be undone once you have saved the galley. If you are making changes to an already published article, the changes will be visible to readers once you have saved the galley. Missing images must not be uploaded through this editor, but through the [**Image Manager**](./workflow-editor-typesetting.md#image-and-figure-files) within the typesetting interface.
+You can now edit the galley and save it. Changes made through this editor cannot be undone once you have saved the galley. If you are making changes to an already published article, the changes will be visible to readers once you have saved the galley. Missing images must not be uploaded through this editor, but through the [**Image Manager**](./editor-guide-to-typesetting.md#image-and-figure-files) within the typesetting interface.
