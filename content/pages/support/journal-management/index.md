@@ -10,7 +10,7 @@ Most of these tools are available from the Manager dashboard under **Content** o
 
 These interfaces help you create and maintain the content that appears on your journal website, such as information pages, navigation links, and downloadable files.
 
-- [Content manager](./Janeway-content-manager.md)  
+- [Content manager](./janeway-content-manager.md)  
   Create and edit static pages for your journal, such as About, Policies, or Privacy notices, using Janeway's built-in content management system.
 
 - [News manager](./news-manager.md)  
