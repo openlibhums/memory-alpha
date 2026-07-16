@@ -1,4 +1,4 @@
-# Discovery placeholder file.
+# Discovery overview
 
 - OAI-PMH
 - KBART
