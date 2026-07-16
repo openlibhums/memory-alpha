@@ -110,7 +110,7 @@ This plugin imports content from [Open Journal Systems](https://openjournalsyste
 
 This plugin enables the Disqus discussion platform for journal. It is used to add a comment section feature.
 
->[!NOTE]
->DisQus is not GDPR compliant. If you require GDPR compliancy, it is recommended to consider Hypothes.is instead.
+> [!NOTE]
+> DisQus is not GDPR compliant. If you require GDPR compliancy, it is recommended to consider Hypothes.is instead.
 
 <!--> DisQus may not be GDPR compliant -> internal comment system? It might be time to retire this plugin. -->

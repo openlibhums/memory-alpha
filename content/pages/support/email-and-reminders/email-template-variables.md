@@ -120,7 +120,7 @@ KEY
   objects of the given type.
 - 121 is One to One, it means these two objects are linked.
 - Bool is a Boolean value and will return True or False.
-- DateTime is a field that stores a  internationalised date and time.
+- DateTime is a field that stores an internationalised date and time.
 - Email is a validated email address.
 
 ### Account object reference

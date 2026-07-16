@@ -7,10 +7,10 @@ To work on a file, find it under **Files for typesetting** and click **Options**
 !["The files for typesetting block."](../images/workflow/editor-typesetting-options.png)
 
 - Convert  
-    This option makes the file available for download to readers. This feature is useful when you want to make the original manuscript file available.
+   This option makes the file available for download to readers. This feature is useful when you want to make the original manuscript file available.
 
 - Transform to HTML  
-    This option transforms the manuscript file (DOCX or RTF) into an HTML file that displays the article within a web browser.
+   This option transforms the manuscript file (DOCX or RTF) into an HTML file that displays the article within a web browser.
 
 Once a file has been converted or transformed to HTML, it will be listed under **Current galleys**. If you have done both, it will display twice.
 

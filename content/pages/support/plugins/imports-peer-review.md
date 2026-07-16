@@ -22,11 +22,11 @@ To import peer reviews:
 
 | Field                 | Notes                                                      |
 | --------------------- | ---------------------------------------------------------- |
-| Identifier Type       | Must be either id, doi or pub-id                         |
+| Identifier Type       | Must be either id, doi or pub-id                           |
 | Identifier            | The corresponding ID, DOI or Pub-ID                        |
 | Review recommendation | Either: accept, minor_revisions, major_revisions or reject |
 | Review filename       | Path to a file on disk eg: /home/username/files/review.pdf |
-| Date Fields           | All date fields must be in ISO format YYYY-MM-DD         |
+| Date Fields           | All date fields must be in ISO format YYYY-MM-DD           |
 | Visibility            | Either: open, blind or double-blind                        |
 
 > [!TIP]

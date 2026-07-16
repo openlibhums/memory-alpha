@@ -21,6 +21,6 @@ set it as the articles large image file (also known as the hero image).
 
 | Field           | Notes                                    |
 | --------------- | ---------------------------------------- |
-| Identifier Type | Must be either id, doi or pub-id       |
+| Identifier Type | Must be either id, doi or pub-id         |
 | Identifier      | The corresponding ID, DOI or Pub-ID      |
 | URL             | A URL leading directly to an image file. |

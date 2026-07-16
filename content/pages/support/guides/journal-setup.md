@@ -25,11 +25,12 @@ Journal design - see guide <!-- missing hyperlink -->.
 - Typesetters (if applicable)
 - Editors
 - Editorial board
-  Can be imported, see [import plugin](../plugins/imports-plugin.md). 
+  Can be imported, see [import plugin](../plugins/imports-plugin.md).
+
 ## Submission
 
 - Enable or disable submission.
-- [Setup licences for submission](../submission/article-licence-manager.md). 
+- [Setup licences for submission](../submission/article-licence-manager.md).
 
 ## Review
 

@@ -25,4 +25,5 @@ To get started, copy the default version into the rich-text box and edit it.
 <!-- ![The review assignment email template screen, showing the default value with the customisation textbox below it.](../../nstatic/edit-template.png) -->
 
 ## Template examples
+
 _Coming soon_
