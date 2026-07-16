@@ -35,7 +35,7 @@ After selecting an article, you will be taken to the typesetting page. This page
 
   !["The typesetting page with the Actions block highlighted."](../images/workflow/editor-typesetting-actions.png)
 
-You can see the typesetter's view and their experience of the workflow in the [typesetter guide](./workflow-typesetter.md).
+You can see the typesetter's view and their experience of the workflow in the [typesetter guide](./editor-guide-to-typesetting.md).
 
 ## Typesetting files
 
@@ -72,11 +72,11 @@ When uploading an HTML or XML file with images, they must be uploaded separately
 !["Current galleys blocks, with the various buttons highlighted."](../images/workflow/editor-typesetting-galley-buttons.png)
 
 > [!CAUTION]
-> Do not use the image or galley upload for supplementary files. See [Supplementary files](#supplementary-files) for more information.<!-- missing hyperlink -->
+> Do not use the image or galley upload for supplementary files. See [Supplementary files](#supplementary-files) for more information.
 
 ## Generating typeset files with Janeway (workflow)
 
-Janeway also offers the option to convert manuscript files using the [Pandoc plugin](https://github.com/BirkbeckCTP/pandoc), which can generate HTML galleys from a MS Word document. For a full guide on how to manage typesetting with Pandoc, see [Typesetting with Pandoc](./workflow-editor-pandoc.md).
+Janeway also offers the option to convert manuscript files using the [Pandoc plugin](https://github.com/BirkbeckCTP/pandoc), which can generate HTML galleys from a MS Word document. For a full guide on how to manage typesetting with Pandoc, see [Typesetting with Pandoc](./editor-guide-to-typesetting-with-pandoc.md).
 
 If you are interested in using the Pandoc plugin, contact your System administrator (What is a system administrator? <!-- missing hyperlink  -->).
 

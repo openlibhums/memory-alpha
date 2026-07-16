@@ -1,27 +1,5 @@
 # ORCID login
 
-_Coming soon_
-
-Janeway supports ORCID login.
-
-- How to register
-- How to login
-
-<!-- - Is ORCID mutually exclusive with SSO?
-
-General info - needs some input from dev -->
-
-<!--
-## Using ORCID to login to Janeway
-
-If you don't have ORCID, you will need one.  missing hyperlink
-
-Start with:
-
-### Linking ORCID to an existing account
--->
-
-<!--
 ## General info
 
 If ORCID is turned on for a Janeway installation, the login screen has a link that takes you to orcid.org to sign in. Afterward you are returned to Janeway to finish setting up your account or logging in.
@@ -39,10 +17,9 @@ The third sign-in option is single sign-on (SSO), where you log in with your uni
 
 ## Managing ORCID IDs
 
-You can edit your ORCID ID by [editing your account](../guides/account-set-up.md#editing-your-account).
+You can edit your ORCID ID by [editing your account](../guides/creating-an-account-on-Janeway.md#editing-your-account).
 
 > [!WARNING]
 > Editing ORCID IDs by hand can cause metadata mixups and trouble logging in with ORCID in the case of mistakes.
 
-Author ORCID IDs cannot be edited directly, in order to minimize mistakes. You can remove and re-add the author using the ORCID search option. See [Author information](../guides/workflow-author.md#author-information)
--->
+Author ORCID IDs cannot be edited directly, in order to minimize mistakes. You can remove and re-add the author using the ORCID search option. See [Author information](../guides/author-guide.md#author-information).

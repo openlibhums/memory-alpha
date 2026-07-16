@@ -28,7 +28,7 @@ For information on adding new pages to your site navigation, see [**Navigation**
 
 The content manager displays a list of all custom pages available on your journal. Click **Edit** to make changes.
 
-Changes take effect immediately once saved. If you do not see them displayed on the journal page, you may need to [refresh your cache](./cache.md).
+Changes take effect immediately once saved. If you do not see them displayed on the journal page, you may need to [refresh your cache](./clearing-the-cache.md).
 
 You can see a page's editing history by clicking **View history** at the bottom of the edit page.
 

@@ -69,7 +69,7 @@ Enable **Latest news** to automatically display recent announcements, and set th
 Issues and collections behave the same as articles and news in the carousel. However, instead of the option to show multiple recent issues, is has the option to enable **Current issue** to display the issue marked as current.
 
 > [!TIP]
-> If changes are not appearing on the homepage, trying [clearing the cache](./cache.md).
+> If changes are not appearing on the homepage, trying [clearing the cache](./clearing-the-cache.md).
 
 ## Image contrast and carousel overlays
 

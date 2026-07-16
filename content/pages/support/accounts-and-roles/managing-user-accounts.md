@@ -49,7 +49,7 @@ At press level you can:
 
 Click **Edit** next to a user to open the **Edit user** interface, where you can update a user's account details.
 
-Some changes are restricted by permission level. For more information, see the [**Permissions** page](./janeway-roles-and-permissions.md).
+Some changes are restricted by permission level. For more information, see the [**Permissions** page](./roles-and-permissions-on-Janeway.md).
 
 > [!IMPORTANT]
 > Editing a user account does **not** change author metadata on articles that have already been accepted.  

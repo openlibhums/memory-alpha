@@ -40,7 +40,7 @@ There are three types of custom submission page items you can create using this.
 ![" "](../../support/images/custom-submission-page-item.png)
 
 - **Special displays**  
-   There are two types of special displays, Licences and Sections. These will display the licence and article type (section) information for your journal. It will take the information supplied through the [Licence manager](./article-licence-manager.md) and [Sections (article types)](../article-management/article-sections.md).
+   There are two types of special displays, Licences and Sections. These will display the licence and article type (section) information for your journal. It will take the information supplied through the [Licence manager](./licence-manager.md) and [Sections (article types)](../article-management/article-sections.md).
 
 - **Setting-based displays**  
    You can also set a title and select a setting to display. This will then display the text / information set as part of the setting - this will allow consistency and ensures text only needs to be updated in one place. If you wish to check the content of the setting, the best way to do so is:

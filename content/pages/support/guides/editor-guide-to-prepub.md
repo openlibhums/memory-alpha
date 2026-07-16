@@ -40,8 +40,7 @@ DOI links should redirect to the article, without intermediate steps. To ensure 
 
 ![" "](../images/workflow/prepub_doi.png)
 
-If the DOI has more than two hops, or you see something else, you need to look more closely at the DOI's details. Select **Edit** and check the **Status** column for an indication of what to do next. See Interpreting DOI status for more information. <!-- missing hyperlink-->
-
+If the DOI has more than two hops, or you see something else, you need to look more closely at the DOI's details. Select **Edit** and check the **Status** column for an indication of what to do next. See [Interpreting DOI status](../identifiers/crossref-article-doi.md#interpreting-registration-status) for more information.
 Check the **Mark as complete** box to move on to the next step.
 
 ## Select a galley for rendering
@@ -65,7 +64,7 @@ Check the **Mark as complete** box to move on to the next step.
 
 Upload an image (JPG, PNG or GIF formats are accepted; do not use PDFs) in the pop-up window. Rectangular or landscape images work best, as this image will usually sit at the top of an article.
 
-You can also set an article thumbnail through the **Article image manager**, which is accessible through the Manager dashboard or the Article archive page. More information on managing article images and their recommended dimensions is available here. <!-- missing hyperlink -->
+You can also set an article thumbnail through the **Article image manager**, which is accessible through the Manager dashboard or the Article archive page. More information on managing article images and their recommended dimensions is [available here](../article-management/article-images.md).
 
 > [!TIP]
 > You can source many free-to-use images from [Unsplash.com](https://unsplash.com/). If you are sourcing images from elsewhere, be aware of any copyright restrictions and only use images that you are permitted to reproduce.

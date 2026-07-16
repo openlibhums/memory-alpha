@@ -12,7 +12,7 @@ From this page, you can:
 
 To add a homepage element, select **Add** next to the feature you want to add. Once it has been added, click **Configure** to view its options. You can reorder elements by dragging and dropping them. To delete a homepage element, click the **Delete** icon.
 
-Any changes take effect immediately, if you do not see them you may need to [clear your cache](./cache.md).
+Any changes take effect immediately, if you do not see them you may need to [clear your cache](./clearing-the-cache.md).
 
 ## Homepage features
 
