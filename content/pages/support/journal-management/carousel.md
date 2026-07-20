@@ -16,7 +16,7 @@ The carousel can display three types of content articles, news items, and issues
 
 ### Images used in the carousel
 
-The image shown in the carousel comes from the `large image` associated with the item, these are set as part of creating a news item, creating an issue or collection, or publishing an article. <!-- missing hyperlink 3x-->
+The image shown in the carousel comes from the `large image` associated with the item, these are set as part of [creating a news item](./news-manager.md), [creating an issue or collection](../issues-volumes-and-collections/index.md), or [publishing an article](../article-management/article-images.md).
 
 If an item does not have a large image:
 
@@ -30,12 +30,10 @@ For best results, ensure items included in the carousel have suitable large imag
 The **Exclude** tickbox changes how the selection lists behave.
 
 - **Disabled (default):**  
-  The selected items are **included** in the carousel.
+  The selected items are _included_ in the carousel.
 
 - **Enabled:**  
-  The selected items are **excluded** from the carousel.
-
-<!-- This is at the moment one of the few places places where I am using the bold for emphasis - which I have not really done elsewhere. BUT I want this to be clear as it's such a pain. Thoughts?-->
+  The selected items are _excluded_ from the carousel.
 
 ## Selecting items for the carousel
 

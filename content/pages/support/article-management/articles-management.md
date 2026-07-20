@@ -52,8 +52,6 @@ If the article was previously assigned to an editor, it will move to the Review 
 
 ## Article display settings
 
-<!--This should probably eventually move elsewhere-->
-
 The **Article display** page has settings for controlling how articles look and how metrics are displayed.
 
 - Disable article images

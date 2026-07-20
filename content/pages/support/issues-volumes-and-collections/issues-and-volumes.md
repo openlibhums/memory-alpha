@@ -129,7 +129,7 @@ Example display formats:
 > If you want to display a custom issue title, disable everything except issue title, and use that field to form the issue display for each issue.
 
 > [!TIP]
-> You can use the article number field to set an arbitrary number for each article, whether to distinguish articles within each volume or issue or to number articles across volumes and issues. Article number is an optional field separate from article ID and can be set in **Edit metadata**. <!-- add this to section on article metadata-->
+> You can use the article number field to set an arbitrary number for each article, whether to distinguish articles within each volume or issue or to number articles across volumes and issues. Article number is an optional field separate from article ID and can be set in **Edit metadata**.
 
 ## Projected issues
 

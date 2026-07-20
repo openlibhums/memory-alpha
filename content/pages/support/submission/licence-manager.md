@@ -26,4 +26,4 @@ When people submit to your journal, they have to select a licence from this list
 
 ![Licence manager](../../support/images/licence-manager.png)
 
-If the journal uses only one licence type, you can disable the licence selection field using the **Submission configurator**. <!-- missing hyperlink -->
+If the journal uses only one licence type, you can disable the licence selection field using the [**Submission configurator**](./configuring-the-submission-page.md).

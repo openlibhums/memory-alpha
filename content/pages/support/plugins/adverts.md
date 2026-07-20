@@ -2,7 +2,7 @@
 
 It is possible to show basic adverts on Janeway, this can be (done next to articles (left and right margin)).
 
-This plugin is not active and requires further development. If you are a hosted client <!-- Missing Hyperlink --> and wish to show basic adverts on Janeway, contact Support. <!-- Missing hyperlink -->
+This plugin is not active and requires further development. If you are a hosted client and wish to show basic adverts on Janeway, contact support.
 
 Recommended image dimensions :
 

@@ -64,15 +64,17 @@ There are some cases that superusers cannot access a page. For example, sometime
 
 ## Granular manager permissions
 
-<!-- Note to self: this needs images -->
+Janeway allows more granular permissions for journal managers and editors, using the **Permission** setting group. This can be configured through the **All settings** page, found on the Manager dashboard, and searching for "Permission"
 
-Janeway allows more granular permissions for journal managers and editors, using the **Permissions** setting group. This can be used on the configuration of licences and sections as following:
+![" "](../images/permission-group.png)
+
+ This can be used on the configuration of licences and sections as following:
 
 - Licences  
-  Permissions control whether users can access the licences control pages based on their roles, defaulting to Editor and Journal Manager.
+  Permissions control whether users can access the licences control pages based on their roles, defaulting to Editor and Journal manager.
 
 - Sections  
-  Permissions control whether a user can access the sections control pages based on their roles, defaulting to Editor and Journal Manager.
+  Permissions control whether a user can access the sections control pages based on their roles, defaulting to Editor and Journal manager.
 
 ### Editing granular permissions (staff only - advanced)
 

@@ -46,7 +46,7 @@ ROR data is available from Janeway in these places:
 - auto-generated JATS XML stubs
 - Crossref deposits (XML)
 - the OAI-PMH feed (XML)
-- the Open Access Switchboard (via the **OA Switchboard** plugin)
+- the Open Access Switchboard (via the [**OA Switchboard** plugin](../plugins/oaswitchboard.md))
 
 <!--
   Future development
@@ -74,7 +74,7 @@ CRediT data is distributed by Janeway in these places:
 - on journal article web pages (HTML)
 - in auto-generated JATS XML stubs
 - the OAI-PMH feed (XML)
-- the Open Access Switchboard (via the **OA Switchboard** plugin)
+- the Open Access Switchboard (via the [**OA Switchboard** plugin](../plugins/oaswitchboard.md))
 
 <!--
   Future development

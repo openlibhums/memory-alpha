@@ -15,8 +15,3 @@ Additionally, there's a page to manage the publication schedule:
 Any articles that are set to publish on a future date will appear in a list on this page. It will list the title, section, DOI, and scheduled publication date.
 
 ![Article listed for publication in the future](../images/pub-schedule.png)
-<--!
-
-<!--![Article listed for publication in the future](../nstatic/pub-schedule.png) -->
-
-<!-- explain scheduling around end of year and why to avoid, explain where this is found. -->-->

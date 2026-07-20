@@ -21,8 +21,6 @@ The submission settings are accessed through the manager dashboard under **Submi
 - [**Submission files**](#submission-files)  
    This controls settings around the manuscript files.
 
-<!-- missing hyperlinks -->
-
 ## Submission control
 
 The settings found here are:

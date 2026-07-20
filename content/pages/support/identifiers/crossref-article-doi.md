@@ -24,9 +24,7 @@ Later, when the article is scheduled for publication, Janeway sends a deposit to
 When the article is published, the DOI becomes a working permalink to the published article.
 
 > [!TIP]
-> You can allow editors to preview the data that will be sent to Crossref before accepting an article. See **Accept article warning** under **Review settings**.
-
-<!--missing hyperlink-->
+> You can allow editors to preview the data that will be sent to Crossref before accepting an article. See **Accept article warning** under [**Review settings**](../review/review-settings.md).
 
 ## When manual intervention may be needed
 
