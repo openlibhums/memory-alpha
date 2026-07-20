@@ -22,7 +22,7 @@
   - An FTP plugin for depositing works with EBSCO.
   - [GitHub Repo](https://github.com/openlibhums/ebsco_transporter)
 
-See also: FTP plugin. <!-- Missing hyperlink -->
+See also: [FTP plugin](). <!-- Missing hyperlink -->
 
 ## EBSCO
 

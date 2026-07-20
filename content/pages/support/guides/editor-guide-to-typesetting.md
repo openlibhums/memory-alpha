@@ -78,7 +78,7 @@ When uploading an HTML or XML file with images, they must be uploaded separately
 
 Janeway also offers the option to convert manuscript files using the [Pandoc plugin](https://github.com/BirkbeckCTP/pandoc), which can generate HTML galleys from a MS Word document. For a full guide on how to manage typesetting with Pandoc, see [Typesetting with Pandoc](./editor-guide-to-typesetting-with-pandoc.md).
 
-If you are interested in using the Pandoc plugin, contact your System administrator (What is a system administrator? <!-- missing hyperlink  -->).
+If you are interested in using the Pandoc plugin, contact your System administrator.
 
 ## Working with a typesetter
 
@@ -99,7 +99,7 @@ You can now do the following:
 5. Send a notification email to the typesetter (or skip this step).
 
 > [!TIP]
-> You can customise the typesetting instructions through the typesetting guidelines setting <!-- missing hyperlink  -->, in order to avoid having to repeat instructions in the notes box on every typesetting assignment.
+> You can customise the typesetting instructions through the [typesetting guidelines setting](#typesetting-guidelines-setting), in order to avoid having to repeat instructions in the notes box on every typesetting assignment.
 
 If no issue has been set yet for this article, you can do this now. Typesetters may need this information (especially if working with JATS-XML).
 
@@ -221,3 +221,9 @@ Janeway's XSL Transformation process uses a version-controlled XSL (Extensible S
 
 > [!WARNING]
 > Changing an XML file's XSL may cause it to render differently. It is only recommended that you do this _before_ sending it for proofreading.
+
+## Typesetting guidelines setting
+
+The typsetting guidelines shown to the typesetters can be edited through the **Typesetting guideliness** setting. This setting can be found through **All settings** on the Manager dashboard.
+
+![" "](../images/typesetting-guidelines.png)

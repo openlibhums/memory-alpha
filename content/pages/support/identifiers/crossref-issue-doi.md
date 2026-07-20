@@ -13,7 +13,7 @@ This page explains how issue DOIs are generated, when they are registered with C
 
 When **Auto-register issue-level DOIs** is enabled in the **Crossref settings**, Janeway will generate an issue DOI and register it with Crossref.
 
-The issue DOI is registered when the first article in the issue has its article DOI minted or is scheduled for publication (this will depend on what the article has its issue set, for more information see: Crossref article DOIs <!-- missing hyperlink -->). The issue DOI is included in the article's XML metadata sent to Crossref, and no separate action is required to register it.
+The issue DOI is registered when the first article in the issue has its article DOI minted or is scheduled for publication (this will depend on what the article has its issue set, for more information see: [Crossref article DOIs](./crossref-article-doi.md)). The issue DOI is included in the article's XML metadata sent to Crossref, and no separate action is required to register it.
 
 > [!IMPORTANT]
 > If auto-registration for issue DOIs is enabled, issue DOIs must not be entered manually. To manually set issue DOIs, you must first disable automatic issue DOI registration.

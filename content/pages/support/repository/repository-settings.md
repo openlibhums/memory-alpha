@@ -16,7 +16,7 @@ The wizard has five steps:
 4. **Email templates**
    Displays the email templates available on the repository. For more
    information on editing email templates and email template variables,
-   see Email templates. <!-- do we have a full list of repo email template vars? --> <!-- missing hyperlink>
+   see [Email templates](../email-and-reminders/email-templates.md). <!-- do we have a full list of repo email template vars? -->
 
 5. **Live**
    Sets the repository as live.

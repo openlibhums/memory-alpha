@@ -6,7 +6,7 @@ Janeway supports minting Digital Object Identifiers (DOIs) for articles and issu
   When article DOIs are minted, how to check and manage them using the DOI Manager, and the Crossref settings required.
 - [Crossref issue DOI](./crossref-issue-doi.md)  
   How issue-level DOIs are generated and registered alongside article DOIs, and important limitations to be aware of.
-- [DataCite DOIs](./datacite-dois.md)  
+- [DataCite DOIs](../plugins/datacite.md)  
   Registering DOIs with DataCite as an alternative to Crossref.
 
 ## Google Scholar
