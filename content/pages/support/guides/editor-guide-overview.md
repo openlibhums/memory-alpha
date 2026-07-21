@@ -1,9 +1,9 @@
 # Editor guide - overview
 
 This guide walks editors through the editorial workflow in Janeway, from a new submission to publication. Each stage below links to a dedicated page with step-by-step instructions.
- 
+
 ## The workflow at a glance
- 
+
 Every article moves through the same core stages, though there are additional, optional and/or alternative stages.
 
 1. **Submission.** New articles start out unassigned. An editor assigns an editor or section editor to the article, then decides whether to move it to review, accept it outright, or decline it.
@@ -14,9 +14,9 @@ Every article moves through the same core stages, though there are additional, o
 6. **Published.** The article is available to readers.
 
 Not every article follows this path exactly. See [Workflow variations](#workflow-variations) for the most common branches.
- 
+
 ## Workflow variations
- 
+
 - **Skip review.** At the submission stage, editors can accept an article outright (for example, editorials) and send it straight to copyediting, bypassing peer review.
 - **Decline at any stage.** Articles can be declined at submission or after a review round. Declining removes the article from the workflow and notifies the author.
 - **Multiple review rounds.** After an author submits requested revisions, editors can open a new review round instead of moving straight to a decision.
@@ -27,7 +27,7 @@ Not every article follows this path exactly. See [Workflow variations](#workflow
 There are other variations available; removing copyediting, only using Janeway to display published articles rather than processing them in the system, working with repositories etc. For more information on this, contact the Janeway developer team or your system administrator.
 
 ## Table of contents
- 
+
 - [Editor guide to submissions](./editor-guide-to-submission.md) — Handle unassigned submissions, assign editors, make initial accept or decline decisions, set projected issues, and edit author details.
 - [Editor guide to review](./editor-guide-to-review.md) — Set up review rounds, assign reviewers, share reviews with authors, make a decision, and request revisions.
   - [Editor guide to draft decisions](./editor-guide-to-draft-decisions.md) — See how section editors draft decisions and how editors review and approve them. Optional workflow.
@@ -35,4 +35,3 @@ There are other variations available; removing copyediting, only using Janeway t
 - [Editor guide to typesetting](./editor-guide-to-typesetting.md) — Upload galleys, work with typesetters, manage proofing, and manage image and typeset files.
   - [Editor guide to typesetting with Pandoc](./editor-guide-to-typesetting-with-pandoc.md) — Convert DOCX or RTF files into HTML galleys, and edit galleys directly.
 - [Editor guide to pre-publication](./editor-guide-to-prepub.md) — Complete the final metadata, issue, DOI, galley, date, and image checks, then publish.
- 

@@ -8,7 +8,7 @@
   - See [JATS import documentation](./imports-jats.md) <!-- missing hyperlink -->
 - OJS import
   - [GitHub Repo](https://github.com/openlibhums/imports)
-  - See [OJS import documentation]( ) <!-- Missing Hyperlink-->
+  - See [OJS import documentation]() <!-- Missing Hyperlink-->
 - OJS export
   - An OJS plugin for exporting data for ingest into Janeway, in a custom JSON format
   - [GitHub Repo](https://github.com/openlibhums/ojs-janeway)

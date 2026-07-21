@@ -68,7 +68,7 @@ Janeway allows more granular permissions for journal managers and editors, using
 
 ![" "](../images/permission-group.png)
 
- This can be used on the configuration of licences and sections as following:
+This can be used on the configuration of licences and sections as following:
 
 - Licences  
   Permissions control whether users can access the licences control pages based on their roles, defaulting to Editor and Journal manager.

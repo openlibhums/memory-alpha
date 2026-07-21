@@ -60,7 +60,7 @@ Historically, accounts were created for all co-authors, and they were inactive b
 
 ### Troubleshooting reviewer account activation
 
-From version 1.8, reviewers are able to review things without logging in, so they won’t have to have active accounts unless they have another reason to. The exception is if a journal has turned one-click review off. 
+From version 1.8, reviewers are able to review things without logging in, so they won’t have to have active accounts unless they have another reason to. The exception is if a journal has turned one-click review off.
 
 From version 1.8 onwards, inactive review accounts are also visible in the editor's reviewer selection screen.
 

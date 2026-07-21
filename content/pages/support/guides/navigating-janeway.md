@@ -4,15 +4,14 @@ There are various ways to navigate Janeway, depending on where you are on Janewa
 
 There are three distinct areas of Janeway to navigate:
 
-- Web content  
-   - The web content (or front-end) is the public-facing website that shows the articles, homepage and other content you want to share with those visiting the journal. It will also be where information such as author guidelines, policy and submission guidance is displayed.
+- Web content
+  - The web content (or front-end) is the public-facing website that shows the articles, homepage and other content you want to share with those visiting the journal. It will also be where information such as author guidelines, policy and submission guidance is displayed.
 
-- The back office  
-   - This is the part of Janeway you see when you are logged in. This is where you process articles (review, copyediting, typesetting etc.), configure workflows and manage the journal more broadly. You can access journal settings, journal styling, user information, article metadata, email templates and more from here.
+- The back office
+  - This is the part of Janeway you see when you are logged in. This is where you process articles (review, copyediting, typesetting etc.), configure workflows and manage the journal more broadly. You can access journal settings, journal styling, user information, article metadata, email templates and more from here.
 
-- The admin area  
-   - This part of Janeway is intended for system administrators and advanced users. From here, you can check various types of data and settings, directly edit information and troubleshoot issues. We recommend not using this interface if you are not comfortable with it, and contacting your system administrator or support contact if you encounter any difficulties
-
+- The admin area
+  - This part of Janeway is intended for system administrators and advanced users. From here, you can check various types of data and settings, directly edit information and troubleshoot issues. We recommend not using this interface if you are not comfortable with it, and contacting your system administrator or support contact if you encounter any difficulties
 
 ## Journal and press website
 

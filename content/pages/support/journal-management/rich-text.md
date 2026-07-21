@@ -6,7 +6,7 @@ Most of the time, it is straightforward to use the toolbar of formatting options
 
 ## Copy-pasting from Word or another app
 
-If you copy-paste from another rich-text environment like a DOCX document, Janeway tries to help you manage how much formatting comes over. 
+If you copy-paste from another rich-text environment like a DOCX document, Janeway tries to help you manage how much formatting comes over.
 
 > “Formatted paste detected. Click ‘OK’ to paste as text or ‘Cancel’ to keep the formatting.”
 
@@ -45,7 +45,7 @@ The rich-text field does not support some types of media, as these could lead to
 These elements are always removed from the content when you click **Save**.
 
 - Audio or video players, including copy-paste embeds from other platforms like YouTube, are removed.
-- JavaScript code is removed. 
+- JavaScript code is removed.
 - Some CSS rules are removed.
 
 > [!NOTE]
