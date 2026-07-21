@@ -25,7 +25,7 @@ Generally, it is best to let a user register an account using the first option a
    c. You will be required to set a password.
 4. Click **Save**.
 
-The user can now either login after requesting a password reset link, through the journal website, or you could a user their password. The latter is discouraged, as this introduces security risks.
+The user can now either login after requesting a password reset link, through the journal website, or you could send a user their password. The latter is discouraged, as this introduces security risks.
 
 ## Single sign-on (SSO) login
 
