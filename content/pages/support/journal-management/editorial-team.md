@@ -60,12 +60,8 @@ The following settings control how editorial groups and members are displayed on
 - Enable multi-page editorial team display  
   When enabled, each editorial group is displayed on its own page. This setting is overwitten by **Enable editorial team display**.
 
+- Display Country on Editorial Team Page
+  When enabled, and where a group member has an affiliation that has a country listed, the country will be displayed next to their name. If no country is set, nothing is shown.
+
 > [!NOTE]
 > **Enable editorial team display** is found in **All settings** and determines whether the editorial team page is available as a default option for the navbar (which presumes a single page for the editorial team).
-
-<!-- To check: Is this still used? I cannot see a country field anymore on the user profile page (also not on the page edited by users themselves)
-
-- Display Country on Editorial Team Page
-   When enabled, and where a group member has set a country on their user profile, the country will be displayed next to their name.
-  If no country is set, nothing is shown.
-  -->

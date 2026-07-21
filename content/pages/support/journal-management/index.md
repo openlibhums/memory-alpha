@@ -62,4 +62,7 @@ Use these interfaces to manage the people and contact details displayed on your 
 - [Clearing the cache](./clearing-the-cache.md)  
    If recent changes are not appearing on your journal website, you may need to clear the system cache to refresh stored data.
 
-<!-- There is an argument here to be made around crosslinking to other sections/folders. E.g. include a link to Crossref/identifiers, which can lead to a page for that?-->
+<!-- There is an argument here to be made around crosslinking to other sections/folders. E.g. include a link to Crossref/identifiers, which can lead to a page for that?
+
+Yeah, it could be a heading called “Other things related to journal management” and the links could be to other folder index pages that are relevant.
+-->

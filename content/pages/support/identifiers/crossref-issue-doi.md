@@ -9,27 +9,13 @@ Issue-level DOIs can be generated automatically using a defined pattern or enter
 
 This page explains how issue DOIs are generated, when they are registered with Crossref, and important limitations to be aware of.
 
-## Auto-register issue-level DOIs
+## When and how issue DOIs are formed
 
-When **Auto-register issue-level DOIs** is enabled in the **Crossref settings**, Janeway will generate an issue DOI and register it with Crossref.
+When a new issue is created, and at any time after, editors can put in a manual DOI for an issue.
 
-The issue DOI is registered when the first article in the issue has its article DOI minted or is scheduled for publication (this will depend on what the article has its issue set, for more information see: [Crossref article DOIs](./crossref-article-doi.md)). The issue DOI is included in the article's XML metadata sent to Crossref, and no separate action is required to register it.
+If no DOI is manually put in by the time the first article is added to the issue, then one will be automatically created based on the issue DOI pattern.
 
-> [!IMPORTANT]
-> If auto-registration for issue DOIs is enabled, issue DOIs must not be entered manually. To manually set issue DOIs, you must first disable automatic issue DOI registration.
-
-<!--  Dev check needed here. The old docs say:
- If an issue
-DOI has not been entered manually, Janeway will use the pattern defined
-in the setting above to generate one automatically.
-
-The helptext on the page, however, implies the manual field needs to be left blank. But the above implies otherwise, so I may need to check this. Does manual work, even if autoregister is on, as long as you set it before autoregister has a chance to kcik in? Or do they not play nice and is that the end of it? -->
-
-## Issue DOI pattern
-
-Janeway can automatically generate issue-level DOIs using a configurable pattern.
-
-Using the default pattern:
+Here are a few examples of how the default pattern works:
 
 - An issue with ID `1`, journal code `abcd`, and prefix `10.0001` will be assigned the DOI:  
   `10.0001/abcd.issue.1`.
@@ -37,7 +23,16 @@ Using the default pattern:
 - A collection with ID `2` will be assigned the DOI:  
   `10.0001/abcd.collection.2`
 
-This pattern is used only if an issue DOI has not been entered manually.
+An auto-generated issue DOI can be edited afterward if needed, though this can cause problems if the DOI is already registered and the registration is not subsequently updated.
+
+> [!TIP]
+> Janeway never overwrites manually input DOIs, and what it sends for registration always matches the value you see in the DOI field.
+
+## Auto-register issue-level DOIs
+
+When **Auto-register issue-level DOIs** is enabled in the **Crossref settings**, Janeway will register the DOI that appears in the issue DOI field with Crossref. This could be a manually entered DOI or an auto-generated one.
+
+The issue DOI is registered when the first article in the issue has its article DOI minted (for more information see: [Crossref article DOIs](./crossref-article-doi.md)). The issue DOI is included in the article's XML metadata sent to Crossref, and no separate action is required to register it.
 
 > [!TIP]
 > If you are migrating a Janeway installation from a version that did not
@@ -47,6 +42,4 @@ This pattern is used only if an issue DOI has not been entered manually.
 
 > [!WARNING]
 > When an article is part of two or more issues, only the primary issue
-> DOI will be registered with Crossref. In a future version, it will be
-> possible to register issue DOIs on their own, even when they have no
-> articles or all its articles are part of multiple issues.
+> DOI will be registered with Crossref.

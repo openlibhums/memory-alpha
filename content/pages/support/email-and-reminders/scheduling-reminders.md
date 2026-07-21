@@ -72,7 +72,7 @@ Once a reminder has been created, it is processed automatically by a scheduled b
 This task checks for review and revision assignments that match the reminder criteria and sends emails when appropriate.
 
 > [!IMPORTANT]  
-> Reminders will not be sent for review or revision requests where the reminder date has already passed at the time the task runs. <!-- dev check: did I phrase this right? I tried to rephrase it to be more accessible for non-tech users, but I do need/want to ensure I havent mangled it in the process.-->
+> Reminders are not sent if the reminder date has already passed. This means it is possible to accidentally create a reminder that never sends. To avoid this, set reminders for tomorrow or later.
 
 > [!TIP]
-> If automated reminders are not being sent, the most likely cause is that the scheduled background task (cron job) has not been set up correctly. You should contact your administrator, who can set up the call to the send_reminders management command.
+> If automated reminders are not being sent, the most likely cause is that the scheduled background task (cron job) has not been set up correctly. You should contact your administrator, who can set up the call to the `send_reminders` management command.

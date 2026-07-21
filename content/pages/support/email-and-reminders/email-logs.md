@@ -29,8 +29,8 @@ Each entry in the log records an action that has taken place on the article. The
 - Date
 - Actor  
    The user or system process that initiated the action.
-- Level
-<!-- what does this mean??-->
+- Level  
+  A category that admininstrators use to group logs into reports when working on the server. For emails, the level is always “Info”, and it can be safely ignored when looking at a particular log.
 
 If the logged action relates to an email, additional details are available:
 
@@ -64,8 +64,10 @@ The following statuses can appear:
    The email has been accepted by the email service for delivery.
 - Delivered  
    The email has been delivered to the recipient's mail server.
-- Failed <!-- check with dev-->  
+- Failed  
    The email could not be delivered.
+
+Emails can fail to be delivered for a variety of reasons. There might be a typo in the email address, the recipient’s mailbox might be full, the email service provider might not be operational, or the recipient might have marked emails from the sender as spam.
 
 > [!NOTE]
 > Seeing "No information" under email status does not necessarily mean an email was not sent.

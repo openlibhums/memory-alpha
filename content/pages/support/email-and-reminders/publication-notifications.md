@@ -37,4 +37,6 @@ Publication notifications are sent as a daily email digest:
 - If no articles are published on a particular day, no notification is sent.
 - Emails are sent using BCC, so recipients do not see other subscribers' email addresses.
 
-<!--Are notifications logged in any logs?-->
+Reader notifications are logged in Janeway, but they are not associated with the respective articles, so they do not show up in an article’s logs.
+
+Users with access to the admin area can view reader notification logs by selecting the appropriate journal as the log target and “Publication Notification” as the log type.
