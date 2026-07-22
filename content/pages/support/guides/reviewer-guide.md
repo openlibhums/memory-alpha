@@ -18,11 +18,11 @@ If you log into Janeway as a reviewer, you will see the **Reviewer** section on 
 
 If you have any other roles within a journal (e.g. author, editor), you will also see sections for these on your dashboard.
 
-![Reviewer Dashboard block](../../support/images/workflow/reviewer-block.png)
+![Reviewer Dashboard block](../images/workflow/reviewer-block.png)
 
 Click **View requests** to be taken to the Review Requests page. On this page, you can see more information about the review (title, abstract, keywords, etc.) and either accept or decline the task.
 
-![The two columns on the 'Review Requests' page ('Awaiting initial decision' and 'Reviews in progress'). There is a task in the left column that is awaiting a decision. The task block (or card) displays the title, due date and editor initials. It also contains three buttons: 'View Detail', 'Accept Task' and 'Decline Task'.)](../../support/images/workflow/reviewer-kanban.png)
+![The two columns on the 'Review Requests' page ('Awaiting initial decision' and 'Reviews in progress'). There is a task in the left column that is awaiting a decision. The task block (or card) displays the title, due date and editor initials. It also contains three buttons: 'View Detail', 'Accept Task' and 'Decline Task'.)](../images/workflow/reviewer-kanban.png)
 
 ## Review request
 
@@ -41,7 +41,7 @@ This section displays information on how the editor would like you to undertake 
 
 At the bottom of this block, you will find another option to accept or decline this review task. If you initially accepted the task but are no longer available, decline it here so that it can be offered to someone else. If you opt to decline to review, you will be asked if you can suggest other suitable reviewers. This is optional, but highly encouraged.
 
-![The 'Review Request' page, displaying the 'General Review Guidelines' section. The review guidelines, information for the form and accept/decline elements are visible.](../support/images/workflow/reviewer-review-request.png)
+![The 'Review Request' page, displaying the 'General Review Guidelines' section. The review guidelines, information for the form and accept/decline elements are visible.](../images/workflow/reviewer-review-request.png)
 
 ### Review files
 

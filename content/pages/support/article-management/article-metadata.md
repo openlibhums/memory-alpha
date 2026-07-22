@@ -1,6 +1,6 @@
 # Article metadata
 
-There are several ways to access and edit an article's metadata in Janeway, depending on whether the article has been published. For more general information on metadata, see: [Metadata on Janeway](../article-management/article-metadata.md).
+There are several ways to access and edit an article's metadata in Janeway, depending on whether the article has been published. For more general information on metadata, see: [Metadata on Janeway](../guides/metadata-on-janeway.md).
 
 ## Finding article metadata
 
@@ -74,7 +74,7 @@ See also: [Identifiers](../identifiers/index.md).
 
 ## ROR
 
-Affiliation metadata in Janeway is managed using the [Research Organization Registry](https://ror.org/). ROR assigns persistent identifiers to organizations, similar to how DOIs identify articles, ORCIDs identify people, and ISBNs identify books. This allows multiple names to be associated with a single organization, making discovery and display easier and enabling linked open data. To read more about ROR (and CRediT) on Janeway, see [Metadata on Janeway](../article-management/article-metadata.md).
+Affiliation metadata in Janeway is managed using the [Research Organization Registry](https://ror.org/). ROR assigns persistent identifiers to organizations, similar to how DOIs identify articles, ORCIDs identify people, and ISBNs identify books. This allows multiple names to be associated with a single organization, making discovery and display easier and enabling linked open data. To read more about ROR (and CRediT) on Janeway, see [Metadata on Janeway](../guides/metadata-on-janeway.md).
 
 ## Google Scholar
 

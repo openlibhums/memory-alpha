@@ -11,14 +11,11 @@ Janeway supports minting Digital Object Identifiers (DOIs) for articles and issu
 
 ## Google Scholar
 
-- Google Scholar indexing is automatic; they use a webcrawler that looks for relevant materials (articles, monographs, preprints, reports, etc). It takes some time for new journals to appear on Google Scholar and for changes to existing content to show. [Google Scholar advises](https://scholar.google.com/intl/en/scholar/inclusion.html#troubleshooting) it may take 6-9 months for changes to appear.
+Google Scholar indexing is automatic; they use a webcrawler that looks for relevant materials (articles, monographs, preprints, reports, etc). It takes some time for new journals to appear on Google Scholar and for changes to existing content to show. [Google Scholar advises](https://scholar.google.com/intl/en/scholar/inclusion.html#troubleshooting) it may take 6-9 months for changes to appear.
 
-- If your journal is not properly indexed:
-- Contact support, we work with them to make sure all journals are captured
-- Metadata issues
-  - Gotta compare galleys against meta-tags in the HTML.
+If your journal is not properly indexed contact your system administrator or Janeway support.
 
-[Google Scholar documentation.](https://scholar.google.com/intl/en/scholar/inclusion.html#overview)
+If you experience issues with the metadata, the first step is to compare the galleys against the meta-tags in the HTML for any mismatches.
 
 <!-- To-do
 ## OAI-PMH

@@ -1,6 +1,7 @@
 # Books plugin
 
-[GitHub Repo](https://github.com/openlibhums/books)
+Status: active
+[GitHub repository](https://github.com/openlibhums/books)
 
 Through this plugin, all book-related tasks and metadata are managed.
 This plugin has three key functionalities:
@@ -91,7 +92,7 @@ When adding a new category, the following fields are available:
 New monographs are added by clicking **Add new book**, which is
 positioned rightmost in the topbar of the main dashboard.
 
-<![The 'Add a new book' page. On the left, the book details can be filled into various text boxes. On the right are sections for 'Contributors', 'Formats' and 'Chapters'. These are currently blocked, which is indicated for each of them with a red bar and the text “Save book before adding contributors/formats/chapters”.](../images/books-addbook-dashboard.png)
+![The 'Add a new book' page. On the left, the book details can be filled into various text boxes. On the right are sections for 'Contributors', 'Formats' and 'Chapters'. These are currently blocked, which is indicated for each of them with a red bar and the text “Save book before adding contributors/formats/chapters”.](../images/books-addbook-dashboard.png)
 
 Before the manuscript files can be uploaded, various metadata fields
 need to be completed first, displayed on the left-hand side of the page
@@ -145,7 +146,7 @@ This section contains the following fields:
 - Cover
 
 - DOI  
-   DOIs for monographs and chapters cannot be minted directly
+  DOIs for monographs and chapters cannot be minted directly
   through Janeway, but if a DOI has been chosen, it can be added
   here. To mint a DOI for a monograph or chapter after it has been
   uploaded, you can do so through the [Crossref

@@ -1,5 +1,8 @@
 # Isolinear (preprints)
 
+Status: Active
+[GitHub repository](https://github.com/openlibhums/isolinear)
+
 Isolinear is a plugin for Janeway that integrates the preprint workflow into the journal workflow.
 See also: [Repository documentation](../repository/index.md).
 

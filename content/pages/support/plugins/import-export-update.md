@@ -17,17 +17,17 @@ typesetting, or prepublication).
 1.  Download a copy of the [metadata template](../downloadables/metadata-template.csv) and open it up to edit it.
     You can use most spreadsheet applications, but make sure you will be
     able to save it as a CSV with UTF-8 character encoding.[^1]
-2.  Enter the metadata, one article per row. See the [Metadata Field
-    Reference](#metadata-field-reference) and the [sample
+2.  Enter the metadata, one article per row. See the [Metadata field
+    reference](#metadata-field-reference) and the [sample
     import](../downloadables/sample-import.csv) for pointers. For multi-author
     articles, insert a new row for each author, and only fill in the
     author fields on extra rows.
 3.  Save the file with a name of your choosing.
-4.  From the journal's dashboard, navigate to **All Articles** under
+4.  From the journal's dashboard, navigate to **All articles** under
     **Staff** in the lower left. You need to have 'staff' access to view
-    this page. (The tool also appears as **Article Import, Export,
-    Update** in the Imports plugin start page.)
-5.  Select **Upload Update** and upload your file. (It says 'update',
+    this page. (The tool also appears as **Article import, export,
+    update** in the Imports plugin start page.)
+5.  Select **Upload update** and upload your file. (It says 'update',
     but this is how you import new things too.)
 6.  A table will load in your browser showing you the data, before you
     import it. If everything looks good, select **Import**.
@@ -56,7 +56,7 @@ that stage.
 1.  From the journal's dashboard, navigate to **All articles** under
     **Staff** in the lower left. You need to have 'staff' access to view
     this page.
-2.  Use the **Filter by Stage** drop-down menu to choose a set of
+2.  Use the **Filter by stage** drop-down menu to choose a set of
     articles you want to export.
 3.  If you want to download associated files, use the **Files** column
     to add files for each article.
@@ -84,7 +84,7 @@ have to click through each individual article to make the change.
 3.  Edit the metadata as desired. You an rearrange the columns but the
     column names have to stay exactly the same. See the [sample update](../downloadables/sample-update.csv), which shows changes made to the
     data in [sample import](../downloadables/sample-import.csv). See also the
-    [Metadata Field Reference](#metadata-field-reference) for details on
+    [Metadata field reference](#metadata-field-reference) for details on
     each field.
 4.  Save the CSV file with a name of your choosing.
 5.  On the **All articles** page, select **Upload update** and upload
@@ -101,7 +101,7 @@ article IDs, because Janeway assigns them for you to make sure they're
 unique. But you can (must) use article IDs during the update process, so
 Janeway can recognize the articles.
 
-Much the same, while you can put something in Stage to send the content
+Much the same, while you can put something in **Stage** to send the content
 to the right part of Janeway on initial import, you can't subsequently
 _update_ the workflow stage for articles already in the system, because
 it might break editor or author tasks in progress.
@@ -112,6 +112,8 @@ example, when you're importing new articles, you have to provide article
 titles. You also have to provide article titles when you are updating
 articles, even if you're not updating the titles but something else,
 like the keywords.
+
+If an article has multiple authors, rows for additional authors after the first only contain author data - no article metadata. See the [sample import](../downloadables/sample-import.csv) for an example.
 
 | Field                     | Notes                               | Import         | Export | Update                                |
 | ------------------------- | ----------------------------------- | -------------- | ------ | ------------------------------------- |
@@ -134,7 +136,7 @@ like the keywords.
 | Author department         | \_                                  | yes, optional  | yes    | yes, optional, saves empty values     |
 | Author biography          | \_                                  | yes, optional  | yes    | yes, optional, saves empty values     |
 | Author is primary (Y/N)   | Y or N[^8]                          | yes, optional  | yes    | yes, optional, saves empty values     |
-| Author is corporate (Y/N) | i.e. an organization                | yes, optional  | yes    | no, will make duplicates              |
+| Author is corporate (Y/N) | i.e. if the author is an organization                | yes, optional  | yes    | no, will make duplicates              |
 | DOI                       | starting with '10'                  | yes, optional  | yes    | yes, optional, ignores empty values   |
 | DOI (URL form)            | starting with 'https'               | no, ignored    | yes    | no, ignored                           |
 | Date accepted             | YYYY-MM-DD (or any ISO 8601[^9])    | yes, optional  | yes    | yes, optional, saves empty values     |

@@ -1,5 +1,6 @@
 # Consortial billing plugin
 
+Status: Active
 [GitHub Repo](https://github.com/openlibhums/consortial_billing)
 
 This plugin is also known as the **Supporters plugin**.

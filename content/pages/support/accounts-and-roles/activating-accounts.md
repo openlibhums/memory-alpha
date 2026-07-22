@@ -67,9 +67,3 @@ From version 1.8 onwards, inactive review accounts are also visible in the edito
 Usually the reason accounts are not active is because activation is off by default, and the user has to activate with the email link, or through another mechanism like ORCID or OIDC, where Janeway can be confident the email address is correct.
 
 There is one scenario in which the system changes previously active accounts to inactive: if the user starts the email change process, the system marks the account inactive and requires activation via email link, so we can be sure the email doesn’t contain typos.
-
-## Authenticated users
-
-The **Authenticated users** page shows a list of users currently logged in to your Janeway installation.
-
-This page is only accessible to users with staff permission.

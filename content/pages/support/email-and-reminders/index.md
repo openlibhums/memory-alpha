@@ -27,13 +27,13 @@ The pages to control these are found through the **Manager dashboard**, under **
 ## Common questions
 
 - _“A reviewer says they didn't get the email — what should I do?”_  
-   Start with Email logs to confirm whether the email was sent and, if necessary, resend it.
+   Start with email logs to confirm whether the email was sent and, if necessary, resend it. See [Email logs](./email-logs.md) for more information.
 
 - _“I want to change the wording of reminder emails.”_  
    Edit the relevant template under [Email templates](./email-templates.md). Use information in [Email template variables](./email-template-variables.md) to insert information safely.
 
 - _“Why didn't a reminder email send?”_  
-   Check Scheduling reminders and confirm that due dates were set correctly. If reminders still do not send, contact your system administrator.
+   Check cheduling reminders and confirm that due dates were set correctly. If reminders still do not send, contact your system administrator. See[Scheduling reminders](./scheduling-reminders.md) for more information.
 
 - _“Can readers (un)subscribe to/from publication notifications?”_  
    Yes. Readers manage their notification preferences via their profile page. See [Publication notifications](./publication-notifications.md) for more information.

@@ -35,7 +35,7 @@ After selecting an article, you will be taken to the typesetting page. This page
 
   !["The typesetting page with the Actions block highlighted."](../images/workflow/editor-typesetting-actions.png)
 
-You can see the typesetter's view and their experience of the workflow in the [typesetter guide](./editor-guide-to-typesetting.md).
+You can see the typesetter's view and their experience of the workflow in the [typesetter guide](./typesetter-guide.md).
 
 ## Typesetting files
 
@@ -224,6 +224,6 @@ Janeway's XSL Transformation process uses a version-controlled XSL (Extensible S
 
 ## Typesetting guidelines setting
 
-The typsetting guidelines shown to the typesetters can be edited through the **Typesetting guideliness** setting. This setting can be found through **All settings** on the Manager dashboard.
+The typsetting guidelines shown to the typesetters can be edited through the **Typesetting guidelines** setting. This setting can be found through **All settings** on the Manager dashboard.
 
 ![" "](../images/typesetting-guidelines.png)
