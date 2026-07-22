@@ -1,6 +1,7 @@
 # DataCite plugin
 
-[GitHub Repo](https://github.com/openlibhums/datacite)
+Status: Active
+[GitHub repository](https://github.com/openlibhums/datacite)
 
 The DataCite plugin is an alternative to Janeway's built-in Crossref support. It registers Digital Object Identifiers (DOIs) with [DataCite](https://datacite.org/) rather than Crossref, and it manages the deposit for you. DOIs are stored on the same identifier record as with Crossref DOIs, so the rest of Janeway treats a DataCite DOI the same way it treats any other DOI.
 

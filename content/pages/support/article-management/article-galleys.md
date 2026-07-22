@@ -30,7 +30,7 @@ Galleys can be previewed as a part of the typesetting stage. They will be listed
 
 ## Editing galleys
 
-There are various ways to edit galleys, depending on your workflow and which galley types you are using. If you are working with multiple galley types, you may need to make changes to multiple files to ensure consistency across galleys. If you are editing metadata, you will also need to check if the data within Janeway matches the galley. A mismatch can have impact on the archiving and preservation of content by services such as [Portico]() and/or [(C)LOCKSS]().
+There are various ways to edit galleys, depending on your workflow and which galley types you are using. If you are working with multiple galley types, you may need to make changes to multiple files to ensure consistency across galleys. If you are editing metadata, you will also need to check if the data within Janeway matches the galley. A mismatch can have impact on the archiving and preservation of content by services such as [Portico](https://www.portico.org/) and/or [(C)LOCKSS](https://clockss.org/).
 
 > [!WARNING]
 > Editing a galley will change how it is displayed. If making changes to a published piece, it is recommended to add a publisher note alongside it explaining the change and the reason for it.
@@ -41,11 +41,11 @@ If you wish to make changes to an XML galley, you can either send it (back) to t
 
 If you are editing JATS-XML yourself, there are things to be cautious with:
 
-- Delete or modify tag names unless you are certain of the JATS structure.
-- Remove paired tags (opening without closing, or vice versa).
-- Change the hierarchical structure of elements.
-- Edit special characters or entities (like `&lt;` for `<` or `&amp;` for `&`) unless you understand character encoding.
-- Make structural changes (like adding new sections or figures).
+- Don't delete or modify tag names unless you are certain of the JATS structure.
+- Don't remove paired tags (opening without closing, or vice versa).
+- Avoid change the hierarchical structure of elements.
+- Don't edit special characters or entities (like `&lt;` for `<` or `&amp;` for `&`) unless you understand character encoding.
+- Avoid making structural changes (like adding new sections or figures).
 
 It is recommended to consult your typesetter for the following types of changes to an XML file:
 

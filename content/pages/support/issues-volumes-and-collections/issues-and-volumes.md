@@ -92,10 +92,11 @@ In this section, you can add articles to or remove articles from the issue, sort
 
 For each section, there are arrow icons that allow you to move the section up and down; each of the articles can be dragged and dropped into order from inside their section.
 
-![Issue table of contents](../images/issue-table of contents.png)
+![Issue table of contents](../images/issue-table-of-contents.png)
 
 You can drop an article from an issue by clicking <img src="../../support/images/unlink-icon.png" width="15" height="15"/>**Remove** and add new ones by clicking **Add article**.
-[" "](../images/issue-add-articles.png)
+
+![" "](../images/issue-add-articles.png)
 
 A list of all articles in the journal not already in the issue is displayed, and you can click the <img src="../../support/images/plus-icon.png" width="15" height="15"/> **Add** button to place it in the issue.
 

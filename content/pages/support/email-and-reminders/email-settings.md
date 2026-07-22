@@ -17,7 +17,7 @@ The from-address should be one the server can send emails properly; it should ma
 This setting can be found under **Article display** settings on the Manager dashboard or by searching for it in **All settings**.
 If this setting is enabled (the box is ticked), the article page will not display links to email correspondence authors.
 
-### Auto signature
+## Auto signature
 
 This setting can be found under **General** settings on the Manager dashboard or by searching for it in **All settings**.
 This setting sets up the email signature for automatic emails send from the system.

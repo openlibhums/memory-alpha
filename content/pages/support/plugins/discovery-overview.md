@@ -4,8 +4,8 @@
 - KBART
 - FTP
 
-- DataCite (active) - Need to be its own page.
-  - [GitHub Repo](https://github.com/openlibhums/datacite)
+- DataCite (active)
+  - [GitHub repository](https://github.com/openlibhums/datacite)
   - Allows staff to mint Datacite DOIs.
   - Works the same as CrossRef DOI. Username and poassword through API.
   - Different from CrossRef: creates a draft DOI at acceptance. Exists on the server but istn available publicly, allows you to check before publication.
@@ -16,11 +16,11 @@
   - This is a plugin for Janeway that allows exporting of journal and article metadata to DOAJ.
 
 - ScienceOpen (beta release)
-  - [GitHub Repo](https://github.com/openlibhums/so_transporter)
+  - [GitHub repository](https://github.com/openlibhums/so_transporter)
 
 - EBSCO (beta release)
   - An FTP plugin for depositing works with EBSCO.
-  - [GitHub Repo](https://github.com/openlibhums/ebsco_transporter)
+  - [GitHub repository](https://github.com/openlibhums/ebsco_transporter)
 
 See also: [FTP plugin](). <!-- Missing hyperlink -->
 

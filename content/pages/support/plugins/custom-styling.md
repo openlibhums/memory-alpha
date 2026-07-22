@@ -1,8 +1,9 @@
 # Custom styling
 
-A Janeway plugin that allows a staff member to add custom CSS directives to a journal or press site, giving the user control over the styling of each site.
+Status: Active
+[GitHub repository](https://github.com/openlibhums/customstyling)
 
-[GitHub Repo](https://github.com/openlibhums/customstyling)
+This is a Janeway plugin that allows a staff member to add custom CSS directives to a journal or press site, giving the user control over the styling of each site.
 
 ## CSS variables
 

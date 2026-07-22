@@ -1,32 +1,33 @@
 # Imports
 
-[GitHub Repo](https://github.com/openlibhums/imports)
+Status: Active
+[GitHub repository](https://github.com/openlibhums/imports)
 
 > [!WARNING]
 > Users in the European Union should ensure that the data they are
 > importing is done so in line with the General Data Protection
 > Regulation.
 
-The Imports Plugin contains several toolsets for getting content into
+The Imports plugin contains several toolsets for getting content into
 and out of Janeway. The main one for publishers using Janeway is the
 **Import / Export / Update** toolset.
 
 ## Features
 
-- [Import, Export, Update](import-export-update)
+- [Import, export, update](./import-export-update.md)
   - Importing
   - Exporting
   - Updating
-  - Metadata Field Reference
-  - Custom Submission Fields
-- [Editorial Team Import](editorial-team-import)
-- [Reviewer Import](reviewer-import)
-- [Article Review Import](peer-review-import)
-  - Metadata Field Reference
-- [Editors Import](editor-import)
-- [Contact Import](contact-import)
-- [Copyright, Submission, Publication Fees & Reviewer Guidelines Import](copyright-submission-publication-reviewer)
-- [Article Images Import](article-images)
-  - Metadata Field Reference
-- [JATS Import](jats-import)
-- [Wordpress Import](wordpress)
+  - Metadata field reference
+  - Custom submission fields
+- [Editorial team import](./imports-editorial-team.md)
+- [Reviewer import](./imports-reviewers.md)
+- [Article review import](./imports-peer-review.md)
+  - Metadata field reference
+- [Editors import](./imports-editor.md)
+- [Contact import](./imports-contacts.md)
+- [Copyright, submission, publication fees & reviewer guidelines import](./imports-submission-settings.md)
+- [Article images import](./imports-article-images.md)
+  - Metadata field reference
+- [JATS import](./imports-jats.md)
+- [Wordpress import](./imports-wordpress.md)

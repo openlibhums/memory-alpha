@@ -100,22 +100,11 @@ To add more authors to a submission, you can either search the journal's author 
     - Last name
     - Email address
 
-This will not create a new account for the additional author(s), it will only create an author record with no account attached. If they wish to login and check the article's progress, they can create an account with the same email address that was used on the author record (submission). Either the submitting author or an editor can then link the account to the author record.
-
 !["The page where someone can manually add an author to the submission and enter their details."](../images/workflow/author-submission-author-manual.png)
 
+This will not create a new account for the additional author(s), it will only create an author record with no account attached. If they wish to login and check the article's progress, they can create an account with the same email address that was used on the author record (submission). Either the submitting author or an editor can then link the account to the author record.
+
 If the search of the journal's author list or ORCID search are successful, author details will be added automatically. You can still make edits, by clicking on **Edit author details**. When an author already has an account with the journal or another journal under the press, this submission will be linked to their existing record.
-
-- Adding authors through **Add author manually**
-  - The **Add author manually** button lets you create a new author record for authors if they do not already have one.
-  - The following fields are mandatory in Janeway:
-    - First name
-    - Last name
-    - Email address
-
-    ![" "](../images/workflow/author-submission-author-manual.png)
-
-This will not create a new account for the additionaly author(s), it will only create an author record with no account attached. If they wish to login and check the article's progress, they can create an account with the same email address that was used on the author record (submission). Either the submitting author or an editor can then link the account to the author record.
 
 To change the correspondence author, another author with a pre-existing (confirmed) account needs to be added. If no other co-authors have an account, the submitting author is required to remain the correspondence author.
 

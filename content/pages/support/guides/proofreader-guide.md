@@ -1,90 +1,46 @@
 # Proofreader guide
 
-<!-- new version of this is available, just need to copyedit it atm-->
+As a proofreader you may be assigned proofing tasks for a paper. These will be assigned after a paper has gone through a round of typesetting. When a new assignment is made you will receive and email and be able to see the requests from the journal dashboard, they will be displayed as part of the typesetting block.
 
-As a proofreader you may be assigned proofing tasks for a paper. When a
-new assignment is made you will receive and email and be able to see the
-requests from the journal dashboard. The list of potential proofreaders
-for a paper is made up of:
+The following users can be assigned as proofreaders:
 
 - Authors of the paper
 - Editors
 - Users with the Proofreader role
 
-From the dashboard you will be able to see a list of New, In Progress
-and Completed proofing requests. Once you have accepted a new task you
-can use the View button to begin proofing.
+![ The typesetting block on the dashboard. It displays typesetting and proofreading tasks.](../images/workflow/typesetting-proofreading-tasks.png)
 
-<figure>
-<img src="../nstatic/proofing-requests.png"
- />
-<figcaption>A proofing task that has been accepted</figcaption>
-</figure>
+## Proofreading assignments
 
-<div class="tip">
+On the proofreading overview page, you will see tasks in progress and completed tasks. Click **View assignment** to open a proofreading assignment.
 
-<div class="title">
+![A screenshot of the Proofreading assignments page, showing two blocks of Your proofreading assignments. The top one is open assignments and has a View assignment clickable text on the right. The bottom one is completed assignments and has a column for Completed with a date.](../images/workflow/proofing-assignments.png)
 
-Tip
+The proofreading page is broken down into three sections:
 
-</div>
+### Task definition  
 
-Hover over the initials/pictures to see the names and roles of those
-involved in the paper. PM means Proofing Manager
+This is a note written by an editor when the proofing task is created. This often includes instructions / guidance.
 
-</div>
+<!-- Joe, I know this is a section with a line, but the other sections are too long for a bullet point in a list. And I dont want to mix up the formatting?-->
 
-## Proofing task
+### Files for proofreading
 
-The proofing task page is broken down into three sections
+This section lists the files for proofreading (galleys) that have been assigned to you.
+Common galley types are: PDF, HTML and XML.
 
-- Task Definition
-- Galleys
-- File Upload
+Janeway has a **Preview** button that opens a preview on a separate browser window. You can leave comments in the textbox in the notes section., you do not need to annotate the galleys directly. Make sure to click **Save notes** after filling in this section.
 
-<figure>
-<img src="../nstatic/proofing-page.png"
- />
-<figcaption>A proofing task that has been accepted</figcaption>
-</figure>
+![" "](../images/workflow/proofing-task.png)
 
-### Task definition
+> [!NOTE]
+> It is unusual to see both XML and HTML files for proofing, as XML itself is a source from which HTML is generated (thus not requiring a seperate HTML file). What filetypes are available will depend on your publisher.
 
-The task definition is a note written by the Proofing Manager when they
-create the proofing task.
 
-### Galleys
+### Annotated files upload
 
-This section lists the galleys that the proofing manager has assigned
-you. Common galley types are:
+If you do wish to annotate a file or share a document with notes, you can upload it using this section. It is generally recommended not to directly annotate XML/HTML as this may complicate the process, but your publisher will likely have provided instructions in the task definition.
 
-- PDF
-- HTML
-- XML
+## Completing proofreading
 
-For HTML and XML galleys Janeway has a **Preview** button that will render
-the galley into a viewable block so you don't need to understand the
-underlying markup to proof them.
-
-Each of the galleys has an accordian-type drop-down so if you click on
-its name you will see a new section appear with more information.
-
-<figure>
-<img src="../nstatic/proofing-galleys.png"
- />
-<figcaption>An XML galley expanded</figcaption>
-</figure>
-
-You now have the option to **Download** or **View** the galley, this will open
-in a new tab in your browser. You can then use the notes box to write
-notes on the galley file.
-
-> [!TIP]
-> You can write as many notes as you like, press **Save Note** to create a new
-> one and the box will reset.
-
-In addition, you can download and annotate the galley documents and then
-upload them again if you require.
-
-When you have proofed _all_ of the galley files you can mark the task as
-complete, it will be moved to the completed task list.
+When you are done with your proofreading task, you can mark the task as complete by clicking **Mark task as complete**. You will not be able to return to this page after it has been marked as complete. If you have not opened one or multiple of the proofreading files, Janeway will give you a warning.

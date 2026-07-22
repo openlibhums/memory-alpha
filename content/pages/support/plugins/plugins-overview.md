@@ -16,7 +16,7 @@ This plugin imports previously published content into Janeway without going thro
 
 ## BePress migration
 
-This plugin imports content from [BePress] (https://bepress.com/) into Janeway. It is used for migrations between platforms.
+This plugin imports content from [BePress](https://bepress.com/) into Janeway. It is used for migrations between platforms.
 
 ## Books / Multimedia
 
@@ -112,5 +112,3 @@ This plugin enables the Disqus discussion platform for journal. It is used to ad
 
 > [!NOTE]
 > DisQus is not GDPR compliant. If you require GDPR compliancy, it is recommended to consider Hypothes.is instead.
-
-<!--> DisQus may not be GDPR compliant -> internal comment system? It might be time to retire this plugin. -->
