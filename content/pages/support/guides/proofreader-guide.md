@@ -22,8 +22,6 @@ The proofreading page is broken down into three sections:
 
 This is a note written by an editor when the proofing task is created. This often includes instructions / guidance.
 
-<!-- Joe, I know this is a section with a line, but the other sections are too long for a bullet point in a list. And I dont want to mix up the formatting?-->
-
 ### Files for proofreading
 
 This section lists the files for proofreading (galleys) that have been assigned to you.
