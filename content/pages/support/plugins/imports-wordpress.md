@@ -2,7 +2,7 @@
 
 This import tool allows you to import posts from a Wordpress site into a Janeway journal's news system.
 
->[!WARNING]
+> [!WARNING]
 > This importer is site specific. You should be accessing the import tool from the press or journal you want it import the posts into.
 
 To import Wordpress posts:

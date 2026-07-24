@@ -1,10 +1,8 @@
 # Article metrics
 
-This page provides information about how Janeway measures article reads and downloads, what kind of data is (not) logged, and how Janeway usage logging compares to COUNTER. 
+This page provides information about how Janeway measures article reads and downloads, what kind of data is (not) logged, and how Janeway usage logging compares to COUNTER.
 
-## How Janeway measures access
-
-### Article access logs
+## Article access logs
 
 Most of the time, when an article is viewed or downloaded, Janeway records an **Article access** log. These logs are the basis of data in the Reporting plugin.
 
@@ -14,7 +12,7 @@ Logs include a few non-personal details of the action:
 - What type of galley is provided
 - What country the user is accessing from
 
-#### Article views by type
+### Article views by type
 
 Here are the most common ways an article is viewed.
 
@@ -27,7 +25,7 @@ Here are the most common ways an article is viewed.
 - PDF  
   A view of a PDF loaded in the user’s browser or other window (depending on user preferences outside of Janeway), after they’ve clicked **View PDF** on the article webpage. This link only appears if the journal has ticked **View pdf button** on the **Article settings** page.
 
-#### Article downloads by type
+### Article downloads by type
 
 Here are the most common ways an article is downloaded.
 
@@ -49,7 +47,7 @@ Other less common galley types are possible. If any of these are uploaded, new l
 - Other
 - Image
 
-#### Events that are not logged
+### Events that are not logged
 
 There are some interactions with article content that are _not_ recorded as **Article access** logs.
 
@@ -59,7 +57,7 @@ There are some interactions with article content that are _not_ recorded as **Ar
 - In the citation section of article metadata, users can download metadata in RIS or BIB formats without triggering any article access log.
 - The APIs Janeway provides (JSON and OAI-XML), do not trigger article access logs unless one of the full-text article links is followed.
 
-#### Avoiding duplicate logs
+### Avoiding duplicate logs
 
 If a user refreshes a page or clicks on a download link again soon after their first visit, Janeway does not record another access. For most users, the time frame for not counting duplicates is two weeks, because Janeway can recognize their browser session by using a safe cookie. If an article is visited in such a way that only the IP address can be checked, the time frame is one hour.
 
@@ -70,7 +68,7 @@ Similarly, if a user accesses an article on multiple devices, such as their lapt
 > [!NOTE]
 > Janeway needs to use IP addresses to make sure double-clicks or page refreshes are not recorded as new events, but we do not store original IP addresses, only fingerprints (hashes) that cannot be used to recover the original.
 
-#### Filtering out bad traffic
+### Filtering out bad traffic
 
 It is up to server administrators who install and run Janeway to make sure that the installation is not bogged down with exploitative traffic from bots and scrapers. This is because the most effective solutions sit outside Janeway and filter out bad actors before they reach the application layer.
 
@@ -79,13 +77,13 @@ With OLH-managed installations, we currently use two methods:
 - Since 2025, after a sharp rise in extractive LLM-related traffic, we are trialling using a web firewall utility like Anubis, which poses an algorithmic challenge that makes it computationally expensive for most extractive crawlers to continue. Recognized traditional search and archive indexers like Google Scholar, Crossref, Web of Science, EBSCO, and Proquest are able to pass through this firewall. Other indexers like DOAJ receive content by direct deposit and so are not affected.
 - We limit the rate of lots of traffic that comes in rapid succession from the same actor.
 
-### COUNTER and Janeway
+## COUNTER and Janeway
 
 Janeway does not yet fully support [COUNTER](https://www.countermetrics.org/), a global standard for usage metrics.
 
 The only current COUNTER metric Janeway could potentially provide is the total global usage per item, journal, or press. This information is available through the [Reporting plugin](reporting.md).
 
-#### COUNTER’s focus on institutional metrics
+### COUNTER’s focus on institutional metrics
 
 COUNTER has historically been focused on showing usage attributable to a particular institution, so that the institution’s subscription cost for paywalled content can be justified. This is why some of the most widely used COUNTER reports omit “Open” and “Free to read” content.
 
@@ -93,7 +91,7 @@ There are some reports that include “Open” and “Free to read” content, b
 
 As a diamond open-access platform, Janeway does not track readers’ institutions. Readers are not required to log into anything, and we avoid making inferences about IP addresses. As a result, we would not be able to provide institution data in any COUNTER reports, were we to implement the standard. This is one of the main reasons we have not yet implemented COUNTER.
 
-#### Comparison to COUNTER usage data processing rules
+### Comparison to COUNTER usage data processing rules
 
 Janeway and COUNTER have some of the same methods for processing usage data. These include rules around HTTP status codes, filtering double-clicks, and counting unique items (articles) and titles (journals).
 

@@ -18,7 +18,7 @@ On the proofreading overview page, you will see tasks in progress and completed 
 
 The proofreading page is broken down into three sections:
 
-### Task definition  
+### Task definition
 
 This is a note written by an editor when the proofing task is created. This often includes instructions / guidance.
 
@@ -33,7 +33,6 @@ Janeway has a **Preview** button that opens a preview on a separate browser wind
 
 > [!NOTE]
 > It is unusual to see both XML and HTML files for proofing, as XML itself is a source from which HTML is generated (thus not requiring a seperate HTML file). What filetypes are available will depend on your publisher.
-
 
 ### Annotated files upload
 

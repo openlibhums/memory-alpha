@@ -33,7 +33,7 @@ The pages to control these are found through the **Manager dashboard**, under **
    Edit the relevant template under [Email templates](./email-templates.md). Use information in [Email template variables](./email-template-variables.md) to insert information safely.
 
 - _“Why didn't a reminder email send?”_  
-   Check cheduling reminders and confirm that due dates were set correctly. If reminders still do not send, contact your system administrator. See[Scheduling reminders](./scheduling-reminders.md) for more information.
+   Check scheduling reminders and confirm that due dates were set correctly. If reminders still do not send, contact your system administrator. See[Scheduling reminders](./scheduling-reminders.md) for more information.
 
 - _“Can readers (un)subscribe to/from publication notifications?”_  
    Yes. Readers manage their notification preferences via their profile page. See [Publication notifications](./publication-notifications.md) for more information.

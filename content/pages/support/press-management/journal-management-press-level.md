@@ -24,7 +24,7 @@ The **Press manager** dashboard gives an overview of all journals on the press, 
 
 ### Add new journal
 
-*Code is the only required one.
+\*Code is the only required one.
 If using domain mode, it can always be configured later.
 
 ## Journal settings at press level

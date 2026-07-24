@@ -43,7 +43,7 @@ If you are editing JATS-XML yourself, there are things to be cautious with:
 
 - Don't delete or modify tag names unless you are certain of the JATS structure.
 - Don't remove paired tags (opening without closing, or vice versa).
-- Avoid change the hierarchical structure of elements.
+- Avoid changing the hierarchical structure of elements.
 - Don't edit special characters or entities (like `&lt;` for `<` or `&amp;` for `&`) unless you understand character encoding.
 - Avoid making structural changes (like adding new sections or figures).
 
