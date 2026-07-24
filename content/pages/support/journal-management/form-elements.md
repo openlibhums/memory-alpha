@@ -20,7 +20,7 @@ Custom forms in Janeway have the following aspects to them:
 - Order  
    This determines the order of the elements on the form. This is expressed numerically, so “1” means that the element will be displayed first, “2” means that it will be displayed second, etc.
 
-   You also have the option to click and drag elements from the full form view to reorder them.
+  You also have the option to click and drag elements from the full form view to reorder them.
 
 - Help text  
    This text will display under the form element and can provide further guidance or information for authors.
@@ -42,15 +42,15 @@ A form element can be one of the following kinds:
 
   ![Example text area](../../support/images/element-text-area.png)
 
-- **Checkbox** 
-   This allows you to ask users to tick a box. These can be used to declare no competing interests or agree to terms and conditions.
+- **Checkbox**
+  This allows you to ask users to tick a box. These can be used to declare no competing interests or agree to terms and conditions.
 
   ![Example checkbox](../../support/images/element-check-box.png)
 
 - **Select (dropdown)**  
    This lets you provide a set of options to be displayed in a dropdown list, allowing users to select one.
 
-   To add these options, use the **Choices** field. The options must be separated by the bar (" | ") character. This will look like this: "choice 1|choice 2|choice 2".
+  To add these options, use the **Choices** field. The options must be separated by the bar (" | ") character. This will look like this: "choice 1|choice 2|choice 2".
 
   ![Example dropdown](../../support/images/element-select.png)
 

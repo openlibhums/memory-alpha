@@ -115,48 +115,48 @@ like the keywords.
 
 If an article has multiple authors, rows for additional authors after the first only contain author data - no article metadata. See the [sample import](../downloadables/sample-import.csv) for an example.
 
-| Field                     | Notes                               | Import         | Export | Update                                |
-| ------------------------- | ----------------------------------- | -------------- | ------ | ------------------------------------- |
-| Janeway ID                | controlled and assigned by Janeway  | no, will break | yes    | yes, required[^2]                     |
-| Article title             | incl. subtitle; use \<em\> for ital | yes, required  | yes    | yes, required                         |
-| Article abstract          | use \<em\> for italics              | yes, optional  | yes    | yes, optional, saves empty values     |
-| Keywords                  | separate keywords with commas       | yes, optional  | yes    | yes, optional, saves empty values     |
-| Rights                    | Rights statement (free text)        | yes, optional  | yes    | yes, optional, saves empty values     |
-| Licence                   | name of licence[^3]                 | yes, optional  | yes    | yes, optional, saves empty values     |
-| Language                  | name of language or ISO code[^4]    | yes, optional  | yes    | yes, optional, saves empty values     |
-| Peer reviewed (Y/N)       | Y or N                              | yes, optional  | yes    | yes, optional, saves empty values     |
-| Author salutation         | useful in templated emails          | yes, optional  | yes    | no, ignored                           |
-| Author given name         | a.k.a. first name                   | yes, optional  | yes    | yes, optional, saves empty values     |
-| Author middle name        | or middle initial                   | yes, optional  | yes    | yes, optional, saves empty values     |
-| Author surname            | a.k.a. last name or family name     | yes, optional  | yes    | yes, optional, saves empty values[^5] |
-| Author suffix             | e.g: 'Jr.' or 'III'                 | yes, optional  | yes    | yes, optional, saves empty values     |
-| Author email              | recommended[^6]                     | yes, optional  | yes    | complicated![^7]                      |
-| Author ORCID              | starting with 'https' or the number | yes, optional  | yes    | yes, optional, saves empty values     |
-| Author institution        | \_                                  | yes, optional  | yes    | yes, optional, saves empty values     |
-| Author department         | \_                                  | yes, optional  | yes    | yes, optional, saves empty values     |
-| Author biography          | \_                                  | yes, optional  | yes    | yes, optional, saves empty values     |
-| Author is primary (Y/N)   | Y or N[^8]                          | yes, optional  | yes    | yes, optional, saves empty values     |
-| Author is corporate (Y/N) | i.e. if the author is an organization                | yes, optional  | yes    | no, will make duplicates              |
-| DOI                       | starting with '10'                  | yes, optional  | yes    | yes, optional, ignores empty values   |
-| DOI (URL form)            | starting with 'https'               | no, ignored    | yes    | no, ignored                           |
-| Date accepted             | YYYY-MM-DD (or any ISO 8601[^9])    | yes, optional  | yes    | yes, optional, saves empty values     |
-| Date published            | YYYY-MM-DD (or any ISO 8601)        | yes, optional  | yes    | yes, optional, saves empty values     |
-| Article number            | integer (arbitrary / custom)        | yes, optional  | yes    | yes, optional, saves empty values     |
-| First page                | integer                             | yes, optional  | yes    | yes, optional, saves empty values     |
-| Last page                 | integer                             | yes, optional  | yes    | yes, optional, saves empty values     |
-| Page numbers (custom)     | Custom page range such as 'x–ix'    | yes, optional  | yes    | yes, optional, saves empty values     |
-| Competing interests       | \_                                  | yes, optional  | yes    | yes, optional, saves empty values     |
-| Article section           | e.g. 'Article', 'Review'            | yes, optional  | yes    | yes, optional, ignores empty values   |
-| Stage                     | the production workflow stage[^10]  | yes, optional  | yes    | no, ignored[^11]                      |
-| File import identifier    | for advanced users[^12]             | yes, optional  | yes    | yes, optional                         |
-| Journal code              | must match Janeway                  | yes, required  | yes    | yes, required                         |
-| Journal title override    | Override for this article[^13]      | yes, optional  | yes    | yes, optional                         |
-| ISSN override             | '0000-0000' for new journals[^14]   | yes, optional  | yes    | yes, optional                         |
-| Volume number             | '0' if not specified                | yes, optional  | yes    | no, ignored                           |
-| Issue number              | '0' if not specified                | yes, optional  | yes    | no, ignored                           |
-| Issue title               | e.g. 'Winter 2022'                  | yes, optional  | yes    | yes, optional, saves empty values     |
-| Issue pub date            | YYYY-MM-DD (or any ISO 8601)[^15]   | yes, optional  | yes    | yes, optional                         |
-| PDF URI                   | A valid URI (advanced users)        | yes, optional  | no     | yes, optional                         |
+| Field                     | Notes                                 | Import         | Export | Update                                |
+| ------------------------- | ------------------------------------- | -------------- | ------ | ------------------------------------- |
+| Janeway ID                | controlled and assigned by Janeway    | no, will break | yes    | yes, required[^2]                     |
+| Article title             | incl. subtitle; use \<em\> for ital   | yes, required  | yes    | yes, required                         |
+| Article abstract          | use \<em\> for italics                | yes, optional  | yes    | yes, optional, saves empty values     |
+| Keywords                  | separate keywords with commas         | yes, optional  | yes    | yes, optional, saves empty values     |
+| Rights                    | Rights statement (free text)          | yes, optional  | yes    | yes, optional, saves empty values     |
+| Licence                   | name of licence[^3]                   | yes, optional  | yes    | yes, optional, saves empty values     |
+| Language                  | name of language or ISO code[^4]      | yes, optional  | yes    | yes, optional, saves empty values     |
+| Peer reviewed (Y/N)       | Y or N                                | yes, optional  | yes    | yes, optional, saves empty values     |
+| Author salutation         | useful in templated emails            | yes, optional  | yes    | no, ignored                           |
+| Author given name         | a.k.a. first name                     | yes, optional  | yes    | yes, optional, saves empty values     |
+| Author middle name        | or middle initial                     | yes, optional  | yes    | yes, optional, saves empty values     |
+| Author surname            | a.k.a. last name or family name       | yes, optional  | yes    | yes, optional, saves empty values[^5] |
+| Author suffix             | e.g: 'Jr.' or 'III'                   | yes, optional  | yes    | yes, optional, saves empty values     |
+| Author email              | recommended[^6]                       | yes, optional  | yes    | complicated![^7]                      |
+| Author ORCID              | starting with 'https' or the number   | yes, optional  | yes    | yes, optional, saves empty values     |
+| Author institution        | \_                                    | yes, optional  | yes    | yes, optional, saves empty values     |
+| Author department         | \_                                    | yes, optional  | yes    | yes, optional, saves empty values     |
+| Author biography          | \_                                    | yes, optional  | yes    | yes, optional, saves empty values     |
+| Author is primary (Y/N)   | Y or N[^8]                            | yes, optional  | yes    | yes, optional, saves empty values     |
+| Author is corporate (Y/N) | i.e. if the author is an organization | yes, optional  | yes    | no, will make duplicates              |
+| DOI                       | starting with '10'                    | yes, optional  | yes    | yes, optional, ignores empty values   |
+| DOI (URL form)            | starting with 'https'                 | no, ignored    | yes    | no, ignored                           |
+| Date accepted             | YYYY-MM-DD (or any ISO 8601[^9])      | yes, optional  | yes    | yes, optional, saves empty values     |
+| Date published            | YYYY-MM-DD (or any ISO 8601)          | yes, optional  | yes    | yes, optional, saves empty values     |
+| Article number            | integer (arbitrary / custom)          | yes, optional  | yes    | yes, optional, saves empty values     |
+| First page                | integer                               | yes, optional  | yes    | yes, optional, saves empty values     |
+| Last page                 | integer                               | yes, optional  | yes    | yes, optional, saves empty values     |
+| Page numbers (custom)     | Custom page range such as 'x–ix'      | yes, optional  | yes    | yes, optional, saves empty values     |
+| Competing interests       | \_                                    | yes, optional  | yes    | yes, optional, saves empty values     |
+| Article section           | e.g. 'Article', 'Review'              | yes, optional  | yes    | yes, optional, ignores empty values   |
+| Stage                     | the production workflow stage[^10]    | yes, optional  | yes    | no, ignored[^11]                      |
+| File import identifier    | for advanced users[^12]               | yes, optional  | yes    | yes, optional                         |
+| Journal code              | must match Janeway                    | yes, required  | yes    | yes, required                         |
+| Journal title override    | Override for this article[^13]        | yes, optional  | yes    | yes, optional                         |
+| ISSN override             | '0000-0000' for new journals[^14]     | yes, optional  | yes    | yes, optional                         |
+| Volume number             | '0' if not specified                  | yes, optional  | yes    | no, ignored                           |
+| Issue number              | '0' if not specified                  | yes, optional  | yes    | no, ignored                           |
+| Issue title               | e.g. 'Winter 2022'                    | yes, optional  | yes    | yes, optional, saves empty values     |
+| Issue pub date            | YYYY-MM-DD (or any ISO 8601)[^15]     | yes, optional  | yes    | yes, optional                         |
+| PDF URI                   | A valid URI (advanced users)          | yes, optional  | no     | yes, optional                         |
 
 ## Custom submission fields
 

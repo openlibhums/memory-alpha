@@ -10,7 +10,7 @@
   - [GitHub repository](https://github.com/openlibhums/imports/tree/main/ojs)
   - A Janeway plugin for importing OJS content.
 - OJS export
-  - [GitHub repository](https://github.com/openlibhums/ojs-janeway) 
+  - [GitHub repository](https://github.com/openlibhums/ojs-janeway)
   - An OJS plugin for exporting data for ingest into Janeway, in a custom JSON format.
 - ePrints (active)
   - [GitHub repository](https://github.com/openlibhums/eprints)
@@ -22,5 +22,5 @@
   - [GitHub repository](https://github.com/openlibhums/ingenta)
   - This is a plugin for ingesting back content from the Ingenta platform into Janeway It requires an SGML dump from the publication to be migrated.
 - Back content plugin (active)
-  - [GitHub repository](https://github.com/openlibhums/back_content) 
+  - [GitHub repository](https://github.com/openlibhums/back_content)
   - This plugin allows for fast loading of articles into Janeway.
