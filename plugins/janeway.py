@@ -60,7 +60,7 @@ class JanewayRendererMixin:
         children = self.render_children(element)
         level = element.level
         if level > 1:
-            section_id = slugify(children)
+            section_id = slugify(JINJA_ENV.filters["striptags"](children))
         else:
             section_id = ""
 

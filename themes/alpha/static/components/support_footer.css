@@ -1,6 +1,5 @@
 .support-footer {
-  --flow-space: var(--space-l);
-  .mega-menu {
+  .mega-menu h2 {
     --flow-space: var(--space-2xl);
   }
   .mega-menu a {

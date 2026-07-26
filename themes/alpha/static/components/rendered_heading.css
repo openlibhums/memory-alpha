@@ -44,10 +44,19 @@
   }
   .section-link svg,
   .document-link svg {
+    color: var(--clr-background);
     display: inline;
     vertical-align: baseline;
     height: 1em;
     width: 1em;
     margin-block-end: -0.25rem;
+  }
+  &:hover .section-link svg,
+  :target ~ .section-link svg,
+  .section-link:focus-visible svg,
+  &:hover .document-link svg,
+  :target ~ .document-link svg,
+  .document-link:focus-visible svg {
+    color: var(--clr-foreground);
   }
 }
