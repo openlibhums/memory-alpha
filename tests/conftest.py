@@ -1,3 +1,4 @@
+import logging
 import os
 import re
 import pytest
@@ -6,10 +7,23 @@ from pelican import get_instance, parse_arguments
 from axe_playwright_python.sync_playwright import Axe
 
 
+def get_support_pages():
+    support_pages = []
+    support_content_path = settings.get("SUPPORT_CONTENT_PATH")
+    for dirpath, dirnames, filenames in os.walk(support_content_path):
+        for filename in filenames:
+            if filename.endswith(".md"):
+                filename = filename[:-3] + ".html"
+                content_path = os.path.join(dirpath, filename)
+                rel_path = os.path.relpath(content_path, start=settings.get("PATH"))
+                support_pages.append("/" + rel_path)
+    return support_pages
+
+
 pelican, settings = get_instance(parse_arguments())
 ALL_PAGES = [
     path for _label, path, target in settings.get('ALL_PAGES') if not target
-]
+] + get_support_pages()
 
 
 @pytest.fixture(scope="session")

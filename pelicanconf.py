@@ -1,5 +1,5 @@
-import json
 from datetime import datetime
+import json
 import logging
 
 
@@ -61,6 +61,9 @@ DEFAULT_METADATA = {
 
 PLUGIN_PATHS = ["plugins"]
 PLUGINS = ["janeway"]
+
+# Custom settings used in tests/conftest.py
+SUPPORT_CONTENT_PATH = "content/pages/support"
 
 # Static
 STATIC_PATHS = [
