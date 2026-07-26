@@ -50,7 +50,7 @@ You will be able to read the submission requirements by clicking **Review submis
 > [!NOTE]
 > Clicking **Upload new version** in the Pending updates section will open the same pop-up with these three options.
 
-You can also download any previously (approved and unapproved) manuscript files in the Files section, by clicking the <img src="../../support/images/download-icon.png" width="12" height="12"/> **Download** icon.
+You can also download any previously (approved and unapproved) manuscript files in the Files section, by clicking the <img alt="" src="../../support/images/download-icon.png" width="12" height="12"/> **Download** icon.
 
 ### Supplementary files
 

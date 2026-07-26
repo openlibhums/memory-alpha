@@ -38,7 +38,7 @@ Before the task is accepted, you can edit the notes and due date or delete the a
 
 !["The copyediting page, with two completed copyedits visible. The review buttons for both assignments are highlighted."](../images/workflow/editor-copyedit-review.png)
 
-The review copyedit page presents the response from the copyeditor, including their notes and any files they uploaded. You can download the copyedited manuscript using the <img src="../../support/images/download-icon.png" width="12" height="12"/> **Download** icon. You can also do one of three things under **Actions** on the right-hand side:
+The review copyedit page presents the response from the copyeditor, including their notes and any files they uploaded. You can download the copyedited manuscript using the <img alt="" src="../../support/images/download-icon.png" width="12" height="12"/> **Download** icon. You can also do one of three things under **Actions** on the right-hand side:
 
 - **Accept copyedit**  
    This closes the task.

@@ -153,14 +153,14 @@ connect it with core areas of Janeway.
 {% endraw %}
 
 <figure>
-<img src="../nstatic/typesetting-plugin-dashboard.png"
+<img alt="" src="../nstatic/typesetting-plugin-dashboard.png"
 class="with-border" alt="../nstatic/typesetting-plugin-dashboard.png" />
 <figcaption>The typesetting plugin's dashboard template renders this
 block.</figcaption>
 </figure>
 
 <figure>
-<img src="../nstatic/kanban-card-example.png" class="with-border"
+<img alt="" src="../nstatic/kanban-card-example.png" class="with-border"
 alt="../nstatic/kanban-card-example.png" />
 <figcaption>Kanban cards look like this, they use the workflow/admin css
 (foundation).</figcaption>

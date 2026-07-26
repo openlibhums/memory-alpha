@@ -41,18 +41,18 @@ From this page, you can perform the following actions:
 
 In addition, the issue list is presented in a table format. For each issue, the following actions are available:
 
-- **View** <img src="../../support/images/preview-icon.png" width="15" height="15"/>  
+- **View** <img alt="" src="../../support/images/preview-icon.png" width="15" height="15"/>  
   Opens the [Manage issue](#managing-existing-issues) page, where you can edit metadata, manage the table of contents, assign guest editors, and upload galleys.
-- **Delete** <img src="../../support/images/trashcan-icon.png" width="15" height="15"/>  
+- **Delete** <img alt="" src="../../support/images/trashcan-icon.png" width="15" height="15"/>  
   Permanently deletes the issue. This cannot be undone.
-- **Make current** <img src="../../support/images/clock-icon.png" width="17" height="17"/>  
+- **Make current** <img alt="" src="../../support/images/clock-icon.png" width="17" height="17"/>  
   Sets the selected issue as the journal's current issue. The current issue does not display this button.
 
 You can also drag and drop issues to manually change their order; the new order updates the public display immediately. You can view publication data such as volume, issue number, publication date, and number of articles directly from the table.
 
 ## Creating and editing issue details
 
-You can create new issues from this page using the <img src="../../support/images/plus-icon.png" width="15" height="15"/> **Create issue** button and you view and edit the detail of individual issues by selecting them.
+You can create new issues from this page using the <img alt="" src="../../support/images/plus-icon.png" width="15" height="15"/> **Create issue** button and you view and edit the detail of individual issues by selecting them.
 
 ![An empty create issue form](../images/create-issue.png)
 
@@ -74,7 +74,7 @@ You can set the standard issue metadata and images for the issue on this page. I
 
 ## Managing existing issues
 
-Clicking on <img src="../../support/images/preview-icon.png" width="15" height="15"/> **View** in the table listing all issues takes you through to the issue page where you can alter an individual issue. The page is split into four sections.
+Clicking on <img alt="" src="../../support/images/preview-icon.png" width="15" height="15"/> **View** in the table listing all issues takes you through to the issue page where you can alter an individual issue. The page is split into four sections.
 
 - **Issue management**  
    This block displays the issue metadata and allows you to edit it, delete it, mark it as the current issue, and if the issue is published there is a link to view it on the journal website.
@@ -94,19 +94,19 @@ For each section, there are arrow icons that allow you to move the section up an
 
 ![Issue table of contents](../images/issue-table-of-contents.png)
 
-You can drop an article from an issue by clicking <img src="../../support/images/unlink-icon.png" width="15" height="15"/>**Remove** and add new ones by clicking **Add article**.
+You can drop an article from an issue by clicking <img alt="" src="../../support/images/unlink-icon.png" width="15" height="15"/>**Remove** and add new ones by clicking **Add article**.
 
 ![" "](../images/issue-add-articles.png)
 
-A list of all articles in the journal not already in the issue is displayed, and you can click the <img src="../../support/images/plus-icon.png" width="15" height="15"/> **Add** button to place it in the issue.
+A list of all articles in the journal not already in the issue is displayed, and you can click the <img alt="" src="../../support/images/plus-icon.png" width="15" height="15"/> **Add** button to place it in the issue.
 
 ### Guest editors
 
-An issue can list guest editors if the articles aren't being handled by the normal editorial team. Click <img src="../../support/images/plus-icon.png" width="15" height="15"/>**Manage** to add or edit guest editors for the issue/collection. When adding a new guest editor you can also enter a role other than 'Guest editor', which is set as the default. All users with activated accounts are listed here, click the <img src="../../support/images/plus-icon.png" width="15" height="15"/> **Add** button next to their name to add them as a guest editor.
+An issue can list guest editors if the articles aren't being handled by the normal editorial team. Click <img alt="" src="../../support/images/plus-icon.png" width="15" height="15"/>**Manage** to add or edit guest editors for the issue/collection. When adding a new guest editor you can also enter a role other than 'Guest editor', which is set as the default. All users with activated accounts are listed here, click the <img alt="" src="../../support/images/plus-icon.png" width="15" height="15"/> **Add** button next to their name to add them as a guest editor.
 
 ## Display settings
 
-To configure how issue titles and details are displayed, click <img src="../../support/images/edit-icon.png" width="15" height="15"/>**Edit display settings** in the top-right corner of the **Issue management** page.
+To configure how issue titles and details are displayed, click <img alt="" src="../../support/images/edit-icon.png" width="15" height="15"/>**Edit display settings** in the top-right corner of the **Issue management** page.
 
 You can turn these elements on or off:
 

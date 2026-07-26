@@ -67,7 +67,7 @@ If you do not use a typesetter or file conversion through Janeway, you can uploa
 
 ![" "](../images/workflow/editor-typesetting-upload-new-typeset-file.png)
 
-When uploading an HTML or XML file with images, they must be uploaded separately, as HTML and XML files do not contain the images themselves (like a DOCX or PDF file might). Images can be uploaded by clicking the <img src="../../support/images/edit-icon.png" width="12" height="12"/> **Edit** icon and using the upload functions on the page it leads to, for more information see: [Images and figure files](#image-and-figure-files). You can also <img src="../../support/images/download-icon.png" width="12" height="12"/> **Download** the file or <img src="../../support/images/preview-icon.png" width="15" height="15"/> **Preview** it, using the respective icons.
+When uploading an HTML or XML file with images, they must be uploaded separately, as HTML and XML files do not contain the images themselves (like a DOCX or PDF file might). Images can be uploaded by clicking the <img alt="" src="../../support/images/edit-icon.png" width="12" height="12"/> **Edit** icon and using the upload functions on the page it leads to, for more information see: [Images and figure files](#image-and-figure-files). You can also <img alt="" src="../../support/images/download-icon.png" width="12" height="12"/> **Download** the file or <img alt="" src="../../support/images/preview-icon.png" width="15" height="15"/> **Preview** it, using the respective icons.
 
 !["Current galleys blocks, with the various buttons highlighted."](../images/workflow/editor-typesetting-galley-buttons.png)
 
@@ -178,7 +178,7 @@ You can now assign a typesetter to correct issues that were flagged in proofing,
 
 ## Managing typesetting files
 
-Once typeset files are uploaded into Janeway, they become manageable within the system. To manage a typeset file, click the <img src="../../support/images/edit-icon.png" width="12" height="12"/> **Edit** icon next to it.
+Once typeset files are uploaded into Janeway, they become manageable within the system. To manage a typeset file, click the <img alt="" src="../../support/images/edit-icon.png" width="12" height="12"/> **Edit** icon next to it.
 
 !["The current galleys block, with the edit buttons highlighted."](../images/workflow/editor-typesetting-edit-galley.png)
 

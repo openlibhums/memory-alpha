@@ -26,7 +26,7 @@ HTML (Hypertext Markup Language) galleys are designed for online reading and all
 
 ## Galley preview
 
-Galleys can be previewed as a part of the typesetting stage. They will be listed under **Current galleys** and be viewed using the <img src="../../support/images/preview-icon.png" width="15" height="15"/> **Preview** icon. Using this view, you can see the galley content as it would be displayed on your website. The galley preview will **not** have functional download links, a views and download block, or any other information that is not encoded within the file itself. The link of the galley preview will only be accessible to other users with appropriate permissions.
+Galleys can be previewed as a part of the typesetting stage. They will be listed under **Current galleys** and be viewed using the <img alt="" src="../../support/images/preview-icon.png" width="15" height="15"/> **Preview** icon. Using this view, you can see the galley content as it would be displayed on your website. The galley preview will **not** have functional download links, a views and download block, or any other information that is not encoded within the file itself. The link of the galley preview will only be accessible to other users with appropriate permissions.
 
 ## Editing galleys
 
