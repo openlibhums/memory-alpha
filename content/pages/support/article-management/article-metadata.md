@@ -58,7 +58,7 @@ Below the article metadata block, you can also edit author metadata and funder i
 
 ## Identifiers
 
-Janeway can mint [CrossRef](../identifiers/crossref-article-doi.md) and [DataCite DOIs](../identifiers/datacite-dois.md) and, if working with data imported from other platforms, can also maintain existing publisher IDs such as an OJS ID. Identifiers can be managed on an individual basis or, for CrossRef DOIs, in bulk.
+Janeway can mint [CrossRef](../identifiers/crossref-article-doi.md) and [DataCite](../plugins/datacite.md) DOIs and, if working with data imported from other platforms, can also maintain existing publisher IDs such as an OJS ID. Identifiers can be managed on an individual basis or, for CrossRef DOIs, in bulk.
 
 Identifiers associated with an article can be found through **Identifiers** under **Logs, documents and more**.
 
@@ -68,7 +68,7 @@ Identifiers associated with an article can be found through **Identifiers** unde
 > **Advanced:** You can also manage CrossRef DOIs in bulk at the journal level as an editor (and at the press level as a staff user) using the DOI Manager.
 
 > [!NOTE]
-> **Advanced:** DataCite DOIs do not appear on the identifiers page and must be managed through the [DataCite plugin](../identifiers/datacite-dois.md).
+> **Advanced:** DataCite DOIs do not appear on the identifiers page and must be managed through the [DataCite plugin](../plugins/datacite.md).
 
 See also: [Identifiers](../identifiers/index.md).
 

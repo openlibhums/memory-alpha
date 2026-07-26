@@ -30,7 +30,7 @@ Journal design - see guide <!-- missing hyperlink -->.
 ## Submission
 
 - Enable or disable submission.
-- [Setup licences for submission](../submission/article-licence-manager.md).
+- [Setup licences for submission](../submission/licence-manager.md).
 
 ## Review
 

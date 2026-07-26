@@ -12,5 +12,5 @@ The **Press manager** page brings together settings and tools that apply across 
   How to view, filter and manage user roles and permissions across all journals from the **All users** interface, as well as merging duplicate accounts through the **Merge users** interface.
 - [Journal footer](./footer.md)  
   Configuring the postal address, contact details and navigation links shown in every journal's footer.
-- [DOI management – press level](./DOI-management-at-press-level.md)  
+- [DOI management – press level](./doi-management-at-press-level.md)  
   Managing Crossref DOI settings and the DOI Manager across journals from the press level.

@@ -7,10 +7,10 @@ There are multiple aspects to managing submissions on Janeway. The two key parts
 - [The submission page items](./configuring-the-submission-page.md)  
   This configures the text on the submission page, visible at `[yourjournalwebsite]/submissions`.
 
-- [Submission settings](./submission-settings.mdmd)  
+- [Submission settings](./submission-settings.md)  
   This configures the submission process itself and how it functions. From here, you can also disable submissions.
 
-- [Submission fields configurator](./managing-submission-fields.md.md)  
+- [Submission fields configurator](./managing-submission-fields.md)  
   This configures the submission fields used during the submission process. Any unchecked fields will not be presented during the submission process. If you do not enable the licence, language and section (article type) fields, you must set a default value for these. This will set these fields to the default provided in the article metadata. If no default is provided and the field is disabled, the information will not be present in the article metadata.
 
 - [Additional submission fields](./managing-submission-fields.md#custom-submission-fields)  

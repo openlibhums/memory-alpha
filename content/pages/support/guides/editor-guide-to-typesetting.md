@@ -82,7 +82,7 @@ If you are interested in using the Pandoc plugin, contact your System administra
 
 ## Working with a typesetter
 
-This section outlines how to work with an external typesetter, including assigning tasks, reviewing their work, and assigning revisions (if needed). You will need to set up an account for your typesetter. If you have not done this yet, see [Account Management](../accounts-and-roles/account-management.md) for more information.
+This section outlines how to work with an external typesetter, including assigning tasks, reviewing their work, and assigning revisions (if needed). You will need to set up an account for your typesetter. If you have not done this yet, see [Account Management](../accounts-and-roles/managing-user-accounts.md) for more information.
 
 ### Assigning a typesetter
 
