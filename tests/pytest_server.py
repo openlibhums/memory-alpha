@@ -1,5 +1,3 @@
-import argparse
-import logging
 import os
 import threading
 from urllib.parse import urlparse
