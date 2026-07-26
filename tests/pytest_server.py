@@ -1,3 +1,4 @@
+import logging
 import os
 import threading
 from urllib.parse import urlparse
@@ -7,6 +8,9 @@ from pelican import (
     get_instance as get_pelican_instance,
     parse_arguments as parse_pelican_arguments
 )
+
+
+logger = logging.getLogger(__name__)
 
 
 class LiveServerThread(threading.Thread):
@@ -67,7 +71,7 @@ class PytestPelicanServer:
         )
         self.thread.daemon = True
         self.pelican, self.pelican_settings = get_pelican_instance(
-            parse_pelican_arguments(["-l",])
+            parse_pelican_arguments(["--listen"])
         )
         self.pelican_settings["TESTING"] = True
 
