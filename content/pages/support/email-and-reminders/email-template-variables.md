@@ -32,9 +32,7 @@ When the email is sent, Janeway replaces this with the actual due date.
 > [!IMPORTANT]
 > Variables must be copied exactly (if copying from reference). Do not add spaces, punctuation or text inside the brackets. You can safely change the surrounding text.
 
-## Example template: Review assignment
-
-Template code: review_assignment
+## Example: Review assignment
 
 This email is sent to potential reviewers when they are invited to review an article.
 
@@ -46,170 +44,127 @@ The following information can be inserted into the email using variables:
 - Review details, such as the due date.
 - A secure review link.
 
-Commonly used variables include:
+Commonly used variables in review assignments include:
 
 - `{% raw %}{{ article.safe_title }}{% endraw %}`  
   The article title.
+- `{% raw %}{{ review_assignment.reviewer }}{% endraw %}`  
+  The reviewer's full name.
 - `{% raw %}{{ editor.first_name }}{% endraw %}`  
   The editor's first name.
-- `{% raw %}{{ review_assignment.reviewer.full_name }}{% endraw %}`  
-  The reviewer's full name.
 - `{% raw %}{{ review_assignment.date_due }}{% endraw %}`  
   The review due date.
 - `{% raw %}{{ review_url }}{% endraw %}`  
   The link the reviewer uses to access the review.
+- `{% raw %}{{ article_details }}{% endraw %}`  
+  A printout of the article and review information, including title and due date.
 
-### Review assignment objects (advanced users)
+## Other common variables
 
-If you are a technical user and/or familiar with objects, here is a list of objects in this template's context:
+Here are some common examples you can copy and reuse across templates.
 
-- article, an Article object.
-- editor, an Account object.
-- review_assignment, a ReviewAssignment object.
-- review_url, a reversed URL with FQDN.
-- article_details, a string with article and review information in it, inc. Title, due date etc.
-
-## Using variables in practice
-
-Here are some common examples you can copy and reuse.
-
-- Review due date  
-  `{% raw %}{{ review_assignment.date_due }}{% endraw %}`
+> [!TIP]
+> Not all variables are available on all templates, so always test out your template to make sure data is coming through.
 
 - Article title  
   `{% raw %}{{ article.safe_title }}{% endraw %}`
-
 - Journal name  
   `{% raw %}{{ article.journal.name }}{% endraw %}`
-
+- Review due date  
+  `{% raw %}{{ review_assignment.date_due }}{% endraw %}`
 - Review link  
   `{% raw %}{{ review_url }}{% endraw %}`
-
 - Revisions link  
   `{% raw %}{{ do_revisions_url }}{% endraw %}`
-
 - The title of the issue this article is projected to be part of  
   `{% raw %}{{ article.projected_issue.display_title }}{% endraw %}`
-
 - The article's correspondence author  
-  `{% raw %}{{ article.correspondence_author.full_name|se_can_see_pii:article }}{% endraw %}`
+  `{% raw %}{{ article.correspondence_author|se_can_see_pii:article }}{% endraw %}`
 
-If you use a variable with information that isn't available, e.g. a middle name for a user who has not provided one, it will be ignored and display a blank space instead.
-
-> [!NOTE]
-> Certain variables, such as the title, have `safe_` appended to the second half of the object. This is to ensure they display correctly.
+If you use a variable with information that isn't available, e.g. a middle name for a user who has not provided one, it will be ignored nothing will be displayed.
 
 > [!NOTE]
-> In certain templates, the author name variable will include "`|se_can_see_pii:article`". This determines the visibility of the variable's information to section editors when using triple anonymous review. You do not need to edit this or otherwise worry about this when not using triple anonymous review.
+> Certain variables have `|safe` appended, or the word “safe” somewhere in the variable, to ensure they display correctly even if they have HTML markup. For example, an article named “Review of Prince’s _1999_” will be stored in the Janeway database as `Review of Prince’s <em>1999</em>`, and when `{% raw %}{{ article.safe_title }}{% endraw %}` is used in a template, “1999” will be italicized properly.
 
-## Commonly used objects (advanced reference)
+> [!NOTE]
+> In certain templates, variables related to personally identifying information should have "`|se_can_see_pii:article`" on the end. This determines the visibility of the variable's information to section editors when using triple anonymous review. You do not need to edit this or otherwise worry about this when not using triple anonymous review.
 
-The sections below describe the main objects you may encounter.
+## Variable reference (advanced)
 
-### Objects
+Below are the main objects you may encounter. This section is for advanced users.
 
-Listed here is a non-exhaustive list of the objects that you may have access to in an email template.
+### Informational variables
 
-KEY
+These print out information when put into a template.
 
-- Str is plain text.
-- Int is a number.
-- FK is Foreign Key, this means the attribute is a link to another
-  object.
-- M2M is Many to Many, this means the attribute links to multiple other
-  objects of the given type.
-- 121 is One to One, it means these two objects are linked.
-- Bool is a Boolean value and will return True or False.
-- DateTime is a field that stores an internationalised date and time.
-- Email is a validated email address.
+```
+{% raw %}{{ article.id }}
+{{ article.safe_title }}
+{{ article.abstract|safe }}
+{{ article.owner }}
+{{ article.owner.email }}
+{{ article.owner.salutation }}
+{{ article.owner.orcid }}
+{{ article.owner.primary_affiliation }}
+{{ article.correspondence_author }}
+{{ article.correspondence_author.email }}
+{{ article.correspondence_author.salutation }}
+{{ article.correspondence_author.orcid }}
+{{ article.correspondence_author.primary_affiliation }}
+{{ article.keyword_list_str }}
+{{ article.language }}
+{{ article.section }}
+{{ article.license }}
+{{ article.rights|safe }}
+{{ article.article_number }}
+{{ journal.code }}
+{{ journal.name }}
+{{ journal.current_issue }}
+{{ journal.description|safe }}
+{{ journal.contact_info|safe }}
+{{ review_assignment.article }}
+{{ review_assignment.reviewer }}
+{{ review_assignment.reviewer.email }}
+{{ review_assignment.reviewer.salutation }}
+{{ review_assignment.reviewer.primary_affiliation }}
+{{ review_assignment.editor }}
+{{ review_assignment.editor.email }}
+{{ review_assignment.editor.salutation }}
+{{ review_assignment.editor.primary_affiliation }}
+{{ review_assignment.review_round.round_number }}
+{{ review_assignment.date_due }}
+{{ review_assignment.date_requested }}
+{{ review_assignment.date_accepted }}
+{{ review_assignment.date_complete }}
+{{ review_assignment.decision }}
+{{ review_assignment.visibility }}
+{{ review_assignment.comments_for_editor }}
+{% endraw %}
+```
 
-### Account object reference
+> [!TIP]
+> Some variables provide links to other ones, so you can chain them together. For example, `review_assignment.article` can be extended with any of the variables beginning `article`, like this: `review_assignment.article.id`.
 
-The account object stores information about users.
+### Logical variables
 
-- email (Email, unique)
-- username (Str)
-- first_name (Str)
-- middle_name (Str)
-- last_name (Str)
-- salutation (Str)
-- biography (Str)
-- orcid (Str)
-- institution (Str)
-- department (Str)
-- twitter (Str)
-- facebook (Str)
-- linkedin (Str)
-- website (Str)
-- interest (M2M Interest)
-- country (FK Country)
-- preferred_timezone (Str, valid timezone)
-- is_active (Bool)
-- is_staff (Bool)
-- date_joined (DateTime)
+These provide yes/no (boolean) information and are used in if/else blocks. For example:
 
-### Article object reference
+```
+{% raw %}{% if review_assignment.is_complete %}
+  The review assignment is complete.
+{% else %}
+  The review assignment is incomplete.
+{% endif %}
+{% endraw %}
+```
 
-The article object contains the following attributes:
+Each of these variables can be used in the first line of the if/else block:
 
-- journal (FK `Object Journal`)
-- title (Str)
-- abstract (Str)
-- owner (FK `Object Account`)
-- keywords (FK Keyword)
-- language (Str)
-- section (FK Section)
-- license (FK License)
-- publisher_notes (M2M PublisherNote)
-- is_remote (Bool)
-- remote_url (Str)
-- authors (M2M Account)
-- correspondence_author (FK `Object Account`)
-- rights (Str)
-- article_number (Int)
-
-### Journal object reference
-
-The journal object contains the following attributes:
-
-- code (Str)
-- name (Str)
-- current_issue (FK Issue)
-- carousel (121 Carousel)
-- thumbnail_image (FK File)
-- press_image_override (FK File)
-- default_cover_image (ImageField)
-- default_large_image (ImageField)
-- header_image (ImageField)
-- favicon (ImageField)
-- description (Str)
-- contact_info (Str)
-- Keywords (Keyword)
-- is_conference (Bool)
-- is_archived (Bool)
-- is_remote (Bool)
-- remote_view_url (URLField)
-- remote_submit_url (URLField)
-- hide_from_press (Bool)
-- sequence (Int)
-- disable_front_end (Bool)
-
-### ReviewAssignment object reference
-
-- article (FK `Object Article`)
-- reviewer (FK `Object Account`)
-- editor (FK `Object Account`)
-- form (FK ReviewForm)
-- review_round (FK ReviewRound)
-- date_due (DateTime)
-- date_requested (DateTime)
-- date_accepted (DateTime)
-- date_complete (DateTime)
-- decision (Str)
-- visibility (Bool)
-- access_code (Str, UUID format, though not enforced)
-- is_complete (Bool)
-- for_author_consumption (Bool)
-- comments_for_editor (Str)
-- review_file (FK File)
-- display_review_file (Bool)
+```
+{% raw %}{% if journal.is_conference %}
+{% if review_assignment.is_complete %}
+{% if review_assignment.for_author_consumption %}
+{% if review_assignment.display_review_file %}
+{% if review_assignment.reviewer.is_active %}
+{% endraw %}
+```
