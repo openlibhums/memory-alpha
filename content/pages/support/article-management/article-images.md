@@ -10,7 +10,7 @@ This image is used in the heading of the article page (also called a 'hero image
 
 ![Example of the landscape image on the homepage using the OLH theme.](../images/large-image-homepage.png)
 
-The exact recommended size of the large image will depend on the theme your journal uses. The height of the display will always be 648px, but the width will vary per theme: 1100px on the Clean theme, 1200px on the OLH theme, 1477px on the Material theme. For information on image display, cropping and sizing, see [Image guidelines](../journal-management/image-guidelines.md). The image will be resized smaller for display on the homepage.
+We recommend a size of 1500px by 648px. For information, see [Image guidelines](../journal-management/image-guidelines.md#large-image).
 
 Generally, large, landscape images are recommended to be used for the large image and avoiding images with people or bodies due to potential unexpected cropping.
 
@@ -18,7 +18,7 @@ If no landscape image is uploaded, the **Default large image** will be used wher
 
 ## Thumbnail image
 
-The thumbnail is a small square image displayed on pages listing articles such as the **All articles** or the **Issue articles** list. A width-to-height ratio of about 3:4 is recommended. If the image is another size, it will be resized to fit into the box whilst preserving the original image ratio. For an example, see the image below:
+The thumbnail is a small square image displayed on pages listing articles such as the **All articles** or the **Issue articles** list. A square image about 432px tall and wide is best.
 
 ![" "](../images/thumbnails-article-list.png)
 
