@@ -4,14 +4,14 @@ This section describes the different images that can be uploaded in Janeway to c
 
 ## Recommended sizes at a glance
 
-| Name | Width (px) | Height (px) |
-|------|-------|--------|
-| Header image     | 90-360 | 90 |
-| Press override image     | 90-360 | 90 |
-| Cover image     | 742 | 1050 |
-| Large image     | 1500 | 648 |
-| Thumbnail image     | 432 | 432 |
-| Favicon     | 100 | 100 |
+| Name                 | Width (px) | Height (px) |
+| -------------------- | ---------- | ----------- |
+| Header image         | 90-360     | 90          |
+| Press override image | 90-360     | 90          |
+| Cover image          | 742        | 1050        |
+| Large image          | 1500       | 648         |
+| Thumbnail image      | 432        | 432         |
+| Favicon              | 100        | 100         |
 
 ## Header image
 
@@ -63,11 +63,11 @@ You can set the large image for each article, and you can set fallbacks at the i
 
 ![A large image used in the header of an article from Architectural Histories by Demetra Vogiatzaki](../images/article-large-image-material.png)
 
-We recommend a size of 1500px by 648px for large images. If you upload a wider or taller image, just the  middle top part of the image will be kept.
+We recommend a size of 1500px by 648px for large images. If you upload a wider or taller image, just the middle top part of the image will be kept.
 
 > [!TIP]
 > You may notice large images are sometimes pixelated or skewed if you are using Janeway 1.8 or older, because Janeway downsized the image to 750px by 324px, even if it displayed larger on the screen.
-> 
+>
 > Once you are on Janeway 1.9, you can re-upload full resolution images to get them to display more clearly.
 
 > [!TIP]
