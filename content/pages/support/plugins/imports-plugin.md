@@ -4,13 +4,9 @@ Status: Active
 [GitHub repository](https://github.com/openlibhums/imports)
 
 > [!WARNING]
-> Users in the European Union should ensure that the data they are
-> importing is done so in line with the General Data Protection
-> Regulation.
+> Users in the European Union should ensure that the data they are importing is done so in line with the General Data Protection Regulation.
 
-The Imports plugin contains several toolsets for getting content into
-and out of Janeway. The main one for publishers using Janeway is the
-**Import / Export / Update** toolset.
+The Imports plugin contains several toolsets for getting content into and out of Janeway. The main one for publishers using Janeway is the **Import / Export / Update** toolset.
 
 ## Features
 
