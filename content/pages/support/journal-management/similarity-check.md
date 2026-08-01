@@ -17,5 +17,6 @@ The settings are:
 - Password  
   Your iThenticate service password
 
-More info on Crosscheck/Similarity Check:
-<https://www.crossref.org/services/similarity-check/>
+More info on [Crosscheck/Similarity Check](https://www.crossref.org/services/similarity-check).
+
+<!-- This section to be updated once the new way that ithenticate is known to us. -->
