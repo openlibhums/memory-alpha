@@ -23,18 +23,17 @@ The submission settings are accessed through the manager dashboard under **Submi
 
 ## Submission control
 
-The settings found here are:
+The settings found here relate to disabling or limiting submission:
 
 - **Disable journal submission** and **Disabled submission message**
   Checking this box closes submission for the journal. Unchecking it reopens submissions. The textbox allows you to display a message to users when submissions are disabled.
 
 You can also limit access to submission by requiring users to create an account before being allowed to submit an article. When a user without an account attempts to submit, they will be directed to a page where they can create a new account.
 
-- **Limit access to submission** and **submission access request text**  
-   Checking this box limits access to submission to registered users. The textbox allows you to display a message to users requesting submission access.
+- **Limit access to submission**, **submission access request text**, and **Submission access request contact**  
+   Checking this box limits access to submission to registered users. The textbox allows you to display a message to users requesting submission access. This contact sets the address to whom submission access requests will be sent.
 
-- **Submission access request contact**  
-   This sets the address to whom submission access requests will be sent.
+Staff members will also be able to see and process access requests in the platform. See [**Managing submission access**](managing-submission-access.md).
 
 ## Editors notified on submission
 
