@@ -8,7 +8,7 @@ As a moderator you can find (un)published preprints and preprint stats in the Re
 
 Click the title of a preprint to go to the preprint dashboard. Here, you can view the preprint's metadata, (supplementary) files, versions, and the control panel.
 
-### Controls
+### Controls for published preprints
 
 - Edit metadata
 - Contact the owner  
@@ -33,7 +33,7 @@ Similar to published preprints, click the title of an unpublished preprint in th
 
 If the preprint is suitable after initial review, click **Create a version with this file**. After this, you can invite reviewers and take other actions to process the preprint. To reject the preprint, select **Reject article** in the control panel. An email prompt opens, where you can explain your decision to the authors. When the preprint is ready for publication, click **Accept article** in the control panel and set a publication date.
 
-### Controls
+### Controls for unpublished preprints
 
 !["Preprint controls."](../images/repositories/repo-preprint-controls.png)
 

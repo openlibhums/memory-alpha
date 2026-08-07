@@ -72,7 +72,7 @@ This section provides a brief overview of the content of the Google styleguide, 
 - Write accessibly.
 - Write for a global audience.
 
-### Language and grammar
+### Spelling and grammar
 
 - Use UK English spelling and punctuation.
 - Use the second person (“you” rather than “we”).

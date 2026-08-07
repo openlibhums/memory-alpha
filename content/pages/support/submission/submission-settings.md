@@ -12,7 +12,7 @@ The submission settings are accessed through the manager dashboard under **Submi
 - [**Editors notified on submission**](#editors-notified-on-submission)  
   This controls who is notified of new submissions.
 
-- [**System settings**](#submission-settings)  
+- [**System settings**](#system-settings)  
   This controls a small set of settings related to authors and abstracts.
 
 - [**Submission page text**](#submission-page-text)  

@@ -12,7 +12,7 @@ This is usually resolved either by:
 
 ### Activating a user account
 
-See: [Activating accounts](../accounts-and-roles/activating-accounts.md#activating-accounts-1)
+See: [Activating accounts](../accounts-and-roles/activating-accounts.md)
 
 ## New password
 

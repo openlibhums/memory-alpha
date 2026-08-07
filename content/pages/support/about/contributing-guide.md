@@ -114,4 +114,4 @@ Do not put any bullet or dash before the definitions, because this will cause ex
 
 Importantly, put two spaces after the term in the first line, to maintain the line break when the Markdown is rendered.
 
-![The words "cat" and "dog" appear next to bullet points, and descriptions appear underneath each word](./images/lists-with-definitions.png)
+![The words "cat" and "dog" appear next to bullet points, and descriptions appear underneath each word](../images/lists-with-definitions.png)

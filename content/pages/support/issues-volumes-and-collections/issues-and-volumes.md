@@ -37,7 +37,7 @@ From this page, you can perform the following actions:
    Opens configuration options for how issue titles and metadata are displayed. For more information, see [Display settings](#display-settings).
 
 - **Create issue**  
-  Lets you create a new issue. For more information, see [Creating and editing issues](#creating-and-editing-issues).
+  Lets you create a new issue. For more information, see [Creating and editing issue details](#creating-and-editing-issue-details).
 
 In addition, the issue list is presented in a table format. For each issue, the following actions are available:
 
