@@ -27,176 +27,184 @@
 {%- endmacro %}
 
 <div class="support-footer flow">
-  <div class="mega-menu flow flow-first-child">
-    <h2>Read more</h2>
-    {% call prose_columns(column_gap="column-gap-3") %}
-      {% call column() %}
-        {% call h3() %}
-          Guides
-        {% endcall %}
-        {% call list() %}
-          {% call item(href="guides/account-troubleshooting.html") %}
-            Account troubleshooting
+  {% if output_file != "pages/support/all-support-pages.html" %}
+    <div class="mega-menu flow flow-first-child">
+      <h2>Read more</h2>
+      {% call prose_columns(column_gap="column-gap-3") %}
+        {% call column() %}
+          {% call h3() %}
+            Guides
           {% endcall %}
-          {% call item(href="guides/author-guide.html") %}
-            Author guide
-          {% endcall %}
-          {% call item(href="guides/reviewer-guide.html") %}
-            Reviewer guide
-          {% endcall %}
-          {% call item(href="guides/copyeditor-guide.html") %}
-            Copyeditor guide
-          {% endcall %}
-          {% call item(href="guides/typesetter-guide.html") %}
-            Typesetter guide
-          {% endcall %}
-          {% call item(href="guides/proofreader-guide.html") %}
-            Proofreader guide
-          {% endcall %}
-          {% call item(href="guides/editor-guide-to-submission.html") %}
-            Editor guide to submission
-          {% endcall %}
-          {% call item(href="guides/editor-guide-to-review.html") %}
-            Editor guide to review
-          {% endcall %}
-          {% call item(href="guides/editor-guide-to-draft-decisions.html") %}
-            Editor guide to draft decisions
-          {% endcall %}
-          {% call item(href="guides/editor-guide-to-copyediting.html") %}
-            Editor guide to copyediting
-          {% endcall %}
-          {% call item(href="guides/editor-guide-to-typesetting.html") %}
-            Editor guide to typesetting
-          {% endcall %}
-          {% call item(href="guides/editor-guide-to-prepub.html") %}
-            Editor guide to prepublication
-          {% endcall %}
-        {% endcall %}
-      {% endcall %}
-      {% call column() %}
-        {% call h3(href="accounts-and-roles/index.html") %}
-          Accounts and roles
-        {% endcall %}
-        {% call list() %}
-          {% call item(href="accounts-and-roles/managing-user-accounts.html") %}
-            Account management
-          {% endcall %}
-          {% call item(href="accounts-and-roles/activating-accounts.html") %}
-            Activating accounts
-          {% endcall %}
-          {% call item(href="accounts-and-roles/roles-and-permissions-on-janeway.html") %}
-            Roles and permissions
+          {% call list() %}
+            {% call item(href="guides/account-troubleshooting.html") %}
+              Account troubleshooting
+            {% endcall %}
+            {% call item(href="guides/author-guide.html") %}
+              Author guide
+            {% endcall %}
+            {% call item(href="guides/reviewer-guide.html") %}
+              Reviewer guide
+            {% endcall %}
+            {% call item(href="guides/copyeditor-guide.html") %}
+              Copyeditor guide
+            {% endcall %}
+            {% call item(href="guides/typesetter-guide.html") %}
+              Typesetter guide
+            {% endcall %}
+            {% call item(href="guides/proofreader-guide.html") %}
+              Proofreader guide
+            {% endcall %}
+            {% call item(href="guides/editor-guide-to-submission.html") %}
+              Editor guide to submission
+            {% endcall %}
+            {% call item(href="guides/editor-guide-to-review.html") %}
+              Editor guide to review
+            {% endcall %}
+            {% call item(href="guides/editor-guide-to-draft-decisions.html") %}
+              Editor guide to draft decisions
+            {% endcall %}
+            {% call item(href="guides/editor-guide-to-copyediting.html") %}
+              Editor guide to copyediting
+            {% endcall %}
+            {% call item(href="guides/editor-guide-to-typesetting.html") %}
+              Editor guide to typesetting
+            {% endcall %}
+            {% call item(href="guides/editor-guide-to-prepub.html") %}
+              Editor guide to prepublication
+            {% endcall %}
           {% endcall %}
         {% endcall %}
-        {% call h3() %}
-          Analytics
-        {% endcall %}
-        {% call list() %}
-          {% call item(href="analytics/reporting.html") %}
-            Reporting plugin
+        {% call column() %}
+          {% call h3(href="accounts-and-roles/index.html") %}
+            Accounts and roles
+          {% endcall %}
+          {% call list() %}
+            {% call item(href="accounts-and-roles/managing-user-accounts.html") %}
+              Account management
+            {% endcall %}
+            {% call item(href="accounts-and-roles/activating-accounts.html") %}
+              Activating accounts
+            {% endcall %}
+            {% call item(href="accounts-and-roles/roles-and-permissions-on-janeway.html") %}
+              Roles and permissions
+            {% endcall %}
+          {% endcall %}
+          {% call h3() %}
+            Analytics
+          {% endcall %}
+          {% call list() %}
+            {% call item(href="analytics/reporting.html") %}
+              Reporting plugin
+            {% endcall %}
+          {% endcall %}
+          {% call h3() %}
+            Identifiers
+          {% endcall %}
+          {% call list() %}
+            {% call item(href="identifiers/crossref-article-doi.html") %}
+              Crossref article DOI
+            {% endcall %}
+            {% call item(href="identifiers/crossref-issue-doi.html") %}
+              Crossref issue DOI
+            {% endcall %}
+            {% call item(href="plugins/datacite.html") %}
+              Datacite plugin
+            {% endcall %}
           {% endcall %}
         {% endcall %}
-        {% call h3() %}
-          Identifiers
-        {% endcall %}
-        {% call list() %}
-          {% call item(href="identifiers/crossref-article-doi.html") %}
-            Crossref article DOI
-          {% endcall %}
-          {% call item(href="identifiers/crossref-issue-doi.html") %}
-            Crossref issue DOI
-          {% endcall %}
-          {% call item(href="plugins/datacite.html") %}
-            Datacite plugin
-          {% endcall %}
-        {% endcall %}
-      {% endcall %}
-      {% call column() %}
-        {% call h3(href="article-management/index.html") %}
-          Article management
-        {% endcall %}
-        {% call list() %}
-          {% call item(href="article-management/articles-management.html") %}
+        {% call column() %}
+          {% call h3(href="article-management/index.html") %}
             Article management
           {% endcall %}
-          {% call item(href="article-management/article-galleys.html") %}
-            Article galleys
+          {% call list() %}
+            {% call item(href="article-management/articles-management.html") %}
+              Article management
+            {% endcall %}
+            {% call item(href="article-management/article-galleys.html") %}
+              Article galleys
+            {% endcall %}
+            {% call item(href="article-management/article-images.html") %}
+              Article images
+            {% endcall %}
+            {% call item(href="article-management/article-metadata.html") %}
+              Article metadata
+            {% endcall %}
+            {% call item(href="article-management/article-sections.html") %}
+              Article sections
+            {% endcall %}
           {% endcall %}
-          {% call item(href="article-management/article-images.html") %}
-            Article images
+          {% call h3(href="email-and-reminders/index.html") %}
+            Email and reminders
           {% endcall %}
-          {% call item(href="article-management/article-metadata.html") %}
-            Article metadata
-          {% endcall %}
-          {% call item(href="article-management/article-sections.html") %}
-            Article sections
+          {% call list() %}
+            {% call item(href="email-and-reminders/scheduling-reminders.html") %}
+              Email reminders
+            {% endcall %}
+            {% call item(href="email-and-reminders/email-logs.html") %}
+              Email logs
+            {% endcall %}
+            {% call item(href="email-and-reminders/publication-notifications.html") %}
+              Publication notifications
+            {% endcall %}
+            {% call item(href="email-and-reminders/email-templates.html") %}
+              Email templates
+            {% endcall %}
+            {% call item(href="email-and-reminders/email-template-variables.html") %}
+              Email template variables
+            {% endcall %}
           {% endcall %}
         {% endcall %}
-        {% call h3(href="email-and-reminders/index.html") %}
-          Email and reminders
-        {% endcall %}
-        {% call list() %}
-          {% call item(href="email-and-reminders/scheduling-reminders.html") %}
-            Email reminders
+        {% call column() %}
+          {% call h3(href="journal-management/index.html") %}
+            Journal management
           {% endcall %}
-          {% call item(href="email-and-reminders/email-logs.html") %}
-            Email logs
+          {% call list() %}
+            {% call item(href="journal-management/journal-settings.html") %}
+              Journal settings
+            {% endcall %}
+            {% call item(href="journal-management/carousel.html") %}
+              Carousel configuration
+            {% endcall %}
+            {% call item(href="journal-management/janeway-content-manager.html") %}
+              Content manager
+            {% endcall %}
+            {% call item(href="journal-management/editorial-team.html") %}
+              Editorial team
+            {% endcall %}
+            {% call item(href="journal-management/homepage-customization.html") %}
+              Homepage customisation
+            {% endcall %}
+            {% call item(href="journal-management/journal-contacts.html") %}
+              Journal contacts
+            {% endcall %}
           {% endcall %}
-          {% call item(href="email-and-reminders/publication-notifications.html") %}
-            Publication notifications
+          {% call h3(href="review/index.html") %}
+            Review
           {% endcall %}
-          {% call item(href="email-and-reminders/email-templates.html") %}
-            Email templates
-          {% endcall %}
-          {% call item(href="email-and-reminders/email-template-variables.html") %}
-            Email template variables
+          {% call list() %}
+            {% call item(href="review/review-settings.html") %}
+              Review settings
+            {% endcall %}
+            {% call item(href="review/review-forms.html") %}
+              Review forms
+            {% endcall %}
+            {% call item(href="review/open-peer-review.html") %}
+              Open peer review
+            {% endcall %}
+            {% call item(href="review/triple-anonymous-peer-review.html") %}
+              Triple anonymous peer review
+            {% endcall %}
           {% endcall %}
         {% endcall %}
       {% endcall %}
-      {% call column() %}
-        {% call h3(href="journal-management/index.html") %}
-          Journal management
-        {% endcall %}
-        {% call list() %}
-          {% call item(href="journal-management/journal-settings.html") %}
-            Journal settings
-          {% endcall %}
-          {% call item(href="journal-management/carousel.html") %}
-            Carousel configuration
-          {% endcall %}
-          {% call item(href="journal-management/janeway-content-manager.html") %}
-            Content manager
-          {% endcall %}
-          {% call item(href="journal-management/editorial-team.html") %}
-            Editorial team
-          {% endcall %}
-          {% call item(href="journal-management/homepage-customization.html") %}
-            Homepage customisation
-          {% endcall %}
-          {% call item(href="journal-management/journal-contacts.html") %}
-            Journal contacts
-          {% endcall %}
-        {% endcall %}
-        {% call h3(href="review/index.html") %}
-          Review
-        {% endcall %}
-        {% call list() %}
-          {% call item(href="review/review-settings.html") %}
-            Review settings
-          {% endcall %}
-          {% call item(href="review/review-forms.html") %}
-            Review forms
-          {% endcall %}
-          {% call item(href="review/open-peer-review.html") %}
-            Open peer review
-          {% endcall %}
-          {% call item(href="review/triple-anonymous-peer-review.html") %}
-            Triple anonymous peer review
-          {% endcall %}
-        {% endcall %}
-      {% endcall %}
-    {% endcall %}
-  </div>
+    </div>
+    <p class="fs-3">
+      Can't find what you are looking for? Look on the list of
+      <a href="{{ SITEURL }}/pages/support/all-support-pages.html"
+        >all support pages</a
+      >.
+    </p>
+  {% endif %}
   <div class="logo">{% include "svg/janeway-logo-foreground.svg" %}</div>
   {% include "components/licensing_line.html" %}
 </div>

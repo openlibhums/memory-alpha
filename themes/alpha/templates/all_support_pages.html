@@ -1,0 +1,39 @@
+{% extends "page.html" %}
+
+{% macro page_display(page_obj, href) -%}
+  <li>
+    <a href="{{ href }}">{{ page_obj.title }}</a>
+    {% if page_obj.h2s %}
+      <ul>
+        {% for heading, section_id in page_obj.h2s %}
+          <li>
+            <a href="{{ href }}#{{ section_id }}"> {{ heading }} </a>
+          </li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+  </li>
+{%- endmacro %}
+
+{% block content %}
+  <article>
+    <div class="flow flow-first-child prose">
+      {% include "components/support_breadcrumbs.html" %}
+      <h1>All support pages</h1>
+      {% for _folder, page_group in grouped_pages %}
+        {% with %}
+          {% set level = 2 %}
+          {% set section_id = page_group.index.section_id %}
+          {% set children = page_group.index.obj.title %}
+          {% include "components/rendered_heading.html" %}
+        {% endwith %}
+        <ul>
+          {{ page_display(page_group.index.obj, page_group.index.path) }}
+          {% for page in page_group.pages %}
+            {{ page_display(page.obj, page.path) }}
+          {% endfor %}
+        </ul>
+      {% endfor %}
+    </div>
+  </article>
+{% endblock %}

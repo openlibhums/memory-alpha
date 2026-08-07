@@ -104,7 +104,7 @@ FOOTER_LINKS = [
     ('Open Library of Humanities', "https://www.openlibhums.org", "_blank"),
 
 ]
-ALL_PAGES =  [
+ALL_SUPPORT_PAGES =  [
     ('Home', '/', ""),
 ] + LEFT_NAV_ITEMS + RIGHT_NAV_ITEMS + FOOTER_LINKS
 
@@ -147,5 +147,18 @@ SITEMAP = {
         "^pages/icons.html$",
         "^pages/support2.html$",
         "^pages/support/",
+    ]
+}
+
+# All Pages page on support site
+# Used by janeway plugin
+ALL_SUPPORT_PAGES = {
+    "include": [
+        "^pages/support/"
+    ],
+    "exclude": [
+        # This needs to be replaced with YAML metadata.
+        # See https://github.com/openlibhums/memory-alpha/issues/273
+        "--draft.md$",
     ]
 }

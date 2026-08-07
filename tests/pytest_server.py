@@ -95,7 +95,7 @@ class PytestPelicanServer:
 
     def get_main_pages(self):
         main_pages = []
-        for _label, path, target in self.pelican_settings.get('ALL_PAGES'):
+        for _label, path, target in self.pelican_settings.get('ALL_MAIN_PAGES'):
             if not target:
                 main_pages.append(path)
         return main_pages
