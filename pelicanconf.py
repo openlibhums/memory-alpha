@@ -104,7 +104,7 @@ FOOTER_LINKS = [
     ('Open Library of Humanities', "https://www.openlibhums.org", "_blank"),
 
 ]
-ALL_SUPPORT_PAGES =  [
+ALL_MAIN_PAGES =  [
     ('Home', '/', ""),
 ] + LEFT_NAV_ITEMS + RIGHT_NAV_ITEMS + FOOTER_LINKS
 
