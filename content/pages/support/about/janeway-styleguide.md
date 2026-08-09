@@ -5,10 +5,6 @@
 - [Introduction](#introduction)
 - [Editorial resources and hierarchy](#editorial-resources-and-hierarchy)
 - [Quick reference](#quick-reference)
-- [Content](#content)
-- [Language and grammar](#language-and-grammar)
-- [Punctuation](#punctuation)
-- [Formatting and organisation](#formatting-and-organisation)
 
 ## Introduction
 

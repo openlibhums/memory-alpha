@@ -15,9 +15,9 @@ This guide is written for editors and press managers who are working in Janeway 
 - [What to read next](#what-to-read-next)
 
 ## The three areas of Janeway
- 
+
 Janeway has three distinct areas, knowing which one you are in makes will make easier to find what you need.
- 
+
 - Web content  
   Also called the front end. This is the public-facing website that shows articles, the homepage, and any other content you want to share with visitors. It also displays information such as author guidelines, editorial policy, and submission guidance.
 
@@ -29,50 +29,50 @@ Janeway has three distinct areas, knowing which one you are in makes will make e
 
 > [!CAUTION]
 > Changes made in the admin area bypass the checks built into the rest of Janeway. If you are not comfortable working there, contact your system administrator or support contact instead.
- 
+
 What you can see in each area depends on your roles and permissions. For more information, see [Roles and permissions on Janeway](../accounts-and-roles/roles-and-permissions-on-janeway.md).
 
 ## Navigating the journal and press website
- 
+
 ### The navigation bar
- 
+
 Visitors move around the journal or press website using the navigation bar (navbar) at the top of every page. The navbar combines fixed elements supplied by Janeway, such as **Home**, **Articles**, and **Issues**, with custom items you can create.
- 
+
 ![The default Janeway navigation bar, showing links including home, news, articles, essues, and editorial team](../images/default-nav-frontend.png)
- 
+
 To enable, disable, reorder, or add navigation custom items, see [Navigation](../journal-management/navigation.md).
- 
+
 ### The footer
- 
+
 The footer carries information that belongs on every page, such as a privacy policy and accessibility statement.
- 
+
 Footer navigation is configured at press level and applies across all journals. To set it up, see [Journal footer](../press-management/footer.md).
- 
+
 ### Moving from the website to the back office
- 
+
 When you are signed in, an account icon appears in the top-right corner of the page. It shows either your initials or your profile picture(if you have set one).
- 
+
 1. Select **Account**, or the circular icon showing your initials/profile picture.
 2. From the dropdown, select where you want to go.
-![The account dropdown menu open in the top-right corner of a journal website](../images/account-dropdown.png)
- 
+   ![The account dropdown menu open in the top-right corner of a journal website](../images/account-dropdown.png)
+
 The dropdown can display options for the dashboard, the manager interface, your profile, the submission portal, and the admin area. Which of these are visible to you will depend on your roles and permissions.
- 
+
 > [!TIP]
 > To return to the public website from anywhere in the back office, select the journal name or logo at the top of the page.
- 
+
 ## Navigating the back office
- 
+
 The back office is visible only to signed-in users and different users see different parts of it. Editors, journal managers, and users with staff permission can access the broadest range of views and interfaces. Reviewers, copyeditors, typesetters, and proofreaders see only the tasks assigned to them.
- 
+
 Unlike the public website, the back office cannot be styled or rebranded.
- 
+
 ### The dashboard
- 
+
 The main journal dashboard is your starting point. It shows the articles in the journal workflow that are relevant to you. The editor block groups by the stage they have reached and the other blocks will show tasks assigned.
- 
+
 Information about articles in the journal workflow is available in other views as well, listed under the **Dashboards** section of the sidebar:
- 
+
 - Main  
   The standard workflow dashboard, organised by stage.
 
@@ -83,13 +83,13 @@ Information about articles in the journal workflow is available in other views a
   A filterable list of active submissions, useful when you know what you are looking for.
 
 ### The sidebar
- 
+
 The sidebar runs down the left of every back office page and is the quickest way to move between stages, the management dashboard and article lists. You can reach any stage from anywhere in Janeway, without returning to the dashboard first.
- 
+
 ![The back office sidebar.](../images/backoffice-sidebar.png)
- 
+
 The sidebar is divided into four sections. What appears in each one depends on your roles and permissions, and on how your workflow is configured.
- 
+
 - Dashboards  
   Contains **Main**, **Kanban**, and **Search submissions**, described above.
 
@@ -103,13 +103,13 @@ The sidebar is divided into four sections. What appears in each one depends on y
   **Manager** opens the manager dashboard, **Plugins** lists the [plugins](../plugins/index.md) installed for the journal, **Workflow** opens the page where you configure your journal's workflow elements, and **All articles list** shows every article regardless of status. The **All articles list** page also lets you export a list of articles or upload a CSV of metadata updates. Access to these pages depends on your permissions.
 
 ### The manager dashboard
- 
+
 The manager dashboard lists the settings used to configure the journal. It is visible to editors, journal managers, and users with staff permission. It is reached by selecting **Manager** under **Staff** in the sidebar or from the profile dropdown in the top-right corner.
- 
+
 ![The manager dashboard, showing settings grouped into panels by category](../images/manager-dashboard.png)
- 
+
 Settings are grouped into panels by what they control. See also [Journal management](../journal-management/index.md) for further documentation on this area.
- 
+
 - Journal settings  
   [General settings](../journal-management/journal-settings.md), [homepage layout and elements](../journal-management/homepage-customisation.md), [journal default images](../journal-management/image-guidelines.md), and **All settings**, which searches every setting available on the journal.
 
@@ -141,43 +141,43 @@ Settings are grouped into panels by what they control. See also [Journal managem
 > If you cannot find a setting in the interface, open **All settings** from the **Journal settings** panel and search for it there.
 
 ## Navigating press-level pages
- 
+
 If you manage more than one journal, some tools sit above journal-level in the **Press manager**. This page is available to users with staff permission and covers press-wide details, all journals' and press' users, and journal-level defaults.
- 
+
 ![The press manager, listing journals on the press and press-level settings](../images/press-manager.png)
- 
+
 From the press manager you can do the following:
- 
+
 - Configure the press website, including press settings; including the press homepage, content manager, news manager, and contact manager.
 - Add journals, reorder how they appear in the journal list, edit the description shown for each journal, and access a journal's settings. See also [ournal management at press level](../press-management/journal-management-press-level.md)
 - [Manage users across every journal](../press-management/managing-users-at-press-level.md) from the **All users** interface, filtering by activity, staff status, role, and journal.
 - [Merge duplicate user accounts](../press-management/managing-users-at-press-level.md#merging-users) through the **Merge users** interface.
- 
+
 Some settings are worth setting once at press level rather than journal by journal, including DOI settings, review guidelines, copyright submission labels, the default theme, and publisher details. For guidance, see [Journal management at press level](../press-management/journal-management-press-level.md) and [managing users at press level](../press-management/managing-users-at-press-level.md).
 
 ## Navigating a repository
- 
+
 Janeway can host repositories for preprints and similar material alongside journals on the same press. Repositories have their own manager, rather than sitting inside a journal's back office.
- 
-If your press has repositories enabled, you can find the repository list underneath the journals list of the press manager. From there you can access, manage and configure your repository. 
+
+If your press has repositories enabled, you can find the repository list underneath the journals list of the press manager. From there you can access, manage and configure your repository.
 
 ![The repository list on the press manager page.](../images/repository-list.png)
 
 See [Repository documentation](../repository/index.md) for more information on repositories.
 
 ## Navigating the admin area
- 
+
 The admin area is Janeway's underlying database interface. To open it, select the account icon in the top-right corner and then select **Admin**. It is available to users with staff permission.
- 
+
 ![The admin interface in dark mode](../images/admin-area.png)
- 
+
 There are two key things to consider when using the admin area:
- 
+
 - It is organised into tables that mirror the database structure, grouped by the part of Janeway they belong to. This ordering comes from the software architecture itself and cannot be rearranged. For more information on the technical aspects of the admin interface and how it works, see the [Django admin site documentation](https://docs.djangoproject.com/en/6.0/ref/contrib/admin/).
 - It edits records directly. The validation, permission checks, and email prompts built into the back office do not apply here. It also does NOT have an option to undo work and deletions from the admin are are permanent. Most editorial work never requires the admin area, but there examples of tasks done through admin include:
- 
+
 - Core \> Settings  
-  Adjust which roles can view and edit an individual setting, using the `editable_by` field. See [Granular settings permissions](../accounts-and-roles/roles-and-permissions-on-janeway.md#granular-settings-permissions-staff-only---advanced).
+  Adjust which roles can view and edit an individual setting, using the `editable_by` field. See [Granular settings permissions](../accounts-and-roles/roles-and-permissions-on-janeway.md#granular-settings-permissions-advanced).
 - Core \> Accounts  
   Inspect an account record when troubleshooting a sign-in problem. See [Account troubleshooting](./account-troubleshooting.md).
 - Journal \> Journals  
@@ -185,3 +185,5 @@ There are two key things to consider when using the admin area:
 
 > [!CAUTION]
 > Edits made in the admin area take effect immediately and are not reversible. If you are unsure about a change, contact your system administrator before you make it.
+
+## What to read next
