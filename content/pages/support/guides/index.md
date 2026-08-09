@@ -7,6 +7,7 @@ This is a landing page for guides available.
 ## Troubleshooting
 
 ## Setup and configuration
- - Getting started guide
+
+- Getting started guide
 
 _Coming soon_

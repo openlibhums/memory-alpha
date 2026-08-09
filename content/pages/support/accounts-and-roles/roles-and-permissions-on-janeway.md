@@ -89,7 +89,7 @@ There is no interface for updating the roles that can access the licences and se
 By default, both settings read `["editor", "journal-manager"]`. If, for example, you wanted to stop editors from editing licences, you could change it to read `["journal-manager"]`. Once saved, only users with the journal manager role will be able to access the licences
 pages.
 
-### Granular settings permissions (staff only - advanced)
+### Granular settings permissions (advanced)
 
 Users with staff permission can control which roles can view and edit individual settings via the **Admin area** (Core \> Settings), using the `editable_by` field.
 
