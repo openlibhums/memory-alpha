@@ -1,8 +1,8 @@
 # Setting up your journal
 
-This guide takes you through setting up a journal on Janeway, from creating it to opening submissions. The stages appear in the order you would normally work through them, and each one links to a reference page if you need more detail.
+This guide takes you through setting up a journal on Janeway, from creating it to opening submissions. The stages appear in the order you might work through them - although the later stages especially could be done in a differentorder. Each one section to a reference page if you need more detail.
  
-You do not have to do everything in one sitting. Most settings can be changed later, and the guide flags the few that are awkward to undo.
+You do not have to do everything in one sitting. Most settings can be changed later or handled when working through submissions (webcontent, email reminders, styling etc.)
 
 ## In this guide
 
@@ -189,6 +189,52 @@ For more information, see: [Submissions](../submission/index.md)
 
 ### Setting up review
 
+In terms of setting it up, peer review has two aspects to it: the settings that shape the process and the review forms/questions used.
+
+The settings you are most likely to want to review and/or edit:
+
+- Default review visibility  
+   Determines whether the default review visibility is open, single anonymous or double anonymous.
+
+- Review guidelines  
+   Set the general guidance for reviewers which appears on the review page.
+
+- Default review days  
+   The default length for how long reviewers have to complete a review.
+
+- Default review form  
+  Sets the default form used for completing reviews.
+
+- One-click peer review  
+  One-click access adds a unique token to the link in the review request email, so reviewers can complete a review without signing in.
+
+>[!TIP]
+>We recommend turning on one-click peer review, as it makes process significantly easier for reviewers.
+
+For the review form, Janeway will come with a basic review form called 'Default form' with a single text area for the review. This can be edited or replaced with a more detailed or structured form, through the **Review forms** page, available on the manager dashboard.
+
+> [!WARNING]
+> Deleting a review form cannot be undone. Ongoing and past reviews keep the form they used, but the form can no longer be selected for new reviews.
+
+For more information, see: [Review](../review/index.md)
+   
+## Stage 3 
+
+### Adding users and assigning roles
+
+### Setting up the editorial team page
+
+### Setting up the contacts page
+
+## Stage 4
+
+### Setting up DOIs
+
+### Creating issues
+
+## Stage 5
+
+### Adding webcontent
 
 //
 
