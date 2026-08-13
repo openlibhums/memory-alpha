@@ -169,6 +169,24 @@ For more information on configuring licences, see the [Licence manager](../submi
 
 ### Setting up submissions
 
+The submission process setup has four parts, all reached from the manager dashboard:
+1. Submission settings
+    This controls the process itself; whether submissions are open, who is notified upon submission, whether to limit filetypes, etc.
+
+2. Submission page items
+    This controls various blocks on the public submission page (the page with information before starting a submission) which are also visible during the submission itself. E.g., the submission checklist, focus and scope and licences will all appear before as well as during submission.
+
+3. Submission fields configuration
+    This controls which fields are shown to authors during submissions, as Janeway comes with a set of default fields, but you may not wish to use all of them.
+
+4. Additional submission fields
+  This lets you set up additional submission fields and questions.
+
+>[!TIP]
+>You may wish to leave submissions disabled until your sections, licences, review settings, and editor accounts are setup. It is easier handling submissions when all is ready, though his is not necessary.
+
+For more information, see: [Submissions](../submission/index.md)
+
 ### Setting up review
 
 
