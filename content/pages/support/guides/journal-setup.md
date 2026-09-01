@@ -281,11 +281,11 @@ Janeway has the option to link out to an accessibility statement through the foo
 
 ## Final checks
 
-You may wish to confirm the following are all in place, before turning on subissions:
+You may wish to confirm the following are all in place, before turning on submissions:
 
 - General settings are complete; including journal title, ISSN, publisher details, and contact email.
 - The journal default images have been uploaded.
-- Article types are set up and, if using, the right editors are notified for them.
+- Article types are set up and, if you wish to auto-notify editors of new submission for specific article types, the right editors are notified for them.
 - The correct licences are listed for the journal.
 - Any hidden submission fields have defaults set.
 - Submission page text is written: focus and scope, checklist, copyright notice, fees, and acceptance criteria. If fields are not used, make sure they are turned off.
