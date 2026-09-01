@@ -1,14 +1,14 @@
 # Setting up your journal
 
-This guide takes you through setting up a journal on Janeway, looking at creating the journal, configuring it and opening submissions. You will not necessarily need to work through them stage by stage, as many of these steps (beyond the very first one) can be done in different orders (but there will be the occasionaly dependency) and you may wish to return to various aspects of the journal configuration later. Each section contains a link to the wider documentation with more detail on how to perform tasks.
- 
-You do not have to do everything in one sitting. Most settings can be changed later or handled when working through submissions (webcontent, email reminders, styling etc.)
+This guide takes you through setting up a journal on Janeway, looking at creating the journal, configuring it and opening submissions. You will not necessarily need to work through it stage by stage, as many of these steps (beyond the very first one) can be done in different orders (but there will be the occasional dependency) and you may wish to return to various aspects of the journal configuration later. Each section contains a link to the wider documentation with more detail on how to perform tasks.
+
+You do not have to do everything in one sitting. Most settings can be changed later or handled when working through submissions (web content, email reminders, styling etc.)
 
 ## Before you start
 
 ### Who can set up a journal
 
-Creating a journal happens at press level and needs staff permission. If you are an editor, you cannot do this yourself - you will need to contact your press manager or systemn administrator. Once the journal exists and you have the editor or journal manager role, you can work through the rest of this guide.
+Creating a journal happens at press level and needs staff permission. If you are an editor, you cannot do this yourself - you will need to contact your press manager or system administrator. Once the journal exists and you have the editor or journal manager role, you can work through the rest of this guide.
 
 Everything after [Creating a journal](#creating-a-journ) is available to editors and journal managers, with two exceptions noted in the text: press-level settings and the admin area. For a full breakdown of who can do what, see [Roles and permissions on Janeway](../accounts-and-roles/roles-and-permissions-on-janeway.md). If you have not worked in Janeway before, read [Navigating Janeway](./navigating-janeway.md) first so the interfaces mentioned below make sense.
 
@@ -20,24 +20,25 @@ Gathering this information before getting started and keeping it nearby will mak
 - Journal ISSN, if you have one.
 - Publisher name, website and contact email address.
 - Journal logo, default issue cover, default banner image.
-- If using, your Crossref prefix and credentials.
+- If using Crossref, your Crossref prefix and credentials.
 - The names and email addresses of editors.
 
 Optional information that may be helpful:
+
 - A postal address; certain indexers require them.
 - The names and email addresses of your editorial board.
 - A list of the licenses used for the journal.
 
 ## Stage 1
 
-###  Creating a journ
+### Creating a journal
 
-A press manager creates the journal from the **Press manager**, clicking **Add new journal**.
- 
+A press manager creates the journal from the **Press manager**, by clicking **Add new journal**.
+
 ![The add new journal form in the Press manager](../images/add-new-journal.png)
- 
+
 You will need to fill in the following:
- 
+
 - Journal code  
   A short abbreviation or word that identifies the journal, for example `orbit`. In path mode, this appears in the journal's web address.
 
@@ -45,23 +46,23 @@ You will need to fill in the following:
   Only needed if the journal runs on its own domain. Additional settings will need to be configured by your system administrator.
 
 The code is the only required field. If you are using domain mode, you can configure the domain later.
- 
+
 Janeway serves journals in one of two ways:
- 
+
 - Path mode  
   All journals share the press domain, and the journal code identifies each one, for example `www.pressdomain.com/orbit`.
 
 - Domain mode  
   Each journal has its own domain, for example `www.myjournal.com`.
 
-After clicking **Add new journal** you are taken to the new journal's general settings page, where you can also fill in the journal name. 
+After clicking **Add new journal** you are taken to the new journal's general settings page, where you can also fill in the journal name.
 
 It is recommended to turn on **Hide from press** by ticking the box with this setting whilst you are setting up the journal, so the journal isn't listed on the press website.
 
 ### Set the general settings
 
-After creating a journal and clicking  **Add new journal**, you will be taken to the journal's general settings page. You can also find this page on the manager dashboard by clicking on **Journal settings**.
- 
+After creating a journal and clicking **Add new journal**, you will be taken to the journal's general settings page. You can also find this page on the manager dashboard by clicking on **Journal settings**.
+
 ![Where the find the general settings.](../images/manager-general.png)
 
 The general settings page lists many settings, but the following may be especially relevant when setting up a journal:
@@ -72,7 +73,7 @@ The general settings page lists many settings, but the following may be especial
 - Publisher information  
   Publisher name, website, and contact details.
 
-- Email settings
+- Email settings  
   The addresses Janeway uses for automated emails.
 
 - Language settings  
@@ -93,7 +94,7 @@ For mor information, see [Journal settings](../journal-management/journal-settin
 ### Designing your journal
 
 Janeway from 1.9 onwards has four themes: Clean, Material, OLH and Clarity. Clarity is only available from 1.9 onwards. They share the same features and content, but differ in layout and how prominently they use images.
-Clarity is the most accessible theme as of 1.9, Clean is the most accessible before 1.9. The theme setting is found on the **General** page under **Journal settings**.
+Clarity is the most accessible theme as of 1.9, and Clean is the most accessible before 1.9. The theme setting is found on the **General** page under **Journal settings**.
 
 In addition to setting a theme, you may wish to upload default images. These images act as fallbacks: if an article or issue has no image of its own, Janeway uses the journal default.
 
@@ -131,8 +132,8 @@ By default, Janeway has the following stages:
 
 These can be edited, reordered and removed by someone with the staff permission through the **Workflow** page, which is accessible through the left-hand side menu.
 
->[!WARNING]
->Removing stages may have unintended consequences, only do this if you are comfortable doing this. Otherwise, contact your system administrator.
+> [!WARNING]
+> Removing stages may have unintended consequences, only do this if you are comfortable doing this. Otherwise, contact your system administrator.
 
 ### Setting up article types (sections)
 
@@ -140,36 +141,37 @@ Article types (sections) are used to categorise articles by content type, e.g., 
 
 If your journal only publishes one article type, you can hide the section field during submission using the submission fields configurator. See [Managing submission fields](../submission/managing-submission-fields.md) for more information. If you do, set a default section so the information still reaches the article metadata.
 
->[!NOTE]
->A section cannot be deleted once articles are assigned to it. To remove a section that contains articles, first move every article to a different section. It is worth getting your section list roughly right before you open submissions.
+> [!NOTE]
+> A section cannot be deleted once articles are assigned to it. To remove a section that contains articles, first move every article to a different section. It is worth getting your section list roughly right before you open submissions.
 
 For more information on configuring sections, see the documentation on [Article sections](../article-management/article-sections.md)
 
 ### Setting up licenses
 
-Authors can chose a licence when they submit, so the licence list needs to be right before submissions open. Janeway comes lists the CC 4.0 licences and All Rights Reserved licence by default. Edit this list from the **Licence manager** which can be found on the manager dashboard.
+Authors can choose a licence when they submit, so the licence list needs to be right before submissions open. Janeway lists the CC 4.0 licences and the All Rights Reserved licence by default. Edit this list from the **Licence manager** which can be found on the manager dashboard.
 
-Similarly to sections, if journal only publishes with a single licence, you can hide the submission selection field during submission <!-- mising hyperlink-->. If you do, set a default licence so the information still reaches the article metadata.
+Similarly to sections, if journal only publishes with a single licence, you can hide the submission selection field during submission<!-- mising hyperlink-->. If you do, set a default licence so the information still reaches the article metadata.
 
 For more information on configuring licences, see the [Licence manager](../submission/licence-manager.md)
 
 ### Setting up submissions
 
 The submission process setup has four parts, all reached from the manager dashboard:
-1. Submission settings
-    This controls the process itself; whether submissions are open, who is notified upon submission, whether to limit filetypes, etc.
 
-2. Submission page items
-    This controls various blocks on the public submission page (the page with information before starting a submission) which are also visible during the submission itself. E.g., the submission checklist, focus and scope and licences will all appear before as well as during submission.
+1. Submission settings  
+   This controls the process itself; whether submissions are open, who is notified upon submission, whether to limit filetypes, etc.
 
-3. Submission fields configuration
-    This controls which fields are shown to authors during submissions, as Janeway comes with a set of default fields, but you may not wish to use all of them.
+2. Submission page items  
+   This controls various blocks on the public submission page (the page with information before starting a submission) which are also visible during the submission itself. E.g., the submission checklist, focus and scope and licences will all appear before as well as during submission.
 
-4. Additional submission fields
-  This lets you set up additional submission fields and questions.
+3. Submission fields configuration  
+   This controls which fields are shown to authors during submissions, as Janeway comes with a set of default fields, but you may not wish to use all of them.
 
->[!TIP]
->You may wish to leave submissions disabled until your sections, licences, review settings, and editor accounts are setup. It is easier handling submissions when all is ready, though his is not necessary.
+4. Additional submission fields  
+   This lets you set up additional submission fields and questions.
+
+> [!TIP]
+> You may wish to leave submissions disabled until your sections, licences, review settings, and editor accounts are setup. It is easier handling submissions when all is ready, though this is not necessary.
 
 For more information, see: [Submissions](../submission/index.md)
 
@@ -194,8 +196,8 @@ The settings you are most likely to want to review and/or edit:
 - One-click peer review  
   One-click access adds a unique token to the link in the review request email, so reviewers can complete a review without signing in.
 
->[!TIP]
->We recommend turning on one-click peer review, as it makes process significantly easier for reviewers.
+> [!TIP]
+> We recommend turning on one-click peer review, as it makes the process significantly easier for reviewers.
 
 For the review form, Janeway will come with a basic review form called 'Default form' with a single text area for the review. This can be edited or replaced with a more detailed or structured form, through the **Review forms** page, available on the manager dashboard.
 
@@ -203,8 +205,8 @@ For the review form, Janeway will come with a basic review form called 'Default 
 > Deleting a review form cannot be undone. Ongoing and past reviews keep the form they used, but the form can no longer be selected for new reviews.
 
 For more information, see: [Review](../review/index.md).
-   
-## Stage 3 
+
+## Stage 3
 
 ### Adding users and assigning roles
 
@@ -214,6 +216,7 @@ Authors will have accounts created when they submit an article and reviewers can
 If you have a large number of editors or reviewers to add, you can use the [import plugin](../plugins/imports-plugin.md).
 
 It is, however, also possible to manually add accounts:
+
 1. Go to **Journal users** on the manager dashboard.
 2. Click **Add new user**
 3. Fill in their name, email address, set their account to active and set a password.
@@ -227,7 +230,7 @@ For more information, see: [User management](../accounts-and-roles/index.md).
 
 The editorial team page is composed of groups, each with a name, description, and list of members. Open it from Content on the manager dashboard. To set up an editorial team page, click **Editorial team** on the manager dashboard. Before someone can be added to a group on the editorial team page, they must have an account. If a large number of your board members don't have an account, there are three options:
 
-1. Use the [editorial team import](../plugins/imports-editorial-team.md), which can create groups without needing to setup accounts (especially helpful for large groups)
+1. Use the [editorial team import](../plugins/imports-editorial-team.md), which can create groups without needing to set up accounts (especially helpful for large groups)
 2. List names directly in the group description, using the text editor.
 3. Create "dummy" accounts through the **Journal users** interface, using a placeholder email address (not recommended if the board member will need to be able to log into Janeway).
 
@@ -235,7 +238,7 @@ For more information, see: [Editorial team page](../journal-management/editorial
 
 ### Setting up the contacts page
 
-The contact page contains a form which allows people vising the journal website to contact you. Email addresses are never shown publicly; visitors only see a name and role Every message is recorded and send to the address specified through the contacts page settings. A copy of every message is also saved to Janeway and can be viewed in the admin area by staff.
+The contact page contains a form which allows people vising the journal website to contact you. Email addresses are never shown publicly; visitors only see a name and role. Every message is recorded and sent to the address specified through the contacts page settings. A copy of every message is also saved to Janeway and can be viewed in the admin area by staff.
 
 For more information, see: [Contacts page](../journal-management/journal-contacts.md)
 
@@ -248,6 +251,7 @@ Janeway can register DOIs with either Crossref or DataCite. It will initially re
 You will require a DataCite or Crossref membership, a DOI prefix (e.g. 10.xxxx) and the account credentials. These will be provided by Crossref or Datacite, not Janeway. For more information see: [Identifiers](../identifiers/index.md)
 
 If you run several journals, Crossref settings can be set once at press level and overridden per journal. See [DOI management at press level](../press-management/doi-management-at-press-level.md)
+
 <!-- include DOI management at press level link in identifiers index in next PR-->
 
 ### Creating issues
@@ -256,24 +260,24 @@ Articles on Janeway do not require an issue, but services such as Crossref expec
 
 Create issues from the **Issue manager**, available from both the manager dashboard and the sidebar.
 
->[!Warning]
->Do not use volume 0, issue 0. Imported articles with no volume and issue number are assigned there by default, so it is best to keep this volume clear.
+> [!Warning]
+> Do not use volume 0, issue 0. Imported articles with no volume and issue number are assigned there by default, so it is best to keep this volume clear.
 
 For more information, see: [Issue management](../issues-volumes-and-collections/index.md)
 
 ## Stage 5
 
-### Adding webcontent
+### Adding web content
 
-You may wish to add additional pages with information to your website, such as journal policies, author guidelines, an about page etc. Additional, custom pages can be created through the **Content manager** page, which is found on the manager dashboard.
+You may wish to add additional pages with information to your website, such as journal policies, author guidelines, or an about page. Additional, custom pages can be created through the **Content manager** page, which is found on the manager dashboard.
 
-1. To read more about adding pages, see: [Content manager](../journal-management/janeway-content-manager.md)
-2. To read more about editing the navbar, see: [Navigation](../journal-management/navigation.md)
-3. To read more about configuring the journal homepage, see: [Journal homepage customisation](../journal-management/homepage-customisation.md)
-4. To read more about adding news items, see: [News manager](../journal-management/news-manager.md)
+- To read more about adding pages, see: [Content manager](../journal-management/janeway-content-manager.md)
+- To read more about editing the navbar, see: [Navigation](../journal-management/navigation.md)
+- To read more about configuring the journal homepage, see: [Journal homepage customisation](../journal-management/homepage-customisation.md)
+- To read more about adding news items, see: [News manager](../journal-management/news-manager.md)
 
->[!TIP]
->If a change is not visible on the website and you are certain you clicked **Save** where appropriate, try [clearing your cache](../journal-management/clearing-the-cache.md).
+> [!TIP]
+> If a change is not visible on the website and you are certain you clicked **Save** where appropriate, try [clearing your cache](../journal-management/clearing-the-cache.md).
 
 ### Adding an accessibility statement
 
@@ -291,10 +295,11 @@ You may wish to confirm the following are all in place, before turning on submis
 - Submission page text is written: focus and scope, checklist, copyright notice, fees, and acceptance criteria. If fields are not used, make sure they are turned off.
 - Review settings are configured; including visibility, review days, and the default review form.
 - Your editorial team and contacts pages are populated.
-- If using: make sure that Crossref or Datacite is setup.
+- If using DOIs: make sure that Crossref or Datacite is setup.
 
 You can turn submissions on by unchecking the **Disable submissions** box on the **Submission settings** page.
->[!TIP]
+
+> [!TIP]
 > You may wish to create a test submission yourself, before publicising the journal. Going through the submission process yourself is the easiest way to check if all looks correct. You can archive the submission once you are done. See [Article management - Archiving an article](../article-management/articles-management.md#archiving-an-article) for more information.
 
 ## What to read next
