@@ -93,6 +93,26 @@
     },
     {
       "type": "Feature",
+      "id": 5389489,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-121.4944, 38.58157]
+      },
+      "properties": {
+        "name": "Sacramento",
+        "continent": "North America",
+        "installations": [
+          [
+            "Animation Studies Journal",
+            "https://journal.animationstudies.org/",
+            "https://ror.org/033nhp016",
+            "paid"
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": 5318313,
       "geometry": {
         "type": "Point",
@@ -670,7 +690,7 @@
         "installations": [
           [
             "University of Tennessee Libraries",
-            "",
+            "https://voljournals.utk.edu/",
             "https://ror.org/020f3ap87",
             "paid"
           ]
