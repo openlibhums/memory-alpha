@@ -65,29 +65,6 @@
               Account troubleshooting
             {% endcall %}
           {% endcall %}
-          {% call h3() %}
-            Analytics
-          {% endcall %}
-          {% call list() %}
-            {% call item(href="analytics/reporting.html") %}
-              Reporting plugin
-            {% endcall %}
-          {% endcall %}
-          {% call h3() %}
-            Identifiers
-          {% endcall %}
-          {% call list() %}
-            {% call item(href="identifiers/crossref-article-doi.html") %}
-              Crossref article DOI
-            {% endcall %}
-            {% call item(href="identifiers/crossref-issue-doi.html") %}
-              Crossref issue DOI
-            {% endcall %}
-            {% call item(href="plugins/datacite.html") %}
-              Datacite plugin
-            {% endcall %}
-          {% endcall %}
-        {% endcall %}
         {% call column() %}
           {% call h3(href="article-management/index.html") %}
             Article management
@@ -109,24 +86,21 @@
               Article sections
             {% endcall %}
           {% endcall %}
-          {% call h3(href="email-and-reminders/index.html") %}
+          {% call h3() %}
             Email and reminders
           {% endcall %}
           {% call list() %}
+            {% call item(href="email-and-reminders/index.html") %}
+              Emails and reminders - overview
+            {% endcall %}
             {% call item(href="email-and-reminders/scheduling-reminders.html") %}
               Email reminders
             {% endcall %}
             {% call item(href="email-and-reminders/email-logs.html") %}
               Email logs
             {% endcall %}
-            {% call item(href="email-and-reminders/publication-notifications.html") %}
-              Publication notifications
-            {% endcall %}
             {% call item(href="email-and-reminders/email-templates.html") %}
               Email templates
-            {% endcall %}
-            {% call item(href="email-and-reminders/email-template-variables.html") %}
-              Email template variables
             {% endcall %}
           {% endcall %}
         {% endcall %}
