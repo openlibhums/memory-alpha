@@ -46,13 +46,43 @@
               Setting up a journal
             {% endcall %}
           {% endcall %}
+          {% call h3() %}
+            Journal management
+          {% endcall %}
+          {% call list() %}
+            {% call item (href="journal-management/index.html") %}
+              Journal management overview
+            {% endcall %}
+            {% call item(href="accessibility/index.html") %}
+              Accessibility
+            {% endcall %}
+            {% call item(href="analytics/index.html") %}
+              Analytics
+            {% endcall %}
+            {% call item(href="journal-management/image-guidelines.html") %}
+              Image guidelines
+            {% endcall %}
+          {% endcall %}
+          {% call h3() %}
+            Press management
+          {% endcall %}
+          {% call list() %}
+            {% call item(href="press-management/index.html") %}
+              Press management overview
+            {% endcall %}
+            {% call item(href="press-management/journal-management-press-level.html") %}
+              Journal management at the press level
+            {% endcall %}
+            {% call item(href="press-management/doi-management-at-press-level.html") %}
+              DOI management at the press level
+            {% endcall %}
+          {% endcall %}
         {% endcall %}
 
         {% call column() %}
           {% call h3() %}
             Accounts and roles
           {% endcall %}
-
           {% call list() %}
             {% call item(href="accounts-and-roles/index.html") %}
               Accounts and roles overview
@@ -67,29 +97,53 @@
               Account troubleshooting
             {% endcall %}
           {% endcall %}
-        {% endcall %}
 
-        {% call column() %}
-          {% call h3(href="article-management/index.html") %}
-            Article management
+          {% call h3() %}
+            Articles
           {% endcall %}
           {% call list() %}
+            {% call item(href="article-management/index.html") %}
+              Articles overview
+            {% endcall %}
             {% call item(href="article-management/articles-management.html") %}
               Article management
             {% endcall %}
-            {% call item(href="article-management/article-galleys.html") %}
-              Article galleys
+            {% call item(href="identifiers/index.html") %}
+              Identifiers
             {% endcall %}
-            {% call item(href="article-management/article-images.html") %}
-              Article images
-            {% endcall %}
-            {% call item(href="article-management/article-metadata.html") %}
-              Article metadata
-            {% endcall %}
-            {% call item(href="article-management/article-sections.html") %}
-              Article sections
+            {% call item(href="issues-volumes-and-collections/index.html") %}
+              Issues and volumes
             {% endcall %}
           {% endcall %}
+        {% endcall %}
+
+        {% call column() %}
+          
+
+          {% call h3(href="review/index.html") %}
+            Review
+          {% endcall %}
+          {% call list() %}
+            {% call item(href="review/review-settings.html") %}
+              Review settings
+            {% endcall %}
+            {% call item(href="review/review-forms.html") %}
+              Review forms
+            {% endcall %}
+          {% endcall %}
+        {% endcall %}
+
+        {% call column() %}
+
+          {% call h3() %}
+            Repository
+          {% endcall %}
+          {% call list() %}
+            {% call item(href="repository/index.html") %}
+              Repository overview
+            {% endcall %}
+          {% endcall %}
+
           {% call h3() %}
             Email and reminders
           {% endcall %}
@@ -105,48 +159,6 @@
             {% endcall %}
             {% call item(href="email-and-reminders/email-templates.html") %}
               Email templates
-            {% endcall %}
-          {% endcall %}
-        {% endcall %}
-        {% call column() %}
-          {% call h3(href="journal-management/index.html") %}
-            Journal management
-          {% endcall %}
-          {% call list() %}
-            {% call item(href="journal-management/journal-settings.html") %}
-              Journal settings
-            {% endcall %}
-            {% call item(href="journal-management/carousel.html") %}
-              Carousel configuration
-            {% endcall %}
-            {% call item(href="journal-management/janeway-content-manager.html") %}
-              Content manager
-            {% endcall %}
-            {% call item(href="journal-management/editorial-team.html") %}
-              Editorial team
-            {% endcall %}
-            {% call item(href="journal-management/homepage-customization.html") %}
-              Homepage customisation
-            {% endcall %}
-            {% call item(href="journal-management/journal-contacts.html") %}
-              Journal contacts
-            {% endcall %}
-          {% endcall %}
-          {% call h3(href="review/index.html") %}
-            Review
-          {% endcall %}
-          {% call list() %}
-            {% call item(href="review/review-settings.html") %}
-              Review settings
-            {% endcall %}
-            {% call item(href="review/review-forms.html") %}
-              Review forms
-            {% endcall %}
-            {% call item(href="review/open-peer-review.html") %}
-              Open peer review
-            {% endcall %}
-            {% call item(href="review/triple-anonymous-peer-review.html") %}
-              Triple anonymous peer review
             {% endcall %}
           {% endcall %}
         {% endcall %}
