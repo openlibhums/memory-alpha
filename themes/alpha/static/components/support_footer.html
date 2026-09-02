@@ -47,10 +47,12 @@
             {% endcall %}
           {% endcall %}
         {% endcall %}
+
         {% call column() %}
           {% call h3() %}
             Accounts and roles
           {% endcall %}
+
           {% call list() %}
             {% call item(href="accounts-and-roles/index.html") %}
               Accounts and roles overview
@@ -65,6 +67,8 @@
               Account troubleshooting
             {% endcall %}
           {% endcall %}
+        {% endcall %}
+
         {% call column() %}
           {% call h3(href="article-management/index.html") %}
             Article management
