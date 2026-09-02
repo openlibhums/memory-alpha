@@ -118,8 +118,6 @@
         {% endcall %}
 
         {% call column() %}
-          
-
           {% call h3(href="review/index.html") %}
             Review
           {% endcall %}
@@ -129,6 +127,20 @@
             {% endcall %}
             {% call item(href="review/review-forms.html") %}
               Review forms
+            {% endcall %}
+          {% endcall %}
+          {% call h3() %}
+            Submission
+          {% endcall %}
+          {% call list() %}
+            {% call item(href="submission/index.html") %}
+              Submission overview
+            {% endcall %}
+            {% call item(href="submission/submission-settings.html") %}
+              Submission settings
+            {% endcall %}
+            {% call item(href="submission/submission-forms.html") %}
+              Submission forms
             {% endcall %}
           {% endcall %}
         {% endcall %}
@@ -159,6 +171,17 @@
             {% endcall %}
             {% call item(href="email-and-reminders/email-templates.html") %}
               Email templates
+            {% endcall %}
+          {% endcall %}
+          {% call h3() %}
+            Plugins
+          {% endcall %}
+          {% call list() %}
+            {% call item(href="plugins/index.html") %}
+              All plugins 
+            {% endcall %}
+            {% call item(href="plugins/plugin-settings.html") %}
+              Plugin settings
             {% endcall %}
           {% endcall %}
         {% endcall %}
