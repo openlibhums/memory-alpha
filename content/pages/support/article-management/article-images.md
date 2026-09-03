@@ -1,0 +1,51 @@
+# Article images
+
+Articles have three images that are used for display:
+
+## Large landscape image
+
+![An example of the landscape image in an article heading](../images/large-image-article.png)
+
+This image is used in the heading of the article page (also called a 'hero image'). This image will also be used in the carousel, popular articles and featured articles sections on the homepage, if those are enabled and an article is added to it. It is also used as the meta image if none is supplied.
+
+![Example of the landscape image on the homepage using the OLH theme.](../images/large-image-homepage.png)
+
+We recommend a size of 1500px by 648px. For information, see [Image guidelines](../journal-management/image-guidelines.md#large-image).
+
+Generally, large, landscape images are recommended to be used for the large image and avoiding images with people or bodies due to potential unexpected cropping.
+
+If no landscape image is uploaded, the **Default large image** will be used where the landscape image is set to display.
+
+## Thumbnail image
+
+The thumbnail is a small square image displayed on pages listing articles such as the **All articles** or the **Issue articles** list. A square image about 432px tall and wide is best.
+
+![" "](../images/thumbnails-article-list.png)
+
+Make sure to set a default image that can show when no individual thumbnail is set. This can be done through **Images** under **Journal settings** on the Manager dashboard.
+
+## Meta image
+
+The meta image allows you to override the image displayed on social media when the article is shared. If no meta image is supplied, the large image is used, but it may not display correctly due to its size.
+
+![Example of a meta image on BlueSky](../images/meta-image-bsky.png)
+
+## Article images manager
+
+The Article images manager is an interface for editing all of the images for a given article. To edit the images for a given article through the Article images manager, click on **Edit image**.
+
+This page is split into three blocks; one for the large image, one for the thumbnail and one for the meta image.
+![Article images page with no images uploaded](../images/images-manager-blank.png)
+
+You can upload an image by:
+
+1. Clicking **Choose file**.
+2. Selecting a saved image
+3. Clicking **Upload**.
+
+Once images are uploaded, the page will look similar to the following:
+![Article images page with all three images uploaded](../images/images-manager-full.png)
+
+The large image and thumbnail will display a preview and can be removed by clicking **Delete**. The meta image will not display a preview and can be removed by checking the **Clear** box and then clicking **Upload**.
+
+See also: [Image guidelines](../journal-management/image-guidelines.md).
