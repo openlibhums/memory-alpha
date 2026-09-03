@@ -78,7 +78,7 @@
             {% endcall %}
           {% endcall %}
         {% endcall %}
- 
+
         {% call column() %}
           {% call h3() %}
             Accounts and roles
@@ -97,7 +97,9 @@
               Account troubleshooting
             {% endcall %}
           {% endcall %}
+        {% endcall %}
 
+        {% call column() %}
           {% call h3() %}
             Articles
           {% endcall %}
@@ -115,18 +117,18 @@
               Issues and volumes
             {% endcall %}
           {% endcall %}
-        {% endcall %}
-
-        {% call column() %}
-          {% call h3(href="review/index.html") %}
+          {% call h3(href="") %}
             Review
           {% endcall %}
           {% call list() %}
-            {% call item(href="review/review-settings.html") %}
-              Review settings
+            {% call item(href="review/index.html") %}
+              Review overview
             {% endcall %}
             {% call item(href="review/review-forms.html") %}
               Review forms
+            {% endcall %}
+            {% call item(href="review/review-settings.html") %}
+              Review settings
             {% endcall %}
           {% endcall %}
           {% call h3() %}
@@ -136,11 +138,11 @@
             {% call item(href="submission/index.html") %}
               Submission overview
             {% endcall %}
+            {% call item(href="submission/configuring-the-submission-page.html") %}
+              Configuring the submission page
+            {% endcall %}
             {% call item(href="submission/submission-settings.html") %}
               Submission settings
-            {% endcall %}
-            {% call item(href="submission/submission-forms.html") %}
-              Submission forms
             {% endcall %}
           {% endcall %}
         {% endcall %}
@@ -184,14 +186,14 @@
           {% endcall %}
           {% call list() %}
             {% call item(href="plugins/index.html") %}
-              All plugins 
+              All plugins
             {% endcall %}
             {% call item(href="plugins/imports-plugin.html") %}
               Import plugin
             {% endcall %}
             {% call item(href="plugins/migrations-overview.html") %}
               Migration plugins
-            {% endcall  %}
+            {% endcall %}
             {% call item(href="plugins/discovery-overview.html") %}
               Discovery and archiving plugins
             {% endcall %}
