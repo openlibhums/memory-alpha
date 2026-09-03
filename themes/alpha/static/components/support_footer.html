@@ -46,6 +46,27 @@
               Setting up a journal
             {% endcall %}
           {% endcall %}
+          
+        {% endcall %}
+
+        {% call column() %}
+          {% call h3() %}
+            Accounts and roles
+          {% endcall %}
+          {% call list() %}
+            {% call item(href="accounts-and-roles/index.html") %}
+              Accounts and roles overview
+            {% endcall %}
+            {% call item(href="accounts-and-roles/managing-user-accounts.html") %}
+              Managing user accounts
+            {% endcall %}
+            {% call item(href="accounts-and-roles/activating-accounts.html") %}
+              Activating accounts
+            {% endcall %}
+            {% call item(href="guides/account-troubleshooting.html") %}
+              Account troubleshooting
+            {% endcall %}
+          {% endcall %}
           {% call h3() %}
             Journal management
           {% endcall %}
@@ -75,26 +96,6 @@
             {% endcall %}
             {% call item(href="press-management/doi-management-at-press-level.html") %}
               DOI management
-            {% endcall %}
-          {% endcall %}
-        {% endcall %}
-
-        {% call column() %}
-          {% call h3() %}
-            Accounts and roles
-          {% endcall %}
-          {% call list() %}
-            {% call item(href="accounts-and-roles/index.html") %}
-              Accounts and roles overview
-            {% endcall %}
-            {% call item(href="accounts-and-roles/managing-user-accounts.html") %}
-              Managing user accounts
-            {% endcall %}
-            {% call item(href="accounts-and-roles/activating-accounts.html") %}
-              Activating accounts
-            {% endcall %}
-            {% call item(href="guides/account-troubleshooting.html") %}
-              Account troubleshooting
             {% endcall %}
           {% endcall %}
         {% endcall %}
