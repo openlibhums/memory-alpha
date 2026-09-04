@@ -5,6 +5,7 @@ Janeway is an open-source publishing platform for scholarly journals, presses, a
 These pages explain how to use Janeway, whether you are running a journal, managing a press, reviewing a manuscript, or submitting your own work.
 
 ## Table of contents
+
 Each of the links listed below corresponds to a section of the documentation, ordered by theme. Each page will link to more detailed pages for more information on the topic.
 
 - [Accessiblity](../accessibility/index.md)
@@ -44,6 +45,7 @@ _Coming soon_
 ## All pages
 
 ## Getting help
+
 If the documentation does not answer your question, help is available.
 
 - For questions about your journal's policies and specific processes, ask your editor or press manager.
@@ -55,6 +57,7 @@ Please note that if you are a self-hosted user, the support team will not have a
 ## Developer docs
 
 ## About the docs
+
 - [About the documentation](../about/index.md)
 - [The documentation styleguide](../about/janeway-styleguide.md)
 - [Contributing to the documentation](../about/contributing-guide.md)
