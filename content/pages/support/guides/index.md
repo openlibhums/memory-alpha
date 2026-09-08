@@ -1,12 +1,12 @@
 # Janeway guides
 
-This is page lists the guides for using Janeway. Guides are grouped by theme and who they are for.
+This page lists the guides for using Janeway. Guides are grouped by theme and who they are for.
 
 ## Workflow guides
 
 - [Author guide](../guides/author-guide.md) - submitting an article and going through the publication process as an author.
 - [Reviewer guide](../guides/reviewer-guide.md) - accessing and completing reviews as a reviewer.
-- [Copyeditor guide](../guides/copyeditor-guide.md) - managing assignment as a copyeditor.
+- [Copyeditor guide](../guides/copyeditor-guide.md) - managing assignments as a copyeditor.
 - [Typesetter guide](../guides/typesetter-guide.md) - typesetting content on Janeway.
 
 - [Editor guide: overview](../guides/editor-guide-overview.md) - the stages of the editorial workflow, with links to each stage's specific guide.
@@ -15,7 +15,7 @@ This is page lists the guides for using Janeway. Guides are grouped by theme and
   - [Editor guide: review - draft decisions](../guides/editor-guide-to-draft-decisions.md) - how to work with section editors who can submit draft decisions for approval, before being sent to the author(s).
   - [Editor guide: copyediting](../guides/editor-guide-to-copyediting.md) - assigning and managing copyediting tasks.
   - [Editor guide: typesetting](../guides/editor-guide-to-typesetting.md) - the typesetting workflow(s) in Janeway, proofing and managing additional files.
-  - [Editor guide: typesetting - Pandoc](../guides/editor-guide-to-typesetting-with-pandoc.md) - typesetting using Pandoc for convert to HTML and PDF galleys.
+  - [Editor guide: typesetting - Pandoc](../guides/editor-guide-to-typesetting-with-pandoc.md) - typesetting using Pandoc for converting to HTML and PDF galleys.
   - [Editor guide: prepublication](../guides/editor-guide-to-prepub.md) - the final checks (metadata, issue, DOI, notifications, etc.) before an article is published.
 
 ## Setup and configuration
