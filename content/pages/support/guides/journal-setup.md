@@ -10,7 +10,7 @@ You do not have to do everything in one sitting. Most settings can be changed la
 
 Creating a journal happens at press level and needs staff permission. If you are an editor, you cannot do this yourself - you will need to contact your press manager or system administrator. Once the journal exists and you have the editor or journal manager role, you can work through the rest of this guide.
 
-Everything after [Creating a journal](#creating-a-journ) is available to editors and journal managers, with two exceptions noted in the text: press-level settings and the admin area. For a full breakdown of who can do what, see [Roles and permissions on Janeway](../accounts-and-roles/roles-and-permissions-on-janeway.md). If you have not worked in Janeway before, read [Navigating Janeway](./navigating-janeway.md) first so the interfaces mentioned below make sense.
+Everything after [Creating a journal](#creating-a-journal) is available to editors and journal managers, with two exceptions noted in the text: press-level settings and the admin area. For a full breakdown of who can do what, see [Roles and permissions on Janeway](../accounts-and-roles/roles-and-permissions-on-janeway.md). If you have not worked in Janeway before, read [Navigating Janeway](./navigating-janeway.md) first so the interfaces mentioned below make sense.
 
 ### Information you'll need
 
