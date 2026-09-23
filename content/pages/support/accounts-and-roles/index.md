@@ -14,15 +14,16 @@ There are two ways to create an account on Janeway:
 
 1. A user registers for an account through the journal website.
 2. An editor, press manager or member of staff can create an account through **Journal users**.
+   ![Manager dashboard with journal users-block highlighted.](../images/manager-journal-users.png)
 
 Generally, it is best to let a user register an account using the first option and then assign any roles as needed, see [Roles and permissions](./roles-and-permissions-on-janeway.md). If this is not possible, indivual user accounts can be created by following these steps:
 
 1. Go to the **Journal users** page on the Manager dashboard.
 2. Click **Add new user**
-3. Fill in the user's details.  
-   a. Make sure the **Is active** toggle is set to "Yes".
-   b. Except if this user requires staff permissions, make sure the **Is staff** permission is set to "No".
-   c. You will be required to set a password.
+3. Fill in the user's details.
+   - Make sure the **Is active** toggle is set to "Yes".
+   - Except if this user requires staff permissions, make sure the **Is staff** permission is set to "No".
+   - You will be required to set a password.
 4. Click **Save**.
 
 The user can now either login after requesting a password reset link, through the journal website, or you could send a user their password. The latter is discouraged, as this introduces security risks.

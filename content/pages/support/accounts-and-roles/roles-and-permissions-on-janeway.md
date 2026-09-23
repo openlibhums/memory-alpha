@@ -78,7 +78,7 @@ Janeway allows more granular permissions for journal managers and editors, using
 This can be used on the configuration of licences and sections as following:
 
 - Licences  
-  Permissions control whether users can access the licences control pages based on their roles, defaulting to Editor and Journal manager.  
+  Permissions control whether users can access the licences control pages based on their roles, defaulting to Editor and Journal manager.
 
 - Sections  
   Permissions control whether a user can access the sections control pages based on their roles, defaulting to Editor and Journal manager.
