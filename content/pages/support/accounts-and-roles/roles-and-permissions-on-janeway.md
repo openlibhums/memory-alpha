@@ -16,9 +16,8 @@ Janeway has a variety of roles available that can be assigned to users, some of 
 - Reviewer
 
 - Editor  
-  Editors handle processing of articles and assignment of tasks. An editor has access to the journal workflow, manager dashboard and journal settings, certain plugins and is able to do general journal management.
-  An editor does not have access to the admin area, press level settings and certain plugins.<br/>
-
+   Editors handle processing of articles and assignment of tasks. An editor has access to the journal workflow, manager dashboard and journal settings, certain plugins and is able to do general journal management. An editor does not have access to the admin area, press level settings and certain plugins.
+  <br/>
 - Journal manager  
   Journal managers have a similar level of permission to the editor role, but can be given additional access (see below).
 
