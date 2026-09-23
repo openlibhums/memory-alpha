@@ -2,6 +2,8 @@
 
 The **Users and roles** section of the Manager dashboard has various controls for managing users and permissions. Who can manage what will depend on their role and permissions associated with it.
 
+![The users and roles section of the manager dashboard highlighted.](../images/manager-users-roles.png)
+
 Editors and journal managers can:
 
 - Manage user accounts at the journal level.
@@ -35,7 +37,9 @@ This page cannot be used to delete accounts, only deactivate them. Accounts can 
 
 ## All press users
 
-Staff users can access a press-wide view of all accounts across press / the Janeway installation. This view is available from the **Press manager** interface only.
+Staff users can access a press-wide view of all accounts across press /orthe Janeway installation. This view is available from the **Press manager** interface only.
+
+![The press manager dashboard with All users highlighted.](../images/press-manager-all-users.png)
 
 ![The All Users page at the press level.](../images/press-all-users.png)
 
@@ -59,6 +63,8 @@ Some changes are restricted by permission level. For more information, see the [
 
 When users have multiple accounts (often due to different email addresses having been used), it may be helpful to merge accounts. Users with staff permission can merge two user accounts to remove duplicates, using the **Press manager interface**. When searching for users to merge, note that the user account in the left column (source account) will be merged into the user account in the right column (destination account).
 
+![The press manager dashboard with Merge users highlighted.](../images/press-manager-merge-users.png)
+
 ![The merge users page](../images/merge-users.png)
 
 > [!WARNING]
@@ -73,5 +79,7 @@ When accounts are merged:
 ## Authenticated users
 
 The **Authenticated users** page shows a list of users currently logged in to your Janeway installation.
+
+![The authenticated users section of the manager dashboard highlighted.](../images/manager-authenticated-users.png)
 
 This page is only accessible to users with staff permission.

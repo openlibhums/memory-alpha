@@ -13,16 +13,23 @@ Janeway has a variety of roles available that can be assigned to users, some of 
 - Author  
   Assigned automatically when a user registers with a journal or submits an article. This can be considered the "base role".
 - Reviewer
+
 - Editor  
   Editors handle processing of articles and assignment of tasks. An editor has access to the journal workflow, manager dashboard and journal settings, certain plugins and is able to do general journal management.
   An editor does not have access to the admin area, press level settings and certain plugins.
+
 - Journal manager  
   Journal managers have a similar level of permission to the editor role, but can be given additional access (see below).
+
 - Section editor  
   Section editors have access only to the workflow elements of articles assigned to them. They cannot access any articles not assigned to them, journal settings or plugins. This role is well-suited for editors who only need to handle specific articles within the journal, such as guest editors.
+
 - Copyeditor
+
 - Typesetter
+
 - Proofreader
+
 - Reader  
   This is not a role as such, but it is used to indicate whether a user is signed up for article publication notifications. For more information, see [Email notifications](../email-and-reminders/publication-notifications.md)
 
@@ -71,7 +78,7 @@ Janeway allows more granular permissions for journal managers and editors, using
 This can be used on the configuration of licences and sections as following:
 
 - Licences  
-  Permissions control whether users can access the licences control pages based on their roles, defaulting to Editor and Journal manager.
+  Permissions control whether users can access the licences control pages based on their roles, defaulting to Editor and Journal manager.  
 
 - Sections  
   Permissions control whether a user can access the sections control pages based on their roles, defaulting to Editor and Journal manager.

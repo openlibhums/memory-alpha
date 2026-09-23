@@ -11,6 +11,8 @@ There are two places from which to check and manage the activation status of acc
 
 Both are found under **Users & roles** on the Manager dashboard. The **Journal users** page is available to editors and journal managers, whereas the **Inactive users** page is accessible to staff only.
 
+![The users and roles section of the manager dashboard highlighted.](../images/manager-users-roles.png)
+
 To view inactive users:
 
 1. Open **Journal users**.
@@ -48,9 +50,9 @@ Completing the account activation step does not trigger an email. The user only 
 
 After completing account registration via ORCID, users may or may not need to complete the activation step.
 
-- If the user has made an email address public on orcid.org, then Janeway is able to get an email from ORCID, and it can be confident the user did not make a mistake entering their email address, so there is no need to make them find an email link to activate their account. It just logs marks their account as active.
+If the user has made an email address public on orcid.org, then Janeway is able to get an email from ORCID, and it can be confident the user did not make a mistake entering their email address, so there is no need to make them find an email link to activate their account. It just logs marks their account as active.
 
-- However, if no email is public on orcid.org, Janeway can’t be as sure of the email, so it requires the user to do account activation by emailing them a link. Email-based account activation is also triggered if the user logs in via ORCID, reaches the Janeway registration page with email from ORCID pre-populated, and then changes the email address in registration form, because again Janeway can’t be sure the email has no typos, and it is important for it to be correct, so that users do not lose access to their account if they forget their password.
+However, if no email is public on orcid.org, Janeway can’t be as sure of the email, so it requires the user to do account activation by emailing them a link. Email-based account activation is also triggered if the user logs in via ORCID, reaches the Janeway registration page with email from ORCID pre-populated, and then changes the email address in registration form, because again Janeway can’t be sure the email has no typos, and it is important for it to be correct, so that users do not lose access to their account if they forget their password.
 
 ### Troubleshooting author account activation
 
