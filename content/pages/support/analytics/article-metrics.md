@@ -16,14 +16,14 @@ Logs include a few non-personal details of the action:
 
 Here are the most common ways an article is viewed.
 
-- No galley (a.k.a “abstract”)  
+- No galley (or "abstract view")  
   A view of a webpage for an article that has been published without any galleys. Because no galley has been made public, the user can only see metadata like title, abstract, and authors, not the full text content.
 - XML  
   A view of a webpage for an article that has been marked up as JATS-XML and uploaded with an XML galley. The XML galley has been converted to HTML and the full text of the article has been rendered in the webpage for the user to read in their browser.
 - HTML  
   A view of a webpage for an article that has been marked up as HTML, sometimes via pandoc conversion from Word. The HTML galley has been rendered in the webpage for the user to read in their browser.
 - PDF  
-  A view of a PDF loaded in the user’s browser or other window (depending on user preferences outside of Janeway), after they’ve clicked **View PDF** on the article webpage. This link only appears if the journal has ticked **View pdf button** on the **Article settings** page.
+  A view of a PDF loaded in the user’s browser or other window (depending on user preferences outside of Janeway), after they’ve clicked **View PDF** on the article webpage. This link only appears if the journal has ticked **View PDF button** on the **Article settings** page.
 
 ### Article downloads by type
 
@@ -32,7 +32,7 @@ Here are the most common ways an article is downloaded.
 - XML  
   A download of a raw JATS-XML file, after the user has clicked **Download XML** on the article webpage.
 - HTML  
-  A download of a raw HTML file, after the user has clicked **Download HTML** on the article webpage. This option only appears if the journal has left unticked **Disable html downloads** on the **Article settings** page.
+  A download of a raw HTML file, after the user has clicked **Download HTML** on the article webpage. This option only appears if the journal has left unticked **Disable HTML downloads** on the **Article settings** page.
 - PDF  
   A download of a PDF file after the user has clicked **Download PDF** on the article webpage.
 
@@ -85,9 +85,9 @@ The only current COUNTER metric Janeway could potentially provide is the total g
 
 ### COUNTER’s focus on institutional metrics
 
-COUNTER has historically been focused on showing usage attributable to a particular institution, so that the institution’s subscription cost for paywalled content can be justified. This is why some of the most widely used COUNTER reports omit “Open” and “Free to read” content.
+COUNTER has historically been focused on showing usage attributable to a particular institution, so that the institution’s subscription cost for paywalled content can be justified. This is why some of the most widely used COUNTER reports omit "Open" and "Free to read" content.
 
-There are some reports that include “Open” and “Free to read” content, but these reports are less meaningful if the usage cannot be attributed to an institution, according to libraries we have worked with in the past.
+There are some reports that include "Open" and "Free to read" content, but these reports are less meaningful if the usage cannot be attributed to an institution, according to libraries we have worked with in the past.
 
 As a diamond open-access platform, Janeway does not track readers’ institutions. Readers are not required to log into anything, and we avoid making inferences about IP addresses. As a result, we would not be able to provide institution data in any COUNTER reports, were we to implement the standard. This is one of the main reasons we have not yet implemented COUNTER.
 
