@@ -10,29 +10,31 @@ Needs some further work, checks and dev input on a few bits. Need to check out t
 
 Janeway has a variety of roles available that can be assigned to users, some of which will affect the permissions of the user. Roles do not exclude each other, e.g. having one role will not prevent you from having another one.
 
-- Author  
-  Assigned automatically when a user registers with a journal or submits an article. This can be considered the "base role".
-- Reviewer
+<dl>
+  <dt>Author</dt>
+  <dd>Assigned automatically when a user registers with a journal or submits an article. This can be considered the "base role".</dd>
 
-- Editor  
-  Editors handle processing of articles and assignment of tasks. An editor has access to the journal workflow, manager dashboard and journal settings, certain plugins and is able to do general journal management.
-  An editor does not have access to the admin area, press level settings and certain plugins.
+  <dt>Reviewer</dt>
 
-- Journal manager  
-  Journal managers have a similar level of permission to the editor role, but can be given additional access (see below).
+  <dt>Editor</dt>  
+  <dd>Editors handle processing of articles and assignment of tasks. An editor has access to the journal workflow, manager dashboard and journal settings, certain plugins and is able to do general journal management.
+  An editor does not have access to the admin area, press level settings and certain plugins.</dd>
 
-- Section editor  
-  Section editors have access only to the workflow elements of articles assigned to them. They cannot access any articles not assigned to them, journal settings or plugins. This role is well-suited for editors who only need to handle specific articles within the journal, such as guest editors.
+  <dt>Journal manager</dt>  
+  <dd>Journal managers have a similar level of permission to the editor role, but can be given additional access (see below).</dd>
 
-- Copyeditor
+  <dt>Section editor</dt>  
+  <dd>Section editors have access only to the workflow elements of articles assigned to them. They cannot access any articles not assigned to them, journal settings or plugins. This role is well-suited for editors who only need to handle specific articles within the journal, such as guest editors.</dd>
 
-- Typesetter
+  <dt>Copyeditor</dt>
 
-- Proofreader
+  <dt>Typesetter</dt>
 
-- Reader  
-  This is not a role as such, but it is used to indicate whether a user is signed up for article publication notifications. For more information, see [Email notifications](../email-and-reminders/publication-notifications.md)
+  <dt>Proofreader</dt>
 
+  <dt>Reader</dt>
+  <dd>This is not a role as such, but it is used to indicate whether a user is signed up for article publication notifications. For more information, see [Email notifications](../email-and-reminders/publication-notifications.md)</dd>
+</dl>
 > [!NOTE]
 > Whilst the Production manager and Proofing manager are still assignable in Janeway, they have been deprecated in 1.4 and are no longer in use.
 
