@@ -1,6 +1,6 @@
 # Article sections
 
-Sections (article types) are ways of grouping articles by their content type, e.g. "Research articles" or "Reviews". You can create custom sections through the Section manager on the Manager dashboard and configure their settings.
+Sections (article types) are ways of grouping articles by their content type, e.g. "Research articles" or "Reviews". You can create custom sections through the **`Sections** page on the Manager dashboard and configure their settings.
 
 ![" "](../images/manager-sections.png)
 
