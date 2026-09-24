@@ -43,6 +43,9 @@ DOI links should redirect to the article, without intermediate steps. To ensure 
 If the DOI has more than two hops, or you see something else, you need to look more closely at the DOI's details. Select **Edit** and check the **Status** column for an indication of what to do next. See [Interpreting DOI status](../identifiers/crossref-article-doi.md#interpreting-registration-status) for more information.
 Check the **Mark as complete** box to move on to the next step.
 
+> [!TIP]
+> If you are a hosted Janeway client (e.g. not directly responsible for managing your install) and not confident configuring DOIs, contact your system administrator.
+
 ## Select a galley for rendering
 
 You can now select the file (galley) that will be used to show (render) the article on the journal website. This file is either XML or HTML. If you have XML as an option, always select that. Otherwise, HTML is the best option.

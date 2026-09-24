@@ -19,13 +19,16 @@ This guide is written for editors and press managers who are working in Janeway 
 Janeway has three distinct areas, knowing which one you are in makes will make easier to find what you need.
 
 - Web content  
-  Also called the front end. This is the public-facing website that shows articles, the homepage, and any other content you want to share with visitors. It also displays information such as author guidelines, editorial policy, and submission guidance.
+  Also called the front end. This is the public-facing website that shows articles, the homepage, and any other content you want to share with visitors. It also displays information such as author guidelines, editorial policy, and submission guidance. This part of Janeway can be customised and may look different from journal to journal.
+  ![An example of a Janeway website front end](../images/web-content.png)
 
 - The back office  
-  This is the part of Janeway you see when you sign in. Here you process articles through review, copyediting, and typesetting, configure workflows, and manage the journal more broadly. Journal settings, journal styling, user information, article metadata, and email templates are all reached from here.
+  This is the part of Janeway you see when you sign in. Here you process articles through review, copyediting, and typesetting, configure workflows, and manage the journal more broadly. Journal settings, journal styling, user information, article metadata, and email templates are all reached from here. This part cannot be customised and will be largely white and light blue.
+  ![An example of the Janeway back office, the manager dashboard specifically](../images/back-office.png)
 
 - The admin area  
   This area is intended for system administrators and advanced users. From here you can inspect data and settings, edit records directly, and troubleshoot problems.
+  ![An example of the Janeway admin area](../images/admin-area.png)
 
 > [!CAUTION]
 > Changes made in the admin area bypass the checks built into the rest of Janeway. If you are not comfortable working there, contact your system administrator or support contact instead.
@@ -47,6 +50,7 @@ To enable, disable, reorder, or add navigation custom items, see [Navigation](..
 The footer carries information that belongs on every page, such as a privacy policy and accessibility statement.
 
 Footer navigation is configured at press level and applies across all journals. To set it up, see [Journal footer](../press-management/footer.md).
+![An example of a footer on Janeway](../images/footer.png)
 
 ### Moving from the website to the back office
 
@@ -70,17 +74,20 @@ Unlike the public website, the back office cannot be styled or rebranded.
 ### The dashboard
 
 The main journal dashboard is your starting point. It shows the articles in the journal workflow that are relevant to you. The editor block groups by the stage they have reached and the other blocks will show tasks assigned.
+![An example of a Janeway article dashboard](../images/dashboard.png)
 
 Information about articles in the journal workflow is available in other views as well, listed under the **Dashboards** section of the sidebar:
 
 - Main  
-  The standard workflow dashboard, organised by stage.
+  The standard workflow dashboard, organised by stage. (See image above.)
 
 - Kanban  
   A board view of every article in the workflow, with a column for each stage.
+  ![An example of a journal kanban board on Janeway](../images/kandan.png)
 
 - Search submissions  
   A filterable list of active submissions, useful when you know what you are looking for.
+  ![An example of a submission list page on Janeway](../images/search-submissions.png)
 
 ### The sidebar
 

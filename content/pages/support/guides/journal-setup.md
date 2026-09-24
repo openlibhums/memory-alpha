@@ -23,7 +23,7 @@ Gathering this information before getting started and keeping it nearby will mak
 - If using Crossref, your Crossref prefix and credentials.
 - The names and email addresses of editors.
 
-Optional information that may be helpful:
+Optional information that may be helpful to keep on hand:
 
 - A postal address; certain indexers require them.
 - The names and email addresses of your editorial board.
@@ -37,7 +37,7 @@ A press manager creates the journal from the **Press manager**, by clicking **Ad
 
 ![The add new journal form in the Press manager](../images/add-new-journal.png)
 
-You will need to fill in the following:
+You will need to fill in the following information:
 
 - Journal code  
   A short abbreviation or word that identifies the journal, for example `orbit`. In path mode, this appears in the journal's web address.
@@ -96,7 +96,8 @@ For mor information, see [Journal settings](../journal-management/journal-settin
 Janeway from 1.9 onwards has four themes: Clean, Material, OLH and Clarity. Clarity is only available from 1.9 onwards. They share the same features and content, but differ in layout and how prominently they use images.
 Clarity is the most accessible theme as of 1.9, and Clean is the most accessible before 1.9. The theme setting is found on the **General** page under **Journal settings**.
 
-In addition to setting a theme, you may wish to upload default images. These images act as fallbacks: if an article or issue has no image of its own, Janeway uses the journal default.
+In addition to setting a theme, you may wish to upload default images. This can be done on the **Images** page found through the Manager dashboard. These images act as fallbacks: if an article or issue has no image of its own, Janeway uses the journal default.
+![The images block on the manager dashboard, highlighted](../images/manager-images.png)
 
 - Header image  
   Your journal logo, shown in the site header.
@@ -130,7 +131,8 @@ By default, Janeway has the following stages:
 4. Typesetting
 5. Prepublication
 
-These can be edited, reordered and removed by someone with the staff permission through the **Workflow** page, which is accessible through the left-hand side menu.
+These can be edited, reordered and removed by someone with the staff permission through the **Workflow** page, which is accessible through the left-hand side menu. If you are a hosted client, this will usually have been setup for you and you won't need to make any changes.
+![The workflow button highlighted in the sidemenu](../images/sidemenu-workflow)
 
 > [!WARNING]
 > Removing stages may have unintended consequences, only do this if you are comfortable doing this. Otherwise, contact your system administrator.
@@ -138,6 +140,7 @@ These can be edited, reordered and removed by someone with the staff permission 
 ### Setting up article types (sections)
 
 Article types (sections) are used to categorise articles by content type, e.g., research articles, book reviews and editorials. You can configure these by clicking **Sections (Article types)** on the manager dashboard.
+![The sections button highlighted on the manager dashboard](../images/manager-sections.png)
 
 If your journal only publishes one article type, you can hide the section field during submission using the submission fields configurator. See [Managing submission fields](../submission/managing-submission-fields.md) for more information. If you do, set a default section so the information still reaches the article metadata.
 
@@ -149,6 +152,7 @@ For more information on configuring sections, see the documentation on [Article 
 ### Setting up licenses
 
 Authors can choose a licence when they submit, so the licence list needs to be right before submissions open. Janeway lists the CC 4.0 licences and the All Rights Reserved licence by default. Edit this list from the **Licence manager** which can be found on the manager dashboard.
+![The workflow button highlighted on the manager dashboard](../images/manager-licence-manager.png)
 
 Similarly to sections, if journal only publishes with a single licence, you can hide the submission selection field during submission<!-- mising hyperlink-->. If you do, set a default licence so the information still reaches the article metadata.
 
@@ -156,7 +160,8 @@ For more information on configuring licences, see the [Licence manager](../submi
 
 ### Setting up submissions
 
-The submission process setup has four parts, all reached from the manager dashboard:
+The submission process setup has four parts, all reached from the manager dashboard.
+![](../images/manager-submission.png)
 
 1. Submission settings  
    This controls the process itself; whether submissions are open, who is notified upon submission, whether to limit filetypes, etc.
@@ -177,9 +182,12 @@ For more information, see: [Submissions](../submission/index.md)
 
 ### Setting up review
 
+Similar to submission settings, the review settings can also be found on the manager dashboard.
+![](../images/manager-review.png)
+
 In terms of setting it up, peer review has two aspects to it: the settings that shape the process and the review forms/questions used.
 
-The settings you are most likely to want to review and/or edit:
+The settings you are most likely to want to review and/or edit are the following:
 
 - Default review visibility  
    Determines whether the default review visibility is open, single anonymous or double anonymous.

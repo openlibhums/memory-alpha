@@ -2,6 +2,8 @@
 
 From the front page of a journal, select **Register** to set up an account. Complete the form and activate your account using the link sent to you by email. Once your account is set up and activated, you can sign in to Janeway.
 
+![The registration button highlighted on a Janeway website](../images/register-account.png)
+
 If you are an author making a submission, you don't need to create an account. One will be created as part of the submission process.
 
 If you have been invited to review, you may be able to complete your review without creating an account if the journal has enabled [one-click peer review](../review/review-settings.md).
@@ -10,7 +12,7 @@ If the journal is part of a press and you have access to another journal in that
 
 ## Setting up as an editor
 
-To create an editor account, first register using the steps above. An editor, press manager, or someone with **Staff** permission then needs to assign you the editor role.
+To create an editor account, first register using the steps above. An editor, press manager, or someone with staff permission then needs to assign you the editor role.
 
 ## Editing your account
 
@@ -30,4 +32,4 @@ On this page, you can do the following:
 - Set your profile visibility.
 
 > [!IMPORTANT]
-> Just the unique ID must be entered in the **ORCID** field (e.g. `0000-1234-5678-901X`). Do not include `https://orcid.org/`.
+> Only the unique ID must be entered in the **ORCID** field (e.g. `0000-1234-5678-901X`). Do not include `https://orcid.org/`.

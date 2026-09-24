@@ -10,13 +10,16 @@ Email logs are commonly used when:
 
 ## Accessing email logs
 
-You can view an article's logs through **Logs, docs and more**, which appears in the blue workflow progress at the top of the article screen.
+You can view an article's logs through **Logs, documents and more**, which appears in the blue workflow progress at the top of the article screen.
 
 You can access this through:
 
-- The article's workflow stage, or
-- The archive (Dashboard -\> Left hand menu
-  -\> Back Content -\> Articles).
+- The article's workflow stage, or for published articles
+- The archive page
+  1.  Go to the Manager dashboard
+  2.  In the left-hand menu, scroll to the back content section.
+  3.  Click **Published articles**
+  4.  Select the article required.
 
 ![Screenshot showing where to access Logs, docs and more](../images/navigation-logs.png)
 
@@ -30,7 +33,7 @@ Each entry in the log records an action that has taken place on the article. The
 - Actor  
    The user or system process that initiated the action.
 - Level  
-  A category that admininstrators use to group logs into reports when working on the server. For emails, the level is always “Info”, and it can be safely ignored when looking at a particular log.
+  A category that admininstrators use to group logs into reports when working on the server. For emails, the level is always "Info", and it can be safely ignored when looking at a particular log.
 
 If the logged action relates to an email, additional details are available:
 

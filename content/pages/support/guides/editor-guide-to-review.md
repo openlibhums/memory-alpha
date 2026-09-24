@@ -63,7 +63,7 @@ You can see what the author sees in the review section of the [author guide](./a
 
 There are two ways reviews can be made available:
 
-- Individually, by clicking on **View**, then toggling the review visibility switch and then pressing **Save**.
+- Individually, by clicking on **View**, then toggling the review visibility switch and then clicking **Save**.
 
   ![" "](../images/workflow/editor-share-review.png)
   ![" "](../images/workflow/editor-share-review-individual.png)
@@ -141,9 +141,9 @@ This will delete the current review round in its entirety. It will remove the fi
 
 ## Finishing up
 
-To complete the **Review** stage, you can either:
+To complete the Review stage, you can either:
 
 - Accept the article and move it into the next stage.
 - Decline the article and remove it from the publishing workflow.
 
-If using the standard workflow, the stage after **Review** is **Copyediting**.
+If using the standard workflow, the stage after Review is Copyediting.

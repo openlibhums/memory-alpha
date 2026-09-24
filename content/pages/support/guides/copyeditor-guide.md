@@ -13,7 +13,8 @@ On this page, you will see three columns of copyediting tasks.
 - **Completed**  
   Tasks you have completed.
 
-To start a new task, press the **Accept** button. The task will then be displayed as **In progress**. To begin copyediting, click **View** on the task's card.
+To start a new task, click **Accept**. The task will then be displayed as **In progress**.
+To begin copyediting, click **View** on the task's card.
 
 ![Copyeditor requests page. The three columns on the Copyedit Requests page (Awaiting initial decision, In progress and Completed. There is a task in the middle column that has been accepted.](../images/workflow/copyeditor-requests.png)
 

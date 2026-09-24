@@ -1,13 +1,15 @@
 # Email templates
 
-The email templates system allows you to view, search and edit the email templates used by a journal. These templates control the content of both automated and manually sent emails (for example, review invitations, reminders and decision emails).
+The email templates system allows you to view, search and edit the email templates used by a journal. These templates control the content of both automated and manually sent emails (for example, review invitations, reminders and decision emails). A journal's email templates can be found on the **Email templates** page on the Manager dashboard.
 
-> [!WARNING]
-> Editing an email template can cause emails to display incorrectly if placeholders are changed or removed.
+![The email templates block highlighted on the manager dashboard](../images/manager-email-templates.png)
 
 Each email template has access to a specific set of objects (such as an article, review assignment or journal). Because this varies by template, there is no documentation for every possible option. However, more information can be found on the [Email variables](./email-template-variables.md) page and template examples are available as well. If you are uncertain about how to update an email template or uncomfortable, you can reach out to your system administrator or Janeway support.
 
 ## Editing templates
+
+> [!WARNING]
+> Editing an email template can cause emails to display incorrectly if placeholders are changed or removed.
 
 When editing an email template, you will see:
 

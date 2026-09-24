@@ -9,6 +9,21 @@ By default, editors are notified by email once a new article has been submitted.
 > [!NOTE]
 > Notifications can also be set up per article type (section) or for specific (section) editors. See information on setting up [submission notifications](../submission/submission-notifications.md) and setting up [article sections](../article-management/article-sections.md).
 
+## Projected issues
+
+You can also assign a submission to a [projected issue](../issues-volumes-and-collections/issues-and-volumes.md). This can be set or changed at any point in the publication workflow. To set a projected issue, click **Assign projected issue** on the article page and select the chosen issue from the dropdown, and click **Save**. This article's projected issue will now be set. You can unset a projected issue by selecting the blank option.
+
+The projected issue functionality can be used internally to keep track of plans and communicate with typesetters, without affecting issue assignment or displaying information publicly. It is helpful for journals that add articles to issues on a rolling basis and publish them individually.
+
+## Editing author details
+
+On this page, you can also edit author details. This is done by clicking **Edit author metadata** which will take you to a screen where you can edit author details, change the author order, change the correspondence author, or add authors.
+To edit an author's affiliation, click **Edit author details** and scroll down to the **Affiliations** block, where you can edit, add or remove an author's affiliation(s).
+
+!["The edit author page."](../images/workflow/editor-submission-edit-author.png)
+
+Janeway uses [Research Organization Registry (ROR)](https://ror.org/) to manage affiliation data, this ensures consistent formatting of affiliation data and links authors to their institutions, improving metadata quality. You can search for an institution or, if no match is found, add the details manually.
+
 ## Reviewing submissions
 
 When you click on an article in the list of new submissions, you will be taken to a page with an overview of the submission.
@@ -34,18 +49,3 @@ If you reject the article, there will be an opportunity to provide an explanatio
 Accepting the article will move it into Copyediting, skipping peer review. You can do this for editorials or other submissions that do not require peer review.
 
 If you move the article into review and are its author, you will initially be blocked from doing so and shown a security warning. If you override the warning, all other editors will be notified.
-
-## Projected issues
-
-You can also assign a submission to a [projected issue](../issues-volumes-and-collections/issues-and-volumes.md). This can be set or changed at any point in the publication workflow. To set a projected issue, click **Assign Projected Issue** on the article page and select the chosen issue from the dropdown, and click **Save**. This article's projected issue will now be set. You can unset a projected issue by selecting the blank option.
-
-The projected issue functionality can be used internally to keep track of plans and communicate with typesetters, without affecting issue assignment or displaying information publicly. It is helpful for journals that add articles to issues on a rolling basis and publish them individually.
-
-## Editing author details
-
-On this page, you can also edit author details. This is done by clicking **Edit author metadata** which will take you to a screen where you can edit author details, change the author order, change the correspondence author, or add authors.
-To edit an author's affiliation, click **Edit author details** and scroll down to the **Affiliations** block, where you can edit, add or remove an author's affiliation(s).
-
-!["The edit author page."](../images/workflow/editor-submission-edit-author.png)
-
-Janeway uses [Research Organization Registry (ROR)](https://ror.org/) to manage affiliation data, this ensures consistent formatting of affiliation data and links authors to their institutions, improving metadata quality. You can search for an institution or, if no match is found, add the details manually.
