@@ -10,7 +10,7 @@ This image is used in the heading of the article page (also called a 'hero image
 
 ![Example of the landscape image on the homepage using the OLH theme.](../images/large-image-homepage.png)
 
-We recommend a size of 1500px by 648px. For information, see [Image guidelines](../journal-management/image-guidelines.md#large-image).
+We recommend a size of 1500px by 648px. For information and journal default images, see [Image guidelines](../journal-management/image-guidelines.md#large-image).
 
 Generally, large, landscape images are recommended to be used for the large image and avoiding images with people or bodies due to potential unexpected cropping.
 

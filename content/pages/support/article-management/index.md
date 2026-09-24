@@ -8,7 +8,7 @@ There are various aspects to article management within Janeway and various inter
 - [Article sections](../article-management/article-sections.md)
 - [Managing archived and rejected articles](../article-management/articles-management.md#archiving-an-article)
 
-Additionally, there's a page to manage the publication schedule:
+Additionally, there's a page to manage the publication schedule.
 
 ## Publication schedule
 

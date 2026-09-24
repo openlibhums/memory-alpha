@@ -8,7 +8,7 @@ There are several ways to access and edit an article's metadata in Janeway, depe
 
 For articles that are in progress (that is, beyond the unassigned stage), you can access metadata in two ways.
 
-Using the **Actions panel:** Scroll to the bottom-right corner of the article page and select **View metadata**.
+Using the **Actions panel:** scroll to the bottom-right corner of the article page and select **View metadata**.
 
 ![" "](../images/view-metadata.png)
 
@@ -42,7 +42,7 @@ Using the workflow bar:
 
 ![Logs, documents and more dropdown menu open, showing the Article archive and Edit metadata options](../images/logs-edit-metadata.png)
 
-The first block of the **Article archive** page lists most of the article's metadata. To edit it, click **Edit**.
+The first block of the **Article archive** page lists most of the article's metadata. Click **Edit**.
 
 ![Top of the article archive page, with the Edit button highlighted](../images/article-archive-edit-metadata.png)
 
