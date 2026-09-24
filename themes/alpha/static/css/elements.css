@@ -14,44 +14,53 @@ body {
   text-underline-offset: 0.25rem;
 }
 h1 {
-  font-size: var(--step-8);
   font-family: var(--ff-space-mono-regular);
   font-weight: normal;
-  line-height: 1.1;
-  --flow-space: var(--space-xl);
+  font-size: var(--font-size-h1);
+  --flow-space: var(--flow-space-h1);
 }
 h2 {
-  font-size: var(--step-5);
+  font-size: var(--font-size-h2);
   font-family: var(--ff-space-mono-bold);
   font-weight: normal;
-  --flow-space: var(--space-l);
+  --flow-space: var(--flow-space-h2);
 }
 h3 {
-  font-size: var(--step-4);
+  font-size: var(--font-size-h3);
   font-family: var(--ff-space-mono-bold);
-  --flow-space: var(--space-m);
+  --flow-space: var(--flow-space-h3);
 }
 h4 {
-  font-size: var(--step-3);
-  --flow-space: var(--space-m);
+  font-size: var(--font-size-h4);
+  --flow-space: var(--flow-space-h4);
 }
 h5 {
-  font-size: var(--step-3);
-  --flow-space: var(--space-m);
+  font-size: var(--font-size-h5);
+  --flow-space: var(--flow-space-h5);
 }
 h6 {
-  font-size: var(--step-3);
-  --flow-space: var(--space-m);
+  font-size: var(--font-size-h6);
+  --flow-space: var(--flow-space-h6);
 }
 p,
+pre,
 ul,
 li {
   font-size: var(--step-3);
   --flow-space: var(--space-xs);
 }
+/* Images in paragraphs surrounded by text (like
+ * icons in support docs) should be inline */
+p img:where(:not(:first-child:last-child)) {
+  display: inline;
+  max-width: unset;
+}
 hr {
   border: 1px solid var(--clr-alpha-blue);
   --flow-space: var(--space-m);
+}
+a {
+  color: inherit;
 }
 
 table {

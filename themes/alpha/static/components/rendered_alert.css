@@ -1,0 +1,26 @@
+.markdown-alert {
+  padding-block: var(--space-s);
+  padding-inline: var(--space-m);
+  border-left: var(--space-2xs) solid;
+  .alert-title {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2xs);
+  }
+  .alert-title svg {
+    height: var(--step-5);
+    width: var(--step-5);
+    margin-bottom: 2px;
+  }
+  &.note,
+  &.tip {
+    border-color: var(--clr-alpha-blue);
+  }
+  &.important {
+    border-color: var(--clr-alpha-yellow);
+  }
+  &.warning,
+  &.caution {
+    border-color: var(--clr-alpha-red);
+  }
+}

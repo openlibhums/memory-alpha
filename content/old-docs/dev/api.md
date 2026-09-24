@@ -1,5 +1,3 @@
-Title: API
-
 # API
 
 API stands for Application programming interface. APIs are designed to
