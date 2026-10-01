@@ -58,12 +58,17 @@ The **Article display** page can be found on the Manager dashboard and has setti
 
 ![The article display block on the manager dashboard](../images/manager-article-display.png)
 
-- Disable article images
-- Display guest editors
-- Suppress how to cite
-- View PDF option
+- Disable article thumbnails
+- Disable article large image
+- Disable HTML downloads
 - Disable metrics display
+- Display guest editors
+- Display date submitted
+- Display date accepted
+- Suppress how to cite
 - Suppress citation metrics
+- Hide author email links
+- View PDF option
 
 How to cite is an auto-generated citation based on a custom Open Library of Humanities citation style. You can suppress it for all articles using **Suppress how to cite**. You can also override it for individual articles by entering a custom citation in the **Edit metadata** pane for each article.
 
