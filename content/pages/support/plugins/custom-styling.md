@@ -69,7 +69,7 @@ The Clean uses [Bootstrap](https://github.com/twbs/bootstrap) v4.4.1 as a basis 
 
 Clean is recommended for Janeway 1.8 and earlier. However, if you have Janeway 1.9 or newer, consider using the Clarity theme.
 
-We have prepared a [recommended reset for the Clean theme](https://github.com/openlibhums/stylesheets/blob/main/clean-base-janeway-v-1-8.css) that you can use on 1.8 as a cross-site stylesheet before customizing each journal futher.
+We have prepared a [recommended reset for the Clean theme](https://github.com/openlibhums/stylesheets/blob/main/clean-base-janeway-v-1-8.css) that you can use on 1.8 as a cross-site stylesheet before customizing each journal further.
 
 With this reset in place, you can then use the following block to override the brand colour for individual journals:
 

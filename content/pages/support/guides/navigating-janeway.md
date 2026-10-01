@@ -156,7 +156,7 @@ If you manage more than one journal, some tools sit above journal-level in the *
 From the press manager you can do the following:
 
 - Configure the press website, including press settings; including the press homepage, content manager, news manager, and contact manager.
-- Add journals, reorder how they appear in the journal list, edit the description shown for each journal, and access a journal's settings. See also [ournal management at press level](../press-management/journal-management-press-level.md)
+- Add journals, reorder how they appear in the journal list, edit the description shown for each journal, and access a journal's settings. See also [journal management at press level](../press-management/journal-management-press-level.md)
 - [Manage users across every journal](../press-management/managing-users-at-press-level.md) from the **All users** interface, filtering by activity, staff status, role, and journal.
 - [Merge duplicate user accounts](../press-management/managing-users-at-press-level.md#merging-users) through the **Merge users** interface.
 

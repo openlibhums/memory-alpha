@@ -20,6 +20,6 @@ The third sign-in option is single sign-on (SSO), where you log in with your uni
 You can edit your ORCID ID by [editing your account](../guides/creating-an-account-on-janeway.md#editing-your-account).
 
 > [!WARNING]
-> Editing ORCID IDs by hand can cause metadata mixups and trouble logging in with ORCID in the case of mistakes.
+> Editing ORCID IDs by hand can cause metadata mix-ups and trouble logging in with ORCID in the case of mistakes.
 
 Author ORCID IDs cannot be edited directly, in order to minimize mistakes. You can remove and re-add the author using the ORCID search option. See [Author information](../guides/author-guide.md#author-information).

@@ -18,7 +18,7 @@ Once you click **Submit**, you are guided through a submission process where you
 1. The submission agreement and article information.
    This page usually provides information about any submission or file requirements as well. Fields marked with an asterisk are required to complete the submission.
 2. Author information.
-3. Article files and supplemantary files.
+3. Article files and supplementary files.
 
 After this, you can review and confirm that all details are correct before completing the submission. If there are any issues, click **Edit metadata** or **Edit authors** to make changes.
 
@@ -54,4 +54,4 @@ You can also download any previously (approved and unapproved) manuscript files 
 
 ### Supplementary files
 
-You can manage supplementary files through the Supplementary files section. Clicking **Manage supplementary files** will open up a page listing the current supplementary files, providing the option to reorder and delete them, as well as provide a new file by providing a link and label for it.
+You can manage supplementary files through the **Supplementary files** section. Clicking **Manage supplementary files** will open up a page listing the current supplementary files, providing the option to reorder and delete them, as well as provide a new file by providing a link and label for it.

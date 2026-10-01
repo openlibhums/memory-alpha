@@ -2,7 +2,7 @@
 
 You can implement Google Analytics code to measure activity on your pages, if you wish.
 
-The settings for this can be found in **All settings** through the Manager dashoard.
+The settings for this can be found in **All settings** through the Manager dashboard.
 
 !["Google analytics settings"](../../support/images/general-settings-google.png)
 

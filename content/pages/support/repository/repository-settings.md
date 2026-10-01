@@ -21,7 +21,7 @@ The wizard has five steps:
 5. **Live**
    Sets the repository as live.
 
-The section below will briefly outline the the other pages which lets you configure youre repository. For information on additional settings, including licences, submission fields, and subjects, see [Additional repository settings](). <!-- missing hyperlink--> <!--need to write this still-->
+The section below will briefly outline the other pages which lets you configure your repository. For information on additional settings, including licences, submission fields, and subjects, see [Additional repository settings](). <!-- missing hyperlink--> <!--need to write this still-->
 
 ## Licences
 

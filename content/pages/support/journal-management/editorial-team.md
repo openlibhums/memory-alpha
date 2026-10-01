@@ -45,7 +45,7 @@ If someone does not have an account yet, you can either invite them to create an
 
 If you are setting up a group where multiple users do not have accounts yet, you may wish to use the [editorial team import process](../plugins/imports-editorial-team.md) instead. This process allows you to create editorial groups where the members do not yet have accounts.
 
-Alternatively, if you do not want to create a Janeway account for every individual, you can list names directly in the **Group description** box. This field supports HTML and uses a rich-text editor, so you ccould list the editors using formatted text (for example, a bulleted list).
+Alternatively, if you do not want to create a Janeway account for every individual, you can list names directly in the **Group description** box. This field supports HTML and uses a rich-text editor, so you could list the editors using formatted text (for example, a bulleted list).
 
 ## Editorial group display settings
 
@@ -58,7 +58,7 @@ The following settings control how editorial groups and members are displayed on
   When enabled, group names are not shown on the editorial team page.
 
 - Enable multi-page editorial team display  
-  When enabled, each editorial group is displayed on its own page. This setting is overwitten by **Enable editorial team display**.
+  When enabled, each editorial group is displayed on its own page. This setting is overwritten by **Enable editorial team display**.
 
 - Display Country on Editorial Team Page
   When enabled, and where a group member has an affiliation that has a country listed, the country will be displayed next to their name. If no country is set, nothing is shown.

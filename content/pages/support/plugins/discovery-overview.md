@@ -7,8 +7,8 @@
 - DataCite (active)
   - [GitHub repository](https://github.com/openlibhums/datacite)
   - Allows staff to mint Datacite DOIs.
-  - Works the same as CrossRef DOI. Username and poassword through API.
-  - Different from CrossRef: creates a draft DOI at acceptance. Exists on the server but istn available publicly, allows you to check before publication.
+  - Works the same as CrossRef DOI. Username and password through API.
+  - Different from CrossRef: creates a draft DOI at acceptance. Exists on the server but isn't available publicly, allows you to check before publication.
     Settings need to be done by sysadmin (contact support). Need to go per journal, cannot be set at press level.
 
 - DOAJ

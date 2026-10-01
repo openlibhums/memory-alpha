@@ -4,7 +4,7 @@ The homepage carousel is a rotating banner that can display selected content fro
 
 You can configure the carousel from the **Manager dashboard**:
 
-1. On the Manager dashabord, select **Homepage**.
+1. On the Manager dashboard, select **Homepage**.
 2. If the carousel is not yet enabled, click **Add** next to **Carousel**.
 3. If the carousel is already active, click **Configure**.
 

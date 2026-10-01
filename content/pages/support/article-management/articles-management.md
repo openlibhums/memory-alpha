@@ -54,21 +54,41 @@ If the article was previously assigned to an editor, it will move to the Review 
 
 ## Article display settings
 
-The **Article display** page can be found on the Manager dashboard and has settings for controlling how articles look and how metrics are displayed.
+The **Article display** page can be found on the Manager dashboard and has settings for controlling how articles look and how metrics are displayed. It is broken up in four sections as outlined below.
 
 ![The article display block on the manager dashboard](../images/manager-article-display.png)
 
-- Disable article thumbnails
-- Disable article large image
-- Disable HTML downloads
-- Disable metrics display
-- Display guest editors
-- Display date submitted
-- Display date accepted
-- Suppress how to cite
-- Suppress citation metrics
-- Hide author email links
-- View PDF option
+- Disable article thumbnails  
+   If this box is checked, no article thumbnails will be shown on the article list.
+- Disable article large image  
+   If this box is checked, the large article image at the top of the page will not be displayed.
+- Display guest editors  
+   If this box is checked, guest editors will be displayed on the article page. If this article is assigned to multiple issues, only the guest editors of the primary issue assigned will be displayed.
+- Suppress how to cite  
+   If this box is checked, the how-to-cite block will not be shown on the article page.
+- Hide author email links  
+   If this box is checked, links to email correspondence authors will not be displayed on the article page.
+
+### Download and view links
+
+- Disable HTML downloads  
+   If this box is checked, HTML copies can no longer be downloaded from the article page.
+- View PDF option  
+   If this box is checked, a "View PDF" button will be visible on the article page.
+
+### Metrics display
+
+- Disable metrics display  
+   If this box is checked, metrics will not be displayed on the article page.
+- Suppress citation metrics  
+   If this box is checked, the citations counter will not be shown on the article page. This setting is overruled by the **Disable metrics display** setting; if that setting's box is ticked, citation metrics will not show, regardless of the status of this setting.
+
+### Article dates
+
+- Display date submitted  
+   If this box is checked, the submission date will be displayed on the article page.
+- Display date accepted  
+   If this box is checked, the acceptance date will be displayed on the article page.
 
 How to cite is an auto-generated citation based on a custom Open Library of Humanities citation style. You can suppress it for all articles using **Suppress how to cite**. You can also override it for individual articles by entering a custom citation in the **Edit metadata** pane for each article.
 

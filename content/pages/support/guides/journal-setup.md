@@ -86,7 +86,7 @@ Click **Submit** at the bottom of the page to save any changes.
 
 Some settings are better configured at press level and applied to all journals, than repeated for every journal (publisher name and URL, support email, login and registration notices). See [Journal management at press level](../press-management/journal-management-press-level.md) for more information.
 
-For mor information, see [Journal settings](../journal-management/journal-settings.md).
+For more information, see [Journal settings](../journal-management/journal-settings.md).
 
 > [!TIP]
 > If you are looking for a specific setting and cannot find it, open **All settings** from the **Journal settings** panel and search for it there.

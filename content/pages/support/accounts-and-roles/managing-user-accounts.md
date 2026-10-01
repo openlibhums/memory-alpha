@@ -37,7 +37,7 @@ This page cannot be used to delete accounts, only deactivate them. Accounts can 
 
 ## All press users
 
-Staff users can access a press-wide view of all accounts across press /orthe Janeway installation. This view is available from the **Press manager** interface only.
+Staff users can access a press-wide view of all accounts across press or the Janeway installation. This view is available from the **Press manager** interface only.
 
 ![The press manager dashboard with All users highlighted.](../images/press-manager-all-users.png)
 

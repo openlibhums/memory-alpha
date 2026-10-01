@@ -33,7 +33,7 @@ Each entry in the log records an action that has taken place on the article. The
 - Actor  
    The user or system process that initiated the action.
 - Level  
-  A category that admininstrators use to group logs into reports when working on the server. For emails, the level is always "Info", and it can be safely ignored when looking at a particular log.
+  A category that administrators use to group logs into reports when working on the server. For emails, the level is always "Info", and it can be safely ignored when looking at a particular log.
 
 If the logged action relates to an email, additional details are available:
 

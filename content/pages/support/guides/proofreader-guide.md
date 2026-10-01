@@ -32,7 +32,7 @@ Janeway has a **Preview** button that opens a preview on a separate browser wind
 ![" "](../images/workflow/proofing-task.png)
 
 > [!NOTE]
-> It is unusual to see both XML and HTML files for proofing, as XML itself is a source from which HTML is generated (thus not requiring a seperate HTML file). What filetypes are available will depend on your publisher.
+> It is unusual to see both XML and HTML files for proofing, as XML itself is a source from which HTML is generated (thus not requiring a separate HTML file). What filetypes are available will depend on your publisher.
 
 ### Annotated files upload
 

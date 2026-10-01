@@ -16,7 +16,7 @@ There are two ways to create an account on Janeway:
 2. An editor, press manager or member of staff can create an account through **Journal users**.
    ![Manager dashboard with journal users-block highlighted.](../images/manager-journal-users.png)
 
-Generally, it is best to let a user register an account using the first option and then assign any roles as needed, see [Roles and permissions](./roles-and-permissions-on-janeway.md). If this is not possible, indivual user accounts can be created by following these steps:
+Generally, it is best to let a user register an account using the first option and then assign any roles as needed, see [Roles and permissions](./roles-and-permissions-on-janeway.md). If this is not possible, individual user accounts can be created by following these steps:
 
 1. Go to the **Journal users** page on the Manager dashboard.
 2. Click **Add new user**

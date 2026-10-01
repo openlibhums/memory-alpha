@@ -8,7 +8,7 @@ These pages explain how to use Janeway, whether you are running a journal, manag
 
 Each of the links listed below corresponds to a section of the documentation, ordered by theme. Each page will link to more detailed pages for more information on the topic.
 
-- [Accessiblity](../accessibility/index.md)
+- [Accessibility](../accessibility/index.md)
 - [Accounts and roles](../accounts-and-roles/index.md)
 - [Analytics](../analytics/index.md)
 - [Article management](../article-management/index.md)

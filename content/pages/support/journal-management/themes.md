@@ -9,7 +9,7 @@ Clean - Bootstrap
 
 Same core feature set, provide the same content.
 
-Clean is the most differnet from the two - thinner viewport and less prominent images. Clean doesnt display images on the issue page.
+Clean is the most different from the two - thinner viewport and less prominent images. Clean doesn't display images on the issue page.
 
 ## Clean
 

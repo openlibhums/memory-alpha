@@ -224,6 +224,6 @@ Janeway's XSL Transformation process uses a version-controlled XSL (Extensible S
 
 ## Typesetting guidelines setting
 
-The typsetting guidelines shown to the typesetters can be edited through the **Typesetting guidelines** setting. This setting can be found through **All settings** on the Manager dashboard.
+The typesetting guidelines shown to the typesetters can be edited through the **Typesetting guidelines** setting. This setting can be found through **All settings** on the Manager dashboard.
 
 ![" "](../images/typesetting-guidelines.png)
