@@ -7,11 +7,10 @@ The article review import tool allows you to create peer reviews by uploading a 
 
 To import peer reviews:
 
-1. Download the [article review import template](../downloadables/reviewer-import-template.csv).
+1. Download the [article review import template](../downloadables/peer-review-import-sample.csv).
 2. Enter your peer review details, one per row.
-3. On the **Imports** plugin main page select **Reviewer import** and click **Start Import**.
-4. Select your CSV and, if you want you reviewers to receive a password
-   reset notification, check that option.
+3. On the **Imports** plugin main page select **Article reviews import** and click **Start import**.
+4. Select your CSV.
 5. Click **Import** to complete the process.
 
 ## Metadata field reference
@@ -32,4 +31,4 @@ To import peer reviews:
 | Visibility               | Either: "open", "blind" or "double-blind"                          |
 
 > [!TIP]
-> Download the [article review import sample](../downloadables/reviewer-import-sample.csv) CSV to see example data.
+> Download the [article review import sample](../downloadables/peer-review-import-sample.csv) CSV to see example data.

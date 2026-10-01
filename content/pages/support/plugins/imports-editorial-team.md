@@ -7,7 +7,7 @@ The editorial team import allows you to create your editorial team by uploading 
 
 To import your editorial team:
 
-1. Download the [editorial team template](../downloadables/editor-import-template.csv).
+1. Download the [editorial team template](../downloadables/editorial-team-template.csv).
 2. Enter the details of your editorial team members, one per row.
 3. The last field "group name" must match exactly for all the members you want to be in the same group. For example, they must all have "Editor" or "Reviews editors".
 4. On the **Imports** plugin main page select **Editorial team import** and click **Start import**.
