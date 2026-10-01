@@ -132,7 +132,7 @@ By default, Janeway has the following stages:
 5. Prepublication
 
 These can be edited, reordered and removed by someone with the staff permission through the **Workflow** page, which is accessible through the left-hand side menu. If you are a hosted client, this will usually have been setup for you and you won't need to make any changes. If you are on version 1.8 or higher, or 1.5 - 1.7 and have typesetting installed, you should remove the proofing and production stages. It is best to do this before articles enter the stages as a worklow stage can only be removed once no articles remain in it.
-![The workflow button highlighted in the sidemenu](../images/sidemenu-workflow)
+![The workflow button highlighted in the sidemenu](../images/sidemenu-workflow.png)
 
 > [!WARNING]
 > Removing stages may have unintended consequences, only do this if you are comfortable doing this. Otherwise, contact your system administrator.
@@ -152,7 +152,7 @@ For more information on configuring sections, see the documentation on [Article 
 ### Setting up licenses
 
 Authors can choose a licence when they submit, so the licence list needs to be right before submissions open. Janeway lists the CC 4.0 licences and the All Rights Reserved licence by default. Edit this list from the **Licence manager** which can be found on the manager dashboard.
-![The workflow button highlighted on the manager dashboard](../images/manager-licence-manager.png)
+![The licence manager button highlighted on the manager dashboard](../images/manager-licence-manager.png)
 
 Similarly to sections, if journal only publishes with a single licence, you can hide the submission selection field during submission<!-- mising hyperlink-->. If you do, set a default licence so the information still reaches the article metadata.
 
