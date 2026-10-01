@@ -131,7 +131,7 @@ By default, Janeway has the following stages:
 4. Typesetting
 5. Prepublication
 
-These can be edited, reordered and removed by someone with the staff permission through the **Workflow** page, which is accessible through the left-hand side menu. If you are a hosted client, this will usually have been setup for you and you won't need to make any changes.
+These can be edited, reordered and removed by someone with the staff permission through the **Workflow** page, which is accessible through the left-hand side menu. If you are a hosted client, this will usually have been setup for you and you won't need to make any changes. If you are on version 1.8 or higher, or 1.5 - 1.7 and have typesetting installed, you should remove the proofing and production stages. It is best to do this before articles enter the stages as a worklow stage can only be removed once no articles remain in it.
 ![The workflow button highlighted in the sidemenu](../images/sidemenu-workflow)
 
 > [!WARNING]

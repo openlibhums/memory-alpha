@@ -96,7 +96,7 @@ This plugin is part of the developer tools. It supports production scripts to fi
 
 ## Typesetting
 
-This plugin enables the typesetting-stage within Janeway. This is plugin is recommended to be installed by default from version 1.5 onwards.
+This plugin enables the typesetting-stage within Janeway. This is plugin is recommended to be installed by default from versions 1.5 to 1.7. Version 1.8 merges typesetting into core and you will no longer require the plugin seperately.
 
 ## Archive
 
