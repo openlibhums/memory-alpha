@@ -1,5 +1,3 @@
-Title: Installation Guide
-
 # Installation Guide
 
 There are a number of ways to get Janeway up and running. For

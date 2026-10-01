@@ -1,5 +1,3 @@
-Title: Changelog
-
 # Changelog
 
 Release notes have moved to

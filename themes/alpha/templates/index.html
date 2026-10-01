@@ -5,6 +5,11 @@
 {% from "components/page_section_group.html" import page_section_group %}
 {% from "components/tick_list.html" import tick_list, tick_list_item %}
 
+{% block head %}
+  {{ super() }}
+  <meta name="alpha_site" content="main" />
+{% endblock head %}
+
 {% block content %}
 
   {% block content_title %}
