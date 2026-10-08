@@ -74,9 +74,6 @@ Documentation authors are asked to place all content in `/content/support/`,
 using GitHub-flavored Markdown and including images in
 `/content/support/images/`.
 
-Pelican interprets these pages as “articles,” so minimal requirements about
-having a `Title` in the YAML metadata apply.
-
 If they are editing on GitHub.com, they can make commits on the perpetual
 `copyediting` branch, or if they are working locally, they should open
 a dedicated feature branch. They may often need help with pull requests and

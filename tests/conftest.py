@@ -2,14 +2,7 @@ import os
 import re
 import pytest
 from pytest_server import PytestPelicanServer
-from pelican import get_instance, parse_arguments
 from axe_playwright_python.sync_playwright import Axe
-
-
-pelican, settings = get_instance(parse_arguments())
-ALL_PAGES = [
-    path for _label, path, target in settings.get('ALL_PAGES') if not target
-]
 
 
 @pytest.fixture(scope="session")
@@ -36,11 +29,6 @@ def live_server(base_url: str):
 @pytest.fixture(scope="module")
 def axe():
     return Axe()
-
-
-@pytest.fixture(scope="module", params=ALL_PAGES)
-def site_page(request):
-    yield request.param
 
 
 @pytest.fixture(scope="module")

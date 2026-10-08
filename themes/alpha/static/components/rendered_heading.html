@@ -1,0 +1,22 @@
+<div class="rendered-heading level-{{ level }}">
+  <!-- prettier-ignore-start -->
+  <h{{ level }}
+    {% if section_id %}
+      id="{{ section_id }}"
+    {% endif %}
+  >
+    {{- children -}}
+  </h{{ level }}>
+  <!-- prettier-ignore-end -->
+  {% if section_id %}
+    <a class="section-link" href="#{{ section_id }}">
+      <span aria-hidden="true">{% include "svg/tabler/link.svg" %}</span>
+      <span class="sr-only">{{ children|striptags }} section</span>
+    </a>
+  {% elif level == 1 %}
+    <a class="document-link" data-document-link href="#">
+      <span aria-hidden="true">{% include "svg/tabler/link.svg" %}</span>
+      <span class="sr-only">{{ children|striptags }} page</span>
+    </a>
+  {% endif %}
+</div>
