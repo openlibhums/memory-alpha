@@ -1,0 +1,225 @@
+{% from "components/prose_columns.html" import prose_columns, column %}
+
+{# The support site footer #}
+
+{% macro h3(href="") -%}
+  {% if href %}
+    <h3><a href="{{ SITEURL }}/pages/support/{{ href }}">{{ caller() }}</a></h3>
+  {% else %}
+    <h3>{{ caller() }}</h3>
+  {% endif %}
+{%- endmacro %}
+
+{% macro list() -%}
+  <ul>
+    {{ caller() }}
+  </ul>
+{%- endmacro %}
+
+{% macro item(href="") -%}
+  <li>
+    {% if href %}
+      <a href="{{ SITEURL }}/pages/support/{{ href }}"> {{ caller() }} </a>
+    {% else %}
+      {{ caller() }}
+    {% endif %}
+  </li>
+{%- endmacro %}
+
+<div class="support-footer flow">
+  {% if output_file != "pages/support/all-support-pages.html" %}
+    <div class="mega-menu flow flow-first-child">
+      <h2>Read more</h2>
+      {% call prose_columns(column_gap="column-gap-3") %}
+        {% call column() %}
+          {% call h3() %}
+            Guides
+          {% endcall %}
+          {% call list() %}
+            {% call item(href="guides/index.html") %}
+              All guides
+            {% endcall %}
+            {% call item(href="guides/editor-guide-overview.html") %}
+              Editor workflow guide
+            {% endcall %}
+            {% call item(href="guides/reviewer-guide.html") %}
+              Reviewer guide
+            {% endcall %}
+            {% call item(href="guides/journal-setup.html") %}
+              Setting up a journal
+            {% endcall %}
+            {% call item(href="guides/creating-an-account-on-janeway.html") %}
+              Creating an account
+            {% endcall %}
+          {% endcall %}
+        {% endcall %}
+
+        {% call column() %}
+          {% call h3() %}
+            Accounts and roles
+          {% endcall %}
+          {% call list() %}
+            {% call item(href="accounts-and-roles/index.html") %}
+              Accounts and roles overview
+            {% endcall %}
+            {% call item(href="guides/account-troubleshooting.html") %}
+              Account troubleshooting
+            {% endcall %}
+            {% call item(href="accounts-and-roles/activating-accounts.html") %}
+              Activating accounts
+            {% endcall %}
+
+            {% call item(href="accounts-and-roles/managing-user-accounts.html") %}
+              Managing user accounts
+            {% endcall %}
+          {% endcall %}
+          {% call h3() %}
+            Journal management
+          {% endcall %}
+          {% call list() %}
+            {% call item (href="journal-management/index.html") %}
+              Journal management overview
+            {% endcall %}
+            {% call item(href="accessibility/index.html") %}
+              Accessibility
+            {% endcall %}
+            {% call item(href="analytics/index.html") %}
+              Analytics
+            {% endcall %}
+            {% call item(href="plugins/custom-styling.html") %}
+              Custom styling
+            {% endcall %}
+            {% call item(href="journal-management/image-guidelines.html") %}
+              Image guidelines
+            {% endcall %}
+          {% endcall %}
+          {% call h3() %}
+            Press management
+          {% endcall %}
+          {% call list() %}
+            {% call item(href="press-management/index.html") %}
+              Press management overview
+            {% endcall %}
+            {% call item(href="press-management/doi-management-at-press-level.html") %}
+              DOI management (Press level)
+            {% endcall %}
+            {% call item(href="press-management/journal-management-press-level.html") %}
+              Setting journal defaults
+            {% endcall %}
+          {% endcall %}
+        {% endcall %}
+
+        {% call column() %}
+          {% call h3() %}
+            Articles
+          {% endcall %}
+          {% call list() %}
+            {% call item(href="article-management/index.html") %}
+              Articles overview
+            {% endcall %}
+            {% call item(href="article-management/articles-management.html") %}
+              Article management
+            {% endcall %}
+            {% call item(href="identifiers/index.html") %}
+              Identifiers
+            {% endcall %}
+            {% call item(href="issues-volumes-and-collections/index.html") %}
+              Issues and volumes
+            {% endcall %}
+          {% endcall %}
+          {% call h3(href="") %}
+            Review
+          {% endcall %}
+          {% call list() %}
+            {% call item(href="review/index.html") %}
+              Review overview
+            {% endcall %}
+            {% call item(href="review/review-forms.html") %}
+              Review forms
+            {% endcall %}
+            {% call item(href="review/review-settings.html") %}
+              Review settings
+            {% endcall %}
+          {% endcall %}
+          {% call h3() %}
+            Submission
+          {% endcall %}
+          {% call list() %}
+            {% call item(href="submission/index.html") %}
+              Submission overview
+            {% endcall %}
+            {% call item(href="submission/configuring-the-submission-page.html") %}
+              Configuring the submission page
+            {% endcall %}
+            {% call item(href="submission/submission-settings.html") %}
+              Submission settings
+            {% endcall %}
+          {% endcall %}
+        {% endcall %}
+
+        {% call column() %}
+          {% call h3() %}
+            Email and reminders
+          {% endcall %}
+          {% call list() %}
+            {% call item(href="email-and-reminders/index.html") %}
+              Emails and reminders - overview
+            {% endcall %}
+
+            {% call item(href="email-and-reminders/email-logs.html") %}
+              Email logs
+            {% endcall %}
+            {% call item(href="email-and-reminders/email-templates.html") %}
+              Email templates
+            {% endcall %}
+            {% call item(href="email-and-reminders/scheduling-reminders.html") %}
+              Scheduling reminders
+            {% endcall %}
+          {% endcall %}
+          {% call h3() %}
+            Repository
+          {% endcall %}
+          {% call list() %}
+            {% call item(href="repository/index.html") %}
+              Repository overview
+            {% endcall %}
+            {% call item(href="repository/moderator-guide.html") %}
+              Moderator guide
+            {% endcall %}
+            {% call item(href="repository/setting-up-a-repository-with-janeway.html") %}
+              Setting up a repository
+            {% endcall %}
+            {% call item(href="repository/submitting-to-a-janeway-repository.html") %}
+              Submitting to a repository
+            {% endcall %}
+          {% endcall %}
+          {% call h3() %}
+            Plugins
+          {% endcall %}
+          {% call list() %}
+            {% call item(href="plugins/index.html") %}
+              All plugins
+            {% endcall %}
+            {% call item(href="plugins/imports-plugin.html") %}
+              Import plugin
+            {% endcall %}
+            {% call item(href="plugins/migrations-overview.html") %}
+              Migration plugins
+            {% endcall %}
+            {% call item(href="plugins/discovery-overview.html") %}
+              Discovery and archiving plugins
+            {% endcall %}
+          {% endcall %}
+        {% endcall %}
+      {% endcall %}
+    </div>
+    <p class="fs-3">
+      Can't find what you are looking for? Look on the list of
+      <a href="{{ SITEURL }}/pages/support/all-support-pages.html"
+        >all support pages</a
+      >.
+    </p>
+  {% endif %}
+  <div class="logo">{% include "svg/janeway-logo-foreground.svg" %}</div>
+  {% include "components/licensing_line.html" %}
+</div>

@@ -1,5 +1,3 @@
-Title: Robots and Sitemaps
-
 # Robots and Sitemaps
 
 In version 1.4.1 of Janeway we are introducing the generation of Robot
