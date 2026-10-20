@@ -1,4 +1,6 @@
-/* Page container to set left and right boundaries */
+/* Page container to set left and right boundaries
+ * and establish grid for header, main, and footer layout
+ * so content has same height even if much shorter than viewport. */
 .container {
   margin-inline: auto;
   max-width: var(--container-max-width);
@@ -8,10 +10,17 @@
   @media (width > 50rem) {
     padding-inline: var(--container-padding-large);
   }
+  display: flex;
+  flex-direction: column;
+}
+.container > :nth-last-child(2) {
+  flex-grow: 1;
 }
 
 /* Add spacing flexibly between elements */
-.flow > *:where(:not(:first-child):not(.sr-only + *):not(li)) {
+.flow > *:where(:not(:first-child):not(.sr-only + *):not(li)),
+.flow > :where(ul, ol) > li > *:where(:not(:first-child)),
+.flow > :where(ul, ol) > li > :where(ul, ol) > li > *:where(:not(:first-child)) {
   margin-block-start: var(--flow-space, 1rem);
 }
 /* Optionally flow the first child as well */
@@ -20,15 +29,28 @@
 }
 /* Apply flow spacing on lists using a pseudo-element hack because
  * of a Safari bug that happens when using `columns` on `ul` elements */
-.flow > li:not(:last-child)::after {
+.flow > :where(ul, ol) > li:not(:last-child)::after,
+.flow > :where(ul, ol) > li > :where(ul, ol) > li:not(:last-child)::after,
+.flow > :where(ul, ol) > li > :where(ul, ol) > li > :where(ul, ol) > li:not(:last-child)::after {
   content: "";
   display: block;
   height: var(--flow-space, 1rem);
 }
 
 /* Prose text */
-.prose > * {
+/* Constrain the width of most prose elements. */
+.prose :where(h1, h2, h3, h4, h5, h6, p, pre, ul, ol, li, hr, table, details):not(.not-prose *) {
   max-width: 40rem;
+}
+/* But allow screenshots in docs to extend past the prose
+* reading width. */
+@supports selector(:has(*)) {
+  .prose p:has(img:first-child:last-child),
+  .prose ul:has(p img:first-child:last-child),
+  .prose ol:has(p img:first-child:last-child),
+  .prose li:has(p img:first-child:last-child) {
+    max-width: none;
+  }
 }
 .not-prose {
   max-width: none;
@@ -74,6 +96,9 @@
 .bg-alpha-yellow {
   --clr-background: var(--clr-alpha-yellow);
   background-color: var(--clr-background);
+}
+.fill-foreground {
+  fill: var(--clr-foreground);
 }
 .fill-alpha-black {
   fill: var(--clr-alpha-black);
@@ -455,7 +480,17 @@
 }
 
 /* Hide overflow on the left and right of an element */
-
 .overflow-x-hidden {
   overflow-x: hidden;
+}
+
+/* Maintain minimum height of webpage so footer still appears at the bottom
+ * even if there is very little content */
+.min-height-viewport {
+  min-height: 100vh;
+}
+
+/* No underline or text decoration */
+.text-decoration-none {
+  text-decoration: none;
 }

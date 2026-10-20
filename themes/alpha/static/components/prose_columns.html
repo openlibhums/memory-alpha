@@ -5,10 +5,10 @@ preserving responsiveness and flow spacing #}
   <div class="prose flow flow-first-child">{{ caller() }}</div>
 {% endmacro %}
 
-{% macro prose_columns() -%}
+{% macro prose_columns(column_gap="column-gap-6") -%}
   <div
     class="
-      not-prose flex row-gap-0 column-gap-6
+      not-prose flex row-gap-0 {{ column_gap }}
       direction-row-large direction-column-small
     "
   >
