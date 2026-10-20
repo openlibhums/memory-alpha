@@ -115,3 +115,33 @@ Do not put any bullet or dash before the definitions, because this will cause ex
 Importantly, put two spaces after the term in the first line, to maintain the line break when the Markdown is rendered.
 
 ![The words "cat" and "dog" appear next to bullet points, and descriptions appear underneath each word](../images/lists-with-definitions.png)
+
+## Images
+
+Images should be placed in their own Markdown paragraph, with a line space before and after. This will ensure they display large enough, rather than being limited to the width of the surrounding text.
+
+```md
+This dog is jolly.
+
+![Dog](dog.png)
+
+This cat is judgmental.
+
+![Cat](cat.png)
+```
+
+Images in lists should be indented to the same level as surrounding text, so that it’s clear visually they relate to the list item rather than coming after the end of the list. They should also have a line space before and after.
+
+```md
+1. Dog
+
+   ![Dog](dog.png)
+
+   More about the dog
+
+2. Cat
+
+   ![Cat](cat.png)
+
+3. Bird
+```

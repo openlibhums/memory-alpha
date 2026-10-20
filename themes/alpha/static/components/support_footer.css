@@ -11,13 +11,12 @@
     font-size: var(--step-3);
   }
   .mega-menu ul {
-    --flow-space: 0;
+    --flow-space: var(--space-2xs);
     margin: 0;
     padding: 0;
     list-style: none;
   }
   .mega-menu li {
-    padding-block-start: var(--space-2xs);
     font-size: var(--step-2);
   }
   .logo svg {

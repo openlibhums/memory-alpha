@@ -82,5 +82,5 @@ From this page there are also two things you can do:
 - Refresh the email status  
    This checks the latest delivery status for the email. This can be used to check the delivery status. This cannot detect issues on the recipient's side (such as local spam filtering).
 
-- View email content
+- View email content  
   This displays the email message that was sent From this screen, you can also resend the email.

@@ -1,13 +1,17 @@
 {% extends "page.html" %}
 
 {% macro page_display(page_obj, href) -%}
-  <li>
-    <a href="{{ href }}">{{ page_obj.title }}</a>
+  <li style="--flow-space: var(--space-3xs);">
+    <p>
+      <a class="text-decoration-none" href="{{ href }}">{{ page_obj.title }}</a>
+    </p>
     {% if page_obj.h2s %}
-      <ul>
+      <ul style="--flow-space: var(--space-3xs);">
         {% for heading, section_id in page_obj.h2s %}
-          <li>
-            <a href="{{ href }}#{{ section_id }}"> {{ heading }} </a>
+          <li style="--flow-space: var(--space-3xs);">
+            <a class="text-decoration-none" href="{{ href }}#{{ section_id }}">
+              {{ heading }}
+            </a>
           </li>
         {% endfor %}
       </ul>

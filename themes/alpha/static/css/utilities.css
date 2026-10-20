@@ -18,7 +18,9 @@
 }
 
 /* Add spacing flexibly between elements */
-.flow > *:where(:not(:first-child):not(.sr-only + *):not(li)) {
+.flow > *:where(:not(:first-child):not(.sr-only + *):not(li)),
+.flow > :where(ul, ol) > li > *:where(:not(:first-child)),
+.flow > :where(ul, ol) > li > :where(ul, ol) > li > *:where(:not(:first-child)) {
   margin-block-start: var(--flow-space, 1rem);
 }
 /* Optionally flow the first child as well */
@@ -27,22 +29,27 @@
 }
 /* Apply flow spacing on lists using a pseudo-element hack because
  * of a Safari bug that happens when using `columns` on `ul` elements */
-.flow > li:not(:last-child)::after {
+.flow > :where(ul, ol) > li:not(:last-child)::after,
+.flow > :where(ul, ol) > li > :where(ul, ol) > li:not(:last-child)::after,
+.flow > :where(ul, ol) > li > :where(ul, ol) > li > :where(ul, ol) > li:not(:last-child)::after {
   content: "";
   display: block;
   height: var(--flow-space, 1rem);
 }
 
 /* Prose text */
-/* Constrain the width of most prose elements.
- * But allow screenshots in docs to extend past the prose
- * reading width. */
-.prose > *:where(:not(p:has(img:first-child:last-child))) {
+/* Constrain the width of most prose elements. */
+.prose :where(h1, h2, h3, h4, h5, h6, p, pre, ul, ol, li, hr, table, details):not(.not-prose *) {
   max-width: 40rem;
 }
-@supports not selector(:has(*)) {
-  .prose > * {
-    max-width: 40rem;
+/* But allow screenshots in docs to extend past the prose
+* reading width. */
+@supports selector(:has(*)) {
+  .prose p:has(img:first-child:last-child),
+  .prose ul:has(p img:first-child:last-child),
+  .prose ol:has(p img:first-child:last-child),
+  .prose li:has(p img:first-child:last-child) {
+    max-width: none;
   }
 }
 .not-prose {
@@ -481,4 +488,9 @@
  * even if there is very little content */
 .min-height-viewport {
   min-height: 100vh;
+}
+
+/* No underline or text decoration */
+.text-decoration-none {
+  text-decoration: none;
 }

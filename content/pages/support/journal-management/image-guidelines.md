@@ -88,6 +88,6 @@ These images should be roughly square. Dimensions of 432px by 432px are recommen
 
 This favorite icon or favicon appears in the browser tab alongside the name of the journal website, as well as in search results, browser bookmarks, and other places.
 
-We recommend using an icon of up to 100px by 100px, as this should fit most use cases.
+We recommend using a square icon of up to 100px by 100px, as this should fit most use cases.
 
 ![The OLH favicon in a browser tab](../images/favicon-example.png)
