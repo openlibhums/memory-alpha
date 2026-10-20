@@ -3,14 +3,18 @@
     <ol>
       {# Form the first few items manually #}
       <li><a href="/">Home</a></li>
-      {% if output_file == "pages/support2.html" %}
-        <li>Support</li>
+      {% if output_file == "pages/support/documentation.html" %}
+        <li>Documentation</li>
       {% else %}
-        <li><a href="{{ SITEURL }}/pages/support2">Support</a></li>
+        <li>
+          <a href="{{ SITEURL }}/pages/support/documentation.html"
+            >Documentation</a
+          >
+        </li>
       {% endif %}
 
       {# Avoid repeating the name of an index page #}
-      {% set index_pages = ["/index.html", "/support2.html"] %}
+      {% set index_pages = ["/index.html", "support/documentation.html"] %}
       {% set output = namespace(file=output_file) %}
       {% for index_page in index_pages %}
         {% if output.file.endswith(index_page) %}

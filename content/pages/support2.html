@@ -4,53 +4,260 @@
 
 <head>
   <title>Support</title>
-  <meta name="alpha_site" content="support" />
+  <meta name="alpha_site" content="main" />
 </head>
 <body>
-  <h1>Support</h1>
-  <p>
-    This will be the support landing page. Its design and layout will be done
-    last before publishing the site.
-  </p>
-  <p>
-    In the meantime see
-    <a href="{{ SITEURL }}/pages/support/all-support-pages.html">all pages</a>.
-  </p>
+  {% call page_h1() -%}
+    Support
+  {%- endcall %}
+  {% call page_section(label="introduction", same_bg="same-bg") -%}
+    <p>
+      Janeway is an open-source publishing platform for scholarly journals,
+      presses, and repositories. It handles the whole path from submission
+      through peer review, copyediting, and typesetting to a published article
+      on a public website.
+    </p>
+    <p>
+      These pages explain how to use Janeway, whether you are running a journal,
+      managing a press, reviewing a manuscript, or submitting your own work.
+    </p>
+  {%- endcall %}
+  {%
+    call page_section(
+      labelledby="documentation-and-guides",
+      bg="bg-alpha-blue",
+    )
+  -%}
+    <h2 id="documentation-and-guides">Documentation and guides</h2>
+    <p>
+      The Janeway documentation covers everything you need to set up, run and
+      publish with Janeway, from configuring a press and journal to managing
+      submissions, peer review, production and publication. Guides are organised
+      by role, so editors, authors, reviewers and press managers can go straight
+      to the tasks that are relevant to them.
+    </p>
+  {%- endcall %}
+  {% call page_section_group() -%}
+    {%
+      call page_section(
+        label="documentation",
+        bg="bg-alpha-white",
+        layout="layout-left",
+      )
+    -%}
+      <p>
+        Each of the links listed below corresponds to a section of the
+        documentation, ordered by theme. Each page will link to more detailed
+        pages for more information on the topic.
+      </p>
+      <ul>
+        <li>
+          <a href="{{ SITEURL }}/pages/support/accessibility/index.html"
+            >Accessibility</a
+          >
+        </li>
+        <li>
+          <a href="{{ SITEURL }}/pages/support/accounts-and-roles/index.html"
+            >Accounts and roles</a
+          >
+        </li>
+        <li>
+          <a href="{{ SITEURL }}/pages/support/analytics/index.html"
+            >Analytics</a
+          >
+        </li>
+        <li>
+          <a href="{{ SITEURL }}/pages/support/article-management/index.html"
+            >Article management</a
+          >
+        </li>
+        <li>
+          <a href="{{ SITEURL }}/pages/support/email-and-reminders/index.html"
+            >Emails and reminders</a
+          >
+        </li>
+        <li>
+          <a href="{{ SITEURL }}/pages/support/guides/index.html">Guides</a>
+        </li>
+        <li>
+          <a href="{{ SITEURL }}/pages/support/identifiers/index.html"
+            >Managing identifiers</a
+          >
+        </li>
+        <li>
+          <a href="{{ SITEURL }}/pages/support/plugins/imports-plugin.html"
+            >Importing, exporting and updating data</a
+          >
+        </li>
+        <li>
+          <a
+            href="{{ SITEURL }}/pages/support/issues-volumes-and-collections/index.html"
+            >Managing issues, volumes and collections</a
+          >
+        </li>
+        <li>
+          <a href="{{ SITEURL }}/pages/support/journal-management/index.html"
+            >Journal management</a
+          >
+        </li>
+        <li>
+          <a href="{{ SITEURL }}/pages/support/plugins/index.html">Plugins</a>
+        </li>
+        <li>
+          <a href="{{ SITEURL }}/pages/support/press-management/index.html"
+            >Press management</a
+          >
+        </li>
+        <li>
+          <a href="{{ SITEURL }}/pages/support/repository/index.html"
+            >Repositories</a
+          >
+        </li>
+        <li>
+          <a href="{{ SITEURL }}/pages/support/review/index.html">Review</a>
+        </li>
+        <li>
+          <a href="{{ SITEURL }}/pages/support/submission/index.html"
+            >Submission</a
+          >
+        </li>
+      </ul>
+      <p>
+        Browse the full
+        <a href="{{ SITEURL }}/pages/support/documentation.html">
+          documentation outline</a
+        >.
+      </p>
+    {%- endcall %}
+    {%
+      call page_section(
+        label="guides",
+        bg="bg-alpha-white",
+        layout="layout-right",
+      )
+    -%}
+      <p>There are various guides available for using Janeway:</p>
+      <ul>
+        <li>
+          <a href="{{ SITEURL }}/pages/support/guides/index.html"
+            >Janeway guides overview</a
+          >
+        </li>
+        <li>
+          <a href="{{ SITEURL }}/pages/support/guides/getting-started.html"
+            >Getting started with Janeway</a
+          >
+          <p>
+            These guides will help you set up your account, navigate Janeway and
+            - if you are an editor or press manager - configure your first
+            journal.
+          </p>
+        </li>
+        <li>
+          <a
+            href="{{ SITEURL }}/pages/support/guides/index.html#workflow-guides"
+            >Workflow guides</a
+          >
+          <p>
+            Each guide covers one role (e.g., author, reviewer, typesetter) from
+            start to finish, so you can read only the parts that apply to you.
+          </p>
 
-  <h2>Documentation and guides</h2>
-  <p>
-    The Janeway documentation covers everything you need to set up, run and
-    publish with Janeway, from configuring a press and journal to managing
-    submissions, peer review, production and publication. Guides are organised
-    by role, so editors, authors, reviewers and press managers can go straight
-    to the tasks that are relevant to them.
-  </p>
-  <p>
-    <a href="{{ SITEURL }}/pages/support/about/index.html"
-      >Browse the Janeway documentation</a
-    >.
-  </p>
-
-  <h2>Getting help</h2>
-  <p>
-    If you can't find the answer you need in the documentation, there are two
-    ways to get in touch. For account-specific questions, technical problems or
-    anything that involves your journal's data, email the support team. For
-    general questions, tips and conversation with other Janeway users and the
-    development team, join the Janeway community on Discord using this
-    invitation link. When you report a problem, include your journal name, a
-    description of what you were trying to do and any error messages you saw, so
-    that we can help you more quickly.
-  </p>
-
-  <h2>Training</h2>
-  <p>
-    If you're new to Janeway, we recommend starting with our
-    <a href="{{ SITEURL }}/pages/support/guides/index.html">guides</a>, which
-    introduce the core workflows and terminology you'll use day to day. Our
-    training videos walk through common tasks step by step and are a useful
-    companion to the written guides. For information about live training
-    sessions, onboarding for new journals and other training resources, see our
-    training page.
-  </p>
+          <p></p>
+        </li>
+        <li>
+          <a
+            href="{{ SITEURL }}/pages/support/guides/editor-guide-overview.html"
+            >Editor guides</a
+          >
+          <p>The guides for the six stages of the editor’s workflow.</p>
+        </li>
+        <li>
+          <a
+            href="{{ SITEURL }}/pages/support/guides/index.html#troubleshooting"
+            >Troubleshooting</a
+          >
+          <p>Common problems and their solutions are outlined here.</p>
+        </li>
+        <li>
+          <a
+            href="{{ SITEURL }}/pages/support/guides/index.html#setup-and-configuration"
+            >Setup and configuration</a
+          >
+          <p>
+            If you are setting up or configuring a journal, these guides collate
+            and link to information that may be helpful.
+          </p>
+        </li>
+      </ul>
+    {%- endcall %}
+  {%- endcall %}
+  {% call page_section_group() -%}
+    {%
+      call page_section(
+        labelledby="getting-help",
+        bg="bg-alpha-black",
+        layout="layout-left",
+      )
+    -%}
+      <h2 id="getting-help">Getting help</h2>
+      <p>
+        If the documentation does not answer your question, help is available.
+      </p>
+      <ul>
+        <li>
+          For questions about your journal’s policies and specific processes,
+          ask your editor or press manager.
+        </li>
+        <li>
+          For technical problems, configuration questions, or anything in the
+          admin area, contact your system administrator (if self-hosted) or
+          Janeway support.
+        </li>
+        <li>
+          If your system administrator cannot resolve the problem, contact
+          Janeway support.
+        </li>
+      </ul>
+      <p>
+        For account-specific questions, technical problems or anything that
+        involves your journal's data, email the support team using our
+        <a href="https://janeway.freshdesk.com/" target="_blank">helpdesk</a>.
+        For general questions, tips and conversation with other Janeway users
+        and the development team, join the Janeway community on Discord using
+        this
+        <a href="https://janeway.readthedocs.io/en/latest/" target="_blank"
+          >invitation link</a
+        >.
+      </p>
+      <p>
+        When you report a problem, include your journal name, a description of
+        what you were trying to do and any error messages you saw, so that we
+        can help you more quickly.
+      </p>
+      <p>
+        Please note that if you are a self-hosted user, the support team will
+        not have access to your install and may not be able to resolve the issue
+        directly.
+      </p>
+    {%- endcall %}
+    {%
+      call page_section(
+        label="introduction",
+        bg="bg-alpha-blue",
+        layout="layout-right",
+      )
+    -%}
+      <h2>Training</h2>
+      <p>
+        If you're new to Janeway, we recommend starting with our
+        <a href="{{ SITEURL }}/pages/support/guides/index.html">guides</a>,
+        which introduce the core workflows and terminology you'll use day to
+        day. Our training videos walk through common tasks step by step and are
+        a useful companion to the written guides. For information about live
+        training sessions, onboarding for new journals and other training
+        resources, see our training page.
+      </p>
+    {%- endcall %}
+  {%- endcall %}
 </body>

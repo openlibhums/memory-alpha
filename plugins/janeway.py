@@ -240,7 +240,7 @@ class AllSupportPagesGenerator:
         config = context.get("ALL_SUPPORT_PAGES", {})
         included = config.get("include", ())
         excluded = config.get("exclude", ())
-        filename = os.path.join(output_path, "pages", "support", "all-support-pages.html")
+        filename = os.path.join(output_path, "pages", "support", "documentation.html")
 
         def to_url(path):
             nonlocal output_path
@@ -303,15 +303,15 @@ class AllSupportPagesGenerator:
         grouped_pages.sort(key=lambda group_tup: group_tup[1]["index"]["obj"].title)
 
         with open(filename, "w", encoding="utf-8") as fd:
-            template = JINJA_ENV.get_template("all_support_pages.html")
+            template = JINJA_ENV.get_template("documentation.html")
             context["page"] = contents.Page(
                 "",
                 metadata={
-                    "title": "All support pages",
+                    "title": "Documentation",
                     "alpha_site": "support",
                 }
             )
-            context["output_file"] = "pages/support/all-support-pages.html"
+            context["output_file"] = "pages/support/documentation.html"
             context["grouped_pages"] = grouped_pages
 
             fd.write(template.render(context))
@@ -327,7 +327,7 @@ def register():
     # Signals related to Markdown rendering
     signals.readers_init.connect(add_reader)
 
-    # Signals related to "All Pages" page generation on support site
+    # Signals related to "Documentation" page generation on support site
     signals.get_generators.connect(generator.init)
     signals.content_written.connect(generator.queue_page)
     signals.finalized.connect(generator.finalize)
