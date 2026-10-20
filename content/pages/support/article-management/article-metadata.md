@@ -17,6 +17,7 @@ Using the workflow bar:
 1. Go to the article page within the workflow.
 2. Click **Logs, docs and more** on the right-hand side of the blue workflow progress bar.
 3. Select one of the following:
+
    - **Article archive** to view the metadata.
    - **Edit metadata** to edit it.
    - **Edit author metadata** to edit the author metadata.
