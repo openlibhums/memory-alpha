@@ -1,15 +1,9 @@
 # Archiving plugins
 
-- Portico (active)
-  - [GitHub Repo](https://github.com/openlibhums/portico)
+Most archiving features are already included in Janeway without a plugin, such as the OAI-PMH feed, JATS XML galleys, and sitemaps.
 
-- Library of Congress transporter (active)
-  - [GitHub Repo](https://github.com/openlibhums/loc_transporter)
+In addition, plugins can be installed for specific services that a journal or press uses.
 
-- C/LOCKSS (active)
-  - Only used for the archival statement
-  - [GitHub Repo](https://github.com/openlibhums/lockss)
-
-- FTP (active)
-  - [GitHub Repo](https://github.com/openlibhums/janeway-ftp)
-  - This package contains FTP, SFTP and Helpers use to prepare and deposit articles from a Janeway instance.
+- [Portico](portico.md)
+- [Library of Congress](library-of-congress.md)
+- [CLOCKSS](clockss.md)

@@ -26,6 +26,8 @@ This plugin enables the publication eBooks as well as other multimedia files suc
 
 This plugin sends content to [CLOCKSS](https://clockss.org/) for archiving purposes.
 
+More details on the [CLOCKSS plugin](clockss.md).
+
 ## Commissions
 
 This plugin enables journals to commission articles from authors. If there is an existing agreement between the editor(s) and author(s), the editor can create the submission (and metadata) and send an invitation to the author. The author can then upload the manuscript.
@@ -42,9 +44,13 @@ This plugin enables customisable CSS for the press website. You can add styleshe
 
 This plugin enables minting DOIs through [DataCite](https://datacite.org/) and sending metadata to DataCite.
 
+More details on the [DataCite plugin](datacite.md).
+
 ## DOAJ
 
 This plugin sends metadata to the [Directory of Open Access Journals DOAJ](https://doaj.org/) and can load metadata through the API.
+
+More details on the [DOAJ plugin](doaj.md).
 
 ## ePrints migration
 
@@ -74,6 +80,8 @@ This plugin enables the editing of XSLT on Janeway and to see the effects on art
 
 This plugin sends metadata to the [Library of Congress](https://www.loc.gov/) for archiving purposes.
 
+More details on the [Library of Congress plugin](library-of-congress.md).
+
 ## Pandoc
 
 This plugin enables the use of [Pandoc](https://pandoc.org/) for 'typesetting'. Manuscript files can be converted into HTML or PDF using Pandoc in the place of using a typesetter.
@@ -81,6 +89,8 @@ This plugin enables the use of [Pandoc](https://pandoc.org/) for 'typesetting'. 
 ## Portico
 
 This plugin sends content to [Portico](https://www.portico.org/) for archiving purposes.
+
+More details on the [Portico plugin](portico.md).
 
 ## Production transporter (FTP)
 
