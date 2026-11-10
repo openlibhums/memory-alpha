@@ -13,13 +13,21 @@ The admin area is Janeway's direct view of its database. This section is for use
 ## Accounts and roles
 
 - [Password resets](./password-reset.md)
+- [Deleting accounts](./deleting-accounts.md)
 
 ## Journal configuration
 
-## Issues and content
+- [Journal publishing statuses](./journal-publishing-status.md)
 
-[Setting up custom issue types](./custom-issue-type.md)
+## Issues, volumes and content
+
+- [Setting up custom issue types](./custom-issue-type.md)
+- [Article records](./article-author-records.md)
 
 ## Logs and troubleshooting
 
+- [Reading log entries](./reading-log-entries.md)
+
 ## Reference
+
+- [Reference](./reference.md)
