@@ -72,7 +72,7 @@ Collections have their own pages on the journal website, separate from the **Iss
 
 The collections list page shows every collection that has a date in the past and contains at least one article. For each collection, it shows the large image, title, date and short description.
 
-![The collections list page, showing each collection's image, title, date and short description](../images/collections-list.png) -->
+![The collections list page, showing each collection's image, title, date and short description](../images/collections-list.png)
 
 Each collection has its own page, with the same layout as an issue page. It shows the collection's large image, title, description and table of contents. The sidebar lists the journal's other collections.
 
