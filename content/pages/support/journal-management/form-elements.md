@@ -2,8 +2,6 @@
 
 Custom forms in Janeway have the following aspects to them:
 
-<!-- edit to work for review, submission and hunt for any other custom forms. -->
-
 - Name  
    This field provides the name of the element.
   In case of a short question, you could put a question in this field. If using a longer question, you may wish to use a more generic description and provide further guidance in the help text.
