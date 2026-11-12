@@ -20,7 +20,12 @@
 /* Add spacing flexibly between elements */
 .flow > *:where(:not(:first-child):not(.sr-only + *):not(li)),
 .flow > :where(ul, ol) > li > *:where(:not(:first-child)),
-.flow > :where(ul, ol) > li > :where(ul, ol) > li > *:where(:not(:first-child)) {
+.flow
+  > :where(ul, ol)
+  > li
+  > :where(ul, ol)
+  > li
+  > *:where(:not(:first-child)) {
   margin-block-start: var(--flow-space, 1rem);
 }
 /* Optionally flow the first child as well */
@@ -31,7 +36,13 @@
  * of a Safari bug that happens when using `columns` on `ul` elements */
 .flow > :where(ul, ol) > li:not(:last-child)::after,
 .flow > :where(ul, ol) > li > :where(ul, ol) > li:not(:last-child)::after,
-.flow > :where(ul, ol) > li > :where(ul, ol) > li > :where(ul, ol) > li:not(:last-child)::after {
+.flow
+  > :where(ul, ol)
+  > li
+  > :where(ul, ol)
+  > li
+  > :where(ul, ol)
+  > li:not(:last-child)::after {
   content: "";
   display: block;
   height: var(--flow-space, 1rem);
@@ -39,7 +50,10 @@
 
 /* Prose text */
 /* Constrain the width of most prose elements. */
-.prose :where(h1, h2, h3, h4, h5, h6, p, pre, ul, ol, li, hr, table, details):not(.not-prose *) {
+.prose
+  :where(h1, h2, h3, h4, h5, h6, p, pre, ul, ol, li, hr, table, details):not(
+    .not-prose *
+  ) {
   max-width: 40rem;
 }
 /* But allow screenshots in docs to extend past the prose
