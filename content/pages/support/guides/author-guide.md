@@ -14,7 +14,7 @@ There are multiple ways to submit a journal article on Janeway.
 
 If you do not have an account yet:
 
-First, begin from the **Submission** page on the main site. If this is not visible on a journal website, they may not be accepting submissions at this time.
+First, begin from the **Submission** page on the main site. For more about accounts, see [Creating an account on Janeway](./creating-an-account-on-janeway.md). If the submission page is not visible on a journal website, they may not be accepting submissions at this time.
 
 ![An example submissions page. The submissions button on the page and the navbar items for Start a submission and Submissions are highlighted.](../images/workflow/author-submission-webpage.png)
 
@@ -106,7 +106,7 @@ This will not create a new account for the additional author(s), it will only cr
 
 If the search of the journal's author list or ORCID search are successful, author details will be added automatically. You can still make edits, by clicking on **Edit author details**. When an author already has an account with the journal or another journal under the press, this submission will be linked to their existing record.
 
-To change the correspondence author, another author with a pre-existing (confirmed) account needs to be added. If no other co-authors have an account, the submitting author is required to remain the correspondence author.
+The correspondence author, sometimes called the corresponding author, is the author the journal contacts about the submission. To change the correspondence author, another author with a pre-existing (confirmed) account needs to be added. If no other co-authors have an account, the submitting author is required to remain the correspondence author.
 
 > [!NOTE]
 > The correspondence author does not necessarily have to be the primary author. The correspondence author can also be changed after submission.
@@ -114,6 +114,8 @@ To change the correspondence author, another author with a pre-existing (confirm
 Janeway uses [Research Organization Registry (ROR)](https://ror.org/) to manage affiliation data. You can add author affiliation by clicking **Edit author details** and scrolling down to **Affiliations**. From here, you can add, remove and edit affiliations. If an author ORCID has been provided, their affiliation will be added automatically from their ORCID. You can still edit this, if it is incorrect.
 
 !["An example author on a submission, with the button to edit author details highlighted."](../images/workflow/author-submission-edit-details.png)
+
+To remove an author you added by mistake, select **Remove author** next to their name, then confirm.
 
 After the submission is completed, co-authors will be notified and will be able to access the submission and update or edit their details.
 
@@ -148,7 +150,7 @@ The **Review** page displays a run-down of the article you've submitted, metadat
 
 ## Revisions
 
-If an article is accepted, it may enter the peer review process. Once a submission has been reviewed, editors may request that authors revise their files based on recommendations from reviewers. There are three types of revision requests:
+After you submit, your article may be sent for peer review. Once a submission has been reviewed, editors may request that authors revise their files based on recommendations from reviewers. There are three types of revision requests:
 
 1. Minor revisions.
 2. Major revisions.
@@ -171,7 +173,11 @@ Once you have accessed the revision request, you can view the available peer rev
 
 Once you've uploaded the revised manuscript and any additional image files, you can complete the covering letter and save the revision.
 
-## Copyediting
+## After your article is accepted
+
+Once your article is accepted, it goes through copyediting and then proofing. You might be asked to check your article at both stages.
+
+### Copyediting
 
 Editors and authors are encouraged to undertake as many rounds of copyediting as is necessary to ensure that the text is ready to go into typesetting.
 
@@ -208,7 +214,7 @@ Typeset proofs are not an opportunity to make changes to the content or style of
 
    !["The block where authors can leave notes to the editor, record their decision and the button they click to complete the task."](../images/workflow/author-complete-copyedit-task.png)
 
-## Proofing
+### Proofing
 
 After your paper has been accepted and copyedited, the editors might send you a request to proof the typeset manuscript. This is the final version that will be made publicly available once the article gets published in the journal.
 
