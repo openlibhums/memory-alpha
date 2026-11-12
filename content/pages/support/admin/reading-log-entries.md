@@ -4,7 +4,7 @@ Janeway records many events in its log: emails sent, workflow actions, publicati
 
 ## When to use the admin area
 
-Generally, the Janewayway back office log should be the first place to check:
+Generally, the Janeway back office log should be the first place to check:
 
 - For emails and actions on one article, use the article's **Logs, documents and more** page. See [Email logs](../email-and-reminders/email-logs.md).
 - For emails sent to one user, use the user's **History** page.

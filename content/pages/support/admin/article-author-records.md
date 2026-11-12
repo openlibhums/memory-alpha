@@ -19,7 +19,7 @@ Change only **Comments to the editor**. Leave the article's other fields as they
 
 ## Add a workflow stage to an imported article
 
-Articles brought in with the imports plugin or the backcontent plugin don't go through the workflow. Their workflow bar, the blue bar at the top of the article's pages, will no include any stages before the one they were importd into (none if using the backcontent plugin). If you need to do work at one of those stages, you can add it to the bar.
+Articles brought in with the imports plugin or the backcontent plugin don't go through the workflow. Their workflow bar, the blue bar at the top of the article's pages, will not include any stages before the one they were imported into (none if using the backcontent plugin). If you need to do work at one of those stages, you can add it to the bar.
 
 For example, to generate an HTML galley for an imported article with Pandoc, add the **Typesetting** stage. You can then open the article's typesetting page and use Pandoc, without moving the article out of its current stage.
 
