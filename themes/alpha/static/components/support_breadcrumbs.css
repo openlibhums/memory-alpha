@@ -1,0 +1,20 @@
+.support-breadcrumbs {
+  --flow-space: var(--space-s);
+
+  ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  ol,
+  li {
+    display: flex;
+    gap: var(--space-xs);
+    flex-wrap: wrap;
+  }
+
+  li:not(:last-child)::after {
+    content: " > " / "";
+  }
+}
