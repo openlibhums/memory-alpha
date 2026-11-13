@@ -34,8 +34,8 @@ If articles are set to be automatically deposited, no further action is required
 
 Otherwise, you can deposit things individually:
 
-* On the list of issues, you can open the issue, or send the whole issue using **Push to DOAJ**.
-* If you open the issue, you have more detailed options:
+- On the list of issues, you can open the issue, or send the whole issue using **Push to DOAJ**.
+- If you open the issue, you have more detailed options:
   - **Admin logs**  
     Click through to any record of the article being sent (requires superuser or admin area access)
   - **View JSON**  
