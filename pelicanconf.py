@@ -1,9 +1,10 @@
 from datetime import datetime
 import json
 import logging
+import os
 
 
-TESTING = False
+TESTING = os.environ.get("MEM_ALPHA_TESTING") or False
 AUTHOR = 'Open Library of Humanities'
 SITENAME = 'Janeway'
 SITEURL = "http://localhost:8000" if TESTING else "https://janeway.systems"
@@ -150,7 +151,7 @@ SITEMAP = {
     ]
 }
 
-# All Pages page on support site
+# Documentation outline page on support site
 # Used by janeway plugin
 ALL_SUPPORT_PAGES = {
     "include": [
