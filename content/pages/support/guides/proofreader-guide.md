@@ -1,5 +1,7 @@
 # Proofreader guide
 
+This guide is for proofreaders who have been assigned a proofing task through Janeway. If you are an editor setting up proofreading, see [Proofing](./editor-guide-to-typesetting.md#proofing) in the editor guide to typesetting.
+
 As a proofreader you may be assigned proofing tasks for a paper. These will be assigned after a paper has gone through a round of typesetting. When a new assignment is made you will receive and email and be able to see the requests from the journal dashboard, they will be displayed as part of the typesetting block.
 
 The following users can be assigned as proofreaders:
