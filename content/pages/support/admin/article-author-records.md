@@ -1,6 +1,6 @@
 # Article records
 
-Generally, make changes to articles and their authors in the back office, using pages such as **Edit metadata** and the workflow stages. The back office checks your changes and keeps the article log up to date. There are two tasks that need the admin area:
+Generally, you should make changes to articles and their authors in the back office, using pages such as **Edit metadata** and the workflow stages. The back office checks your changes and keeps the article log up to date. There are two tasks that need the admin area:
 
 - Anonymizing an author's comments to the editor if using triple anonymous review.
 - Giving an imported article access to a workflow stage it never went through.
