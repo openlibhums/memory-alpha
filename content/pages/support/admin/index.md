@@ -1,6 +1,9 @@
 # Janeway admin area
 
-The admin area is Janeway's direct view of its database. This section is for users with staff permission, on hosted and self-hosted installations of Janeway. Server configuration is not covered; for that, contact your system administrator. The admin area allows users with staff permission to find, inspect and edit records that the back office doesn't show (and in ways not allowed in the back office). Ordinarily, you only need it only for a small number of tasks, such as deleting accounts, creating a custom issue type, changing journal codes, and adding elements to the workflow bar for imported articles. The admin area is a builtin part of the underlying Janeway infrastructure and _cannot_ be edited or changed like the Janeway backoffice. It is not possible to change its appearance, add features or reorganise its information.
+The admin area is Janeway's direct view of its database. This section is for users with both staff and superuser permission, on hosted and self-hosted installations of Janeway. As such, only users with existing admin area access can give other users admin area access. The staff permission covers access to the admin area portal and the superuser permission grants access to the content within this part of Janeway.
+
+The admin area allows users with staff permission to find, inspect and edit records that the back office doesn't show (and in ways not allowed in the back office). Ordinarily, you only need it only for a small number of tasks, such as deleting accounts, creating a custom issue type, changing journal codes, and adding elements to the workflow bar for imported articles. The admin area is a builtin part of the underlying Janeway infrastructure and _cannot_ be edited or changed like the Janeway backoffice. It is not possible to change its appearance, add features or reorganise its information.
+Server configuration is not covered through admin; for that, contact your system administrator.
 
 > [!NOTE]
 > Advanced users: As Janeway uses Django, thus the admin area is a [Django admin area](https://www.w3schools.com/django/django_admin.php).
