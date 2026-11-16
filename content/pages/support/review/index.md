@@ -18,6 +18,6 @@ The [review settings page](./review-settings.md) includes information on how to 
 - Control visibility of reviews and metadata.
 - Activate open peer review and expanded dashboards.
 
-The [review forms page](./review-forms.md) explains how to edit and set up new review forms. There is a separate page outlining [how to create form elements](../journal-management/form-elements.md) on Janeway.
+A review form is the set of questions reviewers answer when they complete a review. It can be a single text box or a structured form with several fields. The [review forms page](./review-forms.md) explains how to edit and set up new review forms. There is a separate page outlining [how to create form elements](../journal-management/form-elements.md) on Janeway.
 
 There are also pages outlining how to configure and use [open peer review](./open-peer-review.md), [triple anonymous peer review](./triple-anonymous-peer-review.md), and [sharing peer reviews](./sharing-reviews.md).
