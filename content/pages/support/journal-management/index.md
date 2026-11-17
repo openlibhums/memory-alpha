@@ -57,7 +57,7 @@ Use these interfaces to manage the people and contact details displayed on your 
    Guidance on how and where images appear on the journal site, and image size guidelines.
 
 - [Similarity checker](./similarity-check.md)  
-   Configure the Crossref Similarity Check (iThenticate) integration for checking submitted manuscripts.
+   Check submitted files for similarity with published work, using iThenticate and the Turnitin plugin.
 
 - [Clearing the cache](./clearing-the-cache.md)  
    If recent changes are not appearing on your journal website, you may need to clear the system cache to refresh stored data.

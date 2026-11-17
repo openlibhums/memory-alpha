@@ -108,6 +108,12 @@ This plugin is part of the developer tools. It supports production scripts to fi
 
 This plugin enables the typesetting-stage within Janeway. This is plugin is recommended to be installed by default from versions 1.5 to 1.7. Version 1.8 merges typesetting into core and you will no longer require the plugin seperately.
 
+## Turnitin
+
+This plugin sends submitted files to Turnitin's iThenticate service for similarity reports, and shows the results in the editorial workflow.
+
+More details in the [similarity checker guide](../journal-management/similarity-check).
+
 ## Archive
 
 This plugin enables Janeway to be used as an archive. It allows for the multiple versions of an article to be present, as well as functionality for versioning or new editions. This is currently used for an online encyclopedia which periodically releases new versions.
