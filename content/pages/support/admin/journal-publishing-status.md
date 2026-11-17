@@ -10,20 +10,20 @@ Some states are set with the journal's **Publishing status**. Others have their 
   The journal is publishing. It is listed on the press **Journals** page. This is the default for journals.
 
 - Remote  
-  The journal isn't hosted on Janeway. It is listed on the press **Journals** page, but its **View** and **Submit** buttons link to the journal's own website. Use this to list a journal that is part of your press but hosted elsewhere.  
+  The journal isn't hosted on Janeway. It is listed on the press **Journals** page, but its **View** and **Submit** buttons link to the journal's own website. Use this to list a journal that is part of your press but hosted elsewhere.
 
-  Janeway leaves remote journals out of its KBART feed, but it will be included in the sitemap (but not show the content hosted elsewhere).  
+  Janeway leaves remote journals out of its KBART feed, but it will be included in the sitemap (but not show the content hosted elsewhere).
 
   Set it with **Is remote**, **Remote view URL** and **Remote submit URL**.
 
 - Conference  
-  The journal publishes conference proceedings. It is listed on the press **Conferences** page instead of the **Journals** page. Its Crossref deposits use Crossref's conference proceedings format.  
+  The journal publishes conference proceedings. It is listed on the press **Conferences** page instead of the **Journals** page. Its Crossref deposits use Crossref's conference proceedings format.
 
   In the OLH theme, the press menu links to the **Conferences** page automatically. In other themes, add a link to it in the press navigation. The page's address is `/conferences/` on your press website. See [Navigation](../journal-management/navigation.md).  
   Set it with **Is conference**.
 
 - Submission-only  
-  The journal has a Janeway submission page and back office, but no other public pages. Readers who go to the journal's home page, articles, issues, collections or search are sent to its submission information page instead. Authors can still sign in, submit and work through the workflow.  
+  The journal has a Janeway submission page and back office, but no other public pages. Readers who go to the journal's home page, articles, issues, collections or search are sent to its submission information page instead. Authors can still sign in, submit and work through the workflow.
 
   Use this when a journal:
   - Hosts its other content elsewhere, and only uses Janeway for submissions and the editorial workflow.
