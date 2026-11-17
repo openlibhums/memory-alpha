@@ -63,7 +63,7 @@ You should set the supplementary file in advance of sending the article for type
 
 ## Upload galleys yourself (workflow)
 
-If you do not use a typesetter or file conversion through Janeway, you can upload typeset files yourself by clicking **Upload new typeset file** in the **Current galleys** section. Once you have selected a file, you can also mark whether the file will be public upon publication and set its label.
+The **Public** checkbox controls whether readers can see the file after the article is published. It is ticked by default. Editors decide which files are public. This depends on the journal, but public files are usually the final galleys and supplementary files. If you work with a typesetter, tell them in your instructions which files to leave unticked.
 
 ![" "](../images/workflow/editor-typesetting-upload-new-typeset-file.png)
 

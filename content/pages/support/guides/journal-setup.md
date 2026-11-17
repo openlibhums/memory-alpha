@@ -29,7 +29,7 @@ Optional information that may be helpful to keep on hand:
 - The names and email addresses of your editorial board.
 - A list of the licenses used for the journal.
 
-## Stage 1
+## Stage 1 Creating and designing the journal
 
 ### Creating a journal
 
@@ -119,7 +119,7 @@ In addition to setting a theme, you may wish to upload default images. This can 
 
 For more information or information on image sizing, see [Image guidelines](../journal-management/image-guidelines.md)
 
-## Stage 2
+## Stage 2: Configuring submissions, review and workflow
 
 ### Configuring the workflow
 
@@ -189,20 +189,20 @@ In terms of setting it up, peer review has two aspects to it: the settings that 
 
 The settings you are most likely to want to review and/or edit are the following:
 
-- Default review visibility  
-   Determines whether the default review visibility is open, single anonymous or double anonymous.
+- **Default Review Anonymity**  
+   Determines whether reviews are open, single anonymous or double anonymous by default.
 
-- Review guidelines  
+- **Reviewer Guidelines**  
    Set the general guidance for reviewers which appears on the review page.
 
-- Default review days  
+- **Default Number of Days for Review**  
    The default length for how long reviewers have to complete a review.
 
-- Default review form  
+- **Default Review Form**  
   Sets the default form used for completing reviews.
 
-- One-click peer review  
-  One-click access adds a unique token to the link in the review request email, so reviewers can complete a review without signing in.
+- **Enable One Click Review Access**  
+  Adds a unique token to the link in the review request email, so reviewers can complete a review without signing in.
 
 > [!TIP]
 > We recommend turning on one-click peer review, as it makes the process significantly easier for reviewers.
@@ -214,7 +214,7 @@ For the review form, Janeway will come with a basic review form called 'Default 
 
 For more information, see: [Review](../review/index.md).
 
-## Stage 3
+## Stage 3: Adding users and public contact information
 
 ### Adding users and assigning roles
 
@@ -250,7 +250,7 @@ The contact page contains a form which allows people vising the journal website 
 
 For more information, see: [Contacts page](../journal-management/journal-contacts.md)
 
-## Stage 4
+## Stage 4: Setting up DOIs and issues
 
 ### Setting up DOIs
 
@@ -273,7 +273,7 @@ Create issues from the **Issue manager**, available from both the manager dashbo
 
 For more information, see: [Issue management](../issues-volumes-and-collections/index.md)
 
-## Stage 5
+## Stage 5: Adding website content
 
 ### Adding web content
 

@@ -16,22 +16,25 @@ This guide is written for editors and press managers who are working in Janeway 
 
 ## The three areas of Janeway
 
-Janeway has three distinct areas, knowing which one you are in makes will make easier to find what you need.
+Janeway has three distinct areas. Knowing which one you are in makes it easier to find what you need.
 
-- Web content  
-  Also called the front end. This is the public-facing website that shows articles, the homepage, and any other content you want to share with visitors. It also displays information such as author guidelines, editorial policy, and submission guidance. This part of Janeway can be customised and may look different from journal to journal.
+### Web content
 
-  ![An example of a Janeway website front end](../images/web-content.png)
+Also called the front end. This is the public-facing website that shows articles, the homepage, and any other content you want to share with visitors. It also displays information such as author guidelines, editorial policy, and submission guidance. This part of Janeway can be customized and may look different from journal to journal.
 
-- The back office  
-  This is the part of Janeway you see when you sign in. Here you process articles through review, copyediting, and typesetting, configure workflows, and manage the journal more broadly. Journal settings, journal styling, user information, article metadata, and email templates are all reached from here. This part cannot be customised and will be largely white and light blue.
+![An example of a Janeway website front end](../images/web-content.png)
 
-  ![An example of the Janeway back office, the manager dashboard specifically](../images/back-office.png)
+### The back office
 
-- The admin area  
-  This area is intended for system administrators and advanced users. From here you can inspect data and settings, edit records directly, and troubleshoot problems.
+This is the part of Janeway you see when you sign in. Here you process articles through review, copyediting, and typesetting, configure workflows, and manage the journal more broadly. Journal settings, journal styling, user information, article metadata, and email templates are all reached from here. This part cannot be customized and will be largely white and light blue.
 
-  ![An example of the Janeway admin area](../images/admin-area.png)
+![An example of the Janeway back office, the manager dashboard specifically](../images/back-office.png)
+
+### The admin area
+
+This area is intended for system administrators and advanced users. From here you can inspect data and settings, edit records directly, and troubleshoot problems.
+
+![An example of the Janeway admin area](../images/admin-area.png)
 
 > [!CAUTION]
 > Changes made in the admin area bypass the checks built into the rest of Janeway. If you are not comfortable working there, contact your system administrator or support contact instead.
@@ -72,52 +75,84 @@ The dropdown can display options for the dashboard, the manager interface, your 
 
 ## Navigating the back office
 
-The back office is visible only to signed-in users and different users see different parts of it. Editors, journal managers, and users with staff permission can access the broadest range of views and interfaces. Reviewers, copyeditors, typesetters, and proofreaders see only the tasks assigned to them.
+The back office is visible only to signed-in users, and different users see different parts of it. Editors, journal managers, and users with staff permission can access the broadest range of views and interfaces. Reviewers, copyeditors, typesetters, and proofreaders see only the tasks assigned to them.
 
 Unlike the public website, the back office cannot be styled or rebranded.
 
-### The dashboard
-
-The main journal dashboard is your starting point. It shows the articles in the journal workflow that are relevant to you. The editor block groups by the stage they have reached and the other blocks will show tasks assigned.
-
-![An example of a Janeway article dashboard](../images/dashboard.png)
-
-Information about articles in the journal workflow is available in other views as well, listed under the **Dashboards** section of the sidebar:
-
-- Main  
-  The standard workflow dashboard, organised by stage. (See image above.)
-
-- Kanban  
-  A board view of every article in the workflow, with a column for each stage.
-  ![An example of a journal kanban board on Janeway](../images/kandan.png)
-
-- Search submissions  
-  A filterable list of active submissions, useful when you know what you are looking for.
-  ![An example of a submission list page on Janeway](../images/search-submissions.png)
-
 ### The sidebar
 
-The sidebar runs down the left of every back office page and is the quickest way to move between stages, the management dashboard and article lists. You can reach any stage from anywhere in Janeway, without returning to the dashboard first.
+The sidebar runs down the left of every back office page. It is the quickest way to move between stages, the manager dashboard and article lists. You can reach any stage from anywhere in Janeway, without returning to the dashboard first.
 
 ![The back office sidebar.](../images/backoffice-sidebar.png)
 
-The sidebar is divided into four sections. What appears in each one depends on your roles and permissions, and on how your workflow is configured.
+The sidebar is divided into four sections: **Dashboards**, **Workflow**, **Back content** and **Staff**. The rest of this section follows the same order, then describes the manager dashboard. What appears in each section depends on your roles and permissions, and on how your workflow is configured.
 
-- Dashboards  
-  Contains **Main**, **Kanban**, and **Search submissions**, described above.
+### Dashboards
 
-- Workflow  
-  Links to each stage in your journal's workflow. A typical journal shows **Unassigned**, **Review**, **Copyediting**, **Typesetting**, and **Prepublication**. If your journal is configured to skip a stage, it does not appear here. For what happens at each stage, see the [Editor guide](./editor-guide-overview.md).
+The **Dashboards** section gives you different views of the articles in the journal workflow.
 
-- Back content  
-  Covers material that has left the workflow. **Issues** opens the [Issue manager](../issues-volumes-and-collections/issues-and-volumes.md), **Published articles** lists everything you have published, **Archived articles** lists rejected and archived submissions, and **Publication schedule** lists articles scheduled for publication.
+- **Main**  
+  The main journal dashboard is your starting point. It shows the articles in the journal workflow that are relevant to you. The editor block groups articles by the stage they have reached, and the other blocks show the tasks assigned to you.
 
-- Staff  
-  **Manager** opens the manager dashboard, **Plugins** lists the [plugins](../plugins/index.md) installed for the journal, **Workflow** opens the page where you configure your journal's workflow elements, and **All articles list** shows every article regardless of status. The **All articles list** page also lets you export a list of articles or upload a CSV of metadata updates. Access to these pages depends on your permissions.
+  ![An example of a Janeway article dashboard](../images/dashboard.png)
+
+- **Kanban**  
+  A board view of every article in the workflow, with a column for each stage.
+
+  ![An example of a journal kanban board on Janeway](../images/kandan.png)
+
+- **Search submissions**  
+  A filterable list of active submissions, useful when you know what you are looking for.
+
+  ![An example of a submission list page on Janeway](../images/search-submissions.png)
+
+### Workflow
+
+The **Workflow** section links to each stage in your journal's workflow. A typical journal shows:
+
+- **Unassigned**
+- **Review**
+- **Copyediting**
+- **Typesetting**
+- **Prepublication**
+
+If your journal is configured to skip a stage, it does not appear here. For what happens at each stage, see the [Editor guide](./editor-guide-overview.md).
+
+### Back content
+
+The **Back content** section covers material that has left the workflow.
+
+- **Issues**  
+  Opens the [Issue manager](../issues-volumes-and-collections/issues-and-volumes.md).
+
+- **Published articles**  
+  Lists everything you have published.
+
+- **Archived articles**  
+  Lists rejected and archived submissions.
+
+- **Publication schedule**  
+  Lists articles scheduled for publication.
+
+### Staff
+
+The **Staff** section holds journal management pages. Access to these pages depends on your permissions.
+
+- **Manager**  
+  Opens the manager dashboard. See [The manager dashboard](#the-manager-dashboard).
+
+- **Plugins**  
+  Lists the [plugins](../plugins/index.md) installed for the journal.
+
+- **Workflow**  
+  Opens the page where you configure your journal's workflow elements.
+
+- **All articles list**  
+  Shows every article regardless of status. You can also export a list of articles or upload a CSV of metadata updates from this page.
 
 ### The manager dashboard
 
-The manager dashboard lists the settings used to configure the journal. It is visible to editors, journal managers, and users with staff permission. It is reached by selecting **Manager** under **Staff** in the sidebar or from the profile dropdown in the top-right corner.
+The **Manager** dashboard lists the settings used to configure the journal. It is visible to editors, journal managers, and users with staff permission. To open it, select **Manager** under **Staff** in the sidebar, or select your account icon in the top-right corner and then **Manager**.
 
 ![The manager dashboard, showing settings grouped into panels by category](../images/manager-dashboard.png)
 
@@ -198,5 +233,3 @@ There are two key things to consider when using the admin area:
 
 > [!CAUTION]
 > Edits made in the admin area take effect immediately and are not reversible. If you are unsure about a change, contact your system administrator before you make it.
-
-## What to read next

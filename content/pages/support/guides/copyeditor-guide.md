@@ -1,5 +1,7 @@
 # Copyeditor guide
 
+This guide is for copyeditors who have received a copyediting assignment through Janeway. It explains how to accept a task, copyedit the article's files and complete the task.
+
 When a new copyediting assignment is created, you will receive an email containing a link. Click on this link to be taken to the **Copyediting requests** page, where you can see all of your copyediting tasks. You can also access this page through the copyediting block on the journal dashboard by clicking on **View requests**.
 
 ![copyeditor dashboard block](../images/workflow/copyeditor-dashboard.png)

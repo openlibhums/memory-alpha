@@ -1,30 +1,42 @@
 # Reviewer guide
 
-As a reviewer, you can access your review task in two ways:
+This guide is for reviewers who have been invited to review an article through Janeway.
+
+## Access your review task
+
+You can access your review task in two ways:
 
 1. Using the direct link in the review request email.
-2. Through the **Review** section on the Janeway Dashboard.
+2. Through the **Reviewer** block on your Janeway dashboard.
 
-## Direct link
+### Direct link
 
-If the journal has enabled one-click access, you can go straight to the review page (bypassing the login screen) by using the link in the review invitation. Otherwise, you will have to log in as usual to access it.
+If the journal has turned on one-click review access, the link in your review invitation takes you straight to the review page. You don't need to sign in. Otherwise, you need to sign in as usual.
 
 > [!NOTE]
 > Do **not** share your link! This link is generated specifically for you and your review task. It functions like a password. If you share it, someone else can access your review task under your name and credentials.
 
-## Dashboard
+### Dashboard
 
-If you log into Janeway as a reviewer, you will see the **Reviewer** section on your Dashboard. Here, you can see active review requests, accepted review requests, and any reviews you have completed.
+If you sign in to Janeway as a reviewer, you will see the **Reviewer** block on your dashboard. Here, you can see active review requests, accepted review requests, and any reviews you have completed.
 
-If you have any other roles within a journal (e.g. author, editor), you will also see sections for these on your dashboard.
+If you have any other roles within a journal, such as author or editor, you will also see blocks for these on your dashboard.
 
 ![Reviewer Dashboard block](../images/workflow/reviewer-block.png)
 
-Click **View requests** to be taken to the Review Requests page. On this page, you can see more information about the review (title, abstract, keywords, etc.) and either accept or decline the task.
+To see your review requests, select **View requests**. See [Review requests](#review-requests).
+
+## Review requests
+
+The **Review Requests** page lists your review tasks. New requests are under **Awaiting initial decision**, and tasks you have accepted are under **Reviews in progress**. Each task shows the article's title, the due date and the editor's initials.
+
+- To see more about the article, such as its abstract and keywords, select **View Detail**.
+- To accept the task, select **Accept Task**.
+- To decline the task, select **Decline Task**.
 
 ![The two columns on the 'Review Requests' page ('Awaiting initial decision' and 'Reviews in progress'). There is a task in the left column that is awaiting a decision. The task block (or card) displays the title, due date and editor initials. It also contains three buttons: 'View Detail', 'Accept Task' and 'Decline Task'.)](../images/workflow/reviewer-kanban.png)
 
-## Review request
+## Completing your review
 
 If you accept the task, you will be taken to the page for this review. It is split into three sections:
 
@@ -57,15 +69,19 @@ This is where you will complete your review. What this looks like will differ fr
 
 The sections of this form are:
 
-- File upload  
+- **File upload**  
    You can upload your review here if you prefer to complete it offline (e.g. by writing down your feedback in a Word document). This section may be disabled, in which case, it will not appear.
-- Review form  
+
+- **Review form**  
    This is where you will complete your review. The form may consist of a single text box or be composed of multiple boxes, which can include checkboxes and dropdowns. This will depend on the individual journal, but each part will be accompanied by text that explains what they are looking for.
-- Your recommendation  
+
+- **Your recommendation**  
    This will be divided into two subsections: **Decision** and **Comments for the editor**.
-- Decision  
+
+- **Decision**  
    You may select one of the following options for your recommendations: - Accept without revisions - Minor revisions required - Major revisions required - Reject
-- Comments for the editor  
+
+- **Comments for the editor**  
    If you have additional comments, they can be added here. These will be visible only to the editor(s), although they may choose to share them with the author.
 
 ## Review complete

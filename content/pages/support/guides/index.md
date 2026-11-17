@@ -8,6 +8,7 @@ This page lists the guides for using Janeway. Guides are grouped by theme and wh
 - [Reviewer guide](../guides/reviewer-guide.md) - accessing and completing reviews as a reviewer.
 - [Copyeditor guide](../guides/copyeditor-guide.md) - managing assignments as a copyeditor.
 - [Typesetter guide](../guides/typesetter-guide.md) - typesetting content on Janeway.
+- [Proofreader guide](../guides/proofreader-guide.md) - proofing articles on Janeway.
 
 - [Editor guide: overview](../guides/editor-guide-overview.md) - the stages of the editorial workflow, with links to each stage's specific guide.
   - [Editor guide: submission](../guides/editor-guide-to-submission.md) - managing new submissions and making an initial decision.

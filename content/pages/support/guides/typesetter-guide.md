@@ -118,6 +118,8 @@ Once you finish the typesetting (or correction) task, you can leave a note for t
 
 ## Typesetting recipes
 
+These recipes assume you are familiar with HTML, XML, CSS or JATS.
+
 ### Right-to-left text direction
 
 Arabic and many other languages are written right to left, requiring
