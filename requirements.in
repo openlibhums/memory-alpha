@@ -1,3 +1,4 @@
-pelican[markdown]
-pelican-jinja2content
+marko
+pelican
 tzdata
+pelican-sitemap

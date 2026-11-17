@@ -1,5 +1,6 @@
 .laser-link {
   text-decoration: none;
+  text-wrap: nowrap;
 
   &::before {
     content: "";

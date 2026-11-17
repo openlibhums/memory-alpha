@@ -1,8 +1,16 @@
+import logging
+import os
 import threading
 from urllib.parse import urlparse
 
 from pelican.server import ComplexHTTPRequestHandler, RootedHTTPServer
-from pelican import get_instance, parse_arguments
+from pelican import (
+    get_instance as get_pelican_instance,
+    parse_arguments as parse_pelican_arguments
+)
+
+
+logger = logging.getLogger(__name__)
 
 
 class LiveServerThread(threading.Thread):
@@ -42,7 +50,7 @@ class LiveServerThread(threading.Thread):
 class PytestPelicanServer:
     """The liveserver fixture
 
-    Adapted from the live server helper in django-pytest.
+    Adapted from the live server helper in pytest-django.
 
     This is the object that the ``live_server`` fixture returns.
     The ``live_server`` fixture handles creation and stopping.
@@ -62,7 +70,11 @@ class PytestPelicanServer:
             output=output,
         )
         self.thread.daemon = True
-        self.pelican, self.settings = get_instance(parse_arguments())
+        self.pelican, self.pelican_settings = get_pelican_instance(
+            parse_pelican_arguments(["--listen"])
+        )
+        self.pelican_settings["TESTING"] = True
+
         if start:
             self.start()
 
@@ -80,6 +92,30 @@ class PytestPelicanServer:
     def stop(self) -> None:
         """Stop the server"""
         self.thread.terminate()
+
+    def get_main_pages(self):
+        main_pages = []
+        for _label, path, target in self.pelican_settings.get('ALL_MAIN_PAGES'):
+            if not target:
+                main_pages.append(path)
+        return main_pages
+
+    def get_support_pages(self):
+        support_pages = []
+        support_content_path = self.pelican_settings.get("SUPPORT_CONTENT_PATH")
+        for dirpath, dirnames, filenames in os.walk(support_content_path):
+            for filename in filenames:
+                if filename.endswith(".md"):
+                    filename = filename[:-3] + ".html"
+                    content_path = os.path.join(dirpath, filename)
+                    pelican_path = self.pelican_settings.get("PATH")
+                    rel_path = os.path.relpath(content_path, start=pelican_path)
+                    support_pages.append("/" + rel_path)
+        return support_pages
+
+    @property
+    def all_pages(self):
+        return self.get_main_pages() + self.get_support_pages()
 
     @property
     def url(self) -> str:

@@ -1,36 +1,47 @@
 {% extends "base.html" %}
+{% from "components/main_header.html" import main_header %}
+
 {% block html_lang %}{{ page.lang }}{% endblock %}
 
 {% block title %}{{ page.title|striptags }} - {{ SITENAME|striptags }}{% endblock %}
 
 {% block head %}
   {{ super() }}
-  {% import 'translations.html' as translations with context %}
-  {% if translations.entry_hreflang(page) %}
-    {{ translations.entry_hreflang(page) }}
-  {% endif %}
 {% endblock %}
 
-{% block content %}
-  <article>
-    {#
-    <header>
-      <h2>{{ page.title }}</h2>
-    </header>
-    #}
-    {% import 'translations.html' as translations with context %}
-    {{ translations.translations_for(page) }}
-
-    {{ page.content }}
-
-    {#
-    {% if page.modified %}
-      <footer>
-        <p>
-        Last updated: {{ page.locale_modified }}
-        </p>
-      </footer>
-    {% endif %}
-    #}
-  </article>
+{% block body %}
+  <body data-alpha-site="{{ page.alpha_site }}">
+    <div class="overflow-x-hidden min-height-viewport">
+      <div class="container min-height-viewport">
+        <header>
+          {% block header %}
+            {{ main_header(LEFT_NAV_ITEMS, RIGHT_NAV_ITEMS, output_file) }}
+          {% endblock %}
+        </header>
+        <main>
+          {% block content %}
+            {% if page.alpha_site == "main" %}
+              <article>{{ page.content }}</article>
+            {% else %}
+              <article>
+                <div class="flow flow-first-child prose">
+                  {% include "components/support_breadcrumbs.html" %}
+                  {{ page.content }}
+                </div>
+              </article>
+            {% endif %}
+          {% endblock %}
+        </main>
+        <footer>
+          {% block footer %}
+            {% if page.alpha_site == "main" %}
+              {% include "components/main_footer.html" %}
+            {% else %}
+              {% include "components/support_footer.html" %}
+            {% endif %}
+          {% endblock %}
+        </footer>
+      </div>
+    </div>
+  </body>
 {% endblock %}

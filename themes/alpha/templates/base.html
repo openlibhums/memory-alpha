@@ -1,4 +1,4 @@
-{% from "components/main_nav.html" import main_nav %}
+{% from "components/main_header.html" import main_header %}
 
 <!doctype html>
 <html lang="{% block html_lang %}{{ DEFAULT_LANG }}{% endblock html_lang %}">
@@ -36,18 +36,27 @@
     <script type="module" src="{{ static }}/theme/js/index.js" defer></script>
   </head>
 
-  <body>
-    <div class="overflow-x-hidden">
-      <div class="container">
-        <header>
-          {{ main_nav(LEFT_NAV_ITEMS, RIGHT_NAV_ITEMS, output_file) }}
-        </header>
-        <main>
-          {% block content %}
-          {% endblock %}
-        </main>
-        {% include "components/footer.html" %}
+  {% block body %}
+    <body data-alpha-site="main">
+      <div class="overflow-x-hidden min-height-viewport">
+        <div class="container min-height-viewport">
+          <header>
+            {% block header %}
+              {{ main_header(LEFT_NAV_ITEMS, RIGHT_NAV_ITEMS, output_file) }}
+            {% endblock %}
+          </header>
+          <main>
+            {% block content %}
+              <article>{{ page.content }}</article>
+            {% endblock %}
+          </main>
+          <footer>
+            {% block footer %}
+              {% include "components/main_footer.html" %}
+            {% endblock %}
+          </footer>
+        </div>
       </div>
-    </div>
-  </body>
+    </body>
+  {% endblock %}
 </html>
