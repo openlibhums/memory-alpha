@@ -25,7 +25,7 @@ Click the title of a preprint to go to the preprint dashboard. Here, you can vie
 - Edit published date
 - Un-published this article
 - Send to journal  
-   Lets you send the preprint to a journal on the Janeway press. Select the licence, section (article type), and the stage to send it to. <!--I'll need to look into why 'Force' is used.-->
+   Lets you send the preprint to a journal on the Janeway press. Select the licence, section (article type), and the stage to send it to.
 
 ## Unpublished preprints
 
@@ -50,4 +50,49 @@ Click **View detail** to review the version. Then click **Accept** or **Decline*
 
 ![" "](../images/repositories/repo-version-moderation.png)
 
+# Rejected and orphaned preprints
+
+Rejected and orphaned preprints can be found through the preprint manager, in the **Preprint stats** block.
+
+- **Rejected submissions**  
+  Lists preprints that have been rejected, with the date each was submitted and rejected.
+
+- **Orphaned preprints**  
+  Lists preprints that have no subject, for example because their subject was deleted. Open each one and give it a subject, so it appears in the repository's subject lists.
+
 ## Handling review comments
+
+Invited review comments are reviews that moderators request from chosen reviewers. You can publish a completed review on the preprint's page, where it appears with the reader comments.
+
+The **Invited review comments** option and the **Reviewers** page only appear when invited comments are turned on for the repository. They are on by default.
+
+### Adding reviewers
+
+Reviewers must have the reviewer role on the repository before you can invite them.
+
+1. In the **Repository manager**, under **Preprint stats\*, select **Manage reviewers\*\*.
+2. Search for a user by first name, last name or email address.
+3. Next to the user, click **Add role**.
+
+To remove someone, click **Remove role** next to their name under **Current reviewers**.
+
+### Inviting a reviewer
+
+1. Open the preprint from the **Repository manager**.
+2. In the control panel, click **Invited review comments**.
+3. Click **Add new invite** in the top-right corner.
+4. Under **Select a reviewer**, choose the reviewer. If they aren't listed, select **Manage reviewers** to add them first.
+5. Under **Set due dte**, set the date the review is due, then click **Complete step 1**.
+6. If required, you can edit the email to the reviewer. You can also attach files.
+7. Click **Send** to email the reviewer, or **Skip** to create the invitation without sending an email.
+
+### Follow a review
+
+The **Invited review comments** page of the preprint lists active invitations under **Invited reviewers**, and declined and withdrawn ones under **Inactive invited reviewers**. Open an invitation by clicking **View review detail** to see its details and controls. Depending on its status, you can:
+
+- **View review detail**: see the form the reviewer completes.
+- **Mark as accepted**: record that the reviewer has accepted the invitation.
+- **Withdraw review**: cancel the invitation. Add a reason, which is sent to the reviewer.
+- **Notify reviewer**: send the invitation email, if you skipped it when you created the invitation.
+- **Update due date**: change the due date.
+- **Reset and reopen review**: reopen a review the reviewer closed.
