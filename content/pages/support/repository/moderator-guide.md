@@ -96,3 +96,21 @@ The **Invited review comments** page of the preprint lists active invitations un
 - **Notify reviewer**: send the invitation email, if you skipped it when you created the invitation.
 - **Update due date**: change the due date.
 - **Reset and reopen review**: reopen a review the reviewer closed.
+
+### Completed review content
+
+Reviewers complete a form that will contain the following information:
+ 
+- **Comments**: the text of their review.
+- **Recommendation**: chosen from the repository's active recommendations. See [Repository settings](./repository-settings.md#recommendations).
+- **Comment anonymously**: this wil determine whether their comment is shown with or without their name.
+
+### Publishing reviews
+
+When a review is complete, you can open it on the **Invited review comments** page. There are a few things you can do from here:
+
+- To adjust or correct the text before publishing, click **Edit comment**.
+- To publish it on the preprint's page alongside it, click **Publish review**.
+- To hide a published review after it has been published, click **Unpublish review**.
+Janeway records publishing and unpublishing in the preprint's log.
+ 

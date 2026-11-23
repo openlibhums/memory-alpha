@@ -20,10 +20,6 @@ How to manage published and unpublished preprints from the repository manager. C
 
 How to send a preprint to a journal on the same press, what Janeway copies, and how the Isolinear plugin creates preprints from journal submissions.
 
-### Other settings
-
-_Content coming soon._
-
 ## For authors
 
 ### [Submitting to a Janeway repository](./submitting-to-a-janeway-repository.md)
