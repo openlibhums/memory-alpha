@@ -8,13 +8,14 @@ Most article metadata is collected during submission. Authors enter the article'
 
 The fields authors see depend on how the journal is set up, see the following pages for more information on this:
 
- - [Managing submission fields](../submission/managing-submission-fields.md) explains how to choose which standard fields appear, and how to create custom fields.
+- [Managing submission fields](../submission/managing-submission-fields.md) explains how to choose which standard fields appear, and how to create custom fields.
 - [Article sections](../article-management/article-sections.md) explains how to set up the article types authors choose from.
 - [Licence manager](../submission/licence-manager.md) explains how to set up the licences available to authors.
 
 For informaiton on managing metadata after the article has been submitted:
 
- [Article metadata](../article-management/article-metadata.md) explains how to view and edit an article's metadata, for both unpublished and published articles.
+[Article metadata](../article-management/article-metadata.md) explains how to view and edit an article's metadata, for both unpublished and published articles.
+
 - [Issues and volumes](../issues-volumes-and-collections/issues-and-volumes.md) explains how to create and edit issues; their titles, numbers and dates.
 
 You can also add metadata in bulk, instead of through the submission form. See [Importing metadata](#importing-metadata).
@@ -91,8 +92,6 @@ CRediT data is distributed by Janeway in these places:
   - Datacite deposits (via the **Datacite** plugin)
 -->
 
-<!-- missing hyperlinks -->
-
 Typesetters have access to CRediT data and are encouraged to encode it in any JATS XML they produce for Janeway.
 
 ## Exporting metadata
@@ -139,35 +138,56 @@ When Janeway registers DOIs, it sends article and issue metadata to Crossref or 
 
 Discovery services help readers find a journal's content. Janeway supports discovery in two broad ways:
 
-- Built-in features that services read automatically:
+- Built-in features that discovery services read automatically:
   - DOI registration with Crossref sends metadata to Crossref, which shares it with other services.
-  - Article page metadata lets Google Scholar and other search engines index articles.
+  - Article page metadata helps Google Scholar and other search engines index articles.
   - The OAI-PMH feed lets harvesters collect metadata.
-  - The KBART list tells library knowledge bases which content is available.
+  - The KBART list tells library knowledge bases what content is available.
   - Sitemaps (`/sitemap.xml`) list the pages on the press and journal websites for search engines.
 - Plugins that send metadata or content to a particular service:
   - [DOAJ](../plugins/doaj.md) sends article metadata to the Directory of Open Access Journals.
   - [DataCite](../plugins/datacite.md) registers DOIs with DataCite instead of Crossref.
   - [ScienceOpen](../plugins/science-open.md) sends each issue's full text to ScienceOpen.
   - [EBSCO](../plugins/ebsco.md) sends each issue's full text to EBSCO.
-  - There are various other generic plugins available as well, such as the FTP plugin, that can be used for indexing, archiving and discovery.
+  - There are various other generic plugins available as well, such as the [Production transporter](../plugins/production-transporter.md) plugin, that can send articles to an FTP server.
 
 Most services need an account or agreement with them before you can sent content. For more, see [Discovery plugins](../plugins/discovery-overview.md).
 
+## Archiving
 
-<!-- ## Metadata streams
+Archiving services keep copies of your content, so it stays available if your journal's website changes or shuts down. Similary to discovery functionalities, Janeway has built-in archiving functionalities as well as various plugins. Certain services needs a membership or agreement with it.
 
-- DOI manager
-- Downstream dataflows
+Archiving plugins include:
+
+- [Portico](../plugins/portico.md)  
+  These are deposited automatically, but an editor can also send issues manually from the plugin page. The Portico plugin can also be used to retrieve copies of issues for download.
+- [CLOCKSS](../plugins/clockss.md)  
+  CLOCKSS collects pulbished content automatically from the journal website.
+- [Library of Congress](../plugins/library-of-congress.md)  
+  The plugin will deposit automatically, but an editor can also manually send issues manually from the plugin page.
+
+Portico and the Library of Congress receive the article's main PDF and XML galleys (if available). If an article has no XML galley, Janeway sends a JATS XML stub instead. CLOCKSS collects the full content of each article from the journal's website.
+
+The [Production transporter](../plugins/production-transporter.md) plugin can also send articles to an FTP server, for services that collect content that way. For more, see [Archiving plugins](../plugins/archiving-overview.md).
 
 ## Importing metadata
 
-- Import spreadsheet. See import plugin.
+You can add articles and their metadata to Janeway in bulk, instead of through the submission form - this is especially relevant when migrating existing journals onto Janeway. Each method expects a particular format, or schema.
 
-## Exporting metadata
+> [!NOTE]
+> Editors can use the CSV import plugin, but only system administrators can use the other import plugins.
 
-- OAI PMH
-  Journal/api/oai
-- KBART
-- Frozen author metadata
-- Export plugin. -->
+| Format                              | Use it to                                                          | Tool                                                         |
+| ----------------------------------- | ------------------------------------------------------------------ | ------------------------------------------------------------ |
+| CSV, using the metadata template    | Import new articles into a workflow stage, or update existing ones | [Import, export, update](../plugins/import-export-update.md) |
+| JATS XML 1.2                        | Import published articles, with their figures                      | [JATS import](../plugins/imports-jats.md)                    |
+| OJS export, in a custom JSON format | Migrate a journal from OJS                                         | [OJS import and export](../plugins/migrations-overview.md)   |
+| ePrints                             | Migrate content from ePrints                                       | [ePrints plugin](../plugins/migrations-overview.md)          |
+| bePress Digital Commons export      | Migrate content from bePress                                       | [bePress plugin](../plugins/migrations-overview.md)          |
+
+The CSV template has one row per author, and a column for each metadata field. For every field, see the [Metadata field reference](../plugins/import-export-update.md#metadata-field-reference). Download the [metadata template](../downloadables/metadata-template.csv) and the [sample import](../downloadables/sample-import.csv) to get started.
+
+> [!WARNING]
+> If you are in the European Union or the UK, make sure you import personal data in line with data protection law, such as the General Data Protection Regulation (GDPR).
+
+The Imports plugin also imports editorial teams, reviewers, peer reviews, contacts and article images from CSV files. See [Imports](../plugins/imports-plugin.md).
