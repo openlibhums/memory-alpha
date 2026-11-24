@@ -50,7 +50,7 @@ Click **View detail** to review the version. Then click **Accept** or **Decline*
 
 ![" "](../images/repositories/repo-version-moderation.png)
 
-# Rejected and orphaned preprints
+## Rejected and orphaned preprints
 
 Rejected and orphaned preprints can be found through the preprint manager, in the **Preprint stats** block.
 
@@ -70,7 +70,7 @@ The **Invited review comments** option and the **Reviewers** page only appear wh
 
 Reviewers must have the reviewer role on the repository before you can invite them.
 
-1. In the **Repository manager**, under **Preprint stats\*, select **Manage reviewers\*\*.
+1. In the **Repository manager**, under **Preprint stats**, select **Manage reviewers**.
 2. Search for a user by first name, last name or email address.
 3. Next to the user, click **Add role**.
 
@@ -82,7 +82,7 @@ To remove someone, click **Remove role** next to their name under **Current revi
 2. In the control panel, click **Invited review comments**.
 3. Click **Add new invite** in the top-right corner.
 4. Under **Select a reviewer**, choose the reviewer. If they aren't listed, select **Manage reviewers** to add them first.
-5. Under **Set due dte**, set the date the review is due, then click **Complete step 1**.
+5. Under **Set due date**, set the date the review is due, then click **Complete step 1**.
 6. If required, you can edit the email to the reviewer. You can also attach files.
 7. Click **Send** to email the reviewer, or **Skip** to create the invitation without sending an email.
 
@@ -100,7 +100,7 @@ The **Invited review comments** page of the preprint lists active invitations un
 ### Completed review content
 
 Reviewers complete a form that will contain the following information:
- 
+
 - **Comments**: the text of their review.
 - **Recommendation**: chosen from the repository's active recommendations. See [Repository settings](./repository-settings.md#recommendations).
 - **Comment anonymously**: this wil determine whether their comment is shown with or without their name.
@@ -112,5 +112,5 @@ When a review is complete, you can open it on the **Invited review comments** pa
 - To adjust or correct the text before publishing, click **Edit comment**.
 - To publish it on the preprint's page alongside it, click **Publish review**.
 - To hide a published review after it has been published, click **Unpublish review**.
+
 Janeway records publishing and unpublishing in the preprint's log.
- 

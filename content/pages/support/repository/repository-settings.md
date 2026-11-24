@@ -36,7 +36,7 @@ Subjects are the topics that preprints can fall into. You can organize them hier
 For each subject, you can also select editors who will be notified of submissions made to this subject. To hide a subject from the public site without deleting it, clear the **Enabled** tickbox.
 
 > [!WARNING]
-> If you delete a subject, preprints in that subject lose it and become orphaned. Moderators can find them under **Orphaned preprints**. See [Moderator guide](./moderator-guide.md#rejected-and-orphaned-preprints).
+> If you delete a subject, preprints in that subject lose it and if this is the only subject they have, become orphaned. Moderators can find them under **Orphaned preprints**. See [Moderator guide](./moderator-guide.md#rejected-and-orphaned-preprints).
 
 ### Licences
 
@@ -56,7 +56,7 @@ You can set up additional, custom submission fields for your repository on this 
 - The order in which any additional fields should display. They can also be reordered using the drag-and-drop list at the top of the page.
 - The field's helptext, to help authors when providing information for it.
 - Whether its answer is displayed on the preprint's page.
-- DC metadata type, if the field is to be output as a DC metadata field, its type can be specified here.
+- Dublin Core (DC) metadata type, if the field is to be output as a DC metadata field, its type can be specified here.
 
 ### Recommendations
 

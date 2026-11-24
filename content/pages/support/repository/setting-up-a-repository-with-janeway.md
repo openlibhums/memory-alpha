@@ -3,15 +3,15 @@
 ## About Janeway repositories
 
 Janeway supports hosting repositories for preprints, postprints, field reports, and other publication types within the same press environment as journals.
- 
+
 A Janeway repository has its own website, settings and moderators, separate from the press's journals. It includes the following features:
- 
+
 - Item names  
   You choose what the items in the repository are called, for example "preprint" or "field report". Janeway uses this name throughout the repository.
 
-<!-- - Submission types  
+<!-- - Submission types
   Authors choose what kind of item they are submitting. Each type has its own label on the public site.
-  
+
   I think this is for 1.9. Keeping it as a comment -->
 
 - Versions and moderation  
@@ -20,11 +20,11 @@ A Janeway repository has its own website, settings and moderators, separate from
 - Reader comments and invited reviews  
   Readers can comment on published items, and moderators can invite reviewers to comment. Comments and reviews appear publicly only after a moderator approves them.
 
-<!-- - Subjects and organisational units  
+<!-- - Subjects and organisational units
   Subjects group items by topic, and organisational units group them by part of an organisation, for example "Research" or "Publications". Both can be hierarchical. This is also 1.9, based on my notes-->
 
 - Links to journals  
-  Moderators can send an item to a journal on the same press. See [Linking a repository and journal](./linking-a-repository-and-journal.md).
+  Moderators can send an item to a journal on the same press. See [Linking a repository and journal](./linking-repository-journal.md).
 
 For how to configure each of these, see [Repository settings](./repository-settings.md).
 
