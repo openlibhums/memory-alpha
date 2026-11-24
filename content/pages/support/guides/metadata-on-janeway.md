@@ -1,14 +1,23 @@
 # Metadata on Janeway
 
-_This is a work in progress_
+Janeway collects metadata about articles, authors and issues, and shares it with indexes, discovery services and archives. This guide explains how metadata gets into Janeway, which standards it uses, and where it goes.
 
 ## Managing metadata
 
-- How is metadata collected / created
-- What metadata fields exist on Janeway
-- Edit article metadata
-- Edit issue metadata
-- Article licence manager
+Most article metadata is collected during submission. Authors enter the article's title, abstract, keywords, author details and other information in the submission form. Editors can then check and change it at any stage of the workflow, and after publication.
+
+The fields authors see depend on how the journal is set up, see the following pages for more information on this:
+
+ - [Managing submission fields](../submission/managing-submission-fields.md) explains how to choose which standard fields appear, and how to create custom fields.
+- [Article sections](../article-management/article-sections.md) explains how to set up the article types authors choose from.
+- [Licence manager](../submission/licence-manager.md) explains how to set up the licences available to authors.
+
+For informaiton on managing metadata after the article has been submitted:
+
+ [Article metadata](../article-management/article-metadata.md) explains how to view and edit an article's metadata, for both unpublished and published articles.
+- [Issues and volumes](../issues-volumes-and-collections/issues-and-volumes.md) explains how to create and edit issues; their titles, numbers and dates.
+
+You can also add metadata in bulk, instead of through the submission form. See [Importing metadata](#importing-metadata).
 
 ### Author metadata
 
@@ -42,11 +51,11 @@ When Janeway metadata is distributed, the persistent identifier is provided alon
 
 ROR data is available from Janeway in these places:
 
-- journal article web pages (HTML)
-- auto-generated JATS XML stubs
-- Crossref deposits (XML)
-- the OAI-PMH feed (XML)
-- the Open Access Switchboard (via the [**OA Switchboard** plugin](../plugins/oaswitchboard.md))
+- Journal article web pages (HTML)
+- Auto-generated JATS XML stubs
+- [Crossref deposits (XML)](../identifiers/crossref-article-doi.md)
+- The OAI-PMH feed (XML)
+- The Open Access Switchboard (via the [**OA Switchboard** plugin](../plugins/oaswitchboard.md))
 
 <!--
   Future development
@@ -56,8 +65,6 @@ ROR data is available from Janeway in these places:
   - Datacite deposits (via the **Datacite** plugin)
   - the **Supporters** plugin
 -->
-
-<!-- missing hyperlinks -->
 
 Typesetters have access to ROR data and are encouraged to encode it in any JATS XML they produce for Janeway.
 
@@ -87,6 +94,66 @@ CRediT data is distributed by Janeway in these places:
 <!-- missing hyperlinks -->
 
 Typesetters have access to CRediT data and are encouraged to encode it in any JATS XML they produce for Janeway.
+
+## Exporting metadata
+
+Janeway makes metadata available in several formats, some with and some without any plugins. Most of these are read automatically by indexes, discovery services and archives.
+
+### OAI-PMH feed
+
+OAI-PMH is a standard way for other systems to harvest metadata. Janeway's feed is at `/api/oai/`, added to the journal's web address, for example `https://yourjournal.org/api/oai/`. The same address on the press website covers every journal that isn't hidden from the press. A repository's feed lists its preprints.
+
+The feed offers two metadata formats:
+
+- Dublin Core (`oai_dc`), the default.
+- JATS (`jats`). If an article has a JATS XML galley, the feed uses it. Otherwise, Janeway generates a JATS XML stub with the article's essential metadata.
+
+Records are grouped into sets by journal, issue and section. For more, see [OAI-PMH](../identifiers/index.md#oai-pmh).
+
+### KBART
+
+KBART is a title list format that libraries and knowledge bases use to record which journals and issues are available. Janeway's KBART list is at `/api/kbart/` (tab-separated) or `/api/kbart/csv` (comma-separated), added to the journal or press web address. For more, see [KBART](../identifiers/index.md#kbart).
+
+### Article page metadata
+
+Each published article page carries its metadata in the page's code, in two formats:
+
+- Google Scholar tags, such as `citation_title`, `citation_author` and `citation_pdf_url`.
+- Dublin Core tags, such as `DC.Title` and `DC.Identifier.DOI`.
+
+Search engines and reference citation software use these tags.
+
+## JATS XML
+
+JATS is the standard XML format for journal articles. If a typesetter provides a JATS XML galley, Janeway uses it for the article page. It also shares it through the OAI-PMH feed and some archiving plugins. Otherwise, Janeway generates a JATS XML stub with the article's essential metadata.
+
+### Spreadsheet export
+
+Users with staff permission can export article metadata as a CSV file from the **All articles** page. See [Import, export, update](../plugins/import-export-update.md#exporting). This functionality requires the Imports plugin to be installed.
+
+### DOI registration
+
+When Janeway registers DOIs, it sends article and issue metadata to Crossref or to DataCite through a plugin. See [Identifiers and discovery](../identifiers/index.md).
+
+## Discovery
+
+Discovery services help readers find a journal's content. Janeway supports discovery in two broad ways:
+
+- Built-in features that services read automatically:
+  - DOI registration with Crossref sends metadata to Crossref, which shares it with other services.
+  - Article page metadata lets Google Scholar and other search engines index articles.
+  - The OAI-PMH feed lets harvesters collect metadata.
+  - The KBART list tells library knowledge bases which content is available.
+  - Sitemaps (`/sitemap.xml`) list the pages on the press and journal websites for search engines.
+- Plugins that send metadata or content to a particular service:
+  - [DOAJ](../plugins/doaj.md) sends article metadata to the Directory of Open Access Journals.
+  - [DataCite](../plugins/datacite.md) registers DOIs with DataCite instead of Crossref.
+  - [ScienceOpen](../plugins/science-open.md) sends each issue's full text to ScienceOpen.
+  - [EBSCO](../plugins/ebsco.md) sends each issue's full text to EBSCO.
+  - There are various other generic plugins available as well, such as the FTP plugin, that can be used for indexing, archiving and discovery.
+
+Most services need an account or agreement with them before you can sent content. For more, see [Discovery plugins](../plugins/discovery-overview.md).
+
 
 <!-- ## Metadata streams
 
