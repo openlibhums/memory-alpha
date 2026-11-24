@@ -4,7 +4,29 @@
 
 Janeway supports hosting repositories for preprints, postprints, field reports, and other publication types within the same press environment as journals.
 
-<!-- provide some additional information about JW repos-->
+A Janeway repository has its own website, settings and moderators, separate from the press's journals. It includes the following features:
+
+- Item names  
+  You choose what the items in the repository are called, for example "preprint" or "field report". Janeway uses this name throughout the repository.
+
+<!-- - Submission types
+  Authors choose what kind of item they are submitting. Each type has its own label on the public site.
+
+  I think this is for 1.9. Keeping it as a comment -->
+
+- Versions and moderation  
+  Moderators check each submission before it is published. Authors can then submit corrections, new versions and metadata corrections, which moderators approve before they go live.
+
+- Reader comments and invited reviews  
+  Readers can comment on published items, and moderators can invite reviewers to comment. Comments and reviews appear publicly only after a moderator approves them.
+
+<!-- - Subjects and organisational units
+  Subjects group items by topic, and organisational units group them by part of an organisation, for example "Research" or "Publications". Both can be hierarchical. This is also 1.9, based on my notes-->
+
+- Links to journals  
+  Moderators can send an item to a journal on the same press. See [Linking a repository and journal](./linking-repository-journal.md).
+
+For how to configure each of these, see [Repository settings](./repository-settings.md).
 
 ## Navigating the Janeway repositories
 
@@ -33,18 +55,4 @@ settings:
 
 ## Other settings
 
-### Subjects
-
-On this page, you can create subjects to be used in the repository. These can be organised hierarchically, with child subjects; for example, "Biology" and "Marine biology". Subjects are grouped together, with the parent subject listed first.
-
-![" "](../images/repositories/repo-parent-child-subject.png)
-
-You can also select editors who will be notified of submissions made to this subject.
-
-Licences, additional fields, subjects.
-
-_Coming soon_
-
-## Linking a repository and journal
-
-_Coming soon_
+Once the repository exists, you can configure it through the various options in the repository sidebar. This includes subjects, licences and recommendations. See [Repository settings](./repository-settings.md). For information on linking a journal and repository, see [linking repositories](./linking-repository-journal.md).

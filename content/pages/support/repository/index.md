@@ -1,12 +1,12 @@
 # Janeway repositories
 
-Janeway supports hosting repositories for preprints, postprints, field reports, and other publication types within the same press environment as journals. Repository managers can configure and moderate repositories from the Repository Manager.
+Janeway supports hosting repositories for preprints, postprints, field reports, and other publication types within the same press environment as journals. Repository managers can configure and moderate repositories from the repository manager.
 
 ## For repository managers
 
 ### [Setting up a repository](./setting-up-a-repository-with-janeway.md)
 
-How to enable the repository system in your Janeway press and create a new repository. Covers the Press manager settings required before a repository can be configured.
+How to enable the repository system in your Janeway press and create a new repository. Covers the press manager settings required before a repository can be configured.
 
 ### [Repository settings](./repository-settings.md)
 
@@ -14,15 +14,11 @@ A guide to the five-step repository setup wizard, used for both configuring a ne
 
 ### [Moderator guide](./moderator-guide.md)
 
-How to manage published and unpublished preprints from the Repository manager. Covers reviewing and accepting submissions, moderating new versions, and handling review comments.
+How to manage published and unpublished preprints from the repository manager. Covers reviewing and accepting submissions, moderating comments and new versions, rejected and orphaned preprints, and handling invited review comments.
 
-### Linking a repository and journal
+### [Linking a repository and journal](./linking-repository-journal.md)
 
-_Coming soon_
-
-### Other settings
-
-_Content coming soon._
+How to send a preprint to a journal on the same press, what Janeway copies, and how the Isolinear plugin creates preprints from journal submissions.
 
 ## For authors
 
